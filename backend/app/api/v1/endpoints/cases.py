@@ -1,0 +1,77 @@
+import uuid
+
+from fastapi import APIRouter, HTTPException
+
+from app.api.deps import DbSession
+from app.models.case import Case, CaseParticipant
+from app.models.client import Client
+from app.schemas.case import CaseCreate, CaseRead, CaseUpdate, ParticipantCreate, ParticipantRead
+
+router = APIRouter(prefix="/cases", tags=["cases"])
+
+
+@router.get("", response_model=list[CaseRead])
+def list_cases(db: DbSession, skip: int = 0, limit: int = 100):
+    return db.query(Case).offset(skip).limit(limit).all()
+
+
+@router.post("", response_model=CaseRead, status_code=201)
+def create_case(payload: CaseCreate, db: DbSession):
+    case = Case(**payload.model_dump())
+    db.add(case)
+    db.commit()
+    db.refresh(case)
+    return case
+
+
+@router.get("/{case_id}", response_model=CaseRead)
+def get_case(case_id: uuid.UUID, db: DbSession):
+    case = db.get(Case, case_id)
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found")
+    return case
+
+
+@router.patch("/{case_id}", response_model=CaseRead)
+def update_case(case_id: uuid.UUID, payload: CaseUpdate, db: DbSession):
+    case = db.get(Case, case_id)
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found")
+    for field, value in payload.model_dump(exclude_unset=True).items():
+        setattr(case, field, value)
+    db.commit()
+    db.refresh(case)
+    return case
+
+
+@router.delete("/{case_id}", status_code=204)
+def delete_case(case_id: uuid.UUID, db: DbSession):
+    case = db.get(Case, case_id)
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found")
+    db.delete(case)
+    db.commit()
+
+
+@router.get("/{case_id}/participants", response_model=list[ParticipantRead])
+def list_participants(case_id: uuid.UUID, db: DbSession):
+    case = db.get(Case, case_id)
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found")
+    return db.query(CaseParticipant).filter(CaseParticipant.case_id == case_id).all()
+
+
+@router.post("/{case_id}/participants", response_model=ParticipantRead, status_code=201)
+def add_participant(case_id: uuid.UUID, payload: ParticipantCreate, db: DbSession):
+    case = db.get(Case, case_id)
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found")
+    client = db.get(Client, payload.client_id)
+    if not client:
+        raise HTTPException(status_code=404, detail="Client not found")
+
+    participant = CaseParticipant(case_id=case_id, client_id=payload.client_id, role=payload.role)
+    db.add(participant)
+    db.commit()
+    db.refresh(participant)
+    return participant

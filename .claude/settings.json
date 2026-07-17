@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python --version)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(py --version 2>&1)",
+      "PowerShell(py -0p 2>&1)",
+      "PowerShell(winget --version 2>&1)"
+    ]
+  }
+}
