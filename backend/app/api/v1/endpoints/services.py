@@ -8,6 +8,7 @@ from app.api.deps import DbSession
 from app.api.v1.endpoints.forms import _initial_data, _render_pdf
 from app.models.case import Case
 from app.models.form import FormTemplate, GeneratedForm, GeneratedFormStatus
+from app.models.notification import NotificationType
 from app.models.service import (
     CaseChecklistItem,
     Service,
@@ -23,6 +24,7 @@ from app.schemas.service import (
     ServiceCreate,
     ServiceRead,
 )
+from app.services.notifications import notify
 
 router = APIRouter(tags=["services"])
 
@@ -152,15 +154,24 @@ def apply_service(case_id: uuid.UUID, payload: ApplyServiceRequest, db: DbSessio
 
 
 @router.patch("/cases/{case_id}/checklist/{item_id}", response_model=ChecklistItemRead)
-def toggle_checklist_item(
+def update_checklist_item(
     case_id: uuid.UUID, item_id: uuid.UUID, payload: ChecklistItemUpdate, db: DbSession
 ):
     item = db.get(CaseChecklistItem, item_id)
     if not item or item.case_id != case_id:
         raise HTTPException(status_code=404, detail="Checklist item not found")
 
-    item.done = payload.done
-    item.done_at = datetime.now(timezone.utc) if payload.done else None
+    fields = payload.model_dump(exclude_unset=True)
+    if "done" in fields:
+        item.done = fields["done"]
+        item.done_at = datetime.now(timezone.utc) if fields["done"] else None
+    if "assigned_to_id" in fields:
+        item.assigned_to_id = fields["assigned_to_id"]
+    if "due_date" in fields:
+        item.due_date = fields["due_date"]
+    if "priority" in fields:
+        item.priority = fields["priority"]
+
     db.commit()
     db.refresh(item)
     return item
@@ -189,6 +200,13 @@ def advance_stage(case_id: uuid.UUID, db: DbSession):
         next_stage = stages[current_index]
 
     case.workflow_stage_id = next_stage.id if next_stage else None
+    if next_stage:
+        notify(
+            db,
+            NotificationType.STAGE_ADVANCED,
+            f'{case.case_number} moved to "{next_stage.name}"',
+            case_id=case.id,
+        )
     db.commit()
     db.refresh(case)
     return _case_service_view(db, case)

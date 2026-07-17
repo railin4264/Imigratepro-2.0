@@ -1,11 +1,18 @@
+import enum
 import uuid
-from datetime import datetime
+from datetime import date, datetime
 
-from sqlalchemy import Boolean, DateTime, Float, ForeignKey, Integer, String
+from sqlalchemy import Boolean, Date, DateTime, Enum, Float, ForeignKey, Integer, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.core.database import Base
 from app.models.mixins import TimestampMixin, UUIDPrimaryKeyMixin
+
+
+class ChecklistPriority(str, enum.Enum):
+    LOW = "low"
+    MEDIUM = "medium"
+    HIGH = "high"
 
 
 class Service(UUIDPrimaryKeyMixin, TimestampMixin, Base):
@@ -77,4 +84,9 @@ class CaseChecklistItem(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     done: Mapped[bool] = mapped_column(Boolean, default=False)
     done_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
 
+    assigned_to_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("users.id"), nullable=True)
+    due_date: Mapped[date | None] = mapped_column(Date, nullable=True)
+    priority: Mapped[ChecklistPriority] = mapped_column(Enum(ChecklistPriority), default=ChecklistPriority.MEDIUM)
+
     case: Mapped["Case"] = relationship(back_populates="checklist_items")
+    assigned_to: Mapped["User"] = relationship()

@@ -5,7 +5,10 @@ from fastapi import APIRouter, HTTPException
 from app.api.deps import DbSession
 from app.models.case import Case, CaseParticipant
 from app.models.client import Client
+from app.models.notification import NotificationType
+from app.models.user import User
 from app.schemas.case import CaseCreate, CaseRead, CaseUpdate, ParticipantCreate, ParticipantRead
+from app.services.notifications import notify
 
 router = APIRouter(prefix="/cases", tags=["cases"])
 
@@ -37,8 +40,24 @@ def update_case(case_id: uuid.UUID, payload: CaseUpdate, db: DbSession):
     case = db.get(Case, case_id)
     if not case:
         raise HTTPException(status_code=404, detail="Case not found")
-    for field, value in payload.model_dump(exclude_unset=True).items():
+
+    fields = payload.model_dump(exclude_unset=True)
+    new_attorney_id = fields.get("assigned_attorney_id")
+    attorney_changed = "assigned_attorney_id" in fields and new_attorney_id != case.assigned_attorney_id
+
+    for field, value in fields.items():
         setattr(case, field, value)
+
+    if attorney_changed and new_attorney_id:
+        attorney = db.get(User, new_attorney_id)
+        if attorney:
+            notify(
+                db,
+                NotificationType.CASE_ASSIGNED,
+                f"{case.case_number} assigned to {attorney.full_name}",
+                case_id=case.id,
+            )
+
     db.commit()
     db.refresh(case)
     return case

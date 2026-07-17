@@ -5,6 +5,7 @@ import Link from "next/link";
 import {
   CASE_STATUSES,
   CASE_TYPES,
+  CHECKLIST_PRIORITIES,
   PARTICIPANT_ROLES,
   USER_ROLES,
   type Case,
@@ -28,17 +29,25 @@ import {
   getUsers,
   toggleChecklistItem,
   updateCase,
+  updateChecklistItem,
 } from "@/lib/api";
 import { useTranslation } from "@/lib/i18n";
 import { AppShell } from "@/components/AppShell";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
+import { CasesBoard } from "@/components/CasesBoard";
 
 const inputClass =
   "rounded-lg border border-zinc-300 bg-white p-2 text-sm outline-none transition focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50 dark:focus:ring-indigo-950";
 const stackedInputClass = `mt-1 w-full ${inputClass}`;
 const labelClass = "block text-xs font-medium text-zinc-600 dark:text-zinc-400";
+
+const PRIORITY_CLASSES: Record<string, string> = {
+  low: "bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300",
+  medium: "bg-amber-50 text-amber-700 dark:bg-amber-950/50 dark:text-amber-300",
+  high: "bg-red-50 text-red-700 dark:bg-red-950/50 dark:text-red-300",
+};
 
 export default function CasesPage() {
   const { t } = useTranslation();
@@ -67,6 +76,8 @@ export default function CasesPage() {
   const [caseForms, setCaseForms] = useState<GeneratedForm[]>([]);
   const [selectedServiceId, setSelectedServiceId] = useState("");
 
+  const [view, setView] = useState<"list" | "board">("list");
+
   function load() {
     Promise.all([getCases(), getClients(), getUsers(), getServices()])
       .then(([caseList, clientList, userList, serviceList]) => {
@@ -87,6 +98,20 @@ export default function CasesPage() {
     } catch {
       setError(t("cases.error.assign"));
     }
+  }
+
+  async function handleBoardStatusChange(caseId: string, status: string) {
+    try {
+      const updated = await updateCase(caseId, { status });
+      setCases((prev) => prev.map((c) => (c.id === caseId ? updated : c)));
+    } catch {
+      setError(t("cases.error.assign"));
+    }
+  }
+
+  function handleOpenFromBoard(caseId: string) {
+    setView("list");
+    if (expandedCaseId !== caseId) toggleExpand(caseId);
   }
 
   function userName(userId: string | null): string {
@@ -179,6 +204,19 @@ export default function CasesPage() {
     }
   }
 
+  async function handleUpdateChecklistItem(
+    caseId: string,
+    itemId: string,
+    payload: Partial<{ assigned_to_id: string | null; due_date: string | null; priority: string }>,
+  ) {
+    try {
+      await updateChecklistItem(caseId, itemId, payload);
+      setCaseService(await getCaseService(caseId));
+    } catch {
+      setError(t("cases.service.error.apply"));
+    }
+  }
+
   async function handleAdvanceStage(caseId: string) {
     try {
       setCaseService(await advanceStage(caseId));
@@ -194,7 +232,7 @@ export default function CasesPage() {
 
   return (
     <AppShell>
-      <div className="mx-auto max-w-4xl">
+      <div className={`mx-auto ${view === "board" ? "max-w-full" : "max-w-4xl"}`}>
         <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
           <h1 className="text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
             {t("cases.title")}
@@ -207,6 +245,29 @@ export default function CasesPage() {
               {showStaffForm ? t("cases.cancel") : t("cases.staff.new")}
             </Button>
           </div>
+        </div>
+
+        <div className="mb-4 inline-flex rounded-lg border border-zinc-200 bg-white p-0.5 text-sm dark:border-zinc-800 dark:bg-zinc-900">
+          <button
+            onClick={() => setView("list")}
+            className={`rounded-md px-3 py-1.5 font-medium transition ${
+              view === "list"
+                ? "bg-indigo-600 text-white"
+                : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:bg-zinc-800"
+            }`}
+          >
+            {t("cases.view.list")}
+          </button>
+          <button
+            onClick={() => setView("board")}
+            className={`rounded-md px-3 py-1.5 font-medium transition ${
+              view === "board"
+                ? "bg-indigo-600 text-white"
+                : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:bg-zinc-800"
+            }`}
+          >
+            {t("cases.view.board")}
+          </button>
         </div>
 
         {error && (
@@ -297,6 +358,16 @@ export default function CasesPage() {
           <p className="text-zinc-500 dark:text-zinc-400">{t("cases.empty")}</p>
         )}
 
+        {view === "board" && (
+          <CasesBoard
+            cases={cases}
+            users={users}
+            onStatusChange={handleBoardStatusChange}
+            onOpenCase={handleOpenFromBoard}
+          />
+        )}
+
+        {view === "list" && (
         <div className="space-y-2">
           {cases.map((c) => (
             <Card key={c.id}>
@@ -417,6 +488,52 @@ export default function CasesPage() {
                                   {item.label}
                                 </span>
                               </label>
+                              <div className="ml-6 flex flex-wrap items-center gap-2 pb-2">
+                                <select
+                                  aria-label={t("cases.checklist.assignee")}
+                                  value={item.assigned_to_id ?? ""}
+                                  onChange={(e) =>
+                                    handleUpdateChecklistItem(c.id, item.id, {
+                                      assigned_to_id: e.target.value || null,
+                                    })
+                                  }
+                                  className="rounded-md border border-zinc-300 bg-white px-1.5 py-1 text-xs dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50"
+                                >
+                                  <option value="">{t("cases.unassigned")}</option>
+                                  {users.map((u) => (
+                                    <option key={u.id} value={u.id}>
+                                      {u.full_name}
+                                    </option>
+                                  ))}
+                                </select>
+                                <input
+                                  type="date"
+                                  aria-label={t("cases.checklist.dueDate")}
+                                  value={item.due_date ?? ""}
+                                  onChange={(e) =>
+                                    handleUpdateChecklistItem(c.id, item.id, {
+                                      due_date: e.target.value || null,
+                                    })
+                                  }
+                                  className="rounded-md border border-zinc-300 bg-white px-1.5 py-1 text-xs dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50"
+                                />
+                                <select
+                                  aria-label={t("cases.checklist.priority")}
+                                  value={item.priority}
+                                  onChange={(e) =>
+                                    handleUpdateChecklistItem(c.id, item.id, { priority: e.target.value })
+                                  }
+                                  className={`rounded-full border-0 px-2 py-1 text-xs font-medium ${
+                                    PRIORITY_CLASSES[item.priority] ?? PRIORITY_CLASSES.medium
+                                  }`}
+                                >
+                                  {CHECKLIST_PRIORITIES.map((p) => (
+                                    <option key={p} value={p}>
+                                      {t(`enum.priority.${p}` as Parameters<typeof t>[0])}
+                                    </option>
+                                  ))}
+                                </select>
+                              </div>
                             </li>
                           ))}
                         </ul>
@@ -507,6 +624,7 @@ export default function CasesPage() {
             </Card>
           ))}
         </div>
+        )}
       </div>
     </AppShell>
   );

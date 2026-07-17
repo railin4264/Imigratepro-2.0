@@ -117,6 +117,18 @@ Implementa la pieza que pediste priorizar de la visión de ERP: un `Service` (ej
 
 Desde `/cases`, cada caso expandido muestra el servicio aplicado, las etapas (con la actual resaltada y un botón para avanzar), el checklist con checkboxes, y links directos a los formularios que ese servicio generó. `/services` es el catálogo: crear un servicio nuevo pide nombre/precio/tiempo estimado, qué formularios incluye (checkboxes sobre los `FormTemplate` existentes), el checklist (una línea por ítem) y las etapas (una línea por etapa, en orden). Viene precargado un servicio de ejemplo ("Petición Familiar": I-130 + G-28, 7 ítems de checklist, 12 etapas) vía `backend/app/seed_services.py`.
 
+### Checklist con responsable, fecha límite y prioridad
+
+Cada ítem del checklist (`CaseChecklistItem`) ahora tiene `assigned_to_id` (referencia a `User`), `due_date` y `priority` (baja/media/alta), editables inline desde `/cases` sin salir de la fila del checklist. `PATCH /cases/{id}/checklist/{item_id}` acepta cualquier subconjunto de `done`/`assigned_to_id`/`due_date`/`priority`.
+
+### Tablero Kanban de casos
+
+`/cases` tiene un selector Lista/Tablero. El tablero (`frontend/src/components/CasesBoard.tsx`) agrupa los casos por `Case.status` (el estado global de 7 valores, no las etapas de servicio que son específicas de cada `Service`) en columnas arrastrables — soltar una tarjeta en otra columna llama a `PATCH /cases/{id}` con el nuevo estado (drag-and-drop nativo de HTML5, sin librería). Un clic en la tarjeta cambia a la vista de lista con ese caso ya expandido.
+
+### Centro de notificaciones
+
+Como todavía no hay login, las notificaciones son un feed global (`Notification` — tabla nueva) en vez de estar ligadas a un usuario; el frontend guarda en `localStorage` la marca de "última vez visto" para calcular el contador de no leídas por navegador. Eventos que generan notificación: caso reasignado, etapa de servicio avanzada, documento subido (tanto desde `/documents` como desde el enlace público del cliente), y revisión de IA de un formulario con al menos un hallazgo. Campanita en la barra superior (`components/NotificationBell.tsx`), con sondeo cada 30s — sin infraestructura de tiempo real ni de correo.
+
 ## Documentos + extracción por IA
 
 `backend/app/services/document_ai.py` envía una imagen o PDF de un documento de identidad (pasaporte, actas, I-94) a Claude (`claude-opus-4-8`, salida forzada a JSON vía `output_config.format`/json_schema) y devuelve nombre, apellido, fecha de nacimiento, país de nacimiento, nacionalidad, número de pasaporte, número A y notas de confianza (el modelo deja vacío lo que no pueda leer con certeza, en vez de adivinar). Requiere `ANTHROPIC_API_KEY` en `backend/.env`; si no está configurada, `GET /api/v1/documents/ai-status` reporta `configured: false`, el botón "Extraer datos con IA" se oculta en `/documents`, y el endpoint `POST /documents/{id}/extract` responde 503 en vez de fallar de forma confusa — el resto del módulo (subir, listar, borrar documentos) funciona igual sin la key.
@@ -141,6 +153,8 @@ Escribir en un campo del formulario de 438 campos causaba que TODO el formulario
 - [x] Catálogo de servicios + motor de workflow básico (checklist + etapas + auto-generación de formularios al aplicar un servicio)
 - [x] Diseño consistente (AppShell, sidebar, componentes UI compartidos)
 - [x] Documentos y evidencias + extracción por IA (subida, listado y borrado interno en `/documents`; extracción con Claude vision requiere `ANTHROPIC_API_KEY`, degrada con gracia sin ella)
+- [x] Revisión de formularios con IA (detección de inconsistencias contra los datos del cliente)
+- [x] Checklist con responsable, fecha límite y prioridad + tablero Kanban de casos por estado + centro de notificaciones
 - [ ] Seguimiento de citas y vencimientos
 - [ ] Facturación y pagos
 - [ ] Envío automático de correos y recordatorios

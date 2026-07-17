@@ -5,8 +5,10 @@ from app.core.config import settings
 from app.models.case import ParticipantRole
 from app.models.document import Document
 from app.models.form import FormTemplate, GeneratedForm
+from app.models.notification import NotificationType
 from app.schemas.document import DocumentRead
 from app.schemas.form import GeneratedFormUpdate, PublicFormView
+from app.services.notifications import notify
 from app.services.pdf_filler import fill_pdf_form
 from app.services.storage import save_upload
 
@@ -96,6 +98,12 @@ async def upload_public_document(
         content_type=file.content_type,
     )
     db.add(document)
+    notify(
+        db,
+        NotificationType.DOCUMENT_UPLOADED,
+        f"New document uploaded for {generated.case.case_number}: {document.original_filename}",
+        case_id=generated.case_id,
+    )
     db.commit()
     db.refresh(document)
     return document

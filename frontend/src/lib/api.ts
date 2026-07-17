@@ -85,12 +85,17 @@ export type Service = {
   stages: string[];
 };
 
+export const CHECKLIST_PRIORITIES = ["low", "medium", "high"] as const;
+
 export type ChecklistItem = {
   id: string;
   label: string;
   order: number;
   done: boolean;
   done_at: string | null;
+  assigned_to_id: string | null;
+  due_date: string | null;
+  priority: (typeof CHECKLIST_PRIORITIES)[number];
 };
 
 export type CaseServiceView = {
@@ -263,7 +268,10 @@ export function createCase(payload: {
   });
 }
 
-export function updateCase(caseId: string, payload: Partial<{ assigned_attorney_id: string | null }>): Promise<Case> {
+export function updateCase(
+  caseId: string,
+  payload: Partial<{ assigned_attorney_id: string | null; status: string; case_type: string; notes: string }>,
+): Promise<Case> {
   return fetchJson(`/cases/${caseId}`, {
     method: "PATCH",
     headers: { "Content-Type": "application/json" },
@@ -378,8 +386,35 @@ export function toggleChecklistItem(caseId: string, itemId: string, done: boolea
   });
 }
 
+export function updateChecklistItem(
+  caseId: string,
+  itemId: string,
+  payload: Partial<{ assigned_to_id: string | null; due_date: string | null; priority: string }>,
+): Promise<ChecklistItem> {
+  return fetchJson(`/cases/${caseId}/checklist/${itemId}`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
 export function advanceStage(caseId: string): Promise<CaseServiceView> {
   return fetchJson(`/cases/${caseId}/advance-stage`, { method: "POST" });
+}
+
+export type NotificationType = "case_assigned" | "stage_advanced" | "document_uploaded" | "ai_review_flagged";
+
+export type Notification = {
+  id: string;
+  type: NotificationType;
+  message: string;
+  case_id: string | null;
+  case_number: string | null;
+  created_at: string;
+};
+
+export function getNotifications(): Promise<Notification[]> {
+  return fetchJson("/notifications");
 }
 
 export function clientLinkUrl(accessToken: string): string {

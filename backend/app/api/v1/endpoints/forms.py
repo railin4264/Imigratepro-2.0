@@ -8,6 +8,7 @@ from app.api.deps import DbSession
 from app.core.config import settings
 from app.models.case import Case
 from app.models.form import FormTemplate, GeneratedForm, GeneratedFormStatus
+from app.models.notification import NotificationType
 from app.schemas.form import (
     FormTemplateRead,
     FormTemplateSchema,
@@ -18,6 +19,7 @@ from app.schemas.form import (
 )
 from app.services import form_review_ai
 from app.services.form_data import build_case_context, resolve_source
+from app.services.notifications import notify
 from app.services.pdf_filler import fill_pdf_form
 
 router = APIRouter(tags=["forms"])
@@ -186,6 +188,16 @@ def review_generated_form(generated_form_id: uuid.UUID, db: DbSession):
 
     generated.ai_review = result
     generated.ai_reviewed_at = datetime.now(timezone.utc)
+
+    findings = result.get("findings") or []
+    if findings:
+        notify(
+            db,
+            NotificationType.AI_REVIEW_FLAGGED,
+            f"AI review of {template.code} found {len(findings)} issue(s) to check ({generated.case.case_number})",
+            case_id=generated.case_id,
+        )
+
     db.commit()
     db.refresh(generated)
 

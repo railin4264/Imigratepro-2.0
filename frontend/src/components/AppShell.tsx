@@ -6,6 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTranslation } from "@/lib/i18n";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { NotificationBell } from "@/components/NotificationBell";
 
 function DashboardIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -181,7 +182,10 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             <MenuIcon className="h-5 w-5" aria-hidden="true" />
           </button>
           <span className="text-sm font-semibold text-zinc-900 dark:text-zinc-50 md:hidden">MigratePro</span>
-          <LanguageSwitcher fixed={false} />
+          <div className="ml-auto flex items-center gap-1">
+            <NotificationBell />
+            <LanguageSwitcher fixed={false} />
+          </div>
         </header>
         <main className="flex-1 p-4 sm:p-6 md:p-8">{children}</main>
       </div>

@@ -8,8 +8,10 @@ from app.core.config import settings
 from app.models.case import Case
 from app.models.client import Client
 from app.models.document import Document, DocumentStatus, DocumentType
+from app.models.notification import NotificationType
 from app.schemas.document import ApplyToClientRequest, DocumentDetail, DocumentRead, DocumentUpdate
 from app.services import document_ai
+from app.services.notifications import notify
 from app.services.storage import save_upload
 
 router = APIRouter(tags=["documents"])
@@ -82,6 +84,12 @@ async def upload_case_document(
         content_type=file.content_type,
     )
     db.add(document)
+    notify(
+        db,
+        NotificationType.DOCUMENT_UPLOADED,
+        f"New document uploaded for {case.case_number}: {document.original_filename}",
+        case_id=case.id,
+    )
     db.commit()
     db.refresh(document)
     return document
