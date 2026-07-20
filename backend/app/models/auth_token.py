@@ -1,5 +1,6 @@
 import uuid
 from datetime import datetime
+from typing import Optional
 
 from sqlalchemy import DateTime, ForeignKey, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
@@ -19,12 +20,14 @@ class RefreshToken(UUIDPrimaryKeyMixin, TimestampMixin, Base):
 
     __tablename__ = "refresh_tokens"
 
-    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id"), index=True)
+    user_id: Mapped[Optional[uuid.UUID]] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), nullable=True, index=True)
+    client_id: Mapped[Optional[uuid.UUID]] = mapped_column(ForeignKey("clients.id", ondelete="CASCADE"), nullable=True, index=True)
     token_hash: Mapped[str] = mapped_column(String(64), unique=True, index=True)
     expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
-    revoked_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    revoked_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True), nullable=True)
 
-    user: Mapped["User"] = relationship()
+    user: Mapped[Optional["User"]] = relationship()
+    client: Mapped[Optional["Client"]] = relationship()
 
 
 class PasswordResetToken(UUIDPrimaryKeyMixin, TimestampMixin, Base):
@@ -35,12 +38,14 @@ class PasswordResetToken(UUIDPrimaryKeyMixin, TimestampMixin, Base):
 
     __tablename__ = "password_reset_tokens"
 
-    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id"), index=True)
+    user_id: Mapped[Optional[uuid.UUID]] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), nullable=True, index=True)
+    client_id: Mapped[Optional[uuid.UUID]] = mapped_column(ForeignKey("clients.id", ondelete="CASCADE"), nullable=True, index=True)
     token_hash: Mapped[str] = mapped_column(String(64), unique=True, index=True)
     expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
-    used_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    used_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True), nullable=True)
 
-    user: Mapped["User"] = relationship()
+    user: Mapped[Optional["User"]] = relationship()
+    client: Mapped[Optional["Client"]] = relationship()
 
 
 class DeniedToken(UUIDPrimaryKeyMixin, TimestampMixin, Base):
@@ -52,4 +57,3 @@ class DeniedToken(UUIDPrimaryKeyMixin, TimestampMixin, Base):
 
     jti: Mapped[str] = mapped_column(String(36), unique=True, index=True)
     expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
-

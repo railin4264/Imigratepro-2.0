@@ -8,6 +8,7 @@ from sqlalchemy.orm import Session
 from app.core.database import get_db
 from app.core.security import decode_access_token
 from app.models.user import User, UserRole
+from app.models.client import Client
 
 DbSession = Annotated[Session, Depends(get_db)]
 
@@ -36,6 +37,9 @@ def get_current_user(
     payload = decode_access_token(token)
     if not payload:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid or expired token")
+
+    if payload.get("type") == "client":
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token type")
 
     try:
         user_id = uuid.UUID(payload["sub"])
@@ -98,3 +102,60 @@ RequireIntakeOrAbove = Annotated[
 # above (which attorneys can also perform, and therefore should be able to
 # see logged).
 RequireAdmin = Annotated[User, Depends(require_roles(UserRole.ADMIN))]
+
+
+def get_current_client(
+    db: DbSession,
+    request: Request,
+    credentials: Annotated[HTTPAuthorizationCredentials | None, Depends(_bearer_scheme)],
+) -> Client:
+    token = credentials.credentials if credentials else request.cookies.get(ACCESS_TOKEN_COOKIE)
+    if not token:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Not authenticated")
+
+    payload = decode_access_token(token)
+    if not payload:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid or expired token")
+
+    if payload.get("type") != "client":
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token type")
+
+    try:
+        client_id = uuid.UUID(payload["sub"])
+    except (KeyError, ValueError, AttributeError, TypeError):
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
+
+    client = db.get(Client, client_id)
+    if not client:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Client not found")
+
+    return client
+
+
+CurrentClient = Annotated[Client, Depends(get_current_client)]
+
+
+def get_current_client_optional(
+    db: DbSession,
+    request: Request,
+) -> Client | None:
+    auth_header = request.headers.get("Authorization")
+    token = None
+    if auth_header and auth_header.startswith("Bearer "):
+        token = auth_header[7:]
+    else:
+        token = request.cookies.get(ACCESS_TOKEN_COOKIE)
+
+    if not token:
+        return None
+
+    payload = decode_access_token(token)
+    if not payload or payload.get("type") != "client":
+        return None
+
+    try:
+        client_id = uuid.UUID(payload["sub"])
+    except (KeyError, ValueError, AttributeError, TypeError):
+        return None
+
+    return db.get(Client, client_id)
