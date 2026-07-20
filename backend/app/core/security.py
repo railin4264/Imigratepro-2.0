@@ -80,7 +80,20 @@ def decode_access_token(token: str) -> dict | None:
     if payload.get("exp", 0) < time.time():
         return None
 
+    # Check the jti against the denied_tokens table.
+    if "jti" in payload:
+        from app.core.database import SessionLocal
+        from app.models.auth_token import DeniedToken
+        db = SessionLocal()
+        try:
+            denied = db.query(DeniedToken).filter(DeniedToken.jti == payload["jti"]).first()
+            if denied:
+                return None
+        finally:
+            db.close()
+
     return payload
+
 
 
 def generate_opaque_token() -> str:

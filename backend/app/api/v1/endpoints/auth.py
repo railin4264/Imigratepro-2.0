@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta, timezone
 
 from fastapi import APIRouter, HTTPException, Request, Response
+from pydantic import BaseModel
 from sqlalchemy import func
 
 from app.api.deps import ACCESS_TOKEN_COOKIE, REFRESH_TOKEN_COOKIE, CurrentUser, DbSession
@@ -8,12 +9,13 @@ from app.core.config import settings
 from app.core.rate_limit import check_rate_limit, reset_rate_limit
 from app.core.security import (
     create_access_token,
+    decode_access_token,
     generate_opaque_token,
     hash_opaque_token,
     hash_password,
     verify_password,
 )
-from app.models.auth_token import PasswordResetToken, RefreshToken
+from app.models.auth_token import PasswordResetToken, RefreshToken, DeniedToken
 from app.models.user import User
 from app.schemas.auth import (
     AuthenticatedUser,
@@ -191,7 +193,27 @@ def logout(payload: LogoutRequest, db: DbSession, request: Request, response: Re
         if stored and stored.revoked_at is None:
             stored.revoked_at = datetime.now(timezone.utc)
             db.commit()
+
+    # Revoke access token: extract current access token and add to denylist
+    auth_header = request.headers.get("Authorization")
+    access_token = None
+    if auth_header and auth_header.startswith("Bearer "):
+        access_token = auth_header[7:]
+    else:
+        access_token = request.cookies.get(ACCESS_TOKEN_COOKIE)
+
+    if access_token:
+        decoded = decode_access_token(access_token)
+        if decoded and "jti" in decoded:
+            jti = decoded["jti"]
+            exp = datetime.fromtimestamp(decoded["exp"], tz=timezone.utc)
+            exists = db.query(DeniedToken).filter(DeniedToken.jti == jti).first()
+            if not exists:
+                db.add(DeniedToken(jti=jti, expires_at=exp))
+                db.commit()
+
     _clear_auth_cookies(response)
+
 
 
 @router.get("/me", response_model=AuthenticatedUser)
@@ -260,7 +282,7 @@ def forgot_password(payload: ForgotPasswordRequest, db: DbSession, request: Requ
 
 
 @router.post("/reset-password", status_code=204)
-def reset_password(payload: ResetPasswordRequest, db: DbSession):
+def reset_password(payload: ResetPasswordRequest, db: DbSession, request: Request):
     if len(payload.password) < 8:
         raise HTTPException(status_code=422, detail="Password must be at least 8 characters")
 
@@ -281,4 +303,57 @@ def reset_password(payload: ResetPasswordRequest, db: DbSession):
     db.query(RefreshToken).filter(
         RefreshToken.user_id == user.id, RefreshToken.revoked_at.is_(None)
     ).update({"revoked_at": now})
+
+    # Revoke access token if present in the request
+    auth_header = request.headers.get("Authorization")
+    access_token = None
+    if auth_header and auth_header.startswith("Bearer "):
+        access_token = auth_header[7:]
+    else:
+        access_token = request.cookies.get(ACCESS_TOKEN_COOKIE)
+
+    if access_token:
+        decoded = decode_access_token(access_token)
+        if decoded and "jti" in decoded:
+            jti = decoded["jti"]
+            exp = datetime.fromtimestamp(decoded["exp"], tz=timezone.utc)
+            exists = db.query(DeniedToken).filter(DeniedToken.jti == jti).first()
+            if not exists:
+                db.add(DeniedToken(jti=jti, expires_at=exp))
+
     db.commit()
+
+
+class ExplicitRevokeRequest(BaseModel):
+    token: str | None = None
+    jti: str | None = None
+    expires_at: datetime | None = None
+
+
+@router.post("/revoke", status_code=204)
+def explicit_revoke(payload: ExplicitRevokeRequest, db: DbSession, current_user: CurrentUser):
+    """Explicitly revoke an access token by either passing the raw token or its jti."""
+    jti_to_revoke = payload.jti
+    exp_to_revoke = payload.expires_at
+
+    if payload.token:
+        decoded = decode_access_token(payload.token)
+        if decoded and "jti" in decoded:
+            jti_to_revoke = decoded["jti"]
+            exp_to_revoke = datetime.fromtimestamp(decoded["exp"], tz=timezone.utc)
+        else:
+            raise HTTPException(status_code=400, detail="Invalid token")
+
+    if not jti_to_revoke:
+        raise HTTPException(status_code=400, detail="Either token or jti must be provided")
+
+    if not exp_to_revoke:
+        # Default to 24 hours from now if no expiry can be determined
+        exp_to_revoke = datetime.now(timezone.utc) + timedelta(days=1)
+
+    exists = db.query(DeniedToken).filter(DeniedToken.jti == jti_to_revoke).first()
+    if not exists:
+        db.add(DeniedToken(jti=jti_to_revoke, expires_at=exp_to_revoke))
+        db.commit()
+
+

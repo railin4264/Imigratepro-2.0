@@ -112,10 +112,49 @@ def get_public_case_timeline(token: str, db: DbSession):
     )
 
 
+def _get_form_participant_roles(template: FormTemplate) -> set[str]:
+    """
+    Extract the participant roles (petitioner, beneficiary, etc.) that are
+    involved in the given form template by looking at its autofill map.
+    """
+    roles = set()
+    for entry in (template.autofill_map or []):
+        source = str(entry.get("source", ""))
+        parts = source.split(".")
+        if parts:
+            role_name = parts[0]
+            if role_name in ParticipantRole._value2member_map_:
+                roles.add(role_name)
+    return roles
+
+
 @router.get("/{token}/documents", response_model=list[DocumentRead])
 def list_public_documents(token: str, db: DbSession):
+    # FORM TOKEN SCOPING: A public form token should only expose documents associated
+    # with the participant roles relevant to this specific form, not all documents in the case.
     generated = _get_active_generated_form(token, db)
-    return db.query(Document).filter(Document.case_id == generated.case_id).order_by(Document.created_at.desc()).all()
+    template = db.get(FormTemplate, generated.form_template_id)
+    if not template:
+        raise HTTPException(status_code=404, detail="Form template not found")
+
+    allowed_roles = _get_form_participant_roles(template)
+    # If the form has no mapped participant roles, fallback to all roles to avoid breaking the wizard.
+    if not allowed_roles:
+        allowed_roles = {r.value for r in ParticipantRole}
+
+    allowed_client_ids = [
+        p.client_id for p in generated.case.participants if p.role.value in allowed_roles
+    ]
+
+    return (
+        db.query(Document)
+        .filter(
+            Document.case_id == generated.case_id,
+            Document.client_id.in_(allowed_client_ids),
+        )
+        .order_by(Document.created_at.desc())
+        .all()
+    )
 
 
 @router.post("/{token}/documents", response_model=DocumentRead, status_code=201)
@@ -126,12 +165,26 @@ async def upload_public_document(
     role: str | None = Form(None),
 ):
     generated = _get_active_generated_form(token, db)
+    template = db.get(FormTemplate, generated.form_template_id)
+    if not template:
+        raise HTTPException(status_code=404, detail="Form template not found")
+
+    allowed_roles = _get_form_participant_roles(template)
+    if not allowed_roles:
+        allowed_roles = {r.value for r in ParticipantRole}
+
+    # If the provided upload role is not in the form's allowed roles,
+    # default to 'beneficiary' if allowed, or the first allowed role to avoid breaking the wizard.
+    if not role or role not in allowed_roles:
+        if "beneficiary" in allowed_roles:
+            role = "beneficiary"
+        else:
+            role = sorted(list(allowed_roles))[0]
 
     client_id = None
-    if role and role in ParticipantRole._value2member_map_:
-        participant = next((p for p in generated.case.participants if p.role.value == role), None)
-        if participant:
-            client_id = participant.client_id
+    participant = next((p for p in generated.case.participants if p.role.value == role), None)
+    if participant:
+        client_id = participant.client_id
 
     try:
         path, _size = await save_upload(file, settings.UPLOADED_DOCUMENTS_DIR / str(generated.case_id))
@@ -155,3 +208,4 @@ async def upload_public_document(
     db.commit()
     db.refresh(document)
     return document
+

@@ -108,5 +108,27 @@ def review_form(form_code: str, form_name: str, case_number: str, reference: dic
     if response.stop_reason == "refusal":
         raise RuntimeError("The model declined to review this form")
 
+    # Audit log the AI call
+    from app.core.database import SessionLocal
+    from app.services.audit import log_ai_call
+    db = SessionLocal()
+    try:
+        input_tokens = getattr(getattr(response, "usage", None), "input_tokens", 0) or 0
+        output_tokens = getattr(getattr(response, "usage", None), "output_tokens", 0) or 0
+        log_ai_call(
+            db=db,
+            model=MODEL,
+            prompt=prompt,
+            input_tokens=input_tokens,
+            output_tokens=output_tokens,
+        )
+        db.commit()
+    except Exception:
+        db.rollback()
+    finally:
+        db.close()
+
+
     text = next(block.text for block in response.content if block.type == "text")
     return json.loads(text)
+

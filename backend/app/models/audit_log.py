@@ -32,3 +32,18 @@ class AuditLog(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     ip_address: Mapped[str | None] = mapped_column(String(45), nullable=True)
 
     user: Mapped["User"] = relationship()
+
+
+class AICallAudit(UUIDPrimaryKeyMixin, TimestampMixin, Base):
+    """Append-only record of AI calls (Claude/vision etc.) including metadata,
+    tokens used, and estimated cost. Stores only the SHA-256 prompt_hash,
+    never raw prompts or completions, to comply with strict PII requirements."""
+
+    __tablename__ = "ai_call_audits"
+
+    prompt_hash: Mapped[str] = mapped_column(String(64), index=True)
+    model: Mapped[str] = mapped_column(String(50), index=True)
+    input_tokens: Mapped[int] = mapped_column(default=0)
+    output_tokens: Mapped[int] = mapped_column(default=0)
+    estimated_cost: Mapped[float] = mapped_column(default=0.0)
+

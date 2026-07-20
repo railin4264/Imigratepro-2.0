@@ -9,7 +9,7 @@ from datetime import datetime, timedelta, timezone
 
 from sqlalchemy.orm import Session
 
-from app.models.auth_token import PasswordResetToken, RefreshToken
+from app.models.auth_token import PasswordResetToken, RefreshToken, DeniedToken
 
 # Keep a short grace window past expiry/use rather than deleting the instant
 # a token becomes unusable -- useful if you're ever staring at the table
@@ -35,6 +35,16 @@ def cleanup_expired_tokens(db: Session) -> dict:
         )
         .delete(synchronize_session=False)
     )
+    denied_deleted = (
+        db.query(DeniedToken)
+        .filter(DeniedToken.expires_at < cutoff)
+        .delete(synchronize_session=False)
+    )
 
     db.commit()
-    return {"refresh_tokens_deleted": refresh_deleted, "reset_tokens_deleted": reset_deleted}
+    return {
+        "refresh_tokens_deleted": refresh_deleted,
+        "reset_tokens_deleted": reset_deleted,
+        "denied_tokens_deleted": denied_deleted,
+    }
+

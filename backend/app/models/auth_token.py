@@ -41,3 +41,15 @@ class PasswordResetToken(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     used_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
 
     user: Mapped["User"] = relationship()
+
+
+class DeniedToken(UUIDPrimaryKeyMixin, TimestampMixin, Base):
+    """An access token that has been explicitly revoked before its natural expiration
+    (e.g. due to logout, password reset, or explicit revocation). Indexed by the token's
+    JWT ID (jti) so we can do O(1) checks during request authentication."""
+
+    __tablename__ = "denied_tokens"
+
+    jti: Mapped[str] = mapped_column(String(36), unique=True, index=True)
+    expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
+
