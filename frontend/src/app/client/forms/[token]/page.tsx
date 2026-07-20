@@ -40,6 +40,8 @@ export default function ClientFormPage() {
   const [stepIndex, setStepIndex] = useState(0);
   const [resumed, setResumed] = useState(false);
 
+  const [submitted, setSubmitted] = useState(false);
+  const [validationError, setValidationError] = useState<string | null>(null);
   const [timeline, setTimeline] = useState<CaseTimelineData | null>(null);
   const [documents, setDocuments] = useState<UploadedDocument[]>([]);
   const [uploadRole, setUploadRole] = useState<string>(PARTICIPANT_ROLES[0]);
@@ -164,11 +166,23 @@ export default function ClientFormPage() {
     setResumed(false);
   }
 
+  const ALLOWED_MIME = ["application/pdf", "image/jpeg", "image/png"];
+  const MAX_UPLOAD_BYTES = 10 * 1024 * 1024; // 10 MB
+
   async function handleUpload(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const input = e.currentTarget.elements.namedItem("file") as HTMLInputElement;
     const file = input.files?.[0];
     if (!file) return;
+
+    if (file.size > MAX_UPLOAD_BYTES) {
+      setUploadError(t("client.documents.error.size"));
+      return;
+    }
+    if (!ALLOWED_MIME.includes(file.type)) {
+      setUploadError(t("client.documents.error.type"));
+      return;
+    }
 
     setUploading(true);
     setUploadError(null);
@@ -183,6 +197,24 @@ export default function ClientFormPage() {
     }
   }
 
+  function handleRemoveDocument(id: string) {
+    setDocuments((prev) => prev.filter((d) => d.id !== id));
+  }
+
+  async function handleFinalize() {
+    const unfilled = visibleFieldsAll.filter(
+      (f) => f.type !== "checkbox" && (formData[f.name] ?? "") === ""
+    );
+    if (unfilled.length > 0) {
+      setValidationError(t("client.required.error"));
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+    setValidationError(null);
+    const ok = await saveData();
+    if (ok) setSubmitted(true);
+  }
+
   if (status === "loading") {
     return <div className="p-8 text-center text-zinc-600 dark:text-zinc-400">{t("client.loading")}</div>;
   }
@@ -192,6 +224,24 @@ export default function ClientFormPage() {
   }
 
   if (!view) return null;
+
+  // Submitted confirmation screen
+  if (submitted) {
+    return (
+      <div className="min-h-screen bg-zinc-50 p-6 dark:bg-black">
+        <LanguageSwitcher />
+        <div className="mx-auto flex max-w-md flex-col items-center gap-4 pt-24 text-center">
+          <div className="flex h-16 w-16 items-center justify-center rounded-full bg-green-100 dark:bg-green-950">
+            <svg className="h-8 w-8 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <h1 className="text-xl font-semibold text-zinc-900 dark:text-zinc-50">{t("client.submitted.title")}</h1>
+          <p className="text-sm text-zinc-600 dark:text-zinc-400">{t("client.submitted.subtitle")}</p>
+        </div>
+      </div>
+    );
+  }
 
   const [currentPartLabel, currentPartFields] = parts[currentStepIndex] ?? ["", []];
   const isFirstStep = currentStepIndex === 0;
@@ -259,26 +309,33 @@ export default function ClientFormPage() {
                   value={formData[item.field.name] ?? ""}
                   label={displayLabel(stripPartPrefix(item.field.label))}
                   onChange={setFieldValue}
+                  required={item.field.type !== "checkbox"}
                 />
               )
             )}
           </div>
+
+          {validationError && (
+            <p role="alert" className="mt-3 rounded-md bg-red-50 px-3 py-2 text-sm text-red-700 dark:bg-red-950 dark:text-red-300">
+              {validationError}
+            </p>
+          )}
 
           <div className="mt-5 flex items-center gap-3 border-t border-zinc-100 pt-4 dark:border-zinc-800">
             <button
               type="button"
               onClick={handlePrevious}
               disabled={isFirstStep || status === "saving"}
-              className="rounded-md border border-zinc-300 px-4 py-2.5 text-sm font-medium text-zinc-700 transition hover:bg-zinc-100 disabled:opacity-40 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
+              className="min-h-11 rounded-md border border-zinc-300 px-4 py-2.5 text-sm font-medium text-zinc-700 transition hover:bg-zinc-100 disabled:opacity-40 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
             >
               {t("client.step.previous")}
             </button>
             {isLastStep ? (
               <button
                 type="button"
-                onClick={() => saveData()}
+                onClick={handleFinalize}
                 disabled={status === "saving"}
-                className="ml-auto rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:bg-zinc-800 disabled:opacity-50 dark:bg-zinc-50 dark:text-black dark:hover:bg-zinc-200"
+                className="ml-auto min-h-11 rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:bg-zinc-800 disabled:opacity-50 dark:bg-zinc-50 dark:text-black dark:hover:bg-zinc-200"
               >
                 {status === "saving" ? t("client.saving") : t("client.step.finish")}
               </button>
@@ -287,7 +344,7 @@ export default function ClientFormPage() {
                 type="button"
                 onClick={handleNext}
                 disabled={status === "saving"}
-                className="ml-auto rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:bg-zinc-800 disabled:opacity-50 dark:bg-zinc-50 dark:text-black dark:hover:bg-zinc-200"
+                className="ml-auto min-h-11 rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:bg-zinc-800 disabled:opacity-50 dark:bg-zinc-50 dark:text-black dark:hover:bg-zinc-200"
               >
                 {status === "saving" ? t("client.saving") : t("client.step.next")}
               </button>
@@ -326,14 +383,18 @@ export default function ClientFormPage() {
                 setResumed(false);
                 void saveData(idx);
               }}
-              className={`h-2.5 w-2.5 rounded-full transition ${
-                idx === currentStepIndex
-                  ? "bg-black dark:bg-zinc-50"
-                  : idx < currentStepIndex
-                    ? "bg-zinc-400 hover:bg-zinc-500 dark:bg-zinc-600"
-                    : "bg-zinc-200 dark:bg-zinc-800"
-              }`}
-            />
+              className="flex min-h-11 min-w-11 items-center justify-center rounded-full transition disabled:cursor-not-allowed"
+            >
+              <span
+                className={`block h-2.5 w-2.5 rounded-full ${
+                  idx === currentStepIndex
+                    ? "bg-black dark:bg-zinc-50"
+                    : idx < currentStepIndex
+                      ? "bg-zinc-400 hover:bg-zinc-500 dark:bg-zinc-600"
+                      : "bg-zinc-200 dark:bg-zinc-800"
+                }`}
+              />
+            </button>
           ))}
         </div>
 
@@ -343,12 +404,12 @@ export default function ClientFormPage() {
 
           <form onSubmit={handleUpload} className="mb-4 space-y-2">
             <div className="flex flex-wrap gap-2">
-              <label className="flex flex-col text-xs text-zinc-500 dark:text-zinc-400">
+              <label className="flex flex-col text-sm text-zinc-500 dark:text-zinc-400">
                 {t("client.documents.role")}
                 <select
                   value={uploadRole}
                   onChange={(e) => setUploadRole(e.target.value)}
-                  className="mt-1 rounded-md border border-zinc-300 bg-white p-2 text-sm dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50"
+                  className="mt-1 min-h-11 rounded-md border border-zinc-300 bg-white p-2 text-sm dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50"
                 >
                   {PARTICIPANT_ROLES.map((r) => (
                     <option key={r} value={r}>
@@ -357,33 +418,48 @@ export default function ClientFormPage() {
                   ))}
                 </select>
               </label>
-              <label className="flex min-w-0 flex-1 flex-col text-xs text-zinc-500 dark:text-zinc-400">
+              <label className="flex min-w-0 flex-1 flex-col text-sm text-zinc-500 dark:text-zinc-400">
                 {t("documents.field.file")}
                 <input
                   name="file"
                   type="file"
                   required
+                  accept=".pdf,.jpg,.jpeg,.png"
+                  aria-describedby="upload-formats-hint"
                   className="mt-1 w-full rounded-md border border-zinc-300 bg-white p-1.5 text-sm dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50"
                 />
               </label>
             </div>
+            <p id="upload-formats-hint" className="text-xs text-zinc-400 dark:text-zinc-500">
+              {t("client.documents.allowedFormats")}
+            </p>
             <button
               type="submit"
               disabled={uploading}
-              className="rounded-md border border-zinc-300 px-3 py-1.5 text-sm font-medium text-zinc-700 hover:bg-zinc-100 disabled:opacity-50 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
+              className="min-h-11 rounded-md border border-zinc-300 px-3 py-1.5 text-sm font-medium text-zinc-700 hover:bg-zinc-100 disabled:opacity-50 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
             >
               {uploading ? t("client.documents.uploading") : t("client.documents.upload")}
             </button>
-            {uploadError && <p className="text-xs text-red-700 dark:text-red-300">{uploadError}</p>}
+            {uploadError && (
+              <p role="alert" className="text-sm text-red-700 dark:text-red-300">{uploadError}</p>
+            )}
           </form>
 
           {documents.length === 0 ? (
             <p className="text-sm text-zinc-500">{t("client.documents.empty")}</p>
           ) : (
-            <ul className="space-y-1">
+            <ul className="space-y-2">
               {documents.map((d) => (
-                <li key={d.id} className="text-sm text-zinc-700 dark:text-zinc-300">
-                  {d.original_filename}
+                <li key={d.id} className="flex items-center justify-between gap-2">
+                  <span className="min-w-0 truncate text-sm text-zinc-700 dark:text-zinc-300">{d.original_filename}</span>
+                  <button
+                    type="button"
+                    onClick={() => handleRemoveDocument(d.id)}
+                    aria-label={`${t("client.documents.remove")}: ${d.original_filename}`}
+                    className="shrink-0 rounded p-1 text-xs text-zinc-400 hover:text-red-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400 dark:hover:text-red-400"
+                  >
+                    ✕
+                  </button>
                 </li>
               ))}
             </ul>
