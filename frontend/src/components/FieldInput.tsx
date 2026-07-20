@@ -7,15 +7,20 @@ export function FieldInput({
   field,
   value,
   onChange,
+  id,
+  required,
 }: {
   field: FieldSchemaEntry;
   value: string;
   onChange: (value: string) => void;
+  id?: string;
+  required?: boolean;
 }) {
   if (field.type === "checkbox") {
     return (
       <input
         type="checkbox"
+        id={id}
         checked={value === field.on_value}
         onChange={(e) => onChange(e.target.checked ? field.on_value ?? "X" : "")}
         className="mt-1 h-5 w-5 shrink-0"
@@ -26,7 +31,10 @@ export function FieldInput({
   if (field.type === "choice") {
     return (
       <select
+        id={id}
         value={value}
+        required={required}
+        aria-required={required}
         onChange={(e) => onChange(e.target.value)}
         className="w-full rounded-md border border-zinc-300 bg-white p-1.5 text-sm dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50"
       >
@@ -43,7 +51,10 @@ export function FieldInput({
     return (
       <input
         type="date"
+        id={id}
         value={toHtmlDate(value)}
+        required={required}
+        aria-required={required}
         onChange={(e) => onChange(fromHtmlDate(e.target.value))}
         className="w-full rounded-md border border-zinc-300 bg-white p-1.5 text-sm dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50"
       />
@@ -53,7 +64,10 @@ export function FieldInput({
   return (
     <input
       type="text"
+      id={id}
       value={value}
+      required={required}
+      aria-required={required}
       onChange={(e) => onChange(e.target.value)}
       className="w-full rounded-md border border-zinc-300 bg-white p-1.5 text-sm dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50"
     />

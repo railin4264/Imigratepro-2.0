@@ -28,7 +28,7 @@ function CheckboxGroupFieldInner({ question, options, onChange }: Props) {
         {options.map((opt) => (
           <label
             key={opt.field.name}
-            className={`inline-flex min-h-9 cursor-pointer items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition focus-within:ring-2 focus-within:ring-indigo-400 ${
+            className={`inline-flex min-h-11 cursor-pointer items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition focus-within:ring-2 focus-within:ring-indigo-400 ${
               opt.checked
                 ? "border-indigo-600 bg-indigo-600 text-white"
                 : "border-zinc-300 bg-white text-zinc-700 hover:border-zinc-400 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:border-zinc-600"

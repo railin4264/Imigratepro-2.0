@@ -17,7 +17,7 @@ export function LanguageSwitcher({ fixed = true }: { fixed?: boolean }) {
           key={l}
           onClick={() => setLang(l)}
           aria-pressed={lang === l}
-          className={`flex h-9 min-w-9 items-center justify-center rounded-full px-2.5 font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 ${
+          className={`flex min-h-11 min-w-11 items-center justify-center rounded-full px-2.5 font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 ${
             lang === l
               ? "bg-indigo-600 text-white"
               : "text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200"
