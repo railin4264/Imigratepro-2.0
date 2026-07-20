@@ -1,0 +1,1511 @@
+[
+  {
+    "name": "form1[0].#subform[0].P1_Line1_NameofLEARequestor[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 1. Enter Name of Law Enforcement Agency (L E. A.) or Requestor.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_RequestingAgent[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 2. Enter Requesting Agent (Special Agent in Charge, Chief of Police, etc.).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_ControlAgent[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 2. Enter Control Agent.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 4. Contact Information. Enter E-Mail Address.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 4. Contact Information. Enter Fax Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 4. Contact Information. Enter Daytime Telephone Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_City[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_State[0]",
+    "type": "select",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Select State from a list of States.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Checkbox5[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select As a result of providing information, the alien will be placed in danger:",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Checkbox5[1]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select The alien poses no danger to people or property of the United States.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Checkbox5[2]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select If the alien poses a danger, the danger posed by the alien is outweighed by the assistance the alien will furnish.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Checkbox5[3]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select Investigation.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_CheckBox6[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). NOTE: Provide a clear statement of the operations that form the basis of the request (e.g., Grand Jury subpoena), the objective of the request, and any bargain the L E. A. wishes to make or has made with the alien. Attach a complete criminal history, F B I Number, and U.S. Social Security Number (if applicable). Include any security concerns and special instructions regarding security precautions. 6. Type of Requests. (Attach legal basis for request.). Select S-5.",
+    "page": 1,
+    "on_value": "/S5"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Checkbox5[4]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select Prosecution.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Checkbox5[5]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select United States Attorney involvement.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_Consular[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 6. Type of Requests. (Attach legal basis for request.). Enter Consular post at which visa will be sought.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Checkbox5a_AB[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. As a result of providing information, the alien will be placed in danger: Select abroad.",
+    "page": 1,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Checkbox5a_US[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. As a result of providing information, the alien will be placed in danger: Select in the United States.",
+    "page": 1,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_CheckBox6[1]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 6. Type of Requests. (Attach legal basis for request.). Select S-6.",
+    "page": 1,
+    "on_value": "/S6"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_CheckBox6[2]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 6. Type of Requests. (Attach legal basis for request.). Select S-7.",
+    "page": 1,
+    "on_value": "/S7"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L7a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. In the space below, provide all the requested information for the alien for whom an S classification is requested. A. Alien's Current Legal Name (do not provide a nickname). Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L7a_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. A. Alien's Current Legal Name (do not provide a nickname). Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L7a_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. A. Alien's Current Legal Name (do not provide a nickname). Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L7b2_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L7b1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L7b1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L7b1_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L7b2_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L7b2_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_PlaceofBirth[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Place of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_MaritalStatus[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Marital Status. Select Divorced.",
+    "page": 2,
+    "on_value": "/Divorced"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_MaritalStatus[1]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Marital Status. Select Married.",
+    "page": 2,
+    "on_value": "/Married"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_MaritalStatus[2]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Marital Status. Select Widowed.",
+    "page": 2,
+    "on_value": "/Widowed"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_MaritalStatus[3]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Marital Status. Select Never Married.",
+    "page": 2,
+    "on_value": "/NeverMarried"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_MaritalStatus[4]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Marital Status. Select Separated.",
+    "page": 2,
+    "on_value": "/Separated"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_Gender[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Sex. Select Female.",
+    "page": 2,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_Gender[1]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Sex. Select Male.",
+    "page": 2,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_ClassOfAdmission[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Class of Admission.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_CurentImigrationStatus[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Current Immigration Status.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_PlaceOfLastEntry_CityState[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Place of Last Entry into the U.S. (City, State).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_DateofLastEntry[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Date of Last Entry into the U.S. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_TravelDoc[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Travel Document Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_PassportNumber[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Passport Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_ExpDate[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Expiration Date for Passport or Travel Document. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_CountryOfIssuance[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Country of Issuance for Passport or Travel Document.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_CountryOfOrigin[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Country of Origin.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_CountryOfCitizenship[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Country of Citizenship or Nationality.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_Occupation[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Occupation.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_CheckBox_G325[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Select all documents attached. Select Form G-3 25.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_CheckBox_FD258[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Select all documents attached. Select Form F D-2 58.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_CheckBox_Photos[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Select all documents attached. Select Photos.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7d_SVisaNumber[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter S-Visa Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7c_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7c_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7c_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7c_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7c_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7c_City[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7c_State[0]",
+    "type": "select",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Select State from a list of States.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7c_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L7c_CurrentLocation[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Enter Current Location of Alien (City, State).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].#area[2].P1_Line7d_PrincipalAlienI-94[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter I-94 Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line8a_DetailStatement[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. A. Has the alien ever committed, ordered, incited, assisted, or otherwise participated in genocide; the use, conscription, or recruitment of a child soldier; Nazi persecution; or while outside of the United States, committed torture or extrajudicial killing? If “Yes,” explain below. Enter Explanation.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line8a_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. A. Has the alien ever committed, ordered, incited, assisted, or otherwise participated in genocide; the use, conscription, or recruitment of a child soldier; Nazi persecution; or while outside of the United States, committed torture or extrajudicial killing? If “Yes,” explain below. Select Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line8a_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. A. Has the alien ever committed, ordered, incited, assisted, or otherwise participated in genocide; the use, conscription, or recruitment of a child soldier; Nazi persecution; or while outside of the United States, committed torture or extrajudicial killing? If “Yes,” explain below. Select No.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Alien Registration Number (A. Number), if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].#area[3].P1_Line8b_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select International child abduction [2 12(A.)(10)(C)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[4].P1_Line8b_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Engage in unlawful commercialized vice [2 12(A.)(2)(D)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[5].P1_Line8b_Checkbox[2]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Coming to overthrow the U.S. Government [2 12(A.)(3)(A.)(3)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[6].P1_Line8b_Checkbox[3]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12( A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Crime involving moral turpitude [2 12(A.)(2)(A.)(1)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[7].P1_Line8b_Checkbox[4]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Multiple criminal convictions [2 12(A.)(2)(B)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[8].P1_Line8b_Checkbox[5]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Involved in espionage, sabotage or laws relating to technology [2 12(A.)(3)(A.)(1)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[9].P1_Line8b_Checkbox[6]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Money laundering [2 12(A.)(2)(1)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[10].P1_Line8b_Checkbox[7]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Engaged in conduct relating to severed violations of religious freedoms [2 12(A)(2)(G)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[11].P1_Line8b_Checkbox[8]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Previously removed-aggravated felony [2 12(A)(9)(A)(1)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[12].P1_Line8b_Checkbox[9]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Nonimmigrant without a valid passport or visas [2 12(A.)(7)(B)(2)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[13].P1_Line8b_Checkbox[10]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Alien smuggler [2 12(A.)(6)(E)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[14].P1_Line8b_Checkbox[11]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Drug abuser or addict [2 12(A.)(1)(A.)(4)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[15].P1_Line8b_Checkbox[12]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Previously excluded and deported or removed [2 12(A.)(9)(A.)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[16].P1_Line8b_Checkbox[13]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Convicted of law pertaining to controlled substance [2 12(A.)(2)(A.)(1)(2)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[17].P1_Line8b_Checkbox[14]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Controlled substance trafficker [2 12(A.)(2)(C)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[18].P1_Line8b_Checkbox[15]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Fraud / Misrepresentation [2 12(A)(6)(C)(1)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[19].P1_Line8b_Checkbox[16]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Immigrant without a visa [2 12(A.)(7)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[20].P1_Line8b_Checkbox[17]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Human trafficking [2 12(A.)(2)(H)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[21].P1_Line8b_Checkbox[18]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Ordered, incited, assisted or otherwise participated in the commission of acts of torture or extra judicial killing [2 12(A.)(3)(E)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[22].P1_Line8b_Checkbox[19]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Other.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[23].P1_Line8b_Checkbox[20]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select No waivers are requested / needed.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[24].P1_Line8b_Checkbox[21]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Unlawful activity related to national security [2 12(A.)(3)(A.)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[25].P1_Line8b_Checkbox[22]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Communist Party member [2 12(A.)(3)(D)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[26].P1_Line8b_Checkbox[23]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Terrorist activities [2 12(A.)(3)(B)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[27].P1_Line8b_Checkbox[24]",
+    "type": "checkbox",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list. (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Prostitute and/or procurer of prostitution [2 12(A.)(2)(D)].",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line8c_DetailStatementfor[0]",
+    "type": "text",
+    "label": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. C. Briefly explain below each ground of inadmissibility you selected or other grounds of inadmissibility not included in the list above. If you need extra space to complete this item, attach a separate sheet of paper; type or print the alien's name and. A. Number, if any, at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P2_Signature[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). I certify under penalty of perjury that I have reviewed with the Law Enforcement Agency (L E. A.) all the information in Part 1., disclosed all information to the best of my ability, and disclosed all reasons for which I may be inadmissible to the United States or for which I may be removed from the United States; that I shall report at least every three months my whereabouts and activities as the Law Enforcement Agency (L E. A.) shall require; that I understand I am subject to removal for any grounds of inadmissibility (conduct or condition) or removability not disclosed at this time or for conduct committed after admission to the United States; that I shall abide by all conditions, limitations, and restrictions imposed upon my entry; that the classification I seek is temporary and will terminate within three years; that I am restricted by the terms of my admission to very specific means by which I will be able to remain permanently in the United States; that I will pay Social Security and all applicable taxes on all employment in the United States; that I understand that such ability to remain in the United States is not guaranteed or promised by the Law Enforcement Agency (L E. A.); and that I hereby waive my right to a removal hearing and to contest, other than on the basis of a form for withholding of removal, any action for deportation instituted against me. I also certify that I have read and understand all the questions and statements on this form. If I do not understand English, I further acknowledge that this has been read to me in a language I do understand. The answers I have furnished are true and correct to the best of my knowledge and belief. Signature. No Entry. Print and Sign completed form.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P2_AlienDate[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P2_NameofPrincipal[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). Enter Name of Principal Alien.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P2_LEAName[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). Enter Name of Law Enforcement Agency (L E. A.) Witness.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P2_LEADate[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P2_Title[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). Enter Title.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P2_SignatureLEA[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). Signature of Law Enforcement Agency (L E. A.) Witness. No Entry. Print and Sign completed form.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P2_InterpreterDate[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P2_NameInterpreter[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). Enter Name of Interpreter.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P2_Language[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). Enter Language Used.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P2_SignatureTrans[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). Signature of Interpreter. No Entry. Print and Sign completed form.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_CheckBox_Interpreter[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. Alien Certification (S classification request). Select Interpreter Services Used (This serves to verify the alien's certification of interpretation).",
+    "page": 4,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_SignatureofRequestingAgent[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. I certify the above information is true and correct to the best of my knowledge; that I may make, have made, and will make no promises regarding the above alien's ability to adjust status or stay permanently in the United States, other than those that comport with section 1 01(A.)(15)(S) of the Immigration and Nationality Act (I N. A.); that I will, upon approval of S nonimmigrant status and until adjustment of status is granted or the S nonimmigrant status expires or terminates, collect quarterly and annual reports, pursuant to 8 Code of Federal Regulations (C F R) section 2 14.2(T), which detail the above alien's whereabouts and activities, and that I will forward required information to my headquarters entity, from which point it will be forwarded to the Department of Justice, Criminal Division; that I will immediately report to my headquarters, Department of Homeland Security, U.S. Immigration and Customs Enforcement, Homeland Security Investigations, and the Department of Justice, Criminal Division if this alien fails to report quarterly or fails to comply or to cooperate with the terms and conditions of admission or if the alien commits any removable activity after the date of admission. I further certify that I assume complete law enforcement responsibility for control and continued stay in lawful status of the alien, including necessary monitoring, travel arrangements for arrival and departure, safety precautions and specified conditions of stay or departure; that I have provided a sworn declaration as to the basis of this form and checked all available databases for derogatory information on the above alien; and that I have carefully reviewed the above statements with the alien to ensure that all terms and conditions are understood. Signature of Requesting Agent. No Entry. Print and Sign completed form.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_TitleofCertifier[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Name of Requesting Agent.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_DateofSignatureRequestAgent[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_TitleofRequestingAgent[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Title of Requesting Agent.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_DateofSignatureHeadquartersChief[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_SignatureofChiefofLEA[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Signature of Headquarters (H Q) Chief of Law Enforcement Agency (L E. A.). No Entry. Print and Sign completed form.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_NameofChief[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Name of Headquarters (H Q) Chief of Law Enforcement Agency (L E. A.).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_TitleCertifier[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Title of Certifier.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_City[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter City or Town.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_State[0]",
+    "type": "select",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select State from a list of States.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Zip Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_StreetName[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Street Number and Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select Floor.",
+    "page": 5,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select Suite.",
+    "page": 5,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select Apartment.",
+    "page": 5,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_OfficeName[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Office Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Contact Information. Enter E-Mail Address.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Contact Information. Enter Fax Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].#subform[5].P2_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Contact Information. Enter Daytime Telephone Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_SignatureOfAttorney[0]",
+    "type": "text",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Because the alien's presence is essential to the success of a Federal or state investigation or prosecution, the U.S. Attorney recommends the above request be granted and further certifies that there has not been and will not be any promises at all regarding the above alien's ability to adjust status or stay permanently in the United States, other than those that comply with Immigration and Nationality Act (I N. A.) section 1 01(A.)(15)(S). Signature of U.S. Attorney. No Entry. Print and Sign completed form.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_PrintedNameAttorney[0]",
+    "type": "text",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Enter Name of U.S. Attorney.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Date[0]",
+    "type": "text",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_City[0]",
+    "type": "text",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Enter City or Town.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_State[0]",
+    "type": "select",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Select State from a list of States.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Enter Zip Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_StreetName[0]",
+    "type": "text",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Enter Street Number and Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Select Floor.",
+    "page": 5,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Select Suite.",
+    "page": 5,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Select Apartment.",
+    "page": 5,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[4].P3_OfficeName[0]",
+    "type": "text",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Enter Office Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[7].P3_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Contact Information. Enter E-Mail Address.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[7].P3_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Contact Information. Enter Fax Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[7].P3_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 3. For U.S. Attorney Use Only, if applicable. Office Contact Information. Enter Daytime Telephone Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P4_CheckBox[0]",
+    "type": "checkbox",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. After checking all information, the U.S. Department of State. Select Certifies the alien is eligible to receive an award under 22 U.S.C 27 08(A.).",
+    "page": 6,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[6].P4_CheckBox[1]",
+    "type": "checkbox",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. After checking all information, the U.S. Department of State. Select Certifies the alien is not eligible for such award.",
+    "page": 6,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_City[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Enter City or Town.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_State[0]",
+    "type": "select",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Select a State from a list of States.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_ZipCode[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Enter Zip Code.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_StreetName[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Enter Street Number and Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Select Floor.",
+    "page": 6,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Select Suite.",
+    "page": 6,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Select Apartment.",
+    "page": 6,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_OfficeName[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Enter Office Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Contact Information. Enter E-Mail Address.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Contact Information. Enter Fax Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[8].P4_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Contact Information. Enter Daytime Telephone Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[9].P4_Date[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S Classification use only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].#subform[9].P4_Signature[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S Classification use only. Signature. No Entry. Print and Sign completed form.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P4_Name[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Enter Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P4_Title[0]",
+    "type": "text",
+    "label": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Enter Title.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P5_CheckBox[0]",
+    "type": "checkbox",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. After checking and evaluating all waivers and other information available, the Department of Justice, Criminal Division:. Select Certifies that, pursuant to Immigration and Nationality Act (I N. A.) section 101(A.)(15)(S) and the request of the above Law Enforcement Agency (L E. A.), the above alien is recommended for the S classification requested, that the above requests for waivers of inadmissibility appear to warrant approval, that this request falls within the numerical limitation for an S visa, and that, therefore, this request is forwarded to the Director of U.S. Citizenship and Immigration Services for approval.",
+    "page": 6,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[6].P5_CheckBox[1]",
+    "type": "checkbox",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. After checking and evaluating all waivers and other information available, the Department of Justice, Criminal Division. Select Denies request.",
+    "page": 6,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[6].P5_Date[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P5_Name[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Enter Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P5_Title[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Enter Title.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P5_Signature[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Signature. No Entry. Print and Sign completed form.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[10].P5_City[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Enter City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P5_State[0]",
+    "type": "select",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Select State from a list of States.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P5_ZipCode[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Enter Zip Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P5_StreetName[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Enter Street Number and Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P5_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P5_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Select Floor.",
+    "page": 7,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[10].P5_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Select Floor.",
+    "page": 7,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[10].P5_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Select Apartment.",
+    "page": 7,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[10].P5_OfficeName[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Enter Office Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_Chckboxes[0]",
+    "type": "checkbox",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Law Enforcement Agency (L E. A.) Request: Select Granted.",
+    "page": 7,
+    "on_value": "/G"
+  },
+  {
+    "name": "form1[0].#subform[10].P6_Chckboxes[1]",
+    "type": "checkbox",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Law Enforcement Agency (L E. A.) Request: Select Forwarded to Department of State (D O S) / Visa Office (V O).",
+    "page": 7,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[10].P6_Chckboxes[2]",
+    "type": "checkbox",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Law Enforcement Agency (L E. A.) Request: Select Denied.",
+    "page": 7,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[10].P6_City[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Enter City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_State[0]",
+    "type": "select",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Select State from a list of States.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Enter Zip Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_StreetName[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Enter Street Number and Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Select Floor.",
+    "page": 7,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[10].P6_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Select Suite.",
+    "page": 7,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[10].P6_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Select Apartment.",
+    "page": 7,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[10].P6_OfficeName[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Enter Office Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_Date[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_Name[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Enter Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_Title[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Enter Title.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_Signature[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Signature. No Entry. Print and Sign completed form.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P5_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Contact Information. Enter E-Mail Address.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P5_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Contact Information. Enter Fax Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P5_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 5. For Department of Justice, Criminal Division Use Only. Office Contact Information. Enter Daytime Telephone Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter E-Mail Address.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter Fax Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[10].P6_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter Daytime Telephone Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Chckboxes[0]",
+    "type": "checkbox",
+    "label": "Part 7. For Department of State / Visa Use Only. Select Forwarded to Consul by Visa Office (V O) for Visa Approval.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Chckboxes[1]",
+    "type": "checkbox",
+    "label": "Part 7. For Department of State / Visa Use Only. Select Not Forwarded.",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[11].P7_City[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter City or Town.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_State[0]",
+    "type": "select",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select State from a list of States.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_ZipCode[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Zip Code.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_StreetName[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Street Number and Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Floor.",
+    "page": 8,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Suite.",
+    "page": 8,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Apartment.",
+    "page": 8,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[11].P7_OfficeName[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Office Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Date[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Name[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Enter Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Title[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Enter Title.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Signature[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Signature. No Entry. Print and Sign completed form.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_City2[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter City or Town.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_State2[0]",
+    "type": "select",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select State from a list of States.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_ZipCode2[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Zip Code.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_StreetName2[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Street Number and Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_AptSteFlrNumber2[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Unit2[0]",
+    "type": "checkbox",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Floor.",
+    "page": 8,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Unit2[1]",
+    "type": "checkbox",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Suite.",
+    "page": 8,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Unit2[2]",
+    "type": "checkbox",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Apartment.",
+    "page": 8,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[11].P7_OfficeName2[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Office Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Date[1]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Chckboxes_Visas[0]",
+    "type": "checkbox",
+    "label": "Part 7. For Department of State / Visa Use Only. Select Visa Granted.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Chckboxes_Visas[1]",
+    "type": "checkbox",
+    "label": "Part 7. For Department of State / Visa Use Only. Select Visa Denied.",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Signature[1]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Signature. No Entry. Print and Sign completed form.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Name[1]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Enter Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_Title[1]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Enter Title.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter E-Mail Address.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter Fax Number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter Daytime Telephone Number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_EmailAddress2[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter E-Mail Address.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_FaxNumber2[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter Fax Number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[11].P7_DaytimeTelephoneNumber2[0]",
+    "type": "text",
+    "label": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter Daytime Telephone Number.",
+    "page": 8
+  }
+]

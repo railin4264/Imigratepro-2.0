@@ -1,6 +1,9 @@
+import logging
 from pathlib import Path
 
 from pypdf import PdfReader, PdfWriter
+
+logger = logging.getLogger(__name__)
 
 
 def fill_pdf_form(template_path: Path, output_path: Path, field_values: dict[str, str]) -> None:
@@ -25,6 +28,14 @@ def fill_pdf_form(template_path: Path, output_path: Path, field_values: dict[str
     reader = PdfReader(str(template_path))
     if reader.is_encrypted:
         reader.decrypt("")
+
+    # Warn if any field in the schema doesn't exist in the actual PDF
+    actual_fields = reader.get_fields() or {}
+    for field_name in field_values.keys():
+        if field_name not in actual_fields:
+            logger.warning(
+                f"PDF form field '{field_name}' listed in schema does not exist in PDF template '{template_path.name}'"
+            )
 
     writer = PdfWriter()
     writer.append(reader)

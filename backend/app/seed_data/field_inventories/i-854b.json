@@ -1,0 +1,769 @@
+[
+  {
+    "name": "form1[0].#subform[0].Part1_Line2_RequestingAgent[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 2. Enter Requesting Agent (Special Agent in Charge, Chief of Police, etc.).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line1_NameofLEARequestor[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 1. Enter Name of Law Enforcement Agency (L E A.) / Requestor.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line2_ControlAgent[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 2. Enter Control Agent.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line3_City[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line3_State[0]",
+    "type": "select",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Select State from a list of States.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line3_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5a_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. A. Alien's Current Legal Name (do not provide a nickname). Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5a_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. A. Alien's Current Legal Name (do not provide a nickname). Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. In the space below, provide all the requested information for the alien for which adjustment of status is requested. A. Alien's Current Legal Name (do not provide a nickname). Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5b_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5b_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5b_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5b2_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5b2_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5b2_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5c_City[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5c_State[0]",
+    "type": "select",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Select State from a list of States.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5c_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5c_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5c_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5c_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5c_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5c_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5d_SVisaNumber[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter S-Visa Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5c_CurrentLocation[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Enter Current Location of Alien (City, State).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5d__AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Alien Registration Number (A. Number), if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].Part1_Line5d_PrincipalAlienI-94[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Form I-94 Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5d_TravelDoc[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Travel Document Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line5d_PassportNumber[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Passport Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line4_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 4. Contact Information. Enter E-Mail Address.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line4_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 4. Contact Information. Enter Fax Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line4_DaytimeNumber[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 4. Contact Information. Enter Daytime Telephone Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_ClassOfAdmission[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Class of Admission.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_CountryOfCitizenship[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Place of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_MaritalStatus[0]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Marital Status. Select Divorced.",
+    "page": 2,
+    "on_value": "/Divorced"
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_MaritalStatus[1]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Marital Status. Select Married.",
+    "page": 2,
+    "on_value": "/Married"
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_MaritalStatus[2]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Marital Status. Select Widowed.",
+    "page": 2,
+    "on_value": "/Widowed"
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_MaritalStatus[3]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Marital Status. Select Never Married.",
+    "page": 2,
+    "on_value": "/NeverMarried"
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_MaritalStatus[4]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Marital Status. Select Separated.",
+    "page": 2,
+    "on_value": "/Separated"
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_Gender[0]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Sex. Select Female.",
+    "page": 2,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_Gender[1]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Sex. Select Male.",
+    "page": 2,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_CurentImigrationStatus[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Current Immigration Status.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_CountryOfCitizenship[1]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Country of Origin.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_CountryOfCitizenship[2]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Country of Citizenship or Nationality.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_Occupation[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Occupation.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].CheckBox_G325[0]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Select all documents attached. Select Form G-3 25.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].CheckBox_FD258[0]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Select all documents attached. Select Form F D-2 58.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].CheckBox_Photos[0]",
+    "type": "checkbox",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Select all documents attached. Select Photo.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_SignatureofChiefofLEA[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Attach all relevant documentation establishing (1) the information certified below and (2) the recommendations and reasons for the certified recommendations. Law Enforcement Agency (L E A.) Certification. I certify the above information is true and correct to the best of my knowledge; that no promises have been made regarding the above alien's ability to adjust status or stay permanently in the United States other than those that comport with Immigration and Nationality Act (I N A.) section 1 01(A.)(15)(S); that I have collected quarterly and annual reports detailing the above alien's whereabouts and activities and forwarded required information to the Department of Justice, Criminal Division; and that the alien has fulfilled the terms of his or her admission and classification. With this certification, I recommend the above mentioned person for adjustment of status under section 2 45(J) of the Immigration and Nationality Act (I N A.). Signature of Requesting Agent. No Entry. Print and Sign completed form.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_TitleofCertifier[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Name of Requesting Agent.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_DateofCertification[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_PrintedName_PartC[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Title of Requesting Agent.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_DateofCertification[1]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_SignatureofChiefofLEA[1]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Signature of Headquarters (H Q) Chief of Law Enforcement Agency (L E A). No Entry. Print and Sign completed form.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_TitleofCertifier[1]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Name of Headquarters (H Q) Chief of Law Enforcement Agency (L E A).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_PrintedName_PartC[1]",
+    "type": "text",
+    "label": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Title of Certifier.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_PlaceOfLastEntry_CityState[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Place of Last Entry into the U.S. (City, State).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_ExpDate[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Expiration Date for Passport or Travel Document. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_CountryOfIssuance[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Country of Issuance for Passport or Travel Document.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line5d_DateofLastEntry[0]",
+    "type": "text",
+    "label": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Date of Last Entry into the U.S. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_AlienName[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. I certify that the alien, Enter Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBoxIFS[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-5. Select Supplied the information that formed the basis of entry.",
+    "page": 3,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBoxS567[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-5, S-6, or S-7. Select Abided by all terms and conditions of the S classification.",
+    "page": 3,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBoxIFS[1]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-5. Select Substantially contributed information to the success of an authorized criminal investigation or the prosecution of an individual as per terms of entry.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBoxIFS[2]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-6. Select Substantially contributed information to the prevention or frustration of an act of terrorism against a U.S. person or property or the success of an authorized criminal investigation of, or the prosecution of, an individual involved in such an act of terrorism.",
+    "page": 3,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBoxIFS[3]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-7, Select The S-5 or S-6 alien through which this alien obtained S classification through has abided by all terms, conditions of the S classification, and is recommended for adjustment.",
+    "page": 3,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBoxS6A[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-6 is selected, Select Abided by all specific 22 U.S.C. 27 08(A.) limitations of the S classification.",
+    "page": 3,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBoxS6A[1]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-6 is selected, Select Received a reward under section 36(A.) of the State Department Basic Authorities Act of 19 56.",
+    "page": 3,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBoxS6A[2]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-6 is selected, Select Supplied the information that formed the basis of entry.",
+    "page": 3,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_OtherComments[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. Enter Other Comments.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_Date[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_Name[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. Enter Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_Signature[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. Signature. No Entry. Print and Sign completed form.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_Title[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. Enter Title.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Contact Information. Enter E-Mail Address.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Contact Information. Enter Fax Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_DaytimeNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Contact Information. Enter Daytime Telephone Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_OfficeName[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Office Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_City[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_State[0]",
+    "type": "select",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select State from a list of States.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Zip Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_StreetName[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Street Number and Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select Floor.",
+    "page": 3,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select Suite.",
+    "page": 3,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select Apartment.",
+    "page": 3,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[3].Part2b_Date[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part2b_Name[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Enter Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part2b_Title[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Enter Title.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part2b_Signature[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Signature. No Entry. Print and Sign completed form.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_City[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_State[0]",
+    "type": "select",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Select State from a list of States.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Enter Zip Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_StreetName[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Enter Street Number and Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Enter Apartment, Suite or Floor Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Select Floor.",
+    "page": 4,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Select Suite.",
+    "page": 4,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Select Apartment.",
+    "page": 4,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_OfficeName[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Enter Office Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter E-Mail Address.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter Fax Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[4].Part2c_DaytimeNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter Daytime Telephone Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P2_Chckboxes_IS[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Select Adjustment Granted.",
+    "page": 4,
+    "on_value": "/Granted"
+  },
+  {
+    "name": "form1[0].#subform[3].P2_Chckboxes_IS[1]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Select Adjustment Denied.",
+    "page": 4,
+    "on_value": "/Denied"
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_City[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_State[0]",
+    "type": "select",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select a State from a list of States.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Zip Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_StreetName[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Street Number and Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select Floor.",
+    "page": 4,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select Suite.",
+    "page": 4,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Select Apartment.",
+    "page": 4,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_OfficeName[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Name and Mailing Address. Enter Office Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Contact Information. Enter E-Mail Address.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Contact Information. Enter Fax Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#subform[5].Part2b_DaytimeNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifications. Office Contact Information. Enter Daytime Telephone Number.",
+    "page": 4
+  }
+]

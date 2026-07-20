@@ -482,10 +482,109 @@ N_600_CONDITIONS = {
     "form1[0].#subform[6].Pt2Line17D_PhysicalCustody[0]": [{"field": "form1[0].#subform[6].P2_Line17_Adopted[1]", "equals": "/Y"}],
 }
 
+G_28_CONDITIONS = {}
+
+I_129F_CONDITIONS = {
+    # 8.J. Is your current mailing address the same as your physical address? Select No.
+    "form1[0].#subform[1].Pt1Line9_StreetNumberName[0]": [{"field": "form1[0].#subform[0].Pt1Line8j_Checkboxes[1]", "equals": "/N"}],
+    "form1[0].#subform[1].Pt1Line9_Unit[0]": [{"field": "form1[0].#subform[0].Pt1Line8j_Checkboxes[1]", "equals": "/N"}],
+    "form1[0].#subform[1].Pt1Line9_Unit[1]": [{"field": "form1[0].#subform[0].Pt1Line8j_Checkboxes[1]", "equals": "/N"}],
+    "form1[0].#subform[1].Pt1Line9_Unit[2]": [{"field": "form1[0].#subform[0].Pt1Line8j_Checkboxes[1]", "equals": "/N"}],
+    "form1[0].#subform[1].Pt1Line9_AptSteFlrNumber[0]": [{"field": "form1[0].#subform[0].Pt1Line8j_Checkboxes[1]", "equals": "/N"}],
+    "form1[0].#subform[1].Pt1Line9_CityOrTown[0]": [{"field": "form1[0].#subform[0].Pt1Line8j_Checkboxes[1]", "equals": "/N"}],
+    "form1[0].#subform[1].Pt1Line9_State[0]": [{"field": "form1[0].#subform[0].Pt1Line8j_Checkboxes[1]", "equals": "/N"}],
+    "form1[0].#subform[1].Pt1Line9_ZipCode[0]": [{"field": "form1[0].#subform[0].Pt1Line8j_Checkboxes[1]", "equals": "/N"}],
+    "form1[0].#subform[1].Pt1Line9_PostalCode[0]": [{"field": "form1[0].#subform[0].Pt1Line8j_Checkboxes[1]", "equals": "/N"}],
+    "form1[0].#subform[1].Pt1Line9_Province[0]": [{"field": "form1[0].#subform[0].Pt1Line8j_Checkboxes[1]", "equals": "/N"}],
+    "form1[0].#subform[1].Pt1Line9_Country[0]": [{"field": "form1[0].#subform[0].Pt1Line8j_Checkboxes[1]", "equals": "/N"}],
+    # 48. Do you have any children under 18 years of age? Select Yes.
+    "form1[0].#subform[3].Pt1Line49a_Age[0]": [{"field": "form1[0].#subform[3].Pt1Line48_Checkboxes[0]", "equals": "/Y"}],
+    "form1[0].#subform[3].Pt1Line49b_Age[0]": [{"field": "form1[0].#subform[3].Pt1Line48_Checkboxes[0]", "equals": "/Y"}],
+}
+
+I_360_CONDITIONS = {
+    # Part 6. 2. A. Is the mother still alive? Select Yes.
+    "form1[0].#subform[5].Pt6Line2b_InCareofName[0]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    "form1[0].#subform[5].Pt6Line2b_StreetNumberName[0]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    "form1[0].#subform[5].Pt6Line2b_Unit[0]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    "form1[0].#subform[5].Pt6Line2b_Unit[1]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    "form1[0].#subform[5].Pt6Line2b_Unit[2]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    "form1[0].#subform[5].Pt6Line2b_AptSteFlrNumber[0]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    "form1[0].#subform[5].Pt6Line2b_CityOrTown[0]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    "form1[0].#subform[5].Pt6Line2b_State[0]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    "form1[0].#subform[5].Pt6Line2b_ZipCode[0]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    "form1[0].#subform[5].Pt6Line2b_PostalCode[0]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    "form1[0].#subform[5].Pt6Line2b_Province[0]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    "form1[0].#subform[5].Pt6Line2b_Country[0]": [{"field": "form1[0].#subform[5].Pt6Line2a[1]", "equals": "/Y"}],
+    # Part 6. 6. A. Is the father still alive? Select Yes.
+    "form1[0].#subform[6].Pt6Line6b_InCareofName[0]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    "form1[0].#subform[6].Pt6Line6b_StreetNumberName[0]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    "form1[0].#subform[6].Pt6Line6b_Unit[0]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    "form1[0].#subform[6].Pt6Line6b_Unit[1]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    "form1[0].#subform[6].Pt6Line6b_Unit[2]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    "form1[0].#subform[6].Pt6Line6b_AptSteFlrNumber[0]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    "form1[0].#subform[6].Pt6Line6b_CityOrTown[0]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    "form1[0].#subform[6].Pt6Line6b_State[0]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    "form1[0].#subform[6].Pt6Line6b_ZipCode[0]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    "form1[0].#subform[6].Pt6Line6b_PostalCode[0]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    "form1[0].#subform[6].Pt6Line6b_Province[0]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    "form1[0].#subform[6].Pt6Line6b_Country[0]": [{"field": "form1[0].#subform[6].Pt6Line6a[1]", "equals": "/Y"}],
+    # Part 9. 2. Has the beneficiary ... previously been admitted ... Select Yes.
+    "form1[0].#subform[9].Pt9Line3_FamilyName[0]": [{"field": "form1[0].#subform[8].Pt9Line2[1]", "equals": "/Y"}],
+    "form1[0].#subform[9].Pt9Line3_GivenName[0]": [{"field": "form1[0].#subform[8].Pt9Line2[1]", "equals": "/Y"}],
+    "form1[0].#subform[9].Pt9Line3_MiddleName[0]": [{"field": "form1[0].#subform[8].Pt9Line2[1]", "equals": "/Y"}],
+    "form1[0].#subform[9].Pt9Line3_DateFrom[0]": [{"field": "form1[0].#subform[8].Pt9Line2[1]", "equals": "/Y"}],
+    "form1[0].#subform[9].Pt9Line3_DateTo[0]": [{"field": "form1[0].#subform[8].Pt9Line2[1]", "equals": "/Y"}],
+}
+
+N_300_CONDITIONS = {}
+N_426_CONDITIONS = {}
+
+N_648_CONDITIONS = {
+    # Part 3. 5. If yes, for some disabilities or impairments identify which...
+    "form1[0].#subform[2].Pt3Line11_Explanation[0]": [
+        {"field": "form1[0].#subform[2].Pt3Line10_Yes[0]", "equals": "/Y"},
+    ],
+}
+
+I_601_CONDITIONS = {
+    # Part 1. Mailing Address. 6. Is your current physical address the same as your mailing address? Select No.
+    "form1[0].#subform[1].p1Line7StreetNumberName[0]": [{"field": "form1[0].#subform[0].p1Line6YesNo[1]", "equals": "/N"}],
+    "form1[0].#subform[1].p1Line7CityTown[0]": [{"field": "form1[0].#subform[0].p1Line6YesNo[1]", "equals": "/N"}],
+    "form1[0].#subform[1].p1Line7State[0]": [{"field": "form1[0].#subform[0].p1Line6YesNo[1]", "equals": "/N"}],
+    "form1[0].#subform[1].p1Line7ZipCode[0]": [{"field": "form1[0].#subform[0].p1Line6YesNo[1]", "equals": "/N"}],
+    "form1[0].#subform[1].p1Line7Province[0]": [{"field": "form1[0].#subform[0].p1Line6YesNo[1]", "equals": "/N"}],
+    "form1[0].#subform[1].p1Line7PostalCode[0]": [{"field": "form1[0].#subform[0].p1Line6YesNo[1]", "equals": "/N"}],
+    "form1[0].#subform[1].p1Line7Country[0]": [{"field": "form1[0].#subform[0].p1Line6YesNo[1]", "equals": "/N"}],
+}
+
+I_601A_CONDITIONS = {
+    # Part 1. Your U.S. Mailing Address. 8. Is your current physical address the same as your mailing address? Select No.
+    "form1[0].#subform[0].Pt1Line9a_StreetNumberName[0]": [{"field": "form1[0].#subform[0].Pt1Line8_Checkbox[1]", "equals": "/N"}],
+    "form1[0].#subform[0].Pt1Line9b_Unit[0]": [{"field": "form1[0].#subform[0].Pt1Line8_Checkbox[1]", "equals": "/N"}],
+    "form1[0].#subform[0].Pt1Line9b_Unit[1]": [{"field": "form1[0].#subform[0].Pt1Line8_Checkbox[1]", "equals": "/N"}],
+    "form1[0].#subform[0].Pt1Line9b_Unit[2]": [{"field": "form1[0].#subform[0].Pt1Line8_Checkbox[1]", "equals": "/N"}],
+    "form1[0].#subform[0].Pt1Line9b_AptSteFlrNumber[0]": [{"field": "form1[0].#subform[0].Pt1Line8_Checkbox[1]", "equals": "/N"}],
+    "form1[0].#subform[0].Pt1Line9c_CityOrTown[0]": [{"field": "form1[0].#subform[0].Pt1Line8_Checkbox[1]", "equals": "/N"}],
+    "form1[0].#subform[0].Pt1Line9d_State[0]": [{"field": "form1[0].#subform[0].Pt1Line8_Checkbox[1]", "equals": "/N"}],
+    "form1[0].#subform[0].Pt1Line9e_ZipCode[0]": [{"field": "form1[0].#subform[0].Pt1Line8_Checkbox[1]", "equals": "/N"}],
+    # Part 4. 3. Do you have more than one qualifying relative? Select Yes.
+    "form1[0].#subform[4].Pt4Line4a_FamilyName[0]": [{"field": "form1[0].#subform[4].Pt4Line3_Checkbox[0]", "equals": "/Y"}],
+    "form1[0].#subform[4].Pt4Line4b_GivenName[0]": [{"field": "form1[0].#subform[4].Pt4Line3_Checkbox[0]", "equals": "/Y"}],
+    "form1[0].#subform[4].Pt4Line4c_MiddleName[0]": [{"field": "form1[0].#subform[4].Pt4Line3_Checkbox[0]", "equals": "/Y"}],
+}
+
+I_612_CONDITIONS = {
+    # Part 4. 13. Has your spouse or child obtained a Certificate of Citizenship? Select Yes.
+    "form1[0].#subform[4].P4_L30a_NatCertNumber[0]": [{"field": "form1[0].#subform[4].P4_L11a_chbxyesno[1]", "equals": "/Y"}],
+    # Part 4. 13. Has your spouse or child obtained a Certificate of Citizenship? Select No.
+    "form1[0].#subform[4].P4_L31a_FamilyName[0]": [{"field": "form1[0].#subform[4].P4_L11a_chbxyesno[0]", "equals": "/N"}],
+}
+
 CONDITIONS_BY_FORM_CODE = {
     "I-130": I_130_CONDITIONS,
     "I-765": I_765_CONDITIONS,
-    "G-28": {},
+    "G-28": G_28_CONDITIONS,
     "I-131": I_131_CONDITIONS,
     "I-485": I_485_CONDITIONS,
     "I-589": I_589_CONDITIONS,
@@ -500,15 +599,15 @@ CONDITIONS_BY_FORM_CODE = {
     # Family/naturalization forms -- no show_if rules curated yet (deliberately
     # {}, same as G-28, not an oversight; see this dict's entry above and the
     # module docstring for what "no rules" means here).
-    "I-129F": {},
-    "I-360": {},
-    "N-300": {},
-    "N-426": {},
+    "I-129F": I_129F_CONDITIONS,
+    "I-360": I_360_CONDITIONS,
+    "N-300": N_300_CONDITIONS,
+    "N-426": N_426_CONDITIONS,
     "N-644": {},
-    "N-648": {},
-    "I-601": {},
-    "I-601A": {},
-    "I-612": {},
+    "N-648": N_648_CONDITIONS,
+    "I-601": I_601_CONDITIONS,
+    "I-601A": I_601A_CONDITIONS,
+    "I-612": I_612_CONDITIONS,
     "AR-11": {},
     "EOIR-29": {},
     "G-1041": {},
@@ -563,6 +662,8 @@ CONDITIONS_BY_FORM_CODE = {
     "I-821D": {},
     "I-824": {},
     "I-829": {},
+    "I-854A": {},
+    "I-854B": {},
     "I-864A": {},
     "I-865": {},
     "I-881": {},
