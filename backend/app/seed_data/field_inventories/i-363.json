@@ -1,0 +1,1794 @@
+[
+  {
+    "name": "form1[0].#subform[0].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "To be completed by an Attorney or Accredited Representative, if any. Select this box if Form G-28 is attached.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].AttorneyStateBarNumber[0]",
+    "type": "text",
+    "label": "To be completed by an Attorney or Accredited Representative, if any. Enter Attorney State Bar Number, if applicable.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].USCISOnlineAcctNumber[0]",
+    "type": "text",
+    "label": "To be completed by an Attorney or Accredited Representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line1a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). 1. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line1b_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). 1. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line1c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). 1. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line5_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). 5. Enter Alien Registration Number (A. Number), if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line8a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Mailing Address. 12. B. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line12c_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Mailing Address. 12. C. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line8c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Mailing Address. 12. D. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line12e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Mailing Address. 12. F. Enter Zip Code",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line12e_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You (Beneficiary). Mailing Address. 12. E. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line12c_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Beneficiary). Mailing Address. 12. C. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line12c_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Beneficiary). Mailing Address. 12. C. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line12c_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Beneficiary). Mailing Address. 12. C. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line5_SSN[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). 6. Enter U.S. Social Security Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_AcctIdentifier[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). 7. Enter U S C I S Online Account Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line2_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). 2. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line4_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Place of Birth. 3. B. Enter Province or State of Birth.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line7_RelationshipSponsor[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Initially Admitted to the United States. 10. Enter Beneficiary's Relationship to Sponsor.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line4_CountryofBirth[1]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Place of Birth. 3. C. Enter Country of Birth.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line3c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Initially Admitted to the United States. 9. Enter Destination in U.S. at Time of Initial Admission.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line1_NameOfEmployer[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Mailing Address. 12. A. Enter In Care of.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line4_CountryofBirth[2]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Place of Birth. 3. A. Enter City or Town of Birth.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line4_CountryofBirth[3]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). 4. Enter Country of Citizenship or Nationality.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line3c_CityOrTown[1]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Initially Admitted to the United States. Port-of-Entry. 8. A. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line3d_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You (Beneficiary). Initially Admitted to the United States. Port-of-Entry. 8. B. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line3c_CityOrTown[2]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Beneficiary's file is at the U S C I S office in. 11. A. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line3d_State[1]",
+    "type": "choice",
+    "label": "Part 1. Information About You (Beneficiary). Beneficiary's file is at the U S C I S office in. 11. B. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].CheckBox1[1]",
+    "type": "checkbox",
+    "label": "For U S C I S Use Only. This applicant was interviewed by me. Select in person.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].CheckBox1[2]",
+    "type": "checkbox",
+    "label": "For U S C I S Use Only. This applicant was interviewed by me. Select by phone.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line3a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Employer or School Address. 15. A. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line15b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Employer or School Address. 15. B. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line3c_CityOrTown[3]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Employer or School Address. 15. C. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Employer or School Address. 15. E. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line3d_State[2]",
+    "type": "choice",
+    "label": "Part 1. Information About You (Beneficiary). Employer or School Address. 15. D. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line15b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Beneficiary). Employer or School Address. 15. B. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line15b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Beneficiary). Employer or School Address. 15. B. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line15b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Beneficiary). Employer or School Address. 15. B. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line1a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. 1. A. Enter Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line1b_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. 1. B. Enter Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line1c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. 1. C. Enter Middle Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line5_SSN[1]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. 4. Enter U.S. Social Security Number, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line6_AcctIdentifier[1]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. 5. Enter U S C I S Online Account Number, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line4_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. 3. Enter Alien Registration Number (A. Number), if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line1_NameOfEmployer[1]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Employment Information. 12. Enter Name of Employer.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line2_TypeOfBusiness[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Employment Information. 13. Enter Type of Business.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line1_NameOfEmployer[2]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Employment or School Information. 13. Enter Name of Employer or School.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line2_TypeOfBusiness[1]",
+    "type": "text",
+    "label": "Part 1. Information About You (Beneficiary). Employment or School Information. 14. Enter Type of Business.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Line4_Email[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Sponsor's Contact Information. 11. Enter Sponsor's Email Address, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Line3_DaytimePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Sponsor's Contact Information. 9. Enter Sponsor's Daytime Telephone Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Line3_DaytimePhoneNumber1[1]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Sponsor's Contact Information. 10. Enter Sponsor's Mobile Telephone Number, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line10_ChkBoxes[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. 2. The Sponsor Is A. Select U.S. Citizen.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line10_ChkBoxes[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. 2. The Sponsor Is A. Select Lawful Permanent Resident.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Mailing Address. 6. A. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line6b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Mailing Address. 6. B. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Mailing Address. 6. C. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Mailing Address. 6. E. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line7d_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About Sponsor. Mailing Address. 6. D. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line6b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. Mailing Address. 6. B. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line6b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. Mailing Address. 6. B. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line6b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. Mailing Address. 6. B. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line7_ChkBoxes[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. Mailing Address. 7. Are your mailing address and physical address the same? Select No. If you answered \"No\" to Item Number 7., provide your physical address in Item Numbers 8. A. through 8. E. ",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line7_ChkBoxes[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. Mailing Address. 7. Are your mailing address and physical address the same? Select Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line8a_StreetNumberName[1]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Physical Address. 8. A. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line8b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Physical Address. 8. B. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line8c_CityOrTown[1]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Physical Address. 8. C. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line8b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. Physical Address. 8. B. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line8b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. Physical Address. 8. B. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line8b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. Physical Address. 8. B. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line8e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Physical Address. 8. E. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line8d_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About Sponsor. Physical Address. 8. D. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line3a_StreetNumberName[1]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Employer Address. 14. A. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line14b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Employer Address. 14. B. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line3c_CityOrTown[4]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Employer Address. 14. C. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line14_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Employer Address. 14. H. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line14_Province[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Employer Address. 14. F. Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line14_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Employer Address. 14. G. Enter Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line14_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About Sponsor. Employer Address. 14. E. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line14_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About Sponsor. Employer Address. 14. D. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line14b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. Employer Address. 14. B. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line14b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. Employer Address. 14. B. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line14b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Sponsor. Employer Address. 14. B. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line1_ChkBoxes[0]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 1. Does the beneficiary live with the sponsor? Select No. If you answered \"No\" to Item Number 1., provide the name of the person with whom the beneficiary lives in Item Numbers 2. A. through 2. C. ",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line3_ChkBoxes[0]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 3. How is the beneficiary supported? Select Other Sources.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line3_ChkBoxes[1]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 3. How is the beneficiary supported? Select Sponsor.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line2a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. 2. A. Enter Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line2b_GivenName[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. 2. B. Enter Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line2c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. 2. C. Enter Middle Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line3h_Country[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. 4. If the beneficiary is supported by the sponsor, how long has the sponsor supported the beneficiary? Enter Length of Time.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line5_ChkBoxes[0]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 5. Is the beneficiary in the legal custody of the sponsor? (Explain). Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line5_ChkBoxes[1]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 5. Is the beneficiary in the legal custody of the sponsor? (Explain). Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line6_ChkBoxes[0]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 6. Has the sponsor stopped all support? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line6_ChkBoxes[1]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 6. Has the sponsor stopped all support? Select Yes. If you answered \"Yes\" to Item Number 6., provide the date when the support stopped in Item Numbers 7. ",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line2_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. 7. Enter Date Support Stopped. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. 5. Is the beneficiary in the legal custody of the sponsor? (Explain). Enter Explanation.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line8_ChkBoxes[0]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 8. Has the sponsor given any reason for withdrawal of support? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line8_ChkBoxes[1]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 8. Has the sponsor given any reason for withdrawal of support? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].LineP3_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. 8. If you answered \"Yes\" to Item Number 8., describe the circumstances under which the sponsor ceased his or her support. If you need extra space to provide any additional information, use the space provided below in  Part 7. Additional Information. Enter Explanation. NOTE:  Attach a copy of Form I-361, Affidavit of Financial Support and Intent to Petition for Legal Custody for P. L. 97-3 59 Amerasian, if available.  ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part4_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 4. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Signature. 1. B. Select The interpreter named in Part 5. read to me every question and instruction on this application and my answer to every question in a language in which I am fluent, and I understood everything.",
+    "page": 3,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[2].Part4_language[0]",
+    "type": "text",
+    "label": "Part 4. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Signature. 1. B. Enter Language.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part4_Checkbox2[0]",
+    "type": "checkbox",
+    "label": "Part 4. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Signature. 2. Select At my request, the preparer named in Part 6. prepared this application for me based only upon information I provided or authorized.",
+    "page": 3,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[2].Part4_PreparerName[0]",
+    "type": "text",
+    "label": "Part 4. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Signature. 2. Enter Name of Preparer.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part4_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 4. Applicant's Statement, Contact Information, Certification, and Signature. NOTE: Read the Penalties section of the Form I-3 63 Instructions before completing this part. Applicant's Signature. Note: Select the box for either Item Number 1. A. or 1. B. If applicable, select the box for Item Number 2. 1. A. Select I can read and understand English, and I have read and understand every question and instruction on this application and my answer to every question.",
+    "page": 3,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[2].Line4_Email[1]",
+    "type": "text",
+    "label": "Part 4. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Contact Information. 5. Enter Applicant's Email Address, if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Line3_DaytimePhoneNumber1[2]",
+    "type": "text",
+    "label": "Part 4. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Contact Information. 3. Enter Applicant's Daytime Telephone Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Line3_DaytimePhoneNumber1[3]",
+    "type": "text",
+    "label": "Part 4. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Contact Information. 4. Enter Applicant's Mobile Telephone Number, if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line9_ChkBoxes[0]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 9. Relationship of Applicant. Select Representative of the Agency Having Legal Custody of the Beneficiary.",
+    "page": 3,
+    "on_value": "/0"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line9_ChkBoxes[1]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 9. Relationship of Applicant. Select Self.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line9_ChkBoxes[2]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 9. Relationship of Applicant. Select Individual Having Legal Custody of the Beneficiary.",
+    "page": 3,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line9_ChkBoxes[3]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 9. Relationship of Applicant. Select Guardian Ad Litem.",
+    "page": 3,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line1_ChkBoxes[1]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. 1. Does the beneficiary live with the sponsor? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].Line2_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 4. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Signature. 6. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line1_Signature[0]",
+    "type": "text",
+    "label": "Part 4. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Signature. 6. A. Applicant's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line6b_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. A. Enter Street Number and Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line6c_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Suite.",
+    "page": 4,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[3].Line6c_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Floor.",
+    "page": 4,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[3].Line3b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line6c_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Apartment.",
+    "page": 4,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[3].Line6d_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. C. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line6h_PostalCode[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. G. Enter Postal Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line6f_ZipCode[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. E. Enter Zip Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line6e_State[0]",
+    "type": "choice",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. D. Select State from List of States.",
+    "page": 4,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[3].Line6i_Country[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. H. Enter Country.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line6h_Province[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. F. Enter Province.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line4_Email[2]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter Interpreter's Email Address, if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line3_DaytimePhoneNumber1[4]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line3_DaytimePhoneNumber1[5]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number, if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line1b_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. 2. Enter Interpreter's Business or Organization Name, if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line1b_PreparerGivenName[1]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line1a_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Provide the following information about the interpreter. Interpreter's Full Name. 1. A. Enter Interpreter's Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Part4Line7_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Statement. 7. A. Select I am not an attorney or accredited representative but have prepared this application on behalf of the applicant and with the applicant's consent.",
+    "page": 5,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[4].Part4Line7_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative.",
+    "page": 5,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[4].Part4Line7b_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the applicant in this case extends beyond the preparation of this application. NOTE:  If you are an attorney or accredited representative whose representation extends beyond preparation of this application, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this request.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].Part4Line7b_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the applicant in this case does not extend beyond the preparation of this application.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].Line5a_Signature[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Signature. 8. A. Preparer's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line5b_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Signature. 8. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line1b_PreparerGivenName[2]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 1. B. Enter Preparer's Given Name (First Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line2_BusinessName[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 2. Enter Preparer's Business or Organization Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line1a_PreparerFamilyName[1]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Provide the following information about the preparer. Preparer's Full Name. 1. A. Enter Preparer's Family Name (Last Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line6b_StreetNumberName[1]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. A. Enter Street Number and Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Part4Line3b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. B. Select Suite.",
+    "page": 5,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[4].Part4Line3b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. B. Select Floor.",
+    "page": 5,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[4].Part4Line3b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Part4Line3b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. B. Select Apartment.",
+    "page": 5,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[4].Line6d_CityOrTown[1]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. C. Enter City or Town.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line6h_PostalCode[1]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. G. Enter Postal Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line6f_ZipCode[1]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. E. Enter Zip Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line6e_State[1]",
+    "type": "choice",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. D. Select State from List of States.",
+    "page": 5,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[4].Line6i_Country[1]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. H. Enter Country.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line6h_Province[1]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. F. Enter Province.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line4_Email[3]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 6. Enter Preparer's Email Address, if any.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line3_DaytimePhoneNumber1[6]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line3_DaytimePhoneNumber1[7]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 5. Enter Preparer's Mobile Telephone Number, if any.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line24a_Degree[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that I am fluent in English and (Enter Language), which is the same language specified in Part 4., Item Number 1. B., and I have read to this applicant in the identified language every question and instruction on this request and his or her answer to every question.  The applicant informed me that he or she understands every instruction, question, and answer on the request, including the Applicant's Certification, and has verified the accuracy of every answer. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line5b_DateofSignature[1]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line5a_Signature[1]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. A. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line5_AlienNumber[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 2. Alien Registration Number (A. Number), if any. This is a read only field. It is pre-populated from the first page.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line2a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 3. A. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line2b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 3. B. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line2c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 3. C. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line2d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 3. D. Enter Additional Information.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 4. A. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 4. B. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 4. C. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 4. D. Enter Additional Information.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 5. A. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 5. B. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 5. C. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line4d_AdditionalInfo[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 5. D. Enter Additional Information.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line5a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 6. A. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line5b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 6. B. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line5c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 6. C. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line5d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 6. D. Enter Additional Information.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line5a_PageNumber[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 7. A. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line5b_PartNumber[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 7. B. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line5c_ItemNumber[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 7. C. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line5d_AdditionalInfo[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 7. D. Enter Additional Information.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line1a_FamilyName[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. If you need extra space to provide any additional information within this request, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this request or attach a separate sheet of paper.  Type or print your name and A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. A. Family Name (Last Name). This is a read only field. It is pre-populated from the first page.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line1b_GivenName[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 1. B. Given Name (First Name). This is a read only field. It is pre-populated from the first page.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line1c_MiddleName[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 1. C. Middle Name. This is a read only field. It is pre-populated from the first page.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Line5b_DateofSignature[2]",
+    "type": "text",
+    "label": "For U S C I S Use Only. If an investigation was conducted, provide the date it was completed. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line5a_Signature[2]",
+    "type": "text",
+    "label": "For U S C I S Use Only. 2. Signature of U S C I S Officer. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P1_Line12a_ChkBoxes[0]",
+    "type": "checkbox",
+    "label": "For U S C I S Use Only. 1. B. Select Investigation Not Necessary.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].P1_Line12a_ChkBoxes[1]",
+    "type": "checkbox",
+    "label": "For U S C I S Use Only. 1. C. Select Enforcement Recommended.",
+    "page": 7,
+    "on_value": "/c"
+  },
+  {
+    "name": "form1[0].#subform[6].P1_Line12a_ChkBoxes[2]",
+    "type": "checkbox",
+    "label": "For U S C I S Use Only. 1. D. Select No Action Recommended.",
+    "page": 7,
+    "on_value": "/d"
+  },
+  {
+    "name": "form1[0].#subform[6].Line5a_Signature[3]",
+    "type": "text",
+    "label": "For U S C I S Use Only. 4. Enter Name of Regional Counsel.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line5b_DateofSignature[3]",
+    "type": "text",
+    "label": "For U S C I S Use Only. 6. Enter Date. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P1_Line12a_ChkBoxes[3]",
+    "type": "checkbox",
+    "label": "For U S C I S Use Only. 5. Select Recommendation Forwarded to U.S. Attorney. ",
+    "page": 7,
+    "on_value": "/e"
+  },
+  {
+    "name": "form1[0].#subform[6].P1_Line12a_ChkBoxes[4]",
+    "type": "checkbox",
+    "label": "For U S C I S Use Only. 1. A. Select Investigation Necessary.",
+    "page": 7,
+    "on_value": "/a"
+  },
+  {
+    "name": "form1[0].#subform[6].Line2_BusinessName[1]",
+    "type": "text",
+    "label": "For U S C I S Use Only. 3. Enter Title of U S C I S Officer.",
+    "page": 7
+  }
+]

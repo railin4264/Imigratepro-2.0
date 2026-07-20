@@ -1,0 +1,727 @@
+[
+  {
+    "name": "form1[0].#subform[0].#area[0].P1_Line2_194ArrivalDeparture[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Immigration Document Number. 2.  Enter Form I - 94 Number (Arrival-Departure Record).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_OtherImmigrationNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Immigration Document Number. 3. Enter Other Immigration Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_NameOfFormNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Immigration Document Number. 4. Enter Name or Form Number of Document Containing the Other Immigration Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line5_LastName[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Applicant's Full Name as Shown on the Immigration Document. 5. Enter Last Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line5_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Applicant's Full Name as Shown on the Immigration Document. 5. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line5_FirstName[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Applicant's Full Name as Shown on the Immigration Document. 5. Enter First Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1_AlienRegistrationNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Immigration Document Number. 1. Enter Alien Registration Number (A-Number).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_USCIS-SAVE-ProgStatus[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. NOTE: Only the Registered Agency should complete this information. To: U.S. Citizenship and Immigration Services (U S C I S). Attention: U S C I S SAVE Program Status Verification Office. Stamp, type, or print the name, address, and ZIP Code of the Registered Agency. Print clearly since U S C I S may use agency address below with a Number 10 window envelope.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_NameAddressZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Enter From Address.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_CaseVerificationNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. 6. Enter Case Verification Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line7_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. 7. Enter Date of Birth. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line7_SSN[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. 8. Enter Social Security Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_StudentExchange[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. 9. Enter Student and Exchange Visitor Information System (SEVIS) Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line10_CitizeshipOrNat[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. 10. Enter Citizenship or Nationality.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line11a_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Documents Attached (Select all that apply). 11. A. Check this box for Photocopy of most recently issued immigration document attached.  Ensure copies are legible and made from an original document.  If the immigration document is printed on both sides, attach a copy of the front and back.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line11b_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Documents Attached (Select all that apply). 11. B. Check this box for Other Information Attached (Specify Documents).",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line11b_Explanation[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Documents Attached (Select all that apply). 11. B. If Other Information Attached is checked, Specify Documents.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12a_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. A. Check this box for Background Check.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12b_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. B. Check this box for Driver's License / I D.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12c_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. C. Check this box for Education Grant / Loan / Work Study.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12d_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. D. Check this box for Employment Authorization.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12e_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. E. Check this box for Food Stamps.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12f_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. F. Check this box for Housing Assistance.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12g_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. G. Check this box for Medicaid / Medical Assistance.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12h_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. H. Check this box for Social Security Number.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12i_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. I. Check this box for S S I or R S D I.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12j_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. J. Check this box for T A. N F.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12k_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. K. Check this box for Unemployment Insurance.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12l_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. L. Check this box for Other (Specify).",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line12l_Other[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 12. L. If Other is checked, specify.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line5_FirstName[1]",
+    "type": "text",
+    "label": "Applicant's First Name. This is a read only field.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line5_LastName[1]",
+    "type": "text",
+    "label": "Applicant's Last Name. This is a read only field.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line6_CaseVerificationNumber[1]",
+    "type": "text",
+    "label": "Case Verification Number. This is a read only field.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line13_RegAgencyCaseNum[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 13. Enter Registered Agency Case Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line15_TitleOfAgency[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 15. Enter Title of Agency Official.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line16a_DaytimeTelephone[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 16. A. Enter Daytime Telephone Number (Include Area Code).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line16b_ExtnsionNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 16. B. Enter Extension Number, if applicable.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line17_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 17. Enter Fax Number, if any (Include Area Code).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line18_DateOfRequest[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 18. Enter Date Request Completed. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line14_FirstName[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. Full Name of Agency Official. 14. Enter First Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line14_LastName[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. Full Name of Agency Official. 14. Enter Last Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line19_CheckboxExpected[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 19. Registered Agency Reason for Requesting Additional Verification (required). Check this box if expected a different immigration status.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line16_CheckboxDate[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 19. Registered Agency Reason for Requesting Additional Verification (required). Check to determine Date information is needed.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line19_CheckboxDateNeeded[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 19. Registered Agency Reason for Requesting Additional Verification (required). Date information is needed. Check E A D Date.",
+    "page": 2,
+    "on_value": "/EAD"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line19_CheckboxDateNeeded[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 19. Registered Agency Reason for Requesting Additional Verification (required). Date information is needed. Check Grant Date.",
+    "page": 2,
+    "on_value": "/Grant"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line19_CheckboxDateNeeded[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 19. Registered Agency Reason for Requesting Additional Verification (required). Date information is needed. Check Date admitted To",
+    "page": 2,
+    "on_value": "/admitted"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line9l_Other[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 19. Enter immigration status.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line7_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Check this box for Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.).",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line8_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 8. Check this box for Conditional entrant of the United States. ",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line7_Checkboxes[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.). Check this box for No Expiration Date (Indefinite).",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line7_Checkboxes[1]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.). Check this box for Parole Granted Date.",
+    "page": 3,
+    "on_value": "/G"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line7_Date[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.). Enter Parole Granted Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line7_Checkboxes[2]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.). Check this box for Parole Expiration Date.",
+    "page": 3,
+    "on_value": "/E"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line7_Date[1]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.). Enter Parole Expiration Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line9_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 9. Check this box for Nonimmigrant (Specify type or class and expiration date).",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line10_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 10. Check this box for U.S. Citizen.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line9_TypeOrClass[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 9. If Nonimmigrant is selected, Specify Type or Class.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line9_ExpireDate[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 9. If Nonimmigrant is selected, Enter Expiration Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line5_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 5. Check this box for Applicant has an application pending for the following U S C I S benefit.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line6_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 6. Check this box for Applicant was granted asylum or refugee status in the United States.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line5_USCISBenefit[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 5. If Applicant has an application pending for the following U S C I S benefit is selected, Enter U S C I S benefit.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line5_FirstName[2]",
+    "type": "text",
+    "label": "Applicant's First Name. This is a read only field.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line5_LastName[2]",
+    "type": "text",
+    "label": "Applicant's Last Name. This is a read only field.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line3_Checkboxes[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Check this box for No Expiration Date (Indefinite).",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line3_Checkboxes[1]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Check this box for Expiration Date.",
+    "page": 3,
+    "on_value": "/E"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line3b_Date[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Enter Expiration Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line3_Checkboxes[2]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Check this box for Previous Employment Authorization Dates.",
+    "page": 3,
+    "on_value": "/P"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line3_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Check this box for Applicant is employment authorized in the United States as indicated.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line4_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 4. Check this box for Applicant is not employment authorized in the United States.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line1_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. NOTE:  Only U S C I S should complete this information. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 1. Check this box for Lawful Permanent Resident of the United States.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line2_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 2. Check this box for Conditional Permanent Resident of the United States.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line6_CaseVerificationNumber[2]",
+    "type": "text",
+    "label": "Case Verification Number. This is a read only field.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line11_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 11. Check this box for Cuban / Haitian entrant of the United States.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line12_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 12. Check this box for American Indian born in Canada to whom the provisions of I N A. 2 89 apply. ",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line12_DateStatusRec[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 12. If American Indian born in Canada to whom the provisions of I N A. 2 89 apply is selected, Enter Date Status Recognized. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Table1[0].Row1[0].P2_Line3_StartDate1[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line One. Enter Start Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Table1[0].Row1[0].P2_Line3_EndDate1[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line One. Enter End Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Table1[0].Row2[0].P2_Line3_StartDate2[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line Two. Enter Start Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Table1[0].Row2[0].P2_Line3_EndDate2[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line Two. Enter End Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Table1[0].Row3[0].P2_Line3_StartDate3[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line Three. Enter Start Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Table1[0].Row3[0].P2_Line3_EndDate3[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line Three. Enter End Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line19_Other[0]",
+    "type": "text",
+    "label": "Part 1. Information From the Registered Part 1. Information From the Registered Agency. Registered Agency Information. 19. Registered Agency Reason for Requesting Additional Verification (required). Date information is needed. .If Other is checked, specify.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line19_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information From the Registered Agency. Registered Agency Information. 19. Registered Agency Reason for Requesting Additional Verification (required). Date information is needed. Check Other",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line5_FirstName[3]",
+    "type": "text",
+    "label": "Applicant's First Name. This is a read only field.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line5_LastName[3]",
+    "type": "text",
+    "label": "Applicant's Last Name. This is a read only field.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line14_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 14. Check this box for Deferred Action for Childhood Arrivals (D A. C A.).",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line15_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 15. Check this box for Temporary Protected Status (T P S).",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line17_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 17. Check this box for V A. W A. Self-Petitioner.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line16_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 16. Check this box for Deferred Action Status.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line18_checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 18. Check this box for Withholding of Removal.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line19_checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 19. Check this box for U S C I S is searching indices for further information.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line20_checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 20. Check this box for This document is not valid because it appears to be: (Select all that apply).",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line20_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. 20. Check this box for This document is not valid because it appears to be Expired.",
+    "page": 4,
+    "on_value": "/Expired"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line20_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. 20. Check this box for This document is not valid because it appears to be Altered.",
+    "page": 4,
+    "on_value": "/Altered"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line20_Checkbox[2]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. 20. Check this box for This document is not valid because it appears to be Counterfeit.",
+    "page": 4,
+    "on_value": "/Couterfeit"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line17_CheckboxYesNo[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. 17.  Check this box for Pending prima facie V A. W A. self-petition.",
+    "page": 4,
+    "on_value": "/a"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line17_CheckboxYesNo[1]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. 17.  Check this box for Approved V A. W A. self-petition.",
+    "page": 4,
+    "on_value": "/b"
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Line1_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 3. U S C I S Comments. NOTE: Only U S C I S should complete this information. 1. Check this box for Unable to process request without an original consent of disclosure statement signed by the applicant.  Resubmit request.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Line2_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 3. U S C I S Comments. 2. Check this box for No determination can be made because insufficient information was submitted. Obtain a copy of the applicant's most recently issued immigration document. Submit a new request.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line6_CaseVerificationNumber[3]",
+    "type": "text",
+    "label": "Case Verification Number. This is a read only field.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Line6_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 3. U S C I S Comments. 6. Check this box for Other.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Line5_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 3. U S C I S Comments. 5. Check this box for Unable to verify status based on the document provided. If this is the applicant's most recently issued immigration document, refer the applicant to the document issuing authority.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Line4_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 3. U S C I S Comments. 4. Check this box for Copy provided of applicant's immigration document is illegible. Submit a new request with legible documents.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Line3_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 3. U S C I S Comments. 3. Check this box for No determination can be made without seeing both sides of the applicant's immigration document. Attach copies (front and back) of the applicant's most recently issued immigration document and submit a new request.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line13_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 13. Check this box for Mexican Born Member of the Texas or Oklahoma Band of Kickapoo Indians. ",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line13_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. 13. Check this box for I - 8 72 Issuance Date. ",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line13_IssuanceDate[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. 13. Enter I - 8 72 Issuance Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line13_COAKICKIP[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. 13. Enter C O A. (K I C or KIP).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line13_Checkbox[2]",
+    "type": "checkbox",
+    "label": "Part 2. U S C I S Responses. 13. Check this box for Other foreign born American Indian Date of Entry.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line13_OtherForeignDate[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. 13. Enter Other foreign born American Indian Date of Entry. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line13_COA[0]",
+    "type": "text",
+    "label": "Part 2. U S C I S Responses. 13.  Enter C O A.",
+    "page": 4
+  }
+]

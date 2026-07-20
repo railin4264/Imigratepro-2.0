@@ -1,4 +1,5 @@
 from app.models.appointment import Appointment
+from app.models.audit_log import AuditLog
 from app.models.auth_token import PasswordResetToken, RefreshToken
 from app.models.billing import Invoice, Payment
 from app.models.case import Case, CaseParticipant
@@ -18,6 +19,7 @@ from app.models.user import User
 
 __all__ = [
     "Appointment",
+    "AuditLog",
     "Case",
     "CaseChecklistItem",
     "CaseParticipant",

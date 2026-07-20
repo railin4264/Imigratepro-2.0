@@ -1,0 +1,555 @@
+[
+  {
+    "name": "form1[0].#subform[0].P1_Line1a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1b_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_DaytimeTelephone[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor). Requestor's Contact Information. 3. Enter Requestor's Daytime Telephone Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_MobileTelephone[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor). Requestor's Contact Information. 4. Enter Requestor's Mobile Telephone Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line5_Email[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor). Requestor's Contact Information. 5. Enter Requestor's Email Address, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2b_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. B. Enter Street Number and Name. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2c_unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Suite.",
+    "page": 1,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2c_unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Floor.",
+    "page": 1,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2c_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2c_unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Apartment.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2d_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. D. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2a_InCareofName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. A. Enter In Care Of Name, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line2a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Information Needed to Release a Historical Record. Full Name of the Immigrant. 2. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line2b_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Information Needed to Release a Historical Record. Full Name of the Immigrant. 2. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line2c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Information Needed to Release a Historical Record. Full Name of the Immigrant. 2. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2g_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. G. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2h_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. H. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2f_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. F. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2e_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. E. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2i_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. I. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].P2_chbx1ayesno[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information Needed to Release a Historical Record. 1. A. Is the file information provided below the result of a previous Genealogy Index Search Request? Select Yes. If you answered \"Yes,\" provide the Genealogy Index Search Request case numbers in Item Number 1 B.",
+    "page": 1,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].P2_chbx1ayesno[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information Needed to Release a Historical Record. 1. A. Is the file information provided below the result of a previous Genealogy Index Search Request? Select No.",
+    "page": 1,
+    "on_value": "/No"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6b_RequesterSignDate[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor). Requestor's Certification. 6. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P4_Line1b_Medical_License_Number[0]",
+    "type": "text",
+    "label": "Part 2. Information Needed to Release a Historical Record. 1. B. Enter Genealogy Index Search Case Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line3a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Information Needed to Release a Historical Record. Other Names Used by the Immigrant. List all other names immigrant has ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 4. Additional Information. 3. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line3b_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Information Needed to Release a Historical Record. Other Names Used by the Immigrant. List all other names immigrant has ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 4. Additional Information. 3. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line3c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Information Needed to Release a Historical Record. Other Names Used by the Immigrant. List all other names immigrant has ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 4. Additional Information. 3. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P5_Line6a_SignatureofApplicant[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor). Requestor's Certification. By my signature, I consent to pay all costs incurred for search, duplication, and review of documents up to 20 dollars. See Form G - 10 41 Instructions for more information. 6. A. Requestor's Signature. This form can not be signed electronically. The name of the requestor can not be typewritten into this space.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line1b_DateOfNat[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Naturalization Certificate File (1906 through 1956). 1. B. Enter Date of Naturalization. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line1c_Court[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Naturalization Certificate File (1906 through 1956). 1. C. Enter Court.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line1d_City[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Naturalization Certificate File (1906 through 1956). 1. D. Enter City.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line1d_County[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Naturalization Certificate File (1906 through 1956). 1. E. Enter County.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line1a_Cert-Number[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Naturalization Certificate File (1906 through 1956). 1. A. Enter Certificate Number. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line2a_Cert-Number[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Non-standard C-Files (B, D, O M, O S, A., A. A., O L). 2. A. Enter Number as Shown on Certificate. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line2b_DateOfIssu[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Non-standard C-Files (B, D, O M, O S, A., A. A., O L).  2. B. Enter Date of Issuance. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line3b_Fee[0]",
+    "type": "checkbox",
+    "label": "Part 3. Identification of Requested Record.  Alien Registration Record (A. R-2) (1940 to 1944). 3. B. Fee. Select 80 dollars (Copy Format - Microfilm).",
+    "page": 2,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line4b_Fee[0]",
+    "type": "checkbox",
+    "label": "Part 3. Identification of Requested Record. A. File numbered below 8 million. 4. B. Fee. Select 80 dollars (Copy Format - Hard Copy).",
+    "page": 2,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line4a_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. 4. A. Enter Date of Birth. Enter as 2 digit Month, 2 digit Day, and 4 digit Year.  IMPORTANT:  If the immigrant's date of birth is less than 100 years prior to the date of this request, you must attach documentary proof of death to the request form.  Do not attach original records because we will not return them.  See the Who Should Use Form G-1041A section of these Instructions for examples of acceptable documentary proof of death. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].#area[3].Pt2Line4b_actual[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. 4. B. Is this date actual or estimated? Select Actual.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].#area[3].Pt2Line4b_estimated[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. 4. B. Is this date actual or estimated? Select Estimated.",
+    "page": 2,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line5a_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 5. A. Enter Town or Village.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line5b_Province[0]",
+    "type": "text",
+    "label": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 5. B. Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_Line5c_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 5. C. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].#area[4].Pt2Line1_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record.  Alien Registration Record (A. R-2) (1940 to 1944). 3. A. Enter Alien Registration Number (A. Number). A. or A. R.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line5a_Visa_Number[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Visa File (1924 to 1944). 5. A. Enter Visa Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line5b_DateOfEntry[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Visa File (1924 to 1944). 5. B. Enter Date of Entry. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line5c_PortOfEntry[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Visa File (1924 to 1944). 5. C. Enter Port of Entry.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line5d_Ship[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Visa File (1924 to 1944). 5. D. Enter Ship (seaport arrivals only).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line6_TotalFees[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Registry File (1929 to 1944). 6 B. Enter Total Fees Due / Attached.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line6a_RegistryFile[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. Registry File (1929 to 1944). 6. A. Enter Registry File Number. R.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line5e_chbx[0]",
+    "type": "checkbox",
+    "label": "Part 3. Identification of Requested Record. Visa File (1924 to 1944). 5. E. Fee. Select 80 dollars (Copy Format - Hard Copy).",
+    "page": 2,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line6b_chbx[0]",
+    "type": "checkbox",
+    "label": "Part 3. Identification of Requested Record. Registry File (1929 to 1944). 6. B. Fee. Select 80 dollars (Copy Format - Hard Copy).",
+    "page": 2,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line4a_A-File_Number[0]",
+    "type": "text",
+    "label": "Part 3. Identification of Requested Record. A. File numbered below 8 million. 4. A. Enter A. File Number. A.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].#area[7].P3_line1f_chbx[0]",
+    "type": "checkbox",
+    "label": "Part 3. Identification of Requested Record.  Naturalization Certificate File (1906 through 1956). 1. F. Fee (Select all appropriate boxes). Select 80 dollars (Microfilm).",
+    "page": 2,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "form1[0].#subform[1].#area[7].P3_line1f_chbx[1]",
+    "type": "checkbox",
+    "label": "Part 3. Identification of Requested Record.  Naturalization Certificate File (1906 through 1956). 1. F. Fee (Select all appropriate boxes). Select 80 dollars (Hard Copy). ",
+    "page": 2,
+    "on_value": "/No"
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line1a_FamilyName[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information. No Entry, data populated from Page 1, Part 1.  1. A. Enter Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line1b_GivenName[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information. No Entry, data populated from Page 1, Part 1. 1. B. Enter Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line1c_MiddleName[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information. No Entry, data populated from Page 1, Part 1. 1. C. Enter Middle Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 3. C. Enter Item Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 3. A. Enter Page Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 3. B. Enter Part Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 3. D. Enter Additional Information.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 4. C. Enter Item Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 4. A. Enter Page Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 4. B. Enter Part Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 4. D. Enter Additional Information.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line2c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 2. C. Enter Item Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line2a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 2. A. Enter Page Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line2b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 2. B. Enter Part Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line2d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 2. D. Enter Additional Information.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line5d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 5. D. Enter Additional Information.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line5c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 5. C. Enter Item Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line5a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 5. A. Enter Page Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line5b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 4. B. Enter Part Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line5d_AdditionalInfo[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 6. D. Enter Additional Information.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line5c_ItemNumber[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 6. C. Enter Item Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line5a_PageNumber[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 6. A. Enter Page Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line5b_PartNumber[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 6. B. Enter Part Number.",
+    "page": 3
+  }
+]

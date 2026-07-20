@@ -1,0 +1,2547 @@
+[
+  {
+    "name": "form1[0].Page1[0].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "To be completed by an Attorney or Accredited Representative (if any). Select this box if Form G-28 or G-28 I is attached.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].Page1[0].AttorneyStateBarNumber[0]",
+    "type": "text",
+    "label": "To be completed by an Attorney or Accredited Representative (if any). Enter Attorney State Bar Number (if applicable).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].USCISELISAcctNumber[0]",
+    "type": "text",
+    "label": "To be completed by an Attorney or Accredited Representative (if any). Enter Attorney or Accredited Representative U S C I S Online Account Number (if any). 12 characters.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line1AlienNumber[0]",
+    "type": "text",
+    "label": "START HERE - Type or print in black ink. Part 1.  Information About You. 1. Alien Registration Number (A. -Number) (if any). 9 digits.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line2FamilyName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Your Full Name. 2. A. Enter Family Name\r(Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line2GivenName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Your Full Name. 2. B. Enter Given Name\r(First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line2MiddleName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Your Full Name. 2. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line3FamilyName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Names Used. Provide all other names you have ever used, including aliases, maiden name, and nicknames. If you need extra space to complete this section, use the space provided in Part 9. Additional Information. 3. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line3GivenName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Names Used. Provide all other names you have ever used, including aliases, maiden name, and nicknames. If you need extra space to complete this section, use the space provided in Part 9. Additional Information. 3. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line3MiddleName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Names Used. Provide all other names you have ever used, including aliases, maiden name, and nicknames. If you need extra space to complete this section, use the space provided in Part 9. Additional Information. 3. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line4FamilyName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Names Used. Provide all other names you have ever used, including aliases, maiden name, and nicknames. If you need extra space to complete this section, use the space provided in Part 9. Additional Information. 4. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line4GivenName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Names Used. Provide all other names you have ever used, including aliases, maiden name, and nicknames. If you need extra space to complete this section, use the space provided in Part 9. Additional Information. 4. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line4MiddleName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Names Used. Provide all other names you have ever used, including aliases, maiden name, and nicknames. If you need extra space to complete this section, use the space provided in Part 9. Additional Information. 4. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5InCareofName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Mailing Address. NOTE:  If you are outside the United States, provide a U.S. mailing address, if available.  If a U.S. mailing address is not available, provide your mailing address abroad. 5. A. Enter In Care Of Name (if any).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5StreetNumName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Mailing Address. 5. B. Enter Street Number\rand Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Mailing Address. 5. C. Select Apartment.",
+    "page": 1,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Mailing Address. 5. C. Select Suite.",
+    "page": 1,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Mailing Address. 5. C. Select Floor.",
+    "page": 1,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Mailing Address. 5. C. Enter Apartment, Suite, or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Mailing Address. 5. D. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5State[0]",
+    "type": "choice",
+    "label": "Part 1.  Information About You. Mailing Address. 5. E. Select State from list of states.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5ZipCode[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Mailing Address. 5. F. Enter ZIP Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5Province[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Mailing Address. 5. G. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5PostalCode[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Mailing Address. 5. H. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page1[0].p1Line5Country[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Mailing Address. 5. I. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line6YesNo[0]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Mailing Address. 6. Is your mailing address the same address where you currently live (physical address)? Select Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line6YesNo[1]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Mailing Address. 6. Select No. If you answered \"No\" to Item Number 6., provide your current physical address in Item Numbers 7. A. - 7. F.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line7StreetNumName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Physical Address. If you answered \"No\" to Item Number 6., provide your current physical address in Item Numbers 7. A. - 7. F. 7. A. Enter Street Number\rand Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line7Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Physical Address. 7. B. Select Apartment.",
+    "page": 2,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line7Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Physical Address. 7. B. Select Suite.",
+    "page": 2,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line7Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Physical Address. 7. B. Select Floor.",
+    "page": 2,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line7AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Physical Address. 7. B. Enter Apartment, Suite, or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line7CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Physical Address. 7. C. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line7State[0]",
+    "type": "choice",
+    "label": "Part 1.  Information About You. Physical Address. 7. D. Select State from list of states.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line7ZipCode[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Physical Address. 7. E. Enter ZIP Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line7Province[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Physical Address. 7. F. Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line7PostalCode[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Physical Address. 7. G. Enter Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line7Country[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Physical Address. 7. H. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line19aDOSNumber[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. If you seek an immigrant or nonimmigrant visa and you are or will file your application for consent to reapply with your immigrant or nonimmigrant visa application, provide the information requested in Item Numbers 16. - 17. B. 16. Enter The Department of State (D O S) Consular Case Number (if available).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line20City[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. The location of the U.S. Embassy or U.S. Consulate where your application for an immigrant visa is being or will be made. 17. A. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line20Country[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. The location of the U.S. Embassy or U.S. Consulate where your application for an immigrant visa is being or will be made. 17. B. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line21USCISReceipt[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. If you are seeking consent to reapply in connection with your application to adjust your status to that of a lawful permanent resident, provide information in Item Numbers 18. A. - 18. C. 18. A. Enter U S C I S Receipt Number (if any).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line11SSN[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. 8. Enter U.S. Social Security Number (if any). 9 digits.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line12USCISNumber[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. 9. Enter U.S. Online Account Number (if any). 12 characters.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line13Gender[0]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Other Information About You. 10. Sex. Select Female. ",
+    "page": 2,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line13Gender[1]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Other Information About You. 10. Sex. Select Male. ",
+    "page": 2,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].Page2[0].p2Line14DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. 11. Enter Date of Birth.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line15CityTownofBirth[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. 12. Enter City or Town of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line16StateProvofBirth[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. 13. Enter State or Province of Birth (if applicable).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line17CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. 14. Enter Country of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line18Citizenship[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. 15. Enter Country of Citizenship or Nationality.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line21FileLocation[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. 18. B. Where did you file your application (for example, \"U S C I S Office Name\" or \"Lockbox\")?",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line21DateFiled[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. 18. C. Enter Date Filed. Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line22YesNo[0]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Other Information About You. 19. Are you submitting Form I - 6 0 1, Application for Waiver of Grounds of Inadmissibility, along with this application? Select Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line22YesNo[1]",
+    "type": "checkbox",
+    "label": "Part 1.  Information About You. Other Information About You. 19. Are you submitting Form I - 6 0 1, Application for Waiver of Grounds of Inadmissibility, along with this application? Select No. If you answered \"No,\" provide the information requested in Item Numbers 20. A. - 20. C. about previously filed Forms I - 6 0 1 (if any):",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line23601Receipt[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. If you answered \"No,\" provide the information requested in Item Numbers 20. A. - 20. C. about previously filed Forms I - 6 0 1 (if any). 20. A. Enter U S C I S Receipt Number for Form I - 6 0 1 (if any).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line23FileLocation[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. 20. B. Where did you file your application (for example, \"U S C I S Office Name\" or \"Lockbox\")?",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page2[0].p1Line23DateFiled[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. Other Information About You. 20. C. Enter Date Filed.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line1CheckBox[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as an Arriving Alien (I N. A. Section 2 12 (A.) (9) (A.) (i)). 1.B. Select I have only been removed once, and my last removal was less than five years ago.",
+    "page": 3,
+    "on_value": "/1b"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line1CheckBox[1]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as an Arriving Alien (I N. A. Section 2 12 (A.) (9) (A.) (i)). 1.C. Select I have been removed at least two or more times, and my last removal was less than 20 years ago.",
+    "page": 3,
+    "on_value": "/1c"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line1CheckBox[2]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as an Arriving Alien (I N. A. Section 2 12 (A.) (9) (A.) (i)). 1.D. Select I have been convicted of an aggravated felony in the United States or abroad, before or after my removal from the United States.  Provide information on your aggravated felony convictions in Part 9. Additional Information and include the required evidence.",
+    "page": 3,
+    "on_value": "/1d"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line1YesNo[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. If you are inadmissible to the United States for the following reason, select \u201cYes\u201d and then select the appropriate boxes.  If you need extra space to complete this section, use the space provided in Part 9. Additional Information. Removal as an Arriving Alien (I N. A. Section 2 12(A.) (9) (A.) (i)). 1. A. I have been removed as an arriving alien in expedited removal proceedings under I N. A. section 2 35 (B) (1) or I was removed at the end of proceedings under I N. A. section 2 40 as an arriving alien. Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line1YesNo[1]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as an Arriving Alien (I N. A. Section 2 12 (A.) (9) (A.) (i)). 1. A. I have been removed as an arriving alien in expedited removal proceedings under I N A. section 2 35 (B) (1) or I was removed at the end of proceedings under I N A. section 2 40 as an arriving alien. Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line3City[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as an Arriving Alien (I N. A. Section 2 12 (A.) (9) (A.) (i)). Location From Where You Were Removed. 3. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line2DateRemoved[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as an Arriving Alien (I N. A. Section 2 12 (A.) (9) (A.) (i)). 2. Enter Date You Were Removed From the United States.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line4State[0]",
+    "type": "choice",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as an Arriving Alien (I N. A. Section 2 12 (A.) (9) (A.) (i)). Location From Where You Were Removed. 4. Select State from list of states.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line5CheckBox[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as a Deportable Alien (I N. A. Section 2 12 (A.) (9) (A.) (ii)).  5. B. Select I have only been removed once and my removal was less than 10 years ago. ",
+    "page": 3,
+    "on_value": "/5b"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line5CheckBox[1]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as a Deportable Alien (I N. A. Section 2 12 (A.) (9) (A.) (ii)).  5.C. Select I have been removed two or more times, and my last removal was less than 20 years ago. ",
+    "page": 3,
+    "on_value": "/5c"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line5CheckBox[2]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as a Deportable Alien (I N. A. Section 2 12 (A.) (9) (A.) (ii)).  5.D. Select I have been convicted of an aggravated felony in the United States or abroad, before or after my removal from the United States.  Provide information on your aggravated felony convictions in Part 9. Additional Information and include the required evidence. ",
+    "page": 3,
+    "on_value": "/5d"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line5YesNo[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as a Deportable Alien (I N. A. Section 2 12 (A.) (9) (A.) (ii)). 5. A. I have been removed as a deportable alien under I N. A. section 2 40 or any other provision of the law, or I departed the United States while an order of removal was outstanding. Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line5YesNo[1]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as a Deportable Alien (I N. A. Section 2 12 (A.) (9) (A.) (ii)). 5. A. I have been removed as a deportable alien under I N A. section 2 40 or any other provision of the law, or I departed the United States while an order of removal was outstanding. Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line7City[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as a Deportable Alien (I N. A. Section 2 12 (A.) (9) (A.) (ii)).  Location From Where You Were Removed. 7. A. Enter City or Town. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line7State[0]",
+    "type": "choice",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as a Deportable Alien (I N. A. Section 2 12 (A.) (9) (A.) (ii)).  Location From Where You Were Removed. 7. B. Select State from list of states.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line8YesNo[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Unlawful Presence in the Aggregate of 1 Year (I N. A. Section 2 12 (A.) (9) (C) (i) (1)). 8. I entered or attempted to enter the United States without being admitted or paroled, after having been unlawfully present in the United States on or after April 1, 1997, for a period of more than one year, in the aggregate. Select Yes. NOTE:  If you answered \"Yes\" to Item Number 8., list all the time periods during which you were unlawfully present in the United States (including any periods in which you overstayed your lawful status).  Begin with your most recent period of unlawful presence.  Also attach evidence demonstrating that you have remained outside the United States for 10 years since your last departure.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line8YesNo[1]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Unlawful Presence in the Aggregate of 1 Year (I N. A. Section 2 12 (A.) (9) (C) (i) (1)). 8. I entered or attempted to enter the United States without being admitted or paroled, after having been unlawfully present in the United States on or after April 1, 1997, for a period of more than one year, in the aggregate. Select No. ",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line9From[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Unlawful Presence in the Aggregate of 1 Year (I N. A. Section 2 12(A.) (9) (C) (i) (1)). NOTE:  If you answered \"Yes\" to Item Number 8., list all the time periods during which you were unlawfully present in the United States (including any periods in which you overstayed your lawful status).  Begin with your most recent period of unlawful presence.  Also attach evidence demonstrating that you have remained outside the United States for 10 years since your last departure. Periods of Unlawful Presence. 9. A. Enter From Date.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line9To[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Unlawful Presence in the Aggregate of 1 Year (I N. A. Section 2 12(A.) (9) (C) (i) (1)). Periods of Unlawful Presence.  9.B. Enter To Date.  Enter 2- digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line10DateDeparted[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Unlawful Presence in the Aggregate of 1 Year (I N. A. Section 2 12 (A.) (9) (C) (i) (1)). Periods of Unlawful Presence. 10. Enter Date You Departed the United States After Your Period of Unlawful Presence. Enter 2- digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line11City[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Unlawful Presence in the Aggregate of 1 Year (I N. A. Section 2 12 (A.) (9) (C) (i) (1)). Periods of Unlawful Presence. Location Where You Departed the United States After Your Period of Unlawful Presence. 11. A. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line11State[0]",
+    "type": "choice",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Unlawful Presence in the Aggregate of 1 Year (I N. A. Section 2 12 (A.) (9) (C) (i) (1)). Periods of Unlawful Presence. Location Where You Departed the United States After Your Period of Unlawful Presence.  11.B. Select State from list of states.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line12City[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Unlawful Presence in the Aggregate of 1 Year (I N. A. Section 2 12 (A.) (9) (C) (i) (1)). Periods of Unlawful Presence.  Location Where You Reentered or Attempted to Reenter the United States. 12. A. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line12State[0]",
+    "type": "choice",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Unlawful Presence in the Aggregate of 1 Year (I N. A. Section 2 12 (A.) (9) (C) (i) (1)). Periods of Unlawful Presence.  Location Where You Reentered or Attempted to Reenter the United States.  12. B. Select State from list of states.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line6Date[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Removal as a Deportable Alien (I N. A. Section 2 12 (A.) (9) (A.) (ii)). 6. Enter Date You Were Excluded, Deported, or Removed From the United States. Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].Page3[0].p2Line3ReEnterDate[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Unlawful Presence in the Aggregate of 1 Year (I N. A. Section 2 12 (A.) (9) (C) (i) (1)). Periods of Unlawful Presence.  Location Where You Reentered or Attempted to Reenter the United States.  13. Enter Date You Attempted to Unlawfully Enter or Reenter the United States After Period of Unlawful Presence.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].Page4[0].p2Line14YesNo[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Removal (I N. A. Section\r2 12 (A.) (9) (C) (i )(2)). 14. I entered or attempted to enter the United States without being admitted or paroled after having been excluded, deported, or removed. Select Yes. NOTE:  If you answered \u201cYes\u201d to Item Number 14., list all the dates when you were excluded, deported, or removed from the United States.  If you need extra space to complete this section, use the space provided in Part 9. Additional Information.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].Page4[0].p2Line14YesNo[1]",
+    "type": "checkbox",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Removal (I N. A. Section\r2 12 (A.) (9) (C) (i) (2)). 14. I entered or attempted to enter the United States without being admitted or paroled after having been excluded, deported, or removed. Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].Page4[0].p2Line15DateExcluded[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Removal (I N. A. Section\r2 12 (A.) (9) (C) (i) (2)). 15. Enter Date You Were Excluded, Deported, or Removed From the United States.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p2Line16City[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Removal (I N. A. Section\r2 12 (A.) (9) (C) (i) (2)). Location Where You Reentered or Attempted to Reenter the United States After Your Exclusion, Deportation, or Removal. 16. A. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p2Line16State[0]",
+    "type": "choice",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Removal (I N. A. Section\r2 12 (A.) (9) (C) (i) (2)). Location Where You Reentered or Attempted to Reenter the United States After Your Exclusion, Deportation, or Removal. 16. B. Select State from list of states.",
+    "page": 4,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].Page4[0].p2Line17DateEntered[0]",
+    "type": "text",
+    "label": "Part 2.  Reasons You Are Filing Form I - 2 12. Entry After Removal (I N. A. Section\r2 12 (A.) (9) (C) (i) (2)). 17. Enter Date You Entered or Attempted to Reenter the United States After Exclusion, Deportation, or Removal. Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line1CheckBox[0]",
+    "type": "checkbox",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. If the Department of Homeland Security (D H S) permits you to reenter the United States, what immigration status will you seek? 1. A. Select Permanent Resident.",
+    "page": 4,
+    "on_value": "/P"
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line1CheckBox[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. If the Department of Homeland Security (D H S) permits you to reenter the United States, what immigration status will you seek? 1. B. Select Visitor.",
+    "page": 4,
+    "on_value": "/V"
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line1CheckBox[2]",
+    "type": "checkbox",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. If the Department of Homeland Security (D H S) permits you to reenter the United States, what immigration status will you seek? 1. C. Select Student.",
+    "page": 4,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line1CheckBox[3]",
+    "type": "checkbox",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. If the Department of Homeland Security (D H S) permits you to reenter the United States, what immigration status will you seek? 1. D. Select Other (Explain).",
+    "page": 4,
+    "on_value": "/O"
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line1OtherExplain[0]",
+    "type": "text",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. If the Department of Homeland Security (D H S) permits you to reenter the United States, what immigration status will you seek? 1. D. Explain Other.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line2Explain[0]",
+    "type": "text",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. 2. Explain Why You Would Like to Reenter the United States. NOTE:  If you need extra space to complete this section, use the space provided in Part 9. Additional Information.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line3FamilyName[0]",
+    "type": "text",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. U.S. Citizen or Lawful Permanent Resident Family Members (if any). NOTE:  If you need extra space to complete this section, use the space provided in Part 9. Additional Information. 3. A. Enter Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line3GivenName[0]",
+    "type": "text",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. U.S. Citizen or Lawful Permanent Resident Family Members (if any). 3. B. Enter Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line3MiddleName[0]",
+    "type": "text",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. U.S. Citizen or Lawful Permanent Resident Family Members (if any). 3. C. Enter Middle Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line3Relationship[0]",
+    "type": "text",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. U.S. Citizen or Lawful Permanent Resident Family Members (if any). 3. D. Enter Relationship.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line4CheckBox[0]",
+    "type": "checkbox",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. U.S. Citizen or Lawful Permanent Resident Family Members (if any). My relative is (Select one). 4. A. Select A lawful permanent resident.",
+    "page": 4,
+    "on_value": "/LPR"
+  },
+  {
+    "name": "form1[0].Page4[0].p3Line4CheckBox[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Reasons For Your Request For Permission to Reapply. U.S. Citizen or Lawful Permanent Resident Family Members (if any). My relative is (Select one). 4. B. Select A U.S. citizen.",
+    "page": 4,
+    "on_value": "/CIT"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line1Ethnicity[0]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 1. Ethnicity (Select only one box). Select Hispanic or Latino.",
+    "page": 4,
+    "on_value": "/H"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line1Ethnicity[1]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 1. Ethnicity (Select only one box). Select Not Hispanic or Latino.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line2Race[0]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 2. Race (Select all applicable boxes). Select Asian.",
+    "page": 4,
+    "on_value": "/AS"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line2Race[1]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 2. Race (Select all applicable boxes). Select White.",
+    "page": 4,
+    "on_value": "/WH"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line2Race[2]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 2. Race (Select all applicable boxes). Select Black or African American.",
+    "page": 4,
+    "on_value": "/BL"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line2Race[3]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 2. Race (Select all applicable boxes). Select American Indian or Alaska Native.",
+    "page": 4,
+    "on_value": "/AI"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line2Race[4]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 2. Race (Select all applicable boxes). Select Native Hawaiian or Other Pacific Islander.",
+    "page": 4,
+    "on_value": "/HW"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line3HeightFeet[0]",
+    "type": "choice",
+    "label": "Part 4.  Biographic Information. 3. Height. Select Feet.",
+    "page": 4,
+    "options": [
+      " ",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line3HeightInches[0]",
+    "type": "choice",
+    "label": "Part 4.  Biographic Information. 3. Height. Select Inches.",
+    "page": 4,
+    "options": [
+      " ",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line4HeightInches2[0]",
+    "type": "text",
+    "label": "Part 4.  Biographic Information. 4. Weight. Pounds. Enter second digit.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line4HeightInches1[0]",
+    "type": "text",
+    "label": "Part 4.  Biographic Information. 4. Weight. Pounds. Enter first digit.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line4HeightInches3[0]",
+    "type": "text",
+    "label": "Part 4.  Biographic Information. 4. Weight. Pounds. Enter third digit.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line5Eyecolor[0]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 5. Eye Color (Select only one box). Select Blue.",
+    "page": 4,
+    "on_value": "/BU"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line5Eyecolor[1]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 5. Eye Color (Select only one box). Select Black.",
+    "page": 4,
+    "on_value": "/BL"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line5Eyecolor[2]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 5. Eye Color (Select only one box). Select Brown.",
+    "page": 4,
+    "on_value": "/BN"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line5Eyecolor[3]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 5. Eye Color (Select only one box). Select Gray.",
+    "page": 4,
+    "on_value": "/GR"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line5Eyecolor[4]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 5. Eye Color (Select only one box). Select Green.",
+    "page": 4,
+    "on_value": "/GN"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line5Eyecolor[5]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 5. Eye Color (Select only one box). Select Hazel.",
+    "page": 4,
+    "on_value": "/HA"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line5Eyecolor[6]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 5. Eye Color (Select only one box). Select Maroon.",
+    "page": 4,
+    "on_value": "/MA"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line5Eyecolor[7]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 5. Eye Color (Select only one box). Select Pink.",
+    "page": 4,
+    "on_value": "/PN"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line5Eyecolor[8]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 5. Eye Color (Select only one box). Select Unknown / Other.",
+    "page": 4,
+    "on_value": "/UN"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line6Haircolor[0]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 6. Hair Color (Select only one box). Select Bald (No hair).",
+    "page": 4,
+    "on_value": "/NH"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line6Haircolor[1]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 6. Hair Color (Select only one box). Select Black.",
+    "page": 4,
+    "on_value": "/BL"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line6Haircolor[2]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 6. Hair Color (Select only one box). Select Blond.",
+    "page": 4,
+    "on_value": "/BN"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line6Haircolor[3]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 6. Hair Color (Select only one box). Select Brown.",
+    "page": 4,
+    "on_value": "/BR"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line6Haircolor[4]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 6. Hair Color (Select only one box). Select Gray.",
+    "page": 4,
+    "on_value": "/GR"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line6Haircolor[5]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 6. Hair Color (Select only one box). Select Red.",
+    "page": 4,
+    "on_value": "/RD"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line6Haircolor[6]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 6. Hair Color (Select only one box). Select Sandy.",
+    "page": 4,
+    "on_value": "/SA"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line6Haircolor[7]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 6. Hair Color (Select only one box). Select White.",
+    "page": 4,
+    "on_value": "/WH"
+  },
+  {
+    "name": "form1[0].Page4[0].p4Line6Haircolor[8]",
+    "type": "checkbox",
+    "label": "Part 4.  Biographic Information. 6. Hair Color (Select only one box). Select Unknown / Other.",
+    "page": 4,
+    "on_value": "/OT"
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line1_StreetNumName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. If you are filing this application with Customs and Border Protection (C B P), provide the information requested in Item Numbers 1. A. - 40. C. Address History. Provide physical addresses for everywhere you have lived during the last ten years, whether inside or outside the United States.  Provide your current address first.  If you need extra space to complete this section, use the space provided in Part 9. Additional Information. Physical Address 1 (current address). 1. A. Street Number\rand Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line1_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 1 (current address). 1. B. Select Apartment.",
+    "page": 5,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line1_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 1 (current address). 1. B. Select Suite.",
+    "page": 5,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line1_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 1 (current address). 1. B. Select Floor.",
+    "page": 5,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line1_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 1 (current address). 1. B. Enter apartment, suite, or floor number. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line1_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 1 (current address). 1. C. Enter City or Town.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line1_State[0]",
+    "type": "choice",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 1 (current address). 1. D. Select State from list of states.",
+    "page": 5,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line1_ZipCode[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 1 (current address). 1. E. Enter ZIP Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line1_Province[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 1 (current address). 1. F. Enter Province.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line1_PostalCode[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C BP. Address History. Physical Address 1 (current address). 1. G. Enter Postal Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line1_Country[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 1 (current address). 1. H. Enter Country.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line2_From[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Dates of Residence. 2. A. Enter From Date.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line2_To[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Dates of Residence. 2. B. Enter To Date.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line3_StreetNumName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 2. 3. A. Enter Street Number\rand Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 2. 3. B. Select Apartment. ",
+    "page": 5,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 2. 3. B. Select Suite. ",
+    "page": 5,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 2. 3. B. Select Floor. ",
+    "page": 5,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 2. 3. B. Enter apartment, suite, or floor number. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line3_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 2. 3. C. Enter City or Town.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line3_State[0]",
+    "type": "choice",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 2. 3. D. Select State from list of states.",
+    "page": 5,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 2. 3. E. Enter ZIP code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line3_Province[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 2. 3. F. Enter Province.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line3_PostalCode[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 2. 3. G. Enter Postal Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line3_Country[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Address History. Physical Address 2. 3. H. Enter Country.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line4_From[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with CBP. Address History. Dates of Residence. 4. A. Enter From Date.  Enter 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line4_To[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with CBP. Address History. Dates of Residence. 4.b. Enter To Date.  Enter 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p1Line24EmployerName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Provide your employment history for the last ten years, whether inside or outside the United States.  Provide the most recent employment first.  If you need extra space to complete this section, use the space provided in Part 9. Additional Information. Employer 1 (current or most recent). 5. Enter Name of Employer or Company.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p1Line25StreetNumName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Address of Employer or Company. 6. A. Enter Street Number and Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line6_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Address of Employer or Company. 6. B. Enter Apartment, Suite, or Floor Number. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p1Line25CityOrTown[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Address of Employer or Company. 6. C. Enter City or Town. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p1Line25State[0]",
+    "type": "choice",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Address of Employer or Company. 6. D. Select State from list of states.",
+    "page": 5,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].Page5[0].p1Line25ZipCode[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Address of Employer or Company. 6. E. Enter Zip Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p1Line25Province[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Address of Employer or Company. 6. F. Enter Province. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p1Line25PostalCode[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Address of Employer or Company. 6. G. Enter Postal Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p1Line25Country[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Address of Employer or Company. 6. H. Enter Country.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p1Line8From[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History.  Employer 1 (current or most recent). Dates of Employment. 8. A. Enter From Date.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p1Line8To[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Dates of Employment. 8. B. Enter From Date. Present.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line6_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Address of Employer or Company. 6. B. Select Apartment.",
+    "page": 5,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line6_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Address of Employer or Company. 6. B. Select Suite.",
+    "page": 5,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].Page5[0].p5Line6_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). Address of Employer or Company. 6. B. Select Floor.",
+    "page": 5,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].Page5[0].p1Line26Occupation[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 1 (current or most recent). 7. Enter Your Occupation.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].Page6[0].p1Line28EmployerName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. 9. Enter Name of Employer or Company.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p1Line29StreetNumName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Address of Employer or Company. 10. A. Enter Street Number\rand Name. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line10_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Address of Employer or Company. 10. B. Enter apartment, suite, or floor. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p1Line29CityOrTown[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with CB P. Employment History. Employer 2. Address of Employer or Company. 10. C. Enter City or Town.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p1Line29State[0]",
+    "type": "choice",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Address of Employer or Company. 10. D. Select State from list of states.",
+    "page": 6,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].Page6[0].p1Line29ZipCode[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Address of Employer or Company. 10. E. Enter ZIP Code.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p1Line29Province[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Address of Employer or Company. 10. F. Enter Province.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p1Line29PostalCode[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Address of Employer or Company. 10. G. Enter Postal Code.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p1Line29Country[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Address of Employer or Company. 10. H. Enter Country.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p1Line30Occupation[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. 11. Enter Your Occupation.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p1Line31From[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Dates of Employment. 12. A. Enter From Date.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p1Line31To[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Dates of Employment. 12. B. Enter To Date.   Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line10_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Address of Employer or Company. 10. B. Select Apartment. ",
+    "page": 6,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line10_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Address of Employer or Company. 10. B. Select Suite.",
+    "page": 6,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line10_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Employment History. Employer 2. Address of Employer or Company. 10. B. Select Floor.",
+    "page": 6,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line1FamilyName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Mother. Mother's Legal Name. 13. A. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line1GivenName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Mother. Mother's Legal Name. 13. B. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line1MiddleName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Mother. Mother's Legal Name. 13. C. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line2FamilyName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Mother. Mother's Name at Birth (if different than above). 14. A. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line2GivenName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Mother. Mother's Name at Birth (if different than above). 14. B. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line2MiddleName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Mother. Mother's Name at Birth (if different than above). 14. C. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line3DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Mother. 15. Enter Date of Birth.   Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line5CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Mother. 17. Enter Country of Birth.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line6CityTownResidence[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Mother. 18. Enter Current City or Town of Residence (if living).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line7CountryCitizenship[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Mother. 19. Enter Current Country of Residence (if living).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line8FamilyName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Father. Father's Legal Name. 20. A. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line8GivenName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Father. Father's Legal Name. 20. B. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line8MiddleName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Father. Father's Legal Name. 20. C. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line9FamilyName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Father. Father's Name at Birth (if different than above). 21. A. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line9GivenName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Father. Father's Name at Birth (if different than above). 21. B. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line9MiddleName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Father. Father's Name at Birth (if different than above). 21. C. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line10DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Father. 22. Enter Date of Birth.   Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line11CityTownofBirth[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Father. 23. Enter City or Town of Birth.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line12CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Father. 24. Enter Country of Birth.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line13CityTownofBirth[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Father. 25. Enter Current City or Town of Residence (if living).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line14Citizenship[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Father. 26. Enter Current Country of Residence (if living).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p6Line1MaritalStatus[0]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Marital History. 27. What is your current marital status? Select Single, Never Married.",
+    "page": 6,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].Page6[0].p6Line1MaritalStatus[1]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Marital History. 27. What is your current marital status? Select Divorced.",
+    "page": 6,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].Page6[0].p6Line1MaritalStatus[2]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Marital History. 27. What is your current marital status? Select Widowed.",
+    "page": 6,
+    "on_value": "/W"
+  },
+  {
+    "name": "form1[0].Page6[0].p6Line1MaritalStatus[3]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Marital History. 27. What is your current marital status? Select Legally Separated.",
+    "page": 6,
+    "on_value": "/E"
+  },
+  {
+    "name": "form1[0].Page6[0].p6Line1MaritalStatus[4]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Marital History. 27. What is your current marital status? Select Marriage Annulled.",
+    "page": 6,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].Page6[0].p6Line1MaritalStatus[5]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Marital History. 27. What is your current marital status? Select Other.",
+    "page": 6,
+    "on_value": "/O"
+  },
+  {
+    "name": "form1[0].Page6[0].p6Line2DependentChildren[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Marital History. 28. How many times have you been married (including annulled marriages and marriages to the same person)?",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page6[0].p6Line1MaritalStatus[6]",
+    "type": "checkbox",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Marital History. 27. What is your current marital status? Select Married.",
+    "page": 6,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].Page6[0].p5Line4CityTownofBirth[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Parents. Information About Your Mother. 16. Enter City or Town of Birth.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line3FamilyName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). If you are currently married, provide the following information about your current spouse. Current Spouse's Legal Name. 29. A. Enter Family Name (Last Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line3GivenName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). If you are currently married, provide the following information about your current spouse. Current Spouse's Legal Name. 29. B. Enter Given Name (First Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line3MiddleName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). If you are currently married, provide the following information about your current spouse. Current Spouse's Legal Name. 29. C. Enter Middle Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line5Date[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). If you are currently married, provide the following information about your current spouse. 31. Enter Current Spouse's Date of Birth.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line6DateOfMarriage[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). If you are currently married, provide the following information about your current spouse. 32. Enter Date of Marriage to Current Spouse.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line4AlienNumber[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). If you are currently married, provide the following information about your current spouse. 30. Enter. A. -Number (if any). 9 digits.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line7City[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). Current Spouse's Place of Birth. 33. A. Enter City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line7Country[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). Current Spouse's Place of Birth. 33. C. Enter Country.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line7Province[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). Current Spouse's Place of Birth. 33. B. Enter State or Province.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line8City[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). Place of Marriage to Current Spouse. 34. A. Enter City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line8Country[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). Place of Marriage to Current Spouse. 34. C. Enter Country.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line8Province[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Your Current Marriage (including if you are legally separated). Place of Marriage to Current Spouse. 34. B. Enter State or Province.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line9FamilyName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). If you have been married before, whether in the United States or in any other country, provide the following information about your prior spouse.  If you have had more than one previous marriage, use the space provided in Part 9. Additional Information to provide the information below. Prior Spouse's Legal Name (provide family name before marriage). 35. A. Enter Family Name (Last Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line9GivenName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). Prior Spouse's Legal Name (provide family name before marriage). 35. B. Enter Given Name (First Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line9MiddleName[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). Prior Spouse's Legal Name (provide family name before marriage). 35. C. Enter Middle Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0]._Date[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). 36. Enter Prior Spouse's Date of Birth.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line9DateofMarriage[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). 37. Enter Date of Marriage to Prior Spouse.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line12City[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). Place of Marriage to Prior Spouse. 38. A. Enter City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line12Country[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). Place of Marriage to Prior Spouse. 38. C. Enter Country.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line12Province[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). Place of Marriage to Prior Spouse. 38. B. Enter State or Province.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line13Date[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). Place of Marriage to Prior Spouse. 39. Enter Date Marriage with Prior Spouse Legally Ended.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line14City[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). Place Where Marriage with Prior Spouse Legally Ended. 40. A. Enter City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line14Country[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). Place Where Marriage with Prior Spouse Legally Ended. 40. C. Enter Country.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page7[0].p6Line14Province[0]",
+    "type": "text",
+    "label": "Part 5.  Additional Information if Filing with C B P. Information About Prior Marriages (if any). Place Where Marriage with Prior Spouse Legally Ended. 40. B. Enter State or Province.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].Page8[0].p7Line3DayPhone[0]",
+    "type": "text",
+    "label": "Part 6.  Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Contact Information. 3. Enter Applicant's Daytime Telephone Number.  Enter 10 digits for number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p7Line4MobilePhone[0]",
+    "type": "text",
+    "label": "Part 6.  Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Contact Information. 4. Enter Applicant's Mobile Telephone Number (if any).  Enter 10 digits for number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p7Line5Email[0]",
+    "type": "text",
+    "label": "Part 6.  Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Contact Information. 5. Enter Applicant's Email Address (if any).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p7Line6Signature[0]",
+    "type": "text",
+    "label": "Part 6.  Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Signature. 6. A. Applicant's Signature.  This form can not be signed electronically.  The name of the applicant can not be typewritten into this space. NOTE TO ALL APPLICANTS:  If you do not completely fill out this application or fail to submit required documents listed in the Instructions, U S C I S may deny your application. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p7Line6DateofSignature[0]",
+    "type": "text",
+    "label": "Part 6.  Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Signature. 6. B. Enter Date of Signature.  Enter 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p8Line2BusinessorOrg[0]",
+    "type": "text",
+    "label": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name (if any).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p8Line1GivenName[0]",
+    "type": "text",
+    "label": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p8Line1FamilyName[0]",
+    "type": "text",
+    "label": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Provide the following information about the interpreter. Interpreter's Full Name. 1. A. Enter Interpreter's Family Name (Last Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p8Line4DayPhone[0]",
+    "type": "text",
+    "label": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.  Enter 10 digits for number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p8Line5MobilePhone[0]",
+    "type": "text",
+    "label": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number (if any).  Enter 10 digits for number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p8Line6Email[0]",
+    "type": "text",
+    "label": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter Interpreter's Email Address (if any).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p8InterpreterLanguage[0]",
+    "type": "text",
+    "label": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that I am fluent in English and (enter language) which is the same language specified in Part 6., Item Number 1. B., and I have read to this applicant in the identified language every question and instruction on this application and his or her answer to every question.  The applicant informed me that he or she understands every instruction, question, and answer on the application, including the Applicant's Declaration and Certification, and has verified the accuracy of every answer. Enter language.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p8Line7Signature[0]",
+    "type": "text",
+    "label": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. A. Enter Interpreter's Signature. This form can not be signed electronically.  The name of the applicant can not be typewritten into this space.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p8Line7DateofSignature[0]",
+    "type": "text",
+    "label": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7.b. Enter Date of Signature.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p9Line2BusinessorOrg[0]",
+    "type": "text",
+    "label": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Provide the following information about the preparer. Preparer's Full Name. 2. Enter Preparer's Business or Organization Name (if any).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p9Line1GivenName[0]",
+    "type": "text",
+    "label": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Provide the following information about the preparer. Preparer's Full Name. 1. B. Enter Preparer's Given Name (First Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p9Line1FamilyName[0]",
+    "type": "text",
+    "label": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Provide the following information about the preparer. Preparer's Full Name. 1. A. Enter Preparer's Family Name (Last Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p9Line4DayPhone[0]",
+    "type": "text",
+    "label": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number.  Enter 10 digits for number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p9Line5MobilePhone[0]",
+    "type": "text",
+    "label": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 5. Enter Preparer's Mobile Telephone Number (if any).  Enter 10 digits for number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page8[0].p9Line6Email[0]",
+    "type": "text",
+    "label": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 6. Enter Preparer's Email Address (if any).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].Page9[0].p9Line8aSignature[0]",
+    "type": "text",
+    "label": "Part 8. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Signature. 6. Enter Preparer's Signature. This form can not be signed electronically.  The name of the applicant can not be typewritten into this space.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].Page9[0].p9Line8bDateofSignature[0]",
+    "type": "text",
+    "label": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Signature. 6. Enter Date of Signature.  Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].Page11[0].p1Line2FamilyName[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Type or print your name and. A. - Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. A. Enter Family Name\r(Last Name).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p1Line2GivenName[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 1. B. Enter Family Name (Last Name).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p1Line2MiddleName[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 1. C. Enter Middle Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line3PageNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 3. A. Enter Page Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line3PartNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 3. B. Enter Part Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line3ItemNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 3. C. Enter Item Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line3AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 3. D. Enter Additional Information.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line4PageNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 4. A. Enter Page Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line4PartNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 4. B. Enter Part Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line4ItemNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 4. C. Enter Item Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line4AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 4. D. Enter Additional Information.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line5PageNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 5. A. Enter Page Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line5PartNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 5. B. Enter Part Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line5ItemNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 5. C. Enter Item Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line6PageNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 6. A. Enter Page Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line6PartNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 6. B. Enter Part Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line6ItemNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 6. C. Enter Item Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line7PageNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 7. A. Enter Page Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line7PartNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 7. B. Enter Part Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line7ItemNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 7. C. Enter Item Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line7AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 7. D. Enter Additional Information.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line5AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 5. D. Enter Additional Information.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p10Line6AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 6. D. Enter Additional Information.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].Page11[0].p1Line1AlienNumber[0]",
+    "type": "text",
+    "label": "Part 9.  Additional Information. 2. A. -Number (if any). 9 digits.",
+    "page": 10
+  }
+]

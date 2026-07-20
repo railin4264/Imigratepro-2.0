@@ -38,17 +38,27 @@ def test_patch_without_wizard_step_does_not_reset_it(client, public_token):
     # A save that omits client_wizard_step (the field the internal staff
     # editor's PATCH /forms/{id} always omits) must not silently reset the
     # client's saved position back to the start.
-    res = client.patch(f"/api/v1/public/forms/{public_token}", json={"data": {"some_field": "x"}})
+    # form1[0].#subform[1].Pt3Line5a_FamilyName[0] is G-28's beneficiary last
+    # name -- a real field on the schema (unlike a fake "some_field", which
+    # the field allowlist added for C2 would now reject with a 422).
+    res = client.patch(
+        f"/api/v1/public/forms/{public_token}",
+        json={"data": {"form1[0].#subform[1].Pt3Line5a_FamilyName[0]": "x"}},
+    )
     assert res.status_code == 200
     assert res.json()["client_wizard_step"] == 4
 
 
 def test_patch_updates_data_and_wizard_step_together(client, public_token):
+    # form1[0].#subform[1].Pt3Line5a_FamilyName[0] (G-28 beneficiary last
+    # name) rather than Pt1Line2a_FamilyName[0] (attorney.last_name) --
+    # attorney-owned fields are silently stripped by the C2 fix, so this
+    # needs a field the client wizard is actually allowed to save.
     res = client.patch(
         f"/api/v1/public/forms/{public_token}",
-        json={"data": {"form1[0].#subform[0].Pt1Line2a_FamilyName[0]": "Perez"}, "client_wizard_step": 1},
+        json={"data": {"form1[0].#subform[1].Pt3Line5a_FamilyName[0]": "Perez"}, "client_wizard_step": 1},
     )
     assert res.status_code == 200
     body = res.json()
     assert body["client_wizard_step"] == 1
-    assert body["data"]["form1[0].#subform[0].Pt1Line2a_FamilyName[0]"] == "Perez"
+    assert body["data"]["form1[0].#subform[1].Pt3Line5a_FamilyName[0]"] == "Perez"

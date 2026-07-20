@@ -3,11 +3,12 @@ from datetime import datetime, timezone
 
 from fastapi import APIRouter, HTTPException
 
-from app.api.deps import DbSession
+from app.api.deps import DbSession, RequireAdminOrAttorney
 from app.models.appointment import Appointment
 from app.models.case import Case
 from app.models.notification import NotificationType
 from app.schemas.appointment import AppointmentCreate, AppointmentRead, AppointmentUpdate
+from app.services.audit import log_action
 from app.services.notifications import notify
 from app.services.reminders import send_appointment_reminders
 
@@ -99,10 +100,18 @@ def update_appointment(appointment_id: uuid.UUID, payload: AppointmentUpdate, db
 
 
 @router.delete("/appointments/{appointment_id}", status_code=204)
-def delete_appointment(appointment_id: uuid.UUID, db: DbSession):
+def delete_appointment(appointment_id: uuid.UUID, db: DbSession, requester: RequireAdminOrAttorney):
     appointment = db.get(Appointment, appointment_id)
     if not appointment:
         raise HTTPException(status_code=404, detail="Appointment not found")
+    log_action(
+        db,
+        requester,
+        "appointment.deleted",
+        "appointment",
+        appointment.id,
+        {"appointment_type": appointment.appointment_type.value, "case_number": appointment.case.case_number},
+    )
     db.delete(appointment)
     db.commit()
 

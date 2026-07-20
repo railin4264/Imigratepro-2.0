@@ -1,63 +1,34 @@
 const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000/api/v1";
 
-const TOKEN_STORAGE_KEY = "migratepro-token";
-const REFRESH_TOKEN_STORAGE_KEY = "migratepro-refresh-token";
-// Read synchronously at module-eval time (not from a React effect): pages
-// call fetchJson from their own mount effect, and child effects fire before
-// AuthProvider's, so if this were only set from AuthProvider's effect, a
-// page's very first request on a hard reload would race ahead of it, go out
-// with no Authorization header, get a 401, and log an otherwise-valid
-// session out. Module evaluation always runs before React commits anything,
-// so this closes the race.
-let authToken: string | null = typeof window !== "undefined" ? window.localStorage.getItem(TOKEN_STORAGE_KEY) : null;
-let refreshToken: string | null =
-  typeof window !== "undefined" ? window.localStorage.getItem(REFRESH_TOKEN_STORAGE_KEY) : null;
-
-export function setAuthTokens(access: string | null, refresh: string | null): void {
-  authToken = access;
-  refreshToken = refresh;
-  if (typeof window === "undefined") return;
-  if (access) window.localStorage.setItem(TOKEN_STORAGE_KEY, access);
-  else window.localStorage.removeItem(TOKEN_STORAGE_KEY);
-  if (refresh) window.localStorage.setItem(REFRESH_TOKEN_STORAGE_KEY, refresh);
-  else window.localStorage.removeItem(REFRESH_TOKEN_STORAGE_KEY);
-}
-
-// One-time sync from localStorage -- called by AuthProvider on mount, since
-// this module has no access to localStorage during server rendering.
-export function loadStoredAuthToken(): string | null {
-  if (typeof window === "undefined") return null;
-  authToken = window.localStorage.getItem(TOKEN_STORAGE_KEY);
-  refreshToken = window.localStorage.getItem(REFRESH_TOKEN_STORAGE_KEY);
-  return authToken;
-}
+// Auth lives in httpOnly cookies the backend sets on /auth/login (see
+// backend/app/api/v1/endpoints/auth.py) -- nothing here reads or stores a
+// token in JS-visible state. `credentials: "include"` on every fetch below
+// is what makes the browser attach those cookies; no Authorization header
+// is set from the frontend at all. This also removes what used to be a real
+// race: a page's very first request on a hard reload no longer needs to
+// wait for anything to "load" a token before it can go out correctly, since
+// the browser attaches the cookie regardless of React's render/effect timing.
 
 // Access tokens are short-lived (30 min, see backend ACCESS_TOKEN_EXPIRE_MINUTES)
 // so they expire routinely during a normal session. Rather than have every
-// page handle that, fetchJson transparently exchanges the refresh token for
-// a new pair on a 401 and retries once. `refreshPromise` dedupes concurrent
-// refreshes -- the refresh token rotates on use, so two requests racing to
-// refresh at once would have the second one fail against an
-// already-consumed token.
+// page handle that, fetchJson transparently asks the backend to rotate the
+// session (via the refresh_token cookie) on a 401 and retries once.
+// `refreshPromise` dedupes concurrent refreshes -- the refresh token rotates
+// on use, so two requests racing to refresh at once would have the second
+// one fail against an already-consumed token.
 let refreshPromise: Promise<boolean> | null = null;
 
 async function tryRefresh(): Promise<boolean> {
-  if (!refreshToken) return false;
   if (!refreshPromise) {
     refreshPromise = (async () => {
       try {
         const res = await fetch(`${API_URL}/auth/refresh`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ refresh_token: refreshToken }),
+          credentials: "include",
+          body: JSON.stringify({}),
         });
-        if (!res.ok) {
-          setAuthTokens(null, null);
-          return false;
-        }
-        const data = await res.json();
-        setAuthTokens(data.access_token, data.refresh_token);
-        return true;
+        return res.ok;
       } catch {
         return false;
       } finally {
@@ -85,10 +56,19 @@ export type Client = {
   email: string | null;
   phone: string | null;
   mobile_phone: string | null;
+  date_of_birth: string | null;
+  country_of_birth: string | null;
   nationality: string | null;
+  a_number: string | null;
+  passport_number: string | null;
   ssn: string | null;
   sex: (typeof SEX_OPTIONS)[number] | null;
   marital_status: (typeof MARITAL_STATUS_OPTIONS)[number] | null;
+  address_line: string | null;
+  city: string | null;
+  state: string | null;
+  zip_code: string | null;
+  country: string | null;
   created_at: string;
 };
 
@@ -308,25 +288,20 @@ export type DocumentDetail = UploadedDocument & {
 
 const _AUTH_EXEMPT_PREFIXES = ["/public/", "/auth/login", "/auth/refresh", "/auth/forgot-password", "/auth/reset-password"];
 
-// Shared by fetchJson and downloadFile: attaches the bearer token, retries
+// Shared by fetchJson and downloadFile: sends the session cookie, retries
 // once on 401 after a token refresh, and normalizes auth failure handling.
-// Split out because a plain <a href> download link can't send an
-// Authorization header (the JWT lives in localStorage, not a cookie) --
-// authenticated downloads have to go through fetch() like everything else.
+// `credentials: "include"` is required on every call -- without it the
+// browser won't attach the httpOnly cookies at all, since the frontend
+// (localhost:3000) and backend (localhost:8000) are different origins.
 async function authFetch(path: string, init?: RequestInit, _retried = false): Promise<Response> {
   const exempt = _AUTH_EXEMPT_PREFIXES.some((p) => path.startsWith(p));
-  const headers = new Headers(init?.headers);
-  if (authToken && !exempt) {
-    headers.set("Authorization", `Bearer ${authToken}`);
-  }
 
-  const res = await fetch(`${API_URL}${path}`, { cache: "no-store", ...init, headers });
+  const res = await fetch(`${API_URL}${path}`, { cache: "no-store", ...init, credentials: "include" });
 
   if (res.status === 401) {
     if (!exempt && !_retried && (await tryRefresh())) {
       return authFetch(path, init, true);
     }
-    setAuthTokens(null, null);
     if (typeof window !== "undefined" && !exempt) {
       window.dispatchEvent(new Event("migratepro-unauthorized"));
     }
@@ -347,9 +322,10 @@ async function fetchJson<T>(path: string, init?: RequestInit): Promise<T> {
 }
 
 // Fetches a protected file and returns it as a blob + the filename the
-// server chose (from Content-Disposition), so callers can trigger a real
-// browser download without ever exposing the endpoint to an unauthenticated
-// <a href>.
+// server chose (from Content-Disposition). Goes through fetch() rather than
+// a plain <a href> mainly to show a loading state and surface errors in the
+// UI -- a same-site <a href> would actually carry the auth cookie now too,
+// but a bare link can't show "downloading..." or a failure message.
 async function fetchFile(path: string): Promise<{ blob: Blob; filename: string | null }> {
   const res = await authFetch(path);
   const disposition = res.headers.get("Content-Disposition") ?? "";
@@ -389,8 +365,28 @@ export function createClient(payload: NewClient): Promise<Client> {
   });
 }
 
+export function getClient(clientId: string): Promise<Client> {
+  return fetchJson(`/clients/${clientId}`);
+}
+
+export function updateClient(clientId: string, payload: Partial<NewClient>): Promise<Client> {
+  return fetchJson(`/clients/${clientId}`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deleteClient(clientId: string): Promise<void> {
+  return fetchJson(`/clients/${clientId}`, { method: "DELETE" });
+}
+
 export function getCases(): Promise<Case[]> {
   return fetchJson("/cases");
+}
+
+export function getCase(caseId: string): Promise<Case> {
+  return fetchJson(`/cases/${caseId}`);
 }
 
 export function createCase(payload: {
@@ -414,6 +410,10 @@ export function updateCase(
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
   });
+}
+
+export function deleteCase(caseId: string): Promise<void> {
+  return fetchJson(`/cases/${caseId}`, { method: "DELETE" });
 }
 
 export function getUsers(): Promise<User[]> {
@@ -735,6 +735,9 @@ export type AuthUser = {
 };
 
 export async function login(email: string, password: string): Promise<AuthUser> {
+  // The response body still includes the tokens too (for non-browser API
+  // clients), but the browser frontend ignores them -- the Set-Cookie
+  // headers alongside this response are what actually establish the session.
   const result = await fetchJson<{ access_token: string; refresh_token: string; token_type: string; user: AuthUser }>(
     "/auth/login",
     {
@@ -743,26 +746,23 @@ export async function login(email: string, password: string): Promise<AuthUser> 
       body: JSON.stringify({ email, password }),
     },
   );
-  setAuthTokens(result.access_token, result.refresh_token);
   return result.user;
 }
 
 export async function logout(): Promise<void> {
-  if (refreshToken) {
-    // Best-effort: revoke server-side so the refresh token can't be replayed
-    // later. Still clear local state even if this fails (offline, etc.) --
-    // the user asked to log out, that should always work locally.
-    try {
-      await fetchJson("/auth/logout", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ refresh_token: refreshToken }),
-      });
-    } catch {
-      // ignore
-    }
+  // Best-effort: revoke server-side (reads the refresh_token cookie) so it
+  // can't be replayed later, and clears the cookies in the response. Still
+  // resolve even if this fails (offline, etc.) -- the caller clears local
+  // React state regardless, so logging out always works from the user's POV.
+  try {
+    await fetchJson("/auth/logout", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({}),
+    });
+  } catch {
+    // ignore
   }
-  setAuthTokens(null, null);
 }
 
 export function getMe(): Promise<AuthUser> {

@@ -1,0 +1,3057 @@
+[
+  {
+    "name": "form1[0].#subform[0].Pt1Line1c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon).  1. Your Full Legal Name. Enter Middle Name if applicable.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1b_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon).  1. Your Full Legal Name. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon).  1. Your Full Legal Name. Do not provide nickname.  Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 2. Current Physical Address. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 2. Current Physical Address. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon).  2. Physical Address. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon).  2. Current Physical Address. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 2. Current Physical Address. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line2_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 2. Current Physical Address. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line2_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 2. Current Physical Address. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line2_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon).  2. Current Physical Address. Enter ZIP Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3_Gender[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 3. Other Information. A. Sex. Select Male.",
+    "page": 1,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3_Gender[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon).  3. Other Information. A. Sex. Select Female.",
+    "page": 1,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon).  3. Other Information. D. Enter Country of Birth.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].Pt1Line3e_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon).  3. Other Information. E. Enter Alien Registration Number (A. Number), if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 3. Other Information. B. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3_CityTownVillageofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 3. Other Information. C. Enter City, Town or Village of Birth.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3f_USCISOnlineAcctNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon).  3. Other Information. F. Enter U S C I S Online Account Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2_StreetNumberName[1]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 2. Current Physical Address. Enter  In Care of Name if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line2_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 2. Current Physical Address.  Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line2_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 2. Current Physical Address.  Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line2_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon). 2. Current Physical Address.  Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1_Line4_ImmMedExamReq[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (To be completed by the person requesting a medical examination, NOT the civil surgeon.) 4. Immigration Medical Examination Requirement. A. Select I am eligible for completion of the vaccination record portion only, because I previously completed an overseas immigration medical examination, signed by a panel physician (refugee or derivative asylee adjustment of status applicants under Immigration and Nationality Act (INA) section 209 and K nonimmigrant visa holders applying for adjustment of status). Note: If you selected this box for Item A. in Item Number 4., you, the applicant and the civil surgeon are responsible for completing Parts 1. - 5., Part 7., and Part 10.  ",
+    "page": 1,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line1b_GivenName[1]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. Is is pre-filled from the first page. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line1a_FamilyName[1]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line1c_MiddleName[1]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from the first page. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line3e_AlienNumber[1]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_ApplicantSignature[0]",
+    "type": "text",
+    "label": "Part 2. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Signature. NOTE: Do not sign or date Form I-6 93 until instructed to do so by the civil surgeon  at the beginning of the immigration medical examination provided Parts 1 through 5 are completed.     You must sign and date your form.  Every form MUST contain the signature of the applicant (or parent or legal guardian, if applicable).  A stamped or typewritten name in place of a signature is not acceptable.   4. Applicant's Signature. This is a read only field.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 2. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Signature. NOTE: Do not sign or date Form I-6 93 until instructed to do so by the civil surgeon  at the beginning of the immigration medical examination provided Parts 1 through 5 are completed.     You must sign and date your form.  Every form MUST contain the signature of the applicant (or parent or legal guardian, if applicable).  A stamped or typewritten name in place of a signature is not acceptable.  4. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line1_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line1_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 3. Interpreter's Contact Information, Certification, and Signature.   If you used anyone as an interpreter to read the Instructions and questions on this form to you in a language in which you are fluent, the interpreter must fill out this section.      Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2_NameofBusinessorOrgName[0]",
+    "type": "text",
+    "label": "Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line5_MobilePhone[0]",
+    "type": "text",
+    "label": "Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Mobile Telephone Number, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line4_DaytimePhone[0]",
+    "type": "text",
+    "label": "Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line6_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Email Address, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line4_Mobilephone[0]",
+    "type": "text",
+    "label": "Part 2. Applicant's Statement, Contact Information, Certification, and Signature.  Applicant's Contact Information.  Provide your daytime telephone number, mobile telephone number (if any), and email address (if any).  2. Enter Applicant's Mobile Telephone Number, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line5_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 2. Applicant's Statement, Contact Information, Certification, and Signature.  Applicant's Contact Information.     Provide your daytime telephone number, mobile telephone number (if any), and email address (if any).   3. Enter Applicant's Email Address, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line3_DaytimePhone[0]",
+    "type": "text",
+    "label": "Part 2. Applicant's Statement, Contact Information, Certification, and Signature.  Applicant's Contact Information. Provide your daytime telephone number, mobile telephone number (if any), and email address (if any).  1. Enter Applicant's Daytime Telephone Number. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line1b_GivenName[2]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. Is is pre-filled from the first page. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line1a_FamilyName[2]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line1c_MiddleName[2]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from the first page. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line3e_AlienNumber[2]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line1_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 4.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.   Preparer's Full Name.  1. Enter Preparer's Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line1_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 4.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Provide the following information about the preparer.   If the same individual acted as your interpreter and your preparer, that person should complete both Part 3. and Part 4.  Preparer's Full Name.  1. Enter Preparer's Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line2_PreparerNameofBusinessorOrgName[0]",
+    "type": "text",
+    "label": "Part 4.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name.  If the person who completed this application is associated with a business or organization, that person should complete the business or organization name and address information.  2. Enter Preparer's Business or Organization Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line8_Signature[0]",
+    "type": "text",
+    "label": "Part 4.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Signature.  Anyone who helped you complete this form MUST sign and date the form.  A stamped or typewritten name in place of a signature is not acceptable.  6. Preparer's Signature. This is a read only field.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line8_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 4.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Signature. 6. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line_NameOfLanguage[0]",
+    "type": "text",
+    "label": "Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that I am fluent in English and another language, and I have interpreted every question on the application and Instructions and interpreted the applicant's answers to the questions in that language, \rand the applicant informed me that he or she understood every instruction, question, and answer on the application. Enter Language.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line7_Signature[0]",
+    "type": "text",
+    "label": "Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 6. Interpreter's Signature. This is a read only field.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line7_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 6. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line4_MobilePhone[0]",
+    "type": "text",
+    "label": "Part 4.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 4. Enter Preparer's Mobile Telephone Number, if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line3_DaytimePhone[0]",
+    "type": "text",
+    "label": "Part 4.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 3. Enter Preparer's Daytime Telephone Number. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line5_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 4.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 5. Enter Preparer's Email Address, if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt5Line2_IDNumber[0]",
+    "type": "text",
+    "label": "Part 5.  Applicant's Identification Information. Please complete the following about the applicant: 2. Enter Document Identification Number",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt5Line1_ApplicantFormOfID[0]",
+    "type": "text",
+    "label": "Part 5.  Applicant's Identification Information. Please complete the following about the applicant: 1. Enter Form of identification presented by applicant (for example, passport or driver's license) ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line1b_GivenName[3]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. Is is pre-filled from the first page. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line1a_FamilyName[3]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line1c_MiddleName[3]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from the first page. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line3e_AlienNumber[3]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Information. 1. Enter Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. NOTE: Do not sign Form I-6 93 and do not have the applicant sign in Part 2. until all health-related follow-up requirements are met. Civil Surgeon's Information.  1. Enter Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line2_MedPracticeName[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Information. 2. Enter Name of Medical Practice, Facility, or Health Department.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Information. 1. Enter Middle Name, if applicable.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line1_CivilSurgeonID[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Information.   1. Enter Civil Surgeon Identification Number (CSID) (unless performing the examination under a \rhealth department or military blanket designation).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3_DateofExam1[0]",
+    "type": "text",
+    "label": "Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 3. Dates of Follow-up Examinations, if required. Enter Date of Examination One. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3_DateofExam3[0]",
+    "type": "text",
+    "label": "Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 3. Dates of Follow-up Examinations, if required. Enter Date of Examination Three. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3_DateofExam2[0]",
+    "type": "text",
+    "label": "Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 3. Dates of Follow-up Examinations, if required. Enter Date of Examination Two. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line2_DateoExam[0]",
+    "type": "text",
+    "label": "Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 2. Enter Date of First Examination (Date applicant signed in Part 2). Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line1_OverallFinding[0]",
+    "type": "checkbox",
+    "label": "Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 1. Summary of Overall Findings. B. Select Class B Conditions (See Item Numbers 1. through 4. in Part 8. Civil Surgeon Worksheet). ",
+    "page": 4,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line1_OverallFinding[1]",
+    "type": "checkbox",
+    "label": "Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 1. Summary of Overall Findings. A. Select No Class A. or Class B Condition.",
+    "page": 4,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line1_OverallFinding[2]",
+    "type": "checkbox",
+    "label": "Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 1. Summary of Overall Findings. C. Select Class A. Conditions (See Item Numbers 1. through 3. in Part 8. Civil Surgeon Worksheet).",
+    "page": 4,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line3_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Enter Street Number and Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Enter Apartment, Suite or Floor Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Select Floor.",
+    "page": 4,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Select Suite.",
+    "page": 4,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Select Apartment.",
+    "page": 4,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line3_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line3_State[0]",
+    "type": "choice",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Select State from List of States.",
+    "page": 4,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Enter ZIP Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line4_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Enter Street Number and Name Street Number and Name (P O Box)",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line4_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Enter Apartment, Suite or Floor Number, if applicable.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line4_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Select Floor.",
+    "page": 4,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line4_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Select Suite.",
+    "page": 4,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line4_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Select Apartment.",
+    "page": 4,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line4_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line4_State[0]",
+    "type": "choice",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Select State from List of States.",
+    "page": 4,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line4_ZipCode[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Enter ZIP Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line6_MobilePhone[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Contact Information. 6. Enter Mobile Telephone Number, if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line5_DaytimePhone[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Contact Information. 5. Enter Daytime Telephone Number. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt7Line7_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Contact Information. 7. Enter Email Address, if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line1b_GivenName[4]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line1a_FamilyName[4]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line1c_MiddleName[4]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from the first page. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line3e_AlienNumber[4]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line7_CivilSurgeonSignature[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Signature. 8. Civil Surgeon's Signature. This is a read only field.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line8_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Signature. 8. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line1b_GivenName[5]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line1a_FamilyName[5]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line1c_MiddleName[5]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from the first page. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A_GammarRelease[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. Select only one box. Select T-Spot.",
+    "page": 6,
+    "on_value": "/TS"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A_GammarRelease[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay.  Select only one box. Select QuantiFERON.",
+    "page": 6,
+    "on_value": "/QF"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A1_Result[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. Result. Select Negative (no chest X-ray required)",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A1_Result[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. Result. Select Positive (chest X-ray required).",
+    "page": 6,
+    "on_value": "/P"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A2_InitialScreening[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet . 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 2. Initial Screening Test Result and Chest X-Ray Determinations. Select Chest X-ray not required (medically cleared for T B for U S C I S).",
+    "page": 6,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A2_InitialScreening[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet . 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 2. Initial Screening Test Result and Chest X-Ray Determinations. Select Chest X-ray required due to I G R A exception (Clearly specify the I G R A exception in the Remarks section below.)",
+    "page": 6,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A2_InitialScreening[2]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet . 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 2. Initial Screening Test Result and Chest X-Ray Determinations. Select Chest X-ray required due to T B signs or symptoms, or due to immunosuppression (such as H I V).",
+    "page": 6,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A2_InitialScreening[3]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet . 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 2. Initial Screening Test Result and Chest X-Ray Determinations. Select Chest X-ray required due to initial screening test results.",
+    "page": 6,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_Results[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. Result. Select Normal.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_Results[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).  Sputum Smears and Cultures Results.       3. Chest X-Ray. Result. Select Abnormal (describe results in Remarks section below).",
+    "page": 6,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_XrayTakenDate[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Result.   3. Chest X-Ray:  Required based on I G R A result, or if specific I G R A exceptions apply, or for an applicant with T B signs or symptoms or immunosuppression (such as H I V). Enter Date Chest X-Ray Taken. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_XrayReadDate[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results.   3. Chest X-Ray. Enter Date Chest X-Ray Read. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A_GammarRelease[2]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay (for acceptable I G R A.'s, consult the Technical Instructions for Civil Surgeons and any updates posted on the C D C's Web site). Select Not administered (I G R A. exception; please explain in Remarks section below).",
+    "page": 6,
+    "on_value": "/IGRA"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A1_TSDate[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. T-Spot. Enter Date Blood Sample Drawn. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A1_QFDate[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. QuantiFERON.  Enter Date Blood Sample Drawn. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_Infiltrate[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Infiltrate or consolidation",
+    "page": 6,
+    "on_value": "/Infiltrate"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_Reticular[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Reticular markings suggestive of fibrosis",
+    "page": 6,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_Miliary[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Miliary findings",
+    "page": 6,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_NodulesorMass[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Nodule(s) or mass with poorly defined \rmargins (such as tuberculoma)",
+    "page": 6,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_Cavitylesion[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Cavitary lesion",
+    "page": 6,
+    "on_value": "/E"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_Hilar[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Hilar/mediastinal adenopathy",
+    "page": 6,
+    "on_value": "/G"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_Pleuraleffusion[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Pleural effusion",
+    "page": 6,
+    "on_value": "/PE"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line3e_AlienNumber[5]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A1_Result[2]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. Result. Select Indeterminate (including borderline/equivocal) (no chest X-ray required)",
+    "page": 6,
+    "on_value": "/I"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_DiscretelinearOpac[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Discrete linear opacity.",
+    "page": 6,
+    "on_value": "/H"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_Irregularthickpleural[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Irregular thick pleural reaction",
+    "page": 6,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_Volumeloss[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Volume loss or retraction",
+    "page": 6,
+    "on_value": "/G"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_DiscreteNodule[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Discrete nodules without calcification",
+    "page": 6,
+    "on_value": "/Discrete Nodule"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt8Line1A3_Other[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Other (further describe in Remarks section below)",
+    "page": 6,
+    "on_value": "/H"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line1b_GivenName[6]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line1a_FamilyName[6]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line1c_MiddleName[6]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from the first page. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line3e_AlienNumber[6]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A7_Remarks[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 7. Enter Remarks:  (Include any signs or symptoms of T B, additional tests and therapy given, with start and stop dates and any changes.  If you did not perform I G R A, give the reason why an exception applies.)",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A6_TBClassification[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select No Class A. or Class B  T B  findings.  ",
+    "page": 7,
+    "on_value": "/NOClassA"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A6_TBClassification[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class A. Pulmonary T B Disease.",
+    "page": 7,
+    "on_value": "/CA"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A6_TBClassification[2]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class B 1 Pulmonary T B.",
+    "page": 7,
+    "on_value": "/B1Pul"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A6_TBClassification[3]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class B 0 Pulmonary T B.",
+    "page": 7,
+    "on_value": "/B0"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A6_TBClassification[4]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class B 1 Extrapulmonary T B.",
+    "page": 7,
+    "on_value": "/B1Extrapul"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A6_TBClassification[5]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class B 2 T B, Latent T B Infection.",
+    "page": 7,
+    "on_value": "/B2 TB Latent"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A6_TBClassification[6]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class B, Other Chest Condition (non-T B).",
+    "page": 7,
+    "on_value": "/Class B Other Chest "
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1B1b_DateNontrepoemaltest[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. B. Enter Date Nontreponemal Test Collected. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1c_TiterOne[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. C. Screening Reactive, Titer 1. Enter Titer 1.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1B1c_SyphilisScreen[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. C. Select Screening Reactive, Titer 1.",
+    "page": 7,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1B1c_SyphilisScreen[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis.  1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood sample. C. Select Nontreponemal Test Nonreactive Date Reported.",
+    "page": 7,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1B1c_DateNontreponemalTest[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. C. Enter Nontreponemal Test Nonreactive Date Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1B1a_name[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. A. Enter Name of Nontreponemal Test.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results table. Row 1. Enter X for Negative Result Reported.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[1]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results table. Row 2. Enter X for Negative Result Reported.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[2]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results table. Row 3. Enter X for Negative Result Reported.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[3]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smear Results table. Row 1. Enter X for a Positive Result Reported. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[4]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smear Results table. Row 2. Enter X for a Positive Result Reported. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[5]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smear Results table. Row 3. Enter X for a Positive Result Reported. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5). Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 1. Enter Date when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[1]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5). Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 2. Enter Date when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[2]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5). Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 3. Enter Date when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[3]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smears Result Table. Row 1. Enter Date when Smear Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[4]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smears Result Table. Row 2. Enter Date when Smear Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[5]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smears Result Table. Row 3. Enter Date when Smear Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[6]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 1. Enter X for Negative Result Reported.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[7]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 2. Enter X for Negative Result Reported.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[8]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 2. Enter X for Negative Result Reported.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[9]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 1. Enter X for a Positive Result. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[10]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 2. Enter X for a Positive Result. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[11]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 3. Enter X for a Positive Result. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[6]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 1. Enter  Date  when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[7]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 2. Enter  Date  when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[8]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 3. Enter  Date  when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[9]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 1. Enter Date when Culture Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[10]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 2. Enter Date when Culture Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1b_DateScreeningRun[11]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 3. Enter Date when Culture Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[12]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 1. Enter X for a Contaminated Result.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[13]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 2. Enter X for a Contaminated Result.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[14]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 3. Enter X for a Contaminated Result.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[15]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 1. Enter X for a NTM Result.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[16]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 2. Enter X for a NTM Result.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1B1d_name[17]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Result.   5. Sputum Smears and Cultures Results.Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 3. Enter X for a NTM Result. Sputum Culture Results. Enter X for a NTM Result.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A4_SputumSmearsCultures[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. communicable Disease of Public Health Significance. A. Tuberculosis (T B).   4.  Sputum Smears and Cultures Decision.        Select  No, not indicated",
+    "page": 7,
+    "on_value": "/No"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A4_SputumSmearsCultures[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   4.  Sputum Smears and Cultures Decision        Select  Yes, indicated due to signs or symptoms of T B",
+    "page": 7,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A4_SputumSmearsCultures[2]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   4.  Sputum Smears and Cultures Decision.        Select Yes, indicated due to chest X ray suggestive of T B",
+    "page": 7,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A4_SputumSmearsCultures[3]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Yes, indicated for end of treatment cultures.",
+    "page": 7,
+    "on_value": "/E"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line1A4_SputumSmearsCultures[4]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Yes, indicated due to known H I V infection or extrapulmonary T B.",
+    "page": 7,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line1b_GivenName[7]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line1a_FamilyName[7]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line1c_MiddleName[7]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from the first page. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B2_Findings[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 2. Findings. Select No Class A or Class B Syphilis.",
+    "page": 8,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B2_Findings[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 2. Findings. Select Syphilis, Class B (treated in the last year).",
+    "page": 8,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B2_Findings[2]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 2. Findings. Select Syphilis, Class A. (untreated).",
+    "page": 8,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B3_Remarks[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 3. Enter Remarks: (Include any therapy given with doses and dates).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line3e_AlienNumber[7]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B3_Drug[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 3. Enter Remarks: (Include stage of syphilis diagnosed [primary, secondary, early latent, late latent or latent of unknown duration, tertiary, neurosyphilis, congential] and any therapy given with doses and dates of administration). Enter Drug.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B3_Dosage[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 3. Enter Remarks: (Include stage of syphilis diagnosed [primary, secondary, early latent, late latent or latent of unknown duration, tertiary, neurosyphilis, congential] and any therapy given with doses and dates of administration). Enter Dosage.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B3_startDate[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 3. Enter Remarks: (Include stage of syphilis diagnosed [primary, secondary, early latent, late latent or latent of unknown duration, tertiary, neurosyphilis, congential] and any therapy given with doses and dates of administration). Enter Start Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B3_endDate[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 3. Enter Remarks: (Include stage of syphilis diagnosed [primary, secondary, early latent, late latent or latent of unknown duration, tertiary, neurosyphilis, congential] and any therapy given with doses and dates of administration). Enter End Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line1C1b_DateScreeningNucleicAcid[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 1. Laboratory Test for Gonorrhea (Required for applicants 18 to 24 years of age). B. Enter Date Result Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1C1a_name[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 1. Laboratory Test for Gonorrhea (Required for applicants 18 to 24 years of age). A. Enter Screening Nucleic Acid Amplification Test (NAAT) Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1C1c[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 1. Laboratory Test for Gonorrhea (Required for applicants 18 to 24 years of age). C. Select Positive. ",
+    "page": 8,
+    "on_value": "/P"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1C1c[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 1. Laboratory Test for Gonorrhea (Required for applicants 18 to 24 years of age). C. Select Negative. ",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1c2_Findings[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 2. Findings. Select Gonorrhea, Class B (treated in the last year).",
+    "page": 8,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1c2_Findings[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 2. Findings. Select Gonorrhea, Class A. (untreated).",
+    "page": 8,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1c2_Findings[2]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 2. Findings. Select No Class A. or Class B Gonorrhea.",
+    "page": 8,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B1e_DateScreeningRun[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample.  E. Enter Date Treponemal Test Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B1f_TiterOne[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. F. Enter Treponemal Test Reactive.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B1d_TreponemalReactiveNon[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. F. Select Treponemal Test Reactive.",
+    "page": 8,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B1d_TreponemalReactiveNon[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. F. Select Terponemal Test Nonreactive.",
+    "page": 8,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B1g_nameOfrepeat[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. g.  If using reverse algorithm and treponemal test reactive but nontreponemal test nonreactive: Enter Name of Repeat Treponemal Test (preferably one based on different antigens).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line1B1h_DateOfrepeatTest[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. H.  Date Repeat Treponemal Test Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B1i_RepeatReativeNon[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. I. Select Repeat Treponemal Test Nonreactive.",
+    "page": 8,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B1i_RepeatReativeNon[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. I. Select Repeat Treponemal Test Reactive.",
+    "page": 8,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1B1d_name[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 1. Serologic Test for Syphilis (Required for applicants 18 to 44 years).  All tests must be performed on the same blood \rsample. D. Enter Name of Treponemal Test.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1c3_Remarks[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 3. Enter Remarks: (Include any symptoms or treatment given with doses and dates of administration).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1C3_Drug[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 3. Enter Remarks: (Include any symptoms or treatment given with doses and dates of administration). Enter Drug.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1C3_Dosage[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 3. Enter Remarks: (Include any symptoms or treatment given with doses and dates of administration). Enter Dosage.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1C3_startDate[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 3. Enter Remarks: (Include any symptoms or treatment given with doses and dates of administration). Enter Start Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1C3_endDate[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 3. Enter Remarks: (Include any symptoms or treatment given with doses and dates of administration). Enter End Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].Pt1Line1b_GivenName[8]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt1Line1a_FamilyName[8]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt1Line1c_MiddleName[8]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from the first page. ",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line1C2_Remarks[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 2. Enter Remarks:  (Include any therapy given and any counseling or referrals). If you need extra space to complete this section, use the space provided in Part 11. Additional Information.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line2A_Disorders[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 2. Physical or Mental Disorders With Associated Harmful Behavior. Include here any physical or mental disorders with current associated harmful behavior or history of associated harmful behavior judged likely to recur.  This category of physical or mental disorders includes any diagnosis of substance-use disorders that involve any substance that is not listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act (for example, diagnosis of an alcohol-use disorder).  Diagnose mental disorders according to the diagnostic criteria in the most recent edition of the Diagnostic and Statistical Manual (DSM) or another authoritative source, as determined by the director of the CDC.  Diagnose physical disorders according to the diagnostic criteria in the most recent edition of the World Health Organization's Manual of the International Classification of Diseases, Injuries, and Causes of Death (ICD) or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information.A. Findings. 1. Select No Class A or B Physical or Mental Disorder.",
+    "page": 9,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line2A_Disorders[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 2. Physical or Mental Disorders With Associated Harmful Behavior. Include here any physical or mental disorders with current associated harmful behavior or history of associated harmful behavior judged likely to recur.  This category of physical or mental disorders includes any diagnosis of substance-use disorders that involve any substance that is not listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act (for example, diagnosis of an alcohol-use disorder).  Diagnose mental disorders according to the diagnostic criteria in the most recent edition of the Diagnostic and Statistical Manual (DSM) or another authoritative source, as determined by the director of the CDC.  Diagnose physical disorders according to the diagnostic criteria in the most recent edition of the World Health Organization's Manual of the International Classification of Diseases, Injuries, and Causes of Death (ICD) or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information.A. Findings. 5. Select Physical/Mental Disorder with a History of Associated Harmful Behavior Unlikely to Recur, Class B.",
+    "page": 9,
+    "on_value": "/5"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line2A_Disorders[2]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 2. Physical or Mental Disorders With Associated Harmful Behavior. Include here any physical or mental disorders with current associated harmful behavior or history of associated harmful behavior judged likely to recur.  This category of physical or mental disorders includes any diagnosis of substance-use disorders that involve any substance that is not listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act (for example, diagnosis of an alcohol-use disorder).  Diagnose mental disorders according to the diagnostic criteria in the most recent edition of the Diagnostic and Statistical Manual (DSM) or another authoritative source, as determined by the director of the CDC.  Diagnose physical disorders according to the diagnostic criteria in the most recent edition of the World Health Organization's Manual of the International Classification of Diseases, Injuries, and Causes of Death (ICD) or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information. A. Findings. 4. Select Current Physical / Mental Disorder without Associated Harmful Behavior, Class B.",
+    "page": 9,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line2A_Disorders[3]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 2. Physical or Mental Disorders With Associated Harmful Behavior. Include here any physical or mental disorders with current associated harmful behavior or history of associated harmful behavior judged likely to recur.  This category of physical or mental disorders includes any diagnosis of substance-use disorders that involve any substance that is not listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act (for example, diagnosis of an alcohol-use disorder).  Diagnose mental disorders according to the diagnostic criteria in the most recent edition of the Diagnostic and Statistical Manual (DSM) or another authoritative source, as determined by the director of the CDC.  Diagnose physical disorders according to the diagnostic criteria in the most recent edition of the World Health Organization's Manual of the International Classification of Diseases, Injuries, and Causes of Death (ICD) or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information. A. Findings. 3. Select History of Physical / Mental Disorder with Associated Harmful Behavior Likely to Recur, Class A.",
+    "page": 9,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line2A_Disorders[4]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 2. Physical or Mental Disorders With Associated Harmful Behavior. Include here any physical or mental disorders with current associated harmful behavior or history of associated harmful behavior judged likely to recur.  This category of physical or mental disorders includes any diagnosis of substance-use disorders that involve any substance that is not listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act (for example, diagnosis of an alcohol-use disorder).  Diagnose mental disorders according to the diagnostic criteria in the most recent edition of the Diagnostic and Statistical Manual (DSM) or another authoritative source, as determined by the director of the CDC.  Diagnose physical disorders according to the diagnostic criteria in the most recent edition of the World Health Organization's Manual of the International Classification of Diseases, Injuries, and Causes of Death (ICD) or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information.A. Findings. 2. Select Physical/Mental Disorder with Associated Harmful Behavior, Class A.",
+    "page": 9,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt1Line3e_AlienNumber[8]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. ",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line1D1_Findings[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. A. Select No Class A. / B Condition.",
+    "page": 9,
+    "on_value": "/a"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line1D1_Findings[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. B. Select Hansen's Disease (leprosy, any classification) untreated, Class A.",
+    "page": 9,
+    "on_value": "/b"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line1D1b_Checkboxf[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. B. Hansen's Disease (leprosy, any classification) untreated, Class A. Select Indeterminate, tuberculoid, borderline tuberculoid (paucibacillary).",
+    "page": 9,
+    "on_value": "/I"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line1D1b_Checkboxf[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. B. Hansen's Disease (leprosy, any classification) untreated, Class A. Select Mid-borderline, borderline lepromatous, lepromatous (multibacillary).",
+    "page": 9,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line1D1_Findings[2]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. C. Select Hansen's Disease (leprosy, any classification) treated or partially treated, Class B.",
+    "page": 9,
+    "on_value": "/c"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line1C1c_Checkboxg[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. C. Hansen's Disease (leprosy, any classification) treated or partially treated, Class B. Select Indeterminate, tuberculoid, borderline tuberculoid (paucibacillary).",
+    "page": 9,
+    "on_value": "/I"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line1C1c_Checkboxg[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. C. Hansen's Disease (leprosy, any classification) treated or partially treated, Class B. Select Mid-borderline, borderline lepromatous, lepromatous (multibacillary).",
+    "page": 9,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line2B_Remarks[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 2. Physical or Mental Disorders With Associated Harmful Behavior. Include here any physical or mental disorders with current associated harmful behavior or history of associated harmful behavior judged likely to recur.  This category of physical or mental disorders includes any diagnosis of substance-use disorders that involve any substance that is not listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act (for example, diagnosis of an alcohol-use disorder).  Diagnose mental disorders according to the diagnostic criteria in the most recent edition of the Diagnostic and Statistical Manual (DSM) or another authoritative source, as determined by the director of the CDC.  Diagnose physical disorders according to the diagnostic criteria in the most recent edition of the World Health Organization's Manual of the International Classification of Diseases, Injuries, and Causes of Death (ICD) or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information.  B. Remarks:  Include diagnosis, likelihood of recurrence of the harmful behavior, therapy given, and any counseling or referrals.  If you need extra space to complete this section, use the space provided in Part 11. Additional Information.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[9].Pt1Line1a_FamilyName[9]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt1Line1b_GivenName[9]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt1Line1c_MiddleName[9]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from first page. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].#area[9].Pt1Line3e_AlienNumber[9]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-flled from the first page. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt8Line3B_Remarks[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 3. Drug Abuse / Drug Addiction. The U.S. Department of Health and Human Services (DHHS) sets the medical guidelines for determining drug abuse and drug addiction.  The terms are defined at 42 C F R 34.2(h) and (i). Include here any diagnosis of drug abuse or drug addiction. \"Drug abuse or drug addiction\" is \"current substance use disorder mild, moderate or severe\u201d but only with respect to substances listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act. Make the diagnosis according to the diagnostic criteria in the most current edition of the DSM, or by another authoritative source as determined by the director of the CDC. You may also make a diagnosis of full remission, according to the diagnostic criteria in the most current edition of the DSM or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information. B. Remarks:  (Include any therapy given, rehabilitation, counseling or referrals.  If you need extra space to complete this section, use the space provided in Part 11. Additional Information.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt8Line4_ListOtherMedConditions[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 4. Other Medical Conditions (List any other Class B conditions, such as hypertension or diabetes, and all required evaluation components as found in Technical Instructions for Civil Surgeons.)",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt8Line3A_Findings[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 3. Drug Abuse / Drug Addiction. The U.S. Department of Health and Human Services (DHHS) sets the medical guidelines for determining drug abuse and drug addiction.  The terms are defined at 42 C F R 34.2(h) and (i). Include here any diagnosis of drug abuse or drug addiction. \"Drug abuse or drug addiction\" is \"current substance use disorder mild, moderate or severe\u201d but only with respect to substances listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act. Make the diagnosis according to the diagnostic criteria in the most current edition of the DSM, or by another authoritative source as determined by the director of the CDC. You may also make a diagnosis of full remission, according to the diagnostic criteria in the most current edition of the DSM or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information.3. Drug Abuse / Drug Addiction. A. Findings. 4. Select Substance (Drug) Addiction in Full Remission, Listed in section 2 0 2 of the Controlled Substances Act, Class B.",
+    "page": 10,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].#subform[9].Pt8Line3A_Findings[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 3. Drug Abuse / Drug Addiction. The U.S. Department of Health and Human Services (DHHS) sets the medical guidelines for determining drug abuse and drug addiction.  The terms are defined at 42 C F R 34.2(h) and (i). Include here any diagnosis of drug abuse or drug addiction. \"Drug abuse or drug addiction\" is \"current substance use disorder mild, moderate or severe\u201d but only with respect to substances listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act. Make the diagnosis according to the diagnostic criteria in the most current edition of the DSM, or by another authoritative source as determined by the director of the CDC. You may also make a diagnosis of full remission, according to the diagnostic criteria in the most current edition of the DSM or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information. A. Findings. 3. Select Substance (Drug) Abuse in Full Remission, listed in section 202 of the Controlled Substances Act, Class B.",
+    "page": 10,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[9].Pt8Line3A_Findings[2]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 3. Drug Abuse / Drug Addiction. The U.S. Department of Health and Human Services (DHHS) sets the medical guidelines for determining drug abuse and drug addiction.  The terms are defined at 42 C F R 34.2(h) and (i). Include here any diagnosis of drug abuse or drug addiction. \"Drug abuse or drug addiction\" is \"current substance use disorder mild, moderate or severe\u201d but only with respect to substances listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act. Make the diagnosis according to the diagnostic criteria in the most current edition of the DSM, or by another authoritative source as determined by the director of the CDC. You may also make a diagnosis of full remission, according to the diagnostic criteria in the most current edition of the DSM or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information. A. Findings. 1. Select No Class A. or B Substance (Drug) Abuse / Addiction.",
+    "page": 10,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[9].Pt8Line3A_Findings[3]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 3. Drug Abuse / Drug Addiction. The U.S. Department of Health and Human Services (DHHS) sets the medical guidelines for determining drug abuse and drug addiction.  The terms are defined at 42 C F R 34.2(h) and (i). Include here any diagnosis of drug abuse or drug addiction. \"Drug abuse or drug addiction\" is \"current substance use disorder mild, moderate or severe\u201d but only with respect to substances listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act. Make the diagnosis according to the diagnostic criteria in the most current edition of the DSM, or by another authoritative source as determined by the director of the CDC. You may also make a diagnosis of full remission, according to the diagnostic criteria in the most current edition of the DSM or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information. A. Findings. 2. Select Substance (Drug) Abuse or Addiction, listed in section 202 of the Controlled Substances Act, Class A.",
+    "page": 10,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt1Line1a_FamilyName[10]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt1Line1b_GivenName[10]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt1Line1c_MiddleName[10]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from the first page. ",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].#area[10].Pt1Line3e_AlienNumber[10]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. ",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line3_DateSigned[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 3. Signature of Health Department Individual or Other Doctor Performing Referral Evaluation. Enter Date Signed. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line4_NameOfMPorHD[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 4. Enter Name of Medical Practice or Health Department.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line3_Signature[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 3. Signature of Health Department Individual or Other Doctor Performing Referral Evaluation. Signature. This is read only field.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line2_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Enter Street Number and Name.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line2_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Enter Apartment, Suite or Floor Number.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line2_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Select Floor.",
+    "page": 11,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line2_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Select Suite.",
+    "page": 11,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line2_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Select Apartment.",
+    "page": 11,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line2_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Enter City or Town.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line2_State[0]",
+    "type": "choice",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Select State from List of States.",
+    "page": 11,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line2_ZipCode[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Enter ZIP Code.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line5_DaytimePhone[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 5. Enter Daytime Telephone Number.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 1. Evaluating Physician or Health Department's Full Name. A. Enter Given Name (First Name).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). The applicant identified on this Form I-6 93 was referred to me by the civil surgeon named in Part 7. of this Form I-6 93.  I have provided appropriate evaluation / treatment, having made every reasonable effort to verify that the person whom I have evaluated / treated is the person identified in Part 1. 1. Evaluating Physician or Health Department's Full Name. A. Enter Family Name (Last Name).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 1. Evaluating Physician or Health Department's Full Name. A. Enter Middle Name.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line1_NameOfMPorHD[0]",
+    "type": "text",
+    "label": "Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 1. Evaluating Physician or Health Department's Full Name. B. Enter Health Department's Name.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt8Line5D_Remarks[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required. Do not complete if referral is not required, such as recommended referral for L T B  I treatment.) D. Enter Remarks: (Include the name of medical condition and the reasons for referral).  If you need extra space to complete this section, use the space provided in Part 11. Additional Information.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt8Line5A_DoctorOrHDptName[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if a referral is medically required.) A. Type or Print Name of Doctor or Health Department Receiving Required Referral.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt8Line5B_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Enter Street Number and Name. ",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt8Line5B_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Enter Apartment, Suite or Floor Number.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt8Line5B_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Select Floor.",
+    "page": 11,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[10].Pt8Line5B_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Select Suite.",
+    "page": 11,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[10].Pt8Line5B_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Select Apartment.",
+    "page": 11,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[10].Pt8Line5B_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Enter City or Town.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt8Line5B_State[0]",
+    "type": "choice",
+    "label": "Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Select State from List of States.",
+    "page": 11,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[10].Pt8Line5B_ZipCode[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Enter ZIP Code.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt8Line5C_DateOfReferral[0]",
+    "type": "text",
+    "label": "Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required. Do not complete if referral is not required, such as recommended referral for L T B  I treatment.) C. Enter Date of Referral. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].P13[0].Pt1Line1b_GivenName[0]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].Pt1Line1a_FamilyName[0]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].Pt1Line1c_MiddleName[0]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from the first page. ",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].P9_TDVaccineCheckBox[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Tetanus, Diptheria, and Pertussis (T D A. P).",
+    "page": 12,
+    "on_value": "/Tdap"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line13_CompleteSeries[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Complete Series. Line 13.  COVID-19 (In \u201cRemarks\u201d section, write \u201cCOVID-19\u201d and specify vaccine brand). Enter the name of Vaccine.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line13_NotAge12[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line 13. COVID-19 (In \u201cRemarks\u201d section, write \u201cCOVID-19\u201d and specify vaccine brand). Select Not Age Appropriate.",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line13_InsufficientCheckBox12[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line 13. COVID-19 (In \u201cRemarks\u201d section, write \u201cCOVID-19\u201d and specify vaccine brand). Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line13_ContraCheckBox12[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line 13. COVID-19 (In \u201cRemarks\u201d section, write \u201cCOVID-19\u201d and specify vaccine brand). Select Contraindication.",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line13d_DateReceived_4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line 13.  COVID-19 (In \u201cRemarks\u201d section, write \u201cCOVID-19\u201d and specify vaccine brand). Enter the fourth Vaccine Received Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line13_DateGiven_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line 13.  COVID-19 (In \u201cRemarks\u201d section, write \u201cCOVID-19\u201d and specify vaccine brand). Enter Vaccine Received Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line13c_DateReceived_3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line 13.  COVID-19 (In \u201cRemarks\u201d section, write \u201cCOVID-19\u201d and specify vaccine brand). Enter the third Vaccine Received Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line13b_DateReceived_2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line 13.  COVID-19 (In \u201cRemarks\u201d section, write \u201cCOVID-19\u201d and specify vaccine brand). Enter the second Vaccine Received Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line13a_DateReceived_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line 13.  COVID-19 (In \u201cRemarks\u201d section, write \u201cCOVID-19\u201d and specify vaccine brand). Enter the first Vaccine Received Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10_PVVaccineCheckBox[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Oral Polio Vaccine (O P V).",
+    "page": 12,
+    "on_value": "/OPV"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10_PVVaccineCheckBox[1]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Inactive Poliovirus Vaccine (I P  V).",
+    "page": 12,
+    "on_value": "/IPV"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].P10_TDVaccineCheckBox[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Tetanus Diptheria (T d).",
+    "page": 12,
+    "on_value": "/Td"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].P10_VaccineCheckBox[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Diptheria Tetanus (D T).",
+    "page": 12,
+    "on_value": "/DT"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].P10_VaccineCheckBox[1]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Diptheria, Tetanus, and Pertussis (D T P).",
+    "page": 12,
+    "on_value": "/DTP"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].P10_VaccineCheckBox[2]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).",
+    "page": 12,
+    "on_value": "/DTaP"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_DTDateReceived1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P). Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line2_TdDateReceived1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line3a_DateReceived_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V).  Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line4a_DateReceived_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines are given, specify vaccines. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line5a_DateReceived_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Five. Haemophilus Influenzae Type b (H I B). Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line6_HBDateReceived1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Six. Hepatitis B. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line7a_DateReceived_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Seven. Varicella. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line8a_DateReceived_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eight. Pneumococcal. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line9a_DateReceived_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Nine. Influenza. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line10a_DateReceived_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Ten. Rotavirus. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line11a_DateReceived_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eleven. Hepatitis A. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line12a_DateReceived_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Twelve. Meningococcal. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_DTDateReceived2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P). Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line2_TdDateReceived2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line3b_DateReceived_2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line4b_DateReceived_2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines are given, specify vaccines. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line5b_DateReceived_2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Five. Haemophilus Influenzae Type b (H I B). Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line6_HBDateReceived2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Six. Hepatitis B. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line7b_DateReceived_2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Seven. Varicella. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line8b_DateReceived_2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eight. Pneumococcal. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line9b_DateReceived_2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Nine. Influenza. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line10b_DateReceived_2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Ten. Rotavirus. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line11b_DateReceived_2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eleven. Hepatitis A. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line12b_DateReceived_2[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Twelve. Meningococcal. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_DTDateReceived3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P). Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line2_TdDateReceived3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line3c_DateReceived_3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V).  Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line4c_DateReceived_3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines are given, specify vaccines. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line5c_DateReceived_3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Five. Haemophilus Influenzae Type b (H I B). Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line6_HBDateReceived3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Six. Hepatitis B. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line7c_DateReceived_3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Seven. Varicella. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line8c_DateReceived_3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eight. Pneumococcal. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line9c_DateReceived_3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Nine. Influenza. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line10c_DateReceived_3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Ten. Rotavirus. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line11c_DateReceived_3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eleven. Hepatitis A. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line12c_DateReceived_3[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Twelve. Meningococcal. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_DTDateReceived4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P). Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_DTDateGiven[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P). Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line2_TdDateGiven[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Enter Date Given Civil Surgeon.  Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line3_DateGiven_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line4_DateGiven_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines are given, specify vaccines. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line5_DateGiven_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line Five. Haemophilus Influenzae Type b (H I B). Enter Date Given by Civil Surgeon.  Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line6_HBDateGiven[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line Six. Hepatitis B. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line7_DateGiven_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line Seven. Varicella. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line8_DateGiven_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line Eight. Pneumococcal. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line9_DateGiven_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line Nine. Influenza. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line10_DateGiven_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line Ten. Rotavirus. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line11_DateGiven_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line Eleven. Hepatitis A. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line12_DateGiven_1[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine Given. Line Twelve. Meningococcal. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line2_TdDateReceived4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line3d_DateReceived_4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line4d_DateReceived_4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines are given, specify vaccines. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line5d_DateReceived_4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Five. Haemophilus Influenzae Type b (H I B). Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line6_HBDateReceived4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Six. Hepatitis B. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line7d_DateReceived_4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Seven. Varicella. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line8d_DateReceived_4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eight. Pneumococcal. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line9d_DateReceived_4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Nine. Influenza. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line10d_DateReceived_4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Ten. Rotavirus. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line11d_DateReceived_4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eleven. Hepatitis A. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line12d_DateReceived_4[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Twelve. Meningococcal. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_NotAge1[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P). Diptheria, Tetanus, and Pertussis (D T P). Select Not Age Appropriate. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_ContraCheckBox1[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P). Diptheria, Tetanus, and Pertussis (D T P). Select Contraindication. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line2_TdContra[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Select Contraindication.",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line3_ContraCheckBox3[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Select Contraindication.",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line4_ContraCheckBox4[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record.  Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines. Select Contraindication.",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line5_ContraCheckBox5[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Five.  Haemophilus Influenzae Type b (H I B). Select Contraindication. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line6_ContraCheckBox6[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Six. Hepatitis B). Select Contraindication. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line7_ContraCheckBox7[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Seven. Varicella. Select Contraindication. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line8_ContraCheckBox8[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eight. Pneumococcal. Select Contraindication. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line9_ContraCheckBox9[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Nine. Influenza. Select Contraindication. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line10_ContraCheckBox10[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Ten. Rotavirus. Select Contraindication. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line11_ContraCheckBox11[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record.  Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eleven. Hepatitis A. Select Contraindication. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line12_ContraCheckBox12[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Twelve. Meningococcal. Select Contraindication.",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_InsufficientCheckBox1[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P). Diptheria, Tetanus, and Pertussis (D T P). Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line2_InsufficientCheckBox2[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line3_InsufficientCheckBox3[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line4_InsufficientCheckBox4[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record.  Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines. Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line5_InsufficientCheckBox5[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Five.  Haemophilus Influenzae Type b (H I B). Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line6_InsufficientCheckBox6[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Six. Hepatitis B). Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line7_InsufficientCheckBox7[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Seven. Varicella. Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line8_InsufficientCheckBox8[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eight. Pneumococcal. Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line10_InsufficientCheckBox9[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Nine. Influenza. Select Insufficient Time Interval.",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line10_InsufficientCheckBox10[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Ten. Rotavirus. Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line11_InsufficientCheckBox11[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eleven. Hepatitis A. Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line12_InsufficientCheckBox12[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Twelve. Meningococcal. Select Insufficient Time Interval. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line2_NotAge2[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Select Not Age Appropriate. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line3_NotAge3[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Three.  Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Select Not Age Appropriate. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line4_NotAge4[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record.  Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines. Select Not Age Appropriate. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line5_NotAge5[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Five.  Haemophilus Influenzae Type b (H I B). Select Not Age Appropriate.",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line6_NotAge6[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Six. Hepatitis B). Select Not Age Appropriate. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line7_NotAge7[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Seven. Varicella. Select Not Age Appropriate. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line8_NotAge8[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eight. Pneumococcal. Select Not Age Appropriate. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line9_NotAge9[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Nine. Influenza. Select Not Age Appropriate. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line10_NotAge10[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Ten. Rotavirus. Select Not Age Appropriate. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line11_NotAge11[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record.  Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eleven. Hepatitis A. Select Not Age Appropriate. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line12_NotAge12[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Twelve. Meningococcal. Select Not Age Appropriate.",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_DTCompleteSeries[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Complete Series. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P).  Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line2_TdCompleteSeries[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Complete Series. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_CompleteSeries[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Complete Series. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_CompleteSeries[1]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Complete Series. Line Four. MMR (measles, mumps-rubella) or if monovalent or other combination of the vaccines. Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_CompleteSeries[2]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record.  Complete Series. Line Five. Haemophilus Influenzae Type b (H I B). Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_HBCompleteSeries[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record.  Complete Series. Line Six. Hepatitis B. Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_CompleteSeries[3]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record.  Complete Series. Line Seven. Varicella. Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_CompleteSeries[4]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Complete Series. Line Eight. Pneumococcal. Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_CompleteSeries[5]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record.  Complete Series. Line Nine. Influenza. Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt7Line1_CompleteSeries[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Complete Series. Line Ten. Rotavirus. Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_CompleteSeries[6]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Complete Series. Line Eleven. Hepatitis A. Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line1_CompleteSeries[7]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Complete Series. Line Twelve. Meningococcal. Mark an X if complete; write date of lab test if immune or \"V H\" if varicella history.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line9_InfluVaccineInsufficient9[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Nine. Influenza. Select *See Below Table. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].sfTable[0].Pt10Line13_CheckBox13[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line 13. COVID-19 (In \u201cRemarks\u201d section, write \u201cCOVID-19\u201d and specify vaccine brand). Select *See Below Table. ",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].P13[0].Pt1Line3e_AlienNumber[0]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. ",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[12].Pt1Line1b_GivenName[11]",
+    "type": "text",
+    "label": "Given Name (First Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[12].Pt1Line1a_FamilyName[11]",
+    "type": "text",
+    "label": "Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[12].Pt1Line1c_MiddleName[11]",
+    "type": "text",
+    "label": "Middle Name. This is a read only field. It is pre-filled from the first page. ",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[12].P10_USCIS_Remarks[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. FOR U S C I S USE ONLY. Enter Remarks, if any.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[12].P10_Results[0]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Results. Select Applicant completed vaccination requirements or may be eligible for blanket waivers as indicated above.",
+    "page": 13,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[12].P10_Results[1]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Results. Select Applicant does not meet immunization requirements.",
+    "page": 13,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[12].P10_Results[2]",
+    "type": "checkbox",
+    "label": "Part 10. Vaccination Record. Results. Select Applicant will request an individual waiver based on religious or moral convictions.",
+    "page": 13,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[12].P10_Remarks[0]",
+    "type": "text",
+    "label": "Part 10. Vaccination Record. Enter Remarks. If needed, provide any comments, such as the reason for contraindication.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[12].Pt1Line3e_AlienNumber[11]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. ",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line5d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 5. D. Enter Additional Information.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Global_ANumber[0].Pt1Line3e_AlienNumber[12]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 2. Alien Registration Number (A. Number), if any. This is a read only field. It is pre-filled from the first page. ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 3. A. Enter Page Number. ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 3. B. Enter Part Number.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 3. C. Enter Item Number.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 3. D. Enter Additional Information.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line6a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 6. A. Enter Page Number. ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line6b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 6. B. Enter Part Number.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line6c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 6. C. Enter Item Number.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line6d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 6. D. Enter Additional Information.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line5c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 5. C. Enter Item Number.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line5b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 5. B. Enter Part Number.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line5a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 5. A. Enter Page Number. ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 4. A. Enter Page Number. ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 4. B. Enter Part Number.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 4. C. Enter Item Number.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt11Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 4. D. Enter Additional Information.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt1Line1a_FamilyName[12]",
+    "type": "text",
+    "label": "Part 11. Additional Information. If you (the applicant or the civil surgeon) need extra space to provide any additional information within this form use the space below.  If you (the applicant or civil surgeon) need more space than what is provided, you may make copies of this page to complete and file with this form or attach a separate sheet of paper.  Type or print the applicant's name and A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. Family Name (Last Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt1Line1b_GivenName[12]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 1. Given Name (First Name). This is a read only field. It is pre-filled from the first page. ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].Pt1Line1c_MiddleName[12]",
+    "type": "text",
+    "label": "Part 11. Additional Information. 1. Middle Name if applicable. This is a read only field. It is pre-filled from the first page. ",
+    "page": 14
+  }
+]

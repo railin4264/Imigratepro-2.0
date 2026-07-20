@@ -1,0 +1,102 @@
+[
+  {
+    "name": "form1[0].PG1[0].sfApplicantPetitionerName[0].GivenName[0]",
+    "type": "text",
+    "label": "Applicant's / Petitioner's / Requester's Information (Full Legal Name).  Enter Given Name (First Name). ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].sfApplicantPetitionerName[0].MiddleName[0]",
+    "type": "text",
+    "label": "Applicant's / Petitioner's / Requester's Information (Full Legal Name).  Enter Middle Name (if any).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].sfApplicantPetitionerName[0].FamilyName[0]",
+    "type": "text",
+    "label": "Applicant's / Petitioner's / Requestor's Information (Full Legal Name).  Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountHolderInfo[0].GivenName[0]",
+    "type": "text",
+    "label": "Credit Card Billing Information.  Enter Given Name (First Name) as it appears on the Credit Card.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountHolderInfo[0].MiddleName[0]",
+    "type": "text",
+    "label": "Credit Card Billing Information.  Enter the Middle Name (if any) as it appears on the Credit Card.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountHolderInfo[0].FamilyName[0]",
+    "type": "text",
+    "label": "Credit Card Billing Information.  Enter the Family Name (Last Name) as it appears on the Credit Card.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountHolderInfo[0].CB_AccountType[0]",
+    "type": "checkbox",
+    "label": "Bank Account Holder Information. Select this box for Business Account.",
+    "page": 1,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountHolderInfo[0].CB_AccountType[1]",
+    "type": "checkbox",
+    "label": "Bank Account Holder Information. Select this box for Personal Account.",
+    "page": 1,
+    "on_value": "/P"
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountInformation[0].CB_CreditCardType[0]",
+    "type": "checkbox",
+    "label": "Credit Card Information. Credit Card Type.  Select this box for Master Card.",
+    "page": 1,
+    "on_value": "/MC"
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountInformation[0].CB_CreditCardType[1]",
+    "type": "checkbox",
+    "label": "Credit Card Information. Credit Card Type. Select this box for Visa.",
+    "page": 1,
+    "on_value": "/V"
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountInformation[0].AuthorizedPaymentAmt[0]",
+    "type": "text",
+    "label": "Credit Card Information.  Enter the authorized payment amount in dollars no cents (for example, 1234 or 1,234)",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountInformation[0].BankName[0]",
+    "type": "text",
+    "label": "Credit Card Billing Information.  Enter Given Name (First Name) as it appears on the Credit Card.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountInformation[0].RoutingNumber[0]",
+    "type": "text",
+    "label": "Credit Card Billing Information.  Enter Given Name (First Name) as it appears on the Credit Card.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountInformation[0].AccountNumber[0]",
+    "type": "text",
+    "label": "Credit Card Billing Information.  Enter Given Name (First Name) as it appears on the Credit Card.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].sfBankAccountInformation[0].BusinessName[0]",
+    "type": "text",
+    "label": "BusinessName",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].AuthorizationandSignature[0].SignatureOfApplicant[0]",
+    "type": "text",
+    "label": "Credit Card Billing Information.  Credit Card Holder's Signature and Contact Information.  Credit Card Holder's Signature.  Please sign the form.  This form can not be signed electronically.  The name of the Credit Card Holder can not be typewritten into this space.  ",
+    "page": 1
+  }
+]

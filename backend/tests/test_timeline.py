@@ -10,6 +10,10 @@ def seeded_forms():
 
 def test_timeline_requires_auth(client, make_case):
     case = make_case()
+    # make_case logs in via auth_headers/admin_tokens, which leaves valid
+    # session cookies on this shared TestClient -- clear them so this
+    # request is genuinely unauthenticated.
+    client.cookies.clear()
     res = client.get(f"/api/v1/cases/{case['id']}/timeline")
     assert res.status_code == 401
 

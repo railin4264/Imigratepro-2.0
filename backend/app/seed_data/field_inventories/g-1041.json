@@ -1,0 +1,586 @@
+[
+  {
+    "name": "form1[0].#subform[0].P1_Line1a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1b_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6b_RequesterSignDate[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor). Requestor's Certification. 6. B. Date of Signature. Enter date as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_DaytimeTelephone[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor). Requestor's Contact Information. 3. Enter Requestor's Daytime Telephone Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_MobileTelephone[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor). Requestor's Contact Information. 4. Enter Requestor's Mobile Telephone Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line5_Email[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor). Requestor's Contact Information. 5. Enter Requestor's Email Address, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2b_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. B. Enter Street Number and Name. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2c_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2c_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2c_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2c_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2d_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. D. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2a_InCareofName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. A. Enter In Care Of Name, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line1a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Immigrant's Information. Full Name of the Immigrant. 1. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line1b_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Immigrant's Information. Full Name of the Immigrant. 1. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line1c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Immigrant's Information. Full Name of the Immigrant. 1. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2g_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. G. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2h_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. H. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2f_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. F. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2e_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. E. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2i_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. I. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line2a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Immigrant's Information. Other Names Used by the Immigrant. List all other names the immigrant has ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 4. Additional Information.  2. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line2b_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Immigrant's Information. Other Names Used by the Immigrant.  2. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line2c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Immigrant's Information. Other Names Used by the Immigrant. 2. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P5_Line6a_SignatureofApplicant[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Requestor). Requestor's Certification. By my signature, I consent to pay all costs incurred for search, duplication, and review of documents up to $80.  (See Form G-10 41 Instructions for more information.) 6. A. Requestor's Signature. This form can not be signed electronically. The name of the Requestor can not be typewritten into this space.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line1_DateArrival[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. 1. Date of immigrant's exact arrival in the United States. Enter date as 2 digit Month, 2 digit Day and 4 digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2a_DateBefore1906[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. NOTE:  If you are unsure of the date range, or it is unknown select an additional choice in Item Numbers 2. A. through 2. D. 2. A. Before 1906. Enter Date as 2 digit Month, 2 digit Day and 4 digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2c_Date1924to1940[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. NOTE:  If you are unsure of the date range, or it is unknown select an additional choice in Item Numbers 2. A. through 2. D. 2. C. 1924 to 1940. Enter Date as 2 digit Month, 2 digit Day and 4 digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2b_Date1906to1924[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. NOTE:  If you are unsure of the date range, or it is unknown select an additional choice in Item Numbers 2. A. through 2. D. 2. B. 1906 to 1924. Enter Date as 2 digit Month, 2 digit Day and 4 digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2d_DateAfter1940[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. NOTE:  If you are unsure of the date range, or it is unknown select an additional choice in Item Numbers 2. A. through 2. D. 2. D. After 1940. Enter Date as 2 digit Month, 2 digit Day and 4 digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line6_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. 6. Other information about the immigrant that may prove useful in the index search (For example, name of spouse and / or children, date of immigrant's death, military service, date of naturalization, date of female immigrant's marriage, occupation).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line3a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 3. A. Enter Street Number and Name. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line3b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 3. B. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line3b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 3. B. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line3b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 3. B. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line3b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 3. B. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line3c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 3. C. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line3f_PostalCode[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 3. F. Enter Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line3e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 3. E. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line3d_State[0]",
+    "type": "choice",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 3. D. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line3g_Country[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 3. G. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line4a_DateofBirthFrom[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 4. A. Enter Date From. Enter as 2 digit Month, 2 digit Day and 4 digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line4b_DateofBirthTo[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. Where did the immigrant live in the United States? 4. B. Enter Date To. Enter as 2 digit Month, 2 digit Day and 4 digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line5_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 3. Other Information. 5. List additional information about residences and dates below, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line3a_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 2. Immigrant's Information. Other Information About the Immigrant. 3. A. Date of Birth. Enter date as 2 digit Month, 2 digit Day, and 4 digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].#area[0].Pt2Line3b_actual[0]",
+    "type": "checkbox",
+    "label": "Part 2. Immigrant's Information. Other Information About the Immigrant. 3. B. Is this date actual or estimated? Select Actual.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].#area[0].Pt2Line3b_estimated[0]",
+    "type": "checkbox",
+    "label": "Part 2. Immigrant's Information. Other Information About the Immigrant. 3. B. Is this date actual or estimated? Select Estimated.",
+    "page": 2,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line4a_TownOrVillage[0]",
+    "type": "text",
+    "label": "Part 2. Immigrant's Information. Other Information About the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 4. A. Enter Town or Village.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line4b_Province[0]",
+    "type": "text",
+    "label": "Part 2. Immigrant's Information. Other Information About the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 4. B. Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line4c_Country[0]",
+    "type": "text",
+    "label": "Part 2. Immigrant's Information. Other Information About the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 4. C. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 4. C. Enter Item Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 4. A. Enter Page Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 4. B. Enter Part Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 4. D. Enter Additional Information.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line2c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 2. C. Enter Item Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line2a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 2. A. Enter Page Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line2b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 2. B. Enter Part Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line2d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 2. D. Enter Additional Information.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 3. C. Enter Item Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 3. A. Enter Page Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 3. B. Enter Part Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 3. D. Enter Additional Information.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line1a_FamilyName[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information. No Entry, populated from Page 1, Part 1. 1. A. Enter Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line1b_GivenName[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information. No Entry, populated from Page 1, Part 1. 1. B. Enter Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line1c_MiddleName[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information. No Entry, populated from Page 1, Part 1. 1. C. Enter Middle Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line5d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 5. D. Enter Additional Information.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line5c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 5. C. Enter Item Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line5a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 5. A. Enter Page Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line5b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 5. B. Enter Part Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line6d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 6. D. Enter Additional Information.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line6c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 6. C. Enter Item Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line6a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 6. A. Enter Page Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line6b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information. 6. B. Enter Part Number.",
+    "page": 3
+  }
+]

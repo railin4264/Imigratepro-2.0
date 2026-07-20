@@ -14,6 +14,13 @@ class Settings(BaseSettings):
     DATABASE_URL: str = "sqlite:///./migratepro.db"
     REDIS_URL: str = "redis://localhost:6379/0"
 
+    # Gates the SECRET_KEY hard-fail below and the cookie Secure flag (see
+    # app/api/v1/endpoints/auth.py) -- nothing here infers it automatically
+    # from anything else (not DEBUG, not the DB URL); it's an explicit flag
+    # so a misconfigured deploy fails loudly instead of silently running
+    # insecurely.
+    ENVIRONMENT: str = "development"
+
     SECRET_KEY: str = "change-me-in-production"
     # Short-lived on purpose: a leaked access token self-invalidates fast.
     # Sessions stay alive longer via REFRESH_TOKEN_EXPIRE_DAYS instead (see

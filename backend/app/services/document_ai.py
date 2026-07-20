@@ -7,6 +7,7 @@ import base64
 import json
 
 from app.core.config import settings
+from app.services.ai_reliability import build_client
 
 MODEL = "claude-opus-4-8"
 
@@ -86,9 +87,7 @@ def extract_document_data(file_bytes: bytes, content_type: str | None) -> dict:
     if not settings.ANTHROPIC_API_KEY:
         raise RuntimeError("ANTHROPIC_API_KEY is not configured")
 
-    import anthropic
-
-    client = anthropic.Anthropic(api_key=settings.ANTHROPIC_API_KEY)
+    client = build_client()
 
     response = client.messages.create(
         model=MODEL,

@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 
 from fastapi import APIRouter, HTTPException
 
-from app.api.deps import DbSession
+from app.api.deps import DbSession, RequireAdminOrAttorney
 from app.models.billing import Invoice, Payment
 from app.models.case import Case
 from app.models.notification import NotificationType
@@ -16,6 +16,7 @@ from app.schemas.billing import (
     PaymentRead,
 )
 from app.services import billing
+from app.services.audit import log_action
 from app.services.notifications import notify
 from app.services.reminders import mark_overdue_invoices
 
@@ -69,13 +70,22 @@ def list_case_invoices(case_id: uuid.UUID, db: DbSession, skip: int = 0, limit: 
 
 
 @router.post("/cases/{case_id}/invoices", response_model=InvoiceRead, status_code=201)
-def create_invoice(case_id: uuid.UUID, payload: InvoiceCreate, db: DbSession):
+def create_invoice(case_id: uuid.UUID, payload: InvoiceCreate, db: DbSession, requester: RequireAdminOrAttorney):
     case = db.get(Case, case_id)
     if not case:
         raise HTTPException(status_code=404, detail="Case not found")
 
     invoice = Invoice(case_id=case_id, invoice_number=_next_invoice_number(db), **payload.model_dump())
     db.add(invoice)
+    db.flush()
+    log_action(
+        db,
+        requester,
+        "invoice.created",
+        "invoice",
+        invoice.id,
+        {"invoice_number": invoice.invoice_number, "amount": invoice.amount, "case_number": case.case_number},
+    )
     db.commit()
     db.refresh(invoice)
     return _to_read(invoice)
@@ -90,28 +100,41 @@ def get_invoice(invoice_id: uuid.UUID, db: DbSession):
 
 
 @router.patch("/invoices/{invoice_id}", response_model=InvoiceRead)
-def update_invoice(invoice_id: uuid.UUID, payload: InvoiceUpdate, db: DbSession):
+def update_invoice(invoice_id: uuid.UUID, payload: InvoiceUpdate, db: DbSession, requester: RequireAdminOrAttorney):
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
-    for field, value in payload.model_dump(exclude_unset=True).items():
+    changes = payload.model_dump(exclude_unset=True)
+    for field, value in changes.items():
         setattr(invoice, field, value)
+    # mode="json" here (not the `changes` used to mutate the model above):
+    # the audit trail's `details` column is plain JSON, and a raw Enum
+    # member or datetime.date isn't serializable as-is.
+    log_action(db, requester, "invoice.updated", "invoice", invoice.id, payload.model_dump(exclude_unset=True, mode="json"))
     db.commit()
     db.refresh(invoice)
     return _to_read(invoice)
 
 
 @router.delete("/invoices/{invoice_id}", status_code=204)
-def delete_invoice(invoice_id: uuid.UUID, db: DbSession):
+def delete_invoice(invoice_id: uuid.UUID, db: DbSession, requester: RequireAdminOrAttorney):
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
+    log_action(
+        db,
+        requester,
+        "invoice.deleted",
+        "invoice",
+        invoice.id,
+        {"invoice_number": invoice.invoice_number, "amount": invoice.amount},
+    )
     db.delete(invoice)
     db.commit()
 
 
 @router.post("/invoices/{invoice_id}/payments", response_model=InvoiceDetail, status_code=201)
-def add_payment(invoice_id: uuid.UUID, payload: PaymentCreate, db: DbSession):
+def add_payment(invoice_id: uuid.UUID, payload: PaymentCreate, db: DbSession, requester: RequireAdminOrAttorney):
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
@@ -132,13 +155,23 @@ def add_payment(invoice_id: uuid.UUID, payload: PaymentCreate, db: DbSession):
         f"Payment of {payload.amount:.2f} received for {invoice.invoice_number} ({invoice.case.case_number})",
         case_id=invoice.case_id,
     )
+    log_action(
+        db,
+        requester,
+        "invoice.payment_added",
+        "payment",
+        payment.id,
+        {"invoice_number": invoice.invoice_number, "amount": payment.amount, "method": payment.method.value},
+    )
     db.commit()
     db.refresh(invoice)
     return InvoiceDetail(**_to_read(invoice).model_dump(), payments=invoice.payments)
 
 
 @router.delete("/invoices/{invoice_id}/payments/{payment_id}", response_model=InvoiceDetail)
-def delete_payment(invoice_id: uuid.UUID, payment_id: uuid.UUID, db: DbSession):
+def delete_payment(
+    invoice_id: uuid.UUID, payment_id: uuid.UUID, db: DbSession, requester: RequireAdminOrAttorney
+):
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
@@ -146,6 +179,14 @@ def delete_payment(invoice_id: uuid.UUID, payment_id: uuid.UUID, db: DbSession):
     if not payment or payment.invoice_id != invoice_id:
         raise HTTPException(status_code=404, detail="Payment not found")
 
+    log_action(
+        db,
+        requester,
+        "invoice.payment_deleted",
+        "payment",
+        payment.id,
+        {"invoice_number": invoice.invoice_number, "amount": payment.amount},
+    )
     db.delete(payment)
     db.flush()
     db.refresh(invoice)

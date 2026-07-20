@@ -3,6 +3,10 @@ from datetime import date, timedelta
 
 def test_invoices_require_auth(client, make_case):
     case = make_case()
+    # make_case logs in via auth_headers/admin_tokens, which leaves valid
+    # session cookies on this shared TestClient -- clear them so this
+    # request is genuinely unauthenticated.
+    client.cookies.clear()
     res = client.post(f"/api/v1/cases/{case['id']}/invoices", json={"amount": 100})
     assert res.status_code == 401
 

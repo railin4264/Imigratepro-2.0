@@ -2,7 +2,7 @@ import uuid
 
 from fastapi import APIRouter, HTTPException
 
-from app.api.deps import DbSession
+from app.api.deps import DbSession, RequireAdminOrAttorney
 from app.models.case import Case, CaseStatus
 from app.models.notification import NotificationType
 from app.models.rfe import RFE, RFEEvidenceItem, RFEEvidenceStatus, RFEStatus
@@ -18,6 +18,7 @@ from app.schemas.rfe import (
     RFEUpdate,
 )
 from app.services import rfe_ai
+from app.services.audit import log_action
 from app.services.notifications import notify
 
 router = APIRouter(tags=["rfes"])
@@ -125,10 +126,11 @@ def update_rfe(rfe_id: uuid.UUID, payload: RFEUpdate, db: DbSession):
 
 
 @router.delete("/rfes/{rfe_id}", status_code=204)
-def delete_rfe(rfe_id: uuid.UUID, db: DbSession):
+def delete_rfe(rfe_id: uuid.UUID, db: DbSession, requester: RequireAdminOrAttorney):
     rfe = db.get(RFE, rfe_id)
     if not rfe:
         raise HTTPException(status_code=404, detail="RFE not found")
+    log_action(db, requester, "rfe.deleted", "rfe", rfe.id, {"case_number": rfe.case.case_number})
     db.delete(rfe)
     db.commit()
 

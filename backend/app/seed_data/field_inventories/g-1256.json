@@ -1,0 +1,174 @@
+[
+  {
+    "name": "form1[0].#subform[0].IntervieweeName[0]",
+    "type": "text",
+    "label": "Enter Interviewee's Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].IntervieweeAlienNumber[0]",
+    "type": "text",
+    "label": "Enter Interviewee's Alien Registration Number (A-Number) (if any). ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].IntervieweeNativeLanguage[0]",
+    "type": "text",
+    "label": "Enter Interviewee's Native Language or Languages.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].InterpreterName[0]",
+    "type": "text",
+    "label": "Enter Interpreter's Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].InterpreterAddress[0]",
+    "type": "text",
+    "label": "Enter Interpreter's Address.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].DocumentAttached[0]",
+    "type": "checkbox",
+    "label": " Check this box for Yes. ",
+    "page": 1,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].DocumentAttached[1]",
+    "type": "checkbox",
+    "label": "Check this box for No. ",
+    "page": 1,
+    "on_value": "/No"
+  },
+  {
+    "name": "form1[0].#subform[0].LanguagesUsed[0]",
+    "type": "text",
+    "label": "Enter Languages Used by Interpreter.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].IntervieweeSignature[0]",
+    "type": "text",
+    "label": "Interviewee's Signature. This form can not be electronically signed. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].InterpreterTelephoneNumber[0]",
+    "type": "text",
+    "label": "Enter Interpreter's Telephone Number",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].Date[0]",
+    "type": "text",
+    "label": "USCIS Officer's Declaration. The applicant or interviewee and the interpreter both signed this document in my presence on Date. Enter 2 digit month, 2 digit day and 4 digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].USCISOfficerSignature[0]",
+    "type": "text",
+    "label": "USCIS Officer's Declaration. USCIS Officer's Signature. This form can not be electronically signed. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].USCISPrintedName[0]",
+    "type": "text",
+    "label": "USCIS Officer's Declaration. Enter USCIS Officer's Typed or Printed Name. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Interpreter's Disqualification. The interpreter was disqualified for the following reasons: Enter the reason. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].IntervieweeName[1]",
+    "type": "text",
+    "label": "Interpreter's Disqualification. I, Enter Applicant or Interviewee Name, the applicant/interviewee, understand that my interpreter has been disqualified by USCIS.  I understand that I may request that my interview be rescheduled for the purposes of finding a qualified interpreter.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].#area[2].Reschedule[0]",
+    "type": "checkbox",
+    "label": "Interpreter's Disqualification. I request that USCIS reschedule my interview so that I may retain the services of a qualified interpreter. Check this box for Yes. ",
+    "page": 2,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "form1[0].#subform[1].#area[2].Reschedule[1]",
+    "type": "checkbox",
+    "label": "Interpreter's Disqualification. I request that USCIS reschedule my interview so that I may retain the services of a qualified interpreter. Check this box for No. ",
+    "page": 2,
+    "on_value": "/No"
+  },
+  {
+    "name": "form1[0].#subform[1].USCISOffSingature[0]",
+    "type": "text",
+    "label": "Interpreter's Disqualification. USCIS Officer's Signature.  This form can not be electronically signed. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].USCISTypedName[0]",
+    "type": "text",
+    "label": "Interpreter's Disqualification. Enter USCIS Officer's Typed or Printed Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].SupervisorySignature[0]",
+    "type": "text",
+    "label": "Interpreter's Disqualification. Supervisory USCIS Officer's Signature.  This form can not be electronically signed. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].SupervisoryPrintedName[0]",
+    "type": "text",
+    "label": "Interpreter's Disqualification. Enter Supervisory USCIS Officer's Typed or Printed Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].USCISSignature[0]",
+    "type": "text",
+    "label": "Withdrawal of Interpreter. The applicant or interviewee has opted to continue the interview without the assistance of his or her chosen interpreter. USCIS Officer's Signature. This form can not be electronically signed. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].USCISTypePrintName[0]",
+    "type": "text",
+    "label": "Withdrawal of Interpreter. The applicant or interviewee has opted to continue the interview without the assistance of his or her chosen interpreter. Enter USCIS Officer's Typed or Printed Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].IntervieweeSig[0]",
+    "type": "text",
+    "label": "Withdrawal of Interpreter. The applicant or interviewee has opted to continue the interview without the assistance of his or her chosen interpreter. Interviewee's Signature. This form can not be electronically signed. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].IntervieweeTypePrintName[0]",
+    "type": "text",
+    "label": "Withdrawal of Interpreter. The applicant or interviewee has opted to continue the interview without the assistance of his or her chosen interpreter. Enter Interviewee's Typed or Printed Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].InterpreterSignature[0]",
+    "type": "text",
+    "label": "Interpreter's Signature. This form can not be electronically signed. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].InterpreterSigDate[0]",
+    "type": "text",
+    "label": "Date of Signature. Enter 2 digit month, 2 digit day and 4 digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].FieldLocation[0]",
+    "type": "text",
+    "label": "USCIS Officer's Declaration. Enter Field Office Location.",
+    "page": 2
+  }
+]

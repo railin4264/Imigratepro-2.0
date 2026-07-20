@@ -1,0 +1,637 @@
+[
+  {
+    "name": "F[0].P5[0].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "To Be Completed by Attorney or Representative, if any. Select the box if Form G-28 is attached to represent the applicant.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "F[0].P5[0].P1_L1_NameOfCompanyOrganization[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. 1. Enter Name of Company or Organization.",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].P1_L5_POCTitle[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Point of Contact. 5. Enter Title.",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].P1_L2a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Address. 2. A. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].P1_L2c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Address. 2. C. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].P1_L2e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Address. 2. E. Enter ZIP Code.",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].P1_L2d_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About the Applicant Filing This Form. Address. 2. D. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "F[0].P5[0].P1_L3_IRSTaxNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. 3. Enter Internal Revenue Service (I R S) Tax Number.",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].P1_L6_DateOrgCreated[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Point of Contact. 6. Enter Date the Organization was Created as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].OccupationsSeekingAuthro[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Enter Occupations for which you are seeking authorization.",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].DescriptionProcessIssueCerts[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Describe the process you will use to issue certificates. Enter Description.  ",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].DescriptionOfOrg[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Enter Description of Your Organization.",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].#field[12]",
+    "type": "text",
+    "label": "To Be Completed by Attorney or Representative, if any. Enter Attorney State License Number.",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].P1_L4a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Point of Contact. 4. A. Enter Family Name (Last Name). ",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].P1_L4b_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Point of Contact. 4. B. Enter Given Name (First Name). ",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].P1_L4c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Point of Contact. 4. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].P1_Line2b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Address. 2. B. If Apartment, Suite or Floor, is Checked, Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "F[0].P5[0].P1_Line2b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Applicant Filing This Form. Address. 2. B. Check Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "F[0].P5[0].P1_Line2b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Applicant Filing This Form. Address. 2. B. Check Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "F[0].P5[0].P1_Line2b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Applicant Filing This Form. Address. 2. B. Check Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "F[0].P6[0].ExplainHowStandardsMet[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Explain how your organization meets the standards described in the instructions sheet. Enter Explanation.   ",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].DescribeProcedureEstUSCIS[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Describe the procedure you will establish for U. S. Citizenship and Immigration Services to use to verify the validity of your certificates. Enter Description.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].ExplainOrgExpertise[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Applicant Filing This Form. Explain your organization's expertise, knowledge, and experience in the health care occupations for which you are seeking authorization. Enter Explanation.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P2_L3b_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 2. Statement, Certification, Signature, and Contact Information of the Applicant Filing This Form. 3. B. Enter Date of Signature as 2 digit Month, 2 digit Day, and 4 digit Year.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P2_L3a_Signature[0]",
+    "type": "text",
+    "label": "Part 2. Statement, Certification, Signature, and Contact Information of the Applicant Filing This Form. I certify, under penalty of perjury under the laws of the United States of America, that the foregoing is true and correct.  Copies of documents submitted are exact photocopies of unaltered original documents, and I understand that I may be required to submit original documents to U. S. Citizenship and Immigration Services (U S C I S) at a later date.  Furthermore, I authorize the release of any information from my records that U S C I S may need to determine my eligibility for the benefit that I seek. I furthermore authorize release of information contained in this form, in supporting documents, and in my U S C I S records, to other entities and persons where necessary for the administration of U. S. immigration laws. 3. A. Applicant's Signature. No Entry. Print and Sign completed form.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P2_L1b_NameofInterpreter[0]",
+    "type": "text",
+    "label": "Part 2. Statement, Certification, Signature, and Contact Information of the Applicant Filing This Form. If 1. B. is Checked, Enter Language Used.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P3_L1a_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Full Name. Provide the following information concerning the interpreter: 1. A. Enter Interpreter's Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P3_L1b_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Full Name. Provide the following information concerning the interpreter: 1. B. Enter Interpreter's Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P3_L2_InterpreterBusiness[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Full Name. Provide the following information concerning the interpreter: 2. Enter Interpreter's Business or Organization Name, if any.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P3_L3c_CityTown[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Mailing Address. 3. C. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P3_L3a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Mailing Address. 3. A. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P3_L3e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Mailing Address. 3. E. Enter ZIP Code.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P3_L3d_State[0]",
+    "type": "choice",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Mailing Address. 3. D. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "F[0].P6[0].P2_L2_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. Statement, Certification, Signature, and Contact Information of the Applicant Filing This Form. 2. Check I have requested the services of and consented to [the Preparer listed below] who is or is not an accredited representative, preparing this form for me.",
+    "page": 2,
+    "on_value": "/C"
+  },
+  {
+    "name": "F[0].P6[0].P2_L2b_Consented[0]",
+    "type": "text",
+    "label": "Part 2. Statement, Certification, Signature, and Contact Information of the Applicant Filing This Form. If 2. is Checked, Enter Preparer's Name.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P2_L2c_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. Statement, Certification, Signature, and Contact Information of the Applicant Filing This Form. If 2. is Checked, Check if the Preparer is an attorney or accredited representative.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "F[0].P6[0].P2_L2c_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 2. Statement, Certification, Signature, and Contact Information of the Applicant Filing This Form. If 2. is Checked, Check if the Preparer is not an attorney or accredited representative.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "F[0].P6[0].P2_L5_Email[0]",
+    "type": "text",
+    "label": "Part 2. Statement, Certification, Signature, and Contact Information of the Applicant Filing This Form. Applicant's Contact Information. 5. Enter Applicant's E-mail Address.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P2_L4_TelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 2. Statement, Certification, Signature, and Contact Information of the Applicant Filing This Form. Applicant's Contact Information. 4. Enter Applicant's Daytime Telephone Number.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P3_Line3b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Mailing Address. 3. B. If Apartment, Suite or Floor, is Checked, Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "F[0].P6[0].P3_Line3b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Mailing Address. 3. B. Check Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "F[0].P6[0].P3_Line3b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Mailing Address. 3. B. Check Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "F[0].P6[0].P3_Line3b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Mailing Address. 3. B. Check Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "F[0].P6[0].P2_L1a_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. Statement, Certification, Signature, and Contact Information of the Applicant Filing This Form. 1. A. Check I can read and understand English, and have read and understand each and every question and instruction on this form, as well as my answer to each question.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "F[0].P6[0].P2_L1b_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. Statement, Certification, Signature, and Contact Information of the Applicant Filing This Form. 1. B. Check The interpreter named in Part 3. has read to me each and every question and instruction on this form, as well as my answer to each question, in a language in which I am fluent. I understand each and every question and instruction on this form as translated to me by my interpreter, and have  provided true and correct responses in the language indicated above.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "F[0].#subform[2].P4_L8a_PrepSignature[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Declaration. By my signature, I certify, swear, or affirm, under penalty of perjury, that I prepared this form on behalf of, at the request of, and with the express consent of the applicant.  I completed the form based only on responses the applicant provided to me. After completing the form, I reviewed it and all of the applicant's responses with the applicant, who agreed with each and every answer provided for each question on the form and, when required, supplied additional information to respond to a question on the form. 8. A. Preparer's Signature. No Entry. Print and Sign completed form.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_L8b_PrepSignature[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Declaration. 8. B. Enter Date of Signature as 2 digit Month, 2 digit Day, and 4 digit Year.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_L7b_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Contact Information. If 7. B. I am an attorney or accredited representative and my representation of the applicant in this case (choose one) extends or does not extend beyond the preparation of this form, is Checked, Check Extends.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "F[0].#subform[2].P4_L7b_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Contact Information. If 7. B. I am an attorney or accredited representative and my representation of the applicant in this case (choose one) extends or does not extend beyond the preparation of this form, is Checked, Check Does Not Extend.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "F[0].#subform[2].P4_L6_PrepEmailAddress[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Contact Information. 6. Enter Preparer's E-mail Address.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_L3c_CityTown[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Mailing Address. 3. C. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_L3a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Mailing Address. 3. A. Enter Street Number and Name.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_L3e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Mailing Address. 3. E. Enter ZIP Code.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_L3d_State[0]",
+    "type": "choice",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Mailing Address. 3. D. Select State from List of States.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "F[0].#subform[2].P4_L2_BusinessName[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Full Name. Provide the following information concerning the preparer: 2. Enter Preparer's Business or Organization Name.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_L1b_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Full Name. Provide the following information concerning the preparer: 1. B. Enter Preparer's Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_L1a_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Full Name. Provide the following information concerning the preparer: 1. A. Enter Preparer's Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_L7_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Contact Information. 7. A. Check I am not an attorney or accredited representative but have prepared this form on behalf of the applicant and with the applicant's consent.",
+    "page": 3,
+    "on_value": "/A"
+  },
+  {
+    "name": "F[0].#subform[2].P4_L7_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Contact Information. 7. B. Check I am an attorney or accredited representative and my representation of the applicant in this case (choose one) extends or does not extend beyond the preparation of this form.",
+    "page": 3,
+    "on_value": "/B"
+  },
+  {
+    "name": "F[0].#subform[2].P3_L5_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Contact Information. 5. Enter Interpreter's E-mail Address.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P3_L5b_Fluent[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. I certify that: I am fluent in English and [the Language Used] which is the same language provided in Part 2., Item Number 1.B.; Enter Language Used.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P3_L6a_Signature[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. I certify that: I am fluent in English and [the Language Used] which is the same language provided in Part 2., Item Number 1.B.; I have read to this applicant each and every question and instruction on this form, as well as the answer to each question, in the language provided in Part 2., Item Number 1.B.; and The applicant has informed me that he or she understands each and every instruction and question on the form, as well as the answer to each question. 6. A. Interpreter's Signature. No Entry. Print and Sign completed form.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P3_L6b_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. 6. B. Enter Date of Signature as 2 digit Month, 2 digit Day, and 4 digit Year.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_Line3b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Mailing Address. 3. B. If Apartment, Suite or Floor, is Checked, Enter Apartment, Suite or Floor Number.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_Line3b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Mailing Address. 3. B. Check Floor. ",
+    "page": 3,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "F[0].#subform[2].P4_Line3b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Mailing Address. 3. B. Check Suite.",
+    "page": 3,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "F[0].#subform[2].P4_Line3b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Mailing Address. 3. B. Check Apartment.",
+    "page": 3,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "F[0].#subform[2].P3_L4_InterTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 3. Contact Information, Certification, and Signature of the Interpreter. Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_L4_PreparerTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number.",
+    "page": 3
+  },
+  {
+    "name": "F[0].#subform[2].P4_L5_PreparerFaxNumber[0]",
+    "type": "text",
+    "label": "Part 4. Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other than the Applicant. Preparer's Contact Information. 5. Enter Preparer's Fax Number.",
+    "page": 3
+  }
+]

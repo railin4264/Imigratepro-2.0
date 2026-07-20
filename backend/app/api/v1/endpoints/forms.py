@@ -164,6 +164,11 @@ def update_generated_form(generated_form_id: uuid.UUID, payload: GeneratedFormUp
     if not template:
         raise HTTPException(status_code=404, detail="Form template not found")
 
+    real_field_names = {f["name"] for f in template.field_schema or []}
+    unknown = [name for name in payload.data if name not in real_field_names]
+    if unknown:
+        raise HTTPException(status_code=422, detail=f"Unknown field(s) for this form: {sorted(unknown)}")
+
     generated.data = {**(generated.data or {}), **payload.data}
     _render_pdf(template, generated)
     db.commit()

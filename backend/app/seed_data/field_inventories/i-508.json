@@ -1,0 +1,730 @@
+[
+  {
+    "name": "form1[0].#subform[0].P1_Line6_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_InCareofName[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Enter In Care Of Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Select State from list of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_CityTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 4. Date of Birth, select or enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line5_DOSPID[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 5. Enter U.S. State Department-Issued Personal Identification Number (P I D).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 1. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 1. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 1. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line7_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 7. Is your current mailing address the same as your physical address? Select Yes.",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line7_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 7. Is your current mailing address the same as your physical address? Select No. If you answered \"No,\" provide your physical address in Item Number 8.",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_Name[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Enter Name of Mission or Organization.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 8. Physical Address. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 8. Physical Address. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 8. Physical Address. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 8. Physical Address. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 8. Physical Address. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 8. Physical Address. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 8. Physical Address. Select State from list of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 8. Physical Address. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 8. Physical Address. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 8. Physical Address. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 8. Physical Address. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Select State from list of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_CityTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 9. Employment Information. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 6. Mailing Address. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_SSN[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 3. Enter U.S. Social Security Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About the Person Filing This Waiver Form. 2. Enter Alien Registration Number (A. Number), if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].P2_FullName[0]",
+    "type": "text",
+    "label": "Part 2. Waiver Statement. 1. I, (No Entry  Name Prepopulated from Part 1.), believe that I have an occupational status entitling me to nonimmigrant status under section 1 01(A.)(15)(A.), (E), or (G) of the Immigration and Nationality Act (I N A) as a government official, treaty trader or treaty investor, other position covered under the E classification, or international organization representative, respectively. Accordingly, as I seek to acquire or retain lawful permanent resident status, I hereby waive and understand that I will no longer be eligible for any and all diplomatic rights, privileges, exemptions, and immunities that would otherwise be granted to me under any law or executive order because of my occupational status.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line5_Email[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Certification, and Signature of the Person Executing This Waiver Form. Person Executing This Waiver Form's Contact Information. 3. Person Executing this Waiver Form's Email Address, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line3_DaytimeTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Certification, and Signature of the Person Executing This Waiver Form. Person Executing This Waiver Form's Contact Information. 1. Person Executing this Waiver Form's Daytime Telephone Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line4_MobileTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Certification, and Signature of the Person Executing This Waiver Form. Person Executing This Waiver Form's Contact Information. 2. Person Executing this Waiver Form's Mobile Telephone Number, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line6_SignatureOfPetitioner[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Certification, and Signature of the Person Executing This Waiver Form. Certification and Signature. 4. Person Executing This Waiver Form's Signature. This form can not be signed electronically.  The name of the interpreter can not be typewritten into this space.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P3_Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Certification, and Signature of the Person Executing This Waiver Form. Certification and Signature. 4. Person Executing This Waiver Form's Signature.  Signature. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P4_Line1_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P4_Line1_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P4_Line2_NameofBusinessorOrgName[0]",
+    "type": "text",
+    "label": "Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name.  2. Enter Interpreter's Business or Organization Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P4_Line5_Email[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Email Address, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P4_Line4_DaytimeTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P4_Line5_MobileTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Mobile Telephone Number,  if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Language[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. I certify, under penalty of perjury, that I am fluent in English and I have interpreted every question on this waiver form and Instructions and interpreted the person executing this waiver form's answers to the questions in that language, and the person executing this waiver form informed me that they understood every instruction, question, and answer on the waiver form. Enter Language.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line6_Signature[0]",
+    "type": "text",
+    "label": "Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. 6. Interpreter's Signature. This form can not be signed electronically.  The name of the interpreter can not be typewritten into this space.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P4_Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature.  Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P5_Line1_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Waver Form, if Other Than the Person Executing this Waiver Form. Preparer's Full Name. Enter Preparer's Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P5_Line1_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Waver Form, if Other Than the Person Executing this Waiver Form.  Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P5_Line2_NameofBusinessorOrgName[0]",
+    "type": "text",
+    "label": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Waver Form, if Other Than the Person Executing this Waiver Form. Preparer's Full Name. 2. Enter Preparer's Business or Organization Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P5_Line6_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Waver Form, if Other Than the Person Executing this Waiver Form. Preparer's Contact Information. 5. Enter Preparer's Email Address, if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P5_Line4_DaytimeTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Waver Form, if Other Than the Person Executing this Waiver Form. Preparer's Contact Information. 3. Enter Preparer's Daytime Telephone Number. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P5_Line5_FaxNumber[0]",
+    "type": "text",
+    "label": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Waver Form, if Other Than the Person Executing this Waiver Form. Preparer's Contact Information. 4. Enter Preparer's Mobile Telephone Number, if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P5_Line8_Signature[0]",
+    "type": "text",
+    "label": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Waver Form, if Other Than the Person Executing this Waiver Form. Preparer's Certification and Signature. 6. Preparer's Signature. This form can not be signed electronically.  The name of the preparer can not be typewritten into this space.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P5_Line8_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Waiver Form, if Other Than the Person Executing this Waiver Form. Preparer's Certification and Signature. 6. Date of Signature, enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 3. A. Enter Page Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 3. B. Enter Part Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 3. C. Enter Item Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 3. D. Enter Additional Information.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line1_MiddleName[1]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 1. Middle Name. This is a read only field. This field is pre-populated from Page 1.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line1_GivenName[1]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 1. Given Name. This is a read only field. This field is pre-populated from Page 1.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line1_FamilyName[1]",
+    "type": "text",
+    "label": "Part 6. Additional Information. If you need extra space to provide any additional information within this waiver form, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this waiver form or attach a separate sheet of paper.  Include your name and A-Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your additional information refers; and sign and date each sheet. 1. Family Name (Last Name). This is a read only field. This field is pre-populated from Page 1.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 4. D. Enter Additional Information.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line5d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 5. D. Enter Additional Information.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line6d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 6. D. Enter Additional Information.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 4. A. Enter Page Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 4. B. Enter Part Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 4. C. Enter Item Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line5a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 5. A. Enter Page Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line5b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 5. B. Enter Part Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line5_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 5. C. Enter Item Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line6a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 6. A. Enter Page Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line6b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 6. B. Enter Part Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P8_Line6c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 6. C. Enter Item Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line1_AlienNumber[1]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 2. Alien Registration Number (A. Number), if any. This is a read only field. This field is pre-populated from Page 1.",
+    "page": 4
+  }
+]

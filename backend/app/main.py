@@ -21,7 +21,15 @@ async def lifespan(app: FastAPI):
     if settings.SECRET_KEY == "change-me-in-production":
         # Loud and repeated on purpose: this key signs every access token
         # and verifies every refresh/reset token. Left at the shipped
-        # default, anyone can forge a valid session for any user.
+        # default, anyone can forge a valid session for any user. In
+        # production that's not a warning-worthy misconfiguration, it's a
+        # refuse-to-start one -- every other environment just gets the loud
+        # warning so local dev/CI keeps working without extra setup.
+        if settings.ENVIRONMENT == "production":
+            raise RuntimeError(
+                "Refusing to start: SECRET_KEY is still the default value with ENVIRONMENT=production. "
+                "Set a unique SECRET_KEY in backend/.env before exposing this server to real traffic."
+            )
         logger.warning(
             "SECURITY WARNING: SECRET_KEY is still the default value. "
             "Set a unique SECRET_KEY in backend/.env before exposing this server to real traffic."

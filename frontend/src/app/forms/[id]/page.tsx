@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import {
@@ -146,7 +146,11 @@ export default function GeneratedFormEditPage() {
     return () => window.removeEventListener("beforeunload", handler);
   }, [isDirty]);
 
+  const isSavingRef = useRef(false);
+
   async function handleSave() {
+    if (isSavingRef.current) return;
+    isSavingRef.current = true;
     setStatus("saving");
     try {
       // Clear answers for fields that are currently hidden by a show_if
@@ -164,8 +168,26 @@ export default function GeneratedFormEditPage() {
       setStatus("saved");
     } catch {
       setStatus("error");
+    } finally {
+      isSavingRef.current = false;
     }
   }
+
+  // Autosave, debounced -- mirrors the client portal's save-per-step, but
+  // this editor is one continuous form rather than a wizard, so it saves
+  // shortly after the user stops typing instead of on a "next" click. This
+  // is what actually closes the "no autosave in the internal editor" gap:
+  // by the time anyone could navigate away, the save has usually already
+  // gone out, so the beforeunload/Volver guards above are a backstop for
+  // the ~1.5s window, not the primary defense.
+  useEffect(() => {
+    if (!isDirty) return;
+    const timer = setTimeout(() => {
+      handleSave();
+    }, 1500);
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- handleSave closes over formData/fields, already covered by this effect's own deps
+  }, [formData, isDirty]);
 
   function handleBackClick(e: React.MouseEvent) {
     if (isDirty && !window.confirm(t("editor.confirmLeave"))) {

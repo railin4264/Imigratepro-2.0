@@ -48,13 +48,22 @@ def client_trio(client, auth_headers, make_case):
     return case
 
 
-def test_form_catalog_has_all_16_forms(client, auth_headers, seeded_forms):
+def test_form_catalog_has_all_97_forms(client, auth_headers, seeded_forms):
     res = client.get("/api/v1/form-templates", headers=auth_headers)
     assert res.status_code == 200
     codes = {t["code"] for t in res.json()}
     assert codes == {
-        "I-130", "I-130A", "I-131", "I-485", "I-589", "I-751", "I-765", "I-864",
-        "I-90", "G-28", "N-336", "N-400", "N-470", "N-565", "N-600", "N-600K",
+        "AR-11", "EOIR-29", "G-1041", "G-1041A", "G-1055", "G-1145", "G-1256", "G-1450",
+        "G-1566", "G-1650", "G-1651", "G-28", "G-28I", "G-325A", "G-325R", "G-845", "G-884",
+        "I-102", "I-129", "I-129F", "I-129S", "I-130", "I-130A", "I-131", "I-131A", "I-134",
+        "I-140", "I-140G", "I-191", "I-192", "I-193", "I-212", "I-290B", "I-356", "I-360",
+        "I-361", "I-363", "I-407", "I-485", "I-508", "I-526", "I-526E", "I-539", "I-566",
+        "I-589", "I-600", "I-600A", "I-601", "I-601A", "I-602", "I-612", "I-687", "I-690",
+        "I-693", "I-694", "I-698", "I-730", "I-751", "I-765", "I-765V", "I-800", "I-800A",
+        "I-817", "I-821", "I-821D", "I-824", "I-829", "I-864", "I-864A", "I-865", "I-881",
+        "I-9", "I-90", "I-905", "I-907", "I-910", "I-912", "I-914", "I-918", "I-929",
+        "I-941", "I-945", "I-956", "I-956F", "I-956G", "I-956H", "I-956K", "N-300",
+        "N-336", "N-400", "N-426", "N-470", "N-565", "N-600", "N-600K", "N-644", "N-648",
     }
 
 

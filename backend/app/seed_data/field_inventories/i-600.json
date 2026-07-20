@@ -1,0 +1,3125 @@
+[
+  {
+    "name": "form1[0].#subform[0].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "To be completed by an Attorney or Accredited Representative, if any.  Select this box if Form G-28 or G-28I is attached.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].AttorneyStateBarNumber[0]",
+    "type": "text",
+    "label": "To be completed by an Attorney or Accredited Representative, if any.  Enter Attorney State Bar Number, if applicable.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].USCISOnlineAcctNumber[0]",
+    "type": "text",
+    "label": "To be completed by an Attorney or Accredited Representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1[0]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 1. Petition Filing Basis. Select the appropriate option below.  See U S C I S Form G - 10 55, Fee Schedule, available at w w w . u s c i s . g o v / g -10 55, for information on filing fees. You filed Form I - 600 A and it is pending or was approved and remains valid, and you are filing Form I - 600 for: Select One child.",
+    "page": 1,
+    "on_value": "/OC"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1[1]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 1. Petition Filing Basis. Select Multiple children who are birth siblings.  This petition is for the first sibling.",
+    "page": 1,
+    "on_value": "/MC"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1[2]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 1. Petition Filing Basis. Select Multiple children who are birth siblings.  This petition is for an additional sibling.",
+    "page": 1,
+    "on_value": "/MCBS"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1[3]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 1. Petition Filing Basis. Select Multiple children who are not birth siblings.  This petition is for the first child. ",
+    "page": 1,
+    "on_value": "/MCNS"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1[4]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 1. Petition Filing Basis. Multiple children who are not birth siblings.  This petition is for an additional child. ",
+    "page": 1,
+    "on_value": "/MCNS1"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line7_NoParents[0]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 1. Petition Filing Basis. You do not have a valid Form I-600A approval (because you did not file a Form I-600A, your Form I-600A approval expired or is no longer valid, etc.).  You are requesting a suitability and eligibility determination as part of your Form I-600 (combination filing), and you are filing Form I-600 for: Select One child.",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line7_NoParents[1]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 1. Petition Filing Basis. You do not have a valid Form I-600A approval (because you did not file a Form I-600A, your Form I-600A approval expired or is no longer valid, etc.).  You are requesting a suitability and eligibility determination as part of your Form I-600 (combination filing), and you are filing Form I-600 for: Select Multiple children who are birth siblings.  This petition is for the first sibling.",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line7_NoParents[2]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 1. Petition Filing Basis. You do not have a valid Form I-600A approval (because you did not file a Form I-600A, your Form I-600A approval expired or is no longer valid, etc.).  You are requesting a suitability and eligibility determination as part of your Form I-600 (combination filing), and you are filing Form I-600 for: Select Multiple children who are birth siblings.  This petition is for an additional sibling.",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line7_NoParents[3]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 1. Petition Filing Basis. You do not have a valid Form I-600A approval (because you did not file a Form I-600A, your Form I-600A approval expired or is no longer valid, etc.).  You are requesting a suitability and eligibility determination as part of your Form I-600 (combination filing), and you are filing Form I-600 for: Select Multiple children who are not birth siblings.  This petition is for the first child.",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line7_NoParents[4]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 1. Petition Filing Basis. You do not have a valid Form I-600A approval (because you did not file a Form I-600A, your Form I-600A approval expired or is no longer valid, etc.).  You are requesting a suitability and eligibility determination as part of your Form I-600 (combination filing), and you are filing Form I-600 for: Select Multiple children who are not birth siblings.  This petition is for an additional child.",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line2a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 2. Other Names Used (if any).  Provide all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information.  Line 1. Enter Family Name (Last Name). ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line2b_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 2. Other Names Used (if any).  Line 2. Enter Middle Name (if applicable).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line2b_GivenName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 2. Other Names Used (if any).  Line 2. Enter Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line2b_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 2. Other Names Used (if any).  Line 2. Enter Family Name (Last Name). ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line2a_GivenName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 2. Other Names Used (if any).  Line 1. Enter Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line2a_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 2. Other Names Used (if any).  Line 1. Enter Middle Name (if applicable).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 1. Enter Middle Name (if applicable).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 1. Enter Given Name (First Name). ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 1. Enter Family Name (Last Name). ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line3b_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Your Contact Information.  3. U.S. Mailing Address (if any).  Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line3c_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Your Contact Information.  3. U.S. Mailing Address (if any).  Select this box for Suite (S t e).",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line3c_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Your Contact Information.  3. U.S. Mailing Address (if any).  Select this box for Apartment (A p t).",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line3c_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Your Contact Information.  3. U.S. Mailing Address (if any).  Select this box for Floor (F l r).",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line3c_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Your Contact Information.  3. U.S. Mailing Address (if any).  Enter your Apartment, Suite, or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line3d_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Your Contact Information.  3. U.S. Mailing Address (if any).  Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line3e_State[0]",
+    "type": "choice",
+    "label": "Part 2.  Information About You (Petitioner). Your Contact Information.  3. U.S. Mailing Address (if any).  State.  You will be making a selection from the drop down list containing the 2 letter abbreviations of state names.",
+    "page": 2,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line3f_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Your Contact Information.  3. U.S. Mailing Address (if any).  Enter the ZIP Code. (If you need to look up the Zip code, click on the U S P S Zip Code U R L Link).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line3a_InCareofName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Your Contact Information.  3. U.S. Mailing Address (if any). Enter In Care Of Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line7_NoParents[5]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 2. Any Change in Marital Status. Complete this section if you filed Form I-600A or a Form I-600 combination filing and have had a change in marital status since you filed your application or petition. Select Your marital status changed while your Form I-600A or Form I-600 combination filing was pending, and you are submitting a combination filing with a new basis marital status.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line7_NoParents[6]",
+    "type": "checkbox",
+    "label": "Part 1. Basis of Filing. 2. Any Change in Marital Status. Select Your marital status changed after your Form I-600A or Form I-600 combination filing was approved, and you are submitting a combination filing with a new basis marital status.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line4_CheckboxYes[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). 4. Is your current U.S. mailing address the same as your U.S. physical address? Select Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line4_CheckboxNo[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). 4. Is your current U.S. mailing address the same as your U.S. physical address? Select No.  If you answered \"No,\" provide your U.S. physical address in Item Number 5. or your address abroad in Item Number 6., as appropriate.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line5b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 5. U.S. Physical Address (if any). Enter your Apartment, Suite, or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line5a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 5. U.S. Physical Address (if any). Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line5c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 5. U.S. Physical Address (if any). Enter your City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line5b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). 5. U.S. Physical Address (if any). Select this box for Suite (S t e).",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line5b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). 5. U.S. Physical Address (if any). Select this box for Floor (F l r).",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line5b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). 5. U.S. Physical Address (if any). Select this box for Apartment (A p t).",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line5e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 5. U.S. Physical Address (if any).  Enter the ZIP Code.  (If you need to look up the Zip code, click on the U S P S Zip Code U R L Link).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line5d_State[0]",
+    "type": "choice",
+    "label": "Part 2.  Information About You (Petitioner). 5. U.S. Physical Address (if any).  State.  You will be making a selection from the drop down list containing the 2 letter abbreviations of state names.",
+    "page": 2,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line5_InCareofName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Your Contact Information.  5. U.S. Physical Address (if any). Enter In Care Of Name, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line6b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 6. Address Abroad (if any). Enter your Apartment, Suite or Floor Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line6a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 6. Address Abroad (if any). Enter Street Number and Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line6c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 6. Address Abroad (if any). Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line6b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). 6. Address Abroad (if any). Select this box for Suite (S t e)",
+    "page": 3,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line6b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). 6. Address Abroad (if any). Select this box for Floor (F l r).",
+    "page": 3,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line6b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). 6. Address Abroad (if any). Select this box for Apartment (A p t).",
+    "page": 3,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line6e_Province[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 6. Address Abroad (if any). Enter Province.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line6f_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 6. Address Abroad (if any). Enter Postal Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line6g_Country[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 6. Address Abroad (if any). Enter Country.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line6d_State[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). 6. Address Abroad (if any). Enter State.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line3_DaytimePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner).  7. Daytime Telephone Number. Enter the telephone number including the area code or country code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line4_MobileNumber1[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner).   8. Mobile Telephone Number, if any. Enter the mobile number including the area code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line5_Email[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner).  9. Enter Email Address.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line4_AcctIdentifier[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship.  10. Enter U S C I S Online Account Number, if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line7_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 11. Date of Birth. Enter 2 digit month, 2 digit day and 4 digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P1Line8_CityOrTownOrVillageOfBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 12. Enter City, Town or Village of Birth.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line9_StateOrProvince[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship.  12. Enter State or Province of Birth.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line10_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 12. Enter Country of Birth.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15_Naturalization[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.A. How did you obtain your U.S. citizenship?  Select Naturalization.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15_Birth[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.A. How did you obtain your U.S. citizenship? Select Birth.",
+    "page": 3,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15_Parents[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.A. How did you obtain your U.S. citizenship?  Select Parents.",
+    "page": 3,
+    "on_value": "/P"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15A_checkboxNo[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.B. If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15A_checkboxYes[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.B. If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name?  Select Yes.  If you answered \"Yes,\" provide the following information about your Certificate of Citizenship.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15A_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.B. If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name?  Your Name On the Certificate of Citizenship. Enter Middle Name (if applicable).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15A_GivenName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.B. If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name?  Your Name On the Certificate of Citizenship. Enter Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15A_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.B.  If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name?  Your Name On the Certificate of Citizenship. Enter Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15B_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.C. If you obtained your citizenship through naturalization, provide the following information about your Certificate of Naturalization.  Your Name On the Certificate of Naturalization.  Enter Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15B_GivenName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.C. If you obtained your citizenship through naturalization, provide the following information about your Certificate of Naturalization.  Your Name On the Certificate of Naturalization.  Enter Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15B_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.C. If you obtained your citizenship through naturalization, provide the following information about your Certificate of Naturalization.  Your Name On the Certificate of Naturalization.  Enter Middle Name (if applicable).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Line15b_ANumber[0].Pt1Line15B_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Your U.S. Citizenship. 13.C. If you obtained your citizenship through naturalization, provide the following information about your Certificate of Naturalization.  Enter Alien Registration Number (A-Number).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15B_DateOfNaturaliation[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.C. If you obtained your citizenship through naturalization, provide the following information about your Certificate of Naturalization. Enter Date of Naturalization as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15B_PlaceofNaturalization[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13.C. If you obtained your citizenship through naturalization, provide the following information about your Certificate of Naturalization. Enter Place of Naturalization",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15B_CertificateOfNatzNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship.13.C. If you obtained your citizenship through naturalization, provide the following information about your Certificate of Naturalization.  Enter Certificate of Naturalization Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15A_CertificateNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13. B. If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name?  Your Name On the Certificate of Citizenship.  Enter Certificate of Citizenship Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15A_PlaceofIssuance[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13. B. If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name?  Your Name On the Certificate of Citizenship.  Enter Place of Issuance.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15A_DateOfIssuance[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13. B. If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name?  Your Name On the Certificate of Citizenship.  Enter Date of Issuance (m m/d d/y y y y) as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line15A_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 13. B. If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name?  Your Name On the Certificate of Citizenship.  Enter Alien Registration Number (A-Number) (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line16_No[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 14. Have you EVER renounced or lost U.S. citizenship or has anyone you obtained citizenship through (such as your parent or grandparent) EVER lost U.S. citizenship?  Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line16_Yes[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 14. Have you EVER renounced or lost U.S. citizenship or has anyone you obtained citizenship through (such as your parent or grandparent) EVER lost U.S. citizenship?  Select Yes.  NOTE:  If you answered \"Yes,\" provide a detailed explanation in the space provided in Part 12. Additional Information.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line17_married[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 15. What is your marital status?  Select Married.",
+    "page": 4,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line17_divorced[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 15. What is your marital status?  Select Divorced.",
+    "page": 4,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line17_single[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 15. What is your marital status?  Select Single.",
+    "page": 4,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line17_widowed[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 15. What is your marital status?  Select Widowed.",
+    "page": 4,
+    "on_value": "/W"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line17_separated[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship. 15. What is your marital status?  Select Separated.",
+    "page": 4,
+    "on_value": "/Sep"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line18_HowMany[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your U.S. Citizenship.  16. How many times have you been married (including your current marriage, if applicable)? Enter how many. NOTE: If you are not currently married, skip to Item Number 28.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line21_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage.  19. Name of Your Current Spouse. Enter Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line21_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 19. Name of Your Current Spouse. Enter Middle Name (if applicable).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line21_GivenName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage.  19. Name of Your Current Spouse.  Enter Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line22a_GivenName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 20. Other Names Your Current Spouse Has Used (if any).  Line 1. Enter Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line22b_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 20. Other Names Your Current Spouse Has Used (if any).  Line 2. Enter Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line22b_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 20. Other Names Your Current Spouse Has Used (if any).  Line 2. Enter Middle Name (if applicable).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line22b_GivenName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 20. Other Names Your Current Spouse Has Used (if any).  Line 2. Enter Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line22a_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 20. Other Names Your Current Spouse Has Used (if any).  Line 1. Enter Middle Name (if applicable).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line22a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Your Current Marriage. 20. Other Names Your Current Spouse Has Used (if any). Provide all other names your spouse has ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information. Line 1. Enter Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#area[3].Pt1Line23_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Your Current Marriage. 21. Information About Your Current Spouse.  Enter Spouse's Alien Registration Number (A Number) (if any).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line23_StateOrProvinceOfBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 21. Information About Your Current Spouse.  Enter Spouse's State or Province of Birth.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line23_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 21. Information About Your Current Spouse. Enter Spouse's Country of Birth.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line17_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 21. Information About Your Current Spouse. Spouse Date of Birth (m m / d d / y y y y). Enter the date as 2 digit Month, 2 digit Day and 4 digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line23_CityOrTownOrVillageofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 21. Information About Your Current Spouse.  Enter Spouse's City, Town or Village of Birth.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line23_SpouseUSCISOnlineActNum[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 21. Information About Your Current Spouse.  Enter Spouse's U S C I S Online Account Number, if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line19_DateOfMarriage[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 17. Date of Current Marriage (m m/d d/y y y y). Enter the date as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line20_CityTown[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage.  18. Enter Place Where Current Marriage Occurred.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line24_NumberOfmarriage[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 22. Enter how many times has your current spouse been married (including your current marriage, if applicable).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line23_SpouseImmigrationStatus[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 21. Information About Your Current Spouse. Is your spouse a U.S. citizen? If you answered \"No,\" enter  your spouse's current U.S. immigration status.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line23_CheckboxNo[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 21. Information About Your Current Spouse. Is your spouse a U.S. citizen? Select No.",
+    "page": 4,
+    "on_value": "/No"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line23_CheckboxYes[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 21. Information About Your Current Spouse. Is your spouse a U.S. citizen? Select Yes.  ",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line23_Birth[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 21. Information About Your Current Spouse. Is your spouse a U.S. citizen? If you answered \"Yes,\" how did your spouse obtain U.S. citizenship? Selected box for: Birth.",
+    "page": 4,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line23_Naturalization[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 21. Information About Your Current Spouse. Is your spouse a U.S. citizen? If you answered \"Yes,\" how did your spouse obtain U.S. citizenship? Selected box for: Naturalization.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt1Line23_Parents[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Information About Your Current Marriage. 21. Information About Your Current Spouse. Is your spouse a U.S. citizen? If you answered \"Yes,\" how did your spouse obtain U.S. citizenship? Selected box for: Parents.",
+    "page": 4,
+    "on_value": "/P"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line25_No[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 23. Does your current spouse reside with you? Select No.  If you answered \"No,\"  provide your current spouse's physical address in Item Number 24.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line25_Yes[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 23. Does your current spouse reside with you? Select Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line26_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 24. Your Current Spouse's Physical Address (if applicable). Enter Street Number and Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line26_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 24. Your Current Spouse's Physical Address (if applicable).  Select this box for Floor (F l r).",
+    "page": 5,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line26_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 24. Your Current Spouse's Physical Address (if applicable).  Select this box for Suite (S t e).",
+    "page": 5,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line26_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 24. Your Current Spouse's Physical Address (if applicable).  Select this box for Apartment (A p t).",
+    "page": 5,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line26_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 24. Your Current Spouse's Physical Address (if applicable).  Enter your Apartment, Suite or Floor Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line26_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 24. Your Current Spouse's Physical Address (if applicable).  Enter City or Town.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line26_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 24. Your Current Spouse's Physical Address (if applicable).  Enter ZIP Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line26_State[0]",
+    "type": "choice",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 24. Your Current Spouse's Physical Address (if applicable).  State.  You will be making a selection from the drop down list containing the 2 letter abbreviations of state names.",
+    "page": 5,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line26_Province[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 24. Your Current Spouse's Physical Address (if applicable).  Enter Province.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line26_Country[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 24. Your Current Spouse's Physical Address (if applicable).  Enter Country.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line26_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information. 24. Your Current Spouse's Physical Address (if applicable).  Enter Postal Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P7_Line6_SpousesEmailAddress[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information.  27. Enter Spouse's Email Address, if any.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P7_Line4_SpousesDaytimePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information.  25. Spouse's Daytime Telephone Number. Enter the telephone number including the area code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P7_Line5_SpousesMobileNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Your Spouse's Contact Information.  26. Spouse's Mobile Telephone Number. Enter the mobile number including the area code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line21_ResideWithYou[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 28. Enter how many persons 18 years of age or older (other than your spouse, if married) reside with you. If you answered \"1\" or more, you MUST complete Form I-600A/I-600 Supplement 1, Listing of Adult Member of the Household, for each person.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row1[0].Pt1Line31Row1_Name[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. List all of your children who are under 18 years of age.  Also include any other children under 18 years of age who reside in your household, regardless of your relationship to those children.  If you need extra space to complete this table, use the space provided in Part 12. Additional Information. Row 1. Enter Name (First, Middle and Last).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row1[0].Pt1Line31Row1_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. List all of your children who are under 18 years of age.  Also include any other children under 18 years of age who reside in your household, regardless of your relationship to those children.  If you need extra space to complete this table, use the space provided in Part 12. Additional Information. Row 1. Enter Date of Birth (m m / d d / y y y y). Enter date as 2-digit month, 2-digit day and 4-digit year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row1[0].Pt1Line31Row1_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. List all of your children who are under 18 years of age.  Also include any other children under 18 years of age who reside in your household, regardless of your relationship to those children.  If you need extra space to complete this table, use the space provided in Part 12. Additional Information. Row 1. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row1[0].Pt1Line31Row1_ANumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. List all of your children who are under 18 years of age.  Also include any other children under 18 years of age who reside in your household, regardless of your relationship to those children.  If you need extra space to complete this table, use the space provided in Part 12. Additional Information. Row 1. Enter Alien Registration Number (A Number) (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row1[0].Pt1Line31Row1_RelationshiptoYou[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. List all of your children who are under 18 years of age.  Also include any other children under 18 years of age who reside in your household, regardless of your relationship to those children.  If you need extra space to complete this table, use the space provided in Part 12. Additional Information. Row 1. Enter Relationship to You. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row2[0].Pt1Line31Row2_Name[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 2. Enter Name (First, Middle and Last).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row2[0].Pt1Line31Row2_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 2. Enter Date of Birth (m m / d d / y y y y). Enter date as 2-digit month, 2-digit day and 4-digit year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row2[0].Pt1Line31Row2_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 2. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row2[0].Pt1Line31Row2_ANumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 2. Enter Alien Registration Number (A Number) (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row2[0].Pt1Line31Row2_RelationshiptoYou[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 2. Enter Relationship to You. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row3[0].Pt1Line31Row3_Name[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 3. Enter Name (First, Middle and Last).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row3[0].Pt1Line31Row3_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 3. Enter Date of Birth (m m / d d / y y y y). Enter date as 2-digit month, 2-digit day and 4-digit year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row3[0].Pt1Line31Row3_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 3. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row3[0].Pt1Line31Row3_ANumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 3. Enter Alien Registration Number (A Number) (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row3[0].Pt1Line31Row3_RelationshiptoYou[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 3. Enter Relationship to You. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row4[0].Pt1Line31Row4_Name[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 4. Enter Name (First, Middle and Last).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row4[0].Pt1Line31Row4_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 4. Enter Date of Birth (m m / d d / y y y y). Enter date as 2-digit month, 2-digit day and 4-digit year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row4[0].Pt1Line31Row4_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 4. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row4[0].Pt1Line31Row4_ANumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 4. Enter Alien Registration Number (A Number) (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row4[0].Pt1Line31Row4_RelationshiptoYou[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 4. Enter Relationship to You. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row5[0].Pt1Line31Row5_Name[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 5. Enter Name (First, Middle and Last).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row5[0].Pt1Line31Row5_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 5. Enter Date of Birth (m m / d d / y y y y). Enter date as 2-digit month, 2-digit day and 4-digit year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row5[0].Pt1Line31Row5_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 5. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row5[0].Pt1Line31Row5_ANumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 5. Enter Alien Registration Number (A Number) (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Table4[0].Row5[0].Pt1Line31Row5_RelationshiptoYou[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Additional Household Members. 29. Row 5. Enter Relationship to You. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_No[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?  Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_Yes[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?  Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_FormI600A[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application:  Type of Petition or Application Filed. Select this box for:  Form I-600 A.",
+    "page": 6,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_FormI600[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application:  Type of Petition or Application Filed. Select this box for:  Form I-600.",
+    "page": 6,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_FormI800A[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application:  Type of Petition or Application Filed. Select this box for:  Form I-800 A.",
+    "page": 6,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_FormI130[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application:  Type of Petition or Application Filed. Select this box for:  Form I-1 30 (for an adopted child).",
+    "page": 6,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_Approved[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application. Result. Select this box for:  Approved.",
+    "page": 6,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_Denied[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application. Result. Select this box for:  Denied.",
+    "page": 6,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_Withdrawn[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application. Result. Select this box for:  Withdrawn.",
+    "page": 6,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_Other[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application.  Result.  Select this box for:  Other.",
+    "page": 6,
+    "on_value": "/E"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_Date[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application. Date (month/day/year), enter as 2 digit Month, 2 digit Day and 4 digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_OtherExplain[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30.  Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application.  Result. If selected Other, enter explanation.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line32_Revoked[0]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner) (continued). Information About Prior Filings or Adoptions.  30. Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application. Result. Select this box for:  Revoked.",
+    "page": 6,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line33_No[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 32. Have you previously completed a domestic adoption of a child within the U.S.?  Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line33_Yes[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 31. Have you previously completed a domestic adoption of a child within the U.S.?  Select Yes. If you answered \"Yes,\" provide the following information for each completed domestic adoption of a child.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line24_State[0]",
+    "type": "text",
+    "label": "Part 2., Information About Prior Filings or Adoptions. 31. If you answered \"Yes,\" provide the following information for each completed domestic adoption of a child. Enter State And County Where Adoption Was Finalized.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line24_Date[0]",
+    "type": "text",
+    "label": "Part 2., Information About Prior Filings or Adoptions. 31. If you answered \"Yes,\" provide the following information for each completed domestic adoption of a child. Enter Date Adoption Was Finalized (month/day/year), enter as 2 digit Month, 2 digit Day and 4 digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line25[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner). Information About Prior Filings or Adoptions. 32. Have you ever previously attempted to adopt a child internationally or domestically, but the adoption was disrupted before it was finalized?  An adoption is disrupted if you (or a custodian escorting the child on your behalf) are granted legal custody or guardianship of the child, but the adoptive placement is interrupted before the adoption was finalized. Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line25[1]",
+    "type": "checkbox",
+    "label": "Part 2., Information About Prior Filings or Adoptions. 32. Have you ever previously attempted to adopt a child internationally or domestically, but the adoption was disrupted before it was finalized?  An adoption is disrupted if you (or a custodian escorting the child on your behalf) are granted legal custody or guardianship of the child, but the adoptive placement is interrupted before the adoption was finalized. Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line25_IfYes[0]",
+    "type": "text",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 32. If you answered \"Yes,\" provide a detailed description of the disruption.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line26[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 33. Have you ever previously completed an adoption, either in the United States or abroad, that was later dissolved?  An adoption is dissolved if your parental rights over the adopted child are terminated at any time after the adoption was finalized. Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line26[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 33. Have you ever previously completed an adoption, either in the United States or abroad, that was later dissolved? An adoption is dissolved if your parental rights over the adopted child are terminated at any time after the adoption was finalized. Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line26_IfYes[0]",
+    "type": "text",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 33. If you answered \"Yes,\" provide a detailed description of the dissolution.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line27[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 34. Have you ever previously placed a child in the care of another person with the intent to transfer permanent custody of the child? Select No",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line27[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 34. Have you ever previously placed a child in the care of another person with the intent to transfer permanent custody of the child? Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line27_IfYes[0]",
+    "type": "text",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 34. If you answered \"Yes,\"  provide a detailed description of the placement.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line28[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 35. Have you ever received a child with the intent to gain permanent custody, but without involving child welfare or other state/local authorities or following a the state/local process? Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line28[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 35. Have you ever received a child with the intent to gain permanent custody, but without involving child welfare or other state/local authorities or following a the state/local process? Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line28_IfYes[0]",
+    "type": "text",
+    "label": "Part 2. Information About Prior Filings or Adoptions. 35. If you answered \"Yes,\"  provide a detailed description of the custody transfer.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line23a[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner). Duty of Disclosure. Have you EVER, whether in or outside the United States. Select this box for:  36. A. Been investigated, arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance?  (Answer \"Yes,\" even if the record of the arrest, conviction, or other adverse criminal history was expunged, sealed, pardoned, or the subject of any other amelioration.  Do not include traffic violations, except for violations for driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant.)  Select No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line23a[1]",
+    "type": "checkbox",
+    "label": "Part 2.  Information About You (Petitioner). Duty of Disclosure.  Have you EVER, whether in or outside the United States. Select this box for: 36. A. Been investigated, arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance?  (Answer \"Yes,\" even if the record of the arrest, conviction, or other adverse criminal history was expunged, sealed, pardoned, or the subject of any other amelioration.  Do not include traffic violations, except for violations for driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant.)  Select Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line23b[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner).  Duty of Disclosure.  Have you EVER, whether in or outside the United States: 36. B. Received a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action?  Select Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line23b[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner).  Duty of Disclosure. Have you EVER, whether in or outside the United States: 36. B. Received a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action?  Select No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line23c[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner).  Duty of Disclosure. Have you EVER, whether in or outside the United States: 36. C. Received a suspended sentence, been placed on probation or parole, or been in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Select No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line23c[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner).  Duty of Disclosure. Have you EVER, whether in or outside the United States: 36. C. Received a suspended sentence, been placed on probation or parole, or been in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Select Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line23d[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner). Duty of Disclosure. Have you EVER, whether in or outside the United States: 36. D. Been the subject of any investigation at any time, even if closed or unsubstantiated, by any child welfare agency, court, or other official authority in any state or foreign country concerning the abuse or neglect of any child? Select Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line23d[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner).  Duty of Disclosure. Have you EVER, whether in or outside the United States: 36. D. Been the subject of any investigation at any time, even if closed or unsubstantiated, by any child welfare agency, court, or other official authority in any state or foreign country concerning the abuse or neglect of any child? Select No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line24a[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner). Duty of Disclosure.  Has your spouse EVER, whether in or outside the United States: Select this box for:  37. A Been investigated, arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance?  (Answer \"Yes,\" even if the record of the arrest, conviction, or other adverse criminal history was expunged, sealed, pardoned, or the subject of any other amelioration.  Do not include traffic violations, except for violations for driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant.) Select No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line24a[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner). Duty of Disclosure. Has your spouse EVER, whether in or outside the United States: Select this box for:  37. A  Been investigated, arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance?  (Answer \"Yes,\" even if the record of the arrest, conviction, or other adverse criminal history was expunged, sealed, pardoned, or the subject of any other amelioration.  Do not include traffic violations, except for violations for driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant.) Select Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line24b[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner). Duty of Disclosure. Has your spouse EVER, whether in or outside the United States: 37. B. Received a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Select Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line24b[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner). Duty of Disclosure. Has your spouse EVER, whether in or outside the United States: 37. B. Received a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Select No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line24c[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner). Duty of Disclosure. Has your spouse EVER, whether in or outside the United States: 37. C. Received a suspended sentence, been placed on probation or parole, or been in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Select No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line24c[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner). Duty of Disclosure. Has your spouse EVER, whether in or outside the United States: 37. C. Received a suspended sentence, been placed on probation or parole, or been in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Select Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line24d[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner).  Duty of Disclosure. Has your spouse EVER, whether in or outside the United States: 37. D. Been the subject of any investigation at any time even if closed or unsubstantiated, by any child welfare agency, court, or other official authority in any state or foreign country concerning the abuse or neglect of any child? Select Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line24d[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You (Petitioner). Duty of Disclosure. Has your spouse EVER, whether in or outside the United States: 37. D. Been the subject of any investigation at any time even if closed or unsubstantiated, by any child welfare agency, court, or other official authority in any state or foreign country concerning the abuse or neglect of any child? Select No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt2Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 1. Name at Birth. Enter Given Name (First Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt2Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 1. Name at Birth. Enter Middle Name (if applicable).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt2Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 1. Name at Birth. Enter Family Name (Last Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt2Line2_FamilyName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 2. Current Name. Enter Family Name (Last Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt2Line2_MiddleName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  2. Current Name. Enter Middle Name (if applicable).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt2Line2_GivenName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 2. Current Name. Enter Given Name (First Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line3a_GivenName[1]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 3. Other Names the Orphan Has Used.  Line 1.  Enter Given Name (First Name). ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line3b_FamilyName[1]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 3. Other Names the Orphan Has Used.  Line 2. Enter Family Name (Last Name). ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line3b_MiddleName[1]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 3. Other Names the Orphan Has Used.  Line 2.  Enter Middle Name (if applicable).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line3b_GivenName[1]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 3. Other Names the Orphan Has Used.  Line 2.  Enter Given Name (First Name). ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line3a_MiddleName[1]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 3. Other Names the Orphan Has Used.  Line 1. Enter Middle Name (if applicable).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line3a_FamilyName[1]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary (continued). 3. Other Names the Orphan Has Used.  Line 1. Enter Family Name (Last Name). ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line5_DateofBirth[1]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary 5. Date of Birth (month/day/year). Enter the 2 digit month, 2 digit day and 4 digit year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line4_Male[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 4. Sex. Select this box for Male.",
+    "page": 8,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line4_Female[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 4. Sex. Select this box for Female.",
+    "page": 8,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line6_CityOrTownOrVillageOfBirth[1]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. Information About the Orphan Beneficiary. 6. Enter City, Town or Village of Birth.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line8_CountryOfBirth[1]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. Information About the Orphan Beneficiary. 6. Enter Country of Birth.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line7_StateOrProvinceOfBirth[1]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. Information About the Orphan Beneficiary. 6. Enter State or Province of Birth.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line10a_Statement[1]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  If the orphan has a sole or surviving parent, answer the following:  8. A. Enter What happened to the other birth or previous parent.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line10B_checkboxYes[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  If the orphan has a sole or surviving parent, answer the following:  8. B Is the remaining parent capable of providing proper care for the orphan? Select Yes.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line10C_checkboxNo[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. If the orphan has a sole or surviving parent, answer the following: 8. C. Has the remaining parent irrevocably released the orphan for emigration and adoption, in writing?  Select No.",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line10C_checkboxYes[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. If the orphan has a sole or surviving parent, answer the following: 8. C. Has the remaining parent irrevocably released the orphan for emigration and adoption, in writing? Select Yes.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line10B_checkboxNo[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  If the orphan has a sole or surviving parent, answer the following:  8. B. Is the remaining parent capable of providing proper care for the orphan? Select No.",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line11_checkboxNo[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. If the orphan has a sole or surviving parent, answer the following: 9. Did you adopt the orphan abroad? Select No. If you answered \"No\" to either Item Number 9., Item Number 10., or Item Number 11.a., provide the following information:",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line11_checkboxYes[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. If the orphan has a sole or surviving parent, answer the following: 9. Did you adopt the orphan abroad? Select Yes. If you answered \u201cYes\u201d to Item Number 9. or Item Number 10., provide the following information:",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line12_checkboxNo[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  If the orphan has a sole or surviving parent, answer the following: 10. Did your spouse (if married) adopt the orphan abroad? Select No. If you answered \"No\" to either Item Number 9., Item Number 10., or Item Number 11.a., provide the following information:",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line12_checkboxYes[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  If the orphan has a sole or surviving parent, answer the following: 10. Did your spouse (if married) adopt the orphan abroad? Select Yes. If you answered \u201cYes\u201d to Item Number 9. or Item Number 10., provide the following information:",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line13A_checkboxYes[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  If the orphan has a sole or surviving parent, answer the following: 11. A. Did you or your spouse (if married) personally see and observe the child before or during the adoption proceedings?  (This does not include the visa interview and issuance.) Select Yes.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line13A_checkboxNo[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  If the orphan has a sole or surviving parent, answer the following: 11. A. Did you or your spouse (if married) personally see and observe the child before or during the adoption proceedings?  (This does not include the visa interview and issuance.) Select No. If you answered \"No\" to either Item Number 9., Item Number 10., or Item Number 11.a., provide the following information:",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line12b_DateofAdoption[1]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  If the orphan has a sole or surviving parent, answer the following: 11. B. Date of Adoption (mm/dd/yyyy). Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line12c_PlaceOfAdoption[1]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  If the orphan has a sole or surviving parent, answer the following: 11. C. Enter Place of Adoption.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line13a[2]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  If the orphan has a sole or surviving parent, answer the following: 12.  A. Do you and your spouse (if married) intend to adopt the orphan in the United States? Select No.",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line13a[3]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary.  If the orphan has a sole or surviving parent, answer the following: 12.  A. Do you and your spouse (if married) intend to adopt the orphan in the United States? Select Yes.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line14b_explain[1]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. If the orphan has a sole or surviving parent, answer the following:  12. B. Provide a written description of all the pre-adoption requirements of the state of the orphan's proposed residence and cite any relevant state statutes and regulations.  If the state of the orphan's proposed residence does not have any pre-adoption requirements, indicate \"not applicable.\"",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line7_NoParents[9]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 7. The beneficiary is an orphan because (select only one box): select this box for he or she has no parents due to the death or disappearance of, abandonment or desertion by, or separation or loss from both parents.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].#subform[9].Pt2Line7_NoParents[10]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 7.  The beneficiary is an orphan because (select only one box): select this box for he or she has a sole or surviving parent who is incapable of providing proper care and who has in writing irrevocably released the child for emigration and adoption.",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line13d_CheckboxYes[0]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 12. D. Will any pre-adoption requirements be met at a later time? Select Yes. If you answered \"Yes,\" describe the steps you will take to comply with these requirements.",
+    "page": 9,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line13d_CheckboxNo[0]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 12. D. Will any pre-adoption requirements be met at a later time? Select No. If you answered \"No,\" provide each pre-adoption requirement that will not be met and explain why.",
+    "page": 9,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line13C_Yes[0]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary . 12. C. Have any pre-adoption requirements of the orphan's proposed state of residence already been met? Select Yes. If you answered \"Yes,\" provide which requirements have been met.",
+    "page": 9,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line13C_No[0]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 12. C. Have any pre-adoption requirements of the orphan's proposed state of residence already been met? Select No.",
+    "page": 9,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line14c_explain[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 12 C. If you answered \"Yes,\" provide which requirements have been met.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line14d_Description[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 12. D. If you answered \"Yes,\" describe the steps you will take to comply with these requirements.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line14d_explanation[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 12. D. If you answered \"No,\" provide each pre-adoption requirement that will not be met and explain why.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line15b_Description[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. To your knowledge: 13. B. If you answered \"Yes,\" name or describe the special need, disability, and/or impairment.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line15_CheckboxNo[0]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. To your knowledge: 13. A.  Does the orphan have any special need, disability, and/or impairment? Select No.",
+    "page": 9,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line15_CheckboxYes[0]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. To your knowledge:  13. A.  Does the orphan have any special need, disability, and/or impairment? Select Yes.",
+    "page": 9,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt5Line1_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. To your knowledge: 14. The orphan's legal custodian is (select only one box):  Select An individual or entity other than the orphan's birth parents.",
+    "page": 9,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line15_IndivorEntityName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. To your knowledge: 14. The orphan's legal custodian is, enter the Name of the individual or entity.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt5Line1_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. To your knowledge: 14. The orphan's legal custodian is (select only one box):  Select  Both of the orphan's living birth parents.",
+    "page": 9,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt5Line1_Checkbox[2]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. To your knowledge: 14. The orphan's legal custodian is (select only one box):  Select  One of the orphan's living birth parents.  ",
+    "page": 9,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line16_Mother[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Orphan Beneficiary. 14. The orphan's legal custodian is the living birth parent.  Select this box for Mother.",
+    "page": 9,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line16_Father[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Orphan Beneficiary. 14. The orphan's legal custodian is the living birth parent.  Select this box for Father.",
+    "page": 9,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_FamilyName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15. Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Enter Family Name (Last Name).",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_MiddleName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15.  Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Enter Middle Name (if applicable).",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_GivenName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15. Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Enter Given Name (First Name).",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15.  Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Enter the Apartment, Suite or Floor Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15.  Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Enter Street Number and Name.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15.  Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Select this box for Suite (S t e).",
+    "page": 9,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15.  Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Select this box for Floor (F l r).",
+    "page": 9,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15.  Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Select this box for Apartment (A p t).",
+    "page": 9,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_Province[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15.  Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Enter Province.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_PostalCode[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15. Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Enter Postal Code.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_Country[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15.  Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Enter Country.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_CityTown[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15. Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Enter City or Town.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_State[0]",
+    "type": "choice",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15.  Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Select the State.  You will be making a selection from the drop down list containing the 2 letter abbreviations of state names.",
+    "page": 9,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[10].Pt2Line17_ZipCode[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 15.  Information About the Attorney Abroad Representing You and/or Your Spouse (if married) in this Case (if any).  Enter ZIP Code.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_InCareofName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 17. Current Address of the Orphan.  Enter In Care Of Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 17. Current Address of the Orphan.  Enter the Street Number and Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Orphan Beneficiary. 17. Current Address of the Orphan. Select this box for Suite (S t e).",
+    "page": 10,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Orphan Beneficiary. 17. Current Address of the Orphan. Select this box for Apartment (A p t).",
+    "page": 10,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Orphan Beneficiary. 17. Current Address of the Orphan. Select this box for Floor (F l r).",
+    "page": 10,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 17. Current Address of the Orphan. Enter the Apartment, Suite or Floor Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_CityTown[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 17. Current Address of the Orphan. Enter City or Town.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_State[0]",
+    "type": "choice",
+    "label": "Part 3. Information About the Orphan Beneficiary. 17. Current Address of the Orphan. Select the State.  You will be making a selection from the drop down list containing the 2 letter abbreviations of state names.",
+    "page": 10,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_ZipCode[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 17. Current Address of the Orphan. Enter ZIP Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_Province[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 17. Current Address of the Orphan. Enter Province.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_Country[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 17. Current Address of the Orphan. Enter the Country.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_PostalCode[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 17. Current Address of the Orphan. Enter the Postal Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line19_NameofInstitution[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 18. If the orphan resides in an institution, enter the full name of the institution.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line20_FamilyName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 19. If the orphan does not reside in an institution, provide the full name of the person with whom the orphan is residing or the name of the orphan's caretaker. Enter Family Name (Last Name).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line20_MiddleName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 19. Enter Middle Name (if applicable).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line20_GivenName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 19. Enter Given Name (First Name).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line21_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 20.  Provide any additional information necessary to locate the orphan, such as the name of a district, section, zone, or locality in which the orphan resides in the provided space.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line22b_EmbassyOrConsulateLocation[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Orphan Beneficiary. 22. Where do you wish to file your visa application (if applicable)? Enter The U.S. Embassy or U.S. Consulate location.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line18_Province[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 16. Address Where the Orphan Will Reside After the Adoption (or after you obtain legal custody). Enter Province.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line18_ZipCode[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 16. Address Where the Orphan Will Reside After the Adoption (or after you obtain legal custody). Enter ZIP Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line18_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 16. Address Where the Orphan Will Reside After the Adoption (or after you obtain legal custody). Enter City or Town.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line18_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary (continued). 16. Address Where the Orphan Will Reside After the Adoption (or after you obtain legal custody). Enter Street Number and Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line18_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 16. Address Where the Orphan Will Reside After the Adoption (or after you obtain legal custody). Select this box for Suite (S t e).",
+    "page": 10,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line18_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 16. Address Where the Orphan Will Reside After the Adoption (or after you obtain legal custody). Select this box for Floor (F l r).",
+    "page": 10,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line18_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 16. Address Where the Orphan Will Reside After the Adoption (or after you obtain legal custody). Enter the Apartment, Suite or Floor Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line18_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 16. Address Where the Orphan Will Reside After the Adoption (or after you obtain legal custody). Select this box for Apartment (A p t).",
+    "page": 10,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line18_State[0]",
+    "type": "choice",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 16. Address Where the Orphan Will Reside After the Adoption (or after you obtain legal custody). Select the State.  You will be making a selection from the drop down list containing the 2 letter abbreviations of state names.",
+    "page": 10,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line18_Country[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 16. Address Where the Orphan Will Reside After the Adoption (or after you obtain legal custody). Enter the Country.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line18_PostalCode[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the Orphan Beneficiary. 16. Address Where the Orphan Will Reside After the Adoption (or after you obtain legal custody). Enter the Postal Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line23a_CheckboxNo[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Orphan Beneficiary. 21. A. After you obtain an adoption or legal custody of the orphan, do you intend to, select this box for:  A. Seek an immigrant visa because the child will reside with you in the United States? Select No.",
+    "page": 10,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line23a_CheckboxYes[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Orphan Beneficiary. 21. A. After you obtain an adoption or legal custody of the orphan, do you intend to, select this box for:  A. Seek an immigrant visa because the child will reside with you in the United States? Select Yes.",
+    "page": 10,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line23b_checkboxNo[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Orphan Beneficiary. 21. B. Seek a non-immigrant visa for the child to travel to the United States temporarily for the purpose of naturalization, because you will continue to reside abroad with the child immediately following the adoption? Select No.",
+    "page": 10,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[11].Pt2Line23b_CheckboxYes[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Orphan Beneficiary. 21. B. Seek a non-immigrant visa for the child to travel to the United States temporarily for the purpose of naturalization, because you will continue to reside abroad with the child immediately following the adoption? Select Yes.",
+    "page": 10,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line2a_PrimaryAdoptionServiceName[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Home Study and Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. 2. Enter Name of Primary Adoption Service Provider.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line4_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. 4. Primary Adoption Service Provider's Mailing Address.  Enter the Apartment, Suite or Floor Number.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line4_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. 4. Primary Adoption Service Provider's Mailing Address. Enter Street Number and Name.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line4_CityTown[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. 4. Primary Adoption Service Provider's Mailing Address.  Enter City or Town.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line4_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. 4. Primary Adoption Service Provider's Mailing Address.  Select this box for Suite (S t e).",
+    "page": 11,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line4_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. 4. Primary Adoption Service Provider's Mailing Address.  Select this box for Floor (F l r).",
+    "page": 11,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line4_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. 4. Primary Adoption Service Provider's Mailing Address.  Select this box for Apartment (A p t).",
+    "page": 11,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line4_ZipCode[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. 4. Primary Adoption Service Provider's Mailing Address.  Enter ZIP Code.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line4_State[0]",
+    "type": "choice",
+    "label": "Part 3. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. 4. Primary Adoption Service Provider's Mailing Address.  Select the State.  You will be making a selection from the drop down list containing the 2 letter abbreviations of state names.",
+    "page": 11,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line2b_FamilyName[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. 3. Point of Contact Within the Organization. Enter Family Name (Last Name).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line2b_GivenName[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. 3. Point of Contact Within the Organization. Enter Given Name (First Name).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line2e_FaxNumber1[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider.  6. Enter Primary Adoption Service Provider's Fax Number (if any).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line2d_DaytimePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider.  Information About Your Primary Adoption Service Provider.  5. Enter Primary Adoption Service Provider's Daytime Telephone Number.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line2f_Email[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider.  7. Enter Primary Adoption Service Provider's Email Address (if any).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line3b[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider.  The primary adoption service provider named above is one of the following: Select this box for:  8. B. An approved person in the United States. Select Yes.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line3b[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider. The primary adoption service provider named above is one of the following: Select this box for:  8. B. An approved person in the United States. Select No.",
+    "page": 11,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line3a[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider.  The primary adoption service provider named above is one of the following: Select this box for:  8. A. An accredited agency in the United States. Select No.",
+    "page": 11,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line3a[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Primary Adoption Service Provider. Information About Your Primary Adoption Service Provider.  The primary adoption service provider named above is one of the following: Select this box for:  8. A. An accredited agency in the United States. Select Yes.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line1A_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Home Study and Primary Adoption Service Provider. Your home study. Select this box for:  1.  A. Was previously submitted with your approved Form I-600 A application (please attach a copy of your Form I-600 A approval notice).",
+    "page": 11,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line1B_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Home Study and Primary Adoption Service Provider. Your home study. Select this box for:  1. B. Was previously submitted with your pending Form I-600 A application (please attach a copy of your Form I-600 A fee receipt notice).",
+    "page": 11,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line1C_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Home Study and Primary Adoption Service Provider. Your home study. Select this box for:  1. D. IS attached to this Form I-600.",
+    "page": 11,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line1D_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Home Study and Primary Adoption Service Provider. Your home study. Select this box for:  1.  E. IS NOT attached to this Form I-600 because of state requirements necessitating review and documentation.  The appropriate state authority has indicated that it will submit the home study directly to U.S. Citizenship and Immigration Services (U S C I S).  (Do not submit your Form I-600 to U S C I S until the state authority is ready to send your home study to U S C I S.)",
+    "page": 11,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt3Line1B_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Home Study and Primary Adoption Service Provider. Your home study. Select this box for:  1. C. Was previously submitted with a Form I-600A/I-600, Supplement 3 (please attach a copy of your Form I-600A/I-600, Supplement 3 receipt notice).",
+    "page": 11,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row1[0].Pt4Line1_Row1Date[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. If you need extra space to complete the tables in Item Numbers 1. or 2., use the space provided in Part 12. Additional Information. 1. Information on payment already made. Row 1. Enter or select Date (month/day/year) as 2-digit month, 2-digit day and 4-digit year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row1[0].Pt4Line1_Row1Payee[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 1. Enter Payee.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row1[0].Pt4Line1_Row1RelationshiptoChild[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 1. Enter Relationship to Child, if any.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row1[0].Pt4Line1_Row1PurposeofPayment[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 1. Enter Purpose of Payment.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row1[0].Pt4Line1_Row1Amount[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 1. Enter Amount of Payment (or description and value of in kind consideration).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row2[0].Pt4Line1_Row2Date[0]",
+    "type": "text",
+    "label": " Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 2. Enter or select Date (month/day/year) as 2-digit month, 2-digit day and 4-digit year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row2[0].Pt4Line1_Row2Payee[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 2. Enter Payee.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row2[0].Pt4Line1_Row2RelationshiptoChild[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 2. Enter Relationship to Child, if any.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row2[0].Pt4Line1_Row2PurposeofPayment[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation.1. Information on payment already made. Row 2. Enter Purpose of Payment.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row2[0].Pt4Line1_Row2Amount[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 2. Enter Amount of Payment (or description and value of in kind consideration).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row3[0].Pt4Line1_Row3Date[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 3. Enter or select Date (month/day/year) as 2-digit month, 2-digit day and 4-digit year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row3[0].Pt4Line1_Row3Payee[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 3. Enter Payee.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row3[0].Pt4Line1_Row3RelationshiptoChild[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 3. Enter Relationship to Child, if any.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row3[0].Pt4Line1_Row3PurposeofPayment[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 3. Enter Purpose of Payment.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row3[0].Pt4Line1_Row3Amount[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 3. Enter Amount of Payment (or description and value of in kind consideration).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row4[0].Pt4Line1_Row4Date[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 4. Enter or select Date (month/day/year) as 2-digit month, 2-digit day and 4-digit year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row4[0].Pt4Line1_Row4Payee[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 4. Enter Payee.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row4[0].Pt4Line1_Row4RelationshiptoChild[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 4. Enter Relationship to Child, if any.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row4[0].Pt4Line1_Row4PurposeofPayment[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 4. Enter Purpose of Payment.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[0].Row4[0].Pt4Line1_Row4Amount[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 1. Information on payment already made. Row 4. Enter Amount of Payment (or description and value of in kind consideration).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row1[0].Pt4Line2_Row1Date[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 1. Enter or select Date (month/day/year) as 2-digit month, 2-digit day and 4-digit year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row1[0].Pt4Line2_Row1Payee[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 1. Enter Payee.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row1[0].Pt4Line2_Row1RelationshiptoChild[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 1. Enter Relationship to Child, if any.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row1[0].Pt4Line2_Row1PurposeofPayment[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 1. Enter Purpose of Payment.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row1[0].Pt4Line2_Row1Amount[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 1. Enter Amount of Payment (or description and value of in kind consideration).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row2[0].Pt4Line2_Row2Date[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 2. Enter or select Date (month/day/year) as 2-digit month, 2-digit day and 4-digit year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row2[0].Pt4Line2_Row2Payee[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 2. Enter Payee.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row2[0].Pt4Line2_Row2RelationshiptoChild[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 2. Enter Relationship to Child, if any.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row2[0].Pt4Line2_Row2PurposeofPayment[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 2. Enter Purpose of Payment.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row2[0].Pt4Line2_Row2Amount[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 2. Enter Amount of Payment (or description and value of in kind consideration).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row3[0].Pt4Line2_Row3Date[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 3. Enter or select Date (month/day/year) as 2-digit month, 2-digit day and 4-digit year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row3[0].Pt4Line3_Row1Payee[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 3. Enter Payee.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row3[0].Pt4Line2_Row3RelationshiptoChild[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 3. Enter Relationship to Child, if any.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row3[0].Pt4Line2_Row3PurposeofPayment[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 3. Enter Purpose of Payment.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row3[0].Pt4Line2_Row3Amount[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 3. Enter Amount of Payment (or description and value of in kind consideration).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row4[0].Pt4Line2_Row4Date[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 4. Enter or select Date (month/day/year) as 2-digit month, 2-digit day and 4-digit year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row4[0].Pt4Line4_Row1Payee[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 4. Enter Payee.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row4[0].Pt4Line2_Row4RelationshiptoChild[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 4. Enter Relationship to Child, if any.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row4[0].Pt4Line2_Row4PurposeofPayment[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 4. Enter Purpose of Payment.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[14].Table3[1].Row4[0].Pt4Line2_Row4Amount[0]",
+    "type": "text",
+    "label": "Part 5. Information About Fees, Expenses, and Other Compensation. 2. Information on anticipated future payments. Row 4. Enter Amount of Payment (or description and value of in kind consideration).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line3[0]",
+    "type": "checkbox",
+    "label": "Part 5.  Information About Fees, Expenses, and Other Compensation (continued). 3. Have you or your spouse (if married) or anyone on behalf of you and your spouse, given or arranged to give money or other consideration either directly or indirectly to the orphan's parent(s), agent(s), other individual(s), or entity to induce or encourage the release of the orphan?  Select Yes.",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line3[1]",
+    "type": "checkbox",
+    "label": "Part 5.  Information About Fees, Expenses, and Other Compensation (continued). 3. Have you or your spouse (if married) or anyone on behalf of you and your spouse, given or arranged to give money or other consideration either directly or indirectly to the orphan's parent(s), agent(s), other individual(s), or entity to induce or encourage the release of the orphan?  Select No.",
+    "page": 13,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line3_Yes[0]",
+    "type": "text",
+    "label": "Part 5.  Information About Fees, Expenses, and Other Compensation (continued), 3. If you answered \"Yes,\" enter a detailed description to explain in the provided space.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[17].Pt5Line1a[0]",
+    "type": "checkbox",
+    "label": "Part 6. Request for Exemption From Submitting Affidavit of Support Under Section 2 1 3 A of the I N A on behalf of Orphan Beneficiary. 1. A. Select The orphan beneficiary can receive credit for 40 qualifying quarters (credits) of work earned by the orphan beneficiary's petitioning parent(s) in the United States (as defined by the Social Security Act). (Do not count any quarters for which a means-tested public benefit was received.)",
+    "page": 13,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt5Line1a[1]",
+    "type": "checkbox",
+    "label": "Part 6. Request for Exemption From Submitting Affidavit of Support Under Section 2 1 3 A of the I N A on behalf of Orphan Beneficiary.  1. B. Select Upon admission as a lawful permanent resident, the orphan beneficiary will be under 18 years of age, unmarried, and the child of a U.S. citizen, is not likely to become a public charge, and will automatically become a U.S. citizen under I N A section 3 20.",
+    "page": 13,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt5Line1a[2]",
+    "type": "checkbox",
+    "label": "Part 6. Request for Exemption From Submitting Affidavit of Support Under Section 2 1 3 A of the I N A on behalf of Orphan Beneficiary. 2. Select Neither of these exemptions apply, and I will submit Form I-8 64 or Form I-8 64 E Z to D O S.",
+    "page": 13,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line2_Other[0]",
+    "type": "checkbox",
+    "label": "Part 7. Accommodations for Individuals With Disabilities and/or Impairments. 2. If you answered \"Yes,\" select all applicable boxes below to indicate who has the disabilities and/or impairments. Select Other Adult Household Member.",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line2_Petitioner[0]",
+    "type": "checkbox",
+    "label": "Part 7. Accommodations for Individuals With Disabilities and/or Impairments. 2. If you answered \"Yes,\" select all applicable boxes below to indicate who has the disabilities and/or impairments. Select Petitioner.",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line2_Spouse[0]",
+    "type": "checkbox",
+    "label": "Part 7. Accommodations for Individuals With Disabilities and/or Impairments. 2. If you answered \"Yes,\" select all applicable boxes below to indicate who has the disabilities and/or impairments. Select Spouse.",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line3a_Deaf[0]",
+    "type": "checkbox",
+    "label": "Part 7. Accommodations for Individuals With Disabilities and/or Impairments.  If you answered \u201cYes\u201d to Item Number 1., select all applicable boxes in Item Numbers 3.a. - 3.b. and provide an answer for each person with disabilities and/or impairments.  Select this box for:  3. A. Deaf or hard of hearing and request the following accommodation.  ",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line3a_AccomodationRequested[0]",
+    "type": "text",
+    "label": "Part 7. Accommodations for Individuals With Disabilities and/or Impairments.  If selected Box 3. A, enter which language (e.g., American Sign Language.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line1[0]",
+    "type": "checkbox",
+    "label": "Part 7.  Accommodations for Individuals With Disabilities and/or Impairments. 1. Are you requesting an accommodation because of disabilities and/or impairments?  Select No. ",
+    "page": 13,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line1[1]",
+    "type": "checkbox",
+    "label": "Part 7.  Accommodations for Individuals With Disabilities and/or Impairments. 1. Are you requesting an accommodation because of disabilities and/or impairments?  Select Yes.  If you answered \u201cYes\u201d to Item Number 1., select all applicable boxes in Item Numbers 3.a. - 3.b. and provide an answer for each person with disabilities and/or impairments.",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line3b_Blind[0]",
+    "type": "checkbox",
+    "label": "Part 7. Accommodations for Individuals With Disabilities and/or Impairments. If you answered \u201cYes\u201d to Item Number 1., select all applicable boxes in Item Numbers 3.a. - 3.b. and provide an answer for each person with disabilities and/or impairments. Select this box for:  3. B. Blind or have low vision and request the following accommodation:",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line3b_AccomodationRequested[0]",
+    "type": "text",
+    "label": "Part 7. Accommodations for Individuals With Disabilities and/or Impairments.  If selected Box 3. B, enter accommodation requesting. ",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line3c_Other[0]",
+    "type": "checkbox",
+    "label": "Part 7. Accommodations for Individuals With Disabilities and/or Impairments. If you answered \u201cYes\u201d to Item Number 1., select all applicable boxes in Item Numbers 3.a. - 3.b. and provide an answer for each person with disabilities and/or impairments. Select this box for:  3. C. Another type of disability and/or impairment.",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[17].Pt4Line3c_AccomodationRequested[0]",
+    "type": "text",
+    "label": "Part 7. Accommodations for Individuals With Disabilities and/or Impairments.  If selected Box 3. C, enter the nature of the disability and/or impairment and the requested accommodation.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[18].Pt5Line3_SignatureOfPetitioner[0]",
+    "type": "text",
+    "label": "Part 8. Petitioner's Certification, Duty of Disclosure, and Signature. 1. Petitioner's Signature.  This form can not be signed electronically.  The name of the petitioner can not be typewritten into this space.  ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[18].Pt5Line3_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 8. Petitioner's Certification, Duty of Disclosure, and Signature. 1. Petitioner's Date of Signature (month/day/year), enter the date as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[18].Pt8Line3_SignatureOfPetitioner[0]",
+    "type": "text",
+    "label": "Part 9. Your Spouse's Certification, Duty of Disclosure, and Signature. 1. Your Spouse's Signature. This form can not be signed electronically.  The name of your spouse can not be typewritten into this space.  This form will be rejected without a signature in this space. ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[18].Pt8Line3_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 9. Your Spouse's Certification, Duty of Disclosure, and Signature. Your Spouse's Signature. 1. Your Spouse's Date of Signature (m m / d d /y y y y). Enter date as 2 digit month, 2 digit day and 4 digit year.     ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[18].Pt9Line2_NameofBusinessorOrgName[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name.  2.  Enter Interpreter's Business or Organization Name (if any).",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[18].Pt9Line1_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature.  Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[18].Pt9Line1_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature.  Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[19].Pt9Line3_DaytimePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information.  3. Enter Interpreter's Daytime Telephone Number.  Enter the telephone number including the area code or country code.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt9Line4_MobileNumber1[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Interpreter's Mobile Telephone Number (if any).  Enter the mobile number including the area code.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt9Line5_Email[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Interpreter's Email Address (if any). ",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Part4_NameofLanguage[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. I certify, under penalty of perjury, that I am fluent in English and I have interpreted every question on the petition and Instructions and interpreted the petitioner's and/or petitioner's spouse's (if married) answers to the questions in that language, and the petitioner and/or the petitioner's spouse informed me that he and / or she understans every instruction, question, and answer on the petition. Enter language.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt10Line3_SignatureOfPetitioner[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. 6. Interpreter's Signature. This form can not be signed electronically.  The name of the interpreter can not be typewritten into this space. ",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt10Line3_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. 6. Interpreter's Date of Signature (M M / d d / y y y y). Enter the date as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt10Line3_DaytimePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Petition, If Other Than the Petitioner and Spouse. Preparer's Contact Information.  3. Preparer's Daytime Telephone Number. Enter the telephone number including the area code or country code.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt10Line4_MobileNumber1[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Petition, If Other Than the Petitioner and Spouse. Preparer's Contact Information. 4. Preparer's Mobile Telephone Number, if any. Enter the mobile number including the area code.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt10Line5_Email[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Petition, If Other Than the Petitioner and Spouse. Preparer's Contact Information.  5. Enter Preparer's Email Address (if any).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt10Line1_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Petition, If Other Than the Petitioner and Spouse.  Preparer's Full Name. 1. Enter Preparer's Given Name (First Name).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt10Line1_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Petition, If Other Than the Petitioner and Spouse.  Preparer's Full Name.  1. Enter Preparer's Family Name (Last Name).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt10Line2_NameofBusinessorOrgName[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Petition, If Other Than the Petitioner and Spouse.  Preparer's Full Name. 2. Enter Preparer's Business or Organization Name (if any).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt11Line3_SignatureOfPetitioner[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Petition, If Other Than the Petitioner and Spouse. Preparer's Certification and Signature. I certify, under penalty of perjury, that I prepared this petition for the petitioner and/or the petitioner's spouse (if married) at his and/or her request and with express consent and that all of the responses and information contained in and submitted with the petition are complete, true, and correct and reflects only information provided by the petitioner and/or the petitioner's spouse (if married). The petitioner and/or the petitioner's spouse (if married) reviewed the responses and information and informed me that he and/or she understands the responses and information in or submitted with the petition. 6. Preparer's Signature.  This form can not be signed electronically.  The name of the preparer can not be typewritten into this space.  ",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[19].Pt11Line3_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Petition, If Other Than the Petitioner and Spouse. Preparer's Certification and Signature. 6. Preparer's Date of Signature (month/day/year), enter the date as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[20].Global_ANumber[0].Pt1Line15A_AlienNumber[1]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 2. Alien Registration Number (A Number), if any. This is a read only field. This field prepopulated from page 2.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt1Line1_FamilyName[1]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 1. Family Name (Last Name). This field is prepopulated from Page 1, Item Number 1.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt1Line1_GivenName[1]",
+    "type": "text",
+    "label": "Part 12. Additional Information . 1. Given Name (First Name). This is a read only field. This field is prepopulated from Page 1, Item Number 1.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt1Line1_MiddleName[1]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 1.  Middle Name. This is a read only field. This field is prepopulated from Page 1, Item Number 1.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line2_PageNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  3 Enter Page Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line2_PartNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  3. Enter Part Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line2_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  3.  Enter Item Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line3_PageNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  4.  Enter Page Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line4_PageNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 5. Enter Page Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line5_PageNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  6.  Enter Page Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line2_PartNumber[1]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  4. Enter Part Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line2_ItemNumber[1]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  4. Enter Item Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line2_PartNumber[2]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  5. Enter Part Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line2_ItemNumber[2]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  5. Enter Item Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line2_PartNumber[3]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  6. Enter Part Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].Pt7Line2_ItemNumber[3]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  6. Enter Item Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].P14_Line3_D_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 3. Enter the Additional Information.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].P14_Line3_D_AdditionalInfo[1]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 4. Enter the Additional Information.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].P14_Line3_D_AdditionalInfo[2]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 5. Enter the Additional Information.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[20].P14_Line3_D_AdditionalInfo[3]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 6. Enter the Additional Information.",
+    "page": 16
+  }
+]

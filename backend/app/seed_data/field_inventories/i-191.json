@@ -1,0 +1,4155 @@
+[
+  {
+    "name": "form1[0].#subform[0].P1_Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 1. Your Full Legal Name. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 1. Your Full Legal Name. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Answer all questions fully and accurately.  If a question does not apply to you (for example, if you have never been married and the question asks, \u201cProvide the name of your current spouse\u201d), type or print \u201cN/A\u201d unless otherwise directed.  If your answer to a question which requires a numeric response is zero or none (for example, \"How many children do you have?\" or \"How many times have you departed the United States?\"), type or print \"None\" unless otherwise directed. Part 1. Information About You. The individual applying for relief under former Immigration and Nationality Act (INA) section 212(c) completes this section. 1. Your Full Legal Name. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_MiddleName1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Other Names Used. Row 1. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_GivenName1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Other Names Used. Row 1. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_FamilyName1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Other Names Used. Provide any other names you have used at any time since birth, including aliases, maiden names, and nicknames.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information. Row 1. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].AttorneyStateBarNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative (if any).  Enter Attorney or State Bar Number (if applicable).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "To be completed by an attorney or accredited representative (if any).  Select this box if Form G - 2 8 or Form G - 2 8 I is attached.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].USCISOnlineAcctNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative (if any). Enter Attorney or Accredited Representative U S C I S Online Account Number (if any).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_MiddleName1[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Other Names Used. Row 2. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_GivenName1[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Other Names Used. Row 2. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_FamilyName1[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Other Names Used. Provide any other names you have used at any time since birth, including aliases, maiden names, and nicknames.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information. Row 2. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].Pt1Line8_InCareofName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. Enter the In Care of Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].Pt1Line8_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. Enter the Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].no8_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. Check this box for Apartment.",
+    "page": 1,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].no8_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. Check this box for Suite.",
+    "page": 1,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].no8_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. Check this box for Floor.",
+    "page": 1,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. Enter the Apartment, Suite, or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. Enter the City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. For U. S. Address. select the State from the list of States.",
+    "page": 1,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. For International Address. Enter the Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. For International Address. Enter the Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].pt1\\.no8[0].Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address. For International Address. Enter the Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4_Address[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 4. Is your current mailing address the same as your physical address? Check this box for Yes.",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4_Address[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 4. Is your current mailing address the same as your physical address? Check this box for No. NOTE:  If you answered \"No\" to Item Number 4., provide your physical address below.",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line6_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 6. Enter Date of Birth. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line10_CountryOfbirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 10. Place of Birth. Enter Country of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line10_StateProvinceOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 10. Place of Birth. Enter State / Province of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line10_CityTownVillageOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 10. Place of Birth. List the city/town/village, state/ province, and country where you were born. Enter city / town / village, state / province, and country where you were born. Enter the City / Town / Village of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line7_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 7. Enter 9 digit Alien Registration Number (A Number).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line8_USCISOnlineAcctNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 8. Enter 12 digit U S C I S Online Account Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line9_CountryOfCitizenship[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 9. Enter Your Country of Citizenship or Nationality. List the country where you are currently a citizen or national.  If you need extra space to complete this item, use the space provided in Part 12. Additional Information.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. Current Physical Address. Enter the Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].no9_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 5. Current Physical Address. Check this box for Apartment.",
+    "page": 2,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].no9_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 5. Current Physical Address. Check this box for Suite.",
+    "page": 2,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].no9_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 5. Current Physical Address. Check this box for Floor.",
+    "page": 2,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. Current Physical Address. Enter the Apartment, Suite, or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. Current Physical Address. Enter the City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. 5. Current Physical Address. For U. S. Address. select the State from the list of States.",
+    "page": 2,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. Current Physical Address. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. Current Physical Address. For International Address. Enter the Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. Current Physical Address. For International Address. Enter the Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. Current Physical Address. For International Address. Enter the Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].prt1No9[0].Pt1Line8_InCareofName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. Current Physical Address (if different from the address above). Enter the In Care of Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line11b_Status2[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 11. Information About Your Lawful Permanent Resident (LPR) Status B. Check this box for Adjustment of Status Granted by USCIS While in the United States (Complete Item Number 13.).",
+    "page": 2,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line10a_DateTo1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 11. Information About Your Lawful Permanent Resident (LPR) Status A. Enter Date You Obtained Your L P R Status. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line11b_Status1[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 11. Information About Your Lawful Permanent Resident (LPR) Status B. How You Obtained Your LPR Status (select only one box). Check this box for Admission with an Immigrant Visa at a Port of Entry (Complete Item Number 12.).",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line11b_Status3[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 11. Information About Your Lawful Permanent Resident (LPR) Status B. Check this box for Adjustment of Status Granted by Immigration Judge or Board of Immigration Appeals While Inside the United States (Complete Item Number 14.).",
+    "page": 2,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line10b_PortOfEntryCity[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 12. If you selected \"Admission with an Immigrant Visa at a Port of Entry,\" provide the information requested below. Enter Port of Entry City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line10b_NameOfShipTransportation[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 12. Enter Means of Transportation.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Pt1Line10b_PortOfEntryState[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 12. Enter Port of Entry State. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[4].Line15_Passport[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Last Arrival in the United States. 15. Enter Passport or Travel Document Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line16_TravelDoc[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Last Arrival in the United States. 16. Enter Country THat Issued Your Passport or Travel Document.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line17_ExpDate[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Last Arrival in the United States. 17. Enter Expiration Date for Your Passport or Travel Document. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line13_USCISOffice[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 13. If you selected \"Adjustment of Status Granted by USCIS While in the United States,\" provide the USCIS Office location that granted your adjustment of status application below. Enter the U S C I S Office Location.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line14_DateTo1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 14. If you selected \"Adjustment of Status by Immigration Judge or Board of Immigration Appeals While inside the United States\" provide the date your status was granted and the location of the Immigration Judge below. Enter Date Adjustment of Status was Granted. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line14_Location[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 14. Enter the Location of Immigration Judge.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line18_ExpDate[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Last Arrival in the United States. 18. Enter Date of Your Last Arrival into United States, On or About. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line19_Trip1_City[0]",
+    "type": "text",
+    "label": "\u201cPart 1. Information About You. Information About Your Travels From and To the United States. Provide the information requested below about your travels from and to the United States since you were admitted as, or adjusted your status to, an LPR.  If you need extra space to complete this section, use the space provided in Part 12, Additional Information. 19. Trip 1. Enter City of Departure.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line19_Trip1_State[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 19. Trip 1. Enter State of Departure.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line19_Trip1_DepartureDate[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 19. Trip 1. Enter Date of Departure. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line19_Trip1_Trans[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 19. Trip 1. Enter Means of Transportation for Departure.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line19_Trip1_CityArrival[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 19. Trip 1. Enter City of Arrival.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line19_Trip1_StateArrival[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 19. Trip 1. Enter State of Arrival.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line19_Trip1_ArrivalDate[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 19. Trip 1. Enter Date of Arrival. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line19_Trip1_TransArrival[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 19. Trip 1. Enter Means of Transportation for Arrival.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Line19_Trip1_Purpose[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 19. Trip 1. Enter Purpose of Trip.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line19Trip1_CB[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 19. Trip 1. Is this information approximate? Check this box for Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line19Trip1_CB[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 19. Trip 1. Is this information approximate? Check this box for No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_City[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 20. Trip 2. Enter City of Departure.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_State[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 20. Trip 2. Enter State of Departure.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_DepartureDate[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 20. Trip 2. Enter Date of Departure. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_Trans[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 20. Trip 2. Enter Means of Transportation for Departure.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_CityArrival[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 20. Trip 2. Enter City of Arrival.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_StateArrival[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 20. Trip 2. Enter State of Arrival.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_ArrivalDate[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 20. Trip 2. Enter Date of Arrival. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_TransArrival[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 20. Trip 2. Enter Means of Transportation for Arrival.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_Purpose[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 20. Trip 2. Enter Purpose of Trip.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line19Trip2_CB[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 20. Trip 2. Is this information approximate? Check this box for Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line19Trip2_CB[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 20. Trip 2. Is this information approximate? Check this box for No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip3_City[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 21. Trip 3. Enter City of Departure.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_State[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 21. Trip 3. Enter State of Departure.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip3_DepartureDate[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 21. Trip 3. Enter Date of Departure. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip3_Trans[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 21. Trip 3. Enter Means of Transportation for Departure.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip3_CityArrival[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 21. Trip 3. Enter City of Arrival.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip3_StateArrival[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 21. Trip 3. Enter State of Arrival.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip3_ArrivalDate[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 21. Trip 3. Enter Date of Arrival. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_TransArrival[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 21. Trip 3. Enter Means of Transportation for Arrival.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Line19_Trip2_Purpose[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 21. Trip 3. Enter Purpose of Trip.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line19Trip3_CB[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 21. Trip 3. Is this information approximate? Check this box for Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line19Trip3_CB[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Information About Your Travels From and To the United States. 21. Trip 3. Is this information approximate? Check this box for No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line6_HairColor[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color. (Select only one box). Check this box for Bald (No hair).",
+    "page": 4,
+    "on_value": "/NO"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line6_HairColor[1]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color. Check this box for Black. ",
+    "page": 4,
+    "on_value": "/Black"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line6_HairColor[2]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color. Check this box for Blond.",
+    "page": 4,
+    "on_value": "/Blond"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line6_HairColor[3]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color. Check this box for Brown.",
+    "page": 4,
+    "on_value": "/Brown"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line6_HairColor[4]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color. Check this box for Gray.",
+    "page": 4,
+    "on_value": "/Gray"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line6_HairColor[5]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color. Check this box for Red.",
+    "page": 4,
+    "on_value": "/Red"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line6_HairColor[6]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color. Check this box for Sandy.",
+    "page": 4,
+    "on_value": "/Sandy"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line6_HairColor[7]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color. Check this box for Unknown / Other.",
+    "page": 4,
+    "on_value": "/UNK"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line6_HairColor[8]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color. Check this box for White.",
+    "page": 4,
+    "on_value": "/White"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line1_Ethnicity[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 1. Ethnicity (Select only one box). Check this box for Hispanic or Latino.",
+    "page": 4,
+    "on_value": "/H"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line1_Ethnicity[1]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 1. Ethnicity (Select only one box). Check this box for Not Hispanic or Latino.",
+    "page": 4,
+    "on_value": "/NH"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line2_Race[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 2. Race. Check this box for American Indian or Alaska Native.",
+    "page": 4,
+    "on_value": "/I"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line2_Race[1]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 2. Race. Check this box for Asian.",
+    "page": 4,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line2_Race[2]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 2. Race. Check this box for Black or African American.",
+    "page": 4,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line2_Race[3]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 2. Race. Check this box for Native Hawaiian or Other Pacific Islander.",
+    "page": 4,
+    "on_value": "/O"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt2Line2_Race[4]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 2. Race. (Select all applicable boxes). Check this box for White.",
+    "page": 4,
+    "on_value": "/W"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line3_HeightFeet[0]",
+    "type": "choice",
+    "label": "Part 2. Biographic Information. 3. Height. Select the number of Feet from the list of Feet.",
+    "page": 4,
+    "options": [
+      " ",
+      "N/A",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line3_HeightInches[0]",
+    "type": "choice",
+    "label": "Part 2. Biographic Information. 3. Height. Select the number of Inches from the list of Inches.",
+    "page": 4,
+    "options": [
+      " ",
+      "N/A",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line4_Pounds1[0]",
+    "type": "text",
+    "label": "Part 2. Biographic Information. 4. Weight. Pounds. Enter first digit of weight in pounds.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line4_Pounds2[0]",
+    "type": "text",
+    "label": "Part 2. Biographic Information. 4. Weight. Pounds. Enter second digit of weight in pounds.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line4_Pounds3[0]",
+    "type": "text",
+    "label": "Part 2. Biographic Information. 4. Weight. Pounds. Enter third digit of weight in pounds.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].PtLine5_EyeColor[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color. Check this box for Blue.",
+    "page": 4,
+    "on_value": "/BLU"
+  },
+  {
+    "name": "form1[0].#subform[5].PtLine5_EyeColor[1]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color. Check this box for Brown.",
+    "page": 4,
+    "on_value": "/BRO"
+  },
+  {
+    "name": "form1[0].#subform[5].PtLine5_EyeColor[2]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color. Check this box for Gray.",
+    "page": 4,
+    "on_value": "/GRA"
+  },
+  {
+    "name": "form1[0].#subform[5].PtLine5_EyeColor[3]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color. Check this box for Green.",
+    "page": 4,
+    "on_value": "/GRE"
+  },
+  {
+    "name": "form1[0].#subform[5].PtLine5_EyeColor[4]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color. Check this box for Hazel.",
+    "page": 4,
+    "on_value": "/HAZ"
+  },
+  {
+    "name": "form1[0].#subform[5].PtLine5_EyeColor[5]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color. Check this box for Maroon.",
+    "page": 4,
+    "on_value": "/MAR"
+  },
+  {
+    "name": "form1[0].#subform[5].PtLine5_EyeColor[6]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color. Check this box for Pink.",
+    "page": 4,
+    "on_value": "/PIN"
+  },
+  {
+    "name": "form1[0].#subform[5].PtLine5_EyeColor[7]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color. Check this box for Unknown / Other.",
+    "page": 4,
+    "on_value": "/UNK"
+  },
+  {
+    "name": "form1[0].#subform[5].PtLine5_EyeColor[8]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color. (Select only one box). Check this box for Black.",
+    "page": 4,
+    "on_value": "/BLA"
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1D_CourtCaseNumber[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. D. Enter Court Case Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1C_LocationofCourtTownorCity[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. C. Enter Town or City of Court.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1C_LocationofCourtState[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. C. Enter State of Court. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1G_Citation[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. G. Enter Citation to Federal, State, or Local Law, as Stated in the Judgment of Conviction. NOTE:  If the conviction is related to more than one citation, provide each separate citation.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1H_Sentence[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. H. Enter Sentence, Probation, or Other Punishment Imposed.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1F_SpecificOffense[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. F. Enter Specific Offense as Stated in the Judgment of Conviction. NOTE:  If the conviction is related to more than one offense, provide the name of each specific offense.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1A_Date[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. The information requested below relates to your criminal convictions for which you are seeking relief under former I N A section 2 12 (c). 1. Conviction 1. A. Date. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1A_NameofCourt[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. B. Enter Name of Court.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line1E_ConvictionEntered[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. E. Conviction Entered. Check this box for After Trial.",
+    "page": 5,
+    "on_value": "/AT"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line1E_ConvictionEntered[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. E. Conviction Entered. Check this box for Based on Guilty or No Contest Plea.",
+    "page": 5,
+    "on_value": "/BG"
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1E_PleaDate[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. E. If you selected \"Based on Guilty or No Contest Plea,\" Enter the date the plea was entered. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1E_PleaDate[1]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. H. Enter Imprisonment Date Served From. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1E_PleaDate[2]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 1. Conviction 1. H. Enter Imprisonment Date Served To. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1D_CourtCaseNumber[1]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. D. Enter Court Case Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1C_LocationofCourtTownorCity[1]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. C. Enter Town or City of Court.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1C_LocationofCourtState[1]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. C. Enter State of Court.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1F_SpecificOffense[1]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. F. Enter Specific Offense as Stated in the Judgment of Conviction. NOTE:  If the conviction is related to more than one offense, provide the name of each specific offense.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1A_Date[1]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. The information requested below relates to your criminal convictions for which you are seeking relief under former I N A section 2 12 (c). 2. Conviction 2. A. Date. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1A_NameofCourt[1]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. B. Enter Name of Court.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2E_ConvictionEntered[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. E. Conviction Entered. Check this box for After Trial.",
+    "page": 5,
+    "on_value": "/AT"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2E_ConvictionEntered[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. E. Conviction Entered. Check this box for Based on Guilty or No Contest Plea.",
+    "page": 5,
+    "on_value": "/BG"
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1E_PleaDate[3]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. E. If you selected \"Based on Guilty or No Contest Plea,\" Enter the date the plea was entered. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line1G_Citation[1]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. G. Enter Citation to Federal, State, or Local Law, as Stated in the Judgment of Conviction. NOTE:  If the conviction is related to more than one citation, provide each separate citation.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1H_Sentence[1]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. H. Enter Sentence, Probation, or Other Punishment Imposed.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1E_PleaDate[4]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. H. Enter Imprisonment Date Served From. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1E_PleaDate[5]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 2. Conviction 2. H. Enter Imprisonment Date Served To. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1D_CourtCaseNumber[2]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. D. Enter Court Case Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1C_LocationofCourtTownorCity[2]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. C. Enter Town or City of Court.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1C_LocationofCourtState[2]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. C. Enter State of Court.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1G_Citation[2]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. G. Enter Citation to Federal, State, or Local Law, as Stated in the Judgment of Conviction. NOTE:  If the conviction is related to more than one citation, provide each separate citation.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1H_Sentence[2]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. H. Enter Sentence, Probation, or Other Punishment Imposed.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1F_SpecificOffense[2]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. F. Enter Specific Offense as Stated in the Judgment of Conviction. NOTE:  If the conviction is related to more than one offense, provide the name of each specific offense.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1A_Date[2]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. The information requested below relates to your criminal convictions for which you are seeking relief under former I N A section 2 12 (c). 3. Conviction 3. A. Date. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1A_NameofCourt[2]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. B. Enter Name of Court.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].Pt3Line3E_ConvictionEntered[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. E. Conviction Entered. Check this box for After Trial.",
+    "page": 6,
+    "on_value": "/AT"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt3Line3E_ConvictionEntered[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. E. Conviction Entered. Check this box for Based on Guilty or No Contest Plea.",
+    "page": 6,
+    "on_value": "/BG"
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line1E_PleaDate[6]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. E. If you selected \"Based on Guilty or No Contest Plea,\" Enter the date the plea was entered. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line3H_PleaDate[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. H. Enter Imprisonment Date Served From. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line3H_PleaDate[1]",
+    "type": "text",
+    "label": "Part 3. Information About Your Criminal Convictions. 3. Conviction 3. H. Enter Imprisonment Date Served To. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line1c_DateResidenceFrom[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. Enter Date Resided From. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line1c_DateResidenceTo[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. Enter Date Resided To. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line1d_DateResidenceFrom[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. Enter Date Resided From. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line1d_DateResidenceTo[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. Enter Date Resided To. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line1b_DateResidenceFrom[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. Enter Date Resided From. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line1b_DateResidenceTo[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. Enter Date Resided To. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line1a_DateResidenceFrom[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. Enter Date Resided From. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address2[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. Provide the following information about where you have lived during the last seven years.  List your most recent residence first and then every residence where you have lived during the last seven years.  You should not have any gaps in time.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information.  2. Physical Address 2. Enter the Street Number and Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address2[0].add2_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. Enter the Street Number and Name.",
+    "page": 7,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address2[0].add2_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. Check this box for Suite.",
+    "page": 7,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address2[0].add2_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. Check this box for Floor.",
+    "page": 7,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address2[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. Enter the Apartment, Suite, or Floor Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address2[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. Enter the City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address2[0].State[0]",
+    "type": "choice",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. For U. S. Address. select the State from the list of States.",
+    "page": 7,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address2[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address2[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. For International Address. Enter the Postal Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address2[0].Province[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. For International Address. Enter the Province.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address2[0].Country[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 2. Physical Address 2. For International Address. Enter the Country.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address3[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. Provide the following information about where you have lived during the last seven years.  List your most recent residence first and then every residence where you have lived during the last seven years.  You should not have any gaps in time.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information.  3. Physical Address 3. Enter the Street Number and Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address3[0].add3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. Check this box for Apartment.",
+    "page": 7,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address3[0].add3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. Check this box for Suite.",
+    "page": 7,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address3[0].add3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. Check this box for Floor.",
+    "page": 7,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address3[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. Enter the Apartment, Suite, or Floor Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address3[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. Enter the City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address3[0].State[0]",
+    "type": "choice",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. For U. S. Address. select the State from the list of States.",
+    "page": 7,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address3[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address3[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. For International Address. Enter the Postal Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address3[0].Province[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. For International Address. Enter the Province.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address3[0].Country[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 3. Physical Address 3. For International Address. Enter the Country.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address4[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. Provide the following information about where you have lived during the last seven years.  List your most recent residence first and then every residence where you have lived during the last seven years.  You should not have any gaps in time.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information.  4. Physical Address 4. Enter the Street Number and Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address4[0].add4_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. Check this box for Apartment.",
+    "page": 7,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address4[0].add4_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. Check this box for Suite.",
+    "page": 7,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address4[0].add4_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. Check this box for Floor.",
+    "page": 7,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address4[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. Enter the Apartment, Suite, or Floor Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address4[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. Enter the City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address4[0].State[0]",
+    "type": "choice",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. For U. S. Address. select the State from the list of States.",
+    "page": 7,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address4[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address4[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. For International Address. Enter the Postal Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address4[0].Province[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. For International Address. Enter the Province.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address4[0].Country[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 4. Physical Address 4. For International Address. Enter the Country.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address1[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. Provide the following information about where you have lived during the last seven years.  List your most recent residence first and then every residence where you have lived during the last seven years.  You should not have any gaps in time.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information.  1. Physical Address 1. Enter the Street Number and Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address1[0].add1_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. Check this box for Apartment.",
+    "page": 7,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address1[0].add1_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. Check this box for Suite.",
+    "page": 7,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address1[0].add1_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. Check this box for Floor.",
+    "page": 7,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address1[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. Enter the Apartment, Suite, or Floor Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address1[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. Enter the City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address1[0].State[0]",
+    "type": "choice",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. For U. S. Address. select the State from the list of States.",
+    "page": 7,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address1[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address1[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. For International Address. Enter the Postal Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address1[0].Province[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. For International Address. Enter the Province.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].prt4\\.address1[0].Country[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. For International Address. Enter the Country.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line1a_DateResidenceFrom[1]",
+    "type": "text",
+    "label": "Part 4. Information About Your Residences. 1. Physical Address 1. Enter Date Resided To. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[13].Pt3Line4a_EmpDateFrom[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. Enter Date Employed From. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].Pt3Line4a_Occupation[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. Enter Your Occupation.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].Pt3Line4a_Occupation[1]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. Provide the following information about where you have worked full-time or part-time during the last seven years.  List your most recent employer first and then list every other employer where you worked at any time during the last seven years.  If you were unemployed, type or print \u201cUnemployed\u201d in the \u201cName of Employer\u201d field and provide applicable information.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information. 1. Employer 1. Enter the Name of Employer.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].P3_Line3a_DateResidenceTo[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. Enter Date Employed To. This field defaults to a value of Present. This field is not fillable.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].Pt3Line4a_EmpDateFrom[1]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. Enter Date Employed From. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].Pt3Line4a_Occupation[2]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. Enter Your Occupation.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].P3_Line3a_DateResidenceTo[1]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. Enter Date Employed To. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].Pt3Line4a_Occupation[3]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. Provide the following information about where you have worked full-time or part-time during the last seven years.  List your most recent employer first and then list every other employer where you worked at any time during the last seven years.  If you were unemployed, type or print \u201cUnemployed\u201d in the \u201cName of Employer\u201d field and provide applicable information.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information. 2. Employer 2. Enter the Name of Employer.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp1[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. Enter the Street Number and Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp1[0].emp1_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. Check this box for Suite.",
+    "page": 8,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp1[0].emp1_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. Check this box for Apartment.",
+    "page": 8,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp1[0].emp1_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. Check this box for Floor.",
+    "page": 8,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp1[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. Enter the Apartment, Suite, or Floor Number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp1[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. Enter the City or Town.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp1[0].State[0]",
+    "type": "choice",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. For U. S. Address. select the State from the list of States.",
+    "page": 8,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp1[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp1[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. For International Address. Enter the Postal Code.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp1[0].Province[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. For International Address. Enter the Province.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp1[0].Country[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 1. Employer 1. For International Address. Enter the Country.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp2[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. Enter the Street Number and Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp2[0].emp2_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. Check this box for Apartment.",
+    "page": 8,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp2[0].emp2_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. Check this box for Suite.",
+    "page": 8,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp2[0].emp2_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. Check this box for Floor.",
+    "page": 8,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp2[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. Enter the Apartment, Suite, or Floor Number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp2[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. Enter the City or Town.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp2[0].State[0]",
+    "type": "choice",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. For U. S. Address. select the State from the list of States.",
+    "page": 8,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp2[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp2[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. For International Address. Enter the Postal Code.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp2[0].Province[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. For International Address. Enter the Province.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[13].prt5\\.emp2[0].Country[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 2. Employer 2. For International Address. Enter the Country.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[16].Pt3Line4a_EmpDateFrom[2]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. Enter Date Employed From. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].Pt3Line4a_Occupation[4]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. Enter Your Occupation.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].P3_Line3a_DateResidenceTo[2]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. Enter Date Employed To. Enter Date Employed From. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].Pt3Line4a_Occupation[5]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. Provide the following information about where you have worked full-time or part-time during the last seven years.  List your most recent employer first and then list every other employer where you worked at any time during the last seven years.  If you were unemployed, type or print \u201cUnemployed\u201d in the \u201cName of Employer\u201d field and provide applicable information.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information. 3. Employer 3. Enter the Name of Employer.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp3[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. Enter the Street Number and Name.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp3[0].emp3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. Check this box for Suite.",
+    "page": 9,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp3[0].emp3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. Check this box for Apartment.",
+    "page": 9,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp3[0].emp3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. Check this box for Floor.",
+    "page": 9,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp3[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. Enter the Apartment, Suite, or Floor Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp3[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. Enter the City or Town.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp3[0].State[0]",
+    "type": "choice",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. For U. S. Address. select the State from the list of States.",
+    "page": 9,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp3[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp3[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. For International Address. Enter the Postal Code.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp3[0].Province[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. For International Address. Enter the Province.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp3[0].Country[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 3. Employer 3. For International Address. Enter the Country.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp4[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. Enter the Street Number and Name.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp4[0].emp4_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. Check this box for Suite.",
+    "page": 9,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp4[0].emp4_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. Check this box for Apartment.",
+    "page": 9,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp4[0].emp4_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. Check this box for Floor.",
+    "page": 9,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp4[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. Enter the Apartment, Suite, or Floor Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp4[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. Enter the City or Town.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp4[0].State[0]",
+    "type": "choice",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. For U. S. Address. select the State from the list of States.",
+    "page": 9,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp4[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp4[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. For International Address. Enter the Postal Code.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp4[0].Province[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. For International Address. Enter the Province.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].prt5\\.emp4[0].Country[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. For International Address. Enter the Country.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].Pt3Line4a_EmpDateFrom[3]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. Enter Date Employed From. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].Pt3Line4a_Occupation[6]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. Enter Your Occupation.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].P3_Line3a_DateResidenceTo[3]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. 4. Employer 4. Enter Date Employed To. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].Pt3Line4a_Occupation[7]",
+    "type": "text",
+    "label": "Part 5. Information About Your Employment. Provide the following information about where you have worked full-time or part-time during the last seven years.  List your most recent employer first and then list every other employer where you worked at any time during the last seven years.  If you were unemployed, type or print \u201cUnemployed\u201d in the \u201cName of Employer\u201d field and provide applicable information.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information. 4. Employer 4. Enter the Name of Employer.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].Pt1Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. 1.  Spouse's Information. Enter Middle Name.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].Pt1Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. 1.  Spouse's Information.  Enter Given Name (First Name).",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].Pt1Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Provide the following information about your spouse, all children, and your parents.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information. 1. Spouse's Information. Enter Family Name (Last Name).",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].#area[0].P6_Line2_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 2. Enter Alien Registration Number (A Number).",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].#area[1].P6_Line3_USCISonlineNum[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's  Information. 3. Enter U S C I S Online Account Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].Pt6Line4_Male[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 4. Spouse's Sex. Check this box for Male.",
+    "page": 9,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[16].Pt6Line4_Female[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 4. Spouse's Sex. Check this box for Female.",
+    "page": 9,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[16].Pt6Line5_CurrentSpouseBirthdate[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 5. Enter Date of Birth. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[16].Pt6Line5_CityOrTownOfBirth[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 6. Enter Country of Birth.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.spouse[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 8. Spouse's Physical Address. Enter the Street Number and Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.spouse[0].spouse_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 8. Spouse's Physical Address. Check this box for Suite.",
+    "page": 10,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.spouse[0].spouse_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 8. Spouse's Physical Address. Check this box for Apartment.",
+    "page": 10,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.spouse[0].spouse_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 8. Spouse's Physical Address. Check this box for Floor.",
+    "page": 10,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.spouse[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's  Information. 8. Spouse's Physical Address. Enter the Apartment, Suite, or Floor Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.spouse[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 8. Spouse's Physical Address. Enter the City or Town.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.spouse[0].State[0]",
+    "type": "choice",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 8. Spouse's Physical Address. For U. S. Address. select the State from the list of States.",
+    "page": 10,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.spouse[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 8. Spouse's Physical Address. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.spouse[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 8. Spouse's Physical Address. For International Address. Enter the Postal Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.spouse[0].Province[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 8. Spouse's Physical Address. For International Address. Enter the Province.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.spouse[0].Country[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 8. Spouse's Physical Address. For International Address. Enter the Country.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.child1[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. Enter the Street Number and Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.child1[0].child1_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. Check this box for Suite.",
+    "page": 10,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.child1[0].child1_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. Check this box for Apartment.",
+    "page": 10,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.child1[0].child1_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. Check this box for Floor.",
+    "page": 10,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.child1[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. Enter the Apartment, Suite, or Floor Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.child1[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. Enter the City or Town.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.child1[0].State[0]",
+    "type": "choice",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. For U. S. Address. select the State from the list of States.",
+    "page": 10,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.child1[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.child1[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. For International Address. Enter the Postal Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.child1[0].Province[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. For International Address. Enter the Province.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].prt6\\.child1[0].Country[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. For International Address. Enter the Country.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].Pt6Line7_CountryOfCitizenship[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 7. Enter Country of Citizenship or Nationality.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].P6_Line8_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Spouse's Information. 8. Spouse's Physical Address. Check this box for Address is same as Applicant's Physical Address.",
+    "page": 10,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[19].Pt1Line7_CountryOfCitizenship[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 15. Enter Country of Citizenship or Nationality.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].Part6Line2a1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 9. Current Legal Name of Child 1. Enter Middle Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].Part6Line2a1_GivenName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 9. Current Legal Name of Child 1. Enter Given Name (First Name).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].Part6Line2a1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 9. Current Legal Name of Child 1. Enter Family Name (Last Name).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].Pt5Line4b_CurrentSpouseBirthdate[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 13. Enter Date of Birth. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].Pt1Line5_CityOrTownOfBirth[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 14. Enter Country of Birth.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].#area[2].P6_Line10_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 10. Enter Alien Registration Number (A Number).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].#area[3].Pt6Line11_USCISNum[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 11. Enter U S C I S Online Account Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].Pt6Line12_Male[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 12. Child's Sex. Check this box for Male.",
+    "page": 10,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[19].Pt6Line12_Female[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family.  Information for Child 1. 12. Child's Sex. Check this box for Female.",
+    "page": 10,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[19].P6_Line16_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 1. 16. Physical Address of Child 1. Check this box for Address is same as Applicant's Physical Address.",
+    "page": 10,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[19].Part6Line17_MiddleName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 17. Current Legal Name of Child 2. Enter Middle Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].Part6Line17_GivenName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 17. Current Legal Name of Child 2. Enter Given Name (First Name).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].Part6Line17_FamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 17. Current Legal Name of Child 2. Enter Family Name (Last Name).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].#area[4].P6_Line18_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 18. Enter Alien Registration Number (A Number). ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].#area[5].Pt6Line19[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 19. Enter U S C I S Online Account Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].Pt2Line5_Male[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 20. Child's Sex. Check this box for Male. ",
+    "page": 10,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[19].Pt2Line5_Female[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 20. Child's Sex. Check this box for Female.",
+    "page": 10,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[19].Pt5Line4b_CurrentSpouseBirthdate[1]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 21. Enter Child's Date of Birth. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[19].Pt1Line5_CityOrTownOfBirth[1]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 22. Enter Country of Birth.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[22].Pt1Line7_CountryOfCitizenship[1]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 23. Enter Country of Citizenship or Nationality.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].P6_Line24_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 24. Physical Address of Child 2. Check this box for Address is same as Applicant's Physical Address.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child2[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 24. Physical Address of Child 2. Enter the Street Number and Name.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child2[0].child2_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 24. Physical Address of Child 2. Check this box for Suite.",
+    "page": 11,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child2[0].child2_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 24. Physical Address of Child 2. Check this box for Apartment.",
+    "page": 11,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child2[0].child2_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 24. Physical Address of Child 2. Check this box for Floor.",
+    "page": 11,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child2[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 24. Physical Address of Child 2. Enter the Apartment, Suite, or Floor Number.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child2[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 24. Physical Address of Child 2. Enter the City or Town.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child2[0].State[0]",
+    "type": "choice",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 24. Physical Address of Child 2. For U. S. Address. select the State from the list of States.",
+    "page": 11,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child2[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 24. Physical Address of Child 2. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child2[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 24. Physical Address of Child 2. For International Address. Enter the Postal Code.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child2[0].Province[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 2. 24. Physical Address of Child 2. For International Address. Enter the Province.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child2[0].Country[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family.Information for Child 2. 24. Physical Address of Child 2. For International Address. Enter the Country.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child3[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 32. Physical Address of Child 3. Enter the Street Number and Name.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child3[0].child3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 32. Physical Address of Child 3. Check this box for Suite.",
+    "page": 11,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child3[0].child3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 32. Physical Address of Child 3. Check this box for Apartment.",
+    "page": 11,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child3[0].child3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 32. Physical Address of Child 3. Check this box for Floor.",
+    "page": 11,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child3[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 32. Physical Address of Child 3. Enter the Apartment, Suite, or Floor Number.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child3[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 32. Physical Address of Child 3. Enter the City or Town.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child3[0].State[0]",
+    "type": "choice",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 32. Physical Address of Child 3. For U. S. Address. select the State from the list of States.",
+    "page": 11,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child3[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 32. Physical Address of Child 3. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child3[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 32. Physical Address of Child 3. For International Address. Enter the Postal Code.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child3[0].Province[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 32. Physical Address of Child 3. For International Address. Enter the Province.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].prt6\\.child3[0].Country[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family.  Information for Child 3. 32. Physical Address of Child 3. For International Address. Enter the Country.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].Part6Line25_MiddleName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 25. Current Legal Name of Child 3. Enter Middle Name.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].Part6Line25_GivenName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 25. Current Legal Name of Child 3. Enter Given Name (First Name).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].Part6Line25_FamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 25. Current Legal Name of Child 3. Enter Family Name (Last Name).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].#area[6].P6_Line26_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 26. Enter Alien Registration Number (A Number).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].#area[7].Pt6Line27[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 27. Enter U S C I S Online Account Number.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].Pt6Line28_Male[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 28. Child's Sex. Check this box for Male.",
+    "page": 11,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[22].Pt6Line28_Female[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 28. Child's Sex. Check this box for Female.",
+    "page": 11,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[22].Pt6Line29_CurrentChildBirthdate[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 29. Enter Date of Birth. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].Pt6Line30_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 30. Enter Country of Birth.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].Pt6Line31_CountryOfCitizenship[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 31. Enter Country of Citizenship or Nationality.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].P6_Line32_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 3. 32. Physical Address of Child 3. Check this box for Address is same as Applicant's Physical Address.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[22].PartLine2a1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 33. Current Legal Name of Child 4. Enter Middle Name.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].Part10Line2a1_GivenName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 33. Current Legal Name of Child 4. Enter Given Name (First Name).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].Part10Line2a1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family.  Information for Child 4. 33. Current Legal Name of Child 4. Enter Family Name (Last Name).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].#area[8].P2_Line5_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 34. Enter Alien Registration Number (A Number).",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].#area[9].Pt2Line7[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 35. Enter U S C I S Online Account Number.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].Pt6Line36_Male[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 36. Child's Sex. Check this box for Male.",
+    "page": 11,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[22].Pt6Line36_Female[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 36. Child's Sex. Check this box for Female.",
+    "page": 11,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[22].Pt6Line37_CurrentChildBirthdate[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 37. Enter Date of Birth. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[22].Pt6Line38_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 38. Enter Country of Birth.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line39_CountryOfCitizenship[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 39. Enter Country of Citizenship or Nationality.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].P6_Line40_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. Check this box for Address is same as Applicant's Physical Address.",
+    "page": 12,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.child4[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. Enter the Street Number and Name.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.child4[0].child4_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. Check this box for Suite.",
+    "page": 12,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.child4[0].child4_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. Check this box for Apartment.",
+    "page": 12,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.child4[0].child4_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. Check this box for Floor.",
+    "page": 12,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.child4[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. Enter the Apartment, Suite, or Floor Number.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.child4[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. Enter the City or Town.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.child4[0].State[0]",
+    "type": "choice",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. For U. S. Address. select the State from the list of States.",
+    "page": 12,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.child4[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.child4[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. For International Address. Enter the Postal Code.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.child4[0].Province[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. For International Address. Enter the Province.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.child4[0].Country[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information for Child 4. 40. Physical Address of Child 4. For International Address. Enter the Country.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.parent1[0].Pt6LineC_Parent1StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  48. Physical Address of Parent 1. Enter the Street Number and Name.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.parent1[0].prt6\\.parent1_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  48. Physical Address of Parent 1. Check this box for Suite.",
+    "page": 12,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.parent1[0].prt6\\.parent1_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  48. Physical Address of Parent 1. Check this box for Apartment.",
+    "page": 12,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.parent1[0].prt6\\.parent1_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1. . 48. Physical Address of Parent 1. Check this box for Floor.",
+    "page": 12,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.parent1[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  48. Physical Address of Parent 1. Enter the Apartment, Suite, or Floor Number.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.parent1[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  48. Physical Address of Parent 1. Enter the City or Town.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.parent1[0].State[0]",
+    "type": "choice",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  48. Physical Address of Parent 1. For U. S. Address. select the State from the list of States.",
+    "page": 12,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.parent1[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  48. Physical Address of Parent 1. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.parent1[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  48. Physical Address of Parent 1. For International Address. Enter the Postal Code.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.parent1[0].Province[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  48. Physical Address of Parent 1. For International Address. Enter the Province.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].prt6\\.parent1[0].Country[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  48. Physical Address of Parent 1. For International Address. Enter the Country.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line41_Parent1MiddleName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1. 41. Current Legal Name of Parent 1. Enter Middle Name.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line41_Parent1GivenName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  41. Current Legal Name of Parent 1. Enter Given Name (First Name).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line41_Parent1FamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  41. Current Legal Name of Parent 1. Enter Family Name (Last Name).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].#area[10].P6_Line42_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1. 42. Enter Alien Registration Number (A Number).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].#area[11].Pt6Line43[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  43. Enter U S C I S Online Account Number.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line45_CurrentParentBirthdate[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  45. Enter Date of Birth. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line46_Parent1CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  46. Enter Country of Birth.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line47_Parent1CountryOfCitizenshipOrNatz[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  47. Enter Country of Citizenship or Nationality.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].P6_Line48_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  48. Physical Address of Parent 1. Check this box for Address is same as Applicant's Physical Address.",
+    "page": 12,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line49_Parent2MiddleName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. Information About your Parents. 49. Current Legal Name of Parent 1. Enter Middle Name.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line49_Parent2GivenName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. Information About your Parents. 49. Current Legal Name of Parent 1. Enter Given Name (First Name).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line49_Parent2FamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. Information About your Parents. 49. Current Legal Name of Parent 1. Enter Family Name (Last Name).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].#area[12].P6_Line50_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 50. Enter Alien Registration Number (A Number).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].#area[13].Pt6Line51[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 51. Enter U S C I S Online Account Number.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line44_Male[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  44. Enter Parent's  Sex. Check this box for Male.",
+    "page": 12,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line44_Female[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About your Parents. Information for Parent 1.  44. Enter Parent's Sex. Check this box for Female.",
+    "page": 12,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line52_Male[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 52. Enter Parent's Sex. Check this box for Male.",
+    "page": 12,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[25].Pt6Line52_Female[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 52. Enter Parent's Sex. Check this box for Female.",
+    "page": 12,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[28].Pt6Line54_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 54. Enter Country of Birth.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[28].Pt6Line55_CountryOfCitizenship[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 55. Enter Country of Citizenship or Nationality.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[28].Pt6Line53_Parent2Birthdate[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 53. Enter Date of Birth. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[28].P6_Line56_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. Check this box for Address is same as Applicant's Physical Address.",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[28].pt6\\.Parent2[0].StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. Enter the Street Number and Name.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[28].pt6\\.Parent2[0].pt6\\.Parent2Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. Check this box for Suite.",
+    "page": 13,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[28].pt6\\.Parent2[0].pt6\\.Parent2Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. Check this box for Apartment.",
+    "page": 13,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[28].pt6\\.Parent2[0].pt6\\.Parent2Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. Check this box for Floor.",
+    "page": 13,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[28].pt6\\.Parent2[0].AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. Enter the Apartment, Suite, or Floor Number.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[28].pt6\\.Parent2[0].CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. Enter the City or Town.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[28].pt6\\.Parent2[0].State[0]",
+    "type": "choice",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. For U. S. Address. select the State from the list of States.",
+    "page": 13,
+    "options": [
+      "",
+      "N/A",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[28].pt6\\.Parent2[0].ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. For U. S. Address. Enter the 5 digit Zip Code.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[28].pt6\\.Parent2[0].PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. For International Address. Enter the Postal Code.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[28].pt6\\.Parent2[0].Province[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. For International Address. Enter the Province.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[28].pt6\\.Parent2[0].Country[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Family. Information About Your Parents. Information for Parent 2. 56. Physical Address of Parent 2. For International Address. Enter the Country.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[28].Pt7Line1_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7.  Other Grounds for Removal. NOTE:  If you need extra space to complete this section, use the space provided in Part 12. Additional Information. 1. Enter an explanation in the space provided why you may be subject to removal on any grounds besides the criminal convictions listed in Part 3. Information About Your Criminal Convictions.  The other grounds of removal may include any inadmissibility grounds in I N A section 2 12 (a) or any deportability grounds in I N A section 2 37(a).",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[28].Pt7Line2_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7.  Other Grounds for Removal. 2. In addition to the criminal convictions listed in Part 3., list and provide a full explanation of any other time you committed, or were accused of committing, a criminal offense inside or outside of the United States, as well as any other time you were arrested, cited, detained, charged, investigated, received deferred adjudication of guilt, withholding of adjudication of guilt, or pretrial diversion, or plead guilty to or were convicted of a criminal offense inside or outside of the United States. NOTE:  If you were ever arrested, detained, or investigated by any law enforcement officer for any reason, and no charges were filed, include an original official statement by the arresting or detaining agency or applicable court order confirming that no charges were filed.  If you were ever arrested, detained, or investigated by any law enforcement officer for any reason and charges were filed, or if charges were filed against you without an arrest, submit an original or court-certified copy of the complete arrest record and/or disposition for each incident (for example, a dismissal order or an acquittal order).",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[30].Pt8Line1_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 8. Discretion. 1. In the space provided below, explain why U.S. Citizenship and Immigration Services (USCIS) or the immigration judge should approve your Form I- 1 91 as a matter of discretion, with the favorable factors outweighing the unfavorable factors in your case.  For more information on discretion, see the Form I- 1 91 Instructions.  If you need extra space to complete your statement, use the space provided in Part 12. Additional Information. NOTE:  You may provide your explanation on a separate sheet of paper.  If you use a separate sheet, select the box below and include that sheet with your Form I- 1 91.  You must submit your explanation at the same time as your Form I- 1 91.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[30].P8_Line2_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 8. Discretion. 2. Check this box for I provided my explanation on a separate sheet and included that sheet with this Form I- 1 91.",
+    "page": 14,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[30].Pt3Line6_Email[0]",
+    "type": "text",
+    "label": "Part 9.  Applicant's Contact Information, Certification, and Signature . Applicant's Contact Information. 3. Enter Applicant's Email Address, if any.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[30].Pt3Line4_DaytimeTelephoneNumber3[0]",
+    "type": "text",
+    "label": "Part 9.  Applicant's Contact Information, Certification, and Signature . Applicant's Contact Information. 1. Enter Applicant's Daytime Telephone Number. ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[30].Pt3Line5_MobileTelephoneNumber3[0]",
+    "type": "text",
+    "label": "Part 9.  Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 2. Enter Applicant's Mobile Telephone Number, if any.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[30].P5_Line6a_SignatureofApplicant[0]",
+    "type": "text",
+    "label": "Part 9.  Applicant's Contact Information, Certification, and Signature .   Applicant's Certification and Signature.  I certify, under penalty of perjury, that I provided or authorized all of the responses and information contained in and submitted with my application, I read and understand or, if interpreted to me in a language in which I am fluent by the interpreter listed in Part 10., understood, all of the responses and information contained in, and submitted with, my application, and that all of the responses and the information are complete, true, and correct.  Furthermore, I authorize the release of any information from any and all of my records that USCIS may need to determine my eligibility for an immigration request and to other entities and persons where necessary for the administration and enforcement of U.S. immigration law.   4. Enter Applicant's Signature. This field cannot be signed electronically.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[30].P5Line1_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 9.  Applicant's Contact Information, Certification, and Signature . Applicant's Certification and Signature. 4. Applicant's Signature. Enter the Date of Signature. Enter date as 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[31].Pt10Line1_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 10.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt10Line1_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 10.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt10Line2_NameofBusinessorOrgName[0]",
+    "type": "text",
+    "label": "Part 10.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Business or Organization Name, if any.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt10Line5_InterpreterEmailAddress[0]",
+    "type": "text",
+    "label": "Part 10.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Email Address, if any.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt10Line4_InterpreterEmailAddress[0]",
+    "type": "text",
+    "label": "Part 10.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Mobile Telephone Number, if any.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt10Line3_InterpreterDaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 10.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt4Line6a_NameOfLanguage[0]",
+    "type": "text",
+    "label": "Part 10.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. I certify, under penalty of perjury, that I am fluent in English and I have interpreted every question on the application and Instructions and interpreted the applicant's answers to the questions in that language, and the applicant informed me that he or she understood every instruction, question, and answer on the application. Enter the language specified.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt10Line6_InterpreterSignature[0]",
+    "type": "text",
+    "label": "Part 10.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. 6. Interpreter's Signature. Print and enter the Interpreter's Signature. This field cannot be signed electronically.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt10Line6_InterpreterDateofSignature[0]",
+    "type": "text",
+    "label": "Part 10.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. 6. Interpreter's Signature. Enter the Date of Signature. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt11Line1_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 11.  Contact Information, Declaration, and Signature of the Person Preparing This Application, if Other Than the Applicant. Preparer's Full Name. 1. Enter Preparer's Given Name (First Name).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt11Line1_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 11.  Contact Information, Declaration, and Signature of the Person Preparing This Application, if Other Than the Applicant. Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt11Line2_NameofBusinessorOrgName[0]",
+    "type": "text",
+    "label": "Part 11.  Contact Information, Declaration, and Signature of the Person Preparing This Application, if Other Than the Applicant. Preparer's Full Name. 2. Enter Preparer's Business or Organization Name.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt11Line5_PrepEmailAddress[0]",
+    "type": "text",
+    "label": "Part 11.  Contact Information, Declaration, and Signature of the Person Preparing This Application, if Other Than the Applicant. Preparer's Contact Information. 5. Enter Preparer's Email Address.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt11Line3_PrepDaytimeTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing This Application, if Other Than the Applicant. Preparer's Contact Information. 3. Enter Preparer's Daytime Telephone Number.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[31].Pt11Line4_PrepMobileTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 11.  Contact Information, Declaration, and Signature of the Person Preparing This Application, if Other Than the Applicant. Preparer's Contact Information. 4. Enter Preparer's Mobile Telephone Number.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[32].Pt11Line6_Signature[0]",
+    "type": "text",
+    "label": "Part 11.  Contact Information, Declaration, and Signature of the Person Preparing This Application, if Other Than the Applicant. Preparer's Certification and Signature. I certify, under penalty of perjury, that I prepared this application for the applicant at their request and with express consent and that all of the responses and information contained in and submitted with the application are complete, true, and correct and reflects only information provided by the applicant.  The applicant reviewed the responses and information and informed me that they understand the responses and information in or submitted with the application. 6. Preparer's Signature. Print and enter the Preparer's Signature. This field cannot be signed electronically.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[32].Pt11Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 11.  Contact Information, Declaration, and Signature of the Person Preparing This Application, if Other Than the Applicant. Preparer's Certification and Signature. I certify, under penalty of perjury, that I prepared this application for the applicant at their request and with express consent and that all of the responses and information contained in and submitted with the application are complete, true, and correct and reflects only information provided by the applicant.  The applicant reviewed the responses and information and informed me that they understand the responses and information in or submitted with the application. 6. Preparer's Signature. Enter the Date of Signature. Enter date as 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 5. D. Enter the Additional Information.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt12Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 3. A. Enter Page Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt12Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 3. B. Enter Part Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt12Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 3. C. Enter Item Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt12Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 3. D. Enter the Additional Information.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 6. A. Enter Page Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 6. B. Enter Part Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 6. C. Enter Item Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4d_AdditionalInfo[1]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 6. D. Enter the Additional Information.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4c_ItemNumber[1]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 5. C. Enter Item Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4b_PartNumber[1]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 5. B. Enter Part Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4a_PageNumber[1]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 5. A. Enter Page Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].PtLine4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 4. A. Enter Page Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4b_PartNumber[2]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 4. B. Enter Part Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4c_ItemNumber[2]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 4. C. Enter Item Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4d_AdditionalInfo[2]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 4. D. Enter the Additional Information.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].P1_Line1_FamilyName[1]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Type or print your name and A-Number at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. Enter Family Name (Last Name). This field is not fillable electronically. NOTE TO ALL APPLICANTS:  Do not complete Part 13.  USCIS will complete this section.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].P1_Line1_GivenName[1]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 1. Enter Given Name (First Name). This field is not fillable electronically.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].P1_Line1_MiddleName[1]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 1. Enter Middle Name. This field is not fillable electronically.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].P1_Line7_AlienNumber[1]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 2. Enter 9 digit Alien Registration Number (A Number). This field is not fillable electronically.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4a_PageNumber[2]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 7. A. Enter Page Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4b_PartNumber[3]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 7. B. Enter Part Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4c_ItemNumber[3]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 7. C. Enter Item Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[33].Pt7Line4d_AdditionalInfo[3]",
+    "type": "text",
+    "label": "Part 12.  Additional Information. 7. D. Enter the Additional Information.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[34].Pt13Line3_DateofAction[0]",
+    "type": "text",
+    "label": "Part 13. USCIS Decision (For Official Use Only). 3. Date of Action. Enter the 2 digit month, 2 digit day and 4 digit year.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[34].USCISDecision[0]",
+    "type": "text",
+    "label": "Part 13. USCIS Decision (For Official Use Only). 2. Enter Terms and Conditions.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[34].P13_Line1_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 13. USCIS Decision (For Official Use Only). 1. This application is: Check this box for Granted.",
+    "page": 18,
+    "on_value": "/G"
+  },
+  {
+    "name": "form1[0].#subform[34].P13_Line1_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 13. USCIS Decision (For Official Use Only). 1. This application is: Check this box for Denied.",
+    "page": 18,
+    "on_value": "/D"
+  }
+]

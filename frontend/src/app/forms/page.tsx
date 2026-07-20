@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import {
   type Case,
   type FormRequirements,
@@ -26,7 +26,20 @@ const inputClass =
   "w-full rounded-lg border border-zinc-300 bg-white p-2 text-sm outline-none transition focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50 dark:focus:ring-indigo-950";
 
 export default function FormsPage() {
+  // useSearchParams needs a Suspense boundary above it (Next.js bails the
+  // whole page to client-only rendering otherwise) -- the actual page body
+  // lives in FormsPageContent so that requirement doesn't leak into it.
+  return (
+    <Suspense fallback={null}>
+      <FormsPageContent />
+    </Suspense>
+  );
+}
+
+function FormsPageContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const preselectedCaseId = searchParams.get("case_id");
   const { t } = useTranslation();
   const [cases, setCases] = useState<Case[]>([]);
   const [templates, setTemplates] = useState<FormTemplate[]>([]);
@@ -43,7 +56,15 @@ export default function FormsPage() {
       .then(([caseList, templateList]) => {
         setCases(caseList);
         setTemplates(templateList);
-        if (caseList.length > 0) setSelectedCaseId(caseList[0].id);
+        // A case link from the case detail page ("Generar formulario →")
+        // arrives with ?case_id=... -- prefer that over just defaulting to
+        // the first case in the list, so the attorney doesn't have to
+        // re-find the case they were already looking at.
+        if (preselectedCaseId && caseList.some((c) => c.id === preselectedCaseId)) {
+          setSelectedCaseId(preselectedCaseId);
+        } else if (caseList.length > 0) {
+          setSelectedCaseId(caseList[0].id);
+        }
         if (templateList.length > 0) setSelectedFormCode(templateList[0].code);
       })
       .catch(() => setError(t("forms.error.connect")));

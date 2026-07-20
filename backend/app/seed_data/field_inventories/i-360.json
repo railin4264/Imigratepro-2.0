@@ -1,0 +1,3828 @@
+[
+  {
+    "name": "form1[0].#subform[0].Pt1Line2_OnlineAcctNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 2. Enter U S C I S Online Account Number, if any. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 1. Your Full Name. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 1. Your Full Name. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. NOTE: You must complete Part 1. as the petitioner if you are filing this petition on behalf of another person. If you are a Violence Against Women Act (V. A. W. A.) self-petitioner or special immigrant juvenile, skip to Part 1., Item Number 7. 1. Your Full Name. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_InCareofName[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Enter In Care Of Name, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_OrganizationName[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 6. Mailing Address. Enter Organization Name, if applicable.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[1].Pt1Line3_SSN[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 3. Enter U.S. Social Security Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[2].Pt1Line4_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 4. Enter Alien Registration Number (A. Number), if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "To be completed by an Attorney or Accredited Representative (if any). Select this box if Form G-28 or G-28 I is attached.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].AttorneyStateBarNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative (if any). Enter Attorney State Bar Number (if applicable).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line5_IRSTaxNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 5. Enter Individual Internal Revenue Service (I R S) Tax Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].USCISOnlineAcctNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative (if any). Enter Attorney or Accredited Representative U S C I S Online Account Number (if any).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_InCareofName[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. If you are a V. A. W. A. self-petitioning spouse, child, parent, or a special immigrant juvenile and do not want U.S. Citizenship and Immigration Services (U S C I S) to send notices about this petition to your home, you may provide an alternate and / or safe mailing address. Enter In Care Of Name (if any). ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. Enter Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line7_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About Person or Organization Filing This Petition. 7.  Alternate and / or Safe Mailing Address. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[0]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. A. Select Amerasian.",
+    "page": 2,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[1]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. B. Select Widow(er) of a U.S. citizen. ",
+    "page": 2,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[2]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. C. Select Special Immigrant Juvenile.",
+    "page": 2,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[3]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. D. Select Special Immigrant Religious Worker. ",
+    "page": 2,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[4]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. E. Select Special Immigrant based on employment with the Panama Canal Company, Canal Zone Government, or U.S. Government in the Canal Zone.",
+    "page": 2,
+    "on_value": "/E"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[5]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. H. Select Special Immigrant Armed Forces Member.",
+    "page": 2,
+    "on_value": "/H"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[6]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. F. Select Special Immigrant Physician.",
+    "page": 2,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[7]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. I. Select Self-Petitioning Spouse of Abusive U.S. citizen or Lawful Permanent Resident.",
+    "page": 2,
+    "on_value": "/I"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[8]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. G. Select Special Immigrant G-4 International Organization Employee or Family Member or NATO-6 Employee or Family Member.",
+    "page": 2,
+    "on_value": "/G"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[9]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. L. Select Special Immigrant Afghanistan or Iraq National who worked with the U.S. Armed Forces as a translator.",
+    "page": 2,
+    "on_value": "/L"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[10]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. K. Select V. A. W. A. Self-Petitioning Parent of a U.S. citizen son or daughter.",
+    "page": 2,
+    "on_value": "/K"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[11]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. J. Select Self-Petitioning Child of Abusive U.S. citizen or Lawful Permanent Resident.",
+    "page": 2,
+    "on_value": "/J"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[12]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. P. Select Other.",
+    "page": 2,
+    "on_value": "/P"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[13]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. M. Select Special Immigrant Iraq National who was employed by or on behalf of the U.S. Government. ",
+    "page": 2,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[14]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. N. Select Special Immigrant Afghanistan National who was employed by or on behalf of the U.S. Government or the International Security Assistance Force (I S. A. F) in Afghanistan.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1[15]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. 1. O. Select Broadcasters.",
+    "page": 2,
+    "on_value": "/O"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1d1_yes[0]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. If you selected 1. D. Special Immigrant Religious Worker, answer the following question. 1. Will the beneficiary be working as a minister? Select Yes.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1d1_no[0]",
+    "type": "checkbox",
+    "label": "Part 2. Classification Requested. Select only one box. If you selected 1. D. Special Immigrant Religious Worker, answer the following question. 1. Will the beneficiary be working as a minister? Select No.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1p_Describe[0]",
+    "type": "text",
+    "label": "Part 2. Classification Requested. Select only one box. 1. P. Other.  If selected, provide the name of the classification.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 1. Your Full Name. Enter Middle Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 1. Your Full Name. Enter Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. NOTE:  On this petition, the \"beneficiary\" or \"self-petitioner\" means the person for whom this petition is being filed.  If you provided an alternate and/or safe mailing address above, you must also complete Part 3. 1. Your Full Name. Enter Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line3_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 3. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].#area[3].Pt3Line5_SSN[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 5. Enter U.S. Social Security Number, if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line4_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 4. Enter Country of Birth.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Line3_ANumber[0].Pt3Line6_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 6. Enter Alien Registration Number (A. Number), if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line7_MaritalStatus[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 7. Marital Status. Select Single.",
+    "page": 3,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line7_MaritalStatus[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 7. Marital Status. Select Married.",
+    "page": 3,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line7_MaritalStatus[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 7. Marital Status. Select Divorced.",
+    "page": 3,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line7_MaritalStatus[3]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 7. Marital Status. Select Widowed.",
+    "page": 3,
+    "on_value": "/W"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line8_DateOfLastArrival[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. Complete Item Numbers 8. through 15. if this person is in the United States.  If an item number is not applicable or the answer is \"none,\" leave the space blank.  Provide information below for the passport or other document used at the time of last arrival to the United States. 8. Enter Date of Last Arrival. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].#area[5].Pt3Line9_I94[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 9. Enter Form I - 94 Number or I - 95 Crewman's Landing Permit.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line10_Passport[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 10. Enter Passport Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line11_TravelDoc[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 11. Enter Travel Document Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line15_DateOfExpired[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 15. Enter Date current status expired, or will expire, as shown on Form I - 94 or I - 95. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line13_ExpDate[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 13. Enter Expiration Date for Passport or Travel Document. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line12_CountryOfIssuanceDocument[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 12. Enter Country of Issuance for Passport or Travel Document.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line14_CurrentUSCISStatus[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. Other Information. 14.  Enter Current Nonimmigration Status.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part4Line1b_Country[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 1. If the person listed in Part 3. is outside the U.S., is ineligible to adjust status in the U.S., or does not wish to adjust status in the U.S., provide the following information about the U.S. Consulate at which the person prefers to apply for an immigrant visa. U.S. Consulate. B. Enter Country.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line1a_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 1. If the person listed in Part 3. is outside the U.S., is ineligible to adjust status in the U.S., or does not wish to adjust status in the U.S., provide the following information about the U.S. Consulate at which the person prefers to apply for an immigrant visa. U.S. Consulate. A. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_InCareofName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Enter In Care Of Name (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Enter Street Number and Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Select Suite.",
+    "page": 3,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Select Apartment.",
+    "page": 3,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Select Floor.",
+    "page": 3,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_State[0]",
+    "type": "choice",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Select State from List of States.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_ZipCode[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Enter Zip Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_PostalCode[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Enter Postal Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_Province[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Enter Province.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2_Country[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Person for Whom This Petition Is Being Filed. 2. Mailing Address. Enter Country.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2b_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 2. 2. If a U.S. address was provided in Part 3., type or print the person's foreign address below.  If he or she does not maintain a foreign address, list the city or town and country of last foreign residence.  If his or her native alphabet does not use Roman letters, type or print his or her name and foreign address in the native alphabet. B. Mailing Address. Enter Street Number and Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 2. B. Mailing Address. Select Suite.",
+    "page": 4,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 2. B. Mailing Address. Select Apartment.",
+    "page": 4,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 2. B. Mailing Address. Select Floor.",
+    "page": 4,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 2. B. Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2b_PostalCode[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 2. B. Mailing Address. Enter Postal Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2b_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 2. B. Mailing Address. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2b_Country[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 2. B. Mailing Address. Enter Country.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line4b_HowMany[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 4. B. If you answered \"Yes\" to Item A. in Item Number 4., how many?",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line4a[0]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 4. A. Are you filing any other petitions or applications with this one? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line5[0]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. If you answer \"Yes\" to Item Numbers 5. through 6., provide an explanation in the space provided in Part 15. Additional Information. 5. Is the beneficiary in removal proceedings? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line4a[1]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 4. A. Are you filing any other petitions or applications with this one? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line3_Sex[0]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 3. Sex of the beneficiary. Select Male.",
+    "page": 4,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line3_Sex[1]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 3. Sex of the beneficiary. Select Female.",
+    "page": 4,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line6[0]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 6. Has the beneficiary ever worked in the U.S. without permission?  (If you are applying for a special immigrant juvenile status, you are not required to answer this item number.) Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line7[0]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 7. Is an application for adjustment of status attached to this petition? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line5[1]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 5. Is the beneficiary in removal proceedings? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line6[1]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 6. Has the beneficiary ever worked in the U.S. without permission?  (If you are applying for a special immigrant juvenile status, you are not required to answer this item number.) Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line7[1]",
+    "type": "checkbox",
+    "label": "Part 4. Processing Information. 7. Is an application for adjustment of status attached to this petition? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2a_MiddleName[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 2. A. Your Full Name.  Enter Middle Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2a_GivenName[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 2. A. Your Full Name. Enter Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 2. If a U.S. address was provided in Part 3., type or print the person's foreign address below.  If he or she does not maintain a foreign address, list the city or town and country of last foreign residence.  If his or her native alphabet does not use Roman letters, type or print his or her name and foreign address in the native alphabet. A. Your Full Name. Enter Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Line3_ANumber[1].Pt5Line2_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 2. Person One. Enter Alien Registration Number (A. Number), if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line2_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 2. Person One. Enter Country of Birth.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line2_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 2. Person One. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line2_FamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 2. Person One. Enter Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line2_GivenName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 2. Person One. Enter Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line2_MiddleName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 2. Person One. Enter Middle Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line2_Relationship[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 2. Person One. Relationship. Select Spouse.",
+    "page": 4,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line2_Relationship[1]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 2. Person One. Relationship. Select Child.",
+    "page": 4,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line1_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. NOTE:  Depending on the classification you seek, you can either file this petition for another person or for yourself.  On this petition, the \"beneficiary\" or \"self-petitioner\" means the person for whom this petition is being filed, whether that person is yourself or another person. 1. If you are filing as a self-petitioning spouse, have any of your children filed separate self-petitions? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line1_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 1. If you are filing as a self-petitioning spouse, have any of your children filed separate self-petitions? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line2b_Province[0]",
+    "type": "text",
+    "label": "Part 4. Processing Information. 2. B. Mailing Address. Enter Province.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Line3_ANumber[2].Pt5Line3_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 3. Person Two. Enter Alien Registration Number (A. Number), if any.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line3_Relationship[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 3. Person Two. Relationship. Select Child.",
+    "page": 5,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line3_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 3. Person Two. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line3_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 3. Person Two. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line3_FamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 3. Person Two. Enter Family Name (Last Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line3_GivenName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 3. Person Two. Enter Given Name (First Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line3_MiddleName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 3. Person Two. Enter Middle Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line3_ANumber[3].Pt5Line4_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 4. Person Three. Enter Alien Registration Number (A. Number), if any.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line4_Relationship[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 4. Person Three. Relationship. Select Child.",
+    "page": 5,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line4_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 4. Person Three. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line4_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 4. Person Three. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line4_FamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 4. Person Three. Enter Family Name (Last Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line4_GivenName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 4. Person Three. Enter Given Name (First Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line4_MiddleName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 4. Person Three. Enter Middle Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line3_ANumber[4].Pt5Line5_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 5. Person Four. Enter Alien Registration Number (A. Number), if any.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line5_Relationship[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 5. Person Four. Relationship. Select Child.",
+    "page": 5,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line5_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 5. Person Four. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line5_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 5. Person Four. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line5_FamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 5. Person Four. Enter Family Name (Last Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line5_GivenName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 5. Person Four. Enter Given Name (First Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line5_MiddleName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 5. Person Four. Enter Middle Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line3_ANumber[5].Pt5Line6_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 6. Person Five. Enter Alien Registration Number (A. Number), if any.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line6_Relationship[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 6. Person Five. Relationship. Select Child.",
+    "page": 5,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line6_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 6. Person Five. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line6_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 6. Person Five. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line6_FamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 6. Person Five. Enter Family Name (Last Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line6_GivenName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 6. Person Five. Enter Given Name (First Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line6_MiddleName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 6. Person Five. Enter Middle Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line3_ANumber[6].Pt5Line7_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 7. Person Six. Enter Alien Registration Number (A. Number), if any.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line7_Relationship[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 7. Person Six. Relationship. Select Child.",
+    "page": 5,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line7_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 7. Person Six. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line7_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 7. Person Six. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line7_FamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 7. Person Six. Enter Family Name (Last Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line7_GivenName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 7. Person Six. Enter Given Name (First Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt5Line7_MiddleName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 7. Person Six. Enter Middle Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 1. Mother's Full Name. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 1. Mother's Full Name. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 1. Mother's Full Name. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2a[0]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. A. Is the mother still alive?  Select Unknown.",
+    "page": 6,
+    "on_value": "/U"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_InCareofName[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Enter In Care Of Name (if any).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Enter Street Number and Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Select Suite.",
+    "page": 6,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Select Apartment.",
+    "page": 6,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Select Floor.",
+    "page": 6,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Enter Apartment, Suite or Floor Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Enter City or Town.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_State[0]",
+    "type": "choice",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Select State from List of States.",
+    "page": 6,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Enter Zip Code.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Enter Postal Code.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_Province[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Enter Province.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2b_Country[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. B. If you answered \"Yes\" to Item A. in Item Number 2., provide her address below. Enter Country.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line3_ANumber[7].Pt5Line8_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 8. Person Seven. Enter Alien Registration Number (A. Number), if any.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line8_Relationship[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 8. Person Seven. Relationship. Select Child.",
+    "page": 6,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line8_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 8. Person Seven. Enter Country of Birth.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line8_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 8. Person Seven. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line8_FamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 8. Person Seven. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line8_GivenName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 8. Person Seven. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line8_MiddleName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 8. Person Seven. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line9_Relationship[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 9. Person Eight. Relationship. Select Child.",
+    "page": 6,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line9_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 9. Person Eight. Enter Country of Birth.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line9_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 9. Person Eight. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line9_FamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 9. Person Eight. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line9_GivenName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 9. Person Eight. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line9_MiddleName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 9. Person Eight. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Line3_ANumber[8].Pt5Line10_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 10. Person Nine. Enter Alien Registration Number (A. Number), if any.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line10_Relationship[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 10. Person Nine. Relationship. Select Child.",
+    "page": 6,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line10_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 10. Person Nine. Enter Country of Birth.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line10_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 10. Person Nine. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line10_FamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 10. Person Nine. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line10_GivenName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 10. Person Nine. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line10_MiddleName[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 10. Person Nine. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt5Line9_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed. 9. Person Eight. Enter Alien Registration Number (A. Number), if any.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2a[1]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. A. Is the mother still alive?  Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line2a[2]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. A. Is the mother still alive?  Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line4_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 4. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line5_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 5. Enter Country of Birth.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line3_MiddleName[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 3. Father's Full Name. Enter Middle Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line3_GivenName[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 3. Father's Full Name. Enter Given Name (First Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line3_FamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian.  If possible, attach a notarized statement from the father regarding parentage.  If there is a question you cannot fully answer in the space provided on this petition, use the space provided in Part 15. Additional Information. 3. Father's Full Name. Enter Family Name (Last Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6a[0]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. A. Is the father still alive? Select Unknown.",
+    "page": 7,
+    "on_value": "/U"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6c_DateofDeath[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. C. If you answered \"No\" to Item A. in Item Number 4., provide his date of death. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6e_WorkTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. E. Enter Work Telephone Number, if any.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt4Line6d_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. D. Enter Daytime Telephone Number, if any.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line7b_BranchServiceNumber[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. At the time the Amerasian was conceived. 7. B. Provide the father's service number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line7a[0]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. At the time the Amerasian was conceived. 7. A. The father was in the military (indicate branch of service). Select Army.",
+    "page": 7,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line7a[1]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. At the time the Amerasian was conceived. 7. A. The father was in the military (indicate branch of service). Select Air Force.",
+    "page": 7,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line7a[2]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. At the time the Amerasian was conceived. 7. A. The father was in the military (indicate branch of service). Select Navy.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line7a[3]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. At the time the Amerasian was conceived. 7. A. The father was in the military (indicate branch of service). Select Marine Corps.",
+    "page": 7,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line7a[4]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. At the time the Amerasian was conceived. 7. A. The father was in the military (indicate branch of service). Select Coast Guard.",
+    "page": 7,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line7a[5]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. At the time the Amerasian was conceived. 7. C. Select The father was not in the military and was not a civilian employed abroad. Attach a full explanation of the circumstances.",
+    "page": 7,
+    "on_value": "/O"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 1. Full Name of U.S. Citizen Spouse Who Died. Enter Middle Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 1. Full Name of U.S. Citizen Spouse Who Died. Enter Given Name (First Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 1. Full Name of U.S. Citizen Spouse Who Died. Enter Family Name (Last Name).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line4_DateOfDeath[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 4. Enter Date of Death. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line2_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 2. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line3_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 3. Enter Country of Birth.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line2c_DateofDeath[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Mother of the Amerasian. 2. C. If you answered \"No\" to Item A. in Item Number 2., provide her date of death. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_InCareofName[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Enter In Care Of Name (If any).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Enter Street Number and Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Select Apartment.",
+    "page": 7,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Select Floor.",
+    "page": 7,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Enter Apartment, Suite or Floor Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Enter City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_State[0]",
+    "type": "choice",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Select State from List of States.",
+    "page": 7,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Enter Zip Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Enter Postal Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_Province[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Enter Province.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_Country[0]",
+    "type": "text",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Enter Country.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6a[1]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. A. Is the father still alive? Select Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6a[2]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. A. Is the father still alive? Select No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt6Line6b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Complete Only If Filing for an Amerasian. Information About the Father of the Amerasian. 6. B. If you answered \"Yes\" to Item A. in Item Number 4., provide his address below. Select Suite.",
+    "page": 7,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line5a_USCitizen[0]",
+    "type": "checkbox",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 5. At time of death, your spouse was a (Select only one). A. Select U.S. citizen born in the United States.",
+    "page": 8,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line5b_citizenabroad[0]",
+    "type": "checkbox",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 5. At time of death, your spouse was a (Select only one). B. Select U.S. citizen born abroad to U.S. citizen parents.",
+    "page": 8,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line5d_Other[0]",
+    "type": "checkbox",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 5. At time of death, your spouse was a (Select only one). D. Select Other (Explain).",
+    "page": 8,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line5d_Explain[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 5. At time of death, your spouse was a (Select only one). D. Other. Enter Explanation.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line5c_USNaturalized[0]",
+    "type": "checkbox",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 5. At time of death, your spouse was a (Select only one). C. Select U.S. citizen through naturalization.  ",
+    "page": 8,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[7].Line3_ANumber[9].Pt7Line5c1_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 5. At time of death, your spouse was a (Select only one). C. U.S. citizen through naturalization. 1. If you select this box, Provide Alien Registration Number (A. Number), if any.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line8b_PlaceOfMarriage[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 8. B. Where did you and your spouse get married? ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line9b_DateofReMarriage[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 9. B. If you answered \"Yes\" to Item A. in Item Number 9., provide the date that you remarried. Enter Date Remarried. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line8a_DateofMarriage[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 8. A. When did you and your spouse get married? Enter Date of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line9a_no[0]",
+    "type": "checkbox",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 9. A. Did you remarry after the death of your spouse? Select No.",
+    "page": 8,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line10[0]",
+    "type": "checkbox",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 10. If you are filing as a widow(er), were you legally separated at the time of the U.S. citizen's death? Select Yes. NOTE:  If you answered \"Yes\" to Item Number 10., provide an explanation in the space provided in Part 15. Additional Information.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line10[1]",
+    "type": "checkbox",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 10. If you are filing as a widow(er), were you legally separated at the time of the U.S. citizen's death? Select No.",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line9a_yes[0]",
+    "type": "checkbox",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 9. A. Did you remarry after the death of your spouse? Select Yes.",
+    "page": 8,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line7_NumberofSpouseMarriages[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 7. How many times was your spouse married? Enter the number here.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt7Line6_NumberofMarriages[0]",
+    "type": "text",
+    "label": "Part 7. Complete Only If Filing as a Widow / Widower. 6. How many times have you been married? Enter the number here.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1b_MiddleName[0]",
+    "type": "text",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information about the Juvenile. 1. List any other names used. B. Enter Middle Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1b_GivenName[0]",
+    "type": "text",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information about the Juvenile. 1. List any other names used. B. Enter Given Name (First Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1b_FamilyName[0]",
+    "type": "text",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 1. List any other names used. B. Enter Family Name (Last Name). ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1a_MiddleName[0]",
+    "type": "text",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information about the Juvenile. 1. List any other names used. A. Enter Middle Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1a_GivenName[0]",
+    "type": "text",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information about the Juvenile. 1. List any other names used. A. Enter Given Name (First Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line1a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 1. List any other names used. A. Enter Family Name (Last Name). ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line2a[0]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. Answer the following questions regarding the person for whom the petition is being filed.  If you answer \"No\" to Item. A. in Item Number 2., provide an explanation in the space provided in Part 15. Additional Information. 2. A. Have you been declared dependent on a juvenile court in the United States OR has a juvenile court legally committed you to, or placed you under the custody of, an agency, department of a state, or an individual or entity? Select No.",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line2a[1]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. Answer the following questions regarding the person for whom the petition is being filed.  If you answer \"No\" to Item. A. in Item Number 2., provide an explanation in the space provided in Part 15. Additional Information. 2. A. Have you been declared dependent on a juvenile court in the United States OR has a juvenile court legally committed you to, or placed you under the custody of, an agency, department of a state, or an individual or entity? Select Yes.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line2b_Name[0]",
+    "type": "text",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. Provide the name of the state agency, department, or court-appointed organization or individual with which you are placed below.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line2c[0]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 2. C. Are you currently under the jurisdiction of the juvenile court that made your placement or custody determination identified in Item B. in Item Number 2. above? Select Yes.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt8Line2c[1]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 2. C. Are you currently under the jurisdiction of the juvenile court that made your placement or custody determination identified in Item B. in Item Number 2. above? Select No.",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line6a[0]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 6. A. Are you currently or were you previously in the custody of the U.S. Department of Health and Human Services (H H S)? Select Yes.",
+    "page": 9,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line6b[0]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 6. B. If you answered \"Yes\" to Item A. in Item Number 6., and you are in H H S custody, did the juvenile court order determine or alter your custody status or placement? Select No.",
+    "page": 9,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line6b[1]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 6. B. If you answered \"Yes\" to Item A. in Item Number 6., and you are in H H S custody, did the juvenile court order determine or alter your custody status or placement? Select Yes.",
+    "page": 9,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line6a[1]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 6. A. Are you currently or were you previously in the custody of the U.S. Department of Health and Human Services (H H S)? Select No.",
+    "page": 9,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line3a[0]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 4. A. A juvenile court has determined that reunification is not viable due to: abuse, neglect, abandonment or similar basis under state law. Select one of my parents.",
+    "page": 9,
+    "on_value": "/O"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line3a[1]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 4. A. A juvenile court has determined that reunification is not viable due to: abuse, neglect, abandonment or similar basis under state law. Select both of my parents.",
+    "page": 9,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line3a_Specify[0]",
+    "type": "text",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 4. A. A juvenile court has determined that reunification with one or both of my parents is not viable due to. Similar basis under state law (specify). Enter Specification.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line5[0]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 5. Has it been determined in judicial or administrative proceedings that it would not be in your best interest to be returned to your or your parent's country of citizenship or nationality or last habitual residence? Select Yes.",
+    "page": 9,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line4a[0]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 3. A. If you answered \"Yes\" to Item C. in Item Number 2. above, are you currently residing in your court-ordered placement? Select No.",
+    "page": 9,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line4a[1]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 3. A. If you answered \"Yes\" to Item C. in Item Number 2. above, are you currently residing in your court-ordered placement? Select Yes.",
+    "page": 9,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line5[1]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 5. Has it been determined in judicial or administrative proceedings that it would not be in your best interest to be returned to your or your parent's country of citizenship or nationality or last habitual residence? Select No.",
+    "page": 9,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line3b_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 3. B. If you answered \"No\" to Item C. in Item Number 2. above, select your reason below. Select You were adopted or placed in a permanent guardianship or another permanent living arrangement (other than reunification with the abusive parents).",
+    "page": 9,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line3A_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 4. A. A juvenile court has determined that reunification with one or both of my parents is not viable due to. Select Abuse.",
+    "page": 9,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line3A_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 4. A. A juvenile court has determined that reunification with one or both of my parents is not viable due to. Select Similar basis under state law (specify).",
+    "page": 9,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line3A_Checkbox[2]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 4. A. A juvenile court has determined that reunification with one or both of my parents is not viable due to. Select Neglect.",
+    "page": 9,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line3A_Checkbox[3]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 4. A. A juvenile court has determined that reunification with one or both of my parents is not viable due to. Select Abandonment.",
+    "page": 9,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line4b_NameOfParent[0]",
+    "type": "text",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 4. B. If you selected \"one\" in Item A. in Item Number 4., provide the name of that parent.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9Line1a_NumberofMembers[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Prospective Employer Attestation. 1. Provide the following information about the prospective employer. A. Enter Number of members of the prospective employer's organization.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9Line1b_NumberofEmployees[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Prospective Employer Attestation. 1. Provide the following information about the prospective employer. B. Enter Number of employees working at the same location where the beneficiary will be employed.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9Line1c_NumberofBeneficiaries[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Prospective Employer Attestation. 1. Provide the following information about the prospective employer. C. Enter Number of aliens holding special immigrant or nonimmigrant religious worker status who are currently employed or were employed within the past five years.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9Line1d_NumberofSIRWandNIRW[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Prospective Employer Attestation. 1. Provide the following information about the prospective employer. D. Enter Number of Special Immigrant Religious Worker (Form I-3 60) and Nonimmigrant Religious Worker (Form I-1 29) petitions submitted by the prospective employer within the past five years.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9Line1e_NumberofSIRWPetitions[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition.  Prospective Employer Attestation. 1. Provide the following information about the prospective employer:  E. Enter Number of Special Immigrant Religious Worker (Form I-3 60) petitions submitted by the beneficiary during the last five years.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9Line2[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition.  Prospective Employer Attestation. 2. Has the beneficiary or have any of the beneficiary's dependent family members previously been admitted to the United States for a period of stay in the Religious Worker (R) classification during the last five years? Select No.",
+    "page": 9,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9Line2[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition.  Prospective Employer Attestation. 2. Has the beneficiary or have any of the beneficiary's dependent family members previously been admitted to the United States for a period of stay in the Religious Worker (R) classification during the last five years? Select Yes. If you answered \"Yes\" to Item Number 2., provide the beneficiary's and any dependent family member's prior periods of stay in the R classification in the United States during the last five years.  Be sure to provide only those periods when the beneficiary and/or family members were actually in the United States in the R classification.  Provide the beneficiary's information in Item Number 3. below.  For dependent family members, use the space provided in Part 15. Additional Information.",
+    "page": 9,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line3b_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 3. B. If you answered \"No\" to Item C. in Item Number 2. above, select your reason below. Select You aged-out of the juvenile court's jurisdiction and the order was terminated based on age.  ",
+    "page": 9,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt8Line3b_Checkbox[2]",
+    "type": "checkbox",
+    "label": "Part 8. Complete Only If Filing for a Special Immigrant Juvenile. Information About the Juvenile. 3. B. If you answered \"No\" to Item C. in Item Number 2. above, select your reason below. Select Other. (If you selected \"Other,\" provide an explanation in the space provided in Part 15. Additional Information.)",
+    "page": 9,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line4_Position[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 4. Provide a summary of the type of responsibilities of those employees, other than the beneficiary, who work at the same location where the beneficiary will be employed.  If you need extra space to complete this section use the space provided in Part 15. Additional Information. Enter Position.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line4_Summary[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 4. Provide a summary of the type of responsibilities of those employees, other than the beneficiary, who work at the same location where the beneficiary will be employed.  If you need extra space to complete this section use the space provided in Part 15. Additional Information. Enter Summary of the Type of Responsibilities for That Position.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line5_DescribeRelationship[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 5. Describe the relationship, if any, between the religious organization in the United States and the organization abroad of which the beneficiary is a member.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6a_Title[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. Provide the following information about the prospective employment.  If you need extra space to complete this section, use the space provided in Part 15. Additional Information. A. Enter Title of position offered.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6b_DetailedDescription[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. C. Enter a detailed description of the beneficiary's proposed daily duties.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6c_Description[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. D. Enter the description of the beneficiary's qualifications for the position offered.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6d_Description[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. E. Enter the description of the proposed salaried and/or non-salaried compensation.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_CompanyName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Enter Company Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Enter Street Number and Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Select Suite.",
+    "page": 10,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Select Apartment.",
+    "page": 10,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Select Floor.",
+    "page": 10,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Enter Apartment, Suite or Floor Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Enter City or Town.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_State[0]",
+    "type": "choice",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Select State from List of States.",
+    "page": 10,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_ZipCode[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Enter Zip Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_PostalCode[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Enter Postal Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_Province[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Enter Province.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6f_Country[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. F. Provide the specific addresses or locations where the beneficiary will be working. Enter Country.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6b[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. B. The beneficiary will be working (select one of the following). Select As a minister.",
+    "page": 10,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6b[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. B. The beneficiary will be working (select one of the following). Select In a religious vocation.",
+    "page": 10,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line6b[2]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 6. B. The beneficiary will be working (select one of the following). Select In a religious occupation.",
+    "page": 10,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line3_DateFrom[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 3. Beneficiary. Period of Stay. Enter From Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line3_DateTo[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 3. Beneficiary. Period of Stay. Enter To Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line3_MiddleName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 3. Beneficiary. Enter Middle Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line3_GivenName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 3. Beneficiary. Enter Given Name (First Name).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt9Line3_FamilyName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 3. Beneficiary. Enter Family Name (Last Name). ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line7[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Answer Item Numbers 7. through 13. about the prospective employer.  If you answer \"No\" for Item Numbers 7. through 13., provide an explanation in the space provided in Part 15. Additional Information. 7. The prospective employer is a bona fide non-profit religious organization or a bona fide organization that is affiliated with the religious denomination and is tax exempt as described in section 501(c)(3) of the Internal Revenue Code of 1986, subsequent amendment, or equivalent sections of prior enactments of the Internal Revenue Code.  If the prospective employer is affiliated with the religious denomination, complete the Religious Denomination Certification included in this petition. Select No.",
+    "page": 11,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line7[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Answer Item Numbers 7. through 13. about the prospective employer.  If you answer \"No\" for Item Numbers 7. through 13., provide an explanation in the space provided in Part 15. Additional Information. 7. The prospective employer is a bona fide non-profit religious organization or a bona fide organization that is affiliated with the religious denomination and is tax exempt as described in section 501(c)(3) of the Internal Revenue Code of 1986, subsequent amendment, or equivalent sections of prior enactments of the Internal Revenue Code.  If the prospective employer is affiliated with the religious denomination, complete the Religious Denomination Certification included in this petition. Select Yes.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line7_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 7. If you answered \"Yes,\" select the applicable box and attach the appropriate documentation to the petition. A. Select A currently valid determination letter from the Internal Revenue Service (I R S) establishing that the organization is a tax-exempt organization.",
+    "page": 11,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line7_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 7. If you answered \"Yes,\" select the applicable box and attach the appropriate documentation to the petition. B. Select A currently valid determination letter from the I R S establishing that the organization is recognized as tax-exempt under a group tax exemption.",
+    "page": 11,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line7_Checkbox[2]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 7. If you answered \"Yes,\" select the applicable box and attach the appropriate documentation to the petition. C. Select If you are claiming that the prospective employer is a bona fide organization that is affiliated with the religious denomination, provide the following.",
+    "page": 11,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line7_CheckboxC1[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 7. If you answered \"Yes,\" select the applicable box and attach the appropriate documentation to the petition. C. If you are claiming that the prospective employer is a bona fide organization that is affiliated with the religious denomination, provide the following. 1. Select A currently valid determination letter from the I R S establishing that the organization is a tax-exempt organization.",
+    "page": 11,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line7_CheckboxC2[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 7. If you answered \"Yes,\" select the applicable box and attach the appropriate documentation to the petition. C. If you are claiming that the prospective employer is a bona fide organization that is affiliated with the religious denomination, provide the following. 2. Select Documentation that establishes the religious nature and purpose of the organization, such as a copy of the organizing instrument of the organization that specifies the purposes of the organization.",
+    "page": 11,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line7_CheckboxC3[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 7. If you answered \"Yes,\" select the applicable box and attach the appropriate documentation to the petition. C. If you are claiming that the prospective employer is a bona fide organization that is affiliated with the religious denomination, provide the following. 3. Select Organizational literature, such as books, articles, brochures, calendars, flyers, and other literature describing the religious purpose and nature of the activities of the organization.",
+    "page": 11,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line7_CheckboxC4[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 7. If you answered \"Yes,\" select the applicable box and attach the appropriate documentation to the petition. C. If you are claiming that the prospective employer is a bona fide organization that is affiliated with the religious denomination, provide the following. 4. Select A completed religious denomination certification, signed and dated, certifying that the petitioning organization is affiliated with the religious denomination.",
+    "page": 11,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line8[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 8. The prospective employer is willing and able to provide salaried and/or non-salaried compensation at a level that the beneficiary and any dependents will not become a public charge. Select Yes.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line8[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 8. The prospective employer is willing and able to provide salaried and/or non-salaried compensation at a level that the beneficiary and any dependents will not become a public charge. Select No.",
+    "page": 11,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line9[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 9. The funds to pay the beneficiary's compensation do not include any monies obtained from the beneficiary, excluding reasonable donations or tithing to the religious organization. Select No.",
+    "page": 11,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line9[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 9. The funds to pay the beneficiary's compensation do not include any monies obtained from the beneficiary, excluding reasonable donations or tithing to the religious organization. Select Yes.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line10[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 10. The beneficiary will not engage in secular employment, and the prospective employer will provide salaried and/or non-salaried compensation. Select Yes.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line12[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 12. The beneficiary has been a religious worker for at least two years immediately before Form I-3 60 was filed and is otherwise qualified for the position offered. Select Yes.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line13[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 13. The beneficiary has been a member of the prospective employer's denomination for at least two years immediately before Form I-3 60 was filed. Select No.",
+    "page": 11,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line13[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 13. The beneficiary has been a member of the prospective employer's denomination for at least two years immediately before Form I-3 60 was filed. Select Yes.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line12[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 12. The beneficiary has been a religious worker for at least two years immediately before Form I-3 60 was filed and is otherwise qualified for the position offered. Select No.",
+    "page": 11,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line11[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 11. The offered position is full time, requiring at least an average of 35 hours of work per week. Select No.",
+    "page": 11,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line11[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 11. The offered position is full time, requiring at least an average of 35 hours of work per week. Select Yes.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9Line10[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. 10. The beneficiary will not engage in secular employment, and the prospective employer will provide salaried and/or non-salaried compensation. Select No.",
+    "page": 11,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Prospective Employer Attestation (must be completed by the prospective employer even if the beneficiary is filing on his or her own behalf). 14. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt9_Signature[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Prospective Employer Attestation (must be completed by the prospective employer even if the beneficiary is filing on his or her own behalf). I certify or attest under penalty of perjury under the laws of the United States of America that the contents of this attestation, and the evidence submitted, are true and correct. 14. Signature of an Authorized Official of the Prospective Employer. This form can not be signed electronically. The name of the official can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line16_TitleofSignatory[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Printed Name and Title of Signatory for Prospective Employer. 16. Enter Title of the Signatory.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line15_EmployerOrOrgName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Mailing Address. 17. Enter Employer / Organization Name.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Mailing Address. 17. Enter Street Number and Name.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line17_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Mailing Address. 17. Select Suite.",
+    "page": 12,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line17_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Mailing Address. 17. Select Apartment.",
+    "page": 12,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line17_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Mailing Address. 17. Select Floor.",
+    "page": 12,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line17_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Mailing Address. 17. Enter Apartment, Suite or Floor Number.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line17_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Mailing Address. 17. Enter City or Town.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line17_State[0]",
+    "type": "choice",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Mailing Address. 17. Select State from List of States.",
+    "page": 12,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line17_ZipCode[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Mailing Address. 17. Enter Zip Code.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_PreparerFaxNumber[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Contact Information. 19. Enter Fax Number, if any.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_DaytimePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Contact Information. 18. Enter Daytime Telephone Number.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_Email[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Contact Information. 20. Enter Email Address, if any.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_ReligiousDenominationName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Religious Denomination Certification (to be completed only if the prospective employer is affiliated with a religious denomination). I certify under penalty of perjury, that the prospective employer is affiliated with this Religious Denomination, and that the attesting religious organization within the religious denomination is tax-exempt as described in section 501(c)(3) of the Internal Revenue Code of 1986, or equivalent sections of prior enactments of the Internal Revenue Code.  The contents of this certification are true and correct to the best of my knowledge. Enter Name of Religious Denomination.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_DateofSignatureofARRD[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Religious Denomination Certification (to be completed only if the prospective employer is affiliated with a religious denomination). 21. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_ARRDSignature[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Religious Denomination Certification (to be completed only if the prospective employer is affiliated with a religious denomination). 21. Signature of the Authorized Representative of the Religious Denomination. This form can not be signed electronically. The name of the representative can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_RDTitle[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Printed Name and Title of the Signatory of the Religious Denomination. 23. Enter Title of the Signatory.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_RDMiddleName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Printed Name and Title of the Signatory of the Religious Denomination. 22. Enter Middle Name.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_RDGivenName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Printed Name and Title of the Signatory of the Religious Denomination. 22. Enter Given Name (First Name).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_RDFamilyName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Printed Name and Title of the Signatory of the Religious Denomination. 22. Enter Family Name (Last Name).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line15_MiddleName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Printed Name and Title of Signatory for Prospective Employer. 15. Enter Middle Name.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line15_GivenName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Printed Name and Title of Signatory for Prospective Employer. 15. Enter Given Name (First Name).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9Line15_FamilyName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Printed Name and Title of Signatory for Prospective Employer. 15. Enter Family Name (Last Name).",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].#subform[12].Pt9_PetitioningOrgName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Religious Denomination Certification (to be completed only if the prospective employer is affiliated with a religious denomination). I certify under penalty of perjury, that the prospective employer. Enter Name of Prospective Employer.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Line24_NameofAROWRD[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 24. Enter Name of Attesting Religious Organization Within the Religious Denomination.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Line25_AROWRDStreetNumberName[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 25. Enter Street Number and Name.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Lne25_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 25. Select Suite.",
+    "page": 13,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Lne25_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 25. Select Apartment.",
+    "page": 13,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Lne25_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 25. Select Floor.",
+    "page": 13,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Line25_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 25. Enter Apartment, Suite or Floor Number.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Line25_AROWRDCityTown[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 25. Enter City or Town.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Line25_AROWRDState[0]",
+    "type": "choice",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 25. Select State from List of States.",
+    "page": 13,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Line25_AROWRDZipCode[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 25. Enter Zip Code.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Line27_AROWRDPreparerFaxNumber[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 27. Enter Fax Number, if any.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Line26_AROWRDDaytimePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 26. Enter Daytime Telephone Number.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Line28_AROWRDEmail[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 28. Enter Email Address, if any.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt9Line29_AROWRDIRSTaxNumber[0]",
+    "type": "text",
+    "label": "Part 9. Complete Only If Filing a Special Immigrant Religious Worker Petition. Information About the Attesting Religious Organization Within the Religious Denomination. 29. Enter I R S Tax Number of the Attesting Religious Organization.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line4_DateOfDeath[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 4. Enter Date of Death. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line2_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 2. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line3_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 3. Enter Country of Birth.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 1. Full Name of U.S. citizen or Lawful Permanent Resident Abuser. Enter Middle Name.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 1. Full Name of U.S. citizen or Lawful Permanent Resident Abuser. Enter Given Name (First Name).",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. NOTE: For the safety and protection of all V. A. W. A. self-petitioners, information regarding a filing will only be provided to the self-petitioner or his or her designated attorney or representative with a valid Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative. 1. Full Name of U.S. citizen or Lawful Permanent Resident Abuser. Enter Family Name (Last Name).",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Line3_ANumber[10].Pt10Line5d1_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 5. Your abuser is now, or was, a (Select one). D. U.S. Lawful Permanent Resident. 1. Provide. A. Number (if any).",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line5e_Explain[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 5. Your abuser is now, or was, a (Select one). E. Other (Explain). Enter Explanation.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line5_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 5. Your abuser is now, or was, a (Select one). A. Select U.S. citizen born in the United States.",
+    "page": 13,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line5_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 5. Your abuser is now, or was, a (Select one). B. Select U.S. citizen born abroad to U.S. citizen parents.",
+    "page": 13,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line5_Checkbox[2]",
+    "type": "checkbox",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 5. Your abuser is now, or was, a (Select one). C. Select U.S. citizen through naturalization.",
+    "page": 13,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line5_Checkbox[3]",
+    "type": "checkbox",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 5. Your abuser is now, or was, a (Select one). D. Select U.S. Lawful Permanent Resident.",
+    "page": 13,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line5_Checkbox[4]",
+    "type": "checkbox",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 5. Your abuser is now, or was, a (Select one). E. Select Other (Explain).",
+    "page": 13,
+    "on_value": "/E"
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line6_NumberofMarriages[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 6. How many times have you been married? Enter the number here.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Pt10Line7_NumberofAbuseMarriages[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 7. How many times was your abuser married (if known)? Enter the number here.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].Line3_ANumber[11].Pt10Line5c1_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 5. Your abuser is now, or was, a (Select one). C. U.S. citizen through naturalization. 1. Provide. A. Number (if known).",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line9_DateFrom[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 9. When did you live with your abuser? Enter From Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line9_DateTo[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 9. When did you live with your abuser? Enter To Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. Include any other dates you have lived off/on with your abuser in the space provided in Part 15. Additional Information.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line10_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 10. Provide the last address at which you lived together with your abuser. Enter Street Number and Name.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line10_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 10. Provide the last address at which you lived together with your abuser. Select Suite.",
+    "page": 14,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line10_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 10. Provide the last address at which you lived together with your abuser. Select Apartment.",
+    "page": 14,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line10_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 10. Provide the last address at which you lived together with your abuser. Select Floor.",
+    "page": 14,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line10_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 10. Provide the last address at which you lived together with your abuser. Enter Apartment, Suite or Floor Number.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line10_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 10. Provide the last address at which you lived together with your abuser. Enter City or Town.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line10_State[0]",
+    "type": "choice",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 10. Provide the last address at which you lived together with your abuser. Select State from List of States.",
+    "page": 14,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line10_ZipCode[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 10. Provide the last address at which you lived together with your abuser. Enter Zip Code.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line10_PostalCode[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 10. Provide the last address at which you lived together with your abuser. Enter Postal Code.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line10_Province[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 10. Provide the last address at which you lived together with your abuser. Enter Province.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line10_Country[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 10. Provide the last address at which you lived together with your abuser. Enter Country.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line11_DateTo[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 11. Provide the last date that you lived together with your abuser at this address. Enter To Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line11_DateFrom[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 11. Provide the last date that you lived together with your abuser at this address. Enter From Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line12[0]",
+    "type": "checkbox",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 12. I am currently residing in the United States and I request an Employment Authorization Document. Select Yes.",
+    "page": 14,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[14].Pt10Line12[1]",
+    "type": "checkbox",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 12. I am currently residing in the United States and I request an Employment Authorization Document. Select No.",
+    "page": 14,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[14].Pt11Line1_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 11. Petitioner's Statement, Contact Information, Declaration, and Signature (Individual). IMPORTANT: Complete this section ONLY if you are an individual filing this petition for yourself.  If you are filing Form I-3 60 to petition for another person or as an authorized signatory of an organization, complete Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. NOTE: Read the Penalties section of the Form I-3 60 Instructions before completing this part. Petitioner's Statement.  NOTE: Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 1. Petitioner's Statement Regarding the Interpreter. A. Select I can read and understand English, and I have read and understand every question and instruction on this petition and my answer to every question.",
+    "page": 14,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[14].Pt11Line1_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 11. Petitioner's Statement, Contact Information, Declaration, and Signature (Individual). Petitioner's Statement. NOTE:  Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2.  1. Petitioner's Statement Regarding the Interpreter. B. Select The interpreter named in Part 13. read to me every question and instruction on this petition, as well as my answer to every question in a language in which I am fluent.  I understand all of this information as interpreted.",
+    "page": 14,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[14].Pt11Line1b_Language[0]",
+    "type": "text",
+    "label": "Part 11. Petitioner's Statement, Contact Information, Declaration, and Signature (Individual). Petitioner's Statement. 1. Petitioner's Statement Regarding the Interpreter. B. Enter Language.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt11Line2_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 11. Petitioner's Statement, Contact Information, Declaration, and Signature (Individual). Petitioner's Statement. NOTE:  Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 2. Petitioner's Statement Regarding the Preparer. Select At my request, the preparer named in Part 14 prepared this petition for me based only upon information I provided or authorized.",
+    "page": 14,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[14].Pt11Line2_RepresentativeName[0]",
+    "type": "text",
+    "label": "Part 11. Petitioner's Statement, Contact Information, Declaration, and Signature (Individual). Petitioner's Statement. NOTE:  Select the box for either Item. A or B. in Item Number 1.  If applicable, select the box for Item Number 2. 2. Petitioner's Statement Regarding the Preparer. Enter Preparer Name.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt9Line8a_DateOfMarriage[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 8. A. When did you and your abuser get married? (If you are a self-petitioning child or self-petitioning parent, type or print \"N/A.\"). Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].Pt9Line8b_PlaceOfMarriage[0]",
+    "type": "text",
+    "label": "Part 10. Complete Only If Filing as a V. A. W. A. Self-Petitioning Spouse or Child of a U.S. Citizen or Lawful Permanent Resident or a V. A. W. A. Self-Petitioning Parent of a U.S. Citizen Son or Daughter. 8. B. Where did you and your abuser get married? (If you are a self-petitioning child or self-petitioning parent, type or print \"N/A.\").",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[15].Pt11Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 11. Petitioner's Statement, Contact Information, Declaration, and Signature (Individual). Petitioner's Signature. 6. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[15].Pt11Line6_Signature[0]",
+    "type": "text",
+    "label": "Part 11. Petitioner's Statement, Contact Information, Declaration, and Signature (Individual). Petitioner's Signature. 6.  Petitioner's Signature. This form can not be signed electronically. The name of the petitioner can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[15].Pt11Line4_MobileNumber1[0]",
+    "type": "text",
+    "label": "Part 11. Petitioner's Statement, Contact Information, Declaration, and Signature (Individual). Petitioner's Contact Information. 4. Enter Petitioner's Mobile Telephone Number, if any.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[15].Pt11Line5_Email[0]",
+    "type": "text",
+    "label": "Part 11. Petitioner's Statement, Contact Information, Declaration, and Signature (Individual). Petitioner's Contact Information. 5. Enter Petitioner's Email Address, if any.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[15].Pt11Line3_DaytimePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 11. Petitioner's Statement, Contact Information, Declaration, and Signature (Individual). Petitioner's Contact Information. 3. Enter Petitioner's Daytime Telephone Number.  ",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[15].Pt12Line1_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. IMPORTANT:  Complete this section ONLY if you are filing Form I-3 60 to petition for another person or as an authorized signatory of an organization.  If you are an individual filing this petition for yourself, complete Part 11. Petitioner's Statement, Contact Information, Declaration, and Signature (Individual).  NOTE: Read the Penalties section of the Form I-3 60 Instructions before completing this part. Petitioner's or Authorized Signatory's Statement. NOTE: Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2.  1. Petitioner's Statement Regarding the Interpreter. A. Select I can read and understand English, and I have read and understand every question and instruction on this petition and my answer to every question.",
+    "page": 15,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[15].Pt12Line1b_Language[0]",
+    "type": "text",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Statement. 1. Petitioner's Statement Regarding the Interpreter. B. Enter Language.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[15].Pt12Line1_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Statement.  NOTE:  Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 1. Petitioner's Statement Regarding the Interpreter. B. Select The interpreter named in Part 13. read to me every question and instruction on this petition and my answer to every question in the language which I am fluent. I understand all of this information as interpreted.",
+    "page": 15,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[16].Pt12Line8_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Signature. 8. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[16].Pt12Line8_Signature[0]",
+    "type": "text",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Signature. 8. Petitioner's or Authorized Signatory's Signature. This form can not be signed electronically. The name of the petitioner or authorized signatory can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[16].Pt12Line6_MobileNumber1[0]",
+    "type": "text",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Authorized Signatory's Contact Information. 6. Enter Authorized Signatory's Mobile Telephone Number, if any.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[16].Pt12Line7_Email[0]",
+    "type": "text",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Authorized Signatory's Contact Information. 7. Enter Authorized Signatory's Email Address, if any.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[16].Pt12Line5_DaytimePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Authorized Signatory's Contact Information. 5. Enter Authorized Signatory's Daytime Telephone Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[16].Pt12Line2_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Statement.  NOTE:  Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 2. Petitioner's Statement Regarding the Preparer. Select At my request, the preparer named in Part 14., prepared this petition for me based only upon information I provided or authorized.",
+    "page": 16,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[16].Pt12Line2_RepresentativeName[0]",
+    "type": "text",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Statement.  NOTE:  Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 2. Petitioner's Statement Regarding the Preparer. Enter Name of Preparer.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[16].Pt12Line3_AuthorizedSignatoryFamilyName[0]",
+    "type": "text",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Authorized Signatory's Contact Information. 3. Enter Authorized Signatory's Family Name (Last Name). ",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[16].Pt12Line3_AuthorizedSignatoryGivenName[0]",
+    "type": "text",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Authorized Signatory's Contact Information. 3. Enter Authorized Signatory's Given Name (First Name).",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[16].Pt12Line4_AuthorizedSignatoryTitle[0]",
+    "type": "text",
+    "label": "Part 12. Statement, Contact Information, Declaration, and Signature of the Petitioner or Authorized Signatory. Authorized Signatory's Contact Information. 4. Enter Authorized Signatory's Title.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt12Line5_InterpreterMobileTelephone[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number, if any.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt12Line4_InterpreterDaytimeTelephone[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt12_NameofLanguage[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that I am fluent in English and (Enter Language), which is the same language specified in Part 11., Item B. in Item Number 1., or in Part 12., Item B. in Item Number 1., and I have read to this petitioner or the authorized signatory in the identified language every question and instruction on this petition and his or her answer to every question.  The petitioner or authorized signatory informed me that he or she understands every instruction, question, and answer on the petition, including the Petitioner's Declaration and Certification, or Petitioner's or Authorized Signatory's Declaration and Certification, and has verified the accuracy of every answer.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt12Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt12Line6_Signature[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. Interpreter's Signature. This form can not be signed electronically. The name of the interpreter can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line3_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Street Number and Name.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select Suite.",
+    "page": 17,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select Apartment.",
+    "page": 17,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select Floor.",
+    "page": 17,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Apartment, Suite or Floor Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line3_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter City or Town.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line3_State[0]",
+    "type": "choice",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select State from List of States.",
+    "page": 17,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Zip Code.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line3_PostalCode[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Postal Code.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line3_Province[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Province.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line3_Country[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Country.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt12Line5_Email[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter Interpreter's Email Address, if any.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line1_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Provide the following information about the interpreter.  Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name). ",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line1_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].#subform[18].Pt13Line2_InterpreterBusinessorOrg[0]",
+    "type": "text",
+    "label": "Part 13. Interpreter's Contact Information, Certification, and Signature. 2. Enter Interpreter's Business or Organization Name, if any.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[19].Pt13ine5_PreparerFaxNumber[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Contact Information. 5. Enter Preparer's Mobile Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt13Line4_DaytimePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt13Line6_Email[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Contact Information. 6. Enter Preparer's Email Address, if any.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt14Line3_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter Street Number and Name.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt14Line3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Select Suite.",
+    "page": 18,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[19].Pt14Line3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Select Apartment.",
+    "page": 18,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[19].Pt14Line3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Select Floor.",
+    "page": 18,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[19].Pt14Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter Apartment, Suite or Floor Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt14Line3_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter City or Town.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt14Line3_State[0]",
+    "type": "choice",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Select State from List of States.",
+    "page": 18,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[19].Pt14Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter Zip Code.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt14Line3_PostalCode[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter Postal Code.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt14Line3_Province[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter Province.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt14Line3_Country[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter Country.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt13Line7_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Statement. 7. A. Select I am not an attorney or accredited representative but have prepared this petition on behalf of the petitioner and with the petitioner's consent.",
+    "page": 18,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[19].Pt13Line7_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Statement. 7. B. Select I am an attorney or accredited representative.",
+    "page": 18,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[19].Pt13Line7b_extends[0]",
+    "type": "checkbox",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the petitioner in this case does not extend beyond the preparation of this petition.",
+    "page": 18,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[19].Pt13Line7b_extends[1]",
+    "type": "checkbox",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the petitioner in this case extends beyond the preparation of this petition. NOTE:  If you are an attorney or accredited representative whose representation extends beyond preparation of this petition, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, or G-28 I, Notice of Entry of Appearance as Attorney In Matters Outside the Geographical Confines of the United States, with this petition.",
+    "page": 18,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[19].Pt13Line8_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Signature. 8. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt13Line1_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Full Name. 1. Enter Preparer's Given Name (First Name).",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt13Line2_BusinessName[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. 2. Enter Preparer's Business or Organization Name, if any.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt13Line1_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner.  Provide the following information about the preparer. Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[19].Pt12Line8_Signature[1]",
+    "type": "text",
+    "label": "Part 14. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Signature. 8. Preparer's Signature. This form can not be signed electronically.  The name of the preparer can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line5d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 5. D. Enter Additional Information.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Global_ANumber[0].Pt1Line4_AlienNumber[1]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 2. Enter Alien Registration Number (A. Number), if any.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 3. A. Enter Page Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 3. B. Enter Part Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 3. C. Enter Item Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 3. D. Enter Additional Information.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line6a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 6. A. Enter Page Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line6b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 6. B. Enter Part Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line6c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 6. C. Enter Item Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line6d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 6. D. Enter Additional Information.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line5c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 5. C. Enter Item Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line5b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 5. B. Enter Part Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line5a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 5. A. Enter Page Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 4. A. Enter Page Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 4. B. Enter Part Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 4. C. Enter Item Number.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt14Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 4. D. Enter Additional Information.",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt1Line1_FamilyName[1]",
+    "type": "text",
+    "label": "Part 15. Additional Information. If you need extra space to provide any additional information within this petition, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this petition or attach a separate sheet of paper.  Type or print your name and A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. Enter Family Name (Last Name).",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt1Line1_GivenName[1]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 1. Enter Given Name (First Name).",
+    "page": 19
+  },
+  {
+    "name": "form1[0].#subform[20].Pt1Line1_MiddleName[1]",
+    "type": "text",
+    "label": "Part 15. Additional Information. 1. Enter Middle Name.",
+    "page": 19
+  }
+]

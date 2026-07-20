@@ -1,0 +1,1512 @@
+[
+  {
+    "name": "form1[0].#subform[0].Pt1Line10_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1., Other Information. 10. Enter Alien Registration Number (A. Number), if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line12_USCISELISAcctNumber[0]",
+    "type": "text",
+    "label": "Part 1.,  Other Information. 13. Enter U S C I S Online Account Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_Sex[0]",
+    "type": "checkbox",
+    "label": "Part 1., Other Information. 8. Sex. Select Female.",
+    "page": 1,
+    "on_value": "/Female"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8_Sex[1]",
+    "type": "checkbox",
+    "label": "Part 1., Other Information. 8. Sex. Select Male.",
+    "page": 1,
+    "on_value": "/Male"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_CountryOfCitizorNatz[0]",
+    "type": "text",
+    "label": "Part 1., Other Information. 7. Enter Country of Citizenship or Nationality.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line10_SSN[0]",
+    "type": "text",
+    "label": "Part 1., Other Information. 11. Enter U.S. Social Security Number (S S N), if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line11_PID[0]",
+    "type": "text",
+    "label": "Part 1., Other Information. 12. Enter Department of State (D O S) Personal Identification Number (P I D).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line9_Married[0]",
+    "type": "checkbox",
+    "label": "Part 1., Other Information. 9. Marital Status. Select Married.",
+    "page": 1,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line9_MA[0]",
+    "type": "checkbox",
+    "label": "Part 1., Other Information. 9. Marital Status. Select Marriage Annulled.",
+    "page": 1,
+    "on_value": "/6"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line9_Other[0]",
+    "type": "checkbox",
+    "label": "Part 1., Other Information. 9. Marital Status. Select Other.",
+    "page": 1,
+    "on_value": "/O"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line9_LS[0]",
+    "type": "checkbox",
+    "label": "Part 1., Other Information. 9. Marital Status. Select Legally Separated.",
+    "page": 1,
+    "on_value": "/5"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line9_Widowed[0]",
+    "type": "checkbox",
+    "label": "Part 1., Other Information. 9. Marital Status. Select Widowed.",
+    "page": 1,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line9_Divorced[0]",
+    "type": "checkbox",
+    "label": "Part 1., Other Information. 9. Marital Status. Select Divorced.",
+    "page": 1,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line9_Single[0]",
+    "type": "checkbox",
+    "label": "Part 1., Other Information. 9. Marital Status. Select Single.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1., Other Information. 5. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line5_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 1., Other Information. 6. Enter Country of Birth.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line19_Relationship[0]",
+    "type": "text",
+    "label": "Part 1., Other Information. 14. Provide your relationship to the principal alien, if applicable.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line9_SpecifyOther[0]",
+    "type": "text",
+    "label": "Part 1., Other Information. 9. Specify Other.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line13_I94Number[0]",
+    "type": "text",
+    "label": "Part 1., Information About Your Last Arrival into the United States. 15. A. Enter Form I- 94 Arrival-Departure Record Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "To be completed by an attorney or accredited representative, if any. Select this box if Form G - 28 is attached.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].AttorneyStateBarNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative, if any. Enter Attorney State Bar Number, if applicable.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1b_GivenName[0]",
+    "type": "text",
+    "label": "Part 1., Full Legal Name. 1. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. NOTE:  The person requesting employment authorization or change / adjustment of status provides the requested information. Full Legal Name. 1. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1., Full Legal Name. 1. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2c_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1., U. S. Mailing Address. 2. C. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2b_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1., U. S. Mailing Address. 2. B. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2d_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1., U. S. Mailing Address. 2. D. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2c_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1., U. S. Mailing Address. 2. C. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2c_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1., U. S. Mailing Address. 2. C. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2c_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1., U. S. Mailing Address. 2. C. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2f_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1., U. S. Mailing Address. 2. F. Enter ZIP Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2e_State[0]",
+    "type": "choice",
+    "label": "Part 1., U. S. Mailing Address. 2. E. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2a_InCareofName[0]",
+    "type": "text",
+    "label": "Part 1., U. S. Mailing Address. 2. A. Enter In Care Of Name, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3Checkbx_yes[0]",
+    "type": "checkbox",
+    "label": "Part 1., U. S. Mailing Address. 3. Is your current mailing address the same as your physical address? Select Yes.",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3Checkbx_no[0]",
+    "type": "checkbox",
+    "label": "Part 1., U. S. Mailing Address. 3. Is your current mailing address the same as your physical address? Select No. NOTE:  If you answered \u201cNo\u201d to Item Number 3., provide your physical address in Item Numbers 4. A. through 4. E.",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1., U. S. Physical Address. 4. A. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1., U. S. Physical Address. 4. C. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1., U. S. Physical Address. 4. B. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1., U. S. Physical Address. 4. B. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1., U. S. Physical Address. 4. B. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1., U. S. Physical Address.  4. B. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1., U. S. Physical Address. 4. E. Enter ZIP Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4_State[0]",
+    "type": "choice",
+    "label": "Part 1., U. S. Physical Address. 4. D. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].USCISOnlineAcctNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line18_CurrentUSCISStatus[0]",
+    "type": "text",
+    "label": "Part 1. (continued). Information About Your Last Arrival into the United States. 17. Enter Your Current Immigration Status (for example, A- 3 attendant, G- 1 principal representative, NATO- 2 other representative).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line16_ExpDate[0]",
+    "type": "text",
+    "label": "Part 1. (continued).  Information About Your Last Arrival into the United States. 15. D. Expiration Date for Your Passport or Travel Document. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line17_DateOfLastArrival[0]",
+    "type": "text",
+    "label": "Part 1. (continued). Information About Your Last Arrival into the United States. 16. Date of Your Last Arrival into the United States, On or About. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part1_Line15_CountryOfIssuance[0]",
+    "type": "text",
+    "label": "Part 1. (continued). Information About Your Last Arrival into the United States. 15. C. Enter Country That Issued Your Passport or Travel Document.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1b_GivenName[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's Full Legal Name. 1. B. Enter Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2.  Information About Principal Alien. NOTE:  If you are the principal alien and submitting Form I-5 66 on your own behalf, do not complete this section. Principal Alien's Full Legal Name. 1. A. Enter Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's Full Legal Name. 1. C. Enter Middle Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's U.S. Physical Address. 2. A. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2c_CityTown[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's U.S. Physical Address. 2. C. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2., Principal Alien's U.S. Physical Address.  2. B. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2., Principal Alien's U.S. Physical Address.  2. B. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's U.S. Physical Address.  2. B. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2., Principal Alien's U.S. Physical Address. 2. B. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's U.S. Physical Address.  2. E. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2d_State[0]",
+    "type": "choice",
+    "label": "Part 2., Principal Alien's U.S. Physical Address. 2. D. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line3_ExpDate[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's Other Information. 3. Date Tour of Duty in the United States Expected to End. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line4_JobTitle[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's Other Information. 4. Enter Job Title.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line5_CountryOfCitizenshiporNatz[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's Other Information. 5. Enter Country of Citizenship or Nationality.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line15_PassportorTravelDocNum[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (continued). Information About Your Last Arrival into the United States. 15. B. Enter Passport or Travel Document Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt8ItemNumber8_USCISOnlineActNum[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's Other Information.  8. Enter U S C I S Online Account Number, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Item9a_I94Number[0]",
+    "type": "text",
+    "label": "Part 2., Information About the Principal Alien's Last Arrival into the United States. 9. A. Enter I- 94 Arrival Departure Record Number (if any).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line9b_PassportorTravNumber[0]",
+    "type": "text",
+    "label": "Part 2., Information About the Principal Alien's Last Arrival into the United States. 9. B. Enter Passport or Travel Document Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line9c_CountryOfIssuance[0]",
+    "type": "text",
+    "label": "Part 2., Information About the Principal Alien's Last Arrival into the United States. 9. C. Enter Country That Issued His or Her Passport or Travel Document.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line9d_ExpDate[0]",
+    "type": "text",
+    "label": "Part 2., Information About the Principal Alien's Last Arrival into the United States. 9. D. Expiration Date for His or Her Passport or Travel Document. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line7_DOSPIDNumber[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's Other Information. 7. Enter D O S Personal Identification Number (P I D).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3ItemNumber1_chkboxA[0]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Request. 1. I am requesting. Select this box for: Employment Authorization (Proceed to Item Numbers 2. A. through 2. D.)",
+    "page": 2,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3ItemNumber1_chkboxB[0]",
+    "type": "checkbox",
+    "label": "Part 3.,1. I am requesting. Select this box for:  Change / Adjustment of Status (Proceed to Item Numbers 3. A. through 3. B.) ",
+    "page": 2,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2a_spouse[0]",
+    "type": "checkbox",
+    "label": "Part 3., Requests for Employment Authorization. 2. A. I am a/an. Select this box for:  Spouse.",
+    "page": 2,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2a_SonorDaughter[0]",
+    "type": "checkbox",
+    "label": "Part 3., Requests for Employment Authorization. 2. A. I am a/an. Select this box for:  Son or Daughter.",
+    "page": 2,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2a_Other[0]",
+    "type": "checkbox",
+    "label": "Part 3., Requests for Employment Authorization. 2. A. I am a/an. Select this box for:  Other Dependent Recognized by D O S.",
+    "page": 2,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2c_Age[0]",
+    "type": "text",
+    "label": "Part 3., Requests for Employment Authorization. 2. C. If you selected a status in Item Number 2. B., Enter Age.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2b_Disabled[0]",
+    "type": "checkbox",
+    "label": "Part 3., Requests for Employment Authorization. 2. B. If you selected \u201cSon or Daughter,\u201d indicate your status if you are 21 years of age or older. Select this box for:  Disabled Person.",
+    "page": 2,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2b_FullTime[0]",
+    "type": "checkbox",
+    "label": "Part 3., Requests for Employment Authorization. 2. B. If you selected \u201cSon or Daughter,\u201d indicate your status if you are 21 years of age or older. Select this box for:  Full-time, Post-Secondary Student.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2d_dependent[0]",
+    "type": "text",
+    "label": "Part 3., Requests for Employment Authorization. 2. D. If you selected \u201cOther Dependent Recognized by D O S,\u201d Enter Category.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_Married[0]",
+    "type": "checkbox",
+    "label": "Part 2., Principal Alien's Other Information. 6. Marital Status. Select this box for:  Married.",
+    "page": 2,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_MA[0]",
+    "type": "checkbox",
+    "label": "Part 2., Principal Alien's Other Information. 6. Marital Status. Select this box for:  Marriage Annulled.",
+    "page": 2,
+    "on_value": "/6"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_Other[0]",
+    "type": "checkbox",
+    "label": "Part 2., Principal Alien's Other Information. 6. Marital Status. Select this box for:  Other.",
+    "page": 2,
+    "on_value": "/O"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_LS[0]",
+    "type": "checkbox",
+    "label": "Part 2., Principal Alien's Other Information. 6. Marital Status. Select this box for:  Legally Separated.",
+    "page": 2,
+    "on_value": "/5"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_Widowed[0]",
+    "type": "checkbox",
+    "label": "Part 2., Principal Alien's Other Information. 6. Marital Status. Select this box for:  Widowed.",
+    "page": 2,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_Divorced[0]",
+    "type": "checkbox",
+    "label": "Part 2., Principal Alien's Other Information. 6. Marital Status. Select this box for:  Divorced.",
+    "page": 2,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_Single[0]",
+    "type": "checkbox",
+    "label": "Part 2., Principal Alien's Other Information. 6. Marital Status. Select this box for:  Single.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_SpecifyOther[0]",
+    "type": "text",
+    "label": "Part 2., Principal Alien's Other Information. 6. Marital Status. Specify Other.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line3a_checkbox1[0]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Request (continued). Requests for Change / Adjustment of Status. 3. A. I am requesting a/an.  Select this box for: Change of Nonimmigrant Status TO A, G, or NATO.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line3a_checkbox2[0]",
+    "type": "checkbox",
+    "label": "Part 3. (continued). Requests for Change / Adjustment of Status. 3. A. I am requesting a/an. Select this box for: Change of Nonimmigrant Status FROM A, G, or NATO.",
+    "page": 3,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line3a_checkbox3[0]",
+    "type": "checkbox",
+    "label": "Part 3. (continued). Requests for Change / Adjustment of Status. 3. A. I am requesting a/an. Select this box for: Adjustment of Status Under Immigration and Nationality Act (I N A) Section 247( A) from Immigrant to A or G Nonimmigrant.",
+    "page": 3,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line3a_checkbox4[0]",
+    "type": "checkbox",
+    "label": "Part 3. (continued). Requests for Change / Adjustment of Status. 3. A. I am requesting a/an. Select this box for: Adjustment of Status from A, G, or NATO Nonimmigrant to Immigrant.",
+    "page": 3,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line3a_checkbox5[0]",
+    "type": "checkbox",
+    "label": "Part 3. (continued). Requests for Change / Adjustment of Status. 3. A. I am requesting a/an. Select this box for: Adjustment of Status Under 8 United State Code (U.S.C.) 12 55 b (Section 13 of the Act of September 11, 1957) from. A- 1, A- 2, G- 1, or G- 2 Nonimmigrant to Lawful Permanent Resident.",
+    "page": 3,
+    "on_value": "/5"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line3b_StatusCategory[0]",
+    "type": "text",
+    "label": "Part 3. (continued). Requests for Change / Adjustment of Status. 3. B. If you selected \u201cChange of Nonimmigrant Status\u201d TO or FROM \u201cA, G, or NATO,\u201d enter the specific category.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part5_Line3_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 4., Requestor's Contact Information. 3. Enter Requestor's Email Address (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part5_Line1_DaytimePhoneNumber3[0]",
+    "type": "text",
+    "label": "Part 4., Requestor's Contact Information. 1. Enter Requestor's Daytime Telephone Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part5_Line2_SafePhoneNumber3[0]",
+    "type": "text",
+    "label": "Part 4., Requestor's Contact Information. 2. Enter Requestor's Mobile Telephone Number (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part5_Line4a_Signature[0]",
+    "type": "text",
+    "label": "Part 4., Requestor's Certification and Signature. 4. A. Requestor's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part6_Line4b_dateFrom[0]",
+    "type": "text",
+    "label": "Part 4., Requestor's Certification and Signature. 4. B. Date of Signature. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part6_Line1a_InterpretersFamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information,  Certification, and Signature. Provide the following information about the interpreter. Interpreter's Full Name. 1. A. Enter Interpreter's Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part6_Line2_IntrpretersBusinessName[0]",
+    "type": "text",
+    "label": "Part 5., 2. Enter Interpreter's Business or Organization Name, if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part6_Line1b_InterpretersGivenName[0]",
+    "type": "text",
+    "label": "Part 5., Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part6_Line3_InterpretersDaytimeTelephoneNumber3[0]",
+    "type": "text",
+    "label": "Part 5., Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt5Line5_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 5., Interpreter's Contact Information. 5. Enter Interpreter's Email Address, if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Part6_Line4_InterpretersDaytimeTelephoneNumber3[0]",
+    "type": "text",
+    "label": "Part 5., Interpreter's Contact Information. 4. Enter Interpreter's Mobile Telephone Number, if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].Part5_Line1b_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 5., Interpreter's Certification. I certify, under penalty or perjury, that:  I am fluent in English and the same language specified in Part 4., Item Number 1. B., and I have read to this requestor in the identified language every question and instruction on this request and his or her answer to every question.  The requestor informed me that he or she understands every instruction, question, and answer on the request, including the Requestor's Declaration and Certification, and has verified the accuracy of every answer. Enter Language.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part7_Line8a_InterpretersSignature[0]",
+    "type": "text",
+    "label": "Part 5., Interpreter's Signature. 6. A. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part8_Line8b_dateFrom[0]",
+    "type": "text",
+    "label": "Part 5., Interpreter's Signature. 6. B. Date of Birth. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part6_Line1a_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Request,  If Other Than the Requestor. Provide the following information about the preparer. Preparer's Full Name. 1. A. Enter Preparer's Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part6_Line1b_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 6.,Provide the following information about the preparer. Preparer's Full Name. 1. B. Enter Preparer's Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part6_Line2_BusinessName[0]",
+    "type": "text",
+    "label": "Part 6., Provide the following information about the preparer. 2. Enter Preparer's Business or Organization Name, if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part8_Line5_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 6. (continued). Preparer's Contact Information. 5. Enter Preparer's Email Address, if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part8_Line4_InterpretersDaytimeTelephoneNumber3[0]",
+    "type": "text",
+    "label": "Part 6. (continued). Preparer's Contact Information. 4. Enter Preparer's Mobile Telephone Number, if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part8_Line3_InterpretersDaytimeTelephoneNumber3[0]",
+    "type": "text",
+    "label": "Part 6.  Contact Information, Declaration, and Signature of the Person Preparing this Request, if Other Than the Requestor (continued). Preparer's Contact Information. 3. Enter Preparer's Daytime Telephone Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part7_Line6a_InterpretersSignature[0]",
+    "type": "text",
+    "label": "Part 6. (continued). Preparer's Signature. 6. A. Preparer's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Part8_Line6b_dateFrom[0]",
+    "type": "text",
+    "label": "Part 6. (continued). Preparer's Signature. 6. B. Date of Signature. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7., 3. A. Enter Page Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7., 3. B. Enter Part Number. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7., 3. C. Enter Item Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7., 3. D. Enter Additional Information. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7., 4. A. Enter Page Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7., 4. B. Enter Part Number. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7., 4. C. Enter Item Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7., 4. D. Enter Additional Information. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line1a_FamilyName[1]",
+    "type": "text",
+    "label": "Part 7.  Additional Information.  If you need extra space to provide any additional information within this request, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this request or attach a separate sheet of paper.  Type or print your name and. A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. No Entry. 1. A. Family Name (Last Name). The following field is pre-populated from Part 1.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line1b_GivenName[1]",
+    "type": "text",
+    "label": "Part 7., No Entry. 1. B. Given Name (First Name). The following field is pre-populated from Part 1.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line1c_MiddleName[1]",
+    "type": "text",
+    "label": "Part 7., No Entry. 1. C. Middle Name. The following field is pre-populated from Part 1.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt1Line10_AlienNumber[1]",
+    "type": "text",
+    "label": "Part 7., No Entry. 2. Enter A Number, if any. The following field is pre-populated from Part 1.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line5a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7., 5. A. Enter Page Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line5b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7., 5. B. Enter Part Number. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line5c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7., 5. C. Enter Item Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line6a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7., 6. A. Enter Page Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line6b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7., 6. B. Enter Part Number. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line6c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7., 6. C. Enter Item Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line6d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7., 6. D. Enter Additional Information. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line7a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7., 7. A. Enter Page Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line7b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7., 7. B. Enter Part Number. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line7c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7., 7. C. Enter Item Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line7d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7., 7. D. Enter Additional Information. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt7Line5d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7., 5. D. Enter Additional Information. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].P8CheckBox1[0]",
+    "type": "checkbox",
+    "label": "For Official Use Only. Part 8. Certification by Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation, or NATO Member State. NOTE: Certifying official must have this information and page to complete process. Select this box for: 1. I certify that the information provided in Parts 1., 2., and 3. of this Form I- 5 66 is true and correct to the best of my knowledge and according to our official records. ",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber3a_NameofPosition[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., For Change/Adjustment of Status. 3. A. Enter Position.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber3aCheckBox[0]",
+    "type": "checkbox",
+    "label": "For Official Use Only. Part 8., For Change/Adjustment of Status. Select this box for: 3. A. I further certify that the principal alien is being offered the following position.",
+    "page": 6,
+    "on_value": "/3A"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber2a_BilArrange[0]",
+    "type": "checkbox",
+    "label": "For Official Use Only. Part 8., 2. A. I further certify that the Requestor's eligibility for employment authorization was verified under the provisions of a (select only one box). Select this box for:  Bilateral De facto Arrangement.",
+    "page": 6,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber2a_BilAgree[0]",
+    "type": "checkbox",
+    "label": "For Official Use Only. Part 8., 2. A. I further certify that the Requestor's eligibility for employment authorization was verified under the provisions of a (select only one box). Select this box for:  Bilateral Agreement.",
+    "page": 6,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line2b_Country[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Additional Information About Agreement or Arrangement. 2. B. Enter Name of the Country With Which the Agreement or Arrangement was Made.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber2c_Without[0]",
+    "type": "checkbox",
+    "label": "For Official Use Only. Part 8., Additional Information About Agreement or Arrangement. 2. C. Select all applicable boxes. Select this box for:  Without a Numerical Limit.",
+    "page": 6,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber2c_With[0]",
+    "type": "checkbox",
+    "label": "For Official Use Only. Part 8., Additional Information About Agreement or Arrangement. 2. C. Select all applicable boxes. Select this box for:  With a Numerical Limit and this Requestor is Within the Limit.",
+    "page": 6,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber3b_NotificationDate[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., For Change/Adjustment of Status. 3. B. D O S Notification Date. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber4b_CertOfficialGivenName[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Certifying Official's Information. 4. B. Enter Certifying Official's First Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber4a_CertOfficialFamilyName[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Certifying Official's Information. 4. A. Enter Certifying Official's Last Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber8a_CertOfficialSignature[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Certifying Official's Signature. 8. A. Certifying Official's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber8b_DateofSignature[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Certifying Official's Signature. 8. B. Date of Signature. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9a_Name[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. A. Enter Name of Diplomatic Mission, International Organization, NATO / H Q S A C T, or NATO Member State. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9b_StreetNumberName[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. B. Enter Street Number and Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9c_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. C. Enter Apartment, Suite or Floor Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9d_CityOrTown[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. D. Enter City or Town.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9_Country[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. I. Enter Country.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9_Province[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. G. Enter Province.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9_PostalCode[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. H. Enter Postal Code.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9_ZipCode[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. F. Enter Zip Code.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9_State[0]",
+    "type": "choice",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. E. Select State from List of States.",
+    "page": 6,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9c_Unit[0]",
+    "type": "checkbox",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. C. Select Suite.",
+    "page": 6,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9c_Unit[1]",
+    "type": "checkbox",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. C. Select Floor.",
+    "page": 6,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber9c_Unit[2]",
+    "type": "checkbox",
+    "label": "For Official Use Only. Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State. 9. C. Select Apartment.",
+    "page": 6,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber2a_G4Reg[0]",
+    "type": "checkbox",
+    "label": "For Official Use Only. Part 8., 2. A. I further certify that the Requestor's eligibility for employment authorization was verified under the provisions of a (select only one box). Select this box for: G- 4 Regulations. ",
+    "page": 6,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber5_CertOfficialTitle[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Certifying Official's Information. 5. Enter Certifying Official's Title.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber6_CertOfficialDaytimePhoneNumber3[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Certifying Official's Information. 6. Enter Certifying Official's Daytime Telephone Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8ItemNumber7_CertOfficialEmailAddress[0]",
+    "type": "text",
+    "label": "For Official Use Only. Part 8., Certifying Official's Information. 7. Enter Certifying Official's Email Address (if any).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9ItemNumber1a_DenyRequest[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 9.,1. A. Recommendation from Department of State, NATO / Headquarters Supreme Allied Commander Transformation, and / or Department of State U. S. Delegation to the United Nations. Select this box for:  Select Deny Request. ",
+    "page": 7,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9ItemNumber1a_GrantRequest[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 9.  Department of State, NATO / Headquarters Supreme Allied Commander Transformation, and / or Department of State U. S. Delegation to the United Nations Information. 1. A. Recommendation from Department of State, NATO / Headquarters Supreme Allied Commander Transformation, and / or Department of State U. S. Delegation to the United Nations. Select this box for:  Grant Request.",
+    "page": 7,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9ItemNumber1b_Reason[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 9., For Change / Adjustment of Status only. 1. B. If you selected \u201cDeny Request,\u201d enter the reasons for the recommendation. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Part1_Line5_DateofBirth[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 9., For Change / Adjustment of Status only. 2. Date of Recommendation. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9ItemNumber3_Protocol[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 9., For Change / Adjustment of Status only. 3. Office Providing Recommendation. Select this box for:  Select Department of State (D O S) Protocol.",
+    "page": 7,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9ItemNumber3_OFM[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 9., For Change / Adjustment of Status only. 3. Office Providing Recommendation. Select this box for:  Department of State (D O S) Office of Foreign Missions (O F M).",
+    "page": 7,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9ItemNumber3_Visa[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 9., For Change / Adjustment of Status only. 3. Office Providing Recommendation. Select this box for:  Department of State (D O S) Visa.",
+    "page": 7,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9ItemNumber3_DOSUSUN[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 9., For Change / Adjustment of Status only. 3. Office Providing Recommendation. Select this box for:  Department of State (D O S) U. S. Mission to United Nations (U S U N) Host Country.",
+    "page": 7,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9ItemNumber4b_RecommOfficialDaytimePhoneNumber3[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 9., Signature and Contact Information for Recommending Official. 4. B. Enter Recommending Official's Daytime Telephone Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Pt9ItemNumber4a_RecommOfficialSignature[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 9., Signature and Contact Information for Recommending Official. 4. A. Recommending Official's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber3_OfficeTelephoneNumber[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., 3. Enter Office Telephone Number (including area code). ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber2_USCISOffice[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., 2. Enter U S C I S Office.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber1_ISOIDNumber[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 10. U S C I S Information. Information About U S C I S Immigration Services Officer (I S O). 1. Enter I S O's Identification Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber4_OFM[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 4. Where was U S C I S decision sent? Select this box for:  Department of State (D O S) Office of Foreign Missions (O F M). ",
+    "page": 7,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber4_Protocol[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 4. Where was U S C I S decision sent? Select this box for: Department of State (D O S) Protocol.",
+    "page": 7,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber4_VISA[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 4. Where was U S C I S decision sent? Select this box for: Department of State (D O S) Visa.",
+    "page": 7,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber4_NATO[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 4. Where was U S C I S decision sent? Select this box for:  NATO / Headquarters Supreme Allied Commander Transformation (H Q S A C T).",
+    "page": 7,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber4_DOSUSUN[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 4. Where was U S C I S decision sent? Select this box for: Department of State (D O S) U.S. Mission to United Nations (U S U N) Host Country.",
+    "page": 7,
+    "on_value": "/5"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber6a_Granted[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request.  6. A. Decision for Employment Authorization Request. Select this box for: Granted.",
+    "page": 7,
+    "on_value": "/G"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber6a_Denied[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 6. A. Decision for Employment Authorization Request. Select this box for:  Denied.",
+    "page": 7,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber6b_DateofDecision[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 6. B. Date of Decision. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber6c_EADValidationDate[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 6. C. Employment Authorization Valid Until (m m / d d / y y y y). Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber6d_Classification[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 6. D. Enter Classification.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber7a_Checkbxyes[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 7. A. Were Department of State, NATO / Headquarters Supreme Allied Commander Transformation, and / or Department of State U. S. mission to United Nations Host Country notified? Select Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber7a_Checkbxno[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 7. A. Were Department of State, NATO / Headquarters Supreme Allied Commander Transformation, and / or Department of State U. S. mission to United Nations Host Country notified? Select No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber7b_NotificationDate[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 7. B. Date of Notification. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber5a_Granted[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 5. A. Decision for Change / Adjustment of Status. Select this box for:  Granted.",
+    "page": 7,
+    "on_value": "/G"
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber5a_Denied[0]",
+    "type": "checkbox",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 5. A. Decision for Change / Adjustment of Status. Select this box for:  Denied.",
+    "page": 7,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[8].Part1_Line5_DateofBirth[1]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 5. B. Date of Decision. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[8].Pt10ItemNumber5c_NewStatus[0]",
+    "type": "text",
+    "label": "FOR OFFICIAL USE ONLY. Part 10., Information About U S C I S Action Taken on This Request. 5. C. If you selected \u201cGranted,\u201d provide the new status below. ",
+    "page": 7
+  }
+]

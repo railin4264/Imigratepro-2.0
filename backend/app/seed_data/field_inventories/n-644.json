@@ -1,0 +1,898 @@
+[
+  {
+    "name": "form1[0].#subform[0].ApplicanLastFirstMiddleName[0]",
+    "type": "text",
+    "label": "Part 1. A. Information About the Applicant. 1. Enter Name (Last/First/ Middle).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].ApplicantAddress[0]",
+    "type": "text",
+    "label": "Part 1. A. Information About the Applicant. 2. Address. Enter Street Name and Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].ApplicantCityStateCountryZip[0]",
+    "type": "text",
+    "label": "Part 1. A. Information About the Applicant. 2. Address. Enter Town/City, State/Country , Zip/Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].NameofAmericanEmbassyorConsulate[0]",
+    "type": "text",
+    "label": "Part 1. A. Information About the Applicant. 3. If Abroad, Enter City/Country of Nearest U. S. Embassy or Consulate.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].ApplicantAreaCode[0]",
+    "type": "text",
+    "label": "Part 1. A. Information About the Applicant. 7. Telephone Number (Include Area Code/Country Code). Enter 3-digit Area Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].ApplicantPhoneNumber[0]",
+    "type": "text",
+    "label": "Part 1. A. Information About the Applicant. 7. Telephone Number (Include Area Code/Country Code). Enter 7-digit Telephone Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].NumberOfAffidavits[0]",
+    "type": "text",
+    "label": "Part 1. A. Information About the Applicant. 6. Enter Total Number of Authorization Affidavits Attached (see instructions).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].NOK1[0]",
+    "type": "checkbox",
+    "label": "Part 1. A. Information About the Applicant. 8. Your Relationship to Decedent at Time of His/Her Death (Check one.) Next of Kin. Check A. Spouse.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].NOK2[0]",
+    "type": "checkbox",
+    "label": "Part 1. A. Information About the Applicant. 8. Your Relationship to Decedent at Time of His/Her Death (Check one.) Next of Kin. Check B. Parent.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].NOK3[0]",
+    "type": "checkbox",
+    "label": "Part 1. A. Information About the Applicant. 8. Your Relationship to Decedent at Time of His/Her Death (Check one.) Next of Kin. Check C. Son/Daughter.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].NOK4[0]",
+    "type": "checkbox",
+    "label": "Part 1. A. Information About the Applicant. 8. Your Relationship to Decedent at Time of His/Her Death (Check one.) Next of Kin. Check D. Brother/Sister.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].NOK5[0]",
+    "type": "checkbox",
+    "label": "Part 1. A. Information About the Applicant. 8. Your Relationship to Decedent at Time of His/Her Death (Check one.) Representative. Check E. Executor or Administrator of Decedent's Estate.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].NOK6[0]",
+    "type": "checkbox",
+    "label": "Part 1. A. Information About the Applicant. 8. Your Relationship to Decedent at Time of His/Her Death (Check one.) Representative. Check F. Guardian, Conservator, or Committee of Decedent's Next-of-Kin.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].NOK7[0]",
+    "type": "checkbox",
+    "label": "Part 1. A. Information About the Applicant. 8. Your Relationship to Decedent at Time of His/Her Death (Check one.) Representative. Check G. Veteran's Affairs (V A) Recognized Service Organization (Name below). ",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].NameOfOrganization[0]",
+    "type": "text",
+    "label": "Part 1. A. 8. If G. Veteran's Affairs (V A) Recognized Service Organization (Name below), is Checked, Enter Name of Service Organization.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].DecedentLastFirstMiddleName[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 1. Enter Name Used During Active Service (Last/First/Middle).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].OtherNameUsedbyDecedent[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 2. Enter Other Names Used.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].DecedentDateofBirth[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 3. Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].DecedentPlaceOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 4. Enter Place of Birth. (City/State/Country).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].DecedentDateofDeath[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 5. Enter Date of Death as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].DecedentPlaceOfDeath[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 6. Enter Place of Death. (City/State/Country).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].ApplicantDOB[0]",
+    "type": "text",
+    "label": "Part 1. A. Information About the Applicant. 4. Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].ApplicantAnumber[0]",
+    "type": "text",
+    "label": "Part 1. A. Information About the Applicant. 5. Enter Alien Registration Number (A-Number), if applicable.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].ApplicantE-MailAddress[0]",
+    "type": "text",
+    "label": "Part 1. A. Information About the Applicant. 9. Enter E-mail Address.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].DecedentANumber[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 8. Enter Alien Registration Number (A-Number) or Other U S C I S File Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].DecedentSocialSecurityNumber[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 9. Enter U. S. Social Security Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].DecedentStatusAtTimeOfDeath[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 7. Enter Immigration Status at Time of Death (Permanent Resident, Student, Visitor, etc.).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].DateReleasedFromActiveDuty[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 16. Date Released From Active Duty Service. Enter Date as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].BranchOfService[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 17. Enter Branch of Service.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].TypeOfDischarge[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 18. Enter Type of Discharge.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Rank[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 19. Enter Military Rank at Time of Discharge. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].RM1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 20. Retired From Military? Check Yes.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].RM2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 20. Retired From Military? Check No.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].VAClaimNumber[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 21. Enter Veterans Affairs (V A) Claim Number, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].NumberOfChildren[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 22. Enter Total Number of Children (If none, write \"None\").",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].NumberOfBrothers_Sisters[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 24. Enter Total Number of Brothers and Sisters (If none, write \"None\").",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].SerialNumber[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 13. Enter Military Service Serial Number (If different from Social Security Number).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].ActiveDutyDate[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 14. Date Entered Active Duty Service. Enter Date as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].PlaceOfActiveDutyEntry[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 15. Place Entered Active Duty Service. Enter City/State/Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].FatherLastFirstMiddleName[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. Father. 10. Enter Father's Full Name. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Check1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. Father. 10. Check Living.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Check2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. Father. 10. Check Deceased.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].MotherMaidenName[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. Mother. 11. Enter Mother's Maiden Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Check3[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. Mother. 11. Check Living. ",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Check4[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. Mother. 11. Check Deceased.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Check5[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 12. Marital Status at Time of Death. Check A. Married.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Check6[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 12. Marital Status at Time of Death. Check C. Widowed.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Check7[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 12. Marital Status at Time of Death. Check B. Divorced.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Check8[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 12. Marital Status at Time of Death. Check D. Single.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Name[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. A. Child 1. Enter Name (Last/First/Middle).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].ECA1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. A. Child 1. Check Living.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].ECA2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. A. Child 1. Check Deceased.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].DOB[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. A. Child 1. Enter Date of Birth as as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].DOB[1]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. C. Child 3. Enter Date of Birth as as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].ECC2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. C. Child 3. Check Deceased.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].ECC1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. C. Child 3. Check Living.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].LastFirstMiddleName[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. C. Child 3. Enter Name (Last/First/Middle).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].LastFirstMiddleName[1]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. D. Child 4. Enter Name (Last/First/Middle).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].DOB[2]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. E. Child 5. Enter Date of Birth as as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].ECE2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. E. Child 5. Check Deceased.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].ECE1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. E. Child 5. Check Living.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].LastFirstMiddleName[2]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. E. Child 5. Enter Name (Last/First/Middle).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].ECD1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. D. Child 4. Check Living.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].ECD2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. D. Child 4. Check Deceased.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].DOB[3]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. D. Child 4. Enter Date of Birth as as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Name[1]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. A. Sibling 1. Enter Name (Last/First/Middle).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Name[2]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. C. Sibling 3. Enter Name (Last/First/Middle).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].DOB[4]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. D. Sibling 4. Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].EBSD2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. D. Sibling 4. Check Deceased.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].EBSD1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. D. Sibling 4. Check Living.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Name[3]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. D. Sibling 4. Enter Name (Last/First/Middle).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].EBSC1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. C. Sibling 3. Check Living.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].EBSC2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. C. Sibling 3. Check Deceased.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].DOB[5]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. C. Sibling 3. Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].DOB[6]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. B. Sibling 2. Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].EBSB2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. B. Sibling 2. Check Deceased.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].EBSB1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. B. Sibling 2. Check Living.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Name[4]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. B. Sibling 2. Enter Name (Last/First/Middle).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].EBSA1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. A. Sibling 1. Check Living.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].EBSA2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. A. Sibling 1. Check Deceased.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].DOB[7]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. A. Sibling 1. Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].LastFirstMiddleName[3]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. B. Child 2. Enter Name (Last/First/Middle).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].ECB1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. B. Child 2. Check Living.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].ECB2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. B. Child 2. Check Deceased.",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].DOB[8]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 23. Complete the Following for Each Child. B. Child 2. Enter Date of Birth as as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. 8. Certification. I certify the information given here concerning the (Check one or both, as appropriate). Check Service.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[1]",
+    "type": "checkbox",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. 8. Certification. I certify the information given here concerning the (Check one or both, as appropriate). Check Death.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].Department[0]",
+    "type": "text",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. 8. Certification. I certify the information given here concerning the (Check one or both, as appropriate) of the individual named on this form is correct according to the records of the (name below). Enter Department of Defense Military Branch.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Date[0]",
+    "type": "text",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. 8. Certification. Enter Date of Signature as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Title[0]",
+    "type": "text",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. 8. Certification. Enter Title.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Email[0]",
+    "type": "text",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. 8. Certification. Enter E-mail Address.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[2]",
+    "type": "checkbox",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. Check 1. No Active Duty Records Found for This Individual.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[3]",
+    "type": "checkbox",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. Check 2. No Casualty Records Found for This Individual.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[4]",
+    "type": "checkbox",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. Check 3. Name of Decedent Correctly Shown.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[5]",
+    "type": "checkbox",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. Check 4. Name of Decedent Different in Records. ",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].NameShownInRecords[0]",
+    "type": "text",
+    "label": "Part 2. If 4. Name of Decedent Different in Records, is Checked, List name shown in records.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[6]",
+    "type": "checkbox",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. Check 5. Active Duty Service Records Found (Complete A through F).",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].Branch[0]",
+    "type": "text",
+    "label": "Part 2. If 5. Active Duty Service Records Found (Complete A through F), is Checked, Complete 5. A. Enter Branch of Service.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].DateEntered[0]",
+    "type": "text",
+    "label": "Part 2. If 5. Active Duty Service Records Found (Complete A through F), is Checked, Complete 5. B. Date Entered Active Duty. Enter Date as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Place[0]",
+    "type": "text",
+    "label": "Part 2. If 5. Active Duty Service Records Found (Complete A through F), is Checked, Complete 5. C. Place Entered Active Duty Service. Enter City/State/Country.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].ServiceNumber[0]",
+    "type": "text",
+    "label": "Part 2. If 5. Active Duty Service Records Found (Complete A through F), is Checked, Complete 5. D. Enter Service Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].DateReleased[0]",
+    "type": "text",
+    "label": "Part 2. If 5. Active Duty Service Records Found (Complete A through F), is Checked, Complete 5. E. Enter Date Released From Service as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[7]",
+    "type": "checkbox",
+    "label": "Part 2. If 5. Active Duty Service Records Found (Complete A through F), is Checked, Complete 5. F. Honorable Service During a Period of Hostilities (If no is checked, please provide an explanation.) Check Yes.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[8]",
+    "type": "checkbox",
+    "label": "Part 2. If 5. Active Duty Service Records Found (Complete A through F), is Checked, Complete 5. F. Honorable Service During a Period of Hostilities (If no is checked, please provide an explanation.) Check No.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[9]",
+    "type": "checkbox",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. 6. Individual Entered Service Under the Lodge Act? Check Yes.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[10]",
+    "type": "checkbox",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. 6. Individual Entered Service Under the Lodge Act? Check No.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[11]",
+    "type": "checkbox",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. 6. Individual Entered Service Under the Lodge Act? Check Unable to Determine.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[12]",
+    "type": "checkbox",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. Check 7. Record of Death Found (Complete A and B).",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].DOD[0]",
+    "type": "text",
+    "label": "Part 2. If 7. Record of Death Found (Complete A and B), is Checked, Complete 7. A. Enter Date of Death as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[13]",
+    "type": "checkbox",
+    "label": "Part 2. If 7. Record of Death Found (Complete A and B), is Checked, Complete 7. B. Death resulted from injury or disease incurred in or aggravated by active duty service during a period of military hostilities specified by law? Check Yes.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[14]",
+    "type": "checkbox",
+    "label": "Part 2. If 7. Record of Death Found (Complete A and B), is Checked, Complete 7. B. Death resulted from injury or disease incurred in or aggravated by active duty service during a period of military hostilities specified by law? Check No.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].CheckBox1[15]",
+    "type": "checkbox",
+    "label": "Part 2. If 7. Record of Death Found (Complete A and B), is Checked, Complete 7. B. Death resulted from injury or disease incurred in or aggravated by active duty service during a period of military hostilities specified by law? Check Unable to Determine.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].Date[1]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. Certificate of Applicant. Enter Date of Signature as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Name[5]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. Certificate of Applicant. Enter Name (Print or Type).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Name[6]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. F. Sibling 6. Enter Name (Last/First/Middle).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].DOB[9]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. G. Sibling 7. Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].IADG2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. G. Sibling 7. Check Deceased.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].IADG1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. G. Sibling 7. Check Living.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].Name[7]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. G. Sibling 7. Enter Name (Last/First/Middle).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].IADF1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. F. Sibling 6. Check Living.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].IADF2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. F. Sibling 6. Check Deceased.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].DOB[10]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. F. Sibling 6. Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].DOB[11]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. E. Sibling 5. Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].IADE2[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. E. Sibling 5. Check Deceased.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].IADE1[0]",
+    "type": "checkbox",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. E. Sibling 5. Check Living.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].Name[8]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. 25. Complete the Following for Each Brother and Sister. E. Sibling 5. Enter Name (Last/First/Middle).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Explain[0]",
+    "type": "text",
+    "label": "Part 2. 5. F. Honorable Service During a Period of Hostilities. If No, is Checked, Enter Explanation.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Phone[0]",
+    "type": "text",
+    "label": "Part 2. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. 8. Certification. Enter Phone Number. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].CertificationAddress[0]",
+    "type": "text",
+    "label": "Part 1. B. Information About the Decedent. Certificate of Applicant.  Enter Address (Street Number and Name, City/Town, State/Province, Country, Zip-Postal Code).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].DateofDeath[0]",
+    "type": "text",
+    "label": "Part 3. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. A. Certification. Based on the information received from the Department of Veterans Affairs concerning the death of the individual named on this form, I certify that the individual died on: Enter Date of Death as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].DateofCertificate[0]",
+    "type": "text",
+    "label": "Part 3. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. A. Certification. Enter Date of Signature as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Title[1]",
+    "type": "text",
+    "label": "Part 3. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. A. Certification. Enter Title. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Date[2]",
+    "type": "text",
+    "label": "Part 3. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. B. Unable to Certify. Enter Date of Signature as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Title[2]",
+    "type": "text",
+    "label": "Part 3. To Be Completed by the Department of Defense Official for Appropriate Branch of Military Service. B. Unable to Certify. Enter Title. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].CheckBox1[16]",
+    "type": "checkbox",
+    "label": "Part 4. To be Completed by U. S. Citizenship and Immigration Services. Check Applicant Authorized Next-of-Kin or Representative.",
+    "page": 4,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[3].CheckBox1[17]",
+    "type": "checkbox",
+    "label": "Part 4. To be Completed by U. S. Citizenship and Immigration Services. Check Positive Certification Military Service.",
+    "page": 4,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[3].CheckBox1[18]",
+    "type": "checkbox",
+    "label": "Part 4. To be Completed by U. S. Citizenship and Immigration Services. Check Positive Certification Service Connected Death.",
+    "page": 4,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[3].CheckBox1[19]",
+    "type": "checkbox",
+    "label": "Part 4. To be Completed by U. S. Citizenship and Immigration Services. Check Place of Enlistment Qualifies Under Immigration and Nationality Act (I N A) Section 3 29 (A)(1).",
+    "page": 4,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[3].CheckBox1[20]",
+    "type": "checkbox",
+    "label": "Part 4. To be Completed by U. S. Citizenship and Immigration Services. Check Decedent Admitted for Lawful Permanent Residence.",
+    "page": 4,
+    "on_value": "/1"
+  }
+]

@@ -1,0 +1,1152 @@
+[
+  {
+    "name": "form1[0].#pageSet[0].Page2[0].TextField1[0]",
+    "type": "text",
+    "label": "TextField1",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 1.Full Legal Name (Do not provide a nickname). Enter Middle Name (if applicable).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 1.Full Legal Name (Do not provide a nickname). Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 1.Full Legal Name (Do not provide a nickname). Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_CityTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Current Physical Address. Enter the City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Current Physical Address.  Enter the ZIP Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. 2. Current Physical Address. Select a State from the list of States.",
+    "page": 1,
+    "options": [
+      "",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Current Physical Address. Enter the Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 2. Current Physical Address. Select for Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 2. Current Physical Address. Select for Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 2. Current Physical Address. Select for Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Current Physical Address. Enter an Apartment, Suite, or Floor number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_DateFrom[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Current Physical Address. Length of residence. Enter the Date from. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_DateTo[0]",
+    "type": "text",
+    "label": "P1_Line2_DateTo",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  4. Enter the Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_Sex[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You.  5. Sex. Select for Male.",
+    "page": 1,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_Sex[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. . 5. Sex. Select for Female.",
+    "page": 1,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line9_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 7.  Enter a 9-digit Alien Registration Number (A Number), if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line10_MiddleName2[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  8. All Other Names Used (include names by previous marriages). Row 2. Enter the Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line10_FamilyName3[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  8. All Other Names Used (include names by previous marriages). Row 3. Enter the Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line10_GivenName3[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  8. All Other Names Used (include names by previous marriages). Row 3. Enter the Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line10_MiddleName3[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  8. All Other Names Used (include names by previous marriages). Row 3. Enter the Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line10_GivenName2[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  8. All Other Names Used (include names by previous marriages). Row 2. Enter the Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line10_FamilyName2[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  8.  All Other Names Used (include names by previous marriages). Row 2. Enter the Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line10_MiddleName1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  8. All Other Names Used (include names by previous marriages). Row 1. Enter the Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line10_GivenName1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  8. All Other Names Used (include names by previous marriages). Row 1. Enter the Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line10_FamilyName1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  8. All Other Names Used (include names by previous marriages). Row 1. Enter the Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_CityTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address or Safe Address  if applicable. Enter the City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address of Safe Address, if applicable. Enter the ZIP Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. 3. Current Mailing Address of Safe Address, if applicable. Select the State form the list of States.",
+    "page": 1,
+    "options": [
+      "",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address or Safe Address, If applicable. Enter the Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 3. Current Mailing Address or Safe Address, if applicable. Select for Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 3. Current Mailing Address or Safe Address, if applicable. Select for Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 3. Current Mailing Address or Safe Address, if applicable. Select for Floor. ",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address or Safe Address, if applicable. Enter an Apartment, Suite or Floor number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_InCareofName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Current Mailing Address or Safe Address, If applicable. Enter an In Care of Name, (if any).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line6_USCISELISAcctNumber[0]",
+    "type": "text",
+    "label": "Part 2.  Information About You.  6. Enter U S C I S Online Account Number, if any. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line5_CountryOfCitizenship[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  10. Enter the Country of Citizenship or Nationality.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line11_CityCountyOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 9. Enter the City and Country of Birth.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line5_CountryOfCitizenship[1]",
+    "type": "text",
+    "label": "Part 1. Information About You.  11.  Enter the Country of Citizenship or Nationality.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#pageSet[0].Page3[0].TextField1[0]",
+    "type": "text",
+    "label": "TextField1",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row2[0].P1_Line26_StreetandNumber_2[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 1. Enter the Street Name and Number. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row2[0].P1_Line26_City_1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 1. Enter the City.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row2[0].P1_Line26_ProvinceorState_1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 1. For International Address enter the Province. For U.S. Address enter the State.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row2[0].P1_Line26_ZIPPostalCode_1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 1. For International Address enter the Postal Code. For U.S. Address enter the ZIP Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row2[0].P1_Line26_Country_1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 1. Enter the Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row2[0].P1_Line26_MonthFrom_1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 1. Enter the date residence began. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row2[0].P1_Line26_MonthTo_1[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 1. Enter the date residence ended. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row3[0].P1_Line26_StreetandNumber_2[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 2. Enter the Street Name and Number. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row3[0].P1_Line26_City_2[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 2. Enter the City.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row3[0].P1_Line26_ProvinceorState_2[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 2. For International Address enter the Province. For U.S. Address enter the State.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row3[0].P1_Line26_ZIPPostalCode_2[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 2. For International Address enter the Postal Code. For U.S. Address enter the ZIP Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row3[0].P1_Line26_Country_2[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 2. Enter the Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row3[0].P1_Line26_MonthFrom_2[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 2. Enter the date residence began. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row3[0].P1_Line26_MonthTo_2[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 2. Enter the date residence ended. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row4[0].P1_Line26_StreetandNumber_3[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 3. Enter the Street Name and Number. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row4[0].P1_Line26_City_3[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 3. Enter the City.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row4[0].P1_Line26_ProvinceorState_3[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 3. For International Address enter the Province. For U.S. Address enter the State.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row4[0].P1_Line26_ZIPPostalCode_3[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 3. For International Address enter the Postal Code. For U.S. Address enter the ZIP Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row4[0].P1_Line26_Country_3[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 3. Enter the Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row4[0].P1_Line26_MonthFrom_3[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 3. Enter the date residence began. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row4[0].P1_Line26_MonthTo_3[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 3. Enter the date residence ended. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row5[0].P1_Line26_StreetandNumber_4[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 4. Enter the Street Name and Number. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row5[0].P1_Line26_City_4[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 4. Enter the City.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row5[0].P1_Line26_ProvinceorState_4[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 4. For International Address enter the Province. For U.S. Address enter the State.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row5[0].P1_Line26_ZIPPostalCode_4[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 4. For International Address enter the Postal Code. For U.S. Address enter the ZIP Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row5[0].P1_Line26_Country_4[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 4. Enter the Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row5[0].P1_Line26_MonthFrom_4[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address. Row 4. Enter the date residence began. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Table1[0].Row5[0].P1_Line26_MonthTo_4[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Your Prior Residences. 12. List your previous addresses for the last five years excluding your current physical address.  Row 4. Enter the date residence ended. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line4_DateOfBirth[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. . 13. A. . Enter the Date You entered the United States, On or About .   Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line4_DateOfBirth[2]",
+    "type": "text",
+    "label": "Part 1. Information About You. . 13. D.  Enter the Date Status Expires/Expired. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line5_CountryOfCitizenship[2]",
+    "type": "text",
+    "label": "Part 1. Information About You. . 13. C.  Enter Immigration Status at the Time of Entry into the United States (for example, H-2 temporary worker, H-1B temporary worker, no status)",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line5_CountryOfCitizenship[3]",
+    "type": "text",
+    "label": "Part 1. Information About You. . 13. B. Enter Location at Which You Last Entered the United States",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line4_DateOfBirth[3]",
+    "type": "text",
+    "label": "Part 1. Information About You.  If you were issued a Form I-94 Arrival-Departure Record Number:  14. B.  Enter Expiration Date of Authorized Stay Shown on Form I-94. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line5_CountryOfCitizenship[4]",
+    "type": "text",
+    "label": "Part 1. Information About You.  If you were issued a Form I-94 Arrival-Departure Record Number:  14. A. Enter Form I-94 Arrival-Departure Record Number ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line13_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 1.  15.  Enter the Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line13_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 1.  15. Enter the Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line14_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 1.  16.  Enter the Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line15_CityCountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 1.  17. Enter the City  or Town of Birth (if known).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line16_CityCountryOfResidence[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 1.  18. Enter  Country of Birth (if known).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line16_CityCountryOfResidence[1]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 1.  19. Enter Current City or town of Residence (if living).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line13_GivenName[1]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 2.  21. Enter the Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line13_FamilyName[1]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 2.  Enter the Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line14_DateOfBirth[1]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 2.  22. Enter the Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line16_CityCountryOfResidence[2]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 1.  20. Enter Current Country of Residence (if living)",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line15_CityCountryOfBirth[1]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 2. 23. Enter the City and Town of Birth (if known).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line16_CityCountryOfResidence[3]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 2.  24. Enter the Country of Birth ( if Known).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line16_CityCountryOfResidence[4]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 2.  25. Enter Current City and Town of Residence (if living).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line16_CityCountryOfResidence[5]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Information About Your Parent 2.  26. Enter Current  Country of Residence (if living).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line21_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Current Spouse  (if none, type or print \"none\". 27. Enter the Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line21_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Current Spouse  (if none, type or print \"none\". 27. Enter the Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line22_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Current Spouse  (if none, type or print \"none\".  28. Enter the Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#pageSet[0].Page3[1].TextField1[0]",
+    "type": "text",
+    "label": "TextField1",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line23_CityCountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Current Spouse  (if none, type or print \"none\".  Place of Birth.  29. A. Enter the City or Town of Birth.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line24_DateOfMarriage[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Current Spouse  (if none, type or print \"none\".  Place of Marriage .  31. Enter Date of Marriage.  Enter the Date as a 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line25_PlaceOfMarriage[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Current Spouse  (if none, type or print \"none\".  Place of Marriage .  30. A. Enter the City or Town..",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line25_PlaceOfMarriage[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Current Spouse  (if none, type or print \"none\".  Place of Marriage . 30. B. Enter State or Province.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line25_PlaceOfMarriage[2]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Current Spouse  (if none, type or print \"none\".  Place of Marriage .  30. C. Enter the Country.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P2_2_CB[0]",
+    "type": "checkbox",
+    "label": "Part 2. Deferred Action Request. Please select the filing type for the deferred action request.   B. Select for: Special Immigrant Juvenile (S I J D A)",
+    "page": 3,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[3].P2_2_CB[1]",
+    "type": "checkbox",
+    "label": "Part 2. Deferred Action Request.  2. Please select the filing type for the deferred action request. A. Select for: Labor Investigation-Based (L I B - D A). ",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[3].P2_2_CB[2]",
+    "type": "checkbox",
+    "label": "Part 2. Deferred Action Request.  2. Please select the filing type for the deferred action request. C.  Select for: Spouse, Widow(er), Parent, Son, or Daughter of Active Duty Service Member of U.S. Armed Forces or Individual in the Selected Reserve of the Ready Reserve (MIL DA).",
+    "page": 3,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[3].P2_2_CB[3]",
+    "type": "checkbox",
+    "label": "Part 2.  Deferred Action Request.  2. Please select the filing type for your deferred action request. D. Select for: Spouse, Widow(er), Parent, Son, or Daughter of Individual (Whether Living or Deceased) who Previously Served on Active Duty or in the Selected Reserve of the Ready Reserve (and was not Dishonorably Discharged) (MIL DA).",
+    "page": 3,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].#subform[3].P2_2_CB[4]",
+    "type": "checkbox",
+    "label": "Part 2.  Deferred Action Request.  2. Please select the filing type for your deferred action request. F. Select for: Statelessness.",
+    "page": 3,
+    "on_value": "/6"
+  },
+  {
+    "name": "form1[0].#subform[3].P2_2_CB[5]",
+    "type": "checkbox",
+    "label": "Part 2.  Deferred Action Request.  2. Please select the filing type for your deferred action request.  E. Select for: Medical or Humanitarian.",
+    "page": 3,
+    "on_value": "/5"
+  },
+  {
+    "name": "form1[0].#subform[3].P2_2_CB[6]",
+    "type": "checkbox",
+    "label": "Part 2.  Deferred Action Request.  2. Please select the filing type for your deferred action request.  G. Select for: Government Referral (Other than a Labor Agency)",
+    "page": 3,
+    "on_value": "/7"
+  },
+  {
+    "name": "form1[0].#subform[3].Line1a_Purpose[0]",
+    "type": "text",
+    "label": "Part 2. Deferred Action Request. 3. Supporting Statement.  In addition to submitting evidence required to support your request for deferred action, please provide a brief statement as to why your request for deferred action should be considered and why you warrant deferred action as a matter of discretion. If extra space is needed to complete this section, use the space provided in Part 8. Additional Information.  Enter a Brief Statement.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P2_CB[0]",
+    "type": "checkbox",
+    "label": "Part 2. Deferred Action Request. 1. Please select the request type:  Select Initial Request.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[3].P2_CB[1]",
+    "type": "checkbox",
+    "label": "Part 2. Deferred Action Request. 1. Please select the request type:   Select  Subsequent Request.",
+    "page": 3,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[3].P2_2_CB[7]",
+    "type": "checkbox",
+    "label": "Part 2.  Deferred Action Request.  2. Please select the filing type for your deferred action request.  H.  Select for: Other (Please review the form instructions before completing this field).",
+    "page": 3,
+    "on_value": "/8"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line23_CityCountryOfBirth[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. Information About Your Current Spouse  (if none, type or print \"none\".  Place of Birth.  29. B.  Enter the Country.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].Line2_No1[0]",
+    "type": "checkbox",
+    "label": "Part 3. Employment Authorization. 1. I am requesting an Employment Authorization Document (EAD) upon being granted deferred action: Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].Line2_Yes1[0]",
+    "type": "checkbox",
+    "label": "Part 3. Employment Authorization. 1. I am  requesting an Employment Authorization Document (EAD) upon being granted deferred action: Select Yes. If \u201cYes,\u201d please provide the following information information regarding your economic necessity for employment (this information is not required if you are requesting the SIJ DA filing type):",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#pageSet[0].Page3[2].TextField1[0]",
+    "type": "text",
+    "label": "TextField1",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Line2a_AnnualIncome[0]",
+    "type": "text",
+    "label": "Part 3. Employment Authorization. 2. A. Enter My current annual income is: Enter numbers only.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Line2b_CurrentAnnualExp[0]",
+    "type": "text",
+    "label": "Part 3. Employment Authorization. 2. B. Enter My current annual expenses are:  Enter numbers only.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Line2c_AssestTotalValue[0]",
+    "type": "text",
+    "label": "Part 3. Employment Authorization. 2. C. Enter the total current value of  my assets is:  Enter numbers only.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P3_Line2d_Explanation[0]",
+    "type": "text",
+    "label": "Part 3. Employment Authorization. 2. D. If you would like to provide an explanation regarding your current financial information or your economic need for employment authorization, please use this space below. If you need extra space to complete this section, use the space provided in Part 8. Additional Information.  ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_CB1[0]",
+    "type": "checkbox",
+    "label": "Part 4. Social Security Card. 1.  Do you want the Social Security Administration (SSA) to issue you an original or replacement Social Security card? Select No, Go to Part 5..",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].P4_CB1[1]",
+    "type": "checkbox",
+    "label": "Part 4. Social Security Card.  If you select \u201cYes\u201d on Part 3. Employment Authorization, Item Number 1., please complete the following questions to receive a Social Security card through this process. If the below questions and questions in Part 1. are not completed, you will not receive a Social Security card through this process.   1.  Do you want the Social Security Administration (SSA) to issue you an original or replacement Social Security card?  Select Yes, Complete Item Numbers 2. - 3.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P4_Line2_SSN[0]",
+    "type": "text",
+    "label": "Part 4. Social Security Card.  2. Enter U. S. Social Security Number, if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Line2_No1[1]",
+    "type": "checkbox",
+    "label": "Part 4. Social Security Card. 3. Consent for Disclosure: I authorize disclosure of information from this application and USCIS systems to the SSA as required for the purpose of assigning me an SSN and issuing me an original or replacement Social Security card.   Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].Line2_Yes1[1]",
+    "type": "checkbox",
+    "label": "Part 4. Social Security Card. 3. Consent for Disclosure: I authorize disclosure of information from this application and USCIS systems to the SSA as required for the purpose of assigning me an SSN and issuing me an original or replacement Social Security card.  Select Yes.  NOTE: If you answered \u201cYes\u201d to Item Number 1., you must also answer \u201cYes\u201d to Item Number 3., Consent for Disclosure, to receive a card. ",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt12Line6_MobileNumber1[0]",
+    "type": "text",
+    "label": "Part 5. Requestor's Contact Information, Certification, and Signature. Requestor's Contact Information. 2. Enter Requestor's Mobile Telephone Number (if any).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Pt12Line7_Email[0]",
+    "type": "text",
+    "label": "Part 5. Requestor's Contact Information, Certification, and Signature. Requestor's Contact Information. 3. Enter Requestor's Email Address (if any).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Pt12Line5_DaytimePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 5. Requestor's Contact Information, Certification, and Signature. Requestor's Contact Information. Provide your daytime telephone number, mobile telephone number (if any), and email address (if any). 1. Enter Requestor's Daytime Telephone Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Pt13Line8_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 5. Requestor's Contact Information, Certification, and Signature. Requestor Certification and Signature. 4. Enter the Date of Signature. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Pt12Line8_Signature[0]",
+    "type": "text",
+    "label": "Part 5. Requestor's Contact Information, Certification, and Signature. Requestor's Certification and Signature. I certify, under penalty of perjury, that I provided or authorized all of the responses and information contained in and submitted with my request, I read and understand or, if interpreted to me in a language in which I am fluent by the interpreter listed in Part 6, understood, all of the responses and information contained in, and submitted with, my request, and that all of the responses and the information are complete, true, and correct. Furthermore, I authorize the release of any information from any and all of my records that USCIS may need to determine my eligibility for an immigration request and to other entities and persons where necessary for the administration and enforcement of U.S. immigration law. 4. Enter the Requestor Signature. This field cannot be signed electronically. Print form and sign in ink.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#pageSet[0].Page3[3].TextField1[0]",
+    "type": "text",
+    "label": "TextField1",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt13Line1_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter the Interpreter's Family Name (Last Name). ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt13Line1_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter the Interpreter's Given Name (First Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt13Line2_InterpreterBusinessorOrg[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter the Interpreter's Business or Organization Name. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt12Line5_InterpreterMobileTelephone[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter the Interpreter's Mobile Telephone Number (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt12Line4_InterpreterDaytimeTelephone[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter the Interpreter's Daytime Telephone Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt12Line5_Email[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter the Interpreter's Email Address (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt12_NameofLanguage[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. I certify, under penalty of perjury, that I am fluent in English and I have interpreted every question on the request and Instructions and interpreted the requestor's answers to the questions in their language, and the requestor informed me that he or she understood every instruction, question, and answer on the request. Enter the language intepreted for the Requestor.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt12Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. Enter the Date of the Interpreter Signature. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt12Line6_Signature[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. 6. Enter the Intpreter's Signature. This field cannot be signed electronically. Print form and sign in ink.  ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt13Line1_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Certification, and Signature of the Person Preparing this Request, if Other Than the Requestor. Preparer's Full Name. 1. Enter the Preparer's Given Name (First Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt13Line2_BusinessName[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Certification, and Signature of the Person Preparing this Request, if Other Than the Requestor. Preparer's Full Name. 2. Enter the Preparer's Business or Organization Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt13Line1_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 67 Contact Information, Certification, and Signature of the Person Preparing this Request, if Other Than the Requestor. Preparer's Full Name. 1. Enter the Preparer's Family Name (Last Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt13ine5_PreparerFaxNumber[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Certification, and Signature of the Person Preparing this Request, if Other Than the Requestor. Preparer's Contact Information. 4. Enter the Preparer's Mobile Telephone Number (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt13Line4_DaytimePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Certification, and Signature of the Person Preparing this Request, if Other Than the Requestor. Preparer's Contact Information. 3. Enter the Preparer's Daytime Telephone Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt13Line6_Email[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Certification, and Signature of the Person Preparing this Request, if Other Than the Requestor. Preparer's Contact Information. 5. Enter the Preparer's Email Address (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt12Line6_DateofSignature[1]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Certification, and Signature of the Person Preparing this Request, if Other Than the Requestor. Preparer's Certification and Signature. Enter the Date of Preparer's Signature. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt12Line6_Signature[1]",
+    "type": "text",
+    "label": "Part 7.  Contact Information, Certification, and Signature of the Person Preparing this Request, if Other Than the Requestor. Preparer's Certification and Signature. I certify, under penalty of perjury, that I prepared this request for the requestor at his or her request and with express consent and that all of the responses and information contained in and submitted with the request are complete, true, and correct and reflects only information provided by the requestor. The requestor reviewed the responses and information and informed me that he or she understands the responses and information in or submitted with the request. 6. Enter the Preparer's Signature. This field cannot be signed electronically. Print the form and sign in ink.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#pageSet[0].Page3[4].TextField1[0]",
+    "type": "text",
+    "label": "TextField1",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line3_PageNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 3. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line3_PartNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 3. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line3_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 3. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Line3_ANumber[0].P1_Line9_AlienNumber[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 1. Alien Registration Number (A. Number) (if any). This field is pre-populated from Page 1.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P1_Line1_GivenName[1]",
+    "type": "text",
+    "label": "Part 8.  Additional Information.  1.  Enter Given Name (First Name). This field will be pre-populated from Part 1.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P1_Line1_FamilyName[1]",
+    "type": "text",
+    "label": "Part 8.  Additional Information.  1.  Enter Family Name (Last Name).  This field will be pre-populated from Part 1.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P1_Line1_MiddleName[1]",
+    "type": "text",
+    "label": "Part 8.  Additional Information.  1.  Enter Middle Name.  This field will be pre-populated from Part 1.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line4_PageNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 4.  Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line4_PartNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 4. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line4_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 4. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line5_PageNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 5. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line5_PartNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 5. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line5_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 5. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line6_PageNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 6. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line6_PartNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 6. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line6_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 6. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line3_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information.  3. Enter Additional Information. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line4_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information.  4. Enter Additional Information. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line5_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information.  5. Enter Additional Information. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Pt8Line6_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information.  6.  Enter Additional Information. ",
+    "page": 6
+  }
+]

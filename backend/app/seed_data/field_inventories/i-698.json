@@ -1,0 +1,1726 @@
+[
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 1. Full Legal Name. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You 1. Full Legal Name. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 1. Full Legal Name. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line5_InCareOfName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. U. S.  Mailing Address. Enter In Care Of Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line5_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. U. S.  Mailing Address. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line5_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. 5. U. S.  Mailing Address. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line5_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. U. S.  Mailing Address. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line5_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. U. S.  Mailing Address. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_4_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 5. U. S.  Mailing Address. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_4_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 5. U. S.  Mailing Address. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_4_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 5. U. S.  Mailing Address. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_4_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 5. U. S.  Mailing Address. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L2_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Name as it Appears on Your Employment Authorization Document (Form I-7 6 6). A. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L2_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Name as it Appears on Your Employment Authorization Document (Form I-7 6 6). A. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L2_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Name as it Appears on Your Employment Authorization Document (Form I-7 6 6). A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L3A_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Any Other Names Used. A. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L3A_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Any Other Names Used. A. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L3A_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Any Other Names Used. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L3B_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Any Other Names Used. B. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L3B_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Any Other Names Used. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L3B_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Any Other Names Used. B. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 6. Is your current U.S. mailing address the same as your U.S. physical address. Select No. If you answered \"No,\" provide your U.S. physical address in Item Number 7.",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 6. Is your current U.S. mailing address the same as your U.S. physical address. Select Yes.  ",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_3_DifferenceInName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Name as it Appears on Your Employment Authorization Document (Form I-7 6 6). B. Provide the reason for a difference in the names, if any  (marriage, divorce, etc.).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L54_NativeAlphabet[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 4. B. Enter Language of Your Native Alphabet.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L53_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 4. A. If your native alphabet does not use Roman letters, type or print your name in your native alphabet. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L53_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 4. A. If your native alphabet does not use Roman letters, type or print your name in your native alphabet. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L53_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 4. A. If your native alphabet does not use Roman letters, type or print your name in your native alphabet. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].P1_8_SSN[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 9. Enter U. S. Social Security Number, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line8_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 8. Enter Alien Registration Number (A. Number), if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L11_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 12. Place of Birth. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_15_MaritalStatus[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 16. Marital Status. Select Divorced or Separated.",
+    "page": 2,
+    "on_value": "/Divorced"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_15_MaritalStatus[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 16. Marital Status. Select Married. ",
+    "page": 2,
+    "on_value": "/Married"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_15_MaritalStatus[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 16. Marital Status. Select Widowed.",
+    "page": 2,
+    "on_value": "/Widowed"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_15_MaritalStatus[3]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 16. Marital Status. Select Single (Never Married).",
+    "page": 2,
+    "on_value": "/Never Married"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_9_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 10. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_13_MothersFirstName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 14. Enter Mother's First Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_14_FathersFirstName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 15. Enter Father's First Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].#area[0].Pt1Line8_AlienNumber[1]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This field is read only. It pre-populated from the first page.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L11_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 12. Place of Birth. Enter Province or Foreign State.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L10_Sex[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 11. Sex. Select Male.",
+    "page": 2,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L10_Sex[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 11. Sex. Select Female.",
+    "page": 2,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L11_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 12. Place of Birth. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Race_Black[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 2. Race (Select all applicable boxes). Select Black or African American.",
+    "page": 2,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[1].Race_Hawaiian[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 2. Race (Select all applicable boxes). Select Native Hawaiian or Other Pacific Islander.",
+    "page": 2,
+    "on_value": "/H"
+  },
+  {
+    "name": "form1[0].#subform[1].Race_American[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 2. Race (Select all applicable boxes). Select American Indian or Alaska Native.",
+    "page": 2,
+    "on_value": "/I"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L3_HeightFeet[0]",
+    "type": "choice",
+    "label": "Part 2. Biographic Information. 3. Height. Feet. Select the number of feet.",
+    "page": 2,
+    "options": [
+      " ",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L3_HeightInches[0]",
+    "type": "choice",
+    "label": "Part 2. Biographic Information. 3. Height. Inches. Select the number of Inches.",
+    "page": 2,
+    "options": [
+      " ",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L4_Pound1[0]",
+    "type": "text",
+    "label": "Part 2. Biographic Information. 4. Enter Weight in Pounds. Enter the first digit of a three digit number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L4_Pound2[0]",
+    "type": "text",
+    "label": "Part 2. Biographic Information. 4. Enter Weight in Pounds. Enter the second digit of a three digit number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L4_Pound3[0]",
+    "type": "text",
+    "label": "Part 2. Biographic Information. 4. Enter Weight in Pounds. Enter the third digit of a three digit number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L5_EyeColor[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Brown.",
+    "page": 2,
+    "on_value": "/BRN"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L5_EyeColor[1]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Gray.",
+    "page": 2,
+    "on_value": "/GRY"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L5_EyeColor[2]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Maroon.",
+    "page": 2,
+    "on_value": "/MRN"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L5_EyeColor[3]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Unknown or Other.",
+    "page": 2,
+    "on_value": "/OTH"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L5_EyeColor[4]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Pink.",
+    "page": 2,
+    "on_value": "/PNK"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L5_EyeColor[5]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Hazel.",
+    "page": 2,
+    "on_value": "/HZL"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L5_EyeColor[6]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Green.",
+    "page": 2,
+    "on_value": "/GRN"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L5_EyeColor[7]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Blue.",
+    "page": 2,
+    "on_value": "/BLU"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L6_HairColor[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Bald. (No Hair).",
+    "page": 2,
+    "on_value": "/BLD"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L6_HairColor[1]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Blond.",
+    "page": 2,
+    "on_value": "/BND"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L6_HairColor[2]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Gray.",
+    "page": 2,
+    "on_value": "/GRY"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L6_HairColor[3]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Sandy.",
+    "page": 2,
+    "on_value": "/SDY"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L6_HairColor[4]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Unknown or Other.",
+    "page": 2,
+    "on_value": "/OTH"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L6_HairColor[5]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select White.",
+    "page": 2,
+    "on_value": "/WHT"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L6_HairColor[6]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Red.",
+    "page": 2,
+    "on_value": "/RED"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L6_HairColor[7]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Brown.",
+    "page": 2,
+    "on_value": "/BRN"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L6_HairColor[8]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Black.",
+    "page": 2,
+    "on_value": "/BLK"
+  },
+  {
+    "name": "form1[0].#subform[1].Race_Asian[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 2. Race (Select all applicable boxes). Select Asian.",
+    "page": 2,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[1].Race_White[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 2. Race (Select all applicable boxes). Select White.",
+    "page": 2,
+    "on_value": "/W"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L1_Ethnicity[0]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 1. Ethnicity (Select only one box). Select Not Hispanic or Latino. ",
+    "page": 2,
+    "on_value": "/NH"
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L1_Ethnicity[1]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 1. Ethnicity (Select only one box). Select Hispanic or Latino. ",
+    "page": 2,
+    "on_value": "/H"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23D_PurposeOfTrip[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Four. Enter Purpose of Trip. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23A_DateFrom[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line One. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23A_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. List absences from the United States since becoming a temporary resident.  List the most recent absence first.  If you have a single absence that exceeded 30 days or if the total of all of your absences exceeds 90 days, explain using the space provided in Part 8. Additional Information or attach a separate sheet of paper.  Type or print your name and. A. Number (if any) at the top of the sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. Line One. Enter Country. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23A_PurposeOfTrip[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line One. Enter Purpose of Trip. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23A_DaysAbsent[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line One. Enter Total Days Absent. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23A_DateTo[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line One. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23B_DateFrom[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Two. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23B_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Two. Enter Country. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23B_PurposeOfTrip[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Two. Enter Purpose of Trip. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23B_DaysAbsent[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Two. Enter Total Days Absent. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23B_DateTo[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Two. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23D_DateFrom[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Four. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23D_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Four. Enter Country. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23D_DaysAbsent[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Four. Enter Total Days Absent. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23D_DateTo[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Four. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23C_DateFrom[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Three. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23C_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Three. Enter Country. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23C_PurposeOfTrip[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Three. Enter Purpose of Trip. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23C_DaysAbsent[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Three. Enter Total Days Absent. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23C_DateTo[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Three. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23D_Country[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Five. Enter Country. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23D_PurposeOfTrip[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Five. Enter Purpose of Trip. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23D_DateFrom[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Five. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23D_DateTo[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Five. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L23D_DaysAbsent[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. 17. Line Five. Enter Total Days Absent. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2_L5_EyeColor[8]",
+    "type": "checkbox",
+    "label": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Black.",
+    "page": 2,
+    "on_value": "/BLK"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L6_City[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 7. U.S. Physical Address. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L6_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. 7. U.S. Physical Address. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L6_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 7. U.S. Physical Address. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L6_StreetName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 7. U.S. Physical Address. Enter Street Number and Name. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L6_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 7. U.S. Physical Address. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L6_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 7. U. S.  Physical Address. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L6_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 7. U. S.  Physical Address. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L6_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 7. U. S.  Physical Address. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].P1_L13_CountryOfNationality[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 13. Enter Country of Citizenship or Nationality.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L11B_SSN1[0]",
+    "type": "text",
+    "label": "Part 3. Eligibility Standards. 11. B. Line One. Enter U.S. Social Security Number. 9 Characters.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L11B_SSN2[0]",
+    "type": "text",
+    "label": "Part 3. Eligibility Standards. 11. B. Line Two. Enter U.S. Social Security Number. 9 Characters. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L11B_SSN3[0]",
+    "type": "text",
+    "label": "Part 3. Eligibility Standards. 11. B. Line Three. Enter U.S. Social Security Number. 9 Characters.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L1B_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 1. You are required to have a minimal understanding of standard English and a knowledge and understanding of the history and Government of the United States. Select the appropriate box in Item. A. or B. below. B. I have satisfied these requirements by: Select An exemption because you are 65 years of age or older, under 16 years of age, or you are physically unable to comply.  (If you are physically unable to comply, explain and attach relevant documentation.)",
+    "page": 3,
+    "on_value": "/No"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L1B_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 1. You are required to have a minimal understanding of standard English and a knowledge and understanding of the history and Government of the United States. Select the appropriate box in Item. A. or B. below. B. I have satisfied these requirements by: Select  satisfactory pursuit of a course of study recognized by the Secretary of DHS. (Attach appropriate documentation.)",
+    "page": 3,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[1].Pt1Line8_AlienNumber[2]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This field is read only. It pre-populated from the first page.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L11B_NameOfRecipient3[0]",
+    "type": "text",
+    "label": "Part 3. Eligibility Standards. 11. B. Line Three. Enter Full Name of Recipient (Family Name, Given Name, Middle Name). ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L10_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 10. Have you EVER received a suspended sentence, been placed on probation, or been paroled? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L10_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 10. Have you EVER received a suspended sentence, been placed on probation, or been paroled? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L9_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 9. Have you EVER been placed in an alternative sentencing or a rehabilitative program (for example, diversion, deferred prosecution, withheld adjudication, deferred adjudication)? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L9_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 9. Have you EVER been placed in an alternative sentencing or a rehabilitative program (for example, diversion, deferred prosecution, withheld adjudication, deferred adjudication)? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L8_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 8. Have you EVER been in jail or prison? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L8_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 8. Have you EVER been in jail or prison? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L3_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 3. Have you EVER been treated for a mental disorder, drug addiction, or alcoholism? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L3_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 3. Have you EVER been treated for a mental disorder, drug addiction, or alcoholism? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L5_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 5. Have you EVER been arrested, cited, or detained by any law enforcement officer (including Immigration and Customs Enforcement (ICE), Customs and Border Protection (CBP), former Immigration and Naturalization Service (I N S), and/or military officers) for any reason? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L5_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 5. Have you EVER been arrested, cited, or detained by any law enforcement officer (including Immigration and Customs Enforcement (ICE), Customs and Border Protection (CBP), former Immigration and Naturalization Service (I N S), and/or military officers) for any reason? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L4_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 4. Have you EVER committed a crime or offense for which you were not arrested? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L4_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 4. Have you EVER committed a crime or offense for which you were not arrested? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L6_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 6. Have you EVER been charged with committing any crime or offense? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L6_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 6. Have you EVER been charged with committing any crime or offense? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L7_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 7. Have you EVER been convicted of a crime or offense? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L7_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 7. Have you EVER been convicted of a crime or offense? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L2_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 2. Have you EVER assisted in the persecution of any person or persons on account of race, religion, political opinion, nationality, or membership in a particular social group? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L2_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. Answer Item Numbers 2. through 29.  If you answer \"Yes\" to any of the questions, provide a complete explanation using the space provided in Part 8. Additional Information or attach a separate sheet of paper.  Type or print your name and. A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.  Answering \"Yes\" does not necessarily mean that you are not entitled to adjust status or register for lawful permanent residence. 2. Have you EVER assisted in the persecution of any person or persons on account of race, religion, political opinion, nationality, or membership in a particular social group? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L11_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 11. A. Have you, or a dependent member of your immediate family, EVER received public assistance from any source, including, but not limited to, the U.S. Government, any state, county, city, or municipality?  Select No.       ",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L11_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 11. A. Have you, or a dependent member of your immediate family, EVER received public assistance from any source, including, but not limited to, the U.S. Government, any state, county, city, or municipality?  Select Yes.       ",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L11B_NameOfRecipient1[0]",
+    "type": "text",
+    "label": "Part 3. Eligibility Standards. 11. B. If \"Yes,\" provide the names of the recipients and their U.S. Social Security Numbers below. Line One. Enter Full Name of Recipient (Family Name, Given Name, Middle Name). ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L11B_NameOfRecipient2[0]",
+    "type": "text",
+    "label": "Part 3. Eligibility Standards. 11. B. Line Two. Enter Full Name of Recipient (Family Name, Given Name, Middle Name). ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L12A_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 12. A. Have you EVER within the past 10 years been a prostitute, procured anyone for prostitution, or intend to engage in such activities in the future? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L12A_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 12. A. Have you EVER within the past 10 years been a prostitute, procured anyone for prostitution, or intend to engage in such activities in the future? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L12D_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 12. D. Have you EVER illicitly trafficked in any controlled substance or knowingly assisted, abetted, or colluded in the illicit trafficking of any controlled substance? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L12D_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 12. D. Have you EVER illicitly trafficked in any controlled substance or knowingly assisted, abetted, or colluded in the illicit trafficking of any controlled substance? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L12C_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 12. C. Have you EVER knowingly encouraged, induced, assisted, abetted, or aided any alien to try to enter the United States illegally? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L12C_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 12. C. Have you EVER knowingly encouraged, induced, assisted, abetted, or aided any alien to try to enter the United States illegally? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L12B_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 12. B. Have you EVER engaged in any unlawful commercialized vice, including, but not limited to, illegal gambling? Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L12B_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 12. B. Have you EVER engaged in any unlawful commercialized vice, including, but not limited to, illegal gambling? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L1A_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 1. You are required to have a minimal understanding of standard English and a knowledge and understanding of the history and Government of the United States. Select the appropriate box in Item. A. or B. below. A. I will satisfy these requirements through:  Select An examination at the time of interview for permanent residence.",
+    "page": 3,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "form1[0].#subform[2].P3_L1A_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 1. You are required to have a minimal understanding of standard English and a knowledge and understanding of the history and Government of the United States. Select the appropriate box in Item. A. or B. below. A. I will satisfy these requirements through:  Select  Satisfactory pursuit of a course of study recognized by the Secretary of Homeland Security.",
+    "page": 3,
+    "on_value": "/No"
+  },
+  {
+    "name": "form1[0].#subform[3].#area[2].Pt1Line8_AlienNumber[3]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This field is read only. It pre-populated from the first page.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L37A_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 14. A. Do you intend to engage in the United States in Espionage. Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L37A_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 14. A. Do you intend to engage in the United States in Espionage. Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L37C_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 14. C. Do you intend to engage in the United States in any activity to violate or evade any law prohibiting the export from the United States of goods, technology, or sensitive information? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L37C_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 14. C. Do you intend to engage in the United States in any activity to violate or evade any law prohibiting the export from the United States of goods, technology, or sensitive information? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L37B_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 14. B. Do you intend to engage in the United States in any activity, a purpose of which, is opposition to, or the control or overthrow of, the Government of the United States, by force, violence, or other unlawful means? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L37B_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 14. B.  Do you intend to engage in the United States in any activity, a purpose of which, is opposition to, or the control or overthrow of, the Government of the United States, by force, violence, or other unlawful means? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L38_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 15. Have you EVER been a member of, or in any way affiliated with, a Communist Party or any other totalitarian party? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L38_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 15. Have you EVER been a member of, or in any way affiliated with, a Communist Party or any other totalitarian party? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L39_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 16. Did you EVER, during the period from March 23, 1933 to May 8, 1945, in association with either the Nazi Government of Germany or any organization or government associated or allied with the Nazi Government of Germany, order, incite, assist, or otherwise participate in the persecution of any person because of race, religion, national origin, or political opinion?  Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L39_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 16. Did you EVER, during the period from March 23, 1933 to May 8, 1945, in association with either the Nazi Government of Germany or any organization or government associated or allied with the Nazi Government of Germany, order, incite, assist, or otherwise participate in the persecution of any person because of race, religion, national origin, or political opinion? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L41_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 18. Have you EVER been deported from the United States, removed from the United States at government expense, excluded within the past year, or are you NOW, or have you EVER been in exclusion, deportation, removal, or rescission proceedings? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L41_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 18. Have you EVER been deported from the United States, removed from the United States at government expense, excluded within the past year, or are you NOW, or have you EVER been in exclusion, deportation, removal, or rescission proceedings? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L40_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 17. Have you EVER claimed to be a United States citizen in writing or any other way?  Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L40_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 17. Have you EVER claimed to be a United States citizen in writing or any other way?  Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L42_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 19. Are you NOW under a final order of civil penalty for violating section 274C of the Immigration and Nationality Act (I N. A.) for use of fraudulent documents or have you EVER, by fraud or willful misrepresentation of a material fact, sought to procure or procured a visa, other documentation, entry into the United States, or any immigration benefit? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L42_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 19. Are you NOW under a final order of civil penalty for violating section 274C of the Immigration and Nationality Act (I N. A.) for use of fraudulent documents or have you EVER, by fraud or willful misrepresentation of a material fact, sought to procure or procured a visa, other documentation, entry into the United States, or any immigration benefit? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L47E_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 24. E. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in limiting or denying any person's ability to exercise religious beliefs? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L47E_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 24. E. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in limiting or denying any person's ability to exercise religious beliefs? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L47D_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 24. D. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in engaging in any kind of sexual contact or relations with any person who was being forced or threatened? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L47D_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 24. D. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in engaging in any kind of sexual contact or relations with any person who was being forced or threatened? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L47C_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 24. C. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in Intentionally and severely injuring any person? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L47C_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 24. C. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in Intentionally and severely injuring any person? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L47B_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 24. B. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in killing any person. Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L47B_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 24. B. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in killing any person. Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L47A_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 24. A. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in acts involving torture or genocide? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L47A_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 24. A. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in acts involving torture or genocide? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L46_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 23. Do you plan to practice polygamy in the United States? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L46_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 23. Do you plan to practice polygamy in the United States? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L45_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 22. Are you NOW withholding custody of a U.S. citizen child outside the United States from a person granted custody of the child? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L45_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 22. Are you NOW withholding custody of a U.S. citizen child outside the United States from a person granted custody of the child? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L43_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 20. Have you EVER left the United States to avoid being drafted into the U.S. Armed Forces? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L43_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 20. Have you EVER left the United States to avoid being drafted into the U.S. Armed Forces? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L44_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 21. Have you EVER been a J nonimmigrant exchange visitor who was subject to the 2-year foreign residence requirement and have not yet complied with that requirement or obtained a waiver? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L44_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 21. Have you EVER been a J nonimmigrant exchange visitor who was subject to the 2-year foreign residence requirement and have not yet complied with that requirement or obtained a waiver? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L48B_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 25. B. Have you EVER served in any prison, jail, prison camp, detention facility, labor camp, or any other situation that involved detaining persons? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L48B_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 25. B. Have you EVER served in any prison, jail, prison camp, detention facility, labor camp, or any other situation that involved detaining persons? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L48A_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 25. A. Have you EVER served in, been a member of, assisted in, or participated in any military unit, paramilitary unit, police unit, self-defense unit, vigilante unit, rebel group, guerrilla group, militia, or insurgent organization? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L48A_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 25. A. Have you EVER served in, been a member of, assisted in, or participated in any military unit, paramilitary unit, police unit, self-defense unit, vigilante unit, rebel group, guerrilla group, militia, or insurgent organization? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L36_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 13. Have you EVER engaged in, conspired to engage in, do you intend to engage in, or have you EVER solicited membership or funds for, or have you EVER through any means assisted or provided any type of material support to any person or organization that has EVER engaged or conspired to engage in sabotage, kidnapping, political assassination, hijacking, or any other form of terrorist activity? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L36_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 13. Have you EVER engaged in, conspired to engage in, do you intend to engage in, or have you EVER solicited membership or funds for, or have you EVER through any means assisted or provided any type of material support to any person or organization that has EVER engaged or conspired to engage in sabotage, kidnapping, political assassination, hijacking, or any other form of terrorist activity? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].#area[3].Pt1Line8_AlienNumber[4]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This field is read only. It pre-populated from the first page.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L52B_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 29. B. Have you EVER used any person under 15 years of age to take part in hostilities, or to help or provide services to people in combat? Select Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L52B_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 29. B.  Have you EVER used any person under 15 years of age to take part in hostilities, or to help or provide services to people in combat? Select No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L52A_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 29. A. Have you EVER recruited, enlisted, conscripted, or used any person under 15 years of age to serve in or help an armed force or group? Select Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L52A_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 29. A. Have you EVER recruited, enlisted, conscripted, or used any person under 15 years of age to serve in or help an armed force or group? Select No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L49_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 26. Have you EVER been a member of, assisted in, or participated in any group, unit, or organization of any kind in which you or other persons used any type of weapon against any person or threatened to do so? Select Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L49_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 26. Have you EVER been a member of, assisted in, or participated in any group, unit, or organization of any kind in which you or other persons used any type of weapon against any person or threatened to do so? Select No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L50_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 27. Have you EVER assisted or participated in selling, providing, or transporting weapons to any person who, to your knowledge, used them against another person? Select Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L50_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 27. Have you EVER assisted or participated in selling, providing, or transporting weapons to any person who, to your knowledge, used them against another person? Select No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L51_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 28. Have you EVER received any type of military, paramilitary or weapons training? Select Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L51_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 3. Eligibility Standards. 28. Have you EVER received any type of military, paramilitary or weapons training? Select No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].P3_L5_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 5.  Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 3. Enter Applicant's Email Address.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_L3_DaytimeTelePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 5.  Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 1. Enter Applicant's Daytime Telephone Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_L4_MobileTelePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 5.  Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 2. Enter Applicant's Mobile Telephone Number (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_L2a_ApplicantsSignature[0]",
+    "type": "text",
+    "label": "Part 5.  Applicant's Contact Information, Certification, and Signature. Applicant's Certification and Signature. 6. Applicant's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P3_L2b_Date[0]",
+    "type": "text",
+    "label": "Part 5.  Applicant's Contact Information, Certification, and Signature. Applicant's Certification and Signature.  6. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].#area[4].Pt1Line8_AlienNumber[5]",
+    "type": "text",
+    "label": "Alien Registration Number (A. Number). This field is read only. It pre-populated from the first page.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P4_L1A_FamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P4_L1B_GivenName[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P4_L2_BusOrgName[0]",
+    "type": "text",
+    "label": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name.  2. Enter Interpreter's Business or Organization Name (if any).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P4_L6a_InterpretersSignature[0]",
+    "type": "text",
+    "label": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature.  6. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P4_L6b_Date[0]",
+    "type": "text",
+    "label": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. 6. Enter Date of Signature. Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P4_L4_DaytimeTelePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P4_L5_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's E-Mail Address (if any).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P4_L5_Name[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. I certify, under penalty of perjury, that I am fluent in English and I have interpreted every question on the application and Instructions and interpreted the applicant's answers to the questions in that language, and the applicant informed me that he or she understood every instruction, question, and answer on the application. Enter Language.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P4_L4_DaytimeTelePhoneNumber1[1]",
+    "type": "text",
+    "label": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Mobile Telephone Number (if any).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P5_L1b_GivenName[0]",
+    "type": "text",
+    "label": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Full Name. 1. Enter Preparer's Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P4_L1A_FamilyName[1]",
+    "type": "text",
+    "label": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant.  Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P5_L2_BusOrgName[0]",
+    "type": "text",
+    "label": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant.  Preparer's Full Name. 2. Enter Preparer's Business or Organization Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P5_L6_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Contact Information. 5. Enter Preparer's E-Mail Address (if any).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P5_L4_DaytimeTelePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Contact Information. 3. Enter Preparer's Daytime Telephone Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P5_L5_FaxNumber1[0]",
+    "type": "text",
+    "label": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Contact Information.  4. Enter Preparer's Mobile Telephone Number (if any).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P4_L2_InterpretersSignature[0]",
+    "type": "text",
+    "label": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Certification and Signature. 6. Preparer's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P5_L8B_Date[0]",
+    "type": "text",
+    "label": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Certification and Signature. 6. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Line2a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 3. A. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line2b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 3. B. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line2c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 3. C. Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line1_MiddleName[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 1. Middle Name. This is a read only field. It pre-populated from the first page.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line1_GivenName[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 1. Given Name (First Name). This is a read only field. It pre-populated from the first page.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line1_FamilyName[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Include your name and. A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. Family Name (Last Name). This is a read only field. It pre-populated from the first page.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line2a_PageNumber[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 4. A. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line2b_PartNumber[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 4. B. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line2c_ItemNumber[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 4. C. Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line2a_PageNumber[2]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 5. A. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line2b_PartNumber[2]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 5. B. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line2c_ItemNumber[2]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 5. C. Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line2a_PageNumber[3]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 6. A. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line2b_PartNumber[3]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 6. B. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Line2c_ItemNumber[3]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 6. C. Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt1Line8_AlienNumber[6]",
+    "type": "text",
+    "label": "Part 8. Additional Information. Alien Registration Number (A. Number), if any. This is a read only field. It pre-populated from the first page.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P14_Line3_D_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 3. D. Enter the Additional Information.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P14_Line3_D_AdditionalInfo[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 4. D. Enter the Additional Information.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P14_Line3_D_AdditionalInfo[2]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 5. D. Enter the Additional Information.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P14_Line3_D_AdditionalInfo[3]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 6. D. Enter the Additional Information.",
+    "page": 7
+  }
+]

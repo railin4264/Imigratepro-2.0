@@ -19,8 +19,8 @@ test.describe("core pages render for a logged-in user", () => {
   }
 });
 
-test.describe("case detail shows appointments and invoices inline", () => {
-  test("creating a case exposes Citas/Facturas sections when expanded", async ({ page }) => {
+test.describe("case detail page shows appointments and invoices", () => {
+  test("creating a case navigates to its detail page with Citas/Facturas sections", async ({ page }) => {
     await login(page);
     await page.goto("/cases", { waitUntil: "networkidle" });
 

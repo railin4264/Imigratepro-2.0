@@ -1,13 +1,7 @@
 "use client";
 
 import { createContext, useCallback, useContext, useEffect, useState } from "react";
-import {
-  type AuthUser,
-  getMe,
-  loadStoredAuthToken,
-  login as apiLogin,
-  logout as apiLogout,
-} from "@/lib/api";
+import { type AuthUser, getMe, login as apiLogin, logout as apiLogout } from "@/lib/api";
 
 type Status = "loading" | "authenticated" | "unauthenticated";
 
@@ -23,12 +17,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [status, setStatus] = useState<Status>("loading");
 
   useEffect(() => {
-    const token = loadStoredAuthToken();
-    if (!token) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time mount sync, same as LanguageProvider
-      setStatus("unauthenticated");
-      return;
-    }
+    // No token to inspect client-side anymore (it's an httpOnly cookie) --
+    // the only way to know if there's a valid session is to ask the server.
+    // The browser attaches the cookie automatically if it has one; if there
+    // isn't one (or it's expired/revoked), this 401s and we land on "unauthenticated".
     getMe()
       .then((me) => {
         setUser(me);

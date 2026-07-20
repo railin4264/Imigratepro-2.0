@@ -3,6 +3,7 @@ from fastapi import APIRouter, Depends
 from app.api.deps import get_current_user
 from app.api.v1.endpoints import (
     appointments,
+    audit_log,
     auth,
     billing,
     cases,
@@ -41,3 +42,4 @@ api_router.include_router(stats.router, dependencies=[_protected])
 api_router.include_router(rfes.router, dependencies=[_protected])
 api_router.include_router(dashboard.router, dependencies=[_protected])
 api_router.include_router(gap_analysis.router, dependencies=[_protected])
+api_router.include_router(audit_log.router, dependencies=[_protected])

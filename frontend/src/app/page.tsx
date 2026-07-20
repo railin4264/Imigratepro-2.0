@@ -62,7 +62,7 @@ function MyDaySection() {
                 {myDay.checklist_due.map((item) => (
                   <li key={item.id} className="flex flex-wrap items-center gap-2 text-sm">
                     <Link
-                      href="/cases"
+                      href={`/cases/${item.case_id}`}
                       className="font-medium text-indigo-600 hover:underline dark:text-indigo-400"
                     >
                       {item.case_number}
@@ -94,7 +94,10 @@ function MyDaySection() {
               <ul className="space-y-1.5">
                 {myDay.open_rfes.map((rfe) => (
                   <li key={rfe.id} className="flex flex-wrap items-center gap-2 text-sm">
-                    <Link href="/cases" className="font-medium text-indigo-600 hover:underline dark:text-indigo-400">
+                    <Link
+                      href={`/cases/${rfe.case_id}`}
+                      className="font-medium text-indigo-600 hover:underline dark:text-indigo-400"
+                    >
                       {rfe.case_number}
                     </Link>
                     {rfe.response_due_date && (
@@ -116,7 +119,10 @@ function MyDaySection() {
               <ul className="space-y-1.5">
                 {myDay.cases_ready_for_review.map((c) => (
                   <li key={c.id} className="flex items-center gap-2 text-sm">
-                    <Link href="/cases" className="font-medium text-indigo-600 hover:underline dark:text-indigo-400">
+                    <Link
+                      href={`/cases/${c.id}`}
+                      className="font-medium text-indigo-600 hover:underline dark:text-indigo-400"
+                    >
                       {c.case_number}
                     </Link>
                     <Badge value={c.status} label={t(`enum.caseStatus.${c.status}` as Parameters<typeof t>[0])} />

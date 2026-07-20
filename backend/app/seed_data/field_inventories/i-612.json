@@ -1,0 +1,1696 @@
+[
+  {
+    "name": "form1[0].#subform[0].Pt1Line2b_FirstName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Full Name. 4. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Full Name. 4. A. Enter Family Name (Last Name.)",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L4c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used (if any). 5. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L4b_FirstName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used (if any). 5. B. Enter Given Name (First Name.)",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L4a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used (if any). Provide other names you have used, including aliases, maiden name, and nicknames. If you need extra space to complete this section, use the space provided in Part 8. Additional Information. 5. A. Enter Family Name (Last Name.)",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L5c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used (if any). 6. C. Enter the Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L5b_FirstName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used (if any). 6. B. Enter Given Name (First Name.)",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L5a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used (if any). 6. A. Enter Family Name (Last Name.)",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#subform[1].P1_7b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Mailing Address. 8. B. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#subform[1].P1_L7a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Mailing Address. If you are currently living abroad, enter your last address in the United States. 8. A. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#subform[1].P1_L7c_CityTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Mailing Address. 8. C. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#subform[1].Part1_Line7b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Your Mailing Address. 8. B. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].#subform[1].Part1_Line7b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Your Mailing Address. 8. B. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].#subform[1].Part1_Line7b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Your Mailing Address. 8. B. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].#subform[1].P1_L7e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Mailing Address. 8. E. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#subform[1].P1_L7d_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Your Mailing Address. 8. D. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L6h_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Mailing Address. 7. H. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L6b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Mailing Address. 7. B. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L6a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Mailing Address. 7. A. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L6c_CityTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Mailing Address. 7. C. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line6b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Your Mailing Address. 7. B. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line6b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Your Mailing Address. 7. B. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L6f_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Mailing Address. 7. F. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L6g_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Mailing Address. 7. G. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L6e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Mailing Address. 7. E. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L6d_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Your Mailing Address. 7. D. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].P1_L8_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 10. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_L9_CityTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 11. Enter City / Town / Village of Birth.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Full Name. 4. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[1].P1_Line2_AcctIdentifier[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Enter U S C I S Online Account Number (if any.)",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line6b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Your Mailing Address. 7. B. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 1. Enter Alien Registration Number. (A. Number) (if any). ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line8_MaritalStatus[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 9. Marital Status. Select Single, Never Married.",
+    "page": 1,
+    "on_value": "/SNM "
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line8_MaritalStatus[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 9. Marital Status. Select Other.",
+    "page": 1,
+    "on_value": "/O"
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line8_MaritalStatus[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 9. Marital Status. Select Marriage Annulled.",
+    "page": 1,
+    "on_value": "/MA"
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line8_MaritalStatus[3]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 9. Marital Status. Select Separated.",
+    "page": 1,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line8_MaritalStatus[4]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 9. Marital Status. Select Widowed.",
+    "page": 1,
+    "on_value": "/W"
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line8_MaritalStatus[5]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 9. Marital Status. Select Divorced.",
+    "page": 1,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line8_MaritalStatus[6]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 9. Marital Status. Select Married.",
+    "page": 1,
+    "on_value": "/M "
+  },
+  {
+    "name": "form1[0].#subform[0].Line13_SSN[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 3. Enter U.S. Social Security Number (If any).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Button1[0]",
+    "type": "checkbox",
+    "label": "Click this button to open: https://tools.usps.com/go/ZipLookupAction_input. This is the U S Postal Service ZIP Code Lookup site.",
+    "page": 1,
+    "on_value": "/BBox"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[2].P1_L12_CountryOfFor[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 14. Enter Country of Last Foreign Residence .",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_Checkboxes[0]",
+    "type": "checkbox",
+    "label": "Part 2. Reason for Foreign Residence Requirement. I believe I am subject to the foreign residence requirement because (Select all applicable boxes). 2. A. Select An agency of the U.S. Government or the government of my country of citizenship or nationality or last foreign residence gave me a grant (such as a Fulbright grant), stipend, or allowance for the purpose of participating in an exchange program.",
+    "page": 2,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_Line9b_PlaceOfEntry[0]",
+    "type": "text",
+    "label": "Part 2. Reason for Foreign Residence Requirement. 2. B. Provide the name of the U.S. Government agency or country of citizenship or nationality or last foreign residence.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].#area[3].Part2_Checkboxes[1]",
+    "type": "checkbox",
+    "label": "Part 2. Reason for Foreign Residence Requirement. I believe I am subject to the foreign residence requirement because (Select all applicable boxes). 1. Select I participated in an exchange program that was financed by an agency of the U.S. Government or the government of my country of citizenship or nationality or last foreign residence, for the purpose of promoting international education and cultural exchange.",
+    "page": 2,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[2].Part2_Checkboxes[2]",
+    "type": "checkbox",
+    "label": "Part 2. Reason for Foreign Residence Requirement. I believe I am subject to the foreign residence requirement because (Select all applicable boxes). 3. Select I became an exchange visitor after the U.S. Secretary of State designated the country of my nationality or last foreign residence as clearly requiring the services of persons with my specialized knowledge or skill.",
+    "page": 2,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[2].#area[4].Part2_Checkboxes[3]",
+    "type": "checkbox",
+    "label": "Part 2. Reason for Foreign Residence Requirement. I believe I am subject to the foreign residence requirement because (Select all applicable boxes). 4. Select I entered the United States as, or my status was changed to, an exchange visitor on or after January 10, 1977, to participate in graduate medical education or training.",
+    "page": 2,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[2].Part3_Line1_Checkboxes[0]",
+    "type": "checkbox",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. I am applying for a waiver of the foreign residence requirement because (Select only one box). 1. Select My departure from the United States would impose exceptional hardship on my U.S. citizen or lawful permanent resident spouse or child. IMPORTANT ADVISORY:  If you selected Part 3., Item Number 1., you must attach a statement providing a detailed explanation why you believe that your compliance with the two-year foreign residence requirement of I N A. section 2 12 (e) would impose exceptional hardship on your U.S. citizen or lawful permanent resident spouse or children.  You must sign and date the statement.  If you do not include this statement, your application is incomplete.  In your statement, you must also include all pertinent financial information regarding your and your spouse's income and savings.  You must attach any available evidence that supports your claims of hardship.",
+    "page": 2,
+    "on_value": "/Departure"
+  },
+  {
+    "name": "form1[0].#subform[2].P1_L4c_MiddleName[1]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Spouse. 3. C. Enter Middle Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P1_L4b_FirstName[1]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Spouse. 3. B. Enter Given Name (First Name.)",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P1_L4a_FamilyName[1]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. List all J-2 dependents that are included in this application.  If you need extra space to complete this section, use the space provided in Part 8. Additional Information. Information About Spouse. 3. A. Enter Family Name (Last Name.)",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P4_L13_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Spouse. 4. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P4_L14_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Spouse. 5. Enter Country of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P4_L16_CountryOfLastForRes[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Spouse. 7. Enter Country of Last Foreign Residence.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P4_L15_CitizenshioOrNationality[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Spouse. 6. Enter Country of Citizenship or Nationality.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].#area[5].P1_L10_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 12. Enter Country of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].#area[6].P1_L11_CountryOfCitizenshipNationality[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 13. Enter Country of Citizenship or Nationality.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Part3_Line1_Checkboxes[1]",
+    "type": "checkbox",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. I am applying for a waiver of the foreign residence requirement because (Select only one box). 2. Select I cannot return to the country of my nationality or last foreign residence because I would be subjected to persecution on account of race, religion, or political opinion. If you selected Part 3., Item Number 2.,you must attach a statement that details the reasons why you believe you cannot return to your country of citizenship or nationality or last foreign residence because you would be subject to persecution on account of race, religion, or political opinion.  You must also sign and date the statement and attach any available evidence that supports your claims of persecution.  (See the What Evidence Must You Submit section of the Instructions for additional information.)",
+    "page": 2,
+    "on_value": "/Return"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L22a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 18. A. Enter Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L22b_FirstName[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 18. B. Enter First Name (Given Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L22c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 18. C. Enter Middle Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L12c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 8. C. Enter Middle Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L12a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. If you need extra space to complete this section, use the space provided in Part 8. Additional Information. 8. A. Enter Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L12b_FirstName[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 8. B. Enter First Name (Given Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L13_DateOfBirth[1]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 9. Enter Date of Birth. Enter as 2 digits for the month, 2 digits for the day and 4 digits for the year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L14_CountryOfBirth[1]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 10. Enter Country of Birth.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L16_CountryOfLastForRes[1]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 12. Enter Country of Last Foreign Residence.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L15_CitizenshioOrNationality[1]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 11. Enter Country of Citizenship or Nationality.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L17c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 13. C. Enter Middle Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L17a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 13. A. Enter Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L17b_FirstName[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 13. B. Enter First Name (Given Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L19_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 15. Enter Country of Birth.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L18_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 14. Enter Date of Birth. Enter as 2 digits for the month, 2 digits for the day and 4 digits for the year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L20_CitizenshioOrNationality[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 16. Enter Country of Citizenship or Nationality.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L21_CountryOfLastForRes[0]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 17. Enter Country of Last Foreign Residence.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L1_AddInfo[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. If you need extra space to complete this section, use the space provided in Part 8. Additional Information. 1. Provide all exchange program numbers and names or all exchange program sponsors. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L2_Checkboxes[0]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. Major field of activity (Select only one box). 2. A. Select Agriculture.",
+    "page": 3,
+    "on_value": "/a"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L2_Checkboxes[1]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. Major field of activity (Select only one box). 2. B. Select Business Administration.",
+    "page": 3,
+    "on_value": "/b"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L2_Checkboxes[2]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. Major field of activity (Select only one box).  2. C. Select Education.",
+    "page": 3,
+    "on_value": "/c"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L2_Checkboxes[3]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. Major field of activity (Select only one box).  2. F. Select Medicine.",
+    "page": 3,
+    "on_value": "/f"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L2_Checkboxes[4]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. Major field of activity (Select only one box).  2. D. Select Engineering.",
+    "page": 3,
+    "on_value": "/d"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L2_Checkboxes[5]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. Major field of activity (Select only one box).  2. E. Select Humanities.",
+    "page": 3,
+    "on_value": "/e"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L2_Checkboxes[6]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. Major field of activity (Select only one box).  2. G. Select Natural and Physical Sciences.",
+    "page": 3,
+    "on_value": "/g"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L2_Checkboxes[7]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. Major field of activity (Select only one box).  2. H. Select Social Sciences.",
+    "page": 3,
+    "on_value": "/h"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L2_Checkboxes[8]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. Major field of activity (Select only one box).  2. I. Select Other.",
+    "page": 3,
+    "on_value": "/i"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L4_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. 4. Enter Date of last entry into the United States as a J-1 participant in a designated exchange program. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L6_DateOfDepart[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. 6. If you are now abroad, enter the date of your most recent departure from the United States. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L3_Occupation[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. 3. Enter Occupation. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L7c_CityTown[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. 5. Port-of-Entry (P O E) of last arrival in the United States as a participant in a designated exchange program. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P1_L7d_State[1]",
+    "type": "choice",
+    "label": "Part 4. Additional Information About You. 5. Port-of-Entry (P O E) of last arrival in the United States as a participant in a designated exchange program. Select State from List of States.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L19_CountryOfBirth[1]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 20. Enter Country of Birth.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L18_DateOfBirth[1]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 19. Enter Date of Birth. Enter as 2 digits for the month, 2 digits for the day and 4 digits for the year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L20_CitizenshioOrNationality[1]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 21. Enter Country of Citizenship or Nationality.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P4_L21_CountryOfLastForRes[1]",
+    "type": "text",
+    "label": "Part 3. Reason for Application for Waiver of Foreign Residence Requirement. Information About Children. 22. Enter Country of Last Foreign Residence.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L16_BasisAdj[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. Other Information About Lawful Permanent Spouse or Child. 22. Enter Basis (preference category) for adjusting to lawful permanent resident status (for example, F-2. A., Spouse or unmarried child of an L P R; F-2. B., Unmarried sons or daughters of an L P R).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L33_DateOfAdj[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. Other Information About Lawful Permanent Spouse or Child. 20. Enter Date of adjustment to lawful permanent resident status. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L7c_CityTown[2]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. Other Information About Lawful Permanent Spouse or Child. 21. Location where your spouse or child became a lawful permanent resident. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L7d_State[2]",
+    "type": "choice",
+    "label": "Part 4. Additional Information About You. Other Information About Lawful Permanent Spouse or Child. 21. Location where your spouse or child became a lawful permanent resident. Select State from List of States.",
+    "page": 4,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[4].P3_L4a_Checkboxes[0]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. If you are married, select only one box. 7. A. Select My spouse is included in this application.",
+    "page": 4,
+    "on_value": "/Included"
+  },
+  {
+    "name": "form1[0].#subform[4].P3_L4a_Checkboxes[1]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. If you are married, select only one box. 7. B. Select My spouse is filing a separate application for a waiver of the foreign residence requirement.",
+    "page": 4,
+    "on_value": "/Separate"
+  },
+  {
+    "name": "form1[0].#subform[4].P3_L4a_Checkboxes[2]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. If you are married, select only one box. 7. C. Select My spouse is not included in this application.",
+    "page": 4,
+    "on_value": "/Not Included"
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L27a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. If you selected Part 3., Item Number 1., provide the following information about your U.S. citizen spouse or children who you believe would suffer exceptional hardship if you resided outside of the United States for two years following the completion of your U.S. training and departure from the United States. Name of the U.S. citizen spouse or child. 8. A. Enter Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L27b_FirstName[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. 8. B. Enter Given Name (First Name.)",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L27c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. 8. C. Enter Middle Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Part4_Line9_Checkboxes[0]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. U.S. citizenship of spouse or child was acquired through (Select only one box). 9. A. Select Birth in the United States.",
+    "page": 4,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[4].Part4_Line9_Checkboxes[1]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. U.S. citizenship of spouse or child was acquired through (Select only one box). 9. B. Select Naturalization.",
+    "page": 4,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[4].Part4_Line9_Checkboxes[2]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. U.S. citizenship of spouse or child was acquired through (Select only one box). 9. C. Select Parents.",
+    "page": 4,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L29a_NatCertNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. If your spouse or child acquired U.S. citizenship through naturalization, provide the following information for each naturalized individual. 10. Enter Number of Naturalization Certificate.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L12_CityTown[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. 12. Place of Naturalization. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P1_L12_State[0]",
+    "type": "choice",
+    "label": "Part 4. Additional Information About You. 12. Place of Naturalization. Select State from List of States.",
+    "page": 4,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L29b_DateOfNat[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. 11. Enter Date of Naturalization. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L30a_NatCertNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. If you answered “Yes” to Item Number 13., provide the information for  Item Numbers 14. through 17. 14. Enter Spouse Certificate of Citizenship Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L23_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. 15. Enter Date of Issuance. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L30a_NatCertNumber[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. 16. Enter Child Certificate of Citizenship Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L23_DateOfBirth[1]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. 17. Enter Date of Issuance. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L31c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. Name of the lawful permanent resident spouse or child. 18. C. Enter Middle Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L31b_GivenName[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. Name of the lawful permanent resident spouse or child. 18. B. Enter Given Name (First Name.)",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L31a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. If you answered “No” to Item Number 13., submit evidence in accordance with the What Evidence Must You Submit section of the Instructions. If you selected Part 3., Item Number 1., provide the following information about your U.S. citizen spouse or children who you believe would suffer exceptional hardship if you resided outside of the United States for two years following the completion of your U.S. training and departure from the United States. Name of the lawful permanent resident spouse or child. 18. A Enter Family Name (Last Name.)",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L11a_chbxyesno[0]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. 13. Has your spouse or child obtained a Certificate of Citizenship? Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L11a_chbxyesno[1]",
+    "type": "checkbox",
+    "label": "Part 4. Additional Information About You. If your spouse or child acquired U.S. citizenship through parents, provide the following information for your spouse and each child who obtained citizenship through parent. 13. Has your spouse or child obtained a Certificate of Citizenship? Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P4_L32_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 4. Additional Information About You. Other Information About Lawful Permanent Spouse or Child. 19. Enter Alien Registration Number (A. Number) (if any).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[5].Part8_Line1b_NameofInterpreter[0]",
+    "type": "text",
+    "label": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Statement. 1. B. Enter Language.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part8_Line1_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Statement. 1. B. Select The interpreter named in Part 6. read to me every question and instruction on this application, and my answer to every question, in a language in which I am fluent, and I understood everything. ",
+    "page": 5,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[5].Part8_Line1_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. NOTE:  Read the Penalties section of the Form I-6 12 Instructions before completing this part. Applicant's Statement. NOTE:  Select the box for either Item Number 1. A. or 1. B.  If applicable, select the box for Item Number 2. 1. A. Select I can read and understand English, and I have read and understand every question and instruction on this application and my answer to every question.",
+    "page": 5,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[5].Part8_Line2_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Statement. 2. Select At my request, the preparer named in Part 7., prepared this application for me based only upon information I provided or authorized.",
+    "page": 5,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[5].Part8_Line2_Consent[0]",
+    "type": "text",
+    "label": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Statement. 2. Enter Name of Preparer.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part8_Line4_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Contact Information. 3. Enter Applicant's Daytime Telephone Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part8_Line6_Email[0]",
+    "type": "text",
+    "label": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Contact Information. 5. Enter Applicant's Email Address (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part8_Line5_MobileTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Contact Information. 4. Enter Applicant's Mobile Telephone Number (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part8_Line3b_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Signature. 6. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line1a_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Provide the following information about the interpreter.  Interpreter's Full Name. 1. A. Enter Interpreter's Family Name (Last Name.)",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line1b_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line2_BusinessName[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line3c_CityTown[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. C. Enter City or Town.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line3a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. A. Enter Street Number and Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line3b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Suite.  ",
+    "page": 5,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line3b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Floor.  ",
+    "page": 5,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line3b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line3b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Apartment.",
+    "page": 5,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line3f_Province[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. F. Enter Province.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line3e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. E. Enter Zip Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line3d_State[0]",
+    "type": "choice",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. D. Select State from List of States.",
+    "page": 5,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line3h_Country[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. H. Enter Country.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line3g_PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. G. Enter Postal Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line4_InterpreterDaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part9_Line5_Email[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter Interpreter's Email Address (if any.)",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Part8_Line5_MobileTelephoneNumber[1]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].P5_Line6a_SignatureofApplicant[0]",
+    "type": "text",
+    "label": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Signature. 6. A. Applicant's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[6].Part9_Line6b_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 6. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Part9_Line6a_Signature[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 6. A. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Part9_Iamfluent[0]",
+    "type": "text",
+    "label": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that I am fluent in English and (Enter Language), which is the same language specified in Part 5., Item Number 1. B., and I have read to this applicant in the identified language every question and instruction on this application and his or her answer to every question.  The applicant informed me that he or she understands every instruction, question, and answer on the application, including the Applicant's Declaration and Certification, and has verified the accuracy of every answer.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Part10_Line2_BusinessName[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 2. Enter Preparer's Business or Organization Name (if any).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Part10_Line1a_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Provide the following information about the preparer. Preparer's Full Name. 1. A. Enter Preparer's Family Name (Last Name.)",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Part10_Line1b_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 1. B. Enter Preparer's Given Name (First Name.)",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line6_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 6. Enter Preparer's Email address (if any).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line4_PreparerDaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line5_PreparerFaxNumber[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 5. Enter Preparer's Mobile Telephone Number (if any.)",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line7_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Statement. 7. A. Select I am not an attorney or accredited representative but have prepared this application on behalf of the applicant and with the applicant's consent.",
+    "page": 6,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line7_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative. NOTE:  If you are an attorney or accredited representative, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, or Form G-28 I, Notice of Entry of Appearance as Attorney In Matters Outside the Geographical Confines of the United States, with this application.",
+    "page": 6,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line3c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. C. Enter City or Town.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line3a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. A. Enter Street Number and Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line3b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. B. Select Suite.  ",
+    "page": 6,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line3b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. B. Select Floor.  ",
+    "page": 6,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line3b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line3b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. B. Select Apartment.",
+    "page": 6,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line3f_Province[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. F. Enter Province.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line3e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. E. Enter Zip Code.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line3d_State[0]",
+    "type": "choice",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. D. Select State from List of States.",
+    "page": 6,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line3h_Country[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. H. Enter Country.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line3g_PostalCode[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Mailing Address. 3. G. Enter Postal Code.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line8a_SignatureofPreparer[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Signature. 8. A. Preparer's  Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P10_Line8b_DateOfSignature[0]",
+    "type": "text",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Signature. 8. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].Part7Line7b_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the applicant in this case extends beyond the preparation of this application. ",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].Part7Line7b_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the applicant in this case does not extend beyond the preparation of this application.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 3. D. Enter Additional Information. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line2a_FamilyName[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information  If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Include your name and. A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. A. Family Name (Last Name). This field is pre-populated from Page 1.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line2b_FirstName[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 1. B. Given Name (First Name). This field is pre-populated from Page 1.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt1Line2c_MiddleName[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 1. C. Middle Name. This field is pre-populated from Page 1.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 3. A. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 3. B. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 3. C. Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Line3_ANumber[0].Pt1Line1_AlienNumber[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 2. Alien Registration Number (A. Number) (if any). This field is pre-populated from Page 1.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 4. D. Enter Additional Information. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 4. A. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 4. B. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 4. C. Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line5d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 5. D. Enter Additional Information. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line5a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 5. A. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line5b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 5. B. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line5c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 5. C. Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line6d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 6. D. Enter Additional Information. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line6c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 7. C. Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line6b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 7. B. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line6a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 7. A. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line6d_AdditionalInfo[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 7. D. Enter Additional Information. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line6a_PageNumber[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 6. A. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line6b_PartNumber[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 6. B. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].Pt9Line6c_ItemNumber[1]",
+    "type": "text",
+    "label": "Part 8. Additional Information. 6. C. Enter Item Number.",
+    "page": 7
+  }
+]

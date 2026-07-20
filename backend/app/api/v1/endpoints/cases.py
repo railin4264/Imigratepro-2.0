@@ -2,13 +2,14 @@ import uuid
 
 from fastapi import APIRouter, HTTPException
 
-from app.api.deps import DbSession
+from app.api.deps import DbSession, RequireAdminOrAttorney
 from app.models.case import Case, CaseParticipant
 from app.models.client import Client
 from app.models.notification import NotificationType
 from app.models.user import User
 from app.schemas.case import CaseCreate, CaseRead, CaseUpdate, ParticipantCreate, ParticipantRead
 from app.schemas.timeline import CaseTimelineResponse, TimelineStepRead
+from app.services.audit import log_action
 from app.services.notifications import notify
 from app.services.timeline import build_case_timeline
 
@@ -66,10 +67,11 @@ def update_case(case_id: uuid.UUID, payload: CaseUpdate, db: DbSession):
 
 
 @router.delete("/{case_id}", status_code=204)
-def delete_case(case_id: uuid.UUID, db: DbSession):
+def delete_case(case_id: uuid.UUID, db: DbSession, requester: RequireAdminOrAttorney):
     case = db.get(Case, case_id)
     if not case:
         raise HTTPException(status_code=404, detail="Case not found")
+    log_action(db, requester, "case.deleted", "case", case.id, {"case_number": case.case_number})
     db.delete(case)
     db.commit()
 

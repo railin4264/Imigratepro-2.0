@@ -1,0 +1,2206 @@
+[
+  {
+    "name": "form1[0].#subform[0].p1Line4cMiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used. 4. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line4bGivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used. 4. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line4aFamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used. List all other names you have ever used, including maiden names, aliases, and nicknames.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 4. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line3aFamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Full Name. 3. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line3bGivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Full Name. 3. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line3cMiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Full Name. 3. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line6YesNo[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Mailing Address. 6. Is your current physical address the same as your mailing address? Select Yes.",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line6YesNo[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Mailing Address. 6. Is your current physical address the same as your mailing address? Select No. ",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5InCareofName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. NOTE:  If you are outside of the United States, provide a U.S. mailing address if available.  If a U.S. mailing address is not available, provide your mailing address outside the United States. 5. A. Enter In Care Of Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 5. B. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Mailing Address. 5. C. Select Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Mailing Address. 5. C. Select Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 5. C. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Mailing Address. 5. C. Select Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 5. D. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 5. G. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Mailing Address. 5. E. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 5. F. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 5. I. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line5PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 5. H. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].G28CheckBox[0]",
+    "type": "checkbox",
+    "label": "To be completed by an Attorney or Accredited Representative, if any. Select this box if Form G-28 is attached or G-28 I is attached.",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[0].attyStateBarNumber[0]",
+    "type": "text",
+    "label": "To be completed by an Attorney or Accredited Representative, if any. Enter Attorney State Bar Number, if applicable.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].attyUSCISOnlineNum[0]",
+    "type": "text",
+    "label": "To be completed by an Attorney or Accredited Representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line2USCISOnlineNum[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Enter U S C I S  Online Account Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].p1Line1ANum[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 1. Enter Alien Registration Number (A. Number), if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line16aYesNo[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 16. A. Are you filing this application after you have already filed Form I-4 85, Application to Register Permanent Residence or Adjust Status?  Select No.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line17aYesNo[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 17. A. Are you filing this application after you have already filed Form I-8 21, Application for Temporary Protected Status? Select Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line17aYesNo[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 17. A. Are you filing this application after you have already filed Form I-8 21, Application for Temporary Protected Status? Select No.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line16aYesNo[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 16. A. Are you filing this application after you have already filed Form I-4 85, Application to Register Permanent Residence or Adjust Status?  Select Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line18aYesNo[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 18. A. Have you previously filed Form I-2 12, Application for Permission to Reapply for Admission into the United States After Deportation or Removal? Select Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line18aYesNo[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 18. A. Have you previously filed Form I-2 12, Application for Permission to Reapply for Admission into the United States After Deportation or Removal?  Select No.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line18cFilingLocation[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 18. C. Enter location where did you file your application (for example, U S C I S Office, U.S. Port-of-Entry, Immigration Court).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line19YesNo[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 19. Are you submitting Form I-2 12 along with this application? Select No.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line19YesNo[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 19. Are you submitting Form I-2 12 along with this application? Select Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line18dDateFiled[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 18. D. Enter Date Filed. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line10DateofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 10. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line9Gender[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 9. Sex. Select Male.",
+    "page": 2,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line9Gender[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Other Information. 9. Sex. Select Female.",
+    "page": 2,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line11CityOrTownOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 11. Enter City or Town of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line12ProvinceOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 12. Enter Province of Birth, if applicable.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line13CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 13. Enter Country of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line14CountryOfCitzOrNat[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 14. Enter Country of Citizenship or Nationality.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line15aCaseNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. If you seek a visa and you were already interviewed by a U.S. Department of State (D O S) consular officer at a U.S. Embassy or U.S. Consulate, provide the information requested in Item Numbers 15. A. through 15. B. 15. A. Enter Department of State (D O S) Consular Case Number (if available).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p2Line1aDateEntered[0]",
+    "type": "text",
+    "label": "Part 2. U.S. Entry Information. Provide information for your previous periods of stay in the United States, beginning with your most recent arrival date. NOTE:  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 1. A. Enter Date You Entered the U.S. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line7CityTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical  Address. 7. C. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line7StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 7. A. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line7Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 7. B. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line7Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 7. B. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line7AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 7. B. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line7Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 7. B. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line7ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical  Address. 7. E. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line7State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Physical  Address. 7. D. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line7PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical  Address. 7. G. Enter Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line7Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical  Address. 7. H. Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line7Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical  Address. 7. F. Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line15bCity[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 15. B. The location of the U.S. Embassy or U.S. Consulate where your visa application is being or will be made. Enter City.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line15bCountry[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 15. B. The location of the U.S. Embassy or U.S. Consulate where your visa application is being or will be made. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line1dCityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. U.S. Entry Information. 1. D. Enter U.S. City or Town Where You Lived.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p2Line1cLocation[0]",
+    "type": "text",
+    "label": "Part 2. U.S. Entry Information. 1. C. Enter Location at Which You Entered the U.S.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p2Line1bImmigrationStatus[0]",
+    "type": "text",
+    "label": "Part 2. U.S. Entry Information. 1. B. Enter Immigration Status At the Time of Your Entry Into the U.S.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p2Line2aDateEntered[0]",
+    "type": "text",
+    "label": "Part 2. U.S. Entry Information. 2. A. Enter Date You Entered the U.S. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line17bReceiptNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 17. B. Enter the U S C I S Receipt Number for your Form I-8 21, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line18bReceiptNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 18. B. Enter the U S C I S Receipt Number for your Form I-2 12, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line16bReceiptNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 16. B. Enter the U S C I S Receipt Number for your Form I-4 85.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].p1Line8SSN[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 8. Enter U. S. Social Security Number, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].p2Line2eCityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. U.S. Entry Information. 2. E. Enter U.S. City or Town Where You Lived.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].p2Line2dLocation[0]",
+    "type": "text",
+    "label": "Part 2. U.S. Entry Information. 2. D. Enter Location at Which You Entered the U.S.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].p4Line1CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Select all of the following grounds that you believe, according to the best of your knowledge, or that you were told, apply to you.  Only select the applicable grounds listed under the immigration benefit you are seeking. If you were ever arrested or convicted, provide the disposition (outcome) for all arrests or convictions (for example, dismissed from the appropriate authority).  You also will be required to provide certified court records or dispositions for all convictions. If you are seeking a waiver of inadmissibility because you have a Class A. Tuberculosis condition (as defined by U.S. Department of Health and Human Services (H H S) regulations), you must complete Part 11. of this application. If you are seeking a waiver of inadmissibility because you have a history of physical or mental disorders, you must attach the information requested in the instructions. Section A. I am an applicant for an immigrant visa or adjustment of status (other than based on T nonimmigrant status or based on classification as a Special Immigrant Juvenile, see Section B below), or for K or V nonimmigrant status, and I believe or I was told that I am inadmissible because (review Form I-6 0 1 Instructions for a detailed explanation of the individual grounds of inadmissibility listed below). Select all grounds that you believe apply to you. 1. Check this box for: I have a communicable disease of public health significance.  (A list of communicable diseases of public health significance can be found in the Specific Instructions section of Form I-6 0 1 Instructions.)",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p4Line2CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 2. Check this box for: I seek an exemption from the vaccination requirement because vaccinations are against my religious beliefs or moral convictions.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p4Line3CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 3. Check this box for: I have or had a physical or mental disorder and behavior (or history of behavior that is likely to recur) associated with the disorder, which has posed or may pose a threat to the property, safety, or welfare of myself or others.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p4Line4CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. 4. Check this box for: I have been involved in a crime of moral turpitude (other than a purely political offense).",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line3HeightFeet[0]",
+    "type": "choice",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 3. Height. Enter Feet.",
+    "page": 3,
+    "options": [
+      " ",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line3HeightInches[0]",
+    "type": "choice",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 3. Height. Enter Inches.",
+    "page": 3,
+    "options": [
+      " ",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line4Weight1[0]",
+    "type": "text",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 4. Weight. Enter your weight in pounds. First Digit.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line4Weight2[0]",
+    "type": "text",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 4. Weight. Enter your weight in pounds. Second Digit.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line4Weight3[0]",
+    "type": "text",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 4. Weight. Enter your weight in pounds. Third Digit.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line1Ethnicity[0]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 1. Ethnicity (Select only one box). Select Not Hispanic or Latino.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line1Ethnicity[1]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 1. Ethnicity (Select only one box). Select Hispanic or Latino.",
+    "page": 3,
+    "on_value": "/H"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line2Race[0]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 2. Race (Select all applicable boxes). Select Native Hawaiian or Other Pacific Islander.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line2Race[1]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 2. Race (Select all applicable boxes). Select American Indian or Alaska Native.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line2Race[2]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 2. Race (Select all applicable boxes). Select White.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line2Race[3]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 2. Race (Select all applicable boxes). Select Asian.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line2Race[4]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 2. Race (Select all applicable boxes). Select Black or African American.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line5EyeColor[0]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 5. Eye Color (Select only one box). Select Blue.",
+    "page": 3,
+    "on_value": "/BLU"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line5EyeColor[1]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 5. Eye Color (Select only one box). Select Gray.",
+    "page": 3,
+    "on_value": "/GRN"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line5EyeColor[2]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 5. Eye Color (Select only one box). Select Hazel.",
+    "page": 3,
+    "on_value": "/HAZ"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line5EyeColor[3]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 5. Eye Color (Select only one box). Select Pink.",
+    "page": 3,
+    "on_value": "/PNK"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line5EyeColor[4]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 5. Eye Color (Select only one box). Select Maroon.",
+    "page": 3,
+    "on_value": "/MAR"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line5EyeColor[5]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 5. Eye Color (Select only one box). Select Green.",
+    "page": 3,
+    "on_value": "/GRY"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line5EyeColor[6]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 5. Eye Color (Select only one box). Select Brown.",
+    "page": 3,
+    "on_value": "/BRO"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line5EyeColor[7]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 5. Eye Color (Select only one box). Select Black.",
+    "page": 3,
+    "on_value": "/BLK"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line5EyeColor[8]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 5. Eye Color (Select only one box). Select Unknown / Other.",
+    "page": 3,
+    "on_value": "/UNK"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line6HairColor[0]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 6. Hair Color (Select only one box). Select Bald (No hair).",
+    "page": 3,
+    "on_value": "/BAL"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line6HairColor[1]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 6. Hair Color (Select only one box). Select Blond.",
+    "page": 3,
+    "on_value": "/BLN"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line6HairColor[2]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 6. Hair Color (Select only one box). Select Gray.",
+    "page": 3,
+    "on_value": "/GRY"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line6HairColor[3]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 6. Hair Color (Select only one box). Select Sandy.",
+    "page": 3,
+    "on_value": "/SDY"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line6HairColor[4]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 6. Hair Color (Select only one box). Select Unknown / Other.",
+    "page": 3,
+    "on_value": "/UNK"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line6HairColor[5]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 6. Hair Color (Select only one box). Select White.",
+    "page": 3,
+    "on_value": "/WHI"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line6HairColor[6]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 6. Hair Color (Select only one box). Select Red.",
+    "page": 3,
+    "on_value": "/RED"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line6HairColor[7]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 6. Hair Color (Select only one box). Select Brown.",
+    "page": 3,
+    "on_value": "/BRO"
+  },
+  {
+    "name": "form1[0].#subform[2].p3Line6HairColor[8]",
+    "type": "checkbox",
+    "label": "Part 3. Biographic Information (for U S C I S Applicant only). 6. Hair Color (Select only one box). Select Black.",
+    "page": 3,
+    "on_value": "/BLK"
+  },
+  {
+    "name": "form1[0].#subform[2].p2Line2cImmigrationStatus[0]",
+    "type": "text",
+    "label": "Part 2. U.S. Entry Information. 2. C. Enter Immigration Status At the Time of Your Reentry Into the U.S.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].p4Line5CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 5. Check this box for: I have been involved in a controlled substance violation according to the laws and regulations of any state, the United States, or a foreign country related to a single offense of simple possession of 30 grams or less of marijuana.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p4Line6CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 6. Check this box for: I have been convicted of two or more offenses (other than purely political offenses), for which the combined sentences to confinement were five years or more.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p4Line7CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 7. Check this box for: I am coming to the U.S. to engage in prostitution or, in the past 10 years, I have engaged in prostitution (including receiving the proceeds of, in full or in part), procurement of prostitution, or I continue to engage in prostitution or procurement of prostitution.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p4Line8CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 8. Check this box for: In the past 10 years, I have (either directly or indirectly) procured, attempted to procure, or to import prostitutes or persons for the purpose of prostitution.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].p2Line2bDepartureDate[0]",
+    "type": "text",
+    "label": "Part 2. U.S. Entry Information. 2. B. Enter Date You Departed the U.S. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line11CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 11. Check this box for: I am or I have been a member of or affiliated with the Communist or any other totalitarian party (or subdivision or affiliate of the party,) domestic or foreign.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line12CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 12. Check this box for: I have sought to procure an immigration benefit by fraud or by concealing or misrepresenting a material fact (immigration fraud or misrepresentation.)",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line16CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 16. Check this box for: I was previously removed from the United States.  (See instructions for Nicaraguan Adjustment and Central American Relief Act (N A. C A. R A.) and Haitian Refugee Immigration Fairness Act (H R I F A.) applicants only.  All other applicants file Form I-2 12.)",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line15CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 15. Check this box for: I am subject to the 3-year or the 10-year bar to admissibility because I was previously unlawfully present in the United States in excess of either 180 days or one year or more, respectively, and subsequently departed the United States.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line14CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 14. Check this box for: I am subject to a civil penalty because I was the subject of a final order for violation of the Immigration and Nationality Act (I N A.) section 2 74 C.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line13CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 13. Check this box for: I have been engaged in alien smuggling.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line17CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 17. Check this box for: I have been ordered removed or I have been unlawfully present in the United States for more than one year, in the aggregate, and I subsequently reentered or attempted to reenter without being admitted.  (See instructions for N A C A R A, H R I F A, and the instructions for approved Violence Against Women Act (V A. W A.) self-petitioners only.  Other applicants file Form I-2 12.)",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line18CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 18. Check this box for: Other.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line18OtherSpecify[0]",
+    "type": "text",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 18. If Other is Selected, please specify.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line20CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Select all of the following grounds that you believe, according to the best of your knowledge, or that you were told, apply to you. Only select the applicable grounds listed under the immigration benefit you are seeking.  If you were ever arrested or convicted, provide the disposition (outcome) for all arrests or convictions (for example, dismissed from the appropriate authority). You also will be required to provide certified court records or dispositions for all convictions. If you are seeking a waiver of inadmissibility because you have a Class A Tuberculosis condition (as defined by U.S. Department of Health and Human Services (H H S) regulations), you must complete Part 11. of this application. If you are seeking a waiver of inadmissibility because you have a history of physical or mental disorders, you must attach the information requested in the instructions.  Section C. I am applying for Temporary Protected Status (T P S) and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 20. Check this box for: I have a communicable disease of public health significance.  (A list of communicable diseases of public health significance can be found in the Specific Instructions section of Form I-6 0 1 Instructions.)",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line21CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 21. Check this box for:  I have or had a physical or mental disorder and behavior (or a history of behavior that is likely to recur) associated with the disorder, which has posed or may pose a threat to the property, safety, or welfare of myself or others.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line22CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 22. Check this box for:  I am or have been a drug abuser or drug addict as described in U.S. Department of Health and Human Services (H H S) Regulations. See 42 Code of Federal Regulations (C F R) 34.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line24CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 24. Check this box for:  I am coming to the U.S. to engage in prostitution or, in the past 10 years, I have engaged in prostitution (including receiving the proceeds of, in full or in part,) procurement of prostitution, or I continue to engage in prostitution or procurement of prostitution.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line23CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 23. Check this box for:  I have been involved in a controlled substance violation according to the laws and regulations of any state, the United States, or a foreign country related to a single offense of simple possession of 30 grams or less of marijuana.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line26CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 26. Check this box for:  I came to the United States or I am coming to the United States to engage in any other unlawful commercialized vice, whether or not it is related to prostitution.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line25CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 25. Check this box for:  In the past 10 years, I have (either directly or indirectly,) procured, attempted to procure, or to import prostitutes or persons for the purpose of prostitution.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line27CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 27. Check this box for:  I have been involved in serious criminal activity and have asserted immunity from prosecution.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line10CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section A. Select all grounds that you believe apply to you. 10. Check this box for: I have been involved in serious criminal activity and have asserted immunity from prosecution.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line9CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Select all of the following grounds that you believe, according to the best of your knowledge, or that you were told, apply to you. Only select the applicable grounds listed under the immigration benefit you are seeking.  If you were ever arrested or convicted, provide the disposition (outcome) for all arrests or convictions (for example, dismissed from the appropriate authority). You also will be required to provide certified court records or dispositions for all convictions. If you are seeking a waiver of inadmissibility because you have a Class A Tuberculosis condition (as defined by U.S. Department of Health and Human Services (H H S) regulations), you must complete Part 11. of this application. If you are seeking a waiver of inadmissibility because you have a history of physical or mental disorders, you must attach the information requested in the instructions.  Section A. I am an applicant for an immigrant visa or adjustment of status (other than based on T nonimmigrant status or based on classification as a Special Immigrant Juvenile, see Section B below), or for K or V nonimmigrant status, and I believe or I was told that I am inadmissible because (review Form I-6 0 1 Instructions for a detailed explanation of the individual grounds of inadmissibility listed below). Select all grounds that you believe apply to you. 9. Check this box for: I came to the United States or I am coming to the United States to engage in any other unlawful commercialized vice whether or not it is related to prostitution.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line19OtherSpecify[0]",
+    "type": "text",
+    "label": "Part 4. Reasons for Inadmissibility. Section B. If selected Item Number 19. Enter a brief detailed explanation.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line19CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Select all of the following grounds that you believe, according to the best of your knowledge, or that you were told, apply to you. Only select the applicable grounds listed under the immigration benefit you are seeking.  If you were ever arrested or convicted, provide the disposition (outcome) for all arrests or convictions (for example, dismissed from the appropriate authority). You also will be required to provide certified court records or dispositions for all convictions. If you are seeking a waiver of inadmissibility because you have a Class A Tuberculosis condition (as defined by U.S. Department of Health and Human Services (H H S) regulations), you must complete Part 11. of this application. If you are seeking a waiver of inadmissibility because you have a history of physical or mental disorders, you must attach the information requested in the instructions.  Section B. I am applying for adjustment of status based on a valid T nonimmigrant status or based on classification as a Special Immigrant Juvenile and I believe or I was told that I am inadmissible because. 19. Check this box for: Specify (Review Form I-6 0 1 Instructions for a detailed explanation of the individual grounds of inadmissibility related to your Form I-6 0 1.)",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].p4Line28CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 28. Check this box for:  I did not attend or did not remain at a removal proceeding to determine my inadmissibility or deportability.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line40Explanation[0]",
+    "type": "text",
+    "label": "Part 4. Reasons for Inadmissibility. Your Inadmissibility Statement.  Your statement must indicate when you engaged in the acts that you believe make you inadmissible, the date of all convictions, or the date of any medical diagnosis.  You must provide this information even if the information is also in the documents that you submit with your application. If you need extra space to complete your statement, use the space provided in Part 10. Additional Information or attach a separate letter.  If you include a separate letter, indicate in Item Number 39. that you are attaching a letter.  40. Enter Statement.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line33CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 33. Check this box for: I am ineligible for U.S. citizenship because I departed from or remained outside the United States to avoid or evade training or service in the armed forces in a time of war or national emergency.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line34CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 34. Check this box for: I have practiced polygamy since I entered the United States or I intend to practice polygamy in the United States.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line35CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 35. Check this box for: I am accompanying another alien who is inadmissible after being certified to be helpless under I N A. section 2 32 (c) and I am inadmissible because that other alien requires my protection or guardianship.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line36CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 36. Check this box for: I have detained, retained, or withheld the custody of a child having a lawful claim to U.S. citizenship, outside the United States, from a person granted custody.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line38CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 38. Check this box for: I am a former U.S. citizen who renounced my citizenship in order to avoid taxation by the United States.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line37CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 37. Check this box for: I was an unlawful voter who voted in violation of a Federal, state, or local constitutional provision, statute, ordinance, or regulation.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line39CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 39. Check this box for: Other.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line39OtherSpecify[0]",
+    "type": "text",
+    "label": "Part 4. Reasons for Inadmissibility. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. I am applying for T P S and I believe that I am inadmissible because:  If selected Item Number 39. Please Specify the reason for inadmissible in this space.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line30CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 30. Check this box for: I falsely represented myself as a U.S. citizen.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line32CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 32. Check this box for:  I am subject to a civil penalty because I have been the subject of a final order for violation of Immigration and Nationality Act (I N A) section 2 74 C.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line31CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 31. Check this box for:  I have been engaged in alien smuggling.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].p4Line29CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Reasons for Inadmissibility. Select all of the following grounds that you believe, according to the best of your knowledge, or that you were told, apply to you. Only select the applicable grounds listed under the immigration benefit you are seeking.  If you were ever arrested or convicted, provide the disposition (outcome) for all arrests or convictions (for example, dismissed from the appropriate authority). You also will be required to provide certified court records or dispositions for all convictions. If you are seeking a waiver of inadmissibility because you have a Class A Tuberculosis condition (as defined by U.S. Department of Health and Human Services (H H S) regulations), you must complete Part 11. of this application. If you are seeking a waiver of inadmissibility because you have a history of physical or mental disorders, you must attach the information requested in the instructions.  Section C. I am applying for T P S and I believe or I was told that I am inadmissible because. Select all grounds that you believe, according to the best of your knowledge, or that you were told apply to you. 29. Check this box for:  I have sought to procure an immigration benefit by fraud or by concealing or misrepresenting a material fact (immigration fraud or misrepresentation).",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line2CityOrTown[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Physical Address. 2. C. Enter City or Town.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line1aFamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Relative's Full Name. 1. A. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line1bGivenName[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Relative's Full Name. 1. B. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line1cMiddleName[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Relative's Full Name. 1. C. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line2StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives Physical Address. 2. A. Enter Street Number and Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line2Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Qualifying Relatives. Physical Address. 2. B. Select Suite.",
+    "page": 6,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line2Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Qualifying Relatives. Physical Address. 2. B. Select Floor.",
+    "page": 6,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line2AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Physical Address. 2. B. Enter Apartment, Suite or Floor Number. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line2Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Qualifying Relatives, Physical Address. 2. B. Select Apartment.",
+    "page": 6,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line2Province[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Physical Address. 2. F. Enter Province.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line2State[0]",
+    "type": "choice",
+    "label": "Part 5. Information About Your Qualifying Relatives. Physical Address. 2. D. Select State from List of States.",
+    "page": 6,
+    "options": [
+      "",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line2PostalCode[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Physical Address. 2. G. Enter Postal Code.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line2Country[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Physical Address. 2. H. Enter Country.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5VAWACB[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Qualifying Relatives. Provide information for your U.S. citizen or lawful permanent resident through whom you are eligible to submit this application. In Item Number 9., provide a statement explaining the extreme hardship that you or your qualifying relative (U.S. citizen, lawful permanent resident, or other qualified parent or child) has or will experience if you are refused the immigration benefit you are seeking.  It is not necessary for an Special Immigrant Juvenile (S I J) to complete Part 5. of the application. Select this Box here, if you are a V A W A self-petitioner and would like to claim extreme hardship to yourself.  (If you are only claiming extreme hardship for yourself, you can skip to Item Number 9. If you have additional qualifying relatives to whom you would like to claim extreme hardship, provide their information below.)",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line4Email[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Contact Information. 4. Enter Email Address, if any.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line3DayPhone[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Contact Information. 3. Enter Daytime Telephone Number, if any. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5AddlRelatives[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About Your Qualifying Relatives. Other information. Check this box for: if you have additional relatives through whom you claim eligibility and go to Part 10. Additional Information to provide the same information as requested in Part 5., Item Numbers 1. A. through 8.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line6ImmigrationStatus[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Other Information. 6. Enter What is your relative's immigration status.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line8DateofBirth[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Other Information. 8. Date of Birth (m m/d d/y y y y). Enter date as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line9ApplicantStatement[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Statement from Applicant (Extreme Hardship). In the space provided below, explain the extreme hardship that your qualifying relative (or yourself if you are a V A W A self-petitioner) would experience if you are refused the immigration benefit you are seeking.  For more information on extreme hardship, see Form I-6 0 1 Instructions.  If you need extra space to complete your statement, use the space provided in Part 10. Additional Information or attach a separate letter.  Indicate in Item Number 9. if you are attaching a separate letter.  The letter must be submitted at the same time as your Form I-6 0 1 application. 9. Enter Statement.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p6Line1aFamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Provide information for any other U.S. citizen, lawful permanent resident, or any other family members you would like considered in deciding your case.  In the space provided in Item Number 9. Statement From Applicant (Discretion), include a statement explaining why you believe your application should be approved as a matter of discretion, with the favorable factors outweighing the unfavorable factors in your case. Relative's Full Name. 1. A. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line1b_GivenName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Provide information for any other U.S. citizen, lawful permanent resident, or any other family members you would like considered in deciding your case.  In the space provided in Item Number 9. Statement From Applicant (Discretion), include a statement explaining why you believe your application should be approved as a matter of discretion, with the favorable factors outweighing the unfavorable factors in your case. Relative's Full Name. 1. B. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt6Line1c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Provide information for any other U.S. citizen, lawful permanent resident, or any other family members you would like considered in deciding your case.  In the space provided in Item Number 9. Statement From Applicant (Discretion), include a statement explaining why you believe your application should be approved as a matter of discretion, with the favorable factors outweighing the unfavorable factors in your case. Relative's Full Name. 1. C. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line7AlienNumber[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Other Information. 7. Enter Relative's Alien Registration Number (A Number), if any.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line5Relationship[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Other Information. 5. Enter What is your relative's relationship to you.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].p5Line2ZipCode[0]",
+    "type": "text",
+    "label": "Part 5. Information About Your Qualifying Relatives. Physical Address. 2. E. Enter Zip Code.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line4Email[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Contact Information. 4. Enter Email Address, if any.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line5Relationship[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Other Information. 5. Enter What is your relative's relationship to you.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line6ImmigrationStatus[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Other Information. 6. Enter What is your relative's immigration status.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6OtherRelatives[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Other Information. Check this box for: Select this box if you have any other relatives with ties to the United States and use the space provided in Part 10. Additional Information to provide the same information as requested in Part 6., Item Numbers 1.a. - 8.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line8DateofBirth[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Other Information. 8. Date of Birth (m m/d d/y y y y). Enter date as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line9ApplicantStatement[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Statement From Applicant (Discretion). In the space provided below, explain why you believe your application should be approved as a matter of discretion, with the favorable outweighing the unfavorable factors in your case.  For more information on discretion, see Form I-6 0 1 Instructions.  If you need extra space to complete your statement, use the space provided in Part 10. Additional Information or attach a separate letter.  Indicate in Item Number 9. if you are attaching a separate letter.  The letter must be submitted at the same time as your Form I-6 0 1 application. 9. Enter Statement.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line3DayPhone[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Contact Information. 3. Enter Daytime Telephone Number, if any.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line2CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Physical Address. 2. C. Enter City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line2StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Physical Address. 2. A. Enter Street Number and Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line2Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Physical Address. 2.B. Select Suite.",
+    "page": 7,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line2Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Physical Address. 2. B. Select Floor.",
+    "page": 7,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line2AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Physical Address. 2. B. Enter Apartment, Suite or Floor Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line2Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Physical Address. 2. B. Select Apartment.",
+    "page": 7,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line2Province[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Physical Address. 2. F. Enter Province.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line2ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Physical Address. 2. E. Enter Zip Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line2State[0]",
+    "type": "choice",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Physical Address. 2. D. Select State from List of States.",
+    "page": 7,
+    "options": [
+      "",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line2PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Physical Address. 2. G. Enter Postal Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line2Country[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Physical Address. 2. H. Enter Country.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p6Line7AlienNumber[0]",
+    "type": "text",
+    "label": "Part 6. Information About Your Other Relatives with Ties to the United States. Other Information. 7. Enter Relative's Alien Registration Number (A Number), if any.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p7Line1DayPhone[0]",
+    "type": "text",
+    "label": "Part 7. Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. Provide your daytime telephone number, mobile telephone number if any, and email address if any.   1. Enter Applicant's Daytime Telephone Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p7Line3Email[0]",
+    "type": "text",
+    "label": "Part 7. Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 3. Enter Applicant's Email Address, if any.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p7Line2MobilePhone[0]",
+    "type": "text",
+    "label": "Part 7. Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 2. Enter Applicant's Mobile Telephone Number, if any.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].p7Line6DateofSignature[0]",
+    "type": "text",
+    "label": "Part 7. Applicant's Contact Information, Certification, and Signature. Applicant's Certification and Signature. 4. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt7Line6a_SignatureofApplicant[0]",
+    "type": "text",
+    "label": "Part 7. Applicant's Contact Information, Certification, and Signature. Applicant's Certification and Signature.                                                                     I certify, under penalty of perjury, that I provided or authorized all of the responses and information contained in and submitted with my application, I read and understand or, if interpreted to me in a language in which I am fluent by the interpreter listed in Part 8., understood, all of the responses and information contained in, and submitted with, my application, and that all of the responses and the information is complete, true, and correct.  Furthermore, I authorize the release of any information from any and all of my records that USCIS may need to determine my eligibility for an immigration request and to other entities and persons where necessary for the administration and enforcement of U.S. immigration law.  4 A. Applicant's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[7].p8Line1bGivenName[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p8Line1aFamilyName[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. A. Enter Interpreter's Family Name (Last Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p8Line2OrgName[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. 2. Enter Interpreter's Business or Organization Name, if any.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p8Line4MobilePhone[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Mobile Telephone Number, if any.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p8Line5Email[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Email Address, if any.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p8Line3DayPhone[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].P8Language[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. I certify, under penalty of perjury, that I am fluent in English and  (Enter Language), and I have interpreted every question on the application and Instructions and interpreted the applicant's answers to the questions in that language, and the applicant informed me that he or she understood every instruction, question, and answer on the application.                      ",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p8Line7DateofSignature[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. 6. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p8Line7Signature[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature.  6. A. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p9Line1aFamilyName[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.   Preparer's Full Name. 1. A. Enter Preparer's Family Name (Last Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p9Line1bGivenName[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 1. B. Enter Preparer's Given Name (First Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p9Line2BusinessName[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 2. Enter Preparer's Business or Organization Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p9Line5Email[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Contact Information. 5. Enter Preparer's Email Address, if any.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p9Line3DayPhone[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Contact Information.  3. Enter Preparer's Daytime Telephone Number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p9Line4MobilePhone[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Contact Information.  4. Enter Preparer's Mobile Telephone Number, if any.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p9Line6aSignature[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Certification and Signature.  I certify, under penalty of perjury, that I prepared this application for the applicant at his or her request and with express consent and that all of the responses and information contained in and submitted with the application is complete, true, and correct and reflects only information provided by the applicant.  The applicant reviewed the responses and information and informed me that he or she understands the responses and information in or submitted with the application. 6. A. Preparer's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p9Line6bDateofSignature[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Certification and Signature. 6. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line3dAdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 3. D. Enter Additional Information. ",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p1Line3aFamilyName[1]",
+    "type": "text",
+    "label": "Part 10. Additional Information. No Entry. 1. A.  Family Name (Last Name). This is a read only field. This field pre-populated from the first page.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p1Line3bGivenName[1]",
+    "type": "text",
+    "label": "Part 10. Additional Information. No Entry.  1. B. Given Name (First Name). This is a read only field. This field pre-populated from the first page.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p1Line3cMiddleName[1]",
+    "type": "text",
+    "label": "Part 10. Additional Information. No Entry. 1. C. Middle Name. This is a read only field. This field pre-populated from the first page.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line3aPageNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 3. A. Enter Page Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line3bPartNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 3. B. Enter Part Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line3cItemNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 3. C. Enter Item Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line4aPageNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 4. A. Enter Page Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line4bPartNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 4. B. Enter Part Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line4cItemNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 4. C. Enter Item Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line4dAdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 4. D. Enter Additional Information. ",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line5aPageNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 5. A. Enter Page Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line5bPartNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 5. B. Enter Part Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line5cItemNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 5. C. Enter Item Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line5dAdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 5. D. Enter Additional Information. ",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line6dAdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 6. D. Enter Additional Information. ",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line6aPageNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 6. A. Enter Page Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line6bPartNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 6. B. Enter Part Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p10Line6cItemNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 6. C. Enter Item Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].p1Line1ANum[1]",
+    "type": "text",
+    "label": "Part 10. Additional Information. No Entry 2. Alien Registration Number (A Number), if any. This is a read only field. This field pre-populated from the first page.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line1aSignature[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). To be completed for applicants with a Class A. Tuberculosis Condition (as defined by H H S Regulations). Statement by Applicant. Upon admission to the United States, I will go directly to the health department named in the section below; present all X-rays used in the visa medical examination to substantiate diagnosis; submit to such examinations, treatment, isolation, and medical regimen as may be required; and remain under the prescribed treatment or observation, whether on an inpatient or outpatient basis, until discharged. 1. A. Signature of Applicant. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line1bAppDateofSignature[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Statement by Applicant. 1. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line7Email[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physician's Contact Information. 7. Enter Email Address, if any.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line4Unit[0]",
+    "type": "checkbox",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 4. B. Select Apartment.",
+    "page": 10,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line4Unit[1]",
+    "type": "checkbox",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 4. B. Select Suite.  ",
+    "page": 10,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line4Unit[2]",
+    "type": "checkbox",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 4. B. Select Floor.  ",
+    "page": 10,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line4AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 4. B. Enter Apartment, Suite or Floor Number. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line4CityTown[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 4. C. Enter City or Town.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line4State[0]",
+    "type": "choice",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 4. D. Select State from List of States.",
+    "page": 10,
+    "options": [
+      "      ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line4ZipCode[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 4. E. Enter Zip Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line5aSignature[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physician's Certification. 5. A. Signature of Physician. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line5bDateofSignature[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physician's Certification. 5. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line6DayPhone[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physician's Contact Information. 6. Enter Daytime Phone Number. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line8CityTown[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Address where you (the sponsor) or the applicant plan to reside in the United States. 8. C. Enter City or Town.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line8ZipCode[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Address where you (the sponsor) or the applicant plan to reside in the United States. 8. E. Enter Zip Code.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line8StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Arrange for medical care (of the applicant) and have the appropriate health departments complete Statement by Local (City or County) Health Department and Endorsement of State Health Department Official sections. Provide the following information. Address where you (the sponsor) or the applicant plan to reside in the United States. 8. A. Enter Street Number and Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line8Unit[0]",
+    "type": "checkbox",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Address where you (the sponsor) or the applicant plan to reside in the United States. 8. B. Select Suite.",
+    "page": 10,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line8Unit[1]",
+    "type": "checkbox",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Address where you (the sponsor) or the applicant plan to reside in the United States. 8. B. Select Floor.",
+    "page": 10,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line8AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Address where you (the sponsor) or the applicant plan to reside in the United States. 8. B. Enter Apartment, Suite or Floor Number.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line8Unit[2]",
+    "type": "checkbox",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Address where you (the sponsor) or the applicant plan to reside in the United States. 8. B. Select Apartment.",
+    "page": 10,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line8State[0]",
+    "type": "choice",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Address where you (the sponsor) or the applicant plan to reside in the United States. 8. D. Select State from List of States.",
+    "page": 10,
+    "options": [
+      "      ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line2Health[0]",
+    "type": "checkbox",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Statement by Local (City or County) Health Department. NOTE:  The physician at the local health department in the area where the alien plans to reside should complete this statement. I agree to supply any treatment or observation necessary for the proper management and continued care of the alien's tuberculosis condition. Within 30 days of the alien reporting for care, I agree to submit a summary of my initial evaluation of the alien's condition, indicate presumptive diagnosis, and provide test results and plans for future care of the alien to the State Health Department Official named in the Endorsement of State Health Department Official section and to the Division of Global Migration and Quarantine (E 0 3), Centers for Disease Control and Prevention (C D C), Atlanta, Georgia 30333. I also agree to report the alien if the alien has not reported within 30 days after receiving notice from the Division of Global Migration and Quarantine, C D C. Satisfactory financial arrangements have been made.  (This statement does not relieve the alien from submitting evidence, as required by a U.S. Consulate, to establish that the alien is not likely to become a public charge.) I represent (select the appropriate box and give the complete name, address, certification, and contact information of the health department). 2. A. Select City Health Department.",
+    "page": 10,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line2Health[1]",
+    "type": "checkbox",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Statement by Local (City or County) Health Department. I represent (select the appropriate box and give the complete name, address, certification, and contact information of the health department). 2. B. Select County Health Department.",
+    "page": 10,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line3NameofHealthDepartment[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Statement by Local (City or County) Health Department. 3. Enter Name of Health Department.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line4StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 4. A. Enter Street Number and Name.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line5cFamilyName[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physician's Certification. 5. C. Enter Physician's Family Name (Last Name).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].p11Line5dGivenName[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physician's Certification. 5. D. Enter Physician's Given Name (First Name).",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line9aSignature[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Endorsement of State Health Department Official. NOTE: The State Health Department Official in the area where the applicant plans to reside should complete this statement. Endorsement signifies recognition of the local health department that completed the Statement by Local (City or County) Health Department section for the purpose of providing care and treatment of the applicant's tuberculosis condition, and that the local health department is within your jurisdiction.  Endorsement also signifies recognition that the applicant will be residing within your state's health jurisdiction. Endorsed by. 9. A. Signature of State Health Department Official. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line9bDateofSignature[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Endorsement of State Health Department Official. Endorsed by. 9. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line10NameofState[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Endorsement of State Health Department Official. Endorsed by. 10. Enter Name of State Health Department.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line11CityOrTown[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 11. C. Enter City or Town.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line11ZipCode[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 11. E. Enter Zip Code.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line13Email[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Contact Information. 13. Enter Email Address, if any.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line11StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 11. A. Enter Street Number and Name.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line11Unit[0]",
+    "type": "checkbox",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 11. B. Select Suite.",
+    "page": 11,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line11Unit[1]",
+    "type": "checkbox",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 11. B. Select Floor.",
+    "page": 11,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line11AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 11. B. Enter Apartment, Suite or Floor Number.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line11Unit[2]",
+    "type": "checkbox",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 11. B. Select Apartment.",
+    "page": 11,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line11State[0]",
+    "type": "choice",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Physical Address. 11. D. Select State from List of States.",
+    "page": 11,
+    "options": [
+      "      ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[10].p11Line12DayPhone[0]",
+    "type": "text",
+    "label": "Part 11. Statement for Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations). Contact Information. 12. Enter Daytime Telephone Number.",
+    "page": 11
+  }
+]

@@ -18,6 +18,14 @@ from app.services.timeline import build_case_timeline
 router = APIRouter(prefix="/public/forms", tags=["public"])
 
 
+def _attorney_only_field_names(template: FormTemplate) -> set[str]:
+    return {
+        entry["pdf_field"]
+        for entry in template.autofill_map or []
+        if str(entry.get("source", "")).startswith("attorney.")
+    }
+
+
 def _get_active_generated_form(token: str, db: DbSession) -> GeneratedForm:
     # Rate-limited per token, not per IP: the token is already unguessable
     # (24 random bytes), so this isn't an anti-brute-force control -- it caps
@@ -60,7 +68,19 @@ def update_public_form(token: str, payload: GeneratedFormUpdate, db: DbSession):
     if not template:
         raise HTTPException(status_code=404, detail="Form template not found")
 
-    generated.data = {**(generated.data or {}), **payload.data}
+    real_field_names = {f["name"] for f in template.field_schema or []}
+    unknown = [name for name in payload.data if name not in real_field_names]
+    if unknown:
+        raise HTTPException(status_code=422, detail=f"Unknown field(s) for this form: {sorted(unknown)}")
+
+    # The client wizard's autosave always echoes the ENTIRE form back,
+    # including attorney-owned fields it never showed the client -- so
+    # silently stripping those (rather than rejecting the request) is what
+    # keeps a normal autosave from breaking.
+    locked_field_names = _attorney_only_field_names(template)
+    editable_data = {k: v for k, v in payload.data.items() if k not in locked_field_names}
+
+    generated.data = {**(generated.data or {}), **editable_data}
     if payload.client_wizard_step is not None:
         generated.client_wizard_step = payload.client_wizard_step
 

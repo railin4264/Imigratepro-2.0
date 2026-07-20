@@ -1,0 +1,3625 @@
+[
+  {
+    "name": "form1[0].PG1[0].P1_Line4_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Full Name. 4. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line4_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Full Name. 4. Enter Given Name (First Name). ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line4_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Full Name. 4. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].#area[0].P1_Line2_AcctIdentifier[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Provide the following information about yourself. 2. Enter U S C I S Online Account Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].#area[1].P1_Line1_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Provide the following information about yourself. 1. Enter Alien Registration Number (A. Number), if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].#area[2].P1_Line16_SSN[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Provide the following information about yourself. 3. Enter U. S. Social Security Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line5_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used. List all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 5. Enter Family Name (Last Name) Row 1.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line5_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used. List all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 5. Enter Given Name (First Name) Row 1. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line5_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used. List all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 5. Enter Middle Name Row 1.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "To be completed by an attorney or                      B I A. - accredited representative, if any. Select this box if Form G-28 is attached to represent the petitioner.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].PG1[0].#area[3].USCISELISAcctNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or B I A. - accredited representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line5_MiddleName[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used. List all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 5. Enter Middle Name Row 2.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line5_GivenName[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used. List all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 5. Enter Given Name (First Name) Row 2. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line5_FamilyName[1]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Names Used. List all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 5. Enter Family Name (Last Name) Row 2.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line7_Gender[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 7. Sex. Select Male.",
+    "page": 1,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line7_Gender[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 7. Sex. Select Female.",
+    "page": 1,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line6_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 6. Enter Date of Birth. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_InCareofName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 12. Enter In Care Of Name, if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 12. Enter Street Number\rand Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 12. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 12. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 12. Enter Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 12. Enter ZIP Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Mailing Address. 12. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 12. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Mailing Address. 12. Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Mailing Address. 12. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Mailing Address. 12. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line12_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Mailing Address. 12. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].PG2[0].pt1Line8_YesNo[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Mailing Address. 13. Is your current mailing address the same as your physical address? Select Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG2[0].pt1Line8_YesNo[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Mailing Address. 13. Is your current mailing address the same as your physical address? Select No. If you answered \"No\" to Item Number 13., provide your physical address in Item Numbers 14. through 16.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].p1Line14StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. Provide your physical addresses for the last five years.  Provide your present address first.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 14. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].p1Line14AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 14. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].p1Line14Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 14. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].p1Line14Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 14. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].p1Line14Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 14. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].p1Line14CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 14. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].p1Line14ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 14. Enter ZIP Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].p1Line14Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 14. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].p1Line14PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 14. Enter Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].p1Line14Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 14. Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].p1Line14State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Physical Address. 14. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line13[0].pt1Line14DateFrom[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 14. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line9_CountriesCitzOrNatzCurrent[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. NOTE: If you are a citizen of more than one country or your nationality differs from your citizenship, provide the information in Part 10. Additional Information. 9. Enter Country(ies) of Citizenship or Nationality (current) ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line11_CountryofLast[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. NOTE:  If you are a citizen of more than one country or your nationality differs from your citizenship, provide the information in Part 10. Additional Information. 11. Enter Country of Last Foreign Residence.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line24_CountriesofCitzOrNatzRelinquish[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. NOTE: If you are a citizen of more than one country or your nationality differs from your citizenship, provide the information in Part 10. Additional Information. 10. Enter Country(ies) of Citizenship or Nationality (relinquished)",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line8_CityTownOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 8. Place of Birth. Enter City or Town of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line8_StateProvinceofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 8. Place of Birth. Enter State or Province of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P1_Line8_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 8. Place of Birth. Enter Country of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 16. Enter Street Number and Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 16. Enter Apartment, Suite or Floor Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 16. Select Apartment.",
+    "page": 3,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 16. Select Suite.",
+    "page": 3,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 16. Select Floor.",
+    "page": 3,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 16. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 16. Enter ZIP Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 16. Enter Country.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 16. Enter Postal Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 16. Enter Province.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Physical Address. 16. Select State from List of States.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16DateFrom[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 16. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line16[0].p1Line16DateTo[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 16. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_18_EmployerName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. Provide the last 20 years of your employment history. Also provide any government or military positions held at any time (i.e. even if older than 20 years).  List present employment first. If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 18. Enter Employer Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_Line18_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 18. Enter Street Number and Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_Line18_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 18. Enter Apartment, Suite or Floor Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_checkbox_18_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Employment History. 18. Select Apartment.",
+    "page": 3,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_checkbox_18_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Employment History. 18. Select Suite.",
+    "page": 3,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_checkbox_18_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Employment History. 18. Select Floor.",
+    "page": 3,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_Line18_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 18. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_Line18_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 18. Enter Zip Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_Line18_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 18. Enter Country.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_Line18_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 18. Enter Postal Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_Line18_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 18. Enter Province.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_Line18_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Employment History. 18. Select State from List of States.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_18_jobTitle[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 18. Enter Job Title.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_18_from[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 18. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line18[0].P1_18_To[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 18. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line17_CB[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Employment History. Provide the last 20 years of your employment history.  Also provide any government or military positions held at any time (i.e. even if older than 20 years).  List present employment first. If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 17. Have you ever been employed? Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG3[0].P1_Line17_CB[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Employment History. Provide the last 20 years of your employment history. Also provide any government or military positions held at any time (i.e. even if older than 20 years).  List present employment first. If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 17. Have you ever been employed? Select Yes. If you answered \"yes\" to Item Number 16., provide the following information for any previous employment.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 15. Enter Street Number and Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 15. Enter Apartment, Suite or Floor Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 15. Select Apartment.",
+    "page": 3,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 15. Select Suite.",
+    "page": 3,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Physical Address. 15. Select Floor.",
+    "page": 3,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 15. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 15. Enter ZIP Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 15. Enter Country.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 15. Enter Postal Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 15. Enter Province.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Physical Address. 15. Select State from List of States.",
+    "page": 3,
+    "options": [
+      "",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line15_DateFrom[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 15. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].p1Line14_DateTo[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Physical Address. 15. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].P1_19_employerName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 19. Enter Employer Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line19_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 19. Enter Street Number and Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line19_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 19. Enter Apartment, Suite or Floor Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_checkbox19_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Employment History. 19. Select Apartment.",
+    "page": 4,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[3].P1_checkbox19_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Employment History. 19. Select Suite.",
+    "page": 4,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[3].P1_checkbox19_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Employment History. 19. Select Floor.",
+    "page": 4,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line19_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 19. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line19_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 19. Enter Zip Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line19_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Employment History. 19. Select State from List of States.",
+    "page": 4,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line19_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 19. Enter Country.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line19_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 19. Enter Postal Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line19_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 19. Enter Province.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_15j_jobTitle[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 19. Enter Job Title.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_20_employerName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 20. Enter Employer Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line20_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 20. Enter Street Number and Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line20[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 20. Enter Apartment, Suite or Floor Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_checkbox20_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Employment History. 20. Select Apartment.",
+    "page": 4,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[3].P1_checkbox20_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Employment History. 20. Select Suite.",
+    "page": 4,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[3].P1_checkbox20_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Employment History. 20. Select Floor.",
+    "page": 4,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line20_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 20. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line20_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 20. Enter Zip Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line20_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Employment History. 20. Select State from List of States.",
+    "page": 4,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line20_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 20. I. Enter Country.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line20_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 20. Enter Postal Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line20_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 20. Enter Province.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_20_jobTitle[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 20. Enter Job Title.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_20_from[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 20. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_20_to[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 20. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_19_from[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 19. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_19_To[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Employment History. 19. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line22_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Entry Into the United States. Place of Arrival or Port-of-Entry. 22.  Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line22_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. Your Entry Into the United States. 22. Place of Arrival or Port-of-Entry. Select State from List of States.",
+    "page": 4,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[3].P1_Line21_DateOfarrival[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Entry Into the United States.  If you are currently in the United States, you must answer 21 through 23.  If you are not currently in the United States, skip to Part 3.   21. Enter Date of Arrival. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line23_DateOfpassport[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Entry Into the United States. 23. Enter Date Passport or Travel Document Expires. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line23_DateOfCurrentNonimmigrantStatusExpires[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Entry Into the United States. 23. Enter Current Nonimmigrant Status Expires. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line23_DateOfPeriod[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Entry Into the United States. 23. Enter Date Period of Authorized Stay Expires / Expired. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line23_CurrentNonimmigrantStatus[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Entry Into the United States. 23. Enter Current Nonimmigrant Status (if applicable).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line23_CountryIssuedPassport[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Entry Into the United States. 23. Enter Country that Issued Passport or Travel Document.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line23_Passport[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Entry Into the United States. 23. Enter Passport Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line23_TravelDoc[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Entry Into the United States. 23. Enter Travel Document Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Line23_ArrivalDeparture[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Your Entry Into the United States. 23. Enter I - 94 Arrival-Departure Record Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Spouse and Children. List your spouse and all of your children.  Also, note if the individual will be applying for a visa abroad or for adjustment of status as your dependent.  If you need additional space to list other children, use Part 10. Additional Information. Family Member One. 1. Enter Family Name (Last Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Spouse and Children. Family Member One. 1. Enter Given Name (First Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Information About Ypur Spouse and Children. Family Member One. 1. Enter Middle Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line7[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Your Spouse and Children. Family Member One. 7. Applying for Adjustment of Status? Select No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line7[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member One. 7. Applying for Adjustment of Status? Select Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line8[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member One. 8. Applying for Visa Abroad? Select No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line8[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member One. 8. Applying for Visa Abroad? Select Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line3_CountryofBirth1[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Spouse and Children. Family Member One. 3. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line2_DateOfBirth1[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Spouse and Children. Family Member One. 2. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line4_SpouseCountriesOfCitizenshipCurrent[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Spouse and Children. Family Member One. 4. If spouse, Enter Country(ies) of Citizenship (current)",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line4_SpouseCountriesOfCitizenshipRelinquished[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Spouse and Children. Family Member One. 4. If spouse, Enter Country(ies) of Citizenship (relinquished).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line6[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member One. 6. Relation to You. Select Child",
+    "page": 5,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[4].P1_Line6[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member One. 6. Relation to You. Select Spouse.",
+    "page": 5,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line9_FamilyName2[0]",
+    "type": "text",
+    "label": "Part 2. Information about your Spouse and Children. Family Member Two. 9. Enter Family Name (Last Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line9_GivenName2[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Two. 9. Enter Given Name (First Name).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line9_MiddleName2[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Two. 9. Enter Middle Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line10_DateOfBirth2[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Two. 10. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line11_CountryOfBirth2[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Two. 11. Enter Country of Birth.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line13[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Two. 13. Applying for Adjustment of Status? Select No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line13[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Two. 13. Applying for Adjustment of Status? Select Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line14[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Two. 14. Applying for Visa Abroad? Select No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line14[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Two. 14. Applying for Visa Abroad? Select Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line12[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Two. 12. Relationship to You.  Select Spouse.",
+    "page": 5,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].#subform[4].P2_Line12[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Two. 12. Relationship to You.  Select Child.",
+    "page": 5,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line20[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Three. 19. Applying for Visa Abroad? Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line20[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Three. 19. Applying for Visa Abroad? Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line19[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Three. 18. Applying for Adjustment of Status? Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line19[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Three. 18. Applying for Adjustment of Status? Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line17_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Three. 17. Enter Country of Birth.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line16_DateOfBirth3[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Three. 16. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line15_FamilyName3[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Three. 15. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line15_MiddleName3[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Three. 15. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line15_GivenName3[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Three. 15. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line23_CountryOfBirth4[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Four. 23. Enter Country of Birth.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line22_DateOfBirth4[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Four. 22. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line21_MiddleName4[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Four. 21. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line21_GivenName4[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Four. 21. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line21_FamilyName4[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Four. 21. Enter Family Name (Last Name). ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line18[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Three. 18. Relationship to You. Select Child.",
+    "page": 6,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line18[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Three. 18. Relationship to You.  Select Spouse.",
+    "page": 6,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line25[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Four. 25. Applying for Adjustment of Status? Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line25[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Four. 25. Applying for Adjustment of Status? Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line26[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Four. 26. Applying for Visa Abroad? Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line26[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Four. 26. Applying for Visa Abroad? Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line32[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Five. 32. Applying for Visa Abroad? Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line32[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Five. 32. Applying for Visa Abroad? Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line31[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information on Petitioner's Spouse and Children. Family Member Five. 31. Applying for Adjustment of Status? Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line31[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Five. 31. Applying for Adjustment of Status? Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line29_CountryOfBirth5[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Five. 29. Enter Country of Birth.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line28_DateOfBirth5[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Five. 28. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line27_MiddleName5[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Five. 27. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line27_GivenName5[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Five. 27. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line27_FamilyName5[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Five. 27. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line24[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Four. 24. Relationship to You.  Select Child.",
+    "page": 6,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line24[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Four. 24. Relation to You.  Select Spouse.",
+    "page": 6,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line30[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information on Petitioner's Spouse and Children. Family Member Five. 30. Relationship to You.  Select Child.",
+    "page": 6,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line30[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Five. 30. Relationship to You.  Select Spouse.",
+    "page": 6,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line38[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Six. 38. Applying for Visa Abroad? Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line38[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Six. 38. Applying for Visa Abroad? Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line37[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Six. 37. Applying for Adjustment of Status? Select No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line37[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Six. 37. Applying for Adjustment of Status? Select Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line35_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Six. 35. Enter Country of Birth.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line34_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Six. 34. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line33_MiddleName6[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Six. 33. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line33_GivenName6[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Six. 33. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line33_FamilyName6[0]",
+    "type": "text",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Six. 33. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line36[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Six. 36. Relationship to You.  Select Child.",
+    "page": 6,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[5].P2_Line36[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About your Spouse and Children. Family Member Six. 36. Relationship to You.   Select Spouse.",
+    "page": 6,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Checkbox2A_OganizationStructure[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Information About the N C E. 2.A. Select the organizational structure.  If the organizational structure is different from the examples listed below, select \"other\" and describe the nature of the organizational structure. Select Corporation.",
+    "page": 7,
+    "on_value": "/Corporation"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line1a_LegalNameofNCE[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Information About the N C E. 1.A. Enter Legal name of N C E (Required Field - Do Not Leave Blank).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line1b_OtherNameofNCE[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Information About the N C E. 1.B. Enter Other name(s) the N C E is authorized to use or do business as ( d/ b/ a)",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Checkbox2A_OganizationStructure[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Information About the N C E. 2.A. Select the organizational structure.  If the organizational structure is different from the examples listed below, select \"other\" and describe the nature of the organizational structure. Select Partnership (including Limited Partnerships).",
+    "page": 7,
+    "on_value": "/Partnership"
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Checkbox2A_OganizationStructure[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Information About the N C E. 2.A. Select the organizational structure.  If the organizational structure is different from the examples listed below, select \"other\" and describe the nature of the organizational structure. Select Limited Liability Company",
+    "page": 7,
+    "on_value": "/Limited"
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Checkbox2A_OganizationStructure[3]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Information About the N C E. 2.A. Select the organizational structure.  If the organizational structure is different from the examples listed below, select \"other\" and describe the nature of the organizational structure. Select Other (describe below). ",
+    "page": 7,
+    "on_value": "/Other"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2a_OtherDescribe[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Additional Information About the N C E. 2.A. Enter Description of Other.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line4a_StateTerritory[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). 4.A. Enter State or Territory Where the N C E Was Established. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line2_B_CB[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise ( N C E). 2.B. Is the N C E comprised of a holding company and its wholly owned subsidiaries? Select No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line2_B_CB[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise ( N C E). 2.B. Is the N C E comprised of a holding company and its wholly owned subsidiaries? Select Yes. If you answered \"Yes,\" describe the overall organization structure of the N C E and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, use the space provided in Part 10. Additional Information. ",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2b_table[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Enter Subsidiary Name Row 1.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2b_table[1]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Enter Jurisdiction of Formation  Row 1. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2b_table[2]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Enter Subsidiary Name Row 2.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2b_table[3]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Enter Jurisdiction of Formation  Row 2. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2b_table[4]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Enter Subsidiary Name Row 3.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2b_table[5]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Enter Jurisdiction of Formation  Row 3. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P3_line3_DateNCEFormed[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). 3. Enter Date N C E Formed. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line4b_OtherStateTerritory[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). 4.B. List any other State or Territory Where the N C E is Registered to do Business. ",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2b_table[6]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). 3. Enter Date NCE Formed. Enter as 2 digit month, 2 digit day and 4 digit year Row 1.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2b_table[7]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). 3. Enter Date NCE Formed. Enter as 2 digit month, 2 digit day and 4 digit year  Row 2.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].Pt3Line2b_table[8]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). 3. Enter Date NCE Formed. Enter as 2 digit month, 2 digit day and 4 digit year  Row 3.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P3_line5_FEIN[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). 5. Enter Federal Employer Identification Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Checkbox_NCEMailiingAddress[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E Mailing Address (and Physical Address when Applicable) Select if Mailing Address is same as Physical Address.",
+    "page": 7,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[6].P3_Line6_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E. Mailing Address 6. Enter Street Number and Name.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P3_checkbox6_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E. Mailing Address 6. Enter Apartment, Suite or Floor Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P3_checkbox6_Unit[0]",
+    "type": "checkbox",
+    "label": " Part 3. Information About the New Commercial Enterprise (N C E). N C E. Mailing Address 6. Select Apartment.",
+    "page": 7,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[6].P3_checkbox6_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E. Mailing Address 6. Select Suite.",
+    "page": 7,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[6].P3_checkbox6_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E. Mailing Address 6. Select Floor.",
+    "page": 7,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[6].P3_line6_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E. Mailing Address 6. Enter City or Town.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P3_line6_ZipCode[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E. Mailing Address 6. Enter Zip Code.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P3_line6_State[0]",
+    "type": "choice",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E. Mailing Address 6. Select State from List of States.",
+    "page": 7,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[7].P3_line7_NCETelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E Contact Information 7. Enter Telephone Number of N C E.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt3Line8_Email[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E Contact Information. 8. Enter Email Address",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt3Line9_Website[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E Contact Information. 9. Enter Website Address.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt3_10_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Address and Census Tract(s) where the N C E Is Principally Doing Business (See Instructions). 10. Enter Street Number and Name.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt2_10_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Address and Census Tract(s) where the N C E Is Principally Doing Business (See Instructions). 10. Enter Apartment, Suite or Floor Number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].p2Line10AptSteFlr[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Address and Census Tract(s) where the N C E Is Principally Doing Business (See Instructions). 10. Select Apartment.",
+    "page": 8,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[7].p2Line10AptSteFlr[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Address and Census Tract(s) where the N C E Is Principally Doing Business (See Instructions). 10. Select Suite.",
+    "page": 8,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[7].p2Line10AptSteFlr[2]",
+    "type": "checkbox",
+    "label": "Part 4. Information About the Job-Creating Entity (J C E) (if different from the N C E). 10. Select Floor.",
+    "page": 8,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[7].Pt3_line10_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Address and Census Tract(s) where the N C E Is Principally Doing Business (See Instructions). 10. Enter City or Town.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt3_line10_ZipCode[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Address and Census Tract(s) where the N C E Is Principally Doing Business (See Instructions). 10. Enter Zip Code.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].Pt3_line10_State[0]",
+    "type": "choice",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Address and Census Tract(s) where the N C E Is Principally Doing Business (See Instructions). 10. Select State from List of States.",
+    "page": 8,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[7].Pt3_Line10_CensusTract[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Address and Census Tract(s) where the N C E Is Principally Doing Business (See Instructions). 10. Enter Census Tract(s)",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].P3_line11_NatureActivity[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Address and Census Tract(s) where the N C E Is Principally Doing Business (See Instructions). 11. Enter Nature of Activity (for example, furniture manufacturer).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].P3_line12_Industries[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job-Creating Entity (J C E) (if different from the N C E). 12. Enter Included Industries (provide North American Industry Classification System (N A I C S) codes).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line13_CB[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Type of N C E (Select only one). 13. A. Select N C E formed after November 29, 1990.",
+    "page": 8,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line13_CB[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Type of N C E (Select only one). 13. B. Select N C E resulting from the purchase of a business formed on or before November 29, 1990 that is restructured or reorganized.",
+    "page": 8,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[7].P3_Line13_CB[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Type of N C E (Select only one). 13. C. Select N C E resulting from a capital investment in and substantial expansion of a business formed on or before November 29, 1990.",
+    "page": 8,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[7].P3_line14[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). 14. Have you invested or are you actively in the process of investing in a troubled business? Select No.",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[7].P3_line14[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). 14. Have you invested or are you actively in the process of investing in a troubled business? Select Yes. NOTE:  If you answered \"Yes\" to Item Number 14., you must provide an explanation in Part 10. Additional Information of how the N C E qualifies as a troubled business.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].P3_line15[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E Ownership and Capital Investment 15. What percentage of the N C E do you own? Enter Percentage.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].P3_line16_CapitalInvested[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). N C E Ownership and Capital Investment. 16. Enter Total amount of all capital invested into N C E by Non-EB-5 Investors. Enter total amount.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].P3_line17a[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Additional Non-EB-5 Investors.  If you are not the sole owner/investor in the NCE, list the name of any other person (including both individuals and organizations) that holds an ownership interest or has invested capital in the NCE.  Also indicate the percentage of ownership and amount of capital invested by each person.  Note that an alien seeking to pool his or her investment with 1 or more additional aliens seeking classification under the Immigration and Nationality Act (INA) section 203(b)(5) must file for such classification in accordance with INA section 203(b)(5)(E) (the Regional Center Program).  If you need additional space, provide the information in Part 10. Additional Information. 17. A. Enter Name of Person.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].P3_line17b[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Additional Non-EB-5 Investors.  If you are not the sole owner/investor in the NCE, list the name of any other person (including both individuals and organizations) that holds an ownership interest or has invested capital in the NCE.  Also indicate the percentage of ownership and amount of capital invested by each person.  Note that an alien seeking to pool his or her investment with 1 or more additional aliens seeking classification under the Immigration and Nationality Act (INA) section 203(b)(5) must file for such classification in accordance with INA section 203(b)(5)(E) (the Regional Center Program).  If you need additional space, provide the information in Part 10. Additional Information. 17. B. Enter Percentage of Ownership. ",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].P3_Line17c_CapitalInvested[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Additional Non-EB-5 Investors.  If you are not the sole owner/investor in the NCE, list the name of any other person (including both individuals and organizations) that holds an ownership interest or has invested capital in the NCE.  Also indicate the percentage of ownership and amount of capital invested by each person.  Note that an alien seeking to pool his or her investment with 1 or more additional aliens seeking classification under the Immigration and Nationality Act (INA) section 203(b)(5) must file for such classification in accordance with INA section 203(b)(5)(E) (the Regional Center Program).  If you need additional space, provide the information in Part 10. Additional Information. 17. C. Enter Amount of capital invested",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].P3_line18a[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Additional Non-EB-5 Investors.  If you are not the sole owner/investor in the NCE, list the name of any other person (including both individuals and organizations) that holds an ownership interest or has invested capital in the NCE.  Also indicate the percentage of ownership and amount of capital invested by each person.  Note that an alien seeking to pool his or her investment with 1 or more additional aliens seeking classification under the Immigration and Nationality Act (INA) section 203(b)(5) must file for such classification in accordance with INA section 203(b)(5)(E) (the Regional Center Program).  If you need additional space, provide the information in Part 10. Additional Information. 18. A. Enter Name of Person.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].P3_line18b[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Additional Non-EB-5 Investors.  If you are not the sole owner/investor in the NCE, list the name of any other person (including both individuals and organizations) that holds an ownership interest or has invested capital in the NCE.  Also indicate the percentage of ownership and amount of capital invested by each person.  Note that an alien seeking to pool his or her investment with 1 or more additional aliens seeking classification under the Immigration and Nationality Act (INA) section 203(b)(5) must file for such classification in accordance with INA section 203(b)(5)(E) (the Regional Center Program).  If you need additional space, provide the information in Part 10. Additional Information. 18. B. Enter Percentage of Ownership. ",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].P3_Line18c_CapitalInvested[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Additional Non-EB-5 Investors.  If you are not the sole owner/investor in the NCE, list the name of any other person (including both individuals and organizations) that holds an ownership interest or has invested capital in the NCE.  Also indicate the percentage of ownership and amount of capital invested by each person.  Note that an alien seeking to pool his or her investment with 1 or more additional aliens seeking classification under the Immigration and Nationality Act (INA) section 203(b)(5) must file for such classification in accordance with INA section 203(b)(5)(E) (the Regional Center Program).  If you need additional space, provide the information in Part 10. Additional Information. 18. C. Enter Amount of capital invested",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].P3_Line19a[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Additional Non-EB-5 Investors.  If you are not the sole owner/investor in the NCE, list the name of any other person (including both individuals and organizations) that holds an ownership interest or has invested capital in the NCE.  Also indicate the percentage of ownership and amount of capital invested by each person.  Note that an alien seeking to pool his or her investment with 1 or more additional aliens seeking classification under the Immigration and Nationality Act (INA) section 203(b)(5) must file for such classification in accordance with INA section 203(b)(5)(E) (the Regional Center Program).  If you need additional space, provide the information in Part 10. Additional Information. 19. A. Enter Name of Person.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].P3_line19b[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Additional Non-EB-5 Investors.  If you are not the sole owner/investor in the NCE, list the name of any other person (including both individuals and organizations) that holds an ownership interest or has invested capital in the NCE.  Also indicate the percentage of ownership and amount of capital invested by each person.  Note that an alien seeking to pool his or her investment with 1 or more additional aliens seeking classification under the Immigration and Nationality Act (INA) section 203(b)(5) must file for such classification in accordance with INA section 203(b)(5)(E) (the Regional Center Program).  If you need additional space, provide the information in Part 10. Additional Information. 19. B. Enter Percentage of Ownership. ",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].P3_Line19c_CapitalInvested[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (N C E). Additional Non-EB-5 Investors.  If you are not the sole owner/investor in the NCE, list the name of any other person (including both individuals and organizations) that holds an ownership interest or has invested capital in the NCE.  Also indicate the percentage of ownership and amount of capital invested by each person.  Note that an alien seeking to pool his or her investment with 1 or more additional aliens seeking classification under the Immigration and Nationality Act (INA) section 203(b)(5) must file for such classification in accordance with INA section 203(b)(5)(E) (the Regional Center Program).  If you need additional space, provide the information in Part 10. Additional Information. 19. C. Enter Amount of capital invested",
+    "page": 9
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Checkbox1_RuralArea[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment. Select the appropriate box to indicate the type of investment you are making (Select all that apply). 1. Select Rural Area. This petition is based on an investment in a rural area.",
+    "page": 9,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line1_CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment.  Select the appropriate box to indicate the type of investment you are making.  (Select all that apply).  1.A. Is the N C E principally doing business in an area outside a metropolitan statistical area (as designated by the Director of the Office of Management and Budget)? Select No. ",
+    "page": 9,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line1_CB[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment.  Select the appropriate box to indicate the type of investment you are making.  (Select all that apply).  1.A. Is the N C E principally doing business in an area outside a metropolitan statistical area (as designated by the Director of the Office of Management and Budget)? Select Yes. ",
+    "page": 9,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line2_CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment. Select the appropriate box to indicate the type of investment you are making (select all that apply). 1.B. Is the N C E principally doing business in an area outside the outer boundary of a city or town having a population of 20,000 or more (based on the most recent decennial census of the United Status)? Select No. ",
+    "page": 9,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Line2_CB[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment. Select the appropriate box to indicate the type of investment you are making (select all that apply). 1.B. Is the N C E principally doing business in an area outside the outer boundary of a city or town having a population of 20,000 or more (based on the most recent decennial census of the United Status)? Select Yes. ",
+    "page": 9,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Checkbox_Evidence[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Select this box.  I have submitted the required initial evidence with my Form I-526 filing.  ",
+    "page": 9,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[8].P4_Checkbox_Evidence[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment.  Select this box, I will submit the required initial evidence through my  USCIS account.",
+    "page": 9,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Checkbox3_HighEmployment[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment. Select the appropriate box to indicate the type of investment you are making (Select all that apply). 3. Select High Employment Area.  This petition is based on an investment in a high employment area. ",
+    "page": 10,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Checkbox4_Non-TEA[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment. Select the appropriate box to indicate the type of investment you are making (Select all that apply). 4. Select Non- TEA / Non-High Employment. This petition is based on an investment in an area that is not in a targeted employment area or high employment area. ",
+    "page": 10,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Line5_Table[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Your Investment, Administrative Costs and Fees, and Your Net Worth. 5. Enter the amount and date of your investment(s) in the N C E.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  If you need additional space, use the space provided in Part 10. Additional Information. Enter Amount of Investment in dollars Row 1. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Line5_Table[1]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Your Investment, Administrative Costs and Fees, and Your Net Worth. 5. Enter the amount and date of your investment(s) in the N C E.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  If you need additional space, use the space provided in Part 10. Additional Information. Enter Amount of Investment in dollars Row 2. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Line5_Table[2]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Your Investment, Administrative Costs and Fees, and Your Net Worth. 5. Enter the amount and date of your investment(s) in the N C E.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  If you need additional space, use the space provided in Part 10. Additional Information. Enter Amount of Investment in dollars Row 3. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Line5_Table[3]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Your Investment, Administrative Costs and Fees, and Your Net Worth. 5. Enter the amount and date of your investment(s) in the N C E.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  If you need additional space, use the space provided in Part 10. Additional Information. Enter Amount of Investment in dollars Row 4. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Line5_Table[4]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Your Investment, Administrative Costs and Fees, and Your Net Worth. 5. Enter the amount and date of your investment(s) in the N C E.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  If you need additional space, use the space provided in Part 10. Additional Information. Enter Total Amount of Investment in dollars. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Line5_Table[5]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Your Investment, Administrative Costs and Fees, and Your Net Worth. 5. Enter the amount and date of your investment(s) in the N C E.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  If you need additional space, use the space provided in Part 10. Additional Information. Enter Date of Investment. Enter as 2-digit month, 2-digit day, and 4-digit year  Row 2. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Line5_Table[6]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Your Investment, Administrative Costs and Fees, and Your Net Worth. 5. Enter the amount and date of your investment(s) in the N C E.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  If you need additional space, use the space provided in Part 10. Additional Information. Enter Date of Investment. Enter as 2-digit month, 2-digit day, and 4-digit year  Row 1. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Line5_Table[7]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Your Investment, Administrative Costs and Fees, and Your Net Worth. 5. Enter the amount and date of your investment(s) in the N C E.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  If you need additional space, use the space provided in Part 10. Additional Information. Enter Date of Investment. Enter as 2-digit month, 2-digit day, and 4-digit year  Row 4. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Line5_Table[8]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Your Investment, Administrative Costs and Fees, and Your Net Worth. 5. Enter the amount and date of your investment(s) in the N C E.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  If you need additional space, use the space provided in Part 10. Additional Information. Enter Date of Investment. Enter as 2-digit month, 2-digit day, and 4-digit year Row 3. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt4_line6[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Investment. 6. Enter Total Amount Deposited or Committed to Deposit into U.S. Business Accounts for N C E, including qualified escrow accounts ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt4_line7[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Investment.  7. Enter Total Value of Assets Purchased for Use in N C E. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt4_line8[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Investment. 8. Enter Total Value of All Property Transferred From Abroad for Use in N C E. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].Pt4_line9[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Investment.  9. Enter Total of All Debt Financing. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_line10[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Investment.  10. Enter Total Stock or Other Equity Purchases. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_line11[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Composition of Investment.  11. Enter Other Capital. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_Checkbox2_UnemploymentArea[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment. Select the appropriate box to indicate the type of investment you are making (Select all that apply). 1. Select High Unemployment Area. This petition is based on an investment in a high unemployment area. ",
+    "page": 10,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[9].P4_line2a_11DigitFIPSCode[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment.  2.A. In addition to the census tract(s) where the N C E is principally doing business identified in Part 3., Item Number 10., list any other directly adjacent census tract(s) that you are requesting to be included in designation as an area of high unemployment.  Enter the 11-digit F I P S codes. ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_line2b[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment. 2.B. Enter What is the weighted average of the unemployment rate for the census tracts you are requesting to be designated as an area of high unemployment, based on the labor force unemployment measure for each applicable census tract? ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_line2c[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment. 2.C. Enter What was the national average unemployment rate at the time of your investment (or the date you filed this petition if you are actively in the process of investing)?",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[9].P4_line2d[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Investment Type and Required Capital Investment. 2.D. Enter what data source(s) and time frames did you use to calculate the unemployment rate for the applicable census tract(s) and the national average unemployment rate? ",
+    "page": 10
+  },
+  {
+    "name": "form1[0].#subform[10].P4_line14a_Income[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Your Sources of Investment Capital. Please identify the sources of the capital you have invested or are actively in the process of investing into the N C E, as well as any funds used to pay administrative costs and fees associated with your investment. (Select all that apply.) 14.A. Select Income. ",
+    "page": 11,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Checkbox14b_LoanProceeds[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Your Sources of Investment Capital. Please identify the sources of the capital you have invested or are actively in the process of investing into the N C E, as well as any funds used to pay administrative costs and fees associated with your investment. (Select all that apply.) 14.B. Select Loan Proceeds (including mortgage of real estate)",
+    "page": 11,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[10].P4_line14d_Gift[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Your Sources of Investment Capital. Please identify the sources of the capital you have invested or are actively in the process of investing into the N C E, as well as any funds used to pay administrative costs and fees associated with your investment. (Select all that apply.) 14.D. Select Gift (including capital obtained through inheritance)",
+    "page": 11,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[10].P4_line14e_TangibleAssets[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Your Sources of Investment Capital. Please identify the sources of the capital you have invested or are actively in the process of investing into the N C E, as well as any funds used to pay administrative costs and fees associated with your investment. (Select all that apply.) Select 14.E. Tangible Assets (Equipment, Inventory, etc.)",
+    "page": 11,
+    "on_value": "/E"
+  },
+  {
+    "name": "form1[0].#subform[10].P4_line14H_Other[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Your Sources of Investment Capital. Please identify the sources of the capital you have invested or are actively in the process of investing into the N C E, as well as any funds used to pay administrative costs and fees associated with your investment. (Select all that apply.) 14.H. Select Other (Specify in the space below) ",
+    "page": 11,
+    "on_value": "/H"
+  },
+  {
+    "name": "form1[0].#subform[10].P4_line15_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Your Sources of Investment Capital. 15. Enter, In the space below, describe the documentation included with this petition to demonstrate that the capital you have invested or are actively in the process of investing, as well as any funds used to pay administrative costs and fees associated with your investment, was obtained through lawful means. Read the Lawful Capital section of the Form I-526 Instructions for a list of documents that must be included with the petition.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Checkbox14c_SaleofRealEstate[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Your Sources of Investment Capital. Please identify the sources of the capital you have invested or are actively in the process of investing into the N C E, as well as any funds used to pay administrative costs and fees associated with your investment. (Select all that apply.) 14.C. Select Sale of Real Estate. ",
+    "page": 11,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Checkbox14f_InsuranceProceeds[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Your Sources of Investment Capital. Please identify the sources of the capital you have invested or are actively in the process of investing into the N C E, as well as any funds used to pay administrative costs and fees associated with your investment. (Select all that apply.) Select 14.F. Insurance Proceeds. ",
+    "page": 11,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Checkbox14g_SaleofSecurities[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About Your Investment. Your Sources of Investment Capital. Please identify the sources of the capital you have invested or are actively in the process of investing into the N C E, as well as any funds used to pay administrative costs and fees associated with your investment. (Select all that apply.) 14.G. Select Sale of Securities.",
+    "page": 11,
+    "on_value": "/G"
+  },
+  {
+    "name": "form1[0].#subform[10].P4_line16_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Your Sources of Investment Capital. 16. Enter If the funds used to make your investment were gifted or loaned to you, identify the donor or lender and describe the documentation from the donor or lender (if other than a bank) included with this petition to demonstrate that such funds were obtained through lawful means.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].P4_line17_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Your Sources of Investment Capital. 17. Enter, If any persons transferred capital into the United States on your behalf, provide their identity. ",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].Pt4_line13[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Your Net Worth. 13. Enter Your Current Net Worth in dollars. ",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Line12_Table[0]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Administrative Costs and Fees. 12. Enter the date and amount of all administrative costs and fees associated with your investment. Enter Date in 2-digit month, 2-digit day, and 4-digit year format Row 2.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Line12_Table[1]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Administrative Costs and Fees. 12. Enter the date and amount of all administrative costs and fees associated with your investment. Enter Date in 2-digit month, 2-digit day, and 4-digit year format Row 1.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Line12_Table[2]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Administrative Costs and Fees. 12. Enter the date and amount of all administrative costs and fees associated with your investment. Enter Date in 2-digit month, 2-digit day, and 4-digit year format Row 4.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Line12_Table[3]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Administrative Costs and Fees. 12. Enter the date and amount of all administrative costs and fees associated with your investment. Enter Date in 2-digit month, 2-digit day, and 4-digit year format Row 3.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Line12_Table[4]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Administrative Costs and Fees.  12. Enter the date and amount of all administrative costs and fees associated with your investment.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  Enter Amount of Administrative Cost and Fees.  Row 1",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Line12_Table[5]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Administrative Costs and Fees.  12. Enter the date and amount of all administrative costs and fees associated with your investment.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  Enter Amount of Administrative Cost and Fees.  Row 2",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Line12_Table[6]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Administrative Costs and Fees.  12. Enter the date and amount of all administrative costs and fees associated with your investment.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  Enter Amount of Administrative Cost and Fees  Row 3.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Line12_Table[7]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Administrative Costs and Fees.  12. Enter the date and amount of all administrative costs and fees associated with your investment.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  Enter Amount of Administrative Cost and Fees Row 4.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[10].P4_Line12_Table[8]",
+    "type": "text",
+    "label": "Part 4. Information About Your Investment. Administrative Costs and Fees.  12. Enter the date and amount of all administrative costs and fees associated with your investment.  If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.  Enter Total Amount of Administrative Cost and Fees.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].#subform[11].P5_Line1_CB[0]",
+    "type": "checkbox",
+    "label": "Part 5. Employment Creation Information. 1. Are you employed by the N C E? 1. Select No.",
+    "page": 12,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[11].P5_Line1_CB[1]",
+    "type": "checkbox",
+    "label": "Part 5. Employment Creation Information. 1. Are you employed by the N C E? 1. Select Yes.",
+    "page": 12,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[11].P5_line1a_TitleWithNCE[0]",
+    "type": "text",
+    "label": "Part 5. Employment Creation Information. 1. Are you employed by the N C E? 1.A. Enter If you are employed by the N C E, what is your position, office, or title with the N C E?",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P5_line1b_ResponsibilitiesWithNCE[0]",
+    "type": "text",
+    "label": "Part 5. Employment Creation Information. 1. Are you employed by the N C E? 1.B. Enter If you are employed by the N C E, what are your duties, activities, and responsibilities in the N C E? NOTE: If you need additional space, provide the information in Part 10. Additional Information. ",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].Pt5_Line2_FullTimeEmployees[0]",
+    "type": "text",
+    "label": "Part 5. Employment Creation Information. 2. Enter Number of Full-Time Direct and Qualifying Employees in the N C E at the Time of Your Initial Investment.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P5_Line3_CurrentFullTimeEmployees[0]",
+    "type": "text",
+    "label": "Part 5. Employment Creation Information. 3. Enter Current Number of Full-Time Direct and Qualifying Employees in the N C E.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P5_Line4_DifferenceOfFullTimeQualifyEmployees[0]",
+    "type": "text",
+    "label": "Part 5. Employment Creation Information. 4. Enter Difference in Number of Full-Time Direct and Qualifying Employees. ",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P5_Line5_CreatedPositions[0]",
+    "type": "text",
+    "label": "Part 5. Employment Creation Information. 5. Enter Estimated Number of Full-Time Direct and Indirect Positions That Will Be Created During the Relevant Time Period.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P5_Line6_TotalAmountMadetoNCE[0]",
+    "type": "text",
+    "label": "Part 5. Employment Creation Information. 6. Enter Total Amount of Your Capital That Has Been or Will Be Made Available to the Job Creating business(es) of the N C E. ",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].Pt6_Line2b_CountryofLPRAbroad[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. 2. B. Enter Country of Last Permanent Residence Abroad.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].Pt6_Line1b_CountryofCitizenship[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. 1. B. Enter Country of Citizenship or Nationality.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].Pt6_Line1_CB[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Select the appropriate box to indicate how you will seek lawful permanent resident status. 1. A. Select Immigrant Visa Processing.",
+    "page": 12,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[11].Pt6_Line1_CB[1]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Select the appropriate box to indicate how you will seek lawful permanent resident status. 2. A. Select Application for Adjustment of Status.",
+    "page": 12,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line3_Country[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. 3. Enter Country.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line3_PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. 3. Enter Postal Code.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line3_Province[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. 3. Enter Province.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line3_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. 3. Enter City or Town.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].Pt6Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. 3. Enter Apartment, Suite or Floor Number.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. 3. Select Apartment. ",
+    "page": 12,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. 3. Select Suite.",
+    "page": 12,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. 3. Select Floor.",
+    "page": 12,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line3_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. 3. Enter Street Number and Name.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line4_TelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. 4. Enter Telephone Number.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line5_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. If your native alphabet is other than Roman letters, type or print the foreign address in your native alphabet, below. 5. Enter Street Number and Name.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line5_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. If your native alphabet is other than Roman letters, type or print the foreign address in your native alphabet, below. 5. Select Apartment.",
+    "page": 12,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line5_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. If your native alphabet is other than Roman letters, type or print the foreign address in your native alphabet, below.  5. Select Suite.",
+    "page": 12,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line5_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. If your native alphabet is other than Roman letters, type or print the foreign address in your native alphabet, below. 5. Select Floor.",
+    "page": 12,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line5_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. If your native alphabet is other than Roman letters, type or print the foreign address in your native alphabet, below. 5. Enter Apartment, Suite or Floor Number.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line5_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. If your native alphabet is other than Roman letters, type or print the foreign address in your native alphabet, below. 5. Enter City or Town.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line5_Province[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. If your native alphabet is other than Roman letters, type or print the foreign address in your native alphabet, below. 5. Enter Province.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line5_PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. If your native alphabet is other than Roman letters, type or print the foreign address in your native alphabet, below. 5. Enter Postal Code.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].P6_Line5_Country[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Address in Country of Last Permanent Residence Abroad. If your native alphabet is other than Roman letters, type or print the foreign address in your native alphabet, below. 5. Enter Country.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[11].Pt6_Line1c_CountryofResidence[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. 1. C. Enter Country of Current Residence.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line6_CB[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration proceedings. 6.A. Are you filing any other petitions or applications with this Form I- 5 26?  Select No.",
+    "page": 13,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line6_CB[1]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration proceedings. 6.A. Are you filing any other petitions or applications with this Form I- 5 26? Select Yes.",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt6_Checkbox6b_FormI485[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. 6. B. If you answered \"Yes\" to Item A. In Item Number 6., select all applicable boxes. Select Form I- 4 85.",
+    "page": 13,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt6_Checkbox6b_FormI131[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. 6. B. If you answered \"Yes\" to Item A. In Item Number 6., select all applicable boxes. Select Form I- 1 31.",
+    "page": 13,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt6_Checkbox6b_Formi765[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. 6. B. If you answered \"Yes\" to Item A. In Item Number 6., select all applicable boxes. Select Form I- 7 65.",
+    "page": 13,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].#subform[12].Pt6_Checkbox6b_Other[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. 6. B. If you answered \"Yes\" to Item A. In Item Number 6., select all applicable boxes. Select Other (Provide an explanation in Part 10. Additional Information)",
+    "page": 13,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line8[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Immigration Proceedings. Type of Proceedings (Select only one). 8. A. Select Exclusion.",
+    "page": 13,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line8[1]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Immigration Proceedings. Type of Proceedings (Select only one).  8. B. Select Deportation.",
+    "page": 13,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line8[2]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Immigration Proceedings. Type of Proceedings (Select only one). 8. C. Select Removal.",
+    "page": 13,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line7[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Immigration Proceedings. Please indicate whether you are in exclusion, deportation, or removal proceedings before the Department of Homeland Security (D H S) or the Department of Justice's (D O J), Executive Office for Immigration Review (E O I R) Immigration Court or Board of Immigration Appeals. You also must provide an explanation for why are you in proceedings in Part 10. Additional Information. 7. Are you currently or ever been in immigration proceedings before the Department of Homeland Security (D H S) or Department of Justice (D O J)? Select No.",
+    "page": 13,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line7[1]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Immigration Proceedings. Please indicate whether you are in exclusion, deportation, or removal proceedings before the Department of Homeland Security (D H S) or the Department of Justice's (D O J), Executive Office for Immigration Review (E O I R) Immigration Court or Board of Immigration Appeals. You also must provide an explanation for why are you in proceedings in Part 10. Additional Information. 7. Are you currently or ever been in immigration proceedings before the Department of Homeland Security (D H S) or Department of Justice (D O J)? Select Yes. If you have selected Yes, please complete Item Number 8 through Item Number 10.",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line9[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Immigration Proceedings. Location of Proceedings. 9. A. Enter City or Town.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line10[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Immigration Proceedings. 10. Are you currently or ever been subject to a final order of exclusion, deportation, or removal, or subject to reinstatement of such an order? Select No.",
+    "page": 13,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line10[1]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Immigration Proceedings. 10. Are you currently or ever been subject to a final order of exclusion, deportation, or removal, or subject to reinstatement of such an order? Select Yes.",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line9b_State[0]",
+    "type": "choice",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Immigration Proceedings. Location of Proceedings. 9. B. Select State from List of States.",
+    "page": 13,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line11[0]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Employment in the United States. 11. Have you ever worked in the United States without permission?  Select No.",
+    "page": 13,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line11[1]",
+    "type": "checkbox",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Employment in the United States. 11. Have you ever worked in the United States without permission? Select Yes.",
+    "page": 13,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[12].P6_Line12_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 6. Visa Processing and Immigration Proceedings. Employment in the United States. 12. If you answered \"Yes\" to Item Number 11., provide an explanation below.  If you need additional space, use Part 10. Additional Information.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].#subform[13].P7_Checkbox1[0]",
+    "type": "checkbox",
+    "label": "Part 7. Petitioner's Statement, Contact Information, Declaration, and Signature.  NOTE: Read the Penalties section of the Form I - 5 26 Instructions before completing this part.  Select the appropriate box to indicate whether you read this petition yourself or whether you had an interpreter assist you.  If someone assisted you in completing the petition, select the box indicating that you used a preparer.             Petitioner's Statement. NOTE: Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 1. Petitioner's Statement Regarding the Interpreter.  1. A. Select I can read and understand English, and I have read and understand every question and instruction on this petition and my answer to every question.",
+    "page": 14,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[13].P7_Checkbox1[1]",
+    "type": "checkbox",
+    "label": "Part 7. Petitioner's Statement, Contact Information, Declaration, and Signature.  NOTE: Read the Penalties section of the Form I - 5 26 Instructions before completing this part.  Select the appropriate box to indicate whether you read this petition yourself or whether you had an interpreter assist you.  If someone assisted you in completing the petition, select the box indicating that you used a preparer.  Petitioner's Statement .  Note:  Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 1.  Petitioner's Statement Regarding the Interpreter. 1. B. Select The interpreter named in Part 8. read to me every question and instruction on this petition and my answer to every question in a language in which I am fluent. I understood all of this information as interpreted.",
+    "page": 14,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[13].P7_line1b[0]",
+    "type": "text",
+    "label": "Part 7. Petitioner's Statement, Contact Information, Declaration, and Signature.  Petitioner's Statement. 1. B. Enter Language.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].P8_Checkbox2[0]",
+    "type": "checkbox",
+    "label": "Part 7. Petitioner's Statement, Contact Information, Declaration, and Signature.  Petition's Statement. NOTE: Select the box for either Item A. or B in Item Number 1.  If applicable, select the box for Item Number 2.   2. Petitioner's Statement Regarding the Preparer.  2.  Select At my request, the preparer named in Part 9. prepared this petition for me based only upon information I provided or authorized.",
+    "page": 14,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[13].P7_line2[0]",
+    "type": "text",
+    "label": "Part 7. Petitioner's Statement, Contact Information, Declaration, and Signature. Petitioner's Statement Regarding the Preparer. 2. Enter Name of Preparer.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].P7_Line3_PetitionerDaytimePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 7. Petitioner's Statement, Contact Information, Declaration, and Signature. Petitioner's Contact Information. 3. Enter Petitioner's Daytime Telephone Number.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].P7_Line3_PetitionerMobilePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 7. Petitioner's Statement, Contact Information, Declaration, and Signature.  Petitioner's Contact Information.   4. Enter Petitioner's Mobile Telephone Number (if any).",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[13].P7_line5_PetitionerEmail[0]",
+    "type": "text",
+    "label": "Part 7. Petitioner's Statement, Contact Information, Declaration, and Signature. Petitioner's Contact Information. 5. Enter Petitioner's Email Address (if any).",
+    "page": 14
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line1_InterpretersFamilyName[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature.  If you used anyone as an interpreter to read the Instructions and questions on this petition to you in a language in which you are fluent, the interpreter must fill out this section. Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line1_InterpretersGivenName[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line2_NameofBusinessor[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name, if any.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line3_CityTown[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter City or Town.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line3_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Street Number and Name.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Apartment, Suite or Floor Number.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line3_Province[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Province.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Zip Code.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line3_State[0]",
+    "type": "choice",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select State from List of States.",
+    "page": 15,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line3_Country[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Country.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line3_PostalCode[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Postal Code.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_checkbox3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select Apartment.",
+    "page": 15,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[14].P8_checkbox3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 9. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select Suite.",
+    "page": 15,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[14].P8_checkbox3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select Floor.",
+    "page": 15,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[14].P9_Line6_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter Interpreter's Email Address, if any.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line4_InterpeterDaytimePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Line5_InterpreterMobilePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number, if any.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P8_Language[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that: I am fluent in English and (another language), which is the same language specified in Part 7., Item B. i Item Number 1., and I have read to this petitioner in the identified language every question and instruction on this petition and his or her answer to every question.  The petitioner informed me that he or she understands every instruction, question, and answer on the petition, including the Petitioner's  Declaration and Certification, and has verified the accuracy of every answer. Enter Language.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P7_line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 7. Petitioner's Statement, Contact Information, Declaration, and Signature.  Petitioner's Signature. 6. Enter Date of Signature. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[14].P7_line6_Signature[0]",
+    "type": "text",
+    "label": "Part 7. Petition's Statement, Contact Information, Declaration, and Signature.  Petitioner's Signature. 6. Petitioner's Signature. (sign in ink). NOTE TO ALL PETITIONERS: If you don not completely fill out this petition or fail to submit required documents listed in the Instructions, U S C I S may delay a decision on or deny your petition. ",
+    "page": 15
+  },
+  {
+    "name": "form1[0].#subform[15].P9_Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Provide the following information about the preparer  If the same individual acted as your interpreter and your preparer, that person should complete both Part 8 and Part 9.. Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name). ",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P9_Line1_PreparersGivenName[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Full Name. 1. Enter Preparer's Given Name (First Name). ",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P9_Line2_NameofBusinessor[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner.  Preparer's Full Name. 2. If the person who completed this petition is associated with a business or organization, that person should complete the business or organization name and address information.  Enter Preparer's Business or Organization Name, if any.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P9_Line3_Province[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter Province. ",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P9_Line3_Country[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter Country.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P9_Line3_PostalCode[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter Postal Code.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P9_Line3_CityTown[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner.  Preparer's Mailing Address. 3. Enter City or Town.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P9_Line3_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and  Signature of the Person Preparing this Petition, if Other Than the Petitioner.  Preparer's Mailing Address. 3. Enter Street Number and Name.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P9_Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter Apartment, Suite or Floor Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P9_Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Enter Zip Code.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P9_Line3_State[0]",
+    "type": "choice",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Select State from List of States. ",
+    "page": 16,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[15].P9_checkbox3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Select Apartment.",
+    "page": 16,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[15].P9_checkbox3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 9. Contact Information, Certification and Signature of the Person Preparing this Petition, if Other Than the Petitioner.  Preparer's Mailing Address. 3. Select Suite.",
+    "page": 16,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[15].P9_checkbox3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Mailing Address. 3. Select Floor.",
+    "page": 16,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[15].P10_Line6_PreparersEmailAddress[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Contact Information. 6. Enter Preparer's Email Address, if any.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P10_Line4_PreparersDaytimePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P10_Line5_PreparersFaxNumber[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Contact Information. 5. Enter Preparer's Mobile Telephone Number, if any.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P9_checkbox7[0]",
+    "type": "checkbox",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner.  Preparer's Statement. 7. A. Select I am not an attorney or accredited representative but have prepared this petition on behalf of the petitioner and with the petitioner's consent.",
+    "page": 16,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[15].P9_checkbox7[1]",
+    "type": "checkbox",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner.  Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the petitioner in this case extends / does not extend beyond the preparation of this petition. NOTE:  If you are an attorney or accredited representative, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this petition.",
+    "page": 16,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[15].Pt9Line7b_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner.  Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the petitioner in this case extends beyond the preparation of this petition.",
+    "page": 16,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[15].Pt9Line7b_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner.  Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the petitioner in this case does not extend beyond the preparation of this petition.",
+    "page": 16,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[15].P8_Line7_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. Enter Date of Signature. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[15].P8_Line7_Signature[0]",
+    "type": "text",
+    "label": "Part 8. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. Interpreter's Signature (sign in ink)",
+    "page": 16
+  },
+  {
+    "name": "form1[0].#subform[16].P9_Line8_SignatureofPreparer[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Certification, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Certification. By my signature, I certify, under penalty of perjury, that I prepared this petition at the request of the petitioner.  The petitioner has reviewed this completed petition, including the Petitioner's Declaration and Certification, and informed me that all of this information in the form and in the supporting documents is complete, true, and correct. Preparer's Signature. 8. Preparer's Signature (sign in ink)",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[16].P9_Line8_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 9. Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner. Preparer's Signature. 8. Enter Date of Signature. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+    "page": 17
+  },
+  {
+    "name": "form1[0].#subform[17].P1_Line4_MiddleName[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 1. Middle Name. This is a read only field. This field pre-populates from page 1.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P1_Line4_GivenName[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 1. Given Name (First Name). This is a read only field. This field pre-populates from page 1.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P1_Line4_FamilyName[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. If you need extra space to provide any additional information within this petition, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this petition or attach a separate sheet of paper.  Type or print your name and A. Number (if any) at the top of each sheet, indicate the Page Number, Part Number, and Item Number to which your answer refers, and sign and date each sheet. 1. Family Name (Last Name). This is a read only field. This field pre-populates from page 1.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P1_Line1_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 2. Alien Registration Number (A. Number), if any. This is a read only field. This field pre-populates from page 1.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 3. C. Enter Item Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 3. B. Enter Part Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 3. A. Enter Page Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 3. D. Enter Additional Information.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 4. C. Enter Item Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 4. B. Enter the Part Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 4. A. Enter Page Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P11_Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 4. D. Enter Additional Information.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line5c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 5. C. Enter Item Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line5b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 5. B. Enter Part Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line5a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 5. A. Enter Page Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line5d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 5. D. Enter Additional Information.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line6c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 6. C. Enter Item Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line6b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 6. B. Enter Part Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line6a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 6. A. Enter Page Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line6d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 6. D. Enter Additional Information.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line7c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 7. C. Enter Item Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line7b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 7. B. Enter Part Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line7a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 7. A. Enter Page Number.",
+    "page": 18
+  },
+  {
+    "name": "form1[0].#subform[17].P10_Line7d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 10. Additional Information. 7. D. Enter Additional Information.",
+    "page": 18
+  }
+]

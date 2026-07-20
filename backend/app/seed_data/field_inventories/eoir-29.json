@@ -1,0 +1,157 @@
+[
+  {
+    "name": "DHS Appeal",
+    "type": "checkbox",
+    "label": "Appeal from DHS Officer decision?",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "DHS Name",
+    "type": "text",
+    "label": "Name of Beneficiary",
+    "page": 1
+  },
+  {
+    "name": "DHS Anumber",
+    "type": "text",
+    "label": "A Number of beneficiary",
+    "page": 1
+  },
+  {
+    "name": "DHS Petition",
+    "type": "text",
+    "label": "Petition form number",
+    "page": 1
+  },
+  {
+    "name": "Other Appeal name",
+    "type": "text",
+    "label": "Beneficiary Name",
+    "page": 1
+  },
+  {
+    "name": "Other Carrier",
+    "type": "text",
+    "label": "Carrier and Fine number",
+    "page": 1
+  },
+  {
+    "name": "Other relevant",
+    "type": "text",
+    "label": "Relevant information",
+    "page": 1
+  },
+  {
+    "name": "Title of DHS Officer",
+    "type": "text",
+    "label": "Title of DHS Officer",
+    "page": 1
+  },
+  {
+    "name": "Office Where DHS Decision was Issued",
+    "type": "text",
+    "label": "Office Where DHS Decision was Issued",
+    "page": 1
+  },
+  {
+    "name": "Date of DHS Decision",
+    "type": "text",
+    "label": "Date of DHS Decision",
+    "page": 1
+  },
+  {
+    "name": "Reasons",
+    "type": "text",
+    "label": "Reasons",
+    "page": 1
+  },
+  {
+    "name": "A-Number, if any",
+    "type": "text",
+    "label": "A Number, if any",
+    "page": 1
+  },
+  {
+    "name": "Enter No - Oral Argument",
+    "type": "checkbox",
+    "label": "Enter No",
+    "page": 1,
+    "on_value": "/No"
+  },
+  {
+    "name": "Enter Yes - Oral Argument",
+    "type": "checkbox",
+    "label": "Enter Yes",
+    "page": 1,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "Enter Yes - Brief",
+    "type": "checkbox",
+    "label": "Enter Yes",
+    "page": 1,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "Enter No - Brief",
+    "type": "checkbox",
+    "label": "Enter No",
+    "page": 1,
+    "on_value": "/No"
+  },
+  {
+    "name": "Signature Date",
+    "type": "text",
+    "label": "Date",
+    "page": 2
+  },
+  {
+    "name": "Signature",
+    "type": "/Sig",
+    "label": "Signature of Appellant/Petitioner (or Attorney or Representative",
+    "page": 2
+  },
+  {
+    "name": "Name",
+    "type": "text",
+    "label": "Print or Type Name",
+    "page": 2
+  },
+  {
+    "name": "Address",
+    "type": "text",
+    "label": "Address (Number, Street, City, State, Zip Code",
+    "page": 2
+  },
+  {
+    "name": "Street Number and Name",
+    "type": "text",
+    "label": "Street Number and Name",
+    "page": 2
+  },
+  {
+    "name": "Apartment Number or Unit Number (if any)",
+    "type": "text",
+    "label": "Apartment Number or Unit Number (if any)",
+    "page": 2
+  },
+  {
+    "name": "City",
+    "type": "text",
+    "label": "City",
+    "page": 2
+  },
+  {
+    "name": "State",
+    "type": "text",
+    "label": "State",
+    "page": 2
+  },
+  {
+    "name": "Zip Code",
+    "type": "text",
+    "label": "Zip Code",
+    "page": 2
+  }
+]

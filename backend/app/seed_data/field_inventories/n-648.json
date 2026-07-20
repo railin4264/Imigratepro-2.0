@@ -1,0 +1,537 @@
+[
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Applicant Information. 1. Applicant's Legal Name. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Applicant Information. 1. Applicant's Legal Name. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Applicant Information. 1. Applicant's Legal Name. Enter Middle Name if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].Pt1Line3_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Applicant Information. 2. Enter Alien Registration Number (A. Number), if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line5_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Applicant Information. 3. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information. 1. Certifying Medical Professional's Name. Enter Family Name (Last Name)",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information. 1. Certifying Medical Professional's Name. Enter Given Name (First Name)",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt2Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information. 1. Certifying Medical Professional's Name. Enter Middle Name",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line7_CP[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifying Medical Professional Information.  7.  I am currently licensed as a (select all that apply):  select Clinical Psychologist",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line7_osteopathyDr[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifying Medical Professional Information.  7.  I am currently licensed as a (select all that apply):  select Doctor of Osteopathy",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line7_medicalDoctor[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifying Medical Professional Information.  7. I am currently licensed as a (select all that apply):  select Medical Doctor\r",
+    "page": 2,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line3_LicenseNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information.  3. Enter License Number.\r",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line4_LicenseState[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information.  4. Enter Licensing State.\r",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information.  6. Enter Email Address (if any).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line5_DaytimePhoneNumber3[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information.  5. Enter Business Telephone Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line8_MedicalType[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information.  8. Enter Medical Practice Type.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line1_DescribeClinicalDiagnosis[0]",
+    "type": "text",
+    "label": "Part 3. Information About Disabilities and/or Impairments.  1.  Provide the clinical diagnosis and medical code for all physical or developmental disabilities and/or mental impairments that affect the applicant's ability to meet the English and/or civics requirements.  Also, clearly describe how each disability and/or impairment prevents the applicant from learning English and/or civics.  Responses should use common terminology, without abbreviations, that a person without medical training can understand.  Refer to page 2 of the Instructions for an example.  Please provide the relevant medical code as accepted by the U.S. Department of Health and Human Services (H H S).  This includes the Diagnostic and Statistical Manual of Mental Disorders (D S M) and the International Classification of Diseases (I C D).  For example, “D S M-V 3 18.1 Intellectual Disability (Severe)” or “2022 I C D-10-C M F 72 Severe intellectual disabilities.”",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].#area[1].Pt1Line3_AlienNumber[1]",
+    "type": "text",
+    "label": "Part 1. Applicant Information.  Applicant's Other Information.  2. Enter Alien Registration Number (A. Number), if any.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part3_Item14D_SpouseParent[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifying Medical Professional Information. 9. Did you use an interpreter. Check Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].Part3_Item14D_SpouseParent[1]",
+    "type": "checkbox",
+    "label": "Part 2. Certifying Medical Professional Information. 9. Did you use an interpreter. Check No.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt6Line1Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifying Medical Professional Information. Complete the following if you did not use an interpreter to communicate with the applicant during the examinations that form the basis of this Form N-648. 10.  I did not use an interpreter because: Select I am fluent in English and the language spoken by this applicant.",
+    "page": 2,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt6Line1b_Language[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information. 10. Enter Language.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt6Line1Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 2. Certifying Medical Professional Information. Complete the following if you did not use an interpreter to communicate with the applicant during the examinations that form the basis of this Form N-648.  10. I did not use an interpreter because: Select This applicant speaks English.",
+    "page": 2,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information. 2. Certifying Medical Professional's Business  Address.  Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information.  2. Certifying Medical Professional's Business  Address.  Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Certifying Medical Professional Information.  2. Certifying Medical Professional's Business  Address.  Select Suite. ",
+    "page": 2,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Certifying Medical Professional Information.  2. Certifying Medical Professional's Business  Address.  Select Suite. ",
+    "page": 2,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Certifying Medical Professional Information.  2. Certifying Medical Professional's Business  Address.  Select Floor.",
+    "page": 2,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information.  2. Certifying Medical Professional's Business  Address.  Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information.  2. Certifying Medical Professional's Business  Address.  Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2_State[0]",
+    "type": "choice",
+    "label": "Part 2. Certifying Medical Professional Information.  2. Certifying Medical Professional's Business  Address.   Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2_Province[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information.  2. Certifying Medical Professional's Business  Address.  Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information.  2. Certifying Medical Professional's Business  Address.  Enter Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2_Country[0]",
+    "type": "text",
+    "label": "Part 2. Certifying Medical Professional Information.  2. Certifying Medical Professional's Business  Address.  Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].#area[2].Pt1Line3_AlienNumber[2]",
+    "type": "text",
+    "label": "Part 1. Applicant Information.  Applicant's Other Information.  3. Enter Alien Registration Number (A. Number), if any.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line8_Yes[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Disability and/or Impairments.  3.  Have any of the applicant's disabilities and/or impairments listed in Part 3., Item Number 1. lasted, or do you expect any of them to last, 12 months or more?  If your answer is “No”, do not complete this form because the applicant is not eligible for this exception.  Select Yes",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line8_No[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Disability and/or Impairments.  3.  Have any of the applicant's disabilities and/or impairments listed in Part 3., Item Number 1. lasted, or do you expect any of them to last, 12 months or more?  If your answer is “No”, do not complete this form because the applicant is not eligible for this exception. Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line10_Yes[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Disability and/or Impairments.  4. Are any of the disabilities and/or impairment(s) listed in Part 3., Item Number 1. the result of the applicant's illegal use of drugs?  If your answer is “Yes” for all of the disabilities or impairments, do not complete this Form because the applicant is not eligible for this exception. Select Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line10_No[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Disability and/or Impairments.  4.  Are any of the disabilities and/or impairment(s) listed in Part 3., Item Number 1. the result of the applicant's illegal use of drugs?  If your answer is “Yes” for all of the disabilities or impairments, do not complete this Form because the applicant is not eligible for this exception.  Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line11_Explanation[0]",
+    "type": "text",
+    "label": "Part 3. Information About Disability and/or Impairments. 5.  If yes, for some disabilities or impairments identify which disabilities or impairments are the result of the applicant's illegal use of drugs.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line14A_DateOfRecentExam[0]",
+    "type": "text",
+    "label": "Part 3. Information About Disability and/or Impairments. 6. For disabilities and/or impairments listed in Part 3., Item Number 1., provide the date you last examined the applicant.  Enter Date. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line13_read[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Disability and/or Impairments.  7. Do any of the disabilities or impairments listed in Part 3., Item Number 1. prevent the applicant from demonstrating the following?  Select all that apply.  If none applies, do not complete this Form because the applicant is not eligible for this exception. The ability to:  Select Read English.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line13_write[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Disability and/or Impairments.  7. Do any of the disabilities or impairments listed in Part 3., Item Number 1. prevent the applicant from demonstrating the following?  Select all that apply.  If none applies, do not complete this Form because the applicant is not eligible for this exception. The ability to:  Select Write English.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line13_english[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Disability and/or Impairments.  7. Do any of the disabilities or impairments listed in Part 3., Item Number 1. prevent the applicant from demonstrating the following?  Select all that apply.  If none applies, do not complete this Form because the applicant is not eligible for this exception. The ability to:  Select Speak English.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line13_answer[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Disability and/or Impairments.  7. Do any of the disabilities or impairments listed in Part 3., Item Number 1. prevent the applicant from demonstrating the following?  Select all that apply.  If none applies, do not complete this Form because the applicant is not eligible for this exception. The ability to:  Select Answer questions regarding United States history and civics, even in a language the applicant understands.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line6_DescribeMethod[0]",
+    "type": "text",
+    "label": "Part 3. Information About Disability and/or Impairments. 2. Enter What clinical or laboratory diagnostic techniques did you use to diagnose each of the applicant’s disabilities and/or impairment(s) listed in Part 3., Item Number 1.?",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line10_Yes[1]",
+    "type": "checkbox",
+    "label": "Part 4. Ability to Understand Oath of Allegiance. The applicant will not be able to naturalize without a legal guardian, surrogate, or an eligible designated representative unless they are able to understand and communicate that they understand the meaning of the Oath of Allegiance.  The Oath may be administered in the applicant's language of choice and they may communicate their understanding in any manner (for example, by nodding). 1. Is the applicant able to understand and communicate that they understand the meaning of the Oath of Allegiance to the United States? Select Yes. ",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line10_No[1]",
+    "type": "checkbox",
+    "label": "Part 4. Ability to Understand Oath of Allegiance. The applicant will not be able to naturalize without a legal guardian, surrogate, or an eligible designated representative unless they are able to understand and communicate that they understand the meaning of the Oath of Allegiance.  The Oath may be administered in the applicant's language of choice and they may communicate their understanding in any manner (for example, by nodding). 1. Is the applicant able to understand and communicate that they understand the meaning of the Oath of Allegiance to the United States?  Select No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line4_InterpreterDaytimeTelephone[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter Information and Certification.  Interpreter's Contact Information.  3.  Enter Interpreter's Daytime Telephone Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line6_Email[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter Information and Certification. Interpreter's Contact Information.  5.  Enter Interpreter's Email Address (if any).\r",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line5_DaytimePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter Information and Certification.  Interpreter's Contact Information.  4.  Enter Interpreter's Mobile Telephone Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].#area[3].Pt1Line3_AlienNumber[3]",
+    "type": "text",
+    "label": "Part 1. Applicant Information.  Applicant's Other Information.  2. Enter Alien Registration Number (A. Number), if any.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line8_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter Information and Certification. 6.  Enter Date of Interpreter's Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line8_Signature[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter Information and Certification.  6.  Interpreter's Signature (not required for telephonic interpretations). This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line7_NameofLanguage[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter Information and Certification.  Interpreter's Certification.  I certify that I am fluent in English and the following language,  Enter other language.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line7_DateExam[0]",
+    "type": "text",
+    "label": "I further certify that I have accurately and completely interpreted all communications between the certifying medical professional and the applicant that occured on the dates of the examinations that form the basis of this certification.  Enter date as 2 digit month, 2 digit day and 4 digit year",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line1_ApplicantName[0]",
+    "type": "text",
+    "label": "Part 6. Applicant's (Patient's) Attestation/Release of Information  1. Enter Applicant's Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line1_DocName[0]",
+    "type": "text",
+    "label": "Part 6. Applicant's (Patient's) Attestation/Release of Information  1. Enter Applicant's Name. authorized (the licensed medical doctor, doctor osteopathy, or clinical psychologist completing this form) to release to U.S. Citizenship and Immigration Services all relevant physical and mental health information related to my medical status for the purpose of applying for an exception from the English language and U.S. civics requirements for naturalization.  I certify under penalty of perjury, pursuant to 28 U.S.C. section 1746, that the information I provided to the certifying medical professional is true and correct.   Enter type of Doctor.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line1_LicensedDoc[0]",
+    "type": "text",
+    "label": "I certify under penalty of perjury, pursuant to 28 U S C section 1746, that I have attended an appointment with. Enter the Licensed medical doctor. (Licensed medical doctor, doctor of osteopathy, or clinical psychologist) and was then diagnosed by him or her.  I am aware that the knowing placement of false information on Form N-648 and related documents may also subject me to civil penalties under 8 U.S.C. section 1324c and INA section 274C.  I understand that if this form is not completely filled out or if I fail to submit any required documentation, I may be found ineligible for the requested medical disability exception.         ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line2_Signature[0]",
+    "type": "text",
+    "label": "Part 6. Applicant's (Patient's) Attestation/Release of Information.   2. Applicant Signature (or mark if applicant is unable to sign). This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line2_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 6. Applicant's (Patient's) Attestation/Release of Information.  2. Date of Applicant Signature (mm/dd/yyyy). Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter Information and Certification. 2.  Interpreter's Name.  Enter Family Name (Last Name)",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt4Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter Information and Certification. 2.  Interpreter's Name.  Enter Given Name (First Name)",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt2Line1_MiddleName[1]",
+    "type": "text",
+    "label": "Part 5. Interpreter Information and Certification. 2. Interpreter's Name. Enter Middle Name if applicable.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt3Line10_Yes[2]",
+    "type": "checkbox",
+    "label": "Part 5. Interpreter Information and Certification.  If in-person interpretation services were used during the medical examination, the interpreter must fill out this section, sign, and date the certification.  If telephonic interpretation services were used during the medical examination, the certifying medical professional must complete all items in this section, except Item Number 6. 1. Was a telephonic or video facilitated interpreter used during the examination of the applicant? Select Yes. ",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt3Line10_No[2]",
+    "type": "checkbox",
+    "label": "Part 5. Interpreter Information and Certification. If in-person interpretation services were used during the medical examination, the interpreter must fill out this section, sign, and date the certification.  If telephonic interpretation services were used during the medical examination, the certifying medical professional must complete all items in this section, except Item Number 6. 1. Was a telephonic or video facilitated interpreter used during the examination of the applicant?  Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].#area[4].Pt1Line3_AlienNumber[4]",
+    "type": "text",
+    "label": "Part 1. Applicant Information.  Applicant's Other Information.  3. Enter Alien Registration Number (A. Number), if any.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line3_DateSign[0]",
+    "type": "text",
+    "label": "Part 7. Medical Professional's Certification. Enter Date of Certifying Medical Professional Signature. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line3_Signature[0]",
+    "type": "text",
+    "label": "Part 7. Medical Professional's Certification. Additionally, I certify, under penalty of perjury under the laws of the United States of America, that the information on this form and any evidence submitted with it are all true and correct.  I am aware that the knowing placement of false information on Form N-648 and related documents may also subject me to criminal penalties including under 18 U.S.C. section 1546, civil penalties under 8 U.S.C. section 1324c and Immigration and Nationality Act (INA) section 274C, and civil license suspension or revocation by the appropriate authorities. 4.  Certifying Medical Professional Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line2_OtherIDNumber[0]",
+    "type": "text",
+    "label": "Part 7. Medical Professional's Certification.  I certify that: 3. This applicant's identity has been verified through the following United States or State government-issued photographic identity document. Other Identification Selected. Enter Type and I D Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line2_StateIDNumber[0]",
+    "type": "text",
+    "label": "Part 7. Medical Professional's Certification.  I certify that: 3. This applicant's identity has been verified through the following United States or State government-issued photographic identity document. State Identification (I D) Number Selected. Enter State Identification (I D) Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line2_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 7. Medical Professional's Certification.  I certify that: 3. This applicant's identity has been verified through the following United States or State government-issued photographic identity document. Select Permanent Resident Card.",
+    "page": 5,
+    "on_value": "/0"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line2_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 7. Medical Professional's Certification.  I certify that: 3. This applicant's identity has been verified through the following United States or State government-issued photographic identity document. Select Other Identification (Indicate type and I D Number).",
+    "page": 5,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line2_Checkbox[2]",
+    "type": "checkbox",
+    "label": "Part 7. Medical Professional's Certification.  I certify that: 3. This applicant's identity has been verified through the following United States or State government-issued photographic identity document. Select State I D Number. ",
+    "page": 5,
+    "on_value": "/2"
+  }
+]

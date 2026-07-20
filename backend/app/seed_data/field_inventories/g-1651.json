@@ -1,0 +1,14 @@
+[
+  {
+    "name": "form1[0].#subform[0].Signature[0]",
+    "type": "text",
+    "label": "Enter Signature. This form can not be signed electronically.  The name of the applicant can not be typewritten into this space. This form will be rejected without a signature in this space.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Date[0]",
+    "type": "text",
+    "label": "Date",
+    "page": 1
+  }
+]

@@ -1,9 +1,9 @@
 from datetime import datetime, timedelta, timezone
 
-from fastapi import APIRouter, HTTPException, Request
+from fastapi import APIRouter, HTTPException, Request, Response
 from sqlalchemy import func
 
-from app.api.deps import CurrentUser, DbSession
+from app.api.deps import ACCESS_TOKEN_COOKIE, REFRESH_TOKEN_COOKIE, CurrentUser, DbSession
 from app.core.config import settings
 from app.core.rate_limit import check_rate_limit, reset_rate_limit
 from app.core.security import (
@@ -27,6 +27,51 @@ from app.schemas.auth import (
 from app.services import email
 
 router = APIRouter(prefix="/auth", tags=["auth"])
+
+# Cookie-based auth for the browser frontend, alongside (not instead of) the
+# existing Bearer-token flow in the JSON body -- see get_current_user (in
+# app.api.deps, which also defines ACCESS_TOKEN_COOKIE/REFRESH_TOKEN_COOKIE),
+# which checks the Authorization header first and falls back to these
+# cookies. Kept dual-mode on purpose: any non-browser API client (scripts,
+# the test suite) keeps working against the body tokens unchanged, while the
+# actual browser stops needing to store anything a same-origin XSS payload
+# could read (localStorage is JS-visible; an httpOnly cookie isn't).
+
+
+def _cookie_kwargs(max_age_seconds: int) -> dict:
+    return {
+        "httponly": True,
+        # Secure requires HTTPS -- forcing it on unconditionally would make
+        # every cookie silently fail to be sent on a plain-HTTP local dev
+        # server. Same ENVIRONMENT gate as the SECRET_KEY startup check.
+        "secure": settings.ENVIRONMENT == "production",
+        # Lax (not None): frontend and backend are same-site in every
+        # deployment this app documents (same registrable domain, different
+        # port/subdomain), so Lax covers normal same-site fetches while
+        # still blocking the cross-site POST/PUT/DELETE requests CSRF relies
+        # on -- a real cross-origin attacker page's fetch() wouldn't carry
+        # this cookie at all. A deployment that puts the API on a genuinely
+        # different registrable domain would need SameSite=None; Secure=True
+        # instead, which is a deployment-specific call, not a default to
+        # guess here.
+        "samesite": "lax",
+        "path": "/",
+        "max_age": max_age_seconds,
+    }
+
+
+def _set_auth_cookies(response: Response, access_token: str, refresh_token: str) -> None:
+    response.set_cookie(
+        ACCESS_TOKEN_COOKIE, access_token, **_cookie_kwargs(settings.ACCESS_TOKEN_EXPIRE_MINUTES * 60)
+    )
+    response.set_cookie(
+        REFRESH_TOKEN_COOKIE, refresh_token, **_cookie_kwargs(settings.REFRESH_TOKEN_EXPIRE_DAYS * 86400)
+    )
+
+
+def _clear_auth_cookies(response: Response) -> None:
+    response.delete_cookie(ACCESS_TOKEN_COOKIE, path="/")
+    response.delete_cookie(REFRESH_TOKEN_COOKIE, path="/")
 
 # A precomputed PBKDF2 hash with no corresponding real password, spent on
 # every login attempt for an email that doesn't exist. Without this,
@@ -70,7 +115,7 @@ def _issue_tokens(db: DbSession, user: User) -> TokenResponse:
 
 
 @router.post("/login", response_model=TokenResponse)
-def login(payload: LoginRequest, db: DbSession, request: Request):
+def login(payload: LoginRequest, db: DbSession, request: Request, response: Response):
     ip = _client_ip(request)
     if not check_rate_limit(
         f"login-ip:{ip}", settings.LOGIN_RATE_LIMIT_PER_IP, settings.LOGIN_RATE_LIMIT_WINDOW_SECONDS
@@ -105,12 +150,18 @@ def login(payload: LoginRequest, db: DbSession, request: Request):
     db.commit()
     reset_rate_limit(f"login-ip:{ip}")
 
-    return _issue_tokens(db, user)
+    tokens = _issue_tokens(db, user)
+    _set_auth_cookies(response, tokens.access_token, tokens.refresh_token)
+    return tokens
 
 
 @router.post("/refresh", response_model=TokenResponse)
-def refresh(payload: RefreshRequest, db: DbSession):
-    token_hash = hash_opaque_token(payload.refresh_token)
+def refresh(payload: RefreshRequest, db: DbSession, request: Request, response: Response):
+    raw_refresh_token = payload.refresh_token or request.cookies.get(REFRESH_TOKEN_COOKIE)
+    if not raw_refresh_token:
+        raise HTTPException(status_code=401, detail="Invalid or expired refresh token")
+
+    token_hash = hash_opaque_token(raw_refresh_token)
     stored = db.query(RefreshToken).filter(RefreshToken.token_hash == token_hash).first()
 
     now = datetime.now(timezone.utc)
@@ -126,16 +177,21 @@ def refresh(payload: RefreshRequest, db: DbSession):
     stored.revoked_at = now
     db.commit()
 
-    return _issue_tokens(db, user)
+    tokens = _issue_tokens(db, user)
+    _set_auth_cookies(response, tokens.access_token, tokens.refresh_token)
+    return tokens
 
 
 @router.post("/logout", status_code=204)
-def logout(payload: LogoutRequest, db: DbSession):
-    token_hash = hash_opaque_token(payload.refresh_token)
-    stored = db.query(RefreshToken).filter(RefreshToken.token_hash == token_hash).first()
-    if stored and stored.revoked_at is None:
-        stored.revoked_at = datetime.now(timezone.utc)
-        db.commit()
+def logout(payload: LogoutRequest, db: DbSession, request: Request, response: Response):
+    raw_refresh_token = payload.refresh_token or request.cookies.get(REFRESH_TOKEN_COOKIE)
+    if raw_refresh_token:
+        token_hash = hash_opaque_token(raw_refresh_token)
+        stored = db.query(RefreshToken).filter(RefreshToken.token_hash == token_hash).first()
+        if stored and stored.revoked_at is None:
+            stored.revoked_at = datetime.now(timezone.utc)
+            db.commit()
+    _clear_auth_cookies(response)
 
 
 @router.get("/me", response_model=AuthenticatedUser)

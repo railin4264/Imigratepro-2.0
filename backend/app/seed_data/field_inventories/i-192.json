@@ -1,0 +1,1598 @@
+[
+  {
+    "name": "FormI-192[0].#subform[0].CheckBox2[0]",
+    "type": "checkbox",
+    "label": "To be completed by an attorney or accredited representative, if any.  Select this box if Form G - 28 or Form G - 2 81 is attached.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "FormI-192[0].#subform[0].VolagNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative, if any. Enter Volag Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "FormI-192[0].#subform[0].AttorneyStateBarNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative, if any. Enter Attorney State Bar Number, if applicable.",
+    "page": 1
+  },
+  {
+    "name": "FormI-192[0].#subform[0].USCISOnlineAcctNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any. Enter 12 digits.",
+    "page": 1
+  },
+  {
+    "name": "FormI-192[0].#subform[0].P1_Line1_CB[0]",
+    "type": "checkbox",
+    "label": "Part 1. Application Type. Select Admission as a nonimmigrant (other than as a T or U nonimmigrant). NOTE: If filing this form concurrently with a USCIS Form I-914 or Form I-918 (T or U nonimmigrant, respectively) or in relation to one that you previously filed, you should complete Item Numbers 1.-3., 5.-7., 10. and then skip to Item Number 26.",
+    "page": 1,
+    "on_value": "/B"
+  },
+  {
+    "name": "FormI-192[0].#subform[0].P1_Line1_CB[1]",
+    "type": "checkbox",
+    "label": "Part 1.  Application Type. I am applying to the Secretary of Homeland Security for permission to enter the United States temporarily under the provisions of the Immigration and Nationality Act (INA) section 212(d)(3)(A)(ii), 212(d)(13), or 212(d)(14). 1. I am seeking this permission so that I may obtain (select only one box). Select Status as a victim of trafficking (T nonimmigrant status) or \ra victim of qualifying criminal activity (U nonimmigrant status).",
+    "page": 1,
+    "on_value": "/A"
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. 1. Your Full Legal Name (Do not provide a nickname). Enter Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. 1. Enter Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. 1. Enter Middle Name (if applicable).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line2_A_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. 2. Other Names Used (if any). Provide all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. Row A. Enter Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line2_A_FirstName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. 2. Row A. Enter Given Name (Firstst Name).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line_A_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. 2. Row A. Enter Middle Name (if applicable).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line2_B_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. 2. Other Names Used (if any). Provide all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. Row B. Enter Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line2_B_FirstName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. 2. Row B. Enter Given Name (Firstst Name).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line_B_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. 2. Row B. Enter Middle Name (if applicable).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line3_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 3. Enter Alien Registration Number (A Number, if any).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line4_USCISOnlineAcctNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 4. Enter a U S C I S Online Account Number (if any).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line5_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 5. Enter your Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line6_CityorTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 6. Place of Birth. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line6_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 6. Place of Birth. Enter State or Province.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line6_CountryOfBirth[1]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 6. Place of Birth. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line7_CountryOfCitizenship[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 7. Enter Country of Citizenship or Nationality.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line8_Sex[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Other Information. 8. Sex. Select for Male.",
+    "page": 2,
+    "on_value": "/M"
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line8_Sex[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Other Information. 8. Sex. Select for Female.",
+    "page": 2,
+    "on_value": "/F"
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_InCareofName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 9. Mailing Address (Safe address, if applicable) Please provide an address where you can safely receive correspondence from USCIS. Enter In Care Of Name (if any).",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 9. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Other Information. 9. Select Apartment.",
+    "page": 2,
+    "on_value": "/APT "
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Other Information. 9. Select Suite.",
+    "page": 2,
+    "on_value": "/STE"
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Other Information. 9. Select Floor.",
+    "page": 2,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 9. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 9. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About You. Other Information. 9. Select State from the list of States and Protectorates.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 9. Enter the ZIP Code.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_Province[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 9. For International Address enter the Province.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 9. For International Address enter the Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[1].P2_Line9_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Other Information. 9. For International Address enter the Country.",
+    "page": 2
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter Street Number\rand Name.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Select Apartment.",
+    "page": 3,
+    "on_value": "/APT "
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Select Suite.",
+    "page": 3,
+    "on_value": "/STE"
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Select Floor",
+    "page": 3,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 10. Physical Address One, current address. If Apartment, Suite or Floor selected, please enter Number.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_Province[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter Province.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter Postal Code.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter five-digit Zip Code.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Select State from the List of States.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter Country.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_DateTo[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. Dates of Residence. To Date. Present. No Entry.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line10_DateFrom[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. Dates of Residence. Enter From Date. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. Provide physical addresses for everywhere you have lived during the last five years, whether inside or outside the United States.  Provide your current address first.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. 10. Physical Address 2 (current address). Enter the Street Number and Name. ",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Address History. 11. Select Apartment.",
+    "page": 3,
+    "on_value": "/APT "
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Address History. 11. Select Suite.",
+    "page": 3,
+    "on_value": "/STE"
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Address History. 11. Select Floor.",
+    "page": 3,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 11. Enter Apartment, Suite or Floor Number.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 11. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_Province[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 11. For International Address enter the Province.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 11. For International Address enter the Postal Code.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 11. Enter the ZIP Code.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About You. Address History. 11. Select State from the list of States and Protectorates.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 11. For International Address enter the Country.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_DateTo[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 11. Dates of Residence. Enter Date To. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line11_DateFrom[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Address History. 11. Dates of Residence. Enter Date From. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line12_MaritalStatus[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Information About Your Marital History. 12. Select Divorced.",
+    "page": 3,
+    "on_value": "/3"
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line12_MaritalStatus[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Information About Your Marital History. 12. What is your current marital status? Select Single, Never Married.",
+    "page": 3,
+    "on_value": "/1"
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line12_MaritalStatus[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Information About Your Marital History. 12. Select Widowed.",
+    "page": 3,
+    "on_value": "/4"
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line12_MaritalStatus[3]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Information About Your Marital History. 12. Select Married.",
+    "page": 3,
+    "on_value": "/2"
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line12_MaritalStatus[4]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Information About Your Marital History. 12. Select Legally Separated.",
+    "page": 3,
+    "on_value": "/5"
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line12_MaritalStatus[5]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Information About Your Marital History. 12. Select Marriage Annulled.",
+    "page": 3,
+    "on_value": "/6"
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line12_MaritalStatus[6]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Information About Your Marital History. 12. Select Other.",
+    "page": 3,
+    "on_value": "/7"
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line12_Other[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Marital History. 12. Enter Other marital status. ",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line13_TimesMarried[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Marital History. 13. How many times have you been married (including annulled marriages and marriages to the same person)?",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line14_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). If you are currently married, provide the following information about your current spouse. 14. Current Spouse's Legal Name. Enter Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line14_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 14. Enter Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line14_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 14. Enter Middle Name (if applicable).",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[2].P2_Line15_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 15. Enter Spouse's Alien Registration Number (A Number) (if any).",
+    "page": 3
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line19_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 19. Enter Country.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line19_StateProvince[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 19. Enter State or Province.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line19_CityTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 19. Place of Marriage. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line18_CityTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 18. Place of Birth. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line18_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 18. Enter Country.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line18_StateProvince[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 18. Enter State or Province.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line16_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 16. Enter Spouse's Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line17_Marriage[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 17. Enter Date of Marriage. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line20_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any). If you have been married before, anywhere in the world, provide the information requested in Item Numbers 20. - 25. about your prior marriage.  If you have had more than one previous marriage, use the space provided in Part 6. Additional Information to provide the answers to Item Numbers 20. - 25. for each additional marriage. 20. Prior Spouse's Legal Name (provided family name before marriage). Enter Family Name (Last Name). ",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line20_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any). 20. Enter Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line20_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any). 20. Enter Middle Name (if applicable).",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line21_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any). 21. Enter Prior Spouse's Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line22_DateOfMarriage[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any). 22. Enter Date of Marriage. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line23_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any).  23. Enter Country.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line23_StateProvince[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any).  23. Enter State or Province.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line23_CityTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any).  23. Place of Marriage. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line25_CityTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any).  25. Place Where Marriage Legally Ended. Enter City or Town. ",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line25_StateProvince[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any).  25. Place Where Marriage Legally Ended. Enter State or Province. ",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line25_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any).  25. Place Where Marriage Legally Ended. Enter Country.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line24_LegalMarriageEndDate[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Information About Prior Marriages (if any).  24. Enter Date Marriage Legally Ended. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[3].P2_Line26_GroundsofInadmissibility[0]",
+    "type": "text",
+    "label": "P2_Line26_GroundsofInadmissibility",
+    "page": 4
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line29_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 29. Enter the Country.",
+    "page": 5
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line29_StateProvince[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 29. Enter the State or Province.",
+    "page": 5
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line29_USCISOffPortEntry[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 29. Location where you filed your application (for example, USCIS Office or Port of Entry). Enter the U S C I S Office or Port of Entry.",
+    "page": 5
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line29_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 29. Enter the City or Town.",
+    "page": 5
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line28_DateAppFiled[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 28. Enter the Date Application Filed. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 5
+  },
+  {
+    "name": "FormI-192[0].#subform[4].ReceiptNumber[0].P2_Line29_ReceiptNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 29. Enter a Receipt Number (if available).",
+    "page": 5
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line30_CB[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 30. Have you EVER been in the United States for a period of six months or more? Select Yes. If you answered \"Yes\" to Item Number 30., provide the dates you were in the United States (from and to) and your immigration status at the time of entry into the United States in the space provided in Part 6. Additional Information.",
+    "page": 5,
+    "on_value": "/A"
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line30_CB[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 30. Select No.",
+    "page": 5,
+    "on_value": "/B"
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line31_CB[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 31. Have you EVER filed an application or petition for immigration benefits with the U.S. Government, or has one ever been filed on your behalf? Select Yes.  If you answered \"Yes\" to Item Number 31., provide the information requested in Item Numbers 32. - 34.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line31_CB[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 31. Select No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line32_ApplicationorPetitionFiled[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Immigration and Criminal History. If you have (or somebody else on your behalf has) filed multiple applications or petitions for immigration benefits with the U.S. Government, use the space provided in Part 6. Additional Information to provide the answers to Item Numbers 32. - 34. for each of your additional applications or petitions.  32. Enter the Type of application or petition filed.",
+    "page": 5
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line34_OutcomeApplicationOrPetitionFiled[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 34. Enter the Outcome of the application or petition (for example, approved, denied, or pending).",
+    "page": 5
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line33_LocationAppFiled[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 33. Enter the Location the application or petition was filed (for example, USCIS office or Port of Entry).",
+    "page": 5
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line35_CB[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 35. Have you ever been denied or refused an immigration benefit by the U.S. Government, or had a benefit revoked or terminated (including but not limited to visas)? Select Yes.  If you answered \"Yes\" to Item Number 35., provide an explanation the information in the space provided in Part 6. Additional Information.",
+    "page": 5,
+    "on_value": "/A"
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line35_CB[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 35. Select No.",
+    "page": 5,
+    "on_value": "/B"
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line36_CB[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 36. Have you ever, in or outside the United States, been arrested, cited, charged, indicted, fined, convicted, or imprisoned for breaking or violating any law or ordinance, excluding minor traffic violations? Select Yes. If you answered \"Yes\" to Item Number 36., describe the incidents in detail and include all offenses where impaired driving may have been an issue in the space provided in Part 6. Additional Information.",
+    "page": 5,
+    "on_value": "/A"
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line36_CB[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 36. Select No.",
+    "page": 5,
+    "on_value": "/B"
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line27_CB[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 27. Have you previously filed an application for advance permission to enter the United States as a nonimmigrant? Select Yes. If you answered \"Yes\" to Item Number 27., provide the details in Item Numbers 28. through 29.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "FormI-192[0].#subform[4].P2_Line27_CB[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Immigration and Criminal History. 27. Select No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line42_CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Travel Information. 42. Enter the Approximate Length of Stay in the United States.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line43_Summary[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Travel Information. 43. Explain What is the purpose of your stay in the United States? ",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_EmployerName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Provide your employment history for the last five years, whether inside or outside the United States.  Provide the most recent employment first.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. 44. Employer 1 (current or most recent). Enter the Name of the Employer or Company.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Address of Employer or Company. Enter Street Name and Number.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Select Apartment.",
+    "page": 6,
+    "on_value": "/APT "
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Select Suite.",
+    "page": 6,
+    "on_value": "/STE"
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Select Floor.",
+    "page": 6,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Enter an Apartment, Suite or Floor Number (if applicable).",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Enter City or Town.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Select State from the list of States / Protectorates.",
+    "page": 6,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Enter the ZIP Code.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_Province[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. For International Address enter Province.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. For International Address enter Postal Code.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line44_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. For International Address enter Country.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].Occupation[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. For International Address enter Your Occupation.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].DateFrom[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Dates of Employment. Enter Date From. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].DateTo[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Dates of Employment. Enter Date To. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line37_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Travel Information. NOTE:  If you are applying for T or U nonimmigrant status and are in the United States, you may skip Item Numbers 37. - 43. Location at Which you Plan to Enter the United States (desired Port of Entry) 37. Enter the City.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line38_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About You. Travel Information. 38. Select the State form the list of States / Protectorates.",
+    "page": 6,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line39_PortOfEntry[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Travel Information. 39. Enter the Name of the Port of Entry.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line40_TravelToUS[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Travel Information. 40. How do you plan to travel to the United States? For example, by plane, ship, car).",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[5].P2_Line41_PlanDateEnterUS[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Travel Information. 41. When do you plan to enter the United States? Enter a Date. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 6
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_Occupation[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. For International Address enter Your Occupation.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_DateFrom[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Dates of Employment. Enter Date From. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_DateTo[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Dates of Employment. Enter Date To. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P3_Line1_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 3. Applicant's Statement, Contact Information, Certification, and Signature. Applicant Contact Information. Provide your daytime telephone number, mobile telephone number (if any), and email address (if any). 1. Enter Applicant's Daytime Telephone Number.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P3_Line2_MobileTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 3. Applicant's Statement, Contact Information, Certification, and Signature. Applicant Contact Information. 2. Enter Applicant's Mobile Telephone Number (if any).",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P3_Line3_Email[0]",
+    "type": "text",
+    "label": "Part 3. Applicant's Statement, Contact Information, Certification, and Signature. Applicant Contact Information. 3. Enter Applicant's Email Address (if any).",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P3_Line4_SignatureofApplicant[0]",
+    "type": "text",
+    "label": "Part 3. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Certification and Signature. I certify, under penalty of perjury, that I provided or authorized all of the responses and information contained in and submitted with my application, I read and understand or, if interpreted to me in a language in which I am fluent by the interpreter listed in Part 4., understood, all of the responses and information contained in, and submitted with, my application, and that all of the responses and the information is complete, true, and correct.  Furthermore, I authorize the release of any information from any and all of my records that USCIS may need to determine my eligibility for an immigration request and to other entities and persons where necessary for the administration and enforcement of U.S. immigration law. 4. Enter the Applicant's Signature. This field cannot be electronically signed. Print this form and sign in ink.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P3_Line4_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 3. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Certification and Signature. 4. Enter the Applicant's Date of Signature. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_EmployerName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Provide your employment history for the last five years, whether inside or outside the United States.  Provide the most recent employment first.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. 45. Employer 2. Enter the Name of the Employer or Company.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Address of Employer or Company. Enter Street Name and Number.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Select Apartment.",
+    "page": 7,
+    "on_value": "/APT "
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Select Suite.",
+    "page": 7,
+    "on_value": "/STE"
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Select Floor.",
+    "page": 7,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Enter an Apartment, Suite or Floor Number (if applicable).",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Enter City or Town.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_Province[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. For International Address enter Province.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. For International Address enter Postal Code.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Enter the ZIP Code.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Select State from the list of States / Protectorates.",
+    "page": 7,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "FormI-192[0].#subform[6].P2_Line45_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. For International Address enter Country.",
+    "page": 7
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P4_Line6_Iamfluent[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that I am fluent in English and and I have interpreted every question on the application and instructions and interpreted the applicant's answers to the questions in that language, and the applicant informed me that he or she understood every instruction, question, and answer on the application. Enter language.",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P4_Line6_Signature[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. 6. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This field cannot be signed electronically. Print this form and sign in ink.",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P4_Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. 6. Enter the Date of Interpreter's Signature. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P5_Line1_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P5_Line1_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 1. Enter Preparer's Given Name (First Name). ",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P5_Line2_BusinessName[0]",
+    "type": "text",
+    "label": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 2. Enter Preparer's Business or Organization Name.",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P5_Line3_PreparerDaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 3. Enter Preparer's Daytime Telephone Number.",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P4_Line4_PreparerFaxNumber[0]",
+    "type": "text",
+    "label": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 4. Enter Preparer's Mobile Telephone Number (if any).",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P4_Line5_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 5. Preparer's Email Address (if any).",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P5_Line6_SignatureofPreparer[0]",
+    "type": "text",
+    "label": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Certification. I certify, under penalty of perjury, that I prepared this application for the applicant at his or her request and with express consent and that all of the responses and information contained in and submitted with the application is complete, true, and correct and reflects only information provided by the applicant.  The applicant reviewed the responses and information and informed me that he or she understand the responses and information in or submitted with the application. 6. Enter the Preparer's Signature. This field cannot be signed electronically. Print the form and sign in ink.",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P5_Line6_DateOfSignature[0]",
+    "type": "text",
+    "label": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 6. Enter Preparer's Date of Signature. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P4_Line3_InterpreterDaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter the Interpreter's Daytime Telephone Number.",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P4_Line4_MobileTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. 4. Enter the Intepreter's Mobile Telephone Number (if any).",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P4_Line5_Email[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. 5. Enter the Interpreter's Email Address (if any).",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P4_Line1_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P4_Line1_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. 1. Enter Interpreter's Given Name (First Name).",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[7].P4_Line2_BusinessName[0]",
+    "type": "text",
+    "label": "Part 4. Interpreter's Contact Information, Certification, and Signature. 2. Enter the Interpreter's Business or Organization Name.",
+    "page": 8
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P2_Line1_FamilyName[1]",
+    "type": "text",
+    "label": "Part 6. Additional Information  If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Type or print your name and. A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. A. Family Name (Last Name). This field is pre-populated from Page 1.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P2_Line1_GivenName[1]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 1. B. Given Name (First Name). This field is pre-populated from Page 1.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P2_Line1_MiddleName[1]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 1. C. Middle Name. This field is pre-populated from Page 1.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].Line3_ANumber[0].P2_Line3_AlienNumber[1]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 2. A. Number (if any). This field is pre-populated from Page 1.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line3_PageNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 3. Enter Page Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line3_PartNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 3. Enter Part Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line3_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 3. Enter Item Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line3_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 3. D. Enter Additional Information. ",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line4_PageNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 4.  Enter Page Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line4_PartNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 4. Enter Part Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line4_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 4. Enter Item Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line4_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 4. D. Enter Additional Information. ",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line5_PageNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 5. Enter Page Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line5_PartNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 5. Enter Part Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line5_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 5. Enter Item Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line5_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 5. D. Enter Additional Information. ",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line6_PageNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 6. Enter Page Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line6_PartNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 6.  Enter Part Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line6_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 6. Enter Item Number.",
+    "page": 9
+  },
+  {
+    "name": "FormI-192[0].#subform[8].P6_Line6_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 6. Additional Information. 6. D. Enter Additional Information. ",
+    "page": 9
+  }
+]

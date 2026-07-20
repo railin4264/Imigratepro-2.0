@@ -1,0 +1,487 @@
+[
+  {
+    "name": "form1[0].#subform[0].P1_Line1_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You 1. Enter Alien Registration Number. A. Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_USCISOnlineAccountNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 2. Enter U S C I S Online Account Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line3_Name[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  3. Enter Your Name Exactly As It Appears On Your Permanent Resident Card.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 4. Your Current Legal Name.  Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 4. Your Current Legal Name.  Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 4. Your Current Legal Name.  Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line8_DateOfLastDeparture[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 8. Enter Date of Last Departure from the United States. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line5_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 5. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 6. Enter Country of Birth.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line7_CountryofCitizenship[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Other Information. 7. Enter Country of Citizenship or Nationality.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Item9_InCareOfName[0]",
+    "type": "text",
+    "label": "Part 1.  Information About You. 9. Mailing Address Outside of the United States. Enter C / O In Care Of Name, if applicable.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Item9_StreetName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 9. Mailing Address Outside of the United States. Enter Street Number and Name. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Item9_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 9. Mailing Address Outside of the United States. Check Apartment.",
+    "page": 1,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Item9_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 9. Mailing Address Outside of the United States. Check Suite.",
+    "page": 1,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Item9_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. 9. Mailing Address Outside of the United States. Check Floor.",
+    "page": 1,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[0].Part21_Item9_Number[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 9. Mailing Address Outside of the United States. If Apartment, Suite or Floor is Checked, Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Item9_City[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 9. Mailing Address Outside of the United States. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Item9_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You. 9. Mailing Address Outside of the United States. Select State from a List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Item9_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 9. Mailing Address Outside of the United States. Enter Zip. Enter as 5- digit Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Item9_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 9. Mailing Address Outside of the United States. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Item9_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 9. Mailing Address Outside of the United States. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Item9_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 9. Mailing Address Outside of the United States. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Part1_Line10_Email[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. 10. Mailing Address Outside of the United States. Enter E-mail Address (if any). ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line11_YesNo[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission.  11. Have you returned your Permanent Resident Card? Select No.",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line11_YesNo[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission. 11. Have you returned your Permanent Resident Card? Select Yes.",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line12[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission. 12.  If you did not return your Permanent Resident Card, select the reason why and select and complete the certification statement.  Select this box for:  Lost.",
+    "page": 1,
+    "on_value": "/L"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line12[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission.  12.  If you did not return your Permanent Resident Card, select the reason why and select and complete the certification statement.  Select this box for:  Other.",
+    "page": 1,
+    "on_value": "/O"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line12[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission.  12. If you did not return your Permanent Resident Card, select the reason why and select and complete the certification statement.  Select this box for:  Stolen.",
+    "page": 1,
+    "on_value": "/S"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line12[3]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission.  12. If you did not return your Permanent Resident Card, select the reason why and select and complete the certification statement.  Select this box for:  Mutilated.",
+    "page": 1,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line13_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission.  13. Select this box for:  I certify, under penalty of perjury under the laws of the United States of America that I no longer possess my Permanent Resident Card for the reasons stated in this form, which I signed on (m m/d d/y y y y)",
+    "page": 1,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line13_Date[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission. 13. I certify, under penalty of perjury under the laws of the United States of America that I no longer possess my Permanent Resident Card for the reasons stated in this form. Enter Date Signed. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Submit_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission. 16. Select this box for: I am submitting Form I-4 07 from outside of the United States by mail.",
+    "page": 2,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Submit_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission. 18. Select this box for:  I am submitting Form I-4 07 from inside the United States to document that I abandoned my lawful permanent resident (L P R) status in the past.  I already abandoned my prior L P R status by leaving the United States intending to make my permanent home abroad.  I did not retain my L P R status.  I have since returned to the United States through a port of entry by being admitted as a nonimmigrant or by being paroled.   ",
+    "page": 2,
+    "on_value": "/D"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Submit_Checkbox[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission. 17. Select this box for:  I am submitting Form I-4 07 at a U.S. Port of Entry.",
+    "page": 2,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line14_OtherDocuments[0]",
+    "type": "text",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission. 14. Enter other documents you returned (if any).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Submit_Checkbox[3]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You. Documents Returned and Location of Submission. 15. Select this box for:  I am submitting Form I-4 07 from outside of the United States in-person.",
+    "page": 2,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line19_YourName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Certification.  Consent of Parents Custodial Parent, or Legal Guardian to Submit Form I-4 07 for Incapacitated Adult or Minors 14 Years of Age and Younger (if applicable). 19. Your Name (or name of parent, custodial parent, or legal guardian, if applicable).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line1_AlienNumber[1]",
+    "type": "text",
+    "label": "No Entry. Prepopulated from Part 1., Item Number 1. Alien Registration Number  (A Number).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line20_Signature[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Certification.  Consent of Parents Custodial Parent, or Legal Guardian to Submit Form I-4 07 for Incapacitated Adult or Minors 14 Years of Age and Younger (if applicable). 20. Your Signature (or signature of the parent, custodial parent, or legal guardian, if applicable).  Print and sign in ink.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P1_Line20_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 1. Information About You.  Certification.  Consent of Parents Custodial Parent, or Legal Guardian to Submit Form I-4 07 for Incapacitated Adult or Minors 14 Years of Age and Younger (if applicable). 20. Date of Signature. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].P1_Line1_AlienNumber[2]",
+    "type": "text",
+    "label": "No Entry. Prepopulated from Part 1., Item Number 1. A. Alien Registration Number  (A Number).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line1_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 2.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line1_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 2.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name.  1. Enter Interpreter's Given Name (First Name). ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line2_InterpreterBusiness[0]",
+    "type": "text",
+    "label": "Part 2.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name.  2. Enter Interpreter's Business or Organization Name (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line5_InterEmailAddress[0]",
+    "type": "text",
+    "label": "Part 2.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Email Address (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line3_InterDayTel[0]",
+    "type": "text",
+    "label": "Part 2.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line4_InterMobileTel[0]",
+    "type": "text",
+    "label": "Part 2.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Mobil Telephone Number (if any). ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_InterpreterCertification[0]",
+    "type": "text",
+    "label": "Part 2.  Interpreter's Contact Information, Certification, and Signature. Interpreter Certification and Signature. I certify, under penalty of perjury, that I am fluent in  English and I have interpreted every question on this form and Instructions and interpreted the applicant's answers to the questions in that language, and the form informed me that they understood every instruction, question, and answer on the form. Enter other fluent Language.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line6_Signature[0]",
+    "type": "text",
+    "label": "Part 2.  Interpreter's Contact Information, Certification, and Signature  6. Interpreter's Signature. Print and sign in ink.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P2_Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 2.  Interpreter's Contact Information, Certification, and Signature. 6. Interpreter's Signature. Date of Signature. Enter date as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line1_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Legal Permanent Resident (LPR). Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line1_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Legal Permanent Resident (LPR). Preparer's Full Name. 1. Enter Preparer's Given Name (First Name).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line2_PreparerBusinessOrganization[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Legal Permanent Resident (LPR). Preparer's Full Name. 2. Enter Preparer's Business or Organization Name (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line5_PreparerEmailAddress[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Legal Permanent Resident (LPR). Preparer's Contact Information. 5. Enter Preparer's Email Address (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line3_PreparerDayTel[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Legal Permanent Resident (LPR). Preparer's Contact Information. 3. Enter Preparer's Daytime Telephone Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].P3_Line4_PreparerMobileTel[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Legal Permanent Resident (LPR). Preparer's Contact Information. 4. Enter Preparer's Mobile Telephone Number (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].#area[0].P1_Line1_AlienNumber[3]",
+    "type": "text",
+    "label": "No Entry. Prepopulated from Part 1., Item Number 1. A. Alien Registration Number  (A Number).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P3_Line6_Signature[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Legal Permanent Resident (LPR). Preparer Certification and Signature. 6. Preparer's Signature. Print and sign in ink.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P3_Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 3.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Legal Permanent Resident (LPR). Preparer Certification and Signature. 6. Preparer's Signature. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P4_Line1_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 4. For Government Use Only. 1. Select this box for:  I certify that I personally interviewed the individual identified in Part 1., who has signed this Form I-4 07, and that I advised the individual of the hearing rights specified in the Instructions.  The individual stated that they fully understand the effect of signing this Form I-407.  I further certify that, if an interpreter was used, I confirmed that the individual understood the interpreter.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_Line1_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 4. For Government Use Only. 1. Select this box for:  I certify that I reviewed this Form I-407, which was submitted by mail as indicated in Part 1. Item Number 16.  Based on the completed information, signature, and any attached documentation, the individual identified in Part 1. has declared that they fully understand the effect of submitting this Form I-407.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_Line3_Checkboxes[0]",
+    "type": "checkbox",
+    "label": "Part 4. For Government Use Only. 3. A copy of the signed Form I-4 07 was provided to this individual. Select No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_Line3_Checkboxes[1]",
+    "type": "checkbox",
+    "label": "Part 4. For Government Use Only. 3. A copy of the signed Form I-4 07 was provided to this individual. Select Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[3].P4_Line4_DHSorConsularName[0]",
+    "type": "text",
+    "label": "Part 4.  For Government Use Only. U.S. Government Official Information. 4. Enter Title of U.S. Government ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P4_Line4_NameOfDHSComponent[0]",
+    "type": "text",
+    "label": "Part 4.  For Government Use Only. U.S. Government Official Information. 4. Enter Name of DHS Component, if signed by a DHS Official.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P4_Line4_Signature[0]",
+    "type": "text",
+    "label": "Part 4.  For Government Use Only. U.S. Government Official Information. 4. Signature of U.S. Government Official, sign in ink or use signature stamp.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P4_Line4_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 4.  For Government Use Only. U.S. Government Official Information. 4. Date of Signature. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 4
+  }
+]

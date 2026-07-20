@@ -1,0 +1,212 @@
+[
+  {
+    "name": "form1[0].#subform[0].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "PASSPORT",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].CheckBox2[0]",
+    "type": "checkbox",
+    "label": "VISA",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].CheckBox1[1]",
+    "type": "checkbox",
+    "label": "APPLICATION APPROVED.  WAIVER GRANTED",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].CheckBox1[2]",
+    "type": "checkbox",
+    "label": "Application Disapproved",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].CheckBox1[3]",
+    "type": "checkbox",
+    "label": "UNDER SECTION 211(b) by authority of  ",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].CheckBox1[4]",
+    "type": "checkbox",
+    "label": "UNDER SECTION 212(d) (4) by authority of",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].FEE_NUMBER[0]",
+    "type": "text",
+    "label": "File Number",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].MY_NAME_IS_LAST[0]",
+    "type": "text",
+    "label": "LAST NAME",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].MY_NAME_IS_FIRST[0]",
+    "type": "text",
+    "label": "FIRST NAME",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].MY_NAME_IS_MIDDLE[0]",
+    "type": "text",
+    "label": "MIDDLE NAME",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].MY_UNITED_STATES_DESTINATION[0]",
+    "type": "text",
+    "label": "MY UNITED STATES DESTINATION IS:     (NUMBER AND STREET, APARTMENT NUMBER, CITY, STATE, ZIP CODE) ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].MY_PERMANENT_ADDRESS_ABROAD[0]",
+    "type": "text",
+    "label": "MY PERMANENT ADDRESS ABROAD IS",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].THE_COUNTRY_OF_WHICH_I_AM_A_CITIZEN_SUBJECT_OR_NATIONA[0]",
+    "type": "text",
+    "label": "THE COUNTRY OF WHICH I AM A CITIZEN, SUBJECT OR NATIONAL IS",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Port_Of_Arrival[0]",
+    "type": "text",
+    "label": "PORT OF ARRIVAL",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Date_Of_Birth[0]",
+    "type": "text",
+    "label": "DATE OF BIRTH (MM/DD/YYYY)   Enter 2-digit month, 2-digit day and 4-digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Manner_Of_Arrival[0]",
+    "type": "text",
+    "label": "MANNER OF ARRIVAL (NAME OF VESSEL, AIRLINE, ETCETERA)",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Place_Visa_Previously_Issued[0]",
+    "type": "text",
+    "label": "PLACE VISA PREVIOUSLY ISSUED",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Date_Of_Previous_Issue[0]",
+    "type": "text",
+    "label": "DATE VISA ISSUED   Enter 2-digit month, 2-digit day and 4-digit year. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Previous_Number[0]",
+    "type": "text",
+    "label": "VISA NUMBER",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Previous_Classification[0]",
+    "type": "text",
+    "label": "VISA CLASSIFICATION",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Place_Passport_Issued[0]",
+    "type": "text",
+    "label": "PLACE PASSPORT ISSUED",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Date_Passport[0]",
+    "type": "text",
+    "label": "PASSPORT ISSUE DATE    Enter 2-digit month, 2-digit day and 4-digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Number_Passport[0]",
+    "type": "text",
+    "label": "PASSPORT NUMBER",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].City_State_Applicant[0]",
+    "type": "text",
+    "label": "CITY AND STATE",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Signature_Of_Applicant[0]",
+    "type": "text",
+    "label": "SIGNATURE OF APPLICANT    This is a protected field.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Preparer_Signature[0]",
+    "type": "text",
+    "label": "Signature of Preparer. This is a protected field.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Preparer_Address[0]",
+    "type": "text",
+    "label": "Address of Preparer",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Date_Of_Preparation[0]",
+    "type": "text",
+    "label": "Date Document Prepared    Enter 2-digit month, 2-digit day and 4-digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].PLACE_OF_BIRTH[0]",
+    "type": "text",
+    "label": "PLACE OF BIRTH",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Date_Of_Arrival[0]",
+    "type": "text",
+    "label": "DATE OF ARRIVAL    Enter 2-digit month, 2-digit day and 4-digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Date[0]",
+    "type": "text",
+    "label": "DATE OF THIS APPLICATION    Enter 2-digit month, 2-digit day and 4-digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Valid_To[0]",
+    "type": "text",
+    "label": "VISA VALID TO   Enter 2-digit month, 2-digit day and 4-digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Passport_Valid_To[0]",
+    "type": "text",
+    "label": "PASSPORT VALID TO    Enter 2-digit month, 2-digit day and 4-digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Reason_No_Passport_Visa[0]",
+    "type": "text",
+    "label": "THE REASON I AM NOT IN POSSESSION OF PASSPORT / VISA IS AS FOLLOWS",
+    "page": 1
+  }
+]

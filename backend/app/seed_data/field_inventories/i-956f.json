@@ -1,0 +1,2285 @@
+[
+  {
+    "name": "form1[0].PG1[0].sfG28[0].G28CheckBox[0]",
+    "type": "checkbox",
+    "label": "Select this box if a Form G - 28 is attached to represent the regional center.",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG1[0].sfG28[0].BarNumber_Txt[0]",
+    "type": "text",
+    "label": "Attorney State Bar Number (if applicable)",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].sfG28[0].USCISNumber_Txt[0]",
+    "type": "text",
+    "label": "Attorney or Accredited Representative U S C I S  Online Account Number (if any).    ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].CB_1[0]",
+    "type": "checkbox",
+    "label": "Are you the attorney of record for this Regional Center?  Check Yes",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG1[0].CB_1[1]",
+    "type": "checkbox",
+    "label": "Are you the attorney of record for this Regional Center?  Check No",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG1[0].CB_2[0]",
+    "type": "checkbox",
+    "label": "If no, should USCIS list you as the attorney of record for correspondence with the Regional Center on all immigration matters?    Check Yes",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG1[0].CB_2[1]",
+    "type": "checkbox",
+    "label": "If no, should USCIS list you as the attorney of record for correspondence with the Regional Center on all immigration matters?    Check No",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line1_CB[0]",
+    "type": "checkbox",
+    "label": "Part 1. Application Type. 1. Select whether the application is an Initial Application I-956 F for  Regional Center Approval of an Investment in a Commercial Enterprise or an Amendment to an Approved I-956 F.  Select Initial I-956 F Application for Approval of an Investment in a Commercial Enterprise ",
+    "page": 1,
+    "on_value": "/Initial"
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line1_CB[1]",
+    "type": "checkbox",
+    "label": "Part 1. Application Type. 1. Select this box for Amendment to an previously approved I-956 F",
+    "page": 1,
+    "on_value": "/Ammend"
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line2_I956FRecNumber[0]",
+    "type": "text",
+    "label": "Part 1. Application Type. 2. If your application is an amendment , provide the receipt number of the approved form. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line3_NCEIDNumber[0]",
+    "type": "text",
+    "label": "Part 1. Application Type. 3. If your application is an amendment, provide the NCE Identification Number ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line4_CB[0]",
+    "type": "checkbox",
+    "label": "Part 1 Application Type.  4. Is this project or offering described in this application the same project or offering submitted with an approved I-924 application or amendment as an exemplar I-526 prior to March 15, 2022?  check Yes",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line4_CB[1]",
+    "type": "checkbox",
+    "label": "Part 1 Application Type.  4. Is this project or offering described in this application the same project or offering submitted with an approved I-924 application or amendment as an exemplar I-526 prior to March 15, 2022?  check No.",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG1[0].P1_Line5_RegCtrIDNumber[0]",
+    "type": "text",
+    "label": "Part 1. Application Type. 5. If your application is an amendment, provide the NCE Identification Number ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].Pt1_Line5_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1.    Application Type.  5. If yes, provide the receipt number of Form I-924 and Approval Date.  Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P2_Line1_RegCtrEntityLegalName[0]",
+    "type": "text",
+    "label": "Part 2. Information About the Regional Center. 1. Legal Name of Regional Center Entity. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG1[0].P2_Line2_RegionalIDNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About the Regional Center. 2. Enter Regional Center Identification Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].PG2[0].P2_CB[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About the Regional Center. Regional Center Mailing Address. Check this box to indicate that the Physical and Mailing Addresses of the Regional Center are the same.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_InCareOfName[0]",
+    "type": "text",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. Enter the In Care of Name (if any).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. Enter the Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_CB_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. Check this box for Apartment.",
+    "page": 2,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_CB_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. Check this box for Suite.",
+    "page": 2,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_CB_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. Check this box for Floor.",
+    "page": 2,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. Enter the Apartment, Suite, or Floor number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. Enter the City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. Select the State from the list of States.",
+    "page": 2,
+    "options": [
+      "",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_ZIPCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. Enter the 5-digit Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_Province[0]",
+    "type": "text",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. For International Addresses. Enter the Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. For International Addresses. Enter the Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P2_Line3_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About the Regional Center. Regional Center Physical and Mailing Address. 3. Physical Address. Enter the Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P3_Line1_LegalNameofNCE[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise (NCE). 1. Legal Name of NCE  Required Field Do not leave blank. ",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P3_Line2_OtherNameEntity[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise. 2. Enter Other name(s) the entity is authorized to use or do business as (d / b / a).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P3_Line3_CB[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise. 3. Check this box for: Corporation.",
+    "page": 2,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].PG2[0].P3_Line3_CB[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About the New Commercial Enterprise . 3. Check this box for: Partnership (including limited partnerships).",
+    "page": 2,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].PG2[0].P3_Line3_CB[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise. 3. Check this box for: Limited Liability Company (L L C).",
+    "page": 2,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].PG2[0].P3_Line3_CB[3]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise. 3. Check this box for: Other. (Describe Other in the next field, below. If you need extra space to complete this section, use the space provided in Part 14. Additional Information.) ",
+    "page": 2,
+    "on_value": "/5"
+  },
+  {
+    "name": "form1[0].PG2[0].P3_Line3_OtherOrgStructure[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise. 3. Select this box for:  Enter the Other type of Organizational Structure.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P3_Line4_CB[0]",
+    "type": "checkbox",
+    "label": "Part 3 Information About the New Commercial Enterprise. 4. Is the N C E comprised of a holding company and its wholly owned subsidiaries?  Check Yes.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG2[0].P3_Line4_CB[1]",
+    "type": "checkbox",
+    "label": "Part 3 Information About the New Commercial Enterprise. 4. Is the N C E comprised of a holding company and its wholly owned subsidiaries?  Check No.",
+    "page": 2,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG2[0].P4_Table[0].Row1[0].P4_Row1_SubisidiaryName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the New Commercial Enterprise.  4.  Is the New Commercial Enterprise comprised of a holding company and its wholly owned subsidiaries.  If yes describe  the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14.  Enter Subsidiary Name. Column 1 Field 1",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P4_Table[0].Row1[0].P4_Row1_DateOfFormation[0]",
+    "type": "text",
+    "label": "Enter Date of Formation.   Column 2 field 1",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P4_Table[0].Row1[0].P4_Row1_JurisdictionOfFormulation[0]",
+    "type": "text",
+    "label": "Enter Jurisdiction of Formation.  Column 3 Field 1",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P4_Table[0].Row2[0].P4_Row2_SubisidiaryName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the New Commercial Enterprise.  4.  Is the New Commercial Enterprise comprised of a holding company and its wholly owned subsidiaries.  If yes describe  the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14.  Enter Subsidiary Name.  Column 1 Field 1",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P4_Table[0].Row2[0].P4_Row2_DateOfFormation[0]",
+    "type": "text",
+    "label": "P4_Row2_DateOfFormation",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P4_Table[0].Row2[0].P4_Row2_JurisdictionOfFormulation[0]",
+    "type": "text",
+    "label": "P4_Row2_JurisdictionOfFormulation",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P4_Table[0].Row3[0].P4_Row3_SubisidiaryName[0]",
+    "type": "text",
+    "label": "Part 3.  Information About the New Commercial Enterprise.  4.  Is the New Commercial Enterprise comprised of a holding company and its wholly owned subsidiaries.  If yes describe  the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14.  Enter Subsidiary Name. Column 1 Field 2",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P4_Table[0].Row3[0].P4_Row2_DateOfFormation[0]",
+    "type": "text",
+    "label": "P4_Row2_DateOfFormation",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P4_Table[0].Row3[0].P4_Row3_JurisdictionOfFormulation[0]",
+    "type": "text",
+    "label": "P4_Row3_JurisdictionOfFormulation",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG2[0].P3_Line5_EstablihDate[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise. 5.  Date the N C E was established.  Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line6_StateTerrRegNCEEst[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise. 6. Enter State or Territory Where the N C E was established. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line7_OtherStatesTerrNCERegistered[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise. 7. Enter the other States or Territory where the N C E is registered to do Business.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line8_NCEFEIN[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise. 8. Enter the N C E Federal Employer Identification Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_CB[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise.  N C  E Mailing Address. Check this box to indicate that the Physical and Mailing Addresses of the New Commercial Enterprise are the same.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line9_InCareOfName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise Physical and Mailing Address. 9. Physical Address. Enter the In Care of Name (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line9_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New  Commercial Enterprise  Physical and Mailing Address. 9. Physical Address. Enter the Street Number and Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line9_CB_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise Physical and Mailing Address. 9. Physical Address. Check this box for Apartment.",
+    "page": 3,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line9_CB_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise Physical and Mailing Address. 9. Physical Address. Check this box for Suite.",
+    "page": 3,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line9_CB_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the Regional Center. Regional Center Physical and Mailing Address. 9. Physical Address. Check this box for Floor.",
+    "page": 3,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line9_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Regional Center.  N C E Mailing Address and Physical Address when applicable. 9. Physical Address. Enter the Apartment, Suite, or Floor number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line9_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 3. Information About the N C E Physical and Mailing Address. 9. Physical Address. Enter the City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line9_County[0]",
+    "type": "text",
+    "label": "Part 3. Information About the N C E Physical and Mailing Address. 9. Physical Address. Enter the County.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line9_State[0]",
+    "type": "choice",
+    "label": "Part 3. Information About the N C E Physical and Mailing Address. 9. Physical Address. Select the State from the list of States.",
+    "page": 3,
+    "options": [
+      "",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line9_ZIPCode[0]",
+    "type": "text",
+    "label": "Part 3. Information About the N C E. Physical and Mailing Address. 9. Physical Address. Enter the 5-digit Zip Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line10_TelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 3. Information About the  New Commercial Enterprise.  10. Enter the Telephone Number with Area Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line11_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise Contact Information. 11. Enter the Email Address.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line12_WebsiteAddress[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise Contact Information. 12. Enter the Website Address.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line13_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 3. Information About the  New Commercial Enterprise.   Address and Census Tract(s) where the N C E Is Principally Doing Business (Project Location; See Instructions)     13. Enter the Street Number and Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line13_CB_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the  New Commercial Enterprise.   Address and Census Tract(s) where the N C E Is Principally Doing Business (Project Location; See Instructions)     13. Check this box for Apartment.",
+    "page": 3,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line13_CB_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the  New Commercial Enterprise.   Address and Census Tract(s) where the N C E Is Principally Doing Business (Project Location; See Instructions)     13. Check this box for Suite.",
+    "page": 3,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line13_CB_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the  New Commercial Enterprise.   Address and Census Tract(s) where the N C E Is Principally Doing Business (Project Location; See Instructions)     13. check this box for Floor.",
+    "page": 3,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line13_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3. Information About the  New Commercial Enterprise.     Address and Census Tract(s) where the N C E Is Principally Doing Business (Project Location; See Instructions)     13 . Enter the Apartment, Suite, or Floor number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line13_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 3. Information About the  New Commercial Enterprise.   Address and Census Tract(s) where the N C E Is Principally Doing Business (Project Location; See Instructions)     13. Enter the City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line13_County[0]",
+    "type": "text",
+    "label": "Part 3. Information About the  New Commercial Enterprise.   Address and Census Tract(s) where the N C E Is Principally Doing Business (Project Location; See Instructions)     13. Enter the Country.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line13_State[0]",
+    "type": "choice",
+    "label": "Part 3. Information About the  New Commercial Enterprise.   Address and Census Tract(s) where the N C E Is Principally Doing Business (Project Location; See Instructions)     13. Select the State from the list of States.",
+    "page": 3,
+    "options": [
+      "",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line13_ZIPCode[0]",
+    "type": "text",
+    "label": "Part 3. Information About the  New Commercial Enterprise.   Address and Census Tract(s) where the N C E Is Principally Doing Business (Project Location; See Instructions)     13.  Enter the 5-digit Zip Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line13_CensusTracts[0]",
+    "type": "text",
+    "label": "Part 3. Information About the  New Commercial Enterprise.   Address and Census Tract(s) where the N C E Is Principally Doing Business (Project Location; See Instructions)     13. Enter the Census Tract or Tracts. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].PG3[0].P3_NCETYPE_CB[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise. 14. Check this box for: NCE formed after November 29, 1990",
+    "page": 3,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].PG3[0].P3_NCETYPE_CB[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise . 15. Check this box for:   N C E resulting from the purchase of a business formed on or before November 29, 1990 that is restructured or reorganized.",
+    "page": 3,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].PG3[0].P3_NCETYPE_CB[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise. 16. Check this box for:    N C E resulting from a capital investment in, and substantial expansion of, a business formed on or before November 29, 1990.",
+    "page": 3,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line17_CB[0]",
+    "type": "checkbox",
+    "label": "Part 3  Information About the New Commercial Enterprise. 17. Is the N C E a troubled business?  Check Yes.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG3[0].P3_Line17_CB[1]",
+    "type": "checkbox",
+    "label": "Part 3  Information About the New Commercial Enterprise. 17. Is the N C E a troubled business?  Check No.",
+    "page": 3,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line1_JCELegalName[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creating Entity. 1. Legal Name of J C E . ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line2_OtherNameJCE[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creating Entity. 2. Enter Other name(s) the J C E entity is authorized to use or do business as (d / b / a).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line3_CB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About the J C E. 3. Check this box for: Corporation.",
+    "page": 4,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line3_CB[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About the J C E . 3. Check this box for: Partnership (including limited partnerships).",
+    "page": 4,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line3_CB[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the J C E. 3. Check this box for: Limited Liability Company (L L C).",
+    "page": 4,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line3_CB[3]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the J C E. 3. Check this box for: Other. (Describe Other in the next field, below. If you need extra space to complete this section, use the space provided in Part 14. Additional Information.) ",
+    "page": 4,
+    "on_value": "/5"
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line3_OtherOrgStructure[0]",
+    "type": "text",
+    "label": "Part 3. Information About the J C E. 3. Check this box for: Enter the Other type of Organizational Structure.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line4_CB[0]",
+    "type": "checkbox",
+    "label": "Part 3  Information About the New Commercial Enterprise. 4. Is the NCE a troubled business?  Check Yes.",
+    "page": 4,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line4_CB[1]",
+    "type": "checkbox",
+    "label": "Part 3  Information About the New Commercial Enterprise. 4. Is the NCE a troubled business?  Check No.",
+    "page": 4,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Table_Line4[0].Row1[0].P4_Table_Row1_SubsidiaryName[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creating Entity(ies) (JCE). 4. Is the JCE compromised of holding company and its wholly owned subsidiaries? If yes, describe the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14. Additional Information. Enter Subsidiary Name. Row 1.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Table_Line4[0].Row1[0].P4_Table_Row1_DateOfFormation[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creating Entity(ies) (JCE). 4. Is the JCE compromised of holding company and its wholly owned subsidiaries? If yes, describe the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14. Additional Information. Enter Date of Formation in mm/dd/yyyy format. Row 1.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Table_Line4[0].Row1[0].P4_Table_Row1_JurisdictionOfFormation[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creating Entity(ies) (JCE). 4. Is the JCE compromised of holding company and its wholly owned subsidiaries? If yes, describe the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14. Additional Information. Enter Justification of Formation.  Row 1.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Table_Line4[0].Row2[0].P4_Table_Row2_SubsidiaryName[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creating Entity(ies) (JCE). 4. Is the JCE compromised of holding company and its wholly owned subsidiaries? If yes, describe the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14. Additional Information. Enter Subsidiary Name. Row 2.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Table_Line4[0].Row2[0].P4_Table_Row2_DateOfFormation[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creating Entity(ies) (JCE). 4. Is the JCE compromised of holding company and its wholly owned subsidiaries? If yes, describe the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14. Additional Information. Enter Date of Formation in mm/dd/yyyy format. Row 2.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Table_Line4[0].Row2[0].P4_Table_Row2_JurisdictionOfFormation[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creating Entity(ies) (JCE). 4. Is the JCE compromised of holding company and its wholly owned subsidiaries? If yes, describe the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14. Additional Information. Enter Justification of Formation.  Row 2.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Table_Line4[0].Row3[0].P4_Table_Row3_SubsidiaryName[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creating Entity(ies) (JCE). 4. Is the JCE compromised of holding company and its wholly owned subsidiaries? If yes, describe the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14. Additional Information. Enter Subsidiary Name. Row 3.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Table_Line4[0].Row3[0].P4_Table_Row3_DateOfFormation[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creating Entity(ies) (JCE). 4. Is the JCE compromised of holding company and its wholly owned subsidiaries? If yes, describe the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14. Additional Information. Enter Date of Formation in mm/dd/yyyy format. Row 3.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Table_Line4[0].Row3[0].P4_Table_Row3_JurisdictionOfFormation[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creating Entity(ies) (JCE). 4. Is the JCE compromised of holding company and its wholly owned subsidiaries? If yes, describe the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.  If you need additional space, us the space provided in Part 14. Additional Information. Enter Justification of Formation.  Row 3.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line5_JCEEstDate[0]",
+    "type": "text",
+    "label": "Part 3. Information About the J C E. 5.  Date the NCE was established.  Enter Date of Birth as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line6_StatJECFormed[0]",
+    "type": "text",
+    "label": "Part 3. Information About the Regional New Commercial Enterprise. 6. Enter State or Territory Where the NCE was established. ",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line7_OtherStatesJCERegisterd[0]",
+    "type": "text",
+    "label": "Part 3. Information About the New Commercial Enterprise. 7. Enter the other States or Territory where the NCE is registered to do Business.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG4[0].P4_Line8_JCEFEIN[0]",
+    "type": "text",
+    "label": "Part 4. Information About the J C E. 8. Enter the J C E Federal Employer Identification Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].PG5[0].p4_Line9Mail[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About the J C E   Mailing Address. Check this box to indicate that the Physical and Mailing Addresses of the Regional Center are the same.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line9_InCareOfName[0]",
+    "type": "text",
+    "label": "Part 4. Information About the Job Creation Entity Physical and Mailing Address. 9. Physical Address. Enter the In Care of Name (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line9_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 4. Information About the J C E Physical and Mailing Address. 9. Physical Address. Enter the Street Number and Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line9_CB_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 4. Information About the J C E Physical and Mailing Address. 9. Physical Address. Check this box for Apartment.",
+    "page": 5,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line9_CB_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 4. Information About the J C E Physical and Mailing Address. 9. Physical Address. Check this box for Suite.",
+    "page": 5,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line9_CB_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 4. Information About the J C E Physical and Mailing Address. 9. Physical Address. Check this box for Floor.",
+    "page": 5,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line9_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 4. Information About the j J C E Physical and Mailing Address. 9. Physical Address. Enter the Apartment, Suite, or Floor number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line9_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 4. Information About the J C E Physical and Mailing Address. 9. Physical Address. Enter the City or Town.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line9_State[0]",
+    "type": "choice",
+    "label": "Part 4. Information About the J C E Physical and Mailing Address. 9. Physical Address. Select the State from the list of States.",
+    "page": 5,
+    "options": [
+      "",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line9_ZIPCode[0]",
+    "type": "text",
+    "label": "Part 4. Information About the J C E. Physical and Mailing Address. 9. Physical Address. Enter the 5-digit Zip Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line10_DaytimeTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 4. Information About the J C E 10. Enter the Telephone Number with Area Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line11_Email[0]",
+    "type": "text",
+    "label": "Part 4. Information About the J C E Contact Information. 11. Enter the Email Address.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P4_Line12_Website[0]",
+    "type": "text",
+    "label": "Part 4. Information About the J C E Contact Information. 12. Enter the Website Address.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P4_13[0]",
+    "type": "checkbox",
+    "label": "Part 4  Information About the Job Creating Entity.   13.  Is the JCE an affiliated JCE? The term `affiliated job-creating entity' means any job-creating entity that is controlled, managed, or owned by any of the people involved with the regional center or new commercial enterprise under section 203(b)(5)(H)(v).  Check Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG5[0].P4_13[1]",
+    "type": "checkbox",
+    "label": "Part 4  Information About the Job Creating Entity.   13.  Is the JCE an affiliated JCE? The term `affiliated job-creating entity' means any job-creating entity that is controlled, managed, or owned by any of the people involved with the regional center or new commercial enterprise under section 203(b)(5)(H)(v).  Check No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Project_CB[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Project.   You must provide a comprehensive business plan for a specific capital investment project as well as a credible economic analysis regarding estimated job creation that is based upon economically and statistically valid and transparent methodologies. For Items 1-5, select the appropriate box to indicate the type of investment for this project (Check all that apply)  1. Check this box for: Rural Area.",
+    "page": 5,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].PG5[0].P5_1A[0]",
+    "type": "checkbox",
+    "label": "Part 5  Information About the Project.  This project is based on an investment in a rural area.  1A   Is the NCE principally doing business in an area outside a metropolitan statistical area (as designated by the Director of the Office of Management and Budget)?   Check Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG5[0].P5_1A[1]",
+    "type": "checkbox",
+    "label": "Part 5  Information About the Project.  This project is based on an investment in a rural area.  1A   Is the NCE principally doing business in an area outside a metropolitan statistical area (as designated by the Director of the Office of Management and Budget)?   Check No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG5[0].P5_1B[0]",
+    "type": "checkbox",
+    "label": "Part 5  Information About the Project.  This project is based on an investment in a rural area.  1B   Is the NCE principally doing business in an area outside the outer boundary of a city or town having a population of 20,000 or more (based on the most recent decennial census of the United States)?  Check Yes.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG5[0].P5_1B[1]",
+    "type": "checkbox",
+    "label": "Part 5  Information About the Project.  This project is based on an investment in a rural area.  1B   Is the NCE principally doing business in an area outside the outer boundary of a city or town having a population of 20,000 or more (based on the most recent decennial census of the United States)?  Check No.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Project_CB[1]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Project   2. High Unemployment Area.  This project is based on an investment in a high unemployment area. ",
+    "page": 5,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Line2_A[0].Row1[0].FIPS_1[0]",
+    "type": "text",
+    "label": "Part 5.  Information about the project.  You must provide a comprehensive business plan for a specific capital investment project as well as a credible economic analysis regarding estimated job creation that is based upon economically and statistically valid and transparent methodologies.  For Items 1-5 select the appropriate box to indicate the type of investment for this project Check all that apply.  2. High Unemployment Area.  This project is based on an investment in a high unemployment area. A.  In addition to the census tract(s) where the N C E is principally doing business identified in Part 3, Item 13, list any other directly adjacent census tract(s) that you are requesting to be included in designation as an area of high unemployment (Enter the 11-digit FIPS codes) Row 1  Field 1",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Line2_A[0].Row1[0].FIPS_2[0]",
+    "type": "text",
+    "label": "Row 1  Field 2",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Line2_A[0].Row1[0].FIPS_3[0]",
+    "type": "text",
+    "label": "Row 1  Field 3",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Line2_A[0].Row1[0].FIPS_4[0]",
+    "type": "text",
+    "label": "Row 1  Field 4",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Line2_A[0].Row1[0].FIPS_5[0]",
+    "type": "text",
+    "label": "Row 1  Field 5",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Line2_A[0].Row2[0].FIPS_1[0]",
+    "type": "text",
+    "label": "Row 2  Field 1",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Line2_A[0].Row2[0].FIPS_2[0]",
+    "type": "text",
+    "label": "Row 2  Field 2",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Line2_A[0].Row2[0].FIPS_3[0]",
+    "type": "text",
+    "label": "Row 2  Field 3",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Line2_A[0].Row2[0].FIPS_4[0]",
+    "type": "text",
+    "label": "Row 2  Field 4",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG5[0].P5_Line2_A[0].Row2[0].FIPS_5[0]",
+    "type": "text",
+    "label": "Row 2  Field 5",
+    "page": 5
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line_B_WeightedAvUnemploy[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project.  2.B. What is the weighted average of the unemployment rate for the census tracts you are requesting to be designated as an area of high employment, based on the labor force unemployment measure for each applicable census tract?  Enter weighted average.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line_C_NationalAvUnemploy[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 2.C.  What is the national average unemployment rate on the filing of this application? Enter rate.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line_D_DataSoureCalculate[0]",
+    "type": "text",
+    "label": "Part 5. Information About the Project. 2.D. What data source(s) and time frames did you use to calculate the unemployment rate for the applicable census  tract(s) and  the national average unemployment rate? Enter data sources and time frames.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line3Infra_CB[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About the New Commercial Enterprise. 3. Check this box for: NCE formed after November 29, 1990",
+    "page": 6,
+    "on_value": "/3"
+  },
+  {
+    "name": "form1[0].PG6[0].P5_3A[0]",
+    "type": "checkbox",
+    "label": "Part 5  Information About the Project. 3,  Infrastructure Project.  This is based on an investment in a infrastructure Project.  A Is the project administered by a governmental entity (such as a Federal, State, or local agency or authority) that is the JCE contracting with the RCE or NCE to receive capital investment under the regional center program?   Check Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG6[0].P5_3A[1]",
+    "type": "checkbox",
+    "label": "Part 5  Information About the Project. 3,  Infrastructure Project.  This is based on an investment in a infrastructure Project.  A Is the project administered by a governmental entity (such as a Federal, State, or local agency or authority) that is the JCE contracting with the RCE or NCE to receive capital investment under the regional center program?   Check No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG6[0].P5_3B[0]",
+    "type": "checkbox",
+    "label": "Part 5  Information About the Project. 3,  Infrastructure Project.  This is based on an investment in a infrastructure Project.  B  Is the project financing for maintaining, improving, or constructing a public works project?  Check Yes.",
+    "page": 6,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG6[0].P5_3B[1]",
+    "type": "checkbox",
+    "label": "Part 5  Information About the Project. 3,  Infrastructure Project.  This is based on an investment in a infrastructure Project.  B  Is the project financing for maintaining, improving, or constructing a public works project?  Check No.",
+    "page": 6,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line4_HighEmploy_CB[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Project 4. Check this box for: High Employment Area.  This project is based on an investment in a high employment area.",
+    "page": 6,
+    "on_value": "/4"
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line5_NonTea_CB[0]",
+    "type": "checkbox",
+    "label": "Part 5. Information About the Project 5. Check this box for: Non T E A Non Infrastructure Non High Employment.  This project is based on an investment that is not an infrastructure project or in an area that is not in a targeted employment area or high  employment area.",
+    "page": 6,
+    "on_value": "/5"
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line6_ESTCostProject[0]",
+    "type": "text",
+    "label": "Part 5. Information about this Project.  This project is based on an investment that is not an infrastructure project or in an area that is not in a targeted employment area or high  employment area.    6. Enter the total Estimated Cost of the Project.  ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line7_ExpectedEB5[0]",
+    "type": "text",
+    "label": "Part 5. Information about this Project.  This project is based on an investment that is not an infrastructure project or in an area that is not in a targeted employment area or high  employment area.    7. Enter the Number of expected  E B 5 Investors into th N C E",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line8_AggregateAmount[0]",
+    "type": "text",
+    "label": "Part 5. Information about this Project.  This project is based on an investment that is not an infrastructure project or in an area that is not in a targeted employment area or high  employment area.    8. Enter the Aggregate Amount of Project Costs Funded by E B 5 Capital",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line9_NatureOfActivity[0]",
+    "type": "text",
+    "label": "Part 5. Information about this Project.  This project is based on an investment that is not an infrastructure project or in an area that is not in a targeted employment area or high  employment area.    9. Enter Nature of Activity of Project for example furniture manufacturer ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line10_PrimaryIncluded[0]",
+    "type": "text",
+    "label": "Part 5. Information about this Project.  This project is based on an investment that is not an infrastructure project or in an area that is not in a targeted employment area or high  employment area.    10. Enter the Primary Included Industries for Project (provide North American Industry Classification System (NAICS) codes)",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Line11_TotalOfJobsCreated[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_NAICSCode_1[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 1 Row 1.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter NAICS Code. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_IndustryName_1[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 2 Row 1.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter Industry Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_Amount_1[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 3 Row 1.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter Claimed Jobs to be created by Investment Project",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_NAICSCode_2[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 1 Row 2.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter NAICS Code. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_IndustryName_2[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 2 Row 2.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter Industry Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_Amount_2[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 3 Row 2.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter Claimed Jobs to be created by Investment Project",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_NAICSCode_3[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 1 Row 3.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter NAICS Code. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_IndustryName_3[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 2 Row 3.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter Industry Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_Amount_3[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 3 Row 3.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter Claimed Jobs to be created by Investment Project",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_NAICSCode_4[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 1 Row 4.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter NAICS Code. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_IndustryName_4[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 2 Row 4.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter Industry Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_Amount_4[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 3 Row 4.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter Claimed Jobs to be created by Investment Project",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_NAICSCode_5[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 1 Row 5.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter NAICS Code. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_IndustryName_5[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 2 Row 5.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter Industry Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_Amount_5[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 3 Row 5.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Enter Claimed Jobs to be created by Investment Project",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG6[0].P5_Table[0].P5_Line11_Total[0]",
+    "type": "text",
+    "label": "Part 5.  Information About the Project. 11. Column 3 Row 1.  Enter the total number of Estimated Jobs to be Created by the Project.  If available, provide a list of NAICS codes, industry name and associated total number of claimed jobs to be created by the investment project.  Total of Estimated Jobs.  This field will be automatically calculated.  Field is Read Only.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].PG7[0].P6_Line1_SecurityandExchange[0]",
+    "type": "text",
+    "label": "Part 6. Investment and Offering Documents.  1.  You must include any documents filed with the Securities and Exchange Commission under the Securities Act of 1933 (15 U.C.S. 77 A  or with the securities regulator of any State, as required by law.  Identify the documentation provided (exhibit number, name of document, filing information).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].PG7[0].P6_Line2_InvestmentandOffering[0]",
+    "type": "text",
+    "label": "Part 6. Investment and Offering Documents.  2.  You must include all investment and offering documents, including subscription, investment, partnership, and operating agreements, private placement memoranda, term sheets, biographies of management, officers, directors, and any person with similar responsibilities, the description of the business plan, and marketing materials used, or drafts prepared for use, in connection with the offering.  Identify the documentation provided (exhibit number, name of document).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].PG7[0].P6_3[0]",
+    "type": "checkbox",
+    "label": "Part 6. Investment and Offering Documents.  3.    Have all material investment risks associated with the N C E and J C E been disclosed?        Check Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG7[0].P6_3[1]",
+    "type": "checkbox",
+    "label": "Part 6. Investment and Offering Documents.  3.    Have all material investment risks associated with the N C E and J C E been disclosed?        Check No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG7[0].P6_Line3_MaterialInvest[0]",
+    "type": "text",
+    "label": "Part 6. Investment and Offering Documents. 3.  Have all material investment risks associated with the N C E and J C E been disclosed?  Identify the documents containing this information (exhibit number, name of document, page number).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].PG7[0].P6_4[0]",
+    "type": "checkbox",
+    "label": " Part 6. Investment and Offering Documents.  4.   Are there any conflicts of interest that currently exist or may arise among the regional center, the N C E and J C E, or the principals, attorneys, or individuals responsible for recruitment or promotion of such entities?  Check Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG7[0].P6_4[1]",
+    "type": "checkbox",
+    "label": " Part 6. Investment and Offering Documents.  4.   Are there any conflicts of interest that currently exist or may arise among the regional center, the N C E and J C E, or the principals, attorneys, or individuals responsible for recruitment or promotion of such entities?  Check Yes.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG7[0].P6_Line4_Conflicts[0]",
+    "type": "text",
+    "label": "Part 6. Investment and Offering Documents.   4.  Are there any conflicts of interest that currently exist or may arise among the regional center, the NCE and JCE, or the principals, attorneys, or individuals responsible for recruitment or promotion of such entities?  If yes, identify any documents containing this information (exhibits number, name of document, page number).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].PG7[0].P6_5[0]",
+    "type": "checkbox",
+    "label": "Part 6.  Investment and Offering Documents.    5. Are there any pending material litigation or bankruptcy, or material adverse judgments or bankruptcy orders issued during the most recent 10-year period, in the United States or in another country, affecting the regional center, the NCE, the JCE, or any other enterprise in which any principal of any of the aforementioned entities held majority ownership at the time? Check Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG7[0].P6_5[1]",
+    "type": "checkbox",
+    "label": "Part 6.  Investment and Offering Documents.    5. Are there any pending material litigation or bankruptcy, or material adverse judgments or bankruptcy orders issued during the most recent 10-year period, in the United States or in another country, affecting the regional center, the NCE, the JCE, or any other enterprise in which any principal of any of the aforementioned entities held majority ownership at the time?  Check No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG7[0].P6_Line5_Pending[0]",
+    "type": "text",
+    "label": "Part 6. Investment and Offering Documents.  5.  Are there any pending material litigation or bankruptcy, or material adverse judgments or bankruptcy orders issued during the most recent 10-year period, in the United States or in another country, affecting the regional center, the N C E, the J C E, or any other enterprise in which any principal of any of the aforementioned entities held majority ownership at the time?  Identify any documents containing this information (exhibits number, name of document, page number).",
+    "page": 7
+  },
+  {
+    "name": "form1[0].PG7[0].P6_6[0]",
+    "type": "checkbox",
+    "label": "Part 6. Investment and Offering Documents. 6.  Are there any fees, ongoing interest, or other compensation paid, or to be paid by the regional center, the NCE, or any issuer of securities intended to be offered to alien investors, to agents, finders, or broker dealers involved in the offering of securities to alien investors in connection with the investment? Check Yes.",
+    "page": 7,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG7[0].P6_6[1]",
+    "type": "checkbox",
+    "label": "Part 6. Investment and Offering Documents. 6.  Are there any fees, ongoing interest, or other compensation paid, or to be paid by the regional center, the NCE, or any issuer of securities intended to be offered to alien investors, to agents, finders, or broker dealers involved in the offering of securities to alien investors in connection with the investment?  Check No.",
+    "page": 7,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG8[0].P6_Line6_Fees[0]",
+    "type": "text",
+    "label": "Part 6. Investment and Offering Documents.  6. Identify any documents containing this information as well as a description of the services performed, or that will be performed, by such person to entitle the person to such fees, interest, or compensation and the name and contact information of any such person, if known at the time of filing (exhibits number, name of document, page number).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].PG8[0].P7_Line1_CB[0]",
+    "type": "checkbox",
+    "label": "Part 7. Policies and Procedures to Monitor the Issuance of Securities.  You must describe the policies and procedures, such as those related to internal and external due diligence, reasonably designed to cause the regional center and any issuer of securities to be offered to investors in connection with the capital investment project, to comply to with securities laws of the United State and the applicable States in connection with the offer, purchase, or sale of securities.  1. Have you submitted any documentation describing of the policies and procedures in place reasonably designed to monitor the regional center and any issuer of securities to ensure compliance with all applicable laws? Check this box for Yes.",
+    "page": 8,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG8[0].P7_Line1_CB[1]",
+    "type": "checkbox",
+    "label": "Part 7. Policies and Procedures to Monitor the Issuance of Securities.  1. Check this box for No.",
+    "page": 8,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG8[0].P7_Line2_Documentation[0]",
+    "type": "text",
+    "label": "Part 7. Policies and Procedures to Monitor the Issuance of Securities.  1. If yes, please describe the documentation provided (exhibit number and/or  name of document).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].PG8[0].P7_Line3_Policies[0]",
+    "type": "text",
+    "label": "Part 7. Policies and Procedures to Monitor the Issuance of Securities.  1. If no, please describe the policies and procedures in the space provided. If you need extra space to complete this section, use the space provided in Part 14. Additional Information.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].PG8[0].P8_Line1_CertifierFamilyName[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. This section must be completed by a qualified certifier for the regional center and any issuer of securities intended to be offered to alien investors in connection with the capital investment project described in this application. A qualified certifier is a person in a position of substantive authority for the management or operations of the regional center or issuer of securities, as applicable, such as a principal executive officer or principal financial officer, with knowledge of such entity's policies and procedures related to compliance with the requirements under I N A 2 0 3 (b)(5). Certification by Regional Center. Regional Center Certifier's Contact Information. 1. Enter the Certifier's Family Name (Last Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].PG8[0].P8_Line1_CertifierGivenName[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certification by Regional Center.  1. Enter Certifier's Given Name (First Name).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].PG8[0].P8_Line2_CertifierTitle[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certification by Regional Center.  2. Enter Certifier's Title.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].PG8[0].P8_Line3_CertifierDaytimeTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certification by Regional Center.  3. Enter Certifier's Daytime Telephone Number.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].PG8[0].P8_Line4_CertifierMobileTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certification by Regional Center.  4. Enter the Certifier's Mobile Telephone Number (if any).",
+    "page": 8
+  },
+  {
+    "name": "form1[0].PG8[0].P8_Line5_CertifiersEmail[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Regional Center Certifier's Contact Information. Certification by Regional Center. 5. Enter the Certifier's Email Address.",
+    "page": 8
+  },
+  {
+    "name": "form1[0].PG9[0].P8_Line6_SignatureCertifier[0]",
+    "type": "text",
+    "label": "Part 8. Required Certification. I certify, under penalty of perjury, that, to the best of my knowledge, after a due diligence investigation, that the regional center entity is in compliance with and has policies and procedures, including those related to internal and external due diligence, reasonably designed to confirm that all parties associated with the regional center are and will remain in compliance with the securities laws of the United States and any State in which the regional center entity conducts the offer, purchase, or sale of securities, in which the issuer of securities is located, or in which the regional center entity, or anyone associated with the regional center entity provided investment advice. Certifier's Signature.  6. Enter the Certifier's Signature. This field cannot be electronically signed. Print form and sign in ink.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].PG9[0].P8_Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certifier's Signature. 6. Enter the Date of Certifier's Signature. Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].PG9[0].P8_Line7_NameofIssuerofSecurities[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certification by Issuer of Securities.  Issuer of Securities Certifier's Contact Information. 7. Enter the Name of Issuer of Securities.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].PG9[0].P8_Line8_CertifierFamilyName[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certification by Issuer of Securities.  8. Enter the Certifier's Family Name (Last Name).",
+    "page": 9
+  },
+  {
+    "name": "form1[0].PG9[0].P8_Line8_CertifierGivenName[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certification by Issuer of Securities.  8. Enter Certifier's Given Name (First Name).",
+    "page": 9
+  },
+  {
+    "name": "form1[0].PG9[0].P8_Line9_CertifierTitle[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certification by Issuer of Securities.  9. Enter Certifier's Title.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].PG9[0].P8_Line10_CertifierDaytimeTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certification by Issuer of Securities.  10. Enter Certifier's Daytime Telephone Number.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].PG9[0].P8_Line11_CertifierMobileTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certification by Issuer of Securities.  11. Enter the Certifier's Mobile Telephone Number (if any).",
+    "page": 9
+  },
+  {
+    "name": "form1[0].PG9[0].P8_Line12_CertifierEmail[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certification by Issuer of Securities.  12. Enter the Email Address.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].PG9[0].P8_Line13_SignatureCertifier[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. I certify, under penalty of perjury, that, to the best of my knowledge, after a due diligence investigation, that the regional center entity is in compliance with and has policies and procedures, including those related to internal and external due diligence, reasonably designed to confirm that all parties associated with the regional center are and will remain in compliance with the securities laws of the United States and any State in which the regional center entity conducts the offer, purchase, or sale of securities, in which the issuer of securities is located, or in which the regional center entity, or anyone associated with the regional center entity provided investment advice. Certifier's Signature. 13. Enter the Certifier's Signature. This field cannot be electronically signed. Print form and sign in ink.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].PG9[0].P8_Line13_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 8. Required Certifications. Certifier's Signature. 13. Enter the Date of Certifier's Signature. Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 9
+  },
+  {
+    "name": "form1[0].PG10[0].P9_Line1[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E.     You must identify all natural persons involved with the N C E and affiliated J C E.  A person involved with an NCE or affiliated J C E includes any person, directly or indirectly, in a position of substantive authority to make operational or managerial decisions over pooling, securitization, investment, release, acceptance, or control or use of any EB-5 capital from immigrant investors.  An individual may be in a position of substantive authority if the person serves as a principal, a representative, an administrator, an owner, an officer, a board member, a manager, an executive, a general partner, a fiduciary, an agent, or in a similar position at the regional center.  Persons Involved with N C E. 1.  Provide the names of all persons involved with the NCE.  For any person involved with the NCE indirectly through their position or other interest in a legal entity, please describe the organizational structure of their involvement.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].PG10[0].P9_Line2[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E.  Persons Involved with N C E.  2.  Provide the name(s) of all owners of the N C E and the percentage of ownership for each.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].PG10[0].P9_Line3[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E.  Persons Involved with N C E.  3.  Provide the name(s) of all members of the board of directors, managers or other persons in a similar position of authority with the NCE",
+    "page": 10
+  },
+  {
+    "name": "form1[0].PG10[0].P9_Line4[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E.  Persons Involved with N C E.  4.  Provide the name(s) of all executives, officers or other persons in a similar position of authority with N C E.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].PG10[0].P9_Line5[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E.  Persons Involved with N C E.  5.  Provide the name(s) of all representatives, fiduciaries, agents or other persons in a similar position of authority with the N C E",
+    "page": 10
+  },
+  {
+    "name": "form1[0].PG10[0].P9_Line6[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E.  Persons Involved with N C E.  6.  Provide the names of any other persons involved in the N C E  and their position with the N C E.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].PG10[0].P9_Line7[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E.  Persons Involved with Affiliated J C E.  7.  If the JCE is an affiliated J C E, provide the names of all persons involved with the affiliated J C E. For any natural person involved with the affiliated J C E indirectly through their position or other interest in a legal entity, please describe the organizational structure of their involvement.",
+    "page": 10
+  },
+  {
+    "name": "form1[0].PG11[0].P9_Line8[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E. Persons Involved with Affiliated J C E.  8.  Provide the name(s) of all owners of the affiliated JCE and the percentage of ownership for each",
+    "page": 11
+  },
+  {
+    "name": "form1[0].PG11[0].P9_Line9[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E. Persons Involved with Affiliated J C E.  9.  Provide the name(s) of all members of the board of directors, managers or other persons in a similar position of authority with the affiliated J C E",
+    "page": 11
+  },
+  {
+    "name": "form1[0].PG11[0].P9_Line10[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E. Persons Involved with Affiliated J C E.  10.  Provide the names of all executives, officers or other persons in a similar position of authority with the affiliated J C E",
+    "page": 11
+  },
+  {
+    "name": "form1[0].PG11[0].P9_Line11[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E. Persons Involved with Affiliated J C E.  11.  Provide the names of all representatives, fiduciaries, agents or other persons in a similar position of authority with the affiliated J C E.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].PG11[0].P9_Line12[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E. Persons Involved with Affiliated J C E.  12.  Provide the names of any other persons involved in the affiliate JCE and their position with the affiliated JCE. If you need extra space to complete this section or have more than one additional individual to list, use the space provided in Part 14. Additional Information. Each person involved with the NCE and affiliated JCE must fill out and submit Supplement Form I-956H, Bona Fides of Persons Involved with Regional Center Program.  Each Supplement Form I-956H must be attached to the Form I-956F, Application for Approval of Investment in a Commercial Enterprise.  Each person submitting a Supplement Form I-956H must answer and comply with all eligibility questions provided on the supplement.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].PG11[0].P9_Line13_TotalSupplements[0]",
+    "type": "text",
+    "label": "Part 9. Information About All Persons Involved with the N C E and affiliated J C E.  13. Enter the total number of Supplement Forms I - 9 56 H to be submitted. ",
+    "page": 11
+  },
+  {
+    "name": "form1[0].PG11[0].P10_Line1_CB[0]",
+    "type": "checkbox",
+    "label": "Part 10.  Fund Administration.  1.   Has the N C E and/or affiliated J C E set up a separate account for the deposit and maintenance of all capital investment from alien investors for the offering and project described in this application, including amounts held in escrow? Check this box for Yes.",
+    "page": 11,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG11[0].P10_Line1_CB[1]",
+    "type": "checkbox",
+    "label": "Part 10.  Fund Administration. Check this box for No",
+    "page": 11,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG11[0].P10_Line2[0]",
+    "type": "text",
+    "label": "Part 10.  Fund Administration.  2. If yes, provide the name of the bank (or other financial institution) and account number for each separate account set up by the N C E and/or affiliated J C E.",
+    "page": 11
+  },
+  {
+    "name": "form1[0].PG12[0].P10_Line3_CB[0]",
+    "type": "checkbox",
+    "label": "Part 10.  Fund Administration.  3. Has the N C E and/or affiliated J C E retained a fund administrator to administer all investment capital deposited and maintained in the separate accounts?  Check this box for Yes.",
+    "page": 12,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG12[0].P10_Line3_CB[1]",
+    "type": "checkbox",
+    "label": "Part 10.  Fund Administration.  3. Check this box for No.",
+    "page": 12,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG12[0].P10_Line4_CB[0]",
+    "type": "checkbox",
+    "label": "Part 10.  Fund Administration.  4. Is the fund administrator a certified public accountant, attorney or broker-dealer or investment adviser registered with the Securities and Exchange Commission?   Check Yes.",
+    "page": 12,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG12[0].P10_Line4_CB[1]",
+    "type": "checkbox",
+    "label": "Part 10.  Fund Administration.  4. Check this box for No.",
+    "page": 12,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG12[0].P10_Line5[0]",
+    "type": "text",
+    "label": "Part 10.  Fund Administration.  5.  Provide the full legal name and contact information for the fund administrator.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].PG12[0].P10_Line6[0]",
+    "type": "text",
+    "label": "Part 10.  Fund Administration.   6.  Provide title, relevant certification, bar and/or registration number of the fund administrator.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].PG12[0].P10_7_CB[0]",
+    "type": "checkbox",
+    "label": "Part 10.  Fund Administration.  7. Is the N C E and/or affiliated J C E controlled by or under common control of an investment adviser or broker-dealer that is registered with the Securities and Exchange Commission?   Check this box for Yes.",
+    "page": 12,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG12[0].P10_7_CB[1]",
+    "type": "checkbox",
+    "label": "Part 10.  Fund Administration.  7. Check this box for No",
+    "page": 12,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].PG12[0].P10_Line8[0]",
+    "type": "text",
+    "label": "Part 10.  Fund Administration.  8. Provide the full legal name and contact information for the registered investment advisor or broker-dealer",
+    "page": 12
+  },
+  {
+    "name": "form1[0].PG12[0].P10_Line9[0]",
+    "type": "text",
+    "label": "Part 10.  Fund Administration.  9.  Provide title, registration number of the registered investment advisor or broker-dealer ",
+    "page": 12
+  },
+  {
+    "name": "form1[0].PG12[0].Part11_Line1_CB[0]",
+    "type": "checkbox",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. NOTE:  Read the Penalties section of the Form I-956 Instructions before completing this section.  Authorized Individual's Statement. Select the appropriate box to indicate whether you read this application yourself or whether you had an interpreter assist you.  If someone assisted you in completing the application, select the box indicating that you used a preparer. NOTE: Select the box for either Item A. or B. in Item Number 1. If applicable, select the box for Item Number 2.  1. A. Applicants Statement Regarding the Interpreter. Check this box for: I can read and understand English, and I have read and understand every question and instruction on this application and my answer to every question.",
+    "page": 12,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].PG12[0].Part11_Line1_CB[1]",
+    "type": "checkbox",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Statement. 1. B. Check this box for: The interpreter named in Part 12. has read to me every question and instruction on this application and my answer to every question in a language in which I am fluent, and I understood everything.",
+    "page": 12,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].PG12[0].Part11_Line1b_Language[0]",
+    "type": "text",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Statement. 1. B. Enter the language of fluency.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].PG12[0].Part11_Line2_CB[0]",
+    "type": "checkbox",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Statement.  2. Applicant's Statement Regarding the Preparer. Check this box for: At my request, the preparer named in Part 13., prepared this application for me based only upon information I provided or authorized. ",
+    "page": 12,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].PG12[0].Part11_Line2_Preparer[0]",
+    "type": "text",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Statement. 2. Enter the Preparer Full Name.",
+    "page": 12
+  },
+  {
+    "name": "form1[0].PG13[0].P11_Line3_AuthorizedFamilyName[0]",
+    "type": "text",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. 3. Enter the Authorized Individual's Family Name (Last Name).",
+    "page": 13
+  },
+  {
+    "name": "form1[0].PG13[0].P11_Line3_AuthorizedGivenName[0]",
+    "type": "text",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. 3. Enter the Authorized Individual's Given Name (First Name).",
+    "page": 13
+  },
+  {
+    "name": "form1[0].PG13[0].P11_Line4_AuthorizedTitle[0]",
+    "type": "text",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. 4. Enter the Authorized Individual's Title.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].PG13[0].P11_Line5_AuthorizedDaytimeTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. Provide your daytime telephone number, mobile telephone number (if any), and email address (if any).  5. Enter the Authorized Individual's Daytime Telephone Number. ",
+    "page": 13
+  },
+  {
+    "name": "form1[0].PG13[0].P11_Line6_AuthorizedMobileTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. 6. Enter the Authorized Individual's Mobile Telephone Number (if any). ",
+    "page": 13
+  },
+  {
+    "name": "form1[0].PG13[0].P11_Line7_AuthorizedEmail[0]",
+    "type": "text",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. 7. Enter the Authorized Individual's Email Address (if any).",
+    "page": 13
+  },
+  {
+    "name": "form1[0].PG13[0].P11_Line8_SignatureAuthorizedInd[0]",
+    "type": "text",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Signature. You must sign and date the application.  Every application must contain the signature of the authorized individual.  A stamped or typewritten name in place of a signature is not acceptable. NOTE TO ALL AUTHORIZED INDIVIDUALS:  If you do not completely fill out this application or fail to submit required documents listed in the Instructions, U S C I S may deny your application. 8. Authorized Individual's Signature. This field cannot be electronically signed. Print form and sign in ink.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].PG13[0].P11_Line8_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 11. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Signature. 8. Enter the Date of the Authorized Individual's Signature. Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 13
+  },
+  {
+    "name": "form1[0].PG14[0].P12_Line1_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. If you used anyone as an interpreter to read the Instructions and questions on this application to you in a language in which you are fluent, the interpreter must fill out this section. Interpreter\u2019s Full Name. 1. Enter the Interpreter's Family Name (Last Name).",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].P12_Line1_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Full Name. 1. Enter the Interpreter's Given Name (First Name).",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].P12_Line2_NameofBusinessorOrgName[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Full Name. 2. Enter the Interpreter's Business or Organization Name (if any).",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].Part12_Line3_StreetName[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Mailing Address. 3. Enter the Street Number and Name.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].Part12_Line3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Mailing Address. 3. Check this box for Apartment.",
+    "page": 14,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].PG14[0].Part12_Line3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Mailing Address. 3. Check this box for Suite.",
+    "page": 14,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].PG14[0].Part12_Line3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Mailing Address. 3. Check this box for Floor.",
+    "page": 14,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].PG14[0].Part12_Line3_Number[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Mailing Address. 3. Enter the Apartment, Suite, or Floor number.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].Part12_Line3_City[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Mailing Address. 3. Enter the City or Town.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].Part12_Line3_State[0]",
+    "type": "choice",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Mailing Address. 3. Select the State from the list of States.",
+    "page": 14,
+    "options": [
+      "",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].PG14[0].Part12_Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Mailing Address. 3. Enter the 5-digit Zip Code.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].Part12_Line3_Province[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Mailing Address. 3. For International Addresses. Enter the Province.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].Part12_Line3_PostalCode[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Mailing Address. 3. For International Addresses. Enter the Postal Code.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].Part12_Line3_Country[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter\u2019s Mailing Address. 3. Enter the Country.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].P12_Line4_DaytimeTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter the Interpreter's Daytime Telephone Number. ",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].P12_Line5_MobileTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter the Interpreter's Mobile Telephone Number (if any).",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].P12_Line6_Email[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter the Interpreter's Email Address (if any).",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].P12_InterpreterLanguage[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that: I am fluent in English and a language that is specified in Part 11., Item B. in Item Number 1., and I have read to the authorized individual in the identified language every question and instruction on this application and his or her answer to every question.  The authorized individual informed me that he or she understands every instruction, question, and answer on the application, including the Authorized Individual's Declaration, and has verified the accuracy of every answer. Enter the language of fluency.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].P12_Line7_SignatureInterpreter[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. The interpreter must sign and date the application. 7. Enter the Interpreter's Signature. This field cannot be electronically signed. Print form and sign in ink.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG14[0].P12_Line7_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 12.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. Enter the Date of the Iterpreter's Signature. Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 14
+  },
+  {
+    "name": "form1[0].PG15[0].P13_Line1_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Provide the following information about the preparer.  If the same individual acted as your interpreter and your preparer, that person should complete both Part 11. and Part 12. Preparer's Full Name. 1. Enter the Preparer's Family Name (Last Name).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].P13_Line1_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer's Full Name. 1. Enter the Preparer's Given Name (First Name).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].P13_Line2_NameofBusinessorOrgName[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer's Full Name. If the person who completed this application is associated with a business or organization, that person should complete the business or organization name and address information. 2. Enter the Preparer's Business or Organization Name (if any).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].Part13_Line3_StreetName[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Mailing Address. 3. Enter the Street Number and Name.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].Part13_Line3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Mailing Address. 3. Check this box for Apartment.",
+    "page": 15,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].PG15[0].Part13_Line3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Mailing Address. 3. Check this box for Suite.",
+    "page": 15,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].PG15[0].Part13_Line3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Mailing Address. 3. Check this box for Floor.",
+    "page": 15,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].PG15[0].Part13_Line3_Number[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Mailing Address. 3. Enter the Apartment, Suite, or Floor number.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].Part13_Line3_City[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Mailing Address. 3. Enter the City or Town.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].Part13_Line3_State[0]",
+    "type": "choice",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Mailing Address. 3. Select the State from the list of States.",
+    "page": 15,
+    "options": [
+      "",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].PG15[0].Part13_Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Mailing Address. 3. Enter the 5-digit Zip Code.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].Part13_Line3_PostalCode[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Mailing Address. 3. For International Addresses. Enter the Postal Code.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].Part13_Line3_Province[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Mailing Address. 3. For International Addresses. Enter the Province.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].Part13_Line3_Country[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Mailing Address. 3. Enter the Country.",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].P13_Line4_DaytimeTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Contact Information. 4. Enter the Preparer's Daytime Telephone Number. ",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].P13_Line5_MobileTelePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Contact Information. 5. Enter the Preparer's Mobile Telephone Number (if any).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].P13_Line6_Email[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Contact Information. 6. Enter the Preparer's Email Address (if any).",
+    "page": 15
+  },
+  {
+    "name": "form1[0].PG15[0].P13_Line7_CB[0]",
+    "type": "checkbox",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Statement. 7. A. Check this box for: I am not an attorney or accredited representative but have prepared this application on behalf of the authorized individual of the regional center and with the authorized individual's consent.",
+    "page": 15,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].PG15[0].P13_Line7_CB[1]",
+    "type": "checkbox",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Statement. 7. B. Check this box for: I am an attorney or accredited representative.",
+    "page": 15,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].PG15[0].P13_Line7b_extends[0]",
+    "type": "checkbox",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Statement. 7. B. Check this box for: My representation of the authorized individual in this case extends beyond the preparation of this application.",
+    "page": 15,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].PG15[0].P13_Line7b_notextends[0]",
+    "type": "checkbox",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Statement. 7. B. Check this box for: My representation of the authorized individual in this case does not extend beyond the preparation of this application.",
+    "page": 15,
+    "on_value": "/2"
+  },
+  {
+    "name": "form1[0].PG16[0].P13_Line8_SignaturePreparer[0]",
+    "type": "text",
+    "label": "Part 13.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Authorized Individual. Preparer\u2019s Signature. Anyone who helped you complete this application MUST sign and date the application.  A stamped or typewritten name in place of a signature is not acceptable. 8. Enter the Preparer's Signature. This field cannot be electronically signed. Print form and sign in ink.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].PG16[0].P13_Line8_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 13. Applicant's Statement, Certification, and Signature. Preparer's Signature. 8.  Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 16
+  },
+  {
+    "name": "form1[0].Pg17[0].P2_Line1_RegCtrEntityLegalName[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Type or print the regional center entity's name at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. Name of the Regional Center Entity. This field cannot be completed electronically.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P2_Line2_RegionalIDNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 2. Regional Center Identification Number. This field cannot be completed electronically.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line3_A_PageNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 3. A. Enter the Page Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line3_B_PartNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 3. B. Enter the Part Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line3_C_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 3. C. Enter the Item Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line3_D_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 3. D. Enter the Additional Information.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line4_A_PageNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 4. A. Enter the Page Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line4_B_PartNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 4. B. Enter the Part Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line4_C_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 4. C. Enter the Item Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line4_D_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 4. D. Enter the Additional Information.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line5_A_PageNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 5. A. Enter the Page Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line5_B_PartNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 5. B. Enter the Part Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line5_C_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 5. C. Enter the Item Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line5_D_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 5. D. Enter the Additional Information.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line6_A_PageNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 6. A. Enter the Page Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line6_B_PartNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 6. B. Enter the Part Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line6_C_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 6. C. Enter the Item Number.",
+    "page": 17
+  },
+  {
+    "name": "form1[0].Pg17[0].P14_Line6_D_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 14. Additional Information. 6. D. Enter the Additional Information.",
+    "page": 17
+  }
+]

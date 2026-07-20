@@ -90,3 +90,68 @@ def test_public_form_endpoint_rate_limits_per_token(client, auth_headers, make_c
 
     limited = client.get(f"/api/v1/public/forms/{token}")
     assert limited.status_code == 429
+
+
+def test_public_form_rejects_unknown_field_names(client, auth_headers, make_case, seeded_forms):
+    case = make_case()
+    generated = client.post(
+        f"/api/v1/cases/{case['id']}/forms", json={"form_code": "G-28"}, headers=auth_headers
+    ).json()
+    token = generated["access_token"]
+
+    res = client.patch(f"/api/v1/public/forms/{token}", json={"data": {"not_a_real_field": "x"}})
+    assert res.status_code == 422
+
+
+def test_public_form_silently_ignores_attorney_only_fields_instead_of_erroring(
+    client, auth_headers, make_case, seeded_forms
+):
+    case = make_case()
+    generated = client.post(
+        f"/api/v1/cases/{case['id']}/forms", json={"form_code": "G-28"}, headers=auth_headers
+    ).json()
+    token = generated["access_token"]
+
+    # form1[0].#subform[0].Line6_EMail[0] is sourced from attorney.mobile_phone
+    # -- a real field on the schema, but not one the client wizard should be
+    # able to overwrite. The client-portal autosave always echoes the whole
+    # form back (including fields it never showed), so this must be
+    # silently dropped, not rejected as "unknown".
+    res = client.patch(
+        f"/api/v1/public/forms/{token}", json={"data": {"form1[0].#subform[0].Line6_EMail[0]": "hacked@evil.com"}}
+    )
+    assert res.status_code == 200
+    assert res.json()["data"].get("form1[0].#subform[0].Line6_EMail[0]") != "hacked@evil.com"
+
+
+def test_public_form_still_saves_normal_client_fields(client, auth_headers, make_case, seeded_forms):
+    case = make_case()
+    generated = client.post(
+        f"/api/v1/cases/{case['id']}/forms", json={"form_code": "G-28"}, headers=auth_headers
+    ).json()
+    token = generated["access_token"]
+
+    # form1[0].#subform[1].Pt3Line5a_FamilyName[0] is G-28's beneficiary last
+    # name -- not attorney-owned, so a normal client-portal save of it must
+    # go through untouched. (Field *name* alone isn't a reliable "is this
+    # attorney-owned" signal -- e.g. Pt1Line2a_FamilyName[0] has no
+    # "Attorney" substring despite being attorney.last_name -- so this uses a
+    # known-good field rather than a name heuristic.)
+    res = client.patch(
+        f"/api/v1/public/forms/{token}",
+        json={"data": {"form1[0].#subform[1].Pt3Line5a_FamilyName[0]": "Perez"}},
+    )
+    assert res.status_code == 200
+    assert res.json()["data"]["form1[0].#subform[1].Pt3Line5a_FamilyName[0]"] == "Perez"
+
+
+def test_internal_editor_rejects_unknown_field_names(client, auth_headers, make_case, seeded_forms):
+    case = make_case()
+    generated = client.post(
+        f"/api/v1/cases/{case['id']}/forms", json={"form_code": "G-28"}, headers=auth_headers
+    ).json()
+
+    res = client.patch(
+        f"/api/v1/forms/{generated['id']}", json={"data": {"not_a_real_field": "x"}}, headers=auth_headers
+    )
+    assert res.status_code == 422

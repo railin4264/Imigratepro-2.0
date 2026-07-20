@@ -27,11 +27,14 @@ class TokenResponse(BaseModel):
 
 
 class RefreshRequest(BaseModel):
-    refresh_token: str
+    # Optional: the browser frontend sends no body at all, relying on the
+    # refresh_token cookie instead (see app/api/v1/endpoints/auth.py). Kept
+    # for API clients that still pass it explicitly in the JSON body.
+    refresh_token: str | None = None
 
 
 class LogoutRequest(BaseModel):
-    refresh_token: str
+    refresh_token: str | None = None
 
 
 class SetPasswordRequest(BaseModel):

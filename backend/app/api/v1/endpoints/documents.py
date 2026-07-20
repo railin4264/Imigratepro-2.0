@@ -3,7 +3,7 @@ from datetime import date
 
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
-from app.api.deps import DbSession
+from app.api.deps import DbSession, RequireAdminOrAttorney
 from app.core.config import settings
 from app.models.case import Case
 from app.models.client import Client
@@ -11,6 +11,7 @@ from app.models.document import Document, DocumentStatus, DocumentType
 from app.models.notification import NotificationType
 from app.schemas.document import ApplyToClientRequest, DocumentDetail, DocumentRead, DocumentUpdate
 from app.services import document_ai
+from app.services.audit import log_action
 from app.services.notifications import notify
 from app.services.storage import save_upload
 
@@ -129,10 +130,13 @@ def update_document(document_id: uuid.UUID, payload: DocumentUpdate, db: DbSessi
 
 
 @router.delete("/documents/{document_id}", status_code=204)
-def delete_document(document_id: uuid.UUID, db: DbSession):
+def delete_document(document_id: uuid.UUID, db: DbSession, requester: RequireAdminOrAttorney):
     document = db.get(Document, document_id)
     if not document:
         raise HTTPException(status_code=404, detail="Document not found")
+    log_action(
+        db, requester, "document.deleted", "document", document.id, {"filename": document.original_filename}
+    )
     db.delete(document)
     db.commit()
 

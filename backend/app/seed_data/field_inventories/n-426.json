@@ -1,0 +1,181 @@
+[
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About Service Member. 1. Enter Alien Registration Number (A. Number) (if any). ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line2_MilitaryServiceNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About Service Member 2. Enter DOD ID Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line5_USCISOnlineAcctNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About Service Member. 5. Enter U S C I S Online Account Number (if any).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line6_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About Service Member. 6. Enter Date of Birth. Enter as  2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About Service Member. 3. Full Legal Name.  Enter Middle Name (if applicable).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About Service Member. 3. Full Legal Name.  Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About Service Member. 3. Full Legal Name.  Enter Family Name (Last Name). ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line1_RequestorSignature[0]",
+    "type": "text",
+    "label": "Part 2. Service Member's Certification and Signature. Service Member's Signature. 1.  Enter Service Member's Signature. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line1_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 2. Service Member's Certification and Signature. Service Member's Signature 1. Enter Date of Signature as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt3_FullName[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation Enter Full Name. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt3_Rank[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation. Enter Rank.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt3_Title[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation Enter Title.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt3_ServiceMemberName[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation. I further certify that. Enter Service Member Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line1_Date[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation. I further certify that. 1. Is currently serving in branch or service since. Enter Date since member started Service. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line2_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 3. Certifying Official Attestation. I further certify that service member. 2. Is currently serving. Check \"Honorably\".",
+    "page": 1,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line2_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 3. Certifying Official Attestation. I further certify that service member. 2. Is currently serving. . Check \"Not Honorably\".",
+    "page": 1,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line3_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 3. Certifying Official Attestation. I further certify that service member. 3. The type of service is. Check \"Active Duty\".",
+    "page": 1,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line3_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 3. Certifying Official Attestation. I further certify that service member. 3. The type of service is. Check \"Selected Reserve of the Ready Reserve\".",
+    "page": 1,
+    "on_value": "/R"
+  },
+  {
+    "name": "form1[0].#subform[0].P3_Line3_Checkbox[2]",
+    "type": "checkbox",
+    "label": "Part 3. Certifying Official Attestation. I further certify that. 3. The type of service is. Check \"Other\".",
+    "page": 1,
+    "on_value": "/O"
+  },
+  {
+    "name": "form1[0].#subform[0].Pt3_Line3_Other[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation. I further certify that. 3. The type of service is Other.  Enter explanation for \"Other.\"",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt3_Line1_BranchofService[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation. I further certify that. 1. Is currently serving in. Enter Branch of Service. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1_Line4_SSN[0]",
+    "type": "text",
+    "label": "Part 1. Information About Service Member. 4. Enter Social Security Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3_OfficialSignature[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation (continued). Certifying Official's Signature. 8. Enter Official Signature.  The field cannot be electronically sign.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3_Date[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation. Certifying Official's Signature. 8. Enter Date as 2 digit month, 2 digit day and 4 digit year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt4_Remarks[0]",
+    "type": "text",
+    "label": "Part 4. Remarks. 1. Provide any derogatory information in your records relating to the service member's character, loyalty to the United States, criminal or unlawful conduct investigations, pending court martials, convictions, discharges characterized as other than honorable, bad conduct, or dishonorable, or other matters concerning his or her fitness for citizenship.  If you need extra space to complete this section, please provide a signed written statement. Enter remarks.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3_BranchofService[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation. Information About the Certifying Official. 4. Enter Branch of Service.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3_Unit[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation. Information About the Certifying Official. 5. Enter Unit (such as Military Base, Vessel, Battalion, Brigade).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3_Email[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation. Information About the Certifying Official. 7. Enter Military Email Address.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3_WorkTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 3. Certifying Official Attestation. Information About the Certifying Official. 6. Enter Work Telephone Number.",
+    "page": 2
+  }
+]
