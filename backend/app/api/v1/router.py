@@ -18,6 +18,7 @@ from app.api.v1.endpoints import (
     services,
     stats,
     users,
+    client_auth,
 )
 
 api_router = APIRouter()
@@ -25,6 +26,7 @@ api_router = APIRouter()
 # Unauthenticated: logging in, and the token-scoped client portal (which has
 # its own per-form access_token instead of a login).
 api_router.include_router(auth.router)
+api_router.include_router(client_auth.router)
 api_router.include_router(public_forms.router)
 
 # Everything else is internal staff tooling and requires a valid session.

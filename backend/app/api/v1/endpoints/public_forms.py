@@ -1,9 +1,10 @@
-from fastapi import APIRouter, File, Form, HTTPException, UploadFile
+from fastapi import APIRouter, File, Form, HTTPException, UploadFile, Depends
 
-from app.api.deps import DbSession
+from app.api.deps import DbSession, get_current_client_optional
 from app.core.config import settings
 from app.core.rate_limit import check_rate_limit
 from app.models.case import ParticipantRole
+from app.models.client import Client
 from app.models.document import Document
 from app.models.form import FormTemplate, GeneratedForm
 from app.models.notification import NotificationType
@@ -26,7 +27,7 @@ def _attorney_only_field_names(template: FormTemplate) -> set[str]:
     }
 
 
-def _get_active_generated_form(token: str, db: DbSession) -> GeneratedForm:
+def _get_active_generated_form(token: str, db: DbSession, current_client: Client | None = None) -> GeneratedForm:
     # Rate-limited per token, not per IP: the token is already unguessable
     # (24 random bytes), so this isn't an anti-brute-force control -- it caps
     # how much PDF-regeneration/disk-write work one client-portal session can
@@ -39,14 +40,21 @@ def _get_active_generated_form(token: str, db: DbSession) -> GeneratedForm:
         raise HTTPException(status_code=429, detail="Too many requests. Please slow down and try again shortly.")
 
     generated = db.query(GeneratedForm).filter_by(access_token=token).one_or_none()
-    if not generated or not generated.client_link_enabled:
+    if not generated:
+        raise HTTPException(status_code=404, detail="Link not found or no longer active")
+
+    is_client_participant = False
+    if current_client:
+        is_client_participant = any(p.client_id == current_client.id for p in generated.case.participants)
+
+    if not generated.client_link_enabled and not is_client_participant:
         raise HTTPException(status_code=404, detail="Link not found or no longer active")
     return generated
 
 
 @router.get("/{token}", response_model=PublicFormView)
-def get_public_form(token: str, db: DbSession):
-    generated = _get_active_generated_form(token, db)
+def get_public_form(token: str, db: DbSession, current_client: Client | None = Depends(get_current_client_optional)):
+    generated = _get_active_generated_form(token, db, current_client)
     template = db.get(FormTemplate, generated.form_template_id)
     if not template:
         raise HTTPException(status_code=404, detail="Form template not found")
@@ -62,8 +70,8 @@ def get_public_form(token: str, db: DbSession):
 
 
 @router.patch("/{token}", response_model=PublicFormView)
-def update_public_form(token: str, payload: GeneratedFormUpdate, db: DbSession):
-    generated = _get_active_generated_form(token, db)
+def update_public_form(token: str, payload: GeneratedFormUpdate, db: DbSession, current_client: Client | None = Depends(get_current_client_optional)):
+    generated = _get_active_generated_form(token, db, current_client)
     template = db.get(FormTemplate, generated.form_template_id)
     if not template:
         raise HTTPException(status_code=404, detail="Form template not found")
@@ -103,8 +111,8 @@ def update_public_form(token: str, payload: GeneratedFormUpdate, db: DbSession):
 
 
 @router.get("/{token}/timeline", response_model=CaseTimelineResponse)
-def get_public_case_timeline(token: str, db: DbSession):
-    generated = _get_active_generated_form(token, db)
+def get_public_case_timeline(token: str, db: DbSession, current_client: Client | None = Depends(get_current_client_optional)):
+    generated = _get_active_generated_form(token, db, current_client)
     steps = build_case_timeline(generated.case)
     return CaseTimelineResponse(
         case_number=generated.case.case_number,
@@ -129,10 +137,10 @@ def _get_form_participant_roles(template: FormTemplate) -> set[str]:
 
 
 @router.get("/{token}/documents", response_model=list[DocumentRead])
-def list_public_documents(token: str, db: DbSession):
+def list_public_documents(token: str, db: DbSession, current_client: Client | None = Depends(get_current_client_optional)):
     # FORM TOKEN SCOPING: A public form token should only expose documents associated
     # with the participant roles relevant to this specific form, not all documents in the case.
-    generated = _get_active_generated_form(token, db)
+    generated = _get_active_generated_form(token, db, current_client)
     template = db.get(FormTemplate, generated.form_template_id)
     if not template:
         raise HTTPException(status_code=404, detail="Form template not found")
@@ -163,8 +171,9 @@ async def upload_public_document(
     db: DbSession,
     file: UploadFile = File(...),
     role: str | None = Form(None),
+    current_client: Client | None = Depends(get_current_client_optional),
 ):
-    generated = _get_active_generated_form(token, db)
+    generated = _get_active_generated_form(token, db, current_client)
     template = db.get(FormTemplate, generated.form_template_id)
     if not template:
         raise HTTPException(status_code=404, detail="Form template not found")

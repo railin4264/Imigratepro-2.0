@@ -1,6 +1,6 @@
-from datetime import date
+from datetime import date, datetime
 
-from sqlalchemy import Date, String
+from sqlalchemy import Date, String, Integer, DateTime
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.core.database import Base
@@ -35,6 +35,10 @@ class Client(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     state: Mapped[str | None] = mapped_column(String(100), nullable=True)
     zip_code: Mapped[str | None] = mapped_column(String(20), nullable=True)
     country: Mapped[str | None] = mapped_column(String(100), nullable=True)
+
+    hashed_password: Mapped[str | None] = mapped_column(String(255), nullable=True)
+    failed_login_attempts: Mapped[int] = mapped_column(Integer, default=0)
+    locked_until: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
 
     documents: Mapped[list["Document"]] = relationship(back_populates="client")
     case_links: Mapped[list["CaseParticipant"]] = relationship(back_populates="client")
