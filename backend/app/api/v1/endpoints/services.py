@@ -77,8 +77,8 @@ def _case_service_view(db: Session, case: Case) -> CaseServiceView:
 
 
 @router.get("/services", response_model=list[ServiceRead])
-def list_services(db: DbSession):
-    services = db.query(Service).order_by(Service.name).all()
+def list_services(db: DbSession, skip: int = 0, limit: int = 100):
+    services = db.query(Service).order_by(Service.name).offset(skip).limit(limit).all()
     return [_service_read(db, s) for s in services]
 
 

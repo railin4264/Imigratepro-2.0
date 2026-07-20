@@ -2,20 +2,34 @@ from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
 from app.api.deps import DbSession
 from app.core.config import settings
+from app.core.rate_limit import check_rate_limit
 from app.models.case import ParticipantRole
 from app.models.document import Document
 from app.models.form import FormTemplate, GeneratedForm
 from app.models.notification import NotificationType
 from app.schemas.document import DocumentRead
 from app.schemas.form import GeneratedFormUpdate, PublicFormView
+from app.schemas.timeline import CaseTimelineResponse, TimelineStepRead
 from app.services.notifications import notify
 from app.services.pdf_filler import fill_pdf_form
 from app.services.storage import save_upload
+from app.services.timeline import build_case_timeline
 
 router = APIRouter(prefix="/public/forms", tags=["public"])
 
 
 def _get_active_generated_form(token: str, db: DbSession) -> GeneratedForm:
+    # Rate-limited per token, not per IP: the token is already unguessable
+    # (24 random bytes), so this isn't an anti-brute-force control -- it caps
+    # how much PDF-regeneration/disk-write work one client-portal session can
+    # force on the server (see PUBLIC_FORM_RATE_LIMIT_* in core/config.py).
+    if not check_rate_limit(
+        f"public-form:{token}",
+        settings.PUBLIC_FORM_RATE_LIMIT_PER_TOKEN,
+        settings.PUBLIC_FORM_RATE_LIMIT_WINDOW_SECONDS,
+    ):
+        raise HTTPException(status_code=429, detail="Too many requests. Please slow down and try again shortly.")
+
     generated = db.query(GeneratedForm).filter_by(access_token=token).one_or_none()
     if not generated or not generated.client_link_enabled:
         raise HTTPException(status_code=404, detail="Link not found or no longer active")
@@ -35,6 +49,7 @@ def get_public_form(token: str, db: DbSession):
         case_number=generated.case.case_number,
         fields=template.field_schema or [],
         data=generated.data or {},
+        client_wizard_step=generated.client_wizard_step,
     )
 
 
@@ -46,6 +61,8 @@ def update_public_form(token: str, payload: GeneratedFormUpdate, db: DbSession):
         raise HTTPException(status_code=404, detail="Form template not found")
 
     generated.data = {**(generated.data or {}), **payload.data}
+    if payload.client_wizard_step is not None:
+        generated.client_wizard_step = payload.client_wizard_step
 
     template_path = settings.FORM_TEMPLATES_DIR / template.pdf_template_path
     output_path = settings.GENERATED_FORMS_DIR / f"{generated.id}.pdf"
@@ -61,6 +78,17 @@ def update_public_form(token: str, payload: GeneratedFormUpdate, db: DbSession):
         case_number=generated.case.case_number,
         fields=template.field_schema or [],
         data=generated.data or {},
+        client_wizard_step=generated.client_wizard_step,
+    )
+
+
+@router.get("/{token}/timeline", response_model=CaseTimelineResponse)
+def get_public_case_timeline(token: str, db: DbSession):
+    generated = _get_active_generated_form(token, db)
+    steps = build_case_timeline(generated.case)
+    return CaseTimelineResponse(
+        case_number=generated.case.case_number,
+        steps=[TimelineStepRead(key=s.key, status=s.status) for s in steps],
     )
 
 

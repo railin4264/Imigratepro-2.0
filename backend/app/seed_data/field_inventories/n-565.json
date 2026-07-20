@@ -1,0 +1,960 @@
+[
+  {
+    "name": "form1[0].#subform[0].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "To Be Completed by an Attorney or Accredited Representative, if any. Select this box if Form G-28 is attached.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].AttorneyStatebarnumber[0]",
+    "type": "text",
+    "label": "To Be Completed by an Attorney or Accredited Representative, if any. Enter Attorney State Bar Number, if applicable.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].USCISOnlineActNumber[0]",
+    "type": "text",
+    "label": "To Be Completed by an Attorney or Accredited Representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information From Current Certificate or Declaration. 1. Your Full Name. Provide your full name exactly as it is printed on the certificate or declaration. Enter Middle Name (if applicable).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information From Current Certificate or Declaration. 1. Your Full Name. Provide your full name exactly as it is printed on the certificate or declaration. Enter Given Name (first name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information From Current Certificate or Declaration. 1. Your Full Name. Provide your full name exactly as it is printed on the certificate or declaration. Enter Family Name (last name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Line3_CountryOfCitizenship[0]",
+    "type": "text",
+    "label": "Part 1. Information From Current Certificate or Declaration. 4. Enter Country of Former Citizenship or Nationality.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].ANum[0]",
+    "type": "text",
+    "label": "Part 1. Information From Current Certificate or Declaration. 6. Enter Alien Registration Number (A Number). ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line4_CertificateNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information From Current Certificate or Declaration.  5. Enter Certificate or Declaration Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line6_USCISOfficeorNameofCourt[0]",
+    "type": "text",
+    "label": "Part 1. Information From Current Certificate or Declaration. 7. Certificate or Declaration Issuance. Provide information about who issued your last certificate or declaration along with the date it was issued.  Enter U.S. Citizenship and Immigration Services (U S C I S) Office or Name of Court.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P1Line6_DateOfDeclaration[0]",
+    "type": "text",
+    "label": "Part 1. Information From Current Certificate or Declaration. 7. Certificate or Declaration Issuance. Provide information about who issued your last certificate or declaration along with the date it was issued. Date. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Line1_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 1. Your Full Legal Name (Do not provide a nickname). Enter Middle Name (if applicable).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Line1_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 1. Your Full Legal Name (Do not provide a nickname). Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].P2_Line1_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 1. Your Full Legal Name (Do not provide a nickname). Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line2_DateofBirthonCert[0]",
+    "type": "text",
+    "label": "Part 1. Information From Current Certificate or Declaration. 2. Date of Birth on Certificate or Declaration. Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0]._CountryOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information From Current Certificate or Declaration. 3. Enter Country of Birth.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line3_InCareofName[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. Enter In Care Of Name (if any).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line3_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. Select Suite.",
+    "page": 2,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. Select Apartment.",
+    "page": 2,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. Select Floor.",
+    "page": 2,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. If Apartment, Suite or Floor selected enter Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line3_CityTown[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line3_State[0]",
+    "type": "choice",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line3_Province[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line3_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. Enter Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line3_Country[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 3. Current Mailing Address. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_Item5[0]",
+    "type": "checkbox",
+    "label": "Part 2. Current Information About You. 4. Your Current Marital Status. Select Married.",
+    "page": 2,
+    "on_value": "/Married"
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_Item5[1]",
+    "type": "checkbox",
+    "label": "Part 2. Current Information About You. 4. Your Current Marital Status. Select Single.",
+    "page": 2,
+    "on_value": "/Single"
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_Item5[2]",
+    "type": "checkbox",
+    "label": "Part 2. Current Information About You. 4. Your Current Marital Status. Select Widowed.",
+    "page": 2,
+    "on_value": "/Widowed"
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_Item5[3]",
+    "type": "checkbox",
+    "label": "Part 2. Current Information About You. 4. Your Current Marital Status. Select Divorced.",
+    "page": 2,
+    "on_value": "/Divorced"
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_Item5[4]",
+    "type": "checkbox",
+    "label": "Part 2. Current Information About You. 4. Your Current Marital Status. Select Marriage Annulled.",
+    "page": 2,
+    "on_value": "/MarriageAnn"
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_Item6[0]",
+    "type": "checkbox",
+    "label": "Part 2. Current Information About You. 5. Since becoming a U.S. citizen, have you lost or renounced your U.S. citizenship in any manner? Select No.",
+    "page": 2,
+    "on_value": "/No"
+  },
+  {
+    "name": "form1[0].#subform[1].Part2_Item6[1]",
+    "type": "checkbox",
+    "label": "Part 2. Current Information About You. 5. Since becoming a U.S. citizen, have you lost or renounced your U.S. citizenship in any manner? Select Yes. NOTE: If you answered “Yes” to Item Number 5., provide an explanation in Part 12. Additional Information or attach a separate sheet of paper.",
+    "page": 2,
+    "on_value": "/Yes"
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line2_MiddleName[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 2. Other Names Used. Line One. Enter Middle Name (if applicable).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line2_FamilyName2[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 2. Other Names Used.  Line Two. Enter Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line2_GivenName2[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 2. Other Names Used. Line Two. Enter Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line2_MiddleName2[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 2. Other Names You Have Used. Line Two. Enter Middle Name (if applicable).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line2_GivenName[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 2. Other Names Used. Line One. Enter Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].P2Line2_FamilyName[0]",
+    "type": "text",
+    "label": "Part 2. Current Information About You. 2. Other Names Used. Provide all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 12. Additional Information. Line One. Enter Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Part3_Item1[0]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application. I am applying for a (select only one box). Select:  1. A. New Certificate of Citizenship.",
+    "page": 2,
+    "on_value": "/NC"
+  },
+  {
+    "name": "form1[0].#subform[1].Part3_Item1[1]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application. I am applying for a (select only one box).  Select 1. B. New Certificate of Naturalization.",
+    "page": 2,
+    "on_value": "/NN"
+  },
+  {
+    "name": "form1[0].#subform[1].Part3_Item1[2]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application.  I am applying for a (select only one box). Select: 1. C. New Certificate of Repatriation.",
+    "page": 2,
+    "on_value": "/NR"
+  },
+  {
+    "name": "form1[0].#subform[1].Part3_Item1[3]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application.  I am applying for a (select only one box). Select: 1. D. New Declaration of Intention.",
+    "page": 2,
+    "on_value": "/NDI"
+  },
+  {
+    "name": "form1[0].#subform[1].Part3_Item1[4]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application.  I am applying for a (select only one box). Select 1. E. Special Certificate of Naturalization to Obtain Recognition of My U.S. Citizenship by a Foreign Country. NOTE: If you selected Item 1.e., skip to Part 8.",
+    "page": 2,
+    "on_value": "/SCN"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3CheckBox2a[0]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application. Basis for My Application. Select all applicable boxes and provide explanations where requested. 2. A. Select My certificate or declaration was lost, stolen, or destroyed. NOTE: If you selected Item Number 2.a., go to Part 9. and attach a copy of the certificate or declaration (if available), police report, and/or sworn statement.",
+    "page": 2,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt3Line2b_Explanation[0]",
+    "type": "text",
+    "label": "Part 3. Type of Application. Basis for My Application. 1. If you selected 2. A provide an explanation of when, where, and how this happened. Enter Explanation. NOTE: If you selected Item Number 2.a., go to Part 9. and attach a copy of the certificate or declaration (if available), police report, and/or sworn statement.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3CheckBox3[0]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application. Basis for My Application. Select all applicable boxes and provide explanations where requested. Select:  2. B. My certificate or declaration is mutilated. NOTE: If you selected Item Number 2.b., go to Part 9. and attach the original certificate or declaration. NOTE: If you selected Item Number 2.b., go to Part 9. and attach the original certificate or declaration.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3CheckBox4[0]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application. Basis for My Application. Select all applicable boxes and provide explanations where requested. Select:  2. C. My certificate or declaration is incorrect due to a typographical or clerical error by U S C I S. NOTE: If you selected Item Number 2.c., go to Part 4. and attach the original certificate or declaration.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3CheckBox6[0]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application. Basis for My Application. Select all applicable boxes and provide explanations where requested. Select:  2. E. My date of birth has legally changed through a court order or U.S. Government-issued document, and I am applying for a replacement Certificate of Citizenship. NOTE: If you selected Item Number 2.e., go to Part 6. and attach the original certificate and evidence of the date of birth change.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3CheckBox8a[0]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application. Basis for My Application. Select all applicable boxes and provide explanations where requested. Select:  2. G. My reason for applying for a new document is not listed above. NOTE: If you selected Item Number 2.g., go to Part 9. and attach the original certificate or declaration and any evidence documents.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3CheckBox7[0]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application. Basis for My Application. Select all applicable boxes and provide explanations where requested. Select:  2. F. My certificate or declaration is incorrect because my sex listed on the document does not reflect my biological sex at birth. NOTE: If you selected Item Number 2.f., go to Part 7. and attach the original certificate or declaration and your birth certificate.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line8b_Explanation[0]",
+    "type": "text",
+    "label": "Part 3. Type of Application. Basis for My Application. Select all applicable boxes and provide explanations where requested. If you selected 2. G. Provide an explanation. Enter Explanation. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3CheckBox5[0]",
+    "type": "checkbox",
+    "label": "Part 3. Type of Application. Basis for My Application. Select all applicable boxes and provide explanations where requested. Select:  2. D. My name has legally changed. NOTE: If you selected Item Number 2.d., go to Part 5. and attach the original certificate or declaration and evidence of the name change.",
+    "page": 3,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 4. Complete If Applying to Correct Your Document Due to a U S C I S Typographical or Clerical Error.  2. Enter an explanation of what is incorrect on your current certificate or declaration and attach copies of any documents supporting your request.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4_Item1_DOB[0]",
+    "type": "checkbox",
+    "label": "Part 4. Complete If Applying to Correct Your Document Due to a U S C I S Typographical or Clerical Error.  NOTE:  After completing this section, go to Part 9. 1. What was the typographical or clerical error in your document that needs to be corrected?  (select all applicable boxes). Select this box for: Date of Birth.",
+    "page": 3,
+    "on_value": "/Married"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4_Item1_Name[0]",
+    "type": "checkbox",
+    "label": "Part 4. Complete If Applying to Correct Your Document Due to a U S C I S Typographical or Clerical Error.  NOTE:  After completing this section, go to Part 9. 1. What was the typographical or clerical error in your document that needs to be corrected?  (select all applicable boxes). Select this box for:  Name.",
+    "page": 3,
+    "on_value": "/Single"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4_Item1_Other[0]",
+    "type": "checkbox",
+    "label": "Part 4. Complete If Applying to Correct Your Document Due to a U S C I S Typographical or Clerical Error.  NOTE:  After completing this section, go to Part 9. 1. What was the typographical or clerical error in your document that needs to be corrected?  (select all applicable boxes). Select this box for: Other.",
+    "page": 3,
+    "on_value": "/Divorced"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4_Item1_Gender[0]",
+    "type": "checkbox",
+    "label": "Part 4. Complete If Applying to Correct Your Document Due to a U S C I S Typographical or Clerical Error.  NOTE:  After completing this section, go to Part 9. 1. What was the typographical or clerical error in your document that needs to be corrected?  (select all applicable boxes). Select this box for: Sex.",
+    "page": 3,
+    "on_value": "/Widowed"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5LineB_DateChanged[0]",
+    "type": "text",
+    "label": "Part 5. Complete If Applying for a New Document Because of a Name Change. 1. My name changed through (select only one box).  B. Court Order. Enter Date of Court Order. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5CheckBoxB[0]",
+    "type": "checkbox",
+    "label": "Part 5. Complete If Applying for a New Document Because of a Name Change. NOTE:  After completing this section, go to Part 9.  If you are applying to correct your document due to a U S C I S error, use Part 4. My name changed through (select only one box). Select:  1. B. Court Order.  NOTE:  If you selected Item Number 1.b., attach a copy of either the original or certified court document.",
+    "page": 4,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5CheckBoxA[0]",
+    "type": "checkbox",
+    "label": "Part 5. Complete If Applying for a New Document Because of a Name Change. NOTE:  After completing this section, go to Part 9.  If you are applying to correct your document due to a U S C I S error, use Part 4. My name changed through (select only one box). Select:  1. A. Marriage, Divorce, or Annulment.  NOTE: If you selected Item Number 1.a., attach a copy of your marriage certificate, annulment decree, or divorce decree. ",
+    "page": 4,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5LineA_DateChanged[0]",
+    "type": "text",
+    "label": "Part 5. Complete If Applying for a New Document Because of a Name Change. 1. A. Marriage, Divorce or Annulment. Enter Date of Event. Enter dates as 2-digit Month, 2-digit Day, and 4-digit Year.  NOTE:  If you selected Item A., attach a copy of your marriage certificate, annulment decree, or divorce decree.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line1A_DateChanged[0]",
+    "type": "text",
+    "label": "Part 6. Complete If Applying for a New Certificate of Citizenship Because of an Official Date of Birth Change. 1. A. Court Order. Date of Court Order (m m / d d / y y y y). Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6CheckBox1B[0]",
+    "type": "checkbox",
+    "label": "Part 6. Complete If Applying for a New Certificate of Citizenship Because of an Official Date of Birth Change.  NOTE:  After completing this section, go to Part 9.  If you are applying to correct your document due to a U S C I S error, use Part 4. 1. My date of birth changed through (select all applicable boxes).  Select:  B. U.S. Government-Issued Document. NOTE: If you selected Item B., attach a copy of the document (for example, birth certificate, certificate recognizing the foreign birth, certificate of birth abroad, or other similar vital records issued by the U.S. state where the child resided when the document was issued).",
+    "page": 4,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line1B_DateChanged[0]",
+    "type": "text",
+    "label": "Part 6. Complete If Applying for a New Certificate of Citizenship Because of an Official Date of Birth Change. 1. My date of birth changed through (select all applicable boxes). B. U.S. Government-Issued Document. Date of U.S. Government-Issued Document (m m / d d / y y y y). Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6CheckBox1A[0]",
+    "type": "checkbox",
+    "label": "Part 6. Complete If Applying for a New Certificate of Citizenship Because of an Official Date of Birth Change.  NOTE:  After completing this section, go to Part 4.  If you are applying to correct your document due to a U S C I S error, use Part 4. 1. A. My date of birth changed through (select all applicable boxes).  Select:  A. Court Order. NOTE:  NOTE: If you selected Item Number 1.a., attach a copy of either the original or certified court document. If you selected Item Number 1.b., attach a copy of the document (for example, birth certificate, certificate recognizing the foreign birth, certificate of birth abroad, or other similar vital records issued by the U.S. state where the child resided when the document was issued).",
+    "page": 4,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[3].Line6_DateOfBirth[0]",
+    "type": "text",
+    "label": "Part 6. Complete If Applying for a New Certificate of Citizenship Because of an Official Date of Birth Change. 2. My new date of birth is (as shown in the court order or U.S. Government-issued document). New Date of Birth. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].P7Line1_sex[0]",
+    "type": "checkbox",
+    "label": "Part 7. Complete If Applying for a New Document Listing Your Sex at Birth. NOTE: After completing this section, go to Part 9. If you are applying to correct your document due to a U S C I S error, use Part 4. 1. My biological sex at birth: Select Male. ",
+    "page": 4,
+    "on_value": "/M"
+  },
+  {
+    "name": "form1[0].#subform[3].P7Line1_sex[1]",
+    "type": "checkbox",
+    "label": "Part 7. Complete If Applying for a New Document Listing Your Sex at Birth. NOTE: After completing this section, go to Part 9. If you are applying to correct your document due to a U S C I S error, use Part 4. 1. My biological sex at birth: Select Female.",
+    "page": 4,
+    "on_value": "/F"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt8Line1_NameOfForeignCountry[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 1. Enter Name of Foreign Country.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt8Line2_MiddleName[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 2. Information About Foreign Official. Provide the following information about the official of a foreign country who has requested this certificate (if known). Enter Middle Name (if applicable).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt8Line2_GivenName[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 2. Information About Foreign Official. Provide the following information about the official of a foreign country who has requested this certificate (if known). Enter Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt8Line2_FamilyName[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 2. Information About Foreign Official. Provide the following information about the official of a foreign country who has requested this certificate (if known). Enter Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt8_Line2_GovAgencyName[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 2. Information About Foreign Official. Provide the following information about the official of a foreign country who has requested this certificate (if known). Enter Name of Government Agency.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt8_Line2_OfficialTitle[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 2. Information About Foreign Official. Provide the following information about the official of a foreign country who has requested this certificate (if known). Enter Official Title.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8Line3_CityTown[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 3. Foreign Official's Address. Enter City or Town.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8Line3a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 3. Foreign Official's Address. Enter Street Number and Name.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8Line3_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 3. Foreign Official's Address. Select Suite.",
+    "page": 5,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8Line3_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 3. Foreign Official's Address. Select Apartment.",
+    "page": 5,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8Line3_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 3. Foreign Official's Address. Select Floor.",
+    "page": 5,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8Line3_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 3. Foreign Official's Address. Enter Apartment, Suite or Floor Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8Line3_State[0]",
+    "type": "choice",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 3. Foreign Official's Address. Select State from List of States.",
+    "page": 5,
+    "options": [
+      " ",
+      " AA",
+      " AE",
+      " AK",
+      " AL",
+      " AP",
+      " AR",
+      " AS",
+      " AZ",
+      " CA",
+      " CO",
+      " CT",
+      " DC",
+      " DE",
+      " FL",
+      " FM",
+      " GA",
+      " GU",
+      " HI",
+      " IA",
+      " ID",
+      " IL",
+      " IN",
+      " KS",
+      " KY",
+      " LA",
+      " MA",
+      " MD",
+      " ME",
+      " MH",
+      " MI",
+      " MN",
+      " MO",
+      " MP",
+      " MS",
+      " MT",
+      " NC",
+      " ND",
+      " NE",
+      " NH",
+      " NJ",
+      " NM",
+      " NV",
+      " NY",
+      " OH",
+      " OK",
+      " OR",
+      " PA",
+      " PR",
+      " PW",
+      " RI",
+      " SC",
+      " SD",
+      " TN",
+      " TX",
+      " UT",
+      " VA",
+      " VI",
+      " VT",
+      " WA",
+      " WI",
+      " WV",
+      " WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8Line3_ZipCode[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 3. Foreign Official's Address. Enter Zip Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8Line3_Province[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 3. Foreign Official's Address. Enter Province.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8Line3_PostalCode[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 3. Foreign Official's Address. Enter Postal Code.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8Line3_Country[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country. 3. Foreign Official's Address. Enter Country.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8_Line4_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country.  4. U S C I S or Consular Official's Certification.  Date of Signature. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt8_Line4_Signature[0]",
+    "type": "text",
+    "label": "Part 8. Complete If Applying for a Special Certificate of Recognition as a Citizen of the United States to the Government of a Foreign Country.  U S C I S or Consular Official's Certification. NOTE:  The U S C I S or consular official's certification will be completed after U S C I S adjudicates your Form N-5 65, if it is approved.  You do not need to obtain this signature before filing this application.   4. U S C I S or Consular Official's Certification.  U S C I S or Consular Official's Signature. This form can not be signed electronically. The name of the official can not be typewritten into this space. Print and sign.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt9Line5_Email[0]",
+    "type": "text",
+    "label": "Part 9. Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 3. Enter Applicant's Email Address, if any.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt9Line3_DaytimeTelephoneNumber3[0]",
+    "type": "text",
+    "label": "Part 9. Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 1. Enter Applicant's Daytime Telephone Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt9Line4_MobileTelephoneNumber3[0]",
+    "type": "text",
+    "label": "Part 9. Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 2. Enter Applicant's Mobile Telephone Number, if any.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt9Line6_SignatureofApplicant[0]",
+    "type": "text",
+    "label": "Part 9. Applicant's Contact Information, Certification, and Signature (continued).  Applicant's Signature. 4. Signature of Applicant. This form can not be signed electronically. The name of the applicant can not be typewritten into this space. Print and sign.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt9Line6_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 9. Applicant's Contact Information, Certification, and Signature (continued).  4. Applicant's Signature. Date of Signature (m m / d d / y y y y). Enter date as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt10Line1_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Provide the following information about the interpreter.  Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt10Line1_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt10Line2_NameofBusinessorOrgName[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature.  2. Enter Interpreter's Business or Organization Name, if any.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt10Line6_Email[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Email Address, if any.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt10Line4_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt10Line4_MobileTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Mobile Telephone Number, if any.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt10_Iamfluent[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that I am fluent in English and I have interpreted every question on the application and Instructions and interpreted the applicant's answers to the questions in that language, and the applicant informed me that he or she understood every instruction, question, and answer on the application. Enter Language.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt10Line7_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. Date of Signature. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt10Line7_Signature[0]",
+    "type": "text",
+    "label": "Part 10. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. Interpreter's Signature. This form can not be signed electronically. The name of the interpreter can not be typewritten into this space. Print and sign. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt11Line1_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Provide the following information about the preparer. Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt11Line1_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 1. Enter Preparer's Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt11Line2_BusinessName[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  2. Enter Preparer's Business or Organization Name, if any.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt11Line6_EmailAddress[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Contact Information. 5. Enter Preparer's Email Address, if any.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt11Line5_MobileTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Contact Information. 4. Enter Preparer's Mobile Telephone Number, if any.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt11Line4_DaytimeTelephoneNumber[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Contact Information. 3. Enter Preparer's Daytime Telephone Number. ",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt11Line8_SignatureofPreparer[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Certification. By my signature, I certify, under penalty of perjury, that I prepared this application for the applicant at his or her request and with express consent and that all of the responses and information contained in and submitted with the application are complete, true, and correct and reflects only information provided by the applicant. The applicant reviewed the responses and information and informed me that he or she understands the responses and information in or submitted with the application. 6. Signature of Preparer. This form can not be signed electronically. The name of the preparer can not be typewritten into this space. Print and sign.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt11Line8_DateOfSignature[0]",
+    "type": "text",
+    "label": "Part 11. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Certification. By my signature, I certify, under penalty of perjury, that I prepared this application for the applicant at his or her request and with express consent and that all of the responses and information contained in and submitted with the application are complete, true, and correct and reflects only information provided by the applicant. The applicant reviewed the responses and information and informed me that he or she understands the responses and information in or submitted with the application. Preparer's Signature. 6. Date of Signature. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 3. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 3. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 3. Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 3. Enter Additional Information.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P1Line1_MiddleName[1]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 1. Middle Name. This is a read only field. This field is pre-populated from Page 1.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P1Line1_GivenName[1]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 1. Given Name (First Name). This is a read only field. This field is pre-populated from Page 1.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P1Line1_FamilyName[1]",
+    "type": "text",
+    "label": "Part 12. Additional Information.  If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Type or print your name and A-Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.  1. Family Name (Last Name). This is a read only field. This field is pre-populated from Page 1.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 4. Enter Additional Information.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line5d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 5. Enter Additional Information.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line6d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 6. Enter Additional Information.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 4. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 4. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 4.  Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line5a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 5. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line5b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 5. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line5c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 5. Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line6a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 6. Enter Page Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line6b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 6. Enter Part Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].P12_Line6c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 6. Enter Item Number.",
+    "page": 7
+  },
+  {
+    "name": "form1[0].#subform[6].ANum[1]",
+    "type": "text",
+    "label": "Part 12. Additional Information. 2. Alien Registration Number (A. Number), if any. This is a read only field. This field is pre-populated from Page 1.",
+    "page": 7
+  }
+]

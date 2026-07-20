@@ -25,7 +25,7 @@ def seed() -> None:
                 template = FormTemplate(code=entry["code"])
                 db.add(template)
 
-            inventory = json.loads((INVENTORY_DIR / entry["inventory_file"]).read_text())
+            inventory = json.loads((INVENTORY_DIR / entry["inventory_file"]).read_text(encoding="utf-8"))
             conditions = CONDITIONS_BY_FORM_CODE.get(entry["code"], {})
             for field in inventory:
                 if field["name"] in conditions:

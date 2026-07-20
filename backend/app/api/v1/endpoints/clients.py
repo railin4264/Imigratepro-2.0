@@ -11,7 +11,7 @@ router = APIRouter(prefix="/clients", tags=["clients"])
 
 @router.get("", response_model=list[ClientRead])
 def list_clients(db: DbSession, skip: int = 0, limit: int = 100):
-    return db.query(Client).offset(skip).limit(limit).all()
+    return db.query(Client).order_by(Client.created_at.desc()).offset(skip).limit(limit).all()
 
 
 @router.post("", response_model=ClientRead, status_code=201)

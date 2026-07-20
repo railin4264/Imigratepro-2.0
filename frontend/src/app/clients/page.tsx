@@ -163,7 +163,7 @@ export default function ClientsPage() {
                   <option value="">{t("common.select")}</option>
                   {MARITAL_STATUS_OPTIONS.map((s) => (
                     <option key={s} value={s}>
-                      {s}
+                      {t(`enum.maritalStatus.${s}` as Parameters<typeof t>[0])}
                     </option>
                   ))}
                 </select>

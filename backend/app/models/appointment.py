@@ -23,7 +23,7 @@ class Appointment(UUIDPrimaryKeyMixin, TimestampMixin, Base):
 
     __tablename__ = "appointments"
 
-    case_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("cases.id"))
+    case_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("cases.id"), index=True)
     appointment_type: Mapped[AppointmentType] = mapped_column(Enum(AppointmentType))
     scheduled_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
     location: Mapped[str | None] = mapped_column(String(255), nullable=True)

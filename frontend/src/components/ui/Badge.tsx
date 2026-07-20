@@ -15,6 +15,12 @@ const COLOR_MAP: Record<string, string> = {
   processing: "bg-amber-50 text-amber-700 dark:bg-amber-950/50 dark:text-amber-300",
   extracted: "bg-emerald-50 text-emerald-700 dark:bg-emerald-950/50 dark:text-emerald-300",
   failed: "bg-red-50 text-red-700 dark:bg-red-950/50 dark:text-red-300",
+  // invoice status
+  sent: "bg-blue-50 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300",
+  partially_paid: "bg-amber-50 text-amber-700 dark:bg-amber-950/50 dark:text-amber-300",
+  paid: "bg-emerald-50 text-emerald-700 dark:bg-emerald-950/50 dark:text-emerald-300",
+  overdue: "bg-red-50 text-red-700 dark:bg-red-950/50 dark:text-red-300",
+  cancelled: "bg-zinc-100 text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400",
 };
 
 const DEFAULT_COLOR = "bg-indigo-50 text-indigo-700 dark:bg-indigo-950/50 dark:text-indigo-300";

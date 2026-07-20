@@ -5,11 +5,13 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
   type Case,
+  type FormRequirements,
   type FormTemplate,
   type GeneratedForm,
-  downloadUrl,
+  downloadGeneratedForm,
   generateForm,
   getCases,
+  getFormRequirements,
   getFormTemplates,
   getGeneratedForms,
 } from "@/lib/api";
@@ -18,6 +20,7 @@ import { AppShell } from "@/components/AppShell";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
+import { FormRequirementsDetails } from "@/components/FormRequirementsDetails";
 
 const inputClass =
   "w-full rounded-lg border border-zinc-300 bg-white p-2 text-sm outline-none transition focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50 dark:focus:ring-indigo-950";
@@ -32,6 +35,8 @@ export default function FormsPage() {
   const [generatedForms, setGeneratedForms] = useState<GeneratedForm[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [requirements, setRequirements] = useState<FormRequirements | null>(null);
+  const [downloadingId, setDownloadingId] = useState<string | null>(null);
 
   useEffect(() => {
     Promise.all([getCases(), getFormTemplates()])
@@ -52,6 +57,13 @@ export default function FormsPage() {
       .catch(() => setGeneratedForms([]));
   }, [selectedCaseId]);
 
+  useEffect(() => {
+    if (!selectedFormCode) return;
+    getFormRequirements(selectedFormCode)
+      .then(setRequirements)
+      .catch(() => setRequirements(null));
+  }, [selectedFormCode]);
+
   async function handleGenerate() {
     if (!selectedCaseId || !selectedFormCode) return;
     setLoading(true);
@@ -63,6 +75,18 @@ export default function FormsPage() {
       setError(t("forms.error.generate"));
     } finally {
       setLoading(false);
+    }
+  }
+
+  async function handleDownload(form: GeneratedForm) {
+    setDownloadingId(form.id);
+    setError(null);
+    try {
+      await downloadGeneratedForm(form.id, `${form.form_code}.pdf`);
+    } catch {
+      setError(t("forms.error.download"));
+    } finally {
+      setDownloadingId(null);
     }
   }
 
@@ -81,10 +105,11 @@ export default function FormsPage() {
 
         <Card className="mb-6 space-y-4 p-5">
           <div>
-            <label className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
+            <label htmlFor="forms-case-select" className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
               {t("forms.case")}
             </label>
             <select
+              id="forms-case-select"
               value={selectedCaseId}
               onChange={(e) => setSelectedCaseId(e.target.value)}
               className={inputClass}
@@ -98,10 +123,11 @@ export default function FormsPage() {
           </div>
 
           <div>
-            <label className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
+            <label htmlFor="forms-code-select" className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
               {t("forms.form")}
             </label>
             <select
+              id="forms-code-select"
               value={selectedFormCode}
               onChange={(e) => setSelectedFormCode(e.target.value)}
               className={inputClass}
@@ -118,6 +144,8 @@ export default function FormsPage() {
             {loading ? t("forms.generating") : t("forms.generate")}
           </Button>
           <p className="text-xs text-zinc-500">{t("forms.generateHint")}</p>
+
+          {requirements && <FormRequirementsDetails requirements={requirements} />}
         </Card>
 
         <h2 className="mb-3 text-sm font-medium text-zinc-700 dark:text-zinc-300">
@@ -128,6 +156,7 @@ export default function FormsPage() {
           {generatedForms.map((f) => (
             <Card key={f.id} className="flex items-center justify-between p-3 text-sm">
               <span className="flex items-center gap-2 text-zinc-600 dark:text-zinc-300">
+                <span className="font-medium text-zinc-900 dark:text-zinc-50">{f.form_code}</span>
                 <Badge value={f.status} label={t(`enum.formStatus.${f.status}` as Parameters<typeof t>[0])} />
                 {new Date(f.created_at).toLocaleString()}
               </span>
@@ -138,12 +167,14 @@ export default function FormsPage() {
                 >
                   {t("forms.open")}
                 </Link>
-                <a
-                  href={downloadUrl(f.id)}
-                  className="font-medium text-indigo-600 hover:underline dark:text-indigo-400"
+                <button
+                  type="button"
+                  onClick={() => handleDownload(f)}
+                  disabled={downloadingId === f.id}
+                  className="font-medium text-indigo-600 hover:underline disabled:opacity-50 dark:text-indigo-400"
                 >
-                  {t("forms.download")}
-                </a>
+                  {downloadingId === f.id ? t("forms.downloading") : t("forms.download")}
+                </button>
               </span>
             </Card>
           ))}

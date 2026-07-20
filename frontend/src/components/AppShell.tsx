@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { SVGProps } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useTranslation } from "@/lib/i18n";
+import { useAuth } from "@/lib/auth";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { NotificationBell } from "@/components/NotificationBell";
 
@@ -24,6 +25,17 @@ function ClientsIcon(props: SVGProps<SVGSVGElement>) {
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" {...props}>
       <circle cx="12" cy="8" r="3.5" />
       <path d="M4.5 20c1-4 4-6 7.5-6s6.5 2 7.5 6" />
+    </svg>
+  );
+}
+
+function TeamIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <circle cx="9" cy="8" r="3" />
+      <path d="M2.5 19c0.7-3.2 3.2-5 6.5-5s5.8 1.8 6.5 5" />
+      <circle cx="17" cy="8.5" r="2.25" />
+      <path d="M16 13.5c2.6 0.2 4.6 1.8 5.2 4.5" />
     </svg>
   );
 }
@@ -66,6 +78,36 @@ function DocumentsIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
+function AppointmentsIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <rect x="3" y="5" width="18" height="16" rx="2" />
+      <path d="M3 10h18M8 3v4M16 3v4" />
+      <path d="M8 14h.01M12 14h.01M16 14h.01M8 17.5h.01M12 17.5h.01" />
+    </svg>
+  );
+}
+
+function BillingIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <path d="M7 9h10M7 13h6" />
+      <path d="M15.5 16.5a2 2 0 1 0 0-4h-1.5a1.5 1.5 0 0 1 0-3H16" />
+      <path d="M14.5 8.5v1M14.5 16.5v1" />
+    </svg>
+  );
+}
+
+function ReportsIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <path d="M4 20V10M12 20V4M20 20v-7" />
+      <path d="M3 20h18" />
+    </svg>
+  );
+}
+
 function MenuIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" {...props}>
@@ -82,13 +124,26 @@ function CloseIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
+function LogoutIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <path d="M9 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h3" />
+      <path d="M15 16l4-4-4-4M19 12H8" />
+    </svg>
+  );
+}
+
 const NAV = [
   { href: "/", key: "nav.dashboard", Icon: DashboardIcon },
   { href: "/clients", key: "nav.clients", Icon: ClientsIcon },
   { href: "/cases", key: "nav.cases", Icon: CasesIcon },
+  { href: "/team", key: "nav.team", Icon: TeamIcon },
   { href: "/services", key: "nav.services", Icon: ServicesIcon },
   { href: "/forms", key: "nav.forms", Icon: FormsIcon },
   { href: "/documents", key: "nav.documents", Icon: DocumentsIcon },
+  { href: "/appointments", key: "nav.appointments", Icon: AppointmentsIcon },
+  { href: "/billing", key: "nav.billing", Icon: BillingIcon },
+  { href: "/stats", key: "nav.stats", Icon: ReportsIcon },
 ] as const;
 
 function Brand() {
@@ -138,7 +193,21 @@ function NavLinks({
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const { t } = useTranslation();
+  const { user, status, logout } = useAuth();
+  const router = useRouter();
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  useEffect(() => {
+    if (status === "unauthenticated") router.replace("/login");
+  }, [status, router]);
+
+  if (status !== "authenticated") {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
+        <p className="text-sm text-zinc-500 dark:text-zinc-400">{t("auth.loading")}</p>
+      </div>
+    );
+  }
 
   return (
     <div className="flex min-h-screen bg-zinc-50 dark:bg-black">
@@ -185,6 +254,17 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           <div className="ml-auto flex items-center gap-1">
             <NotificationBell />
             <LanguageSwitcher fixed={false} />
+            <span className="ml-1 hidden text-sm text-zinc-500 dark:text-zinc-400 sm:inline">
+              {user?.full_name}
+            </span>
+            <button
+              onClick={logout}
+              aria-label={t("nav.logout")}
+              title={t("nav.logout")}
+              className="flex h-11 w-11 items-center justify-center rounded-lg text-zinc-600 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:bg-zinc-900"
+            >
+              <LogoutIcon className="h-5 w-5" aria-hidden="true" />
+            </button>
           </div>
         </header>
         <main className="flex-1 p-4 sm:p-6 md:p-8">{children}</main>

@@ -4,6 +4,8 @@ backend/__pycache__/
 **/__pycache__/
 *.pyc
 backend/*.db
+backend/tests/*.db
+backend/.pytest_cache/
 backend/.env
 # Filled forms and client uploads contain PII, never commit them
 backend/generated_forms/
@@ -14,6 +16,9 @@ frontend/node_modules/
 frontend/.next/
 frontend/out/
 frontend/.env.local
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
 
 # Editors / OS
 .vscode/

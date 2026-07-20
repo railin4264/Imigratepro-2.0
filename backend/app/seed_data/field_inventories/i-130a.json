@@ -1,0 +1,1624 @@
+[
+  {
+    "name": "form1[0].#subform[0].Pt1Line1_AlienNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). 1. Enter Alien Registration Number. (A. Number) (if any).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Provide your physical addresses for the last five years, whether inside or outside the United States.  Provide your current address first. If you need extra space to complete this section, use the space provided in Part 7. Additional Information. Physical Address 1. 4. A. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 4. B. Select this Box for Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 4. B. Select this Box for Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 4. B. Select this Box for Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 4. B. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 4. C. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4d_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 4. D. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 4. E. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4f_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 4. F. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4h_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 4. H. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line4g_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 4. G. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 6. A. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 6. B. Select this Box for Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 6. B. Select this Box for Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 6. B. Select this Box for Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 6. B. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 6. C. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6d_State[0]",
+    "type": "choice",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 6. D. Select State from List of States.",
+    "page": 1,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 6. E. Enter Zip Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6f_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 6. F. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6h_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 6. H. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line6g_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 6. G. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].CheckBox1[0]",
+    "type": "checkbox",
+    "label": "To be completed by an attorney or accredited representative (if any). Select this box if Form G - 28 is attached.",
+    "page": 1,
+    "on_value": "/1"
+  },
+  {
+    "name": "form1[0].#subform[0].AttorneyStateBarNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative (if any). Enter Attorney State Bar Number, if applicable.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[0].USCISOnlineAcctNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative (if any). Enter Attorney or Accredited Representative U S C I S Online Account Number (if any).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line7a_DateFrom[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 7. A. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line7b_DateTo[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 2. 7. B. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3a_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Your Full Name. 3. A. Enter Family Name (Last Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3b_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Your Full Name. 3. B. Enter Given Name (First Name).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line3c_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Your Full Name. 3. C. Enter Middle Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].#area[1].Pt2Line3_USCISELISActNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). 2. Enter U S C I S Online Account Number (if any).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line5a_DateFrom[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 5. A. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line5b_DateTo[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Physical Address 1. 5. B. Date To. Present. No Entry.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8e_PostalCode[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Last Physical Address Outside the United States. 8. E. Enter Postal Code.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8f_Country[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Last Physical Address Outside the United States. 8. F. Enter Country.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8d_Province[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Last Physical Address Outside the United States. 8. D. Enter Province.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Last Physical Address Outside the United States. 8. C. Enter City or Town.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Last Physical Address Outside the United States. 8. B. Enter Apartment, Suite or Floor Number.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Last Physical Address Outside the United States. 8. B. Select this Box for Apartment.",
+    "page": 1,
+    "on_value": "/ APT "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Last Physical Address Outside the United States. 8. B. Select this Box for Suite.",
+    "page": 1,
+    "on_value": "/ STE "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Last Physical Address Outside the United States. 8. B. Select this Box for Floor.",
+    "page": 1,
+    "on_value": "/ FLR "
+  },
+  {
+    "name": "form1[0].#subform[0].Pt1Line8a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Last Physical Address Outside the United States. Provide your last address outside the United States of more than one year (even if listed above). 8. A. Enter Street Number and Name.",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[0].VolagNumber[0]",
+    "type": "text",
+    "label": "To be completed by an attorney or accredited representative (if any). Enter Volag Number (if any).",
+    "page": 1
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line9b_DateTo[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Last Physical Address Outside the United States. 9. B. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line9a_DateFrom[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Address History. Last Physical Address Outside the United States. 9. A. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line10_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 1. Full Name of Parent 1. 10. B. Enter Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line10_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 1. Full Name of Parent 1. 10. C. Enter Middle Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line12CityTownOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 1. 13. Enter City / Town / Village of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line14_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 1. 15. Enter City / Town / Village of Residence.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line15_CountryofResidence[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 1. 16. Enter Country of Residence.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line13_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 1. 14. Enter Country of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line11_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 1. 11. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line10_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 1. Full Name of Parent 1. 10. A. Enter Family Name (Maiden Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 2. A. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 2. B. Select this Box for Apartment.",
+    "page": 2,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 2. B. Select this Box for Suite.",
+    "page": 2,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 2. B. Select this Box for Floor.",
+    "page": 2,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 2. B. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 2. C. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2f_Province[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 2. F. Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2g_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 2. G. Enter Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 2. E. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2d_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 2. D. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line2h_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 2. H. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line1_EmployerOrCompName[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Provide your employment history for the last five years, whether inside or outside the United States. Provide your current employment first. If you are currently unemployed, type or print \"Unemployed\" in Item Number 1. below. If you need extra space to complete this section, use the space provided in Part 7. Additional Information. Employment History. Employer 1. 1. Enter Name of Employer / Company.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line17_DateofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 2. 18. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line19_CountryofBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 2. 21. Enter Country of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line21_CountryofResidence[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 2. 23. Enter Country of Residence.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line20_CityTownVillageofRes[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 2. 22. Enter City / Town / Village of Residence.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line18_CityTownOfBirth[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 2. 20. Enter City / Town / Village of Birth.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line16_MiddleName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 2. Full Name of Parent 2. 17. C. Enter Middle Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line16_GivenName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 2. Full Name of Parent 2. 17. B. Enter Given Name (First Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line16_FamilyName[0]",
+    "type": "text",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 2. Full Name of Parent 2. 17. A. Enter Family Name (Last Name).",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line3_Occupation[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 3. Enter Your Occupation.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line4a_DateFrom[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 4. A. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line4b_DateTo[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 1. 4. B. Date To. Present. No Entry.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 6. A. Enter Street Number and Name.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 6. B. Select this Box for Apartment.",
+    "page": 2,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 6. B. Select this Box for Suite.",
+    "page": 2,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 6. B. Select this Box for Floor.",
+    "page": 2,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 6. B. Enter Apartment, Suite or Floor Number.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 6. C. Enter City or Town.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_Province[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 6. F. Enter Province.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_PostalCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 6. G. Enter Postal Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_ZipCode[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 6. E. Enter Zip Code.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_State[0]",
+    "type": "choice",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 6. D. Select State from List of States.",
+    "page": 2,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line6_Country[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 6. H. Enter Country.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt2Line5_EmployerOrCompName[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 5. Enter Name of Employer / Company.",
+    "page": 2
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line12_Male[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 1. 12. Sex. Select this Box for Male.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line12_Female[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 1. 12. Sex. Select this Box for Female.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line19_Male[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 2. 19. Sex. Select this Box for Male.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[1].Pt1Line19_Female[0]",
+    "type": "checkbox",
+    "label": "Part 1. Information About You (Spouse Beneficiary). Information About Parent 2. 19. Sex. Select this Box for Female.",
+    "page": 2,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt2Line7_Occupation[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 7. Enter Your Occupation.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line3_Occupation[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Employment Outside the United States. 3. Enter Your Occupation.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line1_EmployerOrCompName[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Employment Outside the United States. Provide your last occupation outside the United States if not shown above. If you never worked outside the United States, provide this information in the space provided in Part 7. Additional Information. 1. Enter Name of Employer / Company.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt2Line8a_DateFrom[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 8. A. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt2Line8b_DateTo[0]",
+    "type": "text",
+    "label": "Part 2. Information About Your Employment. Employment History. Employer 2. 8. B. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line4a_DateFrom[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Employment Outside the United States. 4. A. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line4b_DateTo[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Employment Outside the United States. 4. B. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line1Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 4. Spouse Beneficiary's Statement, Contact Information, Certification, and Signature. Spouse Beneficiary's Statement. NOTE:  Select the box for either Item Number 1. A. or 1. B.  If applicable, select the box for Item Number 2. 1. B. Select this Box for The interpreter named in Part 5. read to me every question and instruction on this form and my answer to every question in a language in which I am fluent, and I understood everything.",
+    "page": 3,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line1b_Language[0]",
+    "type": "text",
+    "label": "Part 4. Spouse Beneficiary's Statement, Contact Information, Certification, and Signature. Spouse Beneficiary's Statement. 1. B. Enter Language.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 4. Spouse Beneficiary's Statement, Contact Information, Certification, and Signature. Spouse Beneficiary's Statement. NOTE:  Select the box for either Item Number 1. A. or 1. B.  If applicable, select the box for Item Number 2. 2. Select this Box for At my request, the preparer name in Part 6., prepared this form for me based only upon information I provided or authorized.",
+    "page": 3,
+    "on_value": "/C"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line2_RepresentativeName[0]",
+    "type": "text",
+    "label": "Part 4. Spouse Beneficiary's Statement, Contact Information, Certification, and Signature. Spouse Beneficiary's Statement. 2. Enter Name of Preparer.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line3_DaytimePhoneNumber1[0]",
+    "type": "text",
+    "label": "Part 4. Spouse Beneficiary's Statement, Contact Information, Certification, and Signature. Spouse Beneficiary's Contact Information. 3. Enter Spouse Beneficiary's Daytime Telephone Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line5_Email[0]",
+    "type": "text",
+    "label": "Part 4. Spouse Beneficiary's Statement, Contact Information, Certification, and Signature. Spouse Beneficiary's Contact Information. 5. Enter Spouse Beneficiary's E-Mail Address (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line4_MobileNumber1[0]",
+    "type": "text",
+    "label": "Part 4. Spouse Beneficiary's Statement, Contact Information, Certification, and Signature. Spouse Beneficiary's Contact Information. 4. Enter Spouse Beneficiary's Mobile Telephone Number (if any).",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Employment Outside the United States. 2. A. Enter Street Number and Name.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Your Employment Outside the United States. 2. B. Select this Box for Apartment.",
+    "page": 3,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Your Employment Outside the United States. 2. B. Select this Box for Suite.",
+    "page": 3,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 3. Information About Your Employment Outside the United States. 2. B. Select this Box for Floor.",
+    "page": 3,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Employment Outside the United States. 2. B. Enter Apartment, Suite or Floor Number.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Employment Outside the United States. 2. C. Enter City or Town.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2f_Province[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Employment Outside the United States. 2. F. Enter Province.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2g_PostalCode[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Employment Outside the United States. 2. G. Enter Postal Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Employment Outside the United States. 2. E. Enter Zip Code.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2d_State[0]",
+    "type": "choice",
+    "label": "Part 3. Information About Your Employment Outside the United States. 2. D. Select State from List of States.",
+    "page": 3,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[2].Pt3Line2h_Country[0]",
+    "type": "text",
+    "label": "Part 3. Information About Your Employment Outside the United States. 2. H. Enter Country.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line1Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 4. Spouse Beneficiary's Statement, Contact Information, Certification, and Signature. NOTE: Read the Penalties section of the Form I - 130 and Form I - 130. A. Instructions before completing this part. Spouse Beneficiary's Statement. NOTE:  Select the box for either Item Number 1. A. or 1. B.  If applicable, select the box for Item Number 2. 1. A. Select this Box for I can read and understand English, and I have read and understand every question and instruction on this form and my answer to every question.",
+    "page": 3,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line6b_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 4. Spouse Beneficiary's Statement, Contact Information, Certification, and Signature. Spouse Beneficiary's Signature. 6. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[2].Pt4Line6a_Signature[0]",
+    "type": "text",
+    "label": "Part 4. Spouse Beneficiary's Statement, Contact Information, Certification, and Signature. Spouse Beneficiary's Signature. 6. A. Spouse Beneficiary's Signature (sign in ink). This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 3
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line2_InterpreterBusinessorOrg[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name (if any).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line1b_InterpreterGivenName[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line1a_InterpreterFamilyName[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Provide the following information about the interpreter you used to complete Form I 1 30 A if he or she is different from the interpreter used to complete the Form I 1 30 filed on your behalf. Interpreter's Full Name. 1. A. Enter Interpreter's Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line3c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. C. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line3a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. A. Enter Street Number and Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line3b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select this Box for Apartment. ",
+    "page": 4,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line3b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select this Box for Suite.",
+    "page": 4,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line3b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select this Box for Floor.",
+    "page": 4,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line3b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line3g_PostalCode[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. G. Enter Postal Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line3e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. E. Enter Zip Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line3d_State[0]",
+    "type": "choice",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. D. Select State from List of States.",
+    "page": 4,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line3h_Country[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. H. Enter Country.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line3f_Province[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. F. Enter Province.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5_NameofLanguage[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that: I am fluent in English and the same language provided in Part 4., Item Number 1. B., and I have read to this spouse beneficiary in the identified language every question and instruction on this form and his or her answer to every question. The spouse beneficiary informed me that he or she understands every instruction, question, and answer on the form, including the Spouse Beneficiary's Certification, and has verified the accuracy of every answer. Enter Language.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line6b_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line6a_Signature[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. A. Interpreter's Signature (sign in ink). This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line1b_PreparerGivenName[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Full Name. 1. B. Enter Preparer's Given Name (First Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line2_BusinessName[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Full Name. 2. Enter Preparer's Business or Organization Name (if any).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line1a_PreparerFamilyName[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Provide the following information about the preparer you used to complete Form I - 130. A. if he or she is different from the preparer used to complete the Form I - 130 filed on your behalf. Preparer's Full Name. 1. A. Enter Preparer's Family Name (Last Name).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line4_InterpreterDaytimeTelephone[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line5_Email[0]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter Interpreter's E-Mail Address (if any).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt5Line4_InterpreterDaytimeTelephone[1]",
+    "type": "text",
+    "label": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number (if any).",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3c_CityOrTown[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Mailing Address. 3. C. Enter City or Town.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3a_StreetNumberName[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Mailing Address. 3. A. Enter Street Number and Name.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3b_Unit[0]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Mailing Address. 3. B. Select this Box for Apartment.",
+    "page": 4,
+    "on_value": "/APT"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3b_Unit[1]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Mailing Address. 3. B. Select this Box for Suite.",
+    "page": 4,
+    "on_value": "/STE"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3b_Unit[2]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Mailing Address. 3. B. Select this Box for Floor.",
+    "page": 4,
+    "on_value": "/FLR"
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3b_AptSteFlrNumber[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3g_PostalCode[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Mailing Address. 3. G. Enter Postal Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3e_ZipCode[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Mailing Address. 3. E. Enter Zip Code.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3d_State[0]",
+    "type": "choice",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Mailing Address. 3. D. Select State from List of States.",
+    "page": 4,
+    "options": [
+      " ",
+      "AA",
+      "AE",
+      "AK",
+      "AL",
+      "AP",
+      "AR",
+      "AS",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "FM",
+      "GA",
+      "GU",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MH",
+      "MI",
+      "MN",
+      "MO",
+      "MP",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "PR",
+      "PW",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VI",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ]
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3h_Country[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Mailing Address. 3. H. Enter Country.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[3].Pt6Line3f_Province[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Mailing Address. 3. F. Enter Province.",
+    "page": 4
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line5_PreparerFaxNumber[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Contact Information. 5. Enter Preparer's Mobile Telephone Number (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line4_DaytimePhoneNumber[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line6_Email[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Contact Information. 6. Enter Preparer's E-Mail Address (if any).",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line7_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Statement. 7. A. Select I am not an attorney or accredited representative but have prepared this form on behalf of the spouse beneficiary and with the spouse beneficiary's consent.",
+    "page": 5,
+    "on_value": "/A"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line7_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Statement. 7. B. Select this Box for I am an attorney or accredited representative.",
+    "page": 5,
+    "on_value": "/B"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line7b_Checkbox[0]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Statement. 7. B. Select this Box for I am an attorney or accredited representative and my representation of the spouse beneficiary in this case extends beyond the preparation of this form. NOTE:  If you are an attorney or accredited representative whose representation extends beyond preparation of this form, you may be obliged to submit a completed Form G - 28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this form.",
+    "page": 5,
+    "on_value": "/Y"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line7b_Checkbox[1]",
+    "type": "checkbox",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Statement. 7. B. Select this Box for I am an attorney or accredited representative and my representation of the spouse beneficiary in this case does not extend beyond the preparation of this form.",
+    "page": 5,
+    "on_value": "/N"
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line8a_Signature[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Signature. 8. A. Preparer's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[4].Pt6Line8b_DateofSignature[0]",
+    "type": "text",
+    "label": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary. Preparer's Signature. 8. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+    "page": 5
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line3a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 3. A. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line3b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 3. B. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line3c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 3. C. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line3d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 3. D. Enter Additional Information.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line4a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 4. A. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line4b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 4. B. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line4c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 4. C. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line4d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 4. D. Enter Additional Information.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line5a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 5. A. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line5b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 5. B. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line5c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 5. C. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line6a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 6. A. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line6b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 6. B. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line6c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 6. C. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line3a_FamilyName[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. No Entry Prepopulated from Part 1. 1. A. Enter Family Name (Last Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line3b_GivenName[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. No Entry Prepopulated from Part 1. 1. B. Enter Given Name (First Name).",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line3c_MiddleName[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. No Entry Prepopulated from Part 1. 1. C. Enter Middle Name.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line6d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 6. D. Enter Additional Information.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line5d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 5. D. Enter Additional Information.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line7a_PageNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 7. A. Enter Page Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line7b_PartNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 7. B. Enter Part Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line7c_ItemNumber[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 7. C. Enter Item Number.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt7Line7d_AdditionalInfo[0]",
+    "type": "text",
+    "label": "Part 7. Additional Information. 7. D. Enter Additional Information.",
+    "page": 6
+  },
+  {
+    "name": "form1[0].#subform[5].Pt1Line1_AlienNumber[1]",
+    "type": "text",
+    "label": "Part 7. Additional Information. No Entry Prepopulated from Part 1. 2. Enter A Number (if any). ",
+    "page": 6
+  }
+]

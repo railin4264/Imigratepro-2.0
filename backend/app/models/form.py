@@ -42,8 +42,8 @@ class GeneratedForm(UUIDPrimaryKeyMixin, TimestampMixin, Base):
 
     __tablename__ = "generated_forms"
 
-    case_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("cases.id"))
-    form_template_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("form_templates.id"))
+    case_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("cases.id"), index=True)
+    form_template_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("form_templates.id"), index=True)
     status: Mapped[GeneratedFormStatus] = mapped_column(
         Enum(GeneratedFormStatus), default=GeneratedFormStatus.DRAFT
     )
@@ -65,5 +65,31 @@ class GeneratedForm(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     )
     client_link_enabled: Mapped[bool] = mapped_column(default=True)
 
+    # Which step of the client portal's part-by-part wizard the client was
+    # last on -- saved alongside `data` on every autosave so closing the tab
+    # mid-form and coming back later resumes exactly there, not at Part 1.
+    # Deliberately position-based rather than derived from which fields are
+    # still empty: a client may leave earlier fields blank on purpose
+    # (doesn't apply to them), and that shouldn't yank them backwards.
+    client_wizard_step: Mapped[int] = mapped_column(default=0)
+
+    # Set once the form is actually filed with USCIS and a receipt notice
+    # comes back. Powers the optional USCIS Case Status API check (see
+    # app/services/uscis_case_status.py) -- uscis_status_raw is the last
+    # response USCIS gave us, stored as-is rather than parsed into fixed
+    # columns, since a sandbox-only integration can't fully verify the
+    # production response shape ahead of time.
+    uscis_receipt_number: Mapped[str | None] = mapped_column(String(20), nullable=True, index=True)
+    uscis_status_raw: Mapped[dict | None] = mapped_column(JSON, nullable=True)
+    uscis_status_checked_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
     case: Mapped["Case"] = relationship(back_populates="generated_forms")
     template: Mapped["FormTemplate"] = relationship(back_populates="generated_forms")
+
+    @property
+    def form_code(self) -> str:
+        """Convenience for read schemas that list generated forms without a
+        dedicated per-item template fetch on the frontend (e.g. "which form is
+        this?" next to a bare status badge and timestamp)."""
+
+        return self.template.code

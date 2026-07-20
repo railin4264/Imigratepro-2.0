@@ -42,7 +42,7 @@ class Service(UUIDPrimaryKeyMixin, TimestampMixin, Base):
 class WorkflowStage(UUIDPrimaryKeyMixin, Base):
     __tablename__ = "workflow_stages"
 
-    service_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("services.id"))
+    service_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("services.id"), index=True)
     name: Mapped[str] = mapped_column(String(255))
     order: Mapped[int] = mapped_column(Integer)
 
@@ -52,7 +52,7 @@ class WorkflowStage(UUIDPrimaryKeyMixin, Base):
 class ServiceChecklistItem(UUIDPrimaryKeyMixin, Base):
     __tablename__ = "service_checklist_items"
 
-    service_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("services.id"))
+    service_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("services.id"), index=True)
     label: Mapped[str] = mapped_column(String(255))
     order: Mapped[int] = mapped_column(Integer)
 
@@ -64,8 +64,8 @@ class ServiceFormTemplate(UUIDPrimaryKeyMixin, Base):
 
     __tablename__ = "service_form_templates"
 
-    service_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("services.id"))
-    form_template_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("form_templates.id"))
+    service_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("services.id"), index=True)
+    form_template_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("form_templates.id"), index=True)
 
     service: Mapped["Service"] = relationship(back_populates="form_links")
     form_template: Mapped["FormTemplate"] = relationship()
@@ -78,13 +78,13 @@ class CaseChecklistItem(UUIDPrimaryKeyMixin, TimestampMixin, Base):
 
     __tablename__ = "case_checklist_items"
 
-    case_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("cases.id"))
+    case_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("cases.id"), index=True)
     label: Mapped[str] = mapped_column(String(255))
     order: Mapped[int] = mapped_column(Integer)
     done: Mapped[bool] = mapped_column(Boolean, default=False)
     done_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
 
-    assigned_to_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("users.id"), nullable=True)
+    assigned_to_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("users.id"), nullable=True, index=True)
     due_date: Mapped[date | None] = mapped_column(Date, nullable=True)
     priority: Mapped[ChecklistPriority] = mapped_column(Enum(ChecklistPriority), default=ChecklistPriority.MEDIUM)
 

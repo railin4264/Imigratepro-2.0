@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { type FormTemplate, type Service, createService, getFormTemplates, getServices } from "@/lib/api";
 import { useTranslation } from "@/lib/i18n";
+import { formatMoney } from "@/lib/format";
 import { AppShell } from "@/components/AppShell";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
@@ -201,7 +202,7 @@ export default function ServicesPage() {
                 <h2 className="font-medium text-zinc-900 dark:text-zinc-50">{s.name}</h2>
                 {s.price != null && (
                   <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">
-                    ${s.price.toLocaleString()}
+                    {formatMoney(s.price)}
                   </span>
                 )}
               </div>

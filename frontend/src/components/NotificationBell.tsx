@@ -3,10 +3,9 @@
 import { useEffect, useRef, useState } from "react";
 import type { SVGProps } from "react";
 import Link from "next/link";
-import { type Notification, getNotifications } from "@/lib/api";
+import { type Notification, getNotifications, markAllNotificationsRead } from "@/lib/api";
 import { useTranslation } from "@/lib/i18n";
 
-const SEEN_KEY = "migratepro-notifications-seen";
 const POLL_MS = 30000;
 
 function BellIcon(props: SVGProps<SVGSVGElement>) {
@@ -22,12 +21,9 @@ export function NotificationBell() {
   const { t, lang } = useTranslation();
   const [notifications, setNotifications] = useState<Notification[]>([]);
   const [open, setOpen] = useState(false);
-  const [lastSeen, setLastSeen] = useState("");
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setLastSeen(window.localStorage.getItem(SEEN_KEY) ?? "");
-
     function load() {
       getNotifications()
         .then(setNotifications)
@@ -48,12 +44,15 @@ export function NotificationBell() {
     return () => document.removeEventListener("mousedown", onClickOutside);
   }, []);
 
-  const unreadCount = notifications.filter((n) => !lastSeen || n.created_at > lastSeen).length;
+  const unreadCount = notifications.filter((n) => !n.read).length;
 
-  function handleMarkAllRead() {
-    const now = new Date().toISOString();
-    window.localStorage.setItem(SEEN_KEY, now);
-    setLastSeen(now);
+  async function handleMarkAllRead() {
+    setNotifications((prev) => prev.map((n) => ({ ...n, read: true })));
+    try {
+      await markAllNotificationsRead();
+    } catch {
+      // next poll will reconcile if this failed
+    }
   }
 
   return (
@@ -89,25 +88,22 @@ export function NotificationBell() {
               <p className="px-2 py-4 text-center text-sm text-zinc-500">{t("notifications.empty")}</p>
             ) : (
               <ul className="space-y-0.5">
-                {notifications.map((n) => {
-                  const unread = !lastSeen || n.created_at > lastSeen;
-                  return (
-                    <li key={n.id}>
-                      <Link
-                        href="/cases"
-                        onClick={() => setOpen(false)}
-                        className={`block rounded-lg px-2 py-2 text-sm transition hover:bg-zinc-50 dark:hover:bg-zinc-800 ${
-                          unread ? "bg-indigo-50/60 dark:bg-indigo-950/20" : ""
-                        }`}
-                      >
-                        <p className="text-zinc-700 dark:text-zinc-300">{n.message}</p>
-                        <p className="mt-0.5 text-xs text-zinc-400">
-                          {new Date(n.created_at).toLocaleString(lang)}
-                        </p>
-                      </Link>
-                    </li>
-                  );
-                })}
+                {notifications.map((n) => (
+                  <li key={n.id}>
+                    <Link
+                      href="/cases"
+                      onClick={() => setOpen(false)}
+                      className={`block rounded-lg px-2 py-2 text-sm transition hover:bg-zinc-50 dark:hover:bg-zinc-800 ${
+                        !n.read ? "bg-indigo-50/60 dark:bg-indigo-950/20" : ""
+                      }`}
+                    >
+                      <p className="text-zinc-700 dark:text-zinc-300">{n.message}</p>
+                      <p className="mt-0.5 text-xs text-zinc-400">
+                        {new Date(n.created_at).toLocaleString(lang)}
+                      </p>
+                    </Link>
+                  </li>
+                ))}
               </ul>
             )}
           </div>

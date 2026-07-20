@@ -16,8 +16,11 @@ from app.schemas.form import (
     GeneratedFormDetail,
     GeneratedFormRead,
     GeneratedFormUpdate,
+    ReceiptNumberUpdate,
 )
-from app.services import form_review_ai
+from app.schemas.requirements import FormRequirementsRead, RequirementCategoryRead
+from app.seed_data.uscis_requirements import USCIS_REQUIREMENTS_BY_FORM_CODE
+from app.services import form_review_ai, uscis_case_status
 from app.services.form_data import build_case_context, resolve_source
 from app.services.notifications import notify
 from app.services.pdf_filler import fill_pdf_form
@@ -29,9 +32,9 @@ def _detail(generated: GeneratedForm, template: FormTemplate) -> GeneratedFormDe
     return GeneratedFormDetail(
         **GeneratedFormRead.model_validate(generated).model_dump(),
         data=generated.data or {},
-        form_code=template.code,
         ai_review=generated.ai_review,
         ai_reviewed_at=generated.ai_reviewed_at,
+        uscis_status_raw=generated.uscis_status_raw,
     )
 
 
@@ -76,6 +79,25 @@ def get_form_template_schema(code: str, db: DbSession):
     if not template:
         raise HTTPException(status_code=404, detail=f"Unknown form template '{code}'")
     return FormTemplateSchema(code=template.code, name=template.name, fields=template.field_schema or [])
+
+
+@router.get("/form-templates/{code}/requirements", response_model=FormRequirementsRead)
+def get_form_requirements(code: str):
+    """Curated reference of what USCIS generally asks for with this form --
+    see app/seed_data/uscis_requirements.py for sourcing and why not every
+    form has an entry. 404 (not an empty list) when there's no entry, so the
+    frontend can tell "nothing required" apart from "not covered yet"."""
+
+    entry = USCIS_REQUIREMENTS_BY_FORM_CODE.get(code)
+    if not entry:
+        raise HTTPException(status_code=404, detail=f"No requirements reference available for '{code}' yet")
+    return FormRequirementsRead(
+        form_code=code,
+        source_url=entry.source_url,
+        source_label=entry.source_label,
+        verified_on=entry.verified_on,
+        categories=[RequirementCategoryRead(title=c.title, items=c.items) for c in entry.categories],
+    )
 
 
 @router.get("/cases/{case_id}/forms", response_model=list[GeneratedFormRead])
@@ -213,3 +235,51 @@ def download_generated_form(generated_form_id: uuid.UUID, db: DbSession):
     template = db.get(FormTemplate, generated.form_template_id)
     filename = f"{template.code}_{generated.case_id}.pdf" if template else f"{generated.id}.pdf"
     return FileResponse(generated.output_pdf_path, media_type="application/pdf", filename=filename)
+
+
+@router.get("/uscis/status")
+def uscis_api_status():
+    return {"configured": uscis_case_status.is_configured()}
+
+
+@router.patch("/forms/{generated_form_id}/receipt-number", response_model=GeneratedFormRead)
+def set_receipt_number(generated_form_id: uuid.UUID, payload: ReceiptNumberUpdate, db: DbSession):
+    generated = db.get(GeneratedForm, generated_form_id)
+    if not generated:
+        raise HTTPException(status_code=404, detail="Generated form not found")
+
+    generated.uscis_receipt_number = payload.uscis_receipt_number
+    # Clear any status tied to the old (or now-absent) receipt number rather
+    # than leave a stale answer attached to a different receipt.
+    generated.uscis_status_raw = None
+    generated.uscis_status_checked_at = None
+    db.commit()
+    db.refresh(generated)
+    return generated
+
+
+@router.post("/forms/{generated_form_id}/check-status", response_model=GeneratedFormDetail)
+def check_uscis_status(generated_form_id: uuid.UUID, db: DbSession):
+    generated = db.get(GeneratedForm, generated_form_id)
+    if not generated:
+        raise HTTPException(status_code=404, detail="Generated form not found")
+    if not generated.uscis_receipt_number:
+        raise HTTPException(status_code=400, detail="Set a USCIS receipt number first")
+    if not uscis_case_status.is_configured():
+        raise HTTPException(
+            status_code=503,
+            detail="USCIS Case Status API is not configured: set USCIS_API_CLIENT_ID/USCIS_API_CLIENT_SECRET in backend/.env",
+        )
+
+    try:
+        result = uscis_case_status.get_case_status(generated.uscis_receipt_number)
+    except uscis_case_status.USCISAPIError as exc:
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
+
+    generated.uscis_status_raw = result
+    generated.uscis_status_checked_at = datetime.now(timezone.utc)
+    db.commit()
+    db.refresh(generated)
+
+    template = db.get(FormTemplate, generated.form_template_id)
+    return _detail(generated, template)

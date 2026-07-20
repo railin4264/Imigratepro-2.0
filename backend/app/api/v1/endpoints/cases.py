@@ -8,14 +8,16 @@ from app.models.client import Client
 from app.models.notification import NotificationType
 from app.models.user import User
 from app.schemas.case import CaseCreate, CaseRead, CaseUpdate, ParticipantCreate, ParticipantRead
+from app.schemas.timeline import CaseTimelineResponse, TimelineStepRead
 from app.services.notifications import notify
+from app.services.timeline import build_case_timeline
 
 router = APIRouter(prefix="/cases", tags=["cases"])
 
 
 @router.get("", response_model=list[CaseRead])
 def list_cases(db: DbSession, skip: int = 0, limit: int = 100):
-    return db.query(Case).offset(skip).limit(limit).all()
+    return db.query(Case).order_by(Case.created_at.desc()).offset(skip).limit(limit).all()
 
 
 @router.post("", response_model=CaseRead, status_code=201)
@@ -70,6 +72,18 @@ def delete_case(case_id: uuid.UUID, db: DbSession):
         raise HTTPException(status_code=404, detail="Case not found")
     db.delete(case)
     db.commit()
+
+
+@router.get("/{case_id}/timeline", response_model=CaseTimelineResponse)
+def get_case_timeline(case_id: uuid.UUID, db: DbSession):
+    case = db.get(Case, case_id)
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found")
+    steps = build_case_timeline(case)
+    return CaseTimelineResponse(
+        case_number=case.case_number,
+        steps=[TimelineStepRead(key=s.key, status=s.status) for s in steps],
+    )
 
 
 @router.get("/{case_id}/participants", response_model=list[ParticipantRead])

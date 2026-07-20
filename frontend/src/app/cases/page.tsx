@@ -7,11 +7,13 @@ import {
   CASE_TYPES,
   CHECKLIST_PRIORITIES,
   PARTICIPANT_ROLES,
-  USER_ROLES,
+  type Appointment,
   type Case,
   type CaseServiceView,
+  type CaseTimeline as CaseTimelineData,
   type Client,
   type GeneratedForm,
+  type Invoice,
   type Participant,
   type Service,
   type User,
@@ -19,11 +21,13 @@ import {
   advanceStage,
   applyServiceToCase,
   createCase,
-  createUser,
+  getCaseAppointments,
   getCaseService,
+  getCaseTimeline,
   getCases,
   getClients,
   getGeneratedForms,
+  getInvoices,
   getParticipants,
   getServices,
   getUsers,
@@ -32,11 +36,15 @@ import {
   updateChecklistItem,
 } from "@/lib/api";
 import { useTranslation } from "@/lib/i18n";
+import { useAuth } from "@/lib/auth";
 import { AppShell } from "@/components/AppShell";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { CasesBoard } from "@/components/CasesBoard";
+import { CaseTimeline } from "@/components/CaseTimeline";
+import { GapAnalysisPanel } from "@/components/GapAnalysisPanel";
+import { RfePanel } from "@/components/RfePanel";
 
 const inputClass =
   "rounded-lg border border-zinc-300 bg-white p-2 text-sm outline-none transition focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50 dark:focus:ring-indigo-950";
@@ -51,9 +59,14 @@ const PRIORITY_CLASSES: Record<string, string> = {
 
 export default function CasesPage() {
   const { t } = useTranslation();
+  const { user } = useAuth();
+  const isAdmin = user?.role === "admin";
   const [cases, setCases] = useState<Case[]>([]);
   const [clients, setClients] = useState<Client[]>([]);
   const [users, setUsers] = useState<User[]>([]);
+  // Deactivated staff can stay assigned to whatever they already had, but
+  // shouldn't be offered as a target for *new* assignments.
+  const activeUsers = users.filter((u) => u.is_active);
   const [error, setError] = useState<string | null>(null);
   const [showForm, setShowForm] = useState(false);
   const [saving, setSaving] = useState(false);
@@ -66,14 +79,12 @@ export default function CasesPage() {
   const [newParticipantClientId, setNewParticipantClientId] = useState("");
   const [newParticipantRole, setNewParticipantRole] = useState<string>(PARTICIPANT_ROLES[0]);
 
-  const [showStaffForm, setShowStaffForm] = useState(false);
-  const [staffName, setStaffName] = useState("");
-  const [staffEmail, setStaffEmail] = useState("");
-  const [staffRole, setStaffRole] = useState<string>("attorney");
-
   const [services, setServices] = useState<Service[]>([]);
   const [caseService, setCaseService] = useState<CaseServiceView | null>(null);
   const [caseForms, setCaseForms] = useState<GeneratedForm[]>([]);
+  const [caseAppointments, setCaseAppointments] = useState<Appointment[]>([]);
+  const [caseInvoices, setCaseInvoices] = useState<Invoice[]>([]);
+  const [caseTimeline, setCaseTimeline] = useState<CaseTimelineData | null>(null);
   const [selectedServiceId, setSelectedServiceId] = useState("");
 
   const [view, setView] = useState<"list" | "board">("list");
@@ -120,19 +131,6 @@ export default function CasesPage() {
     return u ? u.full_name : userId;
   }
 
-  async function handleCreateStaff(e: React.FormEvent) {
-    e.preventDefault();
-    try {
-      const created = await createUser({ full_name: staffName, email: staffEmail, role: staffRole });
-      setUsers((prev) => [...prev, created]);
-      setStaffName("");
-      setStaffEmail("");
-      setShowStaffForm(false);
-    } catch {
-      setError(t("cases.error.assign"));
-    }
-  }
-
   // eslint-disable-next-line react-hooks/exhaustive-deps -- load only once on mount
   useEffect(load, []);
 
@@ -172,6 +170,21 @@ export default function CasesPage() {
       setCaseForms(await getGeneratedForms(caseId));
     } catch {
       setCaseForms([]);
+    }
+    try {
+      setCaseAppointments(await getCaseAppointments(caseId));
+    } catch {
+      setCaseAppointments([]);
+    }
+    try {
+      setCaseInvoices(await getInvoices(caseId));
+    } catch {
+      setCaseInvoices([]);
+    }
+    try {
+      setCaseTimeline(await getCaseTimeline(caseId));
+    } catch {
+      setCaseTimeline(null);
     }
   }
 
@@ -241,9 +254,14 @@ export default function CasesPage() {
             <Button onClick={() => setShowForm((s) => !s)} variant={showForm ? "secondary" : "primary"}>
               {showForm ? t("cases.cancel") : t("cases.new")}
             </Button>
-            <Button onClick={() => setShowStaffForm((s) => !s)} variant="secondary">
-              {showStaffForm ? t("cases.cancel") : t("cases.staff.new")}
-            </Button>
+            {isAdmin && (
+              <Link
+                href="/team"
+                className="rounded-lg border border-zinc-300 px-4 py-2 text-sm font-medium text-zinc-700 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
+              >
+                {t("cases.staff.new")}
+              </Link>
+            )}
           </div>
         </div>
 
@@ -274,45 +292,6 @@ export default function CasesPage() {
           <p className="mb-4 rounded-lg bg-red-50 p-4 text-sm text-red-700 dark:bg-red-950 dark:text-red-300">
             {error}
           </p>
-        )}
-
-        {showStaffForm && (
-          <Card className="mb-6 p-5">
-            <form onSubmit={handleCreateStaff} className="grid grid-cols-1 gap-3 sm:grid-cols-3">
-              <label className={labelClass}>
-                {t("cases.staff.name")}
-                <input
-                  required
-                  value={staffName}
-                  onChange={(e) => setStaffName(e.target.value)}
-                  className={stackedInputClass}
-                />
-              </label>
-              <label className={labelClass}>
-                {t("cases.staff.email")}
-                <input
-                  required
-                  type="email"
-                  value={staffEmail}
-                  onChange={(e) => setStaffEmail(e.target.value)}
-                  className={stackedInputClass}
-                />
-              </label>
-              <label className={labelClass}>
-                {t("cases.staff.role")}
-                <select value={staffRole} onChange={(e) => setStaffRole(e.target.value)} className={stackedInputClass}>
-                  {USER_ROLES.map((r) => (
-                    <option key={r} value={r}>
-                      {t(`enum.userRole.${r}` as Parameters<typeof t>[0])}
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <Button type="submit" className="sm:col-span-3 mt-2">
-                {t("cases.staff.save")}
-              </Button>
-            </form>
-          </Card>
         )}
 
         {showForm && (
@@ -362,8 +341,10 @@ export default function CasesPage() {
           <CasesBoard
             cases={cases}
             users={users}
+            assignableUsers={activeUsers}
             onStatusChange={handleBoardStatusChange}
             onOpenCase={handleOpenFromBoard}
+            onAssign={handleAssign}
           />
         )}
 
@@ -397,13 +378,33 @@ export default function CasesPage() {
                       className={inputClass}
                     >
                       <option value="">{t("cases.unassigned")}</option>
-                      {users.map((usr) => (
+                      {c.assigned_attorney_id && !activeUsers.some((u) => u.id === c.assigned_attorney_id) && (
+                        <option value={c.assigned_attorney_id}>{userName(c.assigned_attorney_id)} ({t("team.inactive")})</option>
+                      )}
+                      {activeUsers.map((usr) => (
                         <option key={usr.id} value={usr.id}>
                           {usr.full_name} ({t(`enum.userRole.${usr.role}` as Parameters<typeof t>[0])})
                         </option>
                       ))}
                     </select>
                   </div>
+
+                  {caseTimeline && (
+                    <div className="mb-4 overflow-x-auto rounded-lg border border-zinc-200 p-3 dark:border-zinc-800">
+                      <h3 className="mb-3 text-xs font-medium uppercase tracking-wide text-zinc-500">
+                        {t("client.timeline.title")}
+                      </h3>
+                      <CaseTimeline timeline={caseTimeline} />
+                    </div>
+                  )}
+
+                  <GapAnalysisPanel
+                    caseId={c.id}
+                    refreshKey={`${participants.length}-${caseService?.current_stage_index ?? -1}-${
+                      caseService?.checklist.filter((i) => i.done).length ?? 0
+                    }`}
+                  />
+                  <RfePanel caseId={c.id} />
 
                   <div className="mb-4 rounded-lg border border-zinc-200 p-3 dark:border-zinc-800">
                     <h3 className="mb-2 text-xs font-medium uppercase tracking-wide text-zinc-500">
@@ -500,7 +501,12 @@ export default function CasesPage() {
                                   className="rounded-md border border-zinc-300 bg-white px-1.5 py-1 text-xs dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50"
                                 >
                                   <option value="">{t("cases.unassigned")}</option>
-                                  {users.map((u) => (
+                                  {item.assigned_to_id && !activeUsers.some((u) => u.id === item.assigned_to_id) && (
+                                    <option value={item.assigned_to_id}>
+                                      {users.find((u) => u.id === item.assigned_to_id)?.full_name ?? item.assigned_to_id}
+                                    </option>
+                                  )}
+                                  {activeUsers.map((u) => (
                                     <option key={u.id} value={u.id}>
                                       {u.full_name}
                                     </option>
@@ -550,7 +556,7 @@ export default function CasesPage() {
                                     href={`/forms/${f.id}`}
                                     className="text-sm font-medium text-indigo-600 hover:underline dark:text-indigo-400"
                                   >
-                                    {f.id.slice(0, 8)} — {f.status}
+                                    {f.form_code} — {t(`enum.formStatus.${f.status}` as Parameters<typeof t>[0])}
                                   </Link>
                                 </li>
                               ))}
@@ -559,6 +565,58 @@ export default function CasesPage() {
                         )}
                       </div>
                     )}
+                  </div>
+
+                  <div className="mb-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                    <div>
+                      <h3 className="mb-2 text-xs font-medium uppercase tracking-wide text-zinc-500">
+                        {t("cases.appointments.title")}
+                      </h3>
+                      {caseAppointments.length === 0 ? (
+                        <p className="text-sm text-zinc-500">{t("cases.appointments.empty")}</p>
+                      ) : (
+                        <ul className="space-y-1">
+                          {caseAppointments.map((a) => (
+                            <li key={a.id} className="text-sm text-zinc-700 dark:text-zinc-300">
+                              {t(`enum.appointmentType.${a.appointment_type}` as Parameters<typeof t>[0])} —{" "}
+                              <span className="text-zinc-500">{new Date(a.scheduled_at).toLocaleString()}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                      <Link
+                        href="/appointments"
+                        className="mt-1 inline-block text-sm font-medium text-indigo-600 hover:underline dark:text-indigo-400"
+                      >
+                        {t("cases.goToAppointments")}
+                      </Link>
+                    </div>
+
+                    <div>
+                      <h3 className="mb-2 text-xs font-medium uppercase tracking-wide text-zinc-500">
+                        {t("cases.invoices.title")}
+                      </h3>
+                      {caseInvoices.length === 0 ? (
+                        <p className="text-sm text-zinc-500">{t("cases.invoices.empty")}</p>
+                      ) : (
+                        <ul className="space-y-1">
+                          {caseInvoices.map((inv) => (
+                            <li key={inv.id} className="text-sm text-zinc-700 dark:text-zinc-300">
+                              {inv.invoice_number} —{" "}
+                              <span className="text-zinc-500">
+                                {(inv.amount - inv.amount_paid).toFixed(2)} {t("billing.balance").toLowerCase()}
+                              </span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                      <Link
+                        href="/billing"
+                        className="mt-1 inline-block text-sm font-medium text-indigo-600 hover:underline dark:text-indigo-400"
+                      >
+                        {t("cases.goToBilling")}
+                      </Link>
+                    </div>
                   </div>
 
                   <h3 className="mb-2 text-xs font-medium uppercase tracking-wide text-zinc-500">

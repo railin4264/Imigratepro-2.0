@@ -29,13 +29,19 @@ _CLIENT_APPLICABLE_FIELDS = {
 
 
 @router.get("/documents", response_model=list[DocumentRead])
-def list_documents(db: DbSession, case_id: uuid.UUID | None = None, client_id: uuid.UUID | None = None):
+def list_documents(
+    db: DbSession,
+    case_id: uuid.UUID | None = None,
+    client_id: uuid.UUID | None = None,
+    skip: int = 0,
+    limit: int = 100,
+):
     query = db.query(Document)
     if case_id:
         query = query.filter(Document.case_id == case_id)
     if client_id:
         query = query.filter(Document.client_id == client_id)
-    return query.order_by(Document.created_at.desc()).all()
+    return query.order_by(Document.created_at.desc()).offset(skip).limit(limit).all()
 
 
 @router.get("/documents/ai-status")
@@ -44,11 +50,18 @@ def ai_status():
 
 
 @router.get("/cases/{case_id}/documents", response_model=list[DocumentRead])
-def list_case_documents(case_id: uuid.UUID, db: DbSession):
+def list_case_documents(case_id: uuid.UUID, db: DbSession, skip: int = 0, limit: int = 100):
     case = db.get(Case, case_id)
     if not case:
         raise HTTPException(status_code=404, detail="Case not found")
-    return db.query(Document).filter(Document.case_id == case_id).order_by(Document.created_at.desc()).all()
+    return (
+        db.query(Document)
+        .filter(Document.case_id == case_id)
+        .order_by(Document.created_at.desc())
+        .offset(skip)
+        .limit(limit)
+        .all()
+    )
 
 
 @router.post("/cases/{case_id}/documents", response_model=DocumentRead, status_code=201)

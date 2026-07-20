@@ -141,6 +141,7 @@ export default function DocumentsPage() {
   }
 
   async function handleDelete(id: string) {
+    if (!window.confirm(t("common.confirmDelete"))) return;
     setBusyId(id);
     try {
       await deleteDocument(id);

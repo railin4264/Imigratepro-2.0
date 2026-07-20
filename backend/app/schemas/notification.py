@@ -15,3 +15,8 @@ class NotificationRead(BaseModel):
     case_id: uuid.UUID | None
     case_number: str | None = None
     created_at: datetime
+    read: bool = False
+
+
+class MarkReadRequest(BaseModel):
+    notification_ids: list[uuid.UUID]

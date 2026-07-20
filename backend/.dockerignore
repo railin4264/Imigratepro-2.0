@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.env
+*.db
+tests/*.db
+
+# Filled forms and client uploads contain real PII -- never bake them into
+# an image (see backend/.gitignore for the same reasoning).
+generated_forms/
+uploaded_documents/
+
+.git/
+.gitignore

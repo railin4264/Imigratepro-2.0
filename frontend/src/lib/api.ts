@@ -1,5 +1,73 @@
 const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000/api/v1";
 
+const TOKEN_STORAGE_KEY = "migratepro-token";
+const REFRESH_TOKEN_STORAGE_KEY = "migratepro-refresh-token";
+// Read synchronously at module-eval time (not from a React effect): pages
+// call fetchJson from their own mount effect, and child effects fire before
+// AuthProvider's, so if this were only set from AuthProvider's effect, a
+// page's very first request on a hard reload would race ahead of it, go out
+// with no Authorization header, get a 401, and log an otherwise-valid
+// session out. Module evaluation always runs before React commits anything,
+// so this closes the race.
+let authToken: string | null = typeof window !== "undefined" ? window.localStorage.getItem(TOKEN_STORAGE_KEY) : null;
+let refreshToken: string | null =
+  typeof window !== "undefined" ? window.localStorage.getItem(REFRESH_TOKEN_STORAGE_KEY) : null;
+
+export function setAuthTokens(access: string | null, refresh: string | null): void {
+  authToken = access;
+  refreshToken = refresh;
+  if (typeof window === "undefined") return;
+  if (access) window.localStorage.setItem(TOKEN_STORAGE_KEY, access);
+  else window.localStorage.removeItem(TOKEN_STORAGE_KEY);
+  if (refresh) window.localStorage.setItem(REFRESH_TOKEN_STORAGE_KEY, refresh);
+  else window.localStorage.removeItem(REFRESH_TOKEN_STORAGE_KEY);
+}
+
+// One-time sync from localStorage -- called by AuthProvider on mount, since
+// this module has no access to localStorage during server rendering.
+export function loadStoredAuthToken(): string | null {
+  if (typeof window === "undefined") return null;
+  authToken = window.localStorage.getItem(TOKEN_STORAGE_KEY);
+  refreshToken = window.localStorage.getItem(REFRESH_TOKEN_STORAGE_KEY);
+  return authToken;
+}
+
+// Access tokens are short-lived (30 min, see backend ACCESS_TOKEN_EXPIRE_MINUTES)
+// so they expire routinely during a normal session. Rather than have every
+// page handle that, fetchJson transparently exchanges the refresh token for
+// a new pair on a 401 and retries once. `refreshPromise` dedupes concurrent
+// refreshes -- the refresh token rotates on use, so two requests racing to
+// refresh at once would have the second one fail against an
+// already-consumed token.
+let refreshPromise: Promise<boolean> | null = null;
+
+async function tryRefresh(): Promise<boolean> {
+  if (!refreshToken) return false;
+  if (!refreshPromise) {
+    refreshPromise = (async () => {
+      try {
+        const res = await fetch(`${API_URL}/auth/refresh`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ refresh_token: refreshToken }),
+        });
+        if (!res.ok) {
+          setAuthTokens(null, null);
+          return false;
+        }
+        const data = await res.json();
+        setAuthTokens(data.access_token, data.refresh_token);
+        return true;
+      } catch {
+        return false;
+      } finally {
+        refreshPromise = null;
+      }
+    })();
+  }
+  return refreshPromise;
+}
+
 export const SEX_OPTIONS = ["male", "female"] as const;
 export const MARITAL_STATUS_OPTIONS = [
   "single",
@@ -117,10 +185,13 @@ export type GeneratedForm = {
   id: string;
   case_id: string;
   form_template_id: string;
+  form_code: string;
   status: string;
   created_at: string;
   access_token: string;
   client_link_enabled: boolean;
+  uscis_receipt_number: string | null;
+  uscis_status_checked_at: string | null;
 };
 
 export type ShowIfCondition = {
@@ -155,11 +226,36 @@ export type AiReview = {
   findings: ReviewFinding[];
 };
 
+export type USCISHistCaseStatus = {
+  date: string;
+  completed_text_en: string;
+  completed_text_es: string;
+};
+
+// Raw shape USCIS's Case Status API returns, stored/passed through as-is (see
+// backend/app/services/uscis_case_status.py for why). submittedDate/modifiedDate
+// are absent for IOE-prefixed receipt numbers per USCIS's own schema split.
+export type USCISCaseStatus = {
+  case_status: {
+    receiptNumber: string;
+    formType: string;
+    submittedDate?: string;
+    modifiedDate?: string;
+    current_case_status_text_en: string;
+    current_case_status_desc_en: string;
+    current_case_status_text_es: string;
+    current_case_status_desc_es: string;
+    hist_case_status?: USCISHistCaseStatus[];
+  };
+  message: string;
+};
+
 export type GeneratedFormDetail = GeneratedForm & {
   data: Record<string, string>;
   form_code: string;
   ai_review: AiReview | null;
   ai_reviewed_at: string | null;
+  uscis_status_raw: USCISCaseStatus | null;
 };
 
 export type PublicFormView = {
@@ -168,6 +264,7 @@ export type PublicFormView = {
   case_number: string;
   fields: FieldSchemaEntry[];
   data: Record<string, string>;
+  client_wizard_step: number;
 };
 
 export const DOCUMENT_TYPES = [
@@ -209,15 +306,55 @@ export type DocumentDetail = UploadedDocument & {
   extracted_data: DocumentExtractedData | null;
 };
 
-async function fetchJson<T>(path: string, init?: RequestInit): Promise<T> {
-  const res = await fetch(`${API_URL}${path}`, { cache: "no-store", ...init });
+const _AUTH_EXEMPT_PREFIXES = ["/public/", "/auth/login", "/auth/refresh", "/auth/forgot-password", "/auth/reset-password"];
+
+// Shared by fetchJson and downloadFile: attaches the bearer token, retries
+// once on 401 after a token refresh, and normalizes auth failure handling.
+// Split out because a plain <a href> download link can't send an
+// Authorization header (the JWT lives in localStorage, not a cookie) --
+// authenticated downloads have to go through fetch() like everything else.
+async function authFetch(path: string, init?: RequestInit, _retried = false): Promise<Response> {
+  const exempt = _AUTH_EXEMPT_PREFIXES.some((p) => path.startsWith(p));
+  const headers = new Headers(init?.headers);
+  if (authToken && !exempt) {
+    headers.set("Authorization", `Bearer ${authToken}`);
+  }
+
+  const res = await fetch(`${API_URL}${path}`, { cache: "no-store", ...init, headers });
+
+  if (res.status === 401) {
+    if (!exempt && !_retried && (await tryRefresh())) {
+      return authFetch(path, init, true);
+    }
+    setAuthTokens(null, null);
+    if (typeof window !== "undefined" && !exempt) {
+      window.dispatchEvent(new Event("migratepro-unauthorized"));
+    }
+    throw new Error(`Request to ${path} failed: 401`);
+  }
   if (!res.ok) {
     throw new Error(`Request to ${path} failed: ${res.status}`);
   }
+  return res;
+}
+
+async function fetchJson<T>(path: string, init?: RequestInit): Promise<T> {
+  const res = await authFetch(path, init);
   if (res.status === 204) {
     return undefined as T;
   }
   return res.json();
+}
+
+// Fetches a protected file and returns it as a blob + the filename the
+// server chose (from Content-Disposition), so callers can trigger a real
+// browser download without ever exposing the endpoint to an unauthenticated
+// <a href>.
+async function fetchFile(path: string): Promise<{ blob: Blob; filename: string | null }> {
+  const res = await authFetch(path);
+  const disposition = res.headers.get("Content-Disposition") ?? "";
+  const match = disposition.match(/filename="?([^"]+)"?/);
+  return { blob: await res.blob(), filename: match ? match[1] : null };
 }
 
 export function getClients(): Promise<Client[]> {
@@ -298,6 +435,41 @@ export function createUser(payload: {
   });
 }
 
+export function updateUser(
+  userId: string,
+  payload: Partial<{
+    full_name: string;
+    role: string;
+    is_active: boolean;
+    bar_number: string;
+    firm_name: string;
+    phone: string;
+    mobile_phone: string;
+    address_line: string;
+    city: string;
+    state: string;
+    zip_code: string;
+  }>,
+): Promise<User> {
+  return fetchJson(`/users/${userId}`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export type UserWorkload = {
+  user: User;
+  assigned_case_count: number;
+  cases_by_status: Record<string, number>;
+  open_rfe_count: number;
+  overdue_checklist_count: number;
+};
+
+export function getUserWorkload(): Promise<UserWorkload[]> {
+  return fetchJson("/users/workload");
+}
+
 export function getParticipants(caseId: string): Promise<Participant[]> {
   return fetchJson(`/cases/${caseId}/participants`);
 }
@@ -326,8 +498,19 @@ export function generateForm(caseId: string, formCode: string): Promise<Generate
   });
 }
 
-export function downloadUrl(generatedFormId: string): string {
-  return `${API_URL}/forms/${generatedFormId}/download`;
+// Downloads happen behind auth, so a plain <a href> can't be used (no way to
+// attach the Authorization header to a browser-initiated navigation) --
+// fetch the PDF as a blob and trigger the save via a throwaway object URL.
+export async function downloadGeneratedForm(generatedFormId: string, fallbackFilename = "form.pdf"): Promise<void> {
+  const { blob, filename } = await fetchFile(`/forms/${generatedFormId}/download`);
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename ?? fallbackFilename;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
 }
 
 export function getFormTemplateSchema(code: string): Promise<FormTemplateSchema> {
@@ -402,7 +585,16 @@ export function advanceStage(caseId: string): Promise<CaseServiceView> {
   return fetchJson(`/cases/${caseId}/advance-stage`, { method: "POST" });
 }
 
-export type NotificationType = "case_assigned" | "stage_advanced" | "document_uploaded" | "ai_review_flagged";
+export type NotificationType =
+  | "case_assigned"
+  | "stage_advanced"
+  | "document_uploaded"
+  | "ai_review_flagged"
+  | "appointment_scheduled"
+  | "appointment_reminder"
+  | "invoice_overdue"
+  | "payment_received"
+  | "rfe_received";
 
 export type Notification = {
   id: string;
@@ -411,10 +603,23 @@ export type Notification = {
   case_id: string | null;
   case_number: string | null;
   created_at: string;
+  read: boolean;
 };
 
 export function getNotifications(): Promise<Notification[]> {
   return fetchJson("/notifications");
+}
+
+export function markNotificationsRead(notificationIds: string[]): Promise<void> {
+  return fetchJson("/notifications/mark-read", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ notification_ids: notificationIds }),
+  });
+}
+
+export function markAllNotificationsRead(): Promise<void> {
+  return fetchJson("/notifications/mark-all-read", { method: "POST" });
 }
 
 export function clientLinkUrl(accessToken: string): string {
@@ -426,16 +631,36 @@ export function getPublicForm(token: string): Promise<PublicFormView> {
   return fetchJson(`/public/forms/${token}`);
 }
 
-export function updatePublicForm(token: string, data: Record<string, string>): Promise<PublicFormView> {
+export function updatePublicForm(
+  token: string,
+  data: Record<string, string>,
+  clientWizardStep?: number
+): Promise<PublicFormView> {
   return fetchJson(`/public/forms/${token}`, {
     method: "PATCH",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ data }),
+    body: JSON.stringify({ data, client_wizard_step: clientWizardStep }),
   });
 }
 
 export function reviewGeneratedForm(id: string): Promise<GeneratedFormDetail> {
   return fetchJson(`/forms/${id}/review`, { method: "POST" });
+}
+
+export function getUscisApiStatus(): Promise<{ configured: boolean }> {
+  return fetchJson("/uscis/status");
+}
+
+export function setReceiptNumber(id: string, receiptNumber: string | null): Promise<GeneratedForm> {
+  return fetchJson(`/forms/${id}/receipt-number`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ uscis_receipt_number: receiptNumber }),
+  });
+}
+
+export function checkUscisStatus(id: string): Promise<GeneratedFormDetail> {
+  return fetchJson(`/forms/${id}/check-status`, { method: "POST" });
 }
 
 export function getAiStatus(): Promise<{ configured: boolean }> {
@@ -498,4 +723,450 @@ export function uploadPublicDocument(token: string, file: File, role?: string): 
     method: "POST",
     body: formData,
   });
+}
+
+// --- Auth ---------------------------------------------------------------
+
+export type AuthUser = {
+  id: string;
+  full_name: string;
+  email: string;
+  role: (typeof USER_ROLES)[number];
+};
+
+export async function login(email: string, password: string): Promise<AuthUser> {
+  const result = await fetchJson<{ access_token: string; refresh_token: string; token_type: string; user: AuthUser }>(
+    "/auth/login",
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, password }),
+    },
+  );
+  setAuthTokens(result.access_token, result.refresh_token);
+  return result.user;
+}
+
+export async function logout(): Promise<void> {
+  if (refreshToken) {
+    // Best-effort: revoke server-side so the refresh token can't be replayed
+    // later. Still clear local state even if this fails (offline, etc.) --
+    // the user asked to log out, that should always work locally.
+    try {
+      await fetchJson("/auth/logout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ refresh_token: refreshToken }),
+      });
+    } catch {
+      // ignore
+    }
+  }
+  setAuthTokens(null, null);
+}
+
+export function getMe(): Promise<AuthUser> {
+  return fetchJson("/auth/me");
+}
+
+export function forgotPassword(email: string): Promise<void> {
+  return fetchJson("/auth/forgot-password", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email }),
+  });
+}
+
+export function resetPassword(token: string, password: string): Promise<void> {
+  return fetchJson("/auth/reset-password", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ token, password }),
+  });
+}
+
+export function setUserPassword(userId: string, password: string): Promise<User> {
+  return fetchJson(`/users/${userId}/password`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ password }),
+  });
+}
+
+// --- Appointments ---------------------------------------------------------
+
+export const APPOINTMENT_TYPES = [
+  "biometrics",
+  "interview",
+  "rfe_deadline",
+  "court_hearing",
+  "consultation",
+  "other",
+] as const;
+
+export type Appointment = {
+  id: string;
+  case_id: string;
+  case_number: string | null;
+  appointment_type: (typeof APPOINTMENT_TYPES)[number];
+  scheduled_at: string;
+  location: string | null;
+  notes: string | null;
+  reminder_sent: boolean;
+  created_at: string;
+};
+
+export function getAppointments(filters?: { caseId?: string; upcomingOnly?: boolean }): Promise<Appointment[]> {
+  const params = new URLSearchParams();
+  if (filters?.caseId) params.set("case_id", filters.caseId);
+  if (filters?.upcomingOnly) params.set("upcoming_only", "true");
+  const qs = params.toString();
+  return fetchJson(`/appointments${qs ? `?${qs}` : ""}`);
+}
+
+export function getCaseAppointments(caseId: string): Promise<Appointment[]> {
+  return fetchJson(`/cases/${caseId}/appointments`);
+}
+
+export function createAppointment(
+  caseId: string,
+  payload: {
+    appointment_type: string;
+    scheduled_at: string;
+    location?: string;
+    notes?: string;
+  },
+): Promise<Appointment> {
+  return fetchJson(`/cases/${caseId}/appointments`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deleteAppointment(id: string): Promise<void> {
+  return fetchJson(`/appointments/${id}`, { method: "DELETE" });
+}
+
+// --- Billing ----------------------------------------------------------------
+
+export const INVOICE_STATUSES = ["draft", "sent", "partially_paid", "paid", "overdue", "cancelled"] as const;
+export const PAYMENT_METHODS = ["cash", "card", "bank_transfer", "check", "other"] as const;
+
+export type Payment = {
+  id: string;
+  invoice_id: string;
+  amount: number;
+  method: (typeof PAYMENT_METHODS)[number];
+  paid_at: string;
+  notes: string | null;
+};
+
+export type Invoice = {
+  id: string;
+  case_id: string;
+  case_number: string | null;
+  invoice_number: string;
+  description: string | null;
+  amount: number;
+  amount_paid: number;
+  status: (typeof INVOICE_STATUSES)[number];
+  due_date: string | null;
+  paid_at: string | null;
+  created_at: string;
+};
+
+export type InvoiceDetail = Invoice & { payments: Payment[] };
+
+export function getInvoices(caseId?: string): Promise<Invoice[]> {
+  const qs = caseId ? `?case_id=${caseId}` : "";
+  return fetchJson(`/invoices${qs}`);
+}
+
+export function getInvoice(id: string): Promise<InvoiceDetail> {
+  return fetchJson(`/invoices/${id}`);
+}
+
+export function createInvoice(
+  caseId: string,
+  payload: { description?: string; amount: number; due_date?: string },
+): Promise<Invoice> {
+  return fetchJson(`/cases/${caseId}/invoices`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export function updateInvoice(
+  id: string,
+  payload: Partial<{ description: string; amount: number; due_date: string | null; status: string }>,
+): Promise<Invoice> {
+  return fetchJson(`/invoices/${id}`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deleteInvoice(id: string): Promise<void> {
+  return fetchJson(`/invoices/${id}`, { method: "DELETE" });
+}
+
+export function addPayment(
+  invoiceId: string,
+  payload: { amount: number; method: string; paid_at?: string; notes?: string },
+): Promise<InvoiceDetail> {
+  return fetchJson(`/invoices/${invoiceId}/payments`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deletePayment(invoiceId: string, paymentId: string): Promise<InvoiceDetail> {
+  return fetchJson(`/invoices/${invoiceId}/payments/${paymentId}`, { method: "DELETE" });
+}
+
+// --- Stats ------------------------------------------------------------------
+
+export type CountByKey = { key: string; count: number };
+
+export type StatsOverview = {
+  total_clients: number;
+  total_cases: number;
+  open_cases: number;
+  cases_by_status: CountByKey[];
+  cases_by_type: CountByKey[];
+  total_documents: number;
+  upcoming_appointments_7d: number;
+  overdue_appointments: number;
+  total_invoiced: number;
+  total_collected: number;
+  total_outstanding: number;
+  overdue_invoice_count: number;
+  cases_created_last_30d: CountByKey[];
+};
+
+export type RevenuePoint = { month: string; invoiced: number; collected: number };
+
+export function getStatsOverview(): Promise<StatsOverview> {
+  return fetchJson("/stats/overview");
+}
+
+export function getRevenueByMonth(months = 6): Promise<RevenuePoint[]> {
+  return fetchJson(`/stats/revenue?months=${months}`);
+}
+
+// --- RFEs (Requests for Evidence) --------------------------------------
+
+export const RFE_STATUSES = ["open", "responded", "closed"] as const;
+export const RFE_EVIDENCE_STATUSES = ["pending", "gathered", "submitted"] as const;
+
+export type RFE = {
+  id: string;
+  case_id: string;
+  case_number: string | null;
+  status: (typeof RFE_STATUSES)[number];
+  received_date: string;
+  response_due_date: string | null;
+  notes: string | null;
+  created_at: string;
+  evidence_count: number;
+  evidence_gathered_count: number;
+};
+
+export type RFEEvidenceItem = {
+  id: string;
+  description: string;
+  status: (typeof RFE_EVIDENCE_STATUSES)[number];
+  order: number;
+};
+
+export type RFEDetail = RFE & {
+  raw_text: string | null;
+  evidence_items: RFEEvidenceItem[];
+};
+
+export function getCaseRfes(caseId: string): Promise<RFE[]> {
+  return fetchJson(`/cases/${caseId}/rfes`);
+}
+
+export function createRfe(
+  caseId: string,
+  payload: { received_date: string; response_due_date?: string; raw_text?: string; notes?: string },
+): Promise<RFE> {
+  return fetchJson(`/cases/${caseId}/rfes`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export function getRfe(id: string): Promise<RFEDetail> {
+  return fetchJson(`/rfes/${id}`);
+}
+
+export function updateRfe(
+  id: string,
+  payload: Partial<{ status: string; response_due_date: string | null; raw_text: string; notes: string }>,
+): Promise<RFEDetail> {
+  return fetchJson(`/rfes/${id}`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deleteRfe(id: string): Promise<void> {
+  return fetchJson(`/rfes/${id}`, { method: "DELETE" });
+}
+
+export function addRfeEvidenceItem(rfeId: string, description: string): Promise<RFEEvidenceItem> {
+  return fetchJson(`/rfes/${rfeId}/evidence`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ description }),
+  });
+}
+
+export function updateRfeEvidenceItem(
+  rfeId: string,
+  itemId: string,
+  payload: Partial<{ description: string; status: string }>,
+): Promise<RFEEvidenceItem> {
+  return fetchJson(`/rfes/${rfeId}/evidence/${itemId}`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deleteRfeEvidenceItem(rfeId: string, itemId: string): Promise<void> {
+  return fetchJson(`/rfes/${rfeId}/evidence/${itemId}`, { method: "DELETE" });
+}
+
+export function getRfeAiStatus(): Promise<{ configured: boolean }> {
+  return fetchJson("/rfes/ai-status");
+}
+
+export type RFESuggestion = { description: string; reason: string };
+
+export function suggestRfeEvidence(rfeId: string, rawText?: string): Promise<{ suggestions: RFESuggestion[] }> {
+  return fetchJson(`/rfes/${rfeId}/suggest`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ raw_text: rawText }),
+  });
+}
+
+// --- "Mi día" preparer dashboard -----------------------------------------
+
+export type MyDayAppointment = {
+  id: string;
+  case_id: string;
+  case_number: string;
+  appointment_type: string;
+  scheduled_at: string;
+};
+
+export type MyDayChecklistItem = {
+  id: string;
+  case_id: string;
+  case_number: string;
+  label: string;
+  due_date: string | null;
+  priority: string;
+  overdue: boolean;
+};
+
+export type MyDayRFE = {
+  id: string;
+  case_id: string;
+  case_number: string;
+  status: string;
+  response_due_date: string | null;
+};
+
+export type MyDayCase = { id: string; case_number: string; status: string };
+
+export type MyDay = {
+  assigned_case_count: number;
+  appointments_today: MyDayAppointment[];
+  checklist_due: MyDayChecklistItem[];
+  open_rfes: MyDayRFE[];
+  cases_ready_for_review: MyDayCase[];
+};
+
+export function getMyDay(): Promise<MyDay> {
+  return fetchJson("/dashboard/me");
+}
+
+// --- Gap analysis -----------------------------------------------------------
+
+export type GapItem = {
+  severity: "high" | "medium" | "low";
+  code: string;
+  message: string;
+  client_id: string | null;
+};
+
+export type RequirementCategory = {
+  title: string;
+  items: string[];
+};
+
+export type FormRequirements = {
+  form_code: string;
+  source_url: string;
+  source_label: string;
+  verified_on: string;
+  categories: RequirementCategory[];
+};
+
+export type GapAnalysis = {
+  case_id: string;
+  checked_at: string;
+  gaps: GapItem[];
+  reference_checklist: FormRequirements[];
+};
+
+export function getCaseGapAnalysis(caseId: string): Promise<GapAnalysis> {
+  return fetchJson(`/cases/${caseId}/gap-analysis`);
+}
+
+export function getFormRequirements(code: string): Promise<FormRequirements> {
+  return fetchJson(`/form-templates/${code}/requirements`);
+}
+
+// --- Case timeline ------------------------------------------------------
+
+export const TIMELINE_STEP_KEYS = [
+  "intake",
+  "contract",
+  "forms",
+  "evidence",
+  "prepared",
+  "filed",
+  "biometrics",
+  "interview",
+  "decision",
+] as const;
+
+export type TimelineStep = {
+  key: (typeof TIMELINE_STEP_KEYS)[number];
+  status: "done" | "current" | "pending";
+};
+
+export type CaseTimeline = {
+  case_number: string;
+  steps: TimelineStep[];
+};
+
+export function getCaseTimeline(caseId: string): Promise<CaseTimeline> {
+  return fetchJson(`/cases/${caseId}/timeline`);
+}
+
+export function getPublicCaseTimeline(token: string): Promise<CaseTimeline> {
+  return fetchJson(`/public/forms/${token}/timeline`);
 }
