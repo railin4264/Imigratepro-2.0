@@ -5,6 +5,8 @@ backend/__pycache__/
 *.pyc
 backend/*.db
 backend/tests/*.db
+backend/tests/*.db-journal
+backend/tests/test_generated_forms/
 backend/.pytest_cache/
 backend/.env
 # Filled forms and client uploads contain PII, never commit them

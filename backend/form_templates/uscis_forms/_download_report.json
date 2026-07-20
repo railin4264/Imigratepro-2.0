@@ -1,0 +1,1753 @@
+[
+  {
+    "slug": "ar-11",
+    "url": "https://www.uscis.gov/ar-11",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\ar-11\\ar-11.pdf",
+        "bytes": 291691
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "eoir-29",
+    "url": "https://www.uscis.gov/eoir-29",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\eoir-29\\eoir-29.pdf",
+        "bytes": 1573791
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-1041",
+    "url": "https://www.uscis.gov/g-1041",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1041\\g-1041.pdf",
+        "bytes": 346920
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1041\\g-1041instr.pdf",
+        "bytes": 244370
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-1041a",
+    "url": "https://www.uscis.gov/g-1041a",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1041a\\g-1041a.pdf",
+        "bytes": 361080
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1041a\\g-1041ainstr.pdf",
+        "bytes": 228582
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-1055",
+    "url": "https://www.uscis.gov/g-1055",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1055\\g-1055.pdf",
+        "bytes": 653867
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-1145",
+    "url": "https://www.uscis.gov/g-1145",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1145\\g-1145.pdf",
+        "bytes": 250968
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-1256",
+    "url": "https://www.uscis.gov/g-1256",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1256\\g-1256.pdf",
+        "bytes": 266380
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1256\\g-1256instr.pdf",
+        "bytes": 303866
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-1450",
+    "url": "https://www.uscis.gov/g-1450",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1450\\g-1450.pdf",
+        "bytes": 278599
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1450\\g-1450instr.pdf",
+        "bytes": 214614
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-1566",
+    "url": "https://www.uscis.gov/g-1566",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1566\\g-1566.pdf",
+        "bytes": 371841
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1566\\g-1566instr.pdf",
+        "bytes": 276422
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-1650",
+    "url": "https://www.uscis.gov/g-1650",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1650\\g-1650.pdf",
+        "bytes": 266757
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1650\\g-1650instr.pdf",
+        "bytes": 551027
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-1651",
+    "url": "https://www.uscis.gov/g-1651",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-1651\\g-1651.pdf",
+        "bytes": 975922
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-28",
+    "url": "https://www.uscis.gov/g-28",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-28\\g-28.pdf",
+        "bytes": 396003
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-28\\g-28instr.pdf",
+        "bytes": 215448
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-28i",
+    "url": "https://www.uscis.gov/g-28i",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-28i\\g-28i.pdf",
+        "bytes": 902394
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-28i\\g-28iinstr.pdf",
+        "bytes": 216756
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-325a",
+    "url": "https://www.uscis.gov/g-325a",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-325a\\g-325a.pdf",
+        "bytes": 407095
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-325a\\g-325ainstr.pdf",
+        "bytes": 308923
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-325r",
+    "url": "https://www.uscis.gov/g-325r",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-325r\\g-325r.pdf",
+        "bytes": 426801
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-845",
+    "url": "https://www.uscis.gov/g-845",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-845\\g-845.pdf",
+        "bytes": 382637
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-845\\g-845instr.pdf",
+        "bytes": 293524
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "g-884",
+    "url": "https://www.uscis.gov/g-884",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-884\\g-884.pdf",
+        "bytes": 389111
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\g-884\\g-884instr.pdf",
+        "bytes": 293510
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-102",
+    "url": "https://www.uscis.gov/i-102",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-102\\i-102.pdf",
+        "bytes": 440650
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-102\\i-102instr.pdf",
+        "bytes": 325699
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-129",
+    "url": "https://www.uscis.gov/i-129",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129\\i-129.pdf",
+        "bytes": 2296144
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129\\i-129h2a.pdf",
+        "bytes": 703946
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129\\i-129h2ainstr.pdf",
+        "bytes": 407163
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129\\i-129instr.pdf",
+        "bytes": 691437
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129\\m-1087.pdf",
+        "bytes": 276883
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129\\m-1097.pdf",
+        "bytes": 277243
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129\\m-735.pdf",
+        "bytes": 293434
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129\\m-736.pdf",
+        "bytes": 363675
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129\\m-746.pdf",
+        "bytes": 126706
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-129f",
+    "url": "https://www.uscis.gov/i-129f",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129f\\i-129f.pdf",
+        "bytes": 741216
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129f\\i-129finstr.pdf",
+        "bytes": 322725
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-129s",
+    "url": "https://www.uscis.gov/i-129s",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129s\\i-129s.pdf",
+        "bytes": 480045
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-129s\\i-129sinstr.pdf",
+        "bytes": 330846
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-130",
+    "url": "https://www.uscis.gov/i-130",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-130\\i-130.pdf",
+        "bytes": 729861
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-130\\i-130a.pdf",
+        "bytes": 465583
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-130\\i-130instr.pdf",
+        "bytes": 286856
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-131",
+    "url": "https://www.uscis.gov/i-131",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-131\\i-131.pdf",
+        "bytes": 652991
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-131\\i-131instr.pdf",
+        "bytes": 558328
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-131a",
+    "url": "https://www.uscis.gov/i-131a",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-131a\\i-131a.pdf",
+        "bytes": 443431
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-131a\\i-131ainstr.pdf",
+        "bytes": 322007
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-131f",
+    "url": "https://www.uscis.gov/i-131f",
+    "pdfs": [],
+    "status": "no_pdfs"
+  },
+  {
+    "slug": "i-134",
+    "url": "https://www.uscis.gov/i-134",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-134\\i-134.pdf",
+        "bytes": 511302
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-134\\i-134instr.pdf",
+        "bytes": 357194
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-140",
+    "url": "https://www.uscis.gov/i-140",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-140\\i-140.pdf",
+        "bytes": 525476
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-140\\i-140instr.pdf",
+        "bytes": 407294
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-140g",
+    "url": "https://www.uscis.gov/i-140g",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-140g\\I-140Ginstr.pdf",
+        "bytes": 302883
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-140g\\i-140g.pdf",
+        "bytes": 983445
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-191",
+    "url": "https://www.uscis.gov/i-191",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-191\\i-191.pdf",
+        "bytes": 733275
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-191\\i-191instr.pdf",
+        "bytes": 207430
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-192",
+    "url": "https://www.uscis.gov/i-192",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-192\\i-192.pdf",
+        "bytes": 451424
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-192\\i-192instr.pdf",
+        "bytes": 387234
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-193",
+    "url": "https://www.uscis.gov/i-193",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-193\\i-193.pdf",
+        "bytes": 658247
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-212",
+    "url": "https://www.uscis.gov/i-212",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-212\\i-212.pdf",
+        "bytes": 551182
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-212\\i-212instr.pdf",
+        "bytes": 480061
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-290b",
+    "url": "https://www.uscis.gov/i-290b",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-290b\\i-290b.pdf",
+        "bytes": 359636
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-290b\\i-290binstr.pdf",
+        "bytes": 356739
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-356",
+    "url": "https://www.uscis.gov/i-356",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-356\\i-356.pdf",
+        "bytes": 454484
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-356\\i-356instr.pdf",
+        "bytes": 249138
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-360",
+    "url": "https://www.uscis.gov/i-360",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-360\\i-360.pdf",
+        "bytes": 823077
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-360\\i-360instr.pdf",
+        "bytes": 345081
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-360\\m-737.pdf",
+        "bytes": 260089
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-361",
+    "url": "https://www.uscis.gov/i-361",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-361\\i-361.pdf",
+        "bytes": 522761
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-361\\i-361instr.pdf",
+        "bytes": 234770
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-363",
+    "url": "https://www.uscis.gov/i-363",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-363\\i-363.pdf",
+        "bytes": 457010
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-363\\i-363instr.pdf",
+        "bytes": 227470
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-407",
+    "url": "https://www.uscis.gov/i-407",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-407\\i-407.pdf",
+        "bytes": 392956
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-407\\i407instr.pdf",
+        "bytes": 290196
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-485",
+    "url": "https://www.uscis.gov/i-485",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-485\\i-485.pdf",
+        "bytes": 1203646
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-485\\i-485instr.pdf",
+        "bytes": 588005
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-508",
+    "url": "https://www.uscis.gov/i-508",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-508\\i-508.pdf",
+        "bytes": 364851
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-508\\i-508instr.pdf",
+        "bytes": 341992
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-526",
+    "url": "https://www.uscis.gov/i-526",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-526\\i-526.pdf",
+        "bytes": 718745
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-526\\i-526instr.pdf",
+        "bytes": 365670
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-526e",
+    "url": "https://www.uscis.gov/i-526e",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-526e\\i-526e.pdf",
+        "bytes": 732176
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-526e\\i-526einstr.pdf",
+        "bytes": 392693
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-539",
+    "url": "https://www.uscis.gov/i-539",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-539\\i-539.pdf",
+        "bytes": 495022
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-539\\i-539a.pdf",
+        "bytes": 427057
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-539\\i-539instr.pdf",
+        "bytes": 320192
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-566",
+    "url": "https://www.uscis.gov/i-566",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-566\\i-566.pdf",
+        "bytes": 498646
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-566\\i-566instr.pdf",
+        "bytes": 479093
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-589",
+    "url": "https://www.uscis.gov/i-589",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_AR.pdf",
+        "bytes": 664968
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_CH.pdf",
+        "bytes": 644056
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_DAR.pdf",
+        "bytes": 769415
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_ES.pdf",
+        "bytes": 628734
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_FR.pdf",
+        "bytes": 952599
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_HC.pdf",
+        "bytes": 799601
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_PSH.pdf",
+        "bytes": 944723
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_PT.pdf",
+        "bytes": 775991
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_RU.pdf",
+        "bytes": 973505
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_SO.pdf",
+        "bytes": 535453
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_TUR.pdf",
+        "bytes": 1005575
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Form%20with%20Watermark_VI.pdf",
+        "bytes": 1457733
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instruction_AR.pdf",
+        "bytes": 1046098
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instructions_CH.pdf",
+        "bytes": 560319
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instructions_DAR.pdf",
+        "bytes": 969204
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instructions_ES.pdf",
+        "bytes": 671609
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instructions_FR.pdf",
+        "bytes": 537139
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instructions_HC.pdf",
+        "bytes": 741129
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instructions_PSH.pdf",
+        "bytes": 1000099
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instructions_PT.pdf",
+        "bytes": 650662
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instructions_RU.pdf",
+        "bytes": 657826
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instructions_SO.pdf",
+        "bytes": 1256780
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instructions_TUR.pdf",
+        "bytes": 1343672
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\I-589%20Instructions_VI.pdf",
+        "bytes": 1163578
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\i-589.pdf",
+        "bytes": 835317
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-589\\i-589instr.pdf",
+        "bytes": 344328
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-600",
+    "url": "https://www.uscis.gov/i-600",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-600\\i-600.pdf",
+        "bytes": 723045
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-600\\i-600asup1.pdf",
+        "bytes": 409722
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-600\\i-600asup2.pdf",
+        "bytes": 293698
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-600\\i-600asup3.pdf",
+        "bytes": 457853
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-600\\i-600instr.pdf",
+        "bytes": 346346
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-600a",
+    "url": "https://www.uscis.gov/i-600a",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-600a\\i-600a.pdf",
+        "bytes": 611422
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-600a\\i-600ainstr.pdf",
+        "bytes": 326763
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-600a\\i-600asup1.pdf",
+        "bytes": 409722
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-600a\\i-600asup2.pdf",
+        "bytes": 293698
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-600a\\i-600asup3.pdf",
+        "bytes": 457853
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-601",
+    "url": "https://www.uscis.gov/i-601",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-601\\i-601.pdf",
+        "bytes": 628220
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-601\\i-601instr.pdf",
+        "bytes": 468712
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-601a",
+    "url": "https://www.uscis.gov/i-601a",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-601a\\i-601a.pdf",
+        "bytes": 566986
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-601a\\i-601achecklist_arab.pdf",
+        "bytes": 79355
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-601a\\i-601achecklist_english.pdf",
+        "bytes": 229091
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-601a\\i-601achecklist_kor.pdf",
+        "bytes": 67113
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-601a\\i-601achecklist_simchinese.pdf",
+        "bytes": 107528
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-601a\\i-601achecklist_spanish.pdf",
+        "bytes": 230650
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-601a\\i-601achecklist_viet.pdf",
+        "bytes": 115990
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-601a\\i-601ainstr.pdf",
+        "bytes": 435490
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-602",
+    "url": "https://www.uscis.gov/i-602",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-602\\i-602.pdf",
+        "bytes": 522530
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-602\\i-602instr.pdf",
+        "bytes": 357006
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-612",
+    "url": "https://www.uscis.gov/i-612",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-612\\i-612.pdf",
+        "bytes": 500563
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-612\\i-612instr.pdf",
+        "bytes": 335555
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-687",
+    "url": "https://www.uscis.gov/i-687",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-687\\i-687.pdf",
+        "bytes": 1193450
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-687\\i-687instr.pdf",
+        "bytes": 265671
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-690",
+    "url": "https://www.uscis.gov/i-690",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-690\\i-690.pdf",
+        "bytes": 468002
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-690\\i-690instr.pdf",
+        "bytes": 258414
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-690\\i-690sup1.pdf",
+        "bytes": 350522
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-693",
+    "url": "https://www.uscis.gov/i-693",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-693\\i-693.pdf",
+        "bytes": 695449
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-693\\i-693instr.pdf",
+        "bytes": 347725
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-694",
+    "url": "https://www.uscis.gov/i-694",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-694\\i-694.pdf",
+        "bytes": 1082633
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-694\\i-694instr.pdf",
+        "bytes": 282224
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-698",
+    "url": "https://www.uscis.gov/i-698",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-698\\i-698.pdf",
+        "bytes": 547860
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-698\\i-698instr.pdf",
+        "bytes": 272426
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-730",
+    "url": "https://www.uscis.gov/i-730",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-730\\i-590.pdf",
+        "bytes": 749206
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-730\\i-730.pdf",
+        "bytes": 347871
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-730\\i-730instr.pdf",
+        "bytes": 96820
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-751",
+    "url": "https://www.uscis.gov/i-751",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-751\\i-751.pdf",
+        "bytes": 627011
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-751\\i-751instr.pdf",
+        "bytes": 277430
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-765",
+    "url": "https://www.uscis.gov/i-765",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-765\\i-765.pdf",
+        "bytes": 467424
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-765\\i-765instr.pdf",
+        "bytes": 580406
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-765\\i-765ws.pdf",
+        "bytes": 260301
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-765v",
+    "url": "https://www.uscis.gov/i-765v",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-765v\\i-765v.pdf",
+        "bytes": 540473
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-765v\\i-765vinstr.pdf",
+        "bytes": 394530
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-800",
+    "url": "https://www.uscis.gov/i-800",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-800\\i-800.pdf",
+        "bytes": 614918
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-800\\i-800instr.pdf",
+        "bytes": 304151
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-800\\i-800sup1.pdf",
+        "bytes": 327124
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-800a",
+    "url": "https://www.uscis.gov/i-800a",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-800a\\i-800a.pdf",
+        "bytes": 634181
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-800a\\i-800ainstr.pdf",
+        "bytes": 350393
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-800a\\i-800asup1.pdf",
+        "bytes": 437220
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-800a\\i-800asup2.pdf",
+        "bytes": 320357
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-800a\\i-800asup3.pdf",
+        "bytes": 461030
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-817",
+    "url": "https://www.uscis.gov/i-817",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-817\\i-817.pdf",
+        "bytes": 1445101
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-817\\i-817instr.pdf",
+        "bytes": 285377
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-821",
+    "url": "https://www.uscis.gov/i-821",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-821\\i-821.pdf",
+        "bytes": 861313
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-821\\i-821instr.pdf",
+        "bytes": 366436
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-821d",
+    "url": "https://www.uscis.gov/i-821d",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-821d\\i-765.pdf",
+        "bytes": 467424
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-821d\\i-765instr.pdf",
+        "bytes": 580406
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-821d\\i-765ws.pdf",
+        "bytes": 260301
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-821d\\i-821d.pdf",
+        "bytes": 557225
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-821d\\i-821dinstr.pdf",
+        "bytes": 388290
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-824",
+    "url": "https://www.uscis.gov/i-824",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-824\\i-824.pdf",
+        "bytes": 435612
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-824\\i-824instr.pdf",
+        "bytes": 409907
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-829",
+    "url": "https://www.uscis.gov/i-829",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-829\\i-829.pdf",
+        "bytes": 662104
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-829\\i-829instr.pdf",
+        "bytes": 358255
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-854",
+    "url": "https://www.uscis.gov/i-854",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-854\\i-854a.pdf",
+        "bytes": 471437
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-854\\i-854b.pdf",
+        "bytes": 356383
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-854\\i-854instr.pdf",
+        "bytes": 252834
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-864",
+    "url": "https://www.uscis.gov/i-864",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-864\\i-864.pdf",
+        "bytes": 540131
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-864\\i-864instr.pdf",
+        "bytes": 342054
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-864a",
+    "url": "https://www.uscis.gov/i-864a",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-864a\\I-864a.pdf",
+        "bytes": 484388
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-864a\\i-864ainstr.pdf",
+        "bytes": 270199
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-864p",
+    "url": "https://www.uscis.gov/i-864p",
+    "pdfs": [],
+    "status": "no_pdfs"
+  },
+  {
+    "slug": "i-864w",
+    "url": "https://www.uscis.gov/i-864w",
+    "pdfs": [],
+    "status": "no_pdfs"
+  },
+  {
+    "slug": "i-865",
+    "url": "https://www.uscis.gov/i-865",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-865\\i-865.pdf",
+        "bytes": 427466
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-865\\i-865instr.pdf",
+        "bytes": 338894
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-881",
+    "url": "https://www.uscis.gov/i-881",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-881\\i-881.pdf",
+        "bytes": 775449
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-881\\i-881instr.pdf",
+        "bytes": 330379
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-9",
+    "url": "https://www.uscis.gov/i-9",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-9\\i-9-spanish.pdf",
+        "bytes": 607025
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-9\\i-9.pdf",
+        "bytes": 524095
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-9\\i-9instr.pdf",
+        "bytes": 297017
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-9\\i9-INS-Spanish.pdf",
+        "bytes": 414263
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-90",
+    "url": "https://www.uscis.gov/i-90",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-90\\i-90.pdf",
+        "bytes": 508291
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-90\\i-90instr.pdf",
+        "bytes": 280278
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-905",
+    "url": "https://www.uscis.gov/i-905",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-905\\i-905.pdf",
+        "bytes": 341485
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-905\\i-905instr.pdf",
+        "bytes": 270682
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-907",
+    "url": "https://www.uscis.gov/i-907",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-907\\i-907.pdf",
+        "bytes": 393161
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-907\\i-907instr.pdf",
+        "bytes": 240651
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-910",
+    "url": "https://www.uscis.gov/i-910",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-910\\i-910.pdf",
+        "bytes": 496465
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-910\\i-910instr.pdf",
+        "bytes": 273884
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-912",
+    "url": "https://www.uscis.gov/i-912",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-912\\i-912.pdf",
+        "bytes": 502386
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-912\\i-912instr.pdf",
+        "bytes": 486223
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-912p",
+    "url": "https://www.uscis.gov/i-912p",
+    "pdfs": [],
+    "status": "no_pdfs"
+  },
+  {
+    "slug": "i-914",
+    "url": "https://www.uscis.gov/i-914",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-914\\i-914.pdf",
+        "bytes": 674666
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-914\\i-914instr.pdf",
+        "bytes": 475550
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-914\\i-914supa.pdf",
+        "bytes": 672461
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-914\\i-914supb.pdf",
+        "bytes": 370595
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-914\\i-914supbinstr.pdf",
+        "bytes": 309071
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-918",
+    "url": "https://www.uscis.gov/i-918",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-918\\i-918.pdf",
+        "bytes": 702911
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-918\\i-918instr.pdf",
+        "bytes": 340268
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-918\\i-918supa.pdf",
+        "bytes": 709572
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-918\\i-918supb.pdf",
+        "bytes": 425079
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-918\\i-918supbinstr.pdf",
+        "bytes": 325495
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-924",
+    "url": "https://www.uscis.gov/i-924",
+    "pdfs": [],
+    "status": "no_pdfs"
+  },
+  {
+    "slug": "i-924a",
+    "url": "https://www.uscis.gov/i-924a",
+    "pdfs": [],
+    "status": "no_pdfs"
+  },
+  {
+    "slug": "i-929",
+    "url": "https://www.uscis.gov/i-929",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-929\\i-929.pdf",
+        "bytes": 1133199
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-929\\i-929instr.pdf",
+        "bytes": 280057
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-941",
+    "url": "https://www.uscis.gov/i-941",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-941\\i-941.pdf",
+        "bytes": 743472
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-941\\i-941instr.pdf",
+        "bytes": 317021
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-942",
+    "url": "https://www.uscis.gov/i-942",
+    "pdfs": [],
+    "status": "no_pdfs"
+  },
+  {
+    "slug": "i-942p",
+    "url": "https://www.uscis.gov/i-942p",
+    "pdfs": [],
+    "status": "no_pdfs"
+  },
+  {
+    "slug": "i-944",
+    "url": "https://www.uscis.gov/i-944",
+    "pdfs": [],
+    "status": "no_pdfs"
+  },
+  {
+    "slug": "i-945",
+    "url": "https://www.uscis.gov/i-945",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-945\\i-945.pdf",
+        "bytes": 471243
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-945\\i-945instr.pdf",
+        "bytes": 253772
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-956",
+    "url": "https://www.uscis.gov/i-956",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-956\\i-956.pdf",
+        "bytes": 1179849
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-956\\i-956instr.pdf",
+        "bytes": 281967
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-956f",
+    "url": "https://www.uscis.gov/i-956f",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-956f\\i-956f.pdf",
+        "bytes": 626179
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-956f\\i-956finstr.pdf",
+        "bytes": 197325
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-956g",
+    "url": "https://www.uscis.gov/i-956g",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-956g\\i-956g.pdf",
+        "bytes": 580135
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-956g\\i-956ginstr.pdf",
+        "bytes": 868660
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-956h",
+    "url": "https://www.uscis.gov/i-956h",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-956h\\i-956h.pdf",
+        "bytes": 515998
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-956h\\i-956hinstr.pdf",
+        "bytes": 957716
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "i-956k",
+    "url": "https://www.uscis.gov/i-956k",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-956k\\i-956k.pdf",
+        "bytes": 528366
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\i-956k\\i-956kinstr.pdf",
+        "bytes": 928258
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "n-300",
+    "url": "https://www.uscis.gov/n-300",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-300\\n-300.pdf",
+        "bytes": 433470
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-300\\n-300instr.pdf",
+        "bytes": 238080
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "n-336",
+    "url": "https://www.uscis.gov/n-336",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-336\\n-336.pdf",
+        "bytes": 452545
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-336\\n-336instr.pdf",
+        "bytes": 323740
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "n-4",
+    "url": "https://www.uscis.gov/n-4",
+    "pdfs": [],
+    "status": "no_pdfs"
+  },
+  {
+    "slug": "n-400",
+    "url": "https://www.uscis.gov/n-400",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-400\\n-400.pdf",
+        "bytes": 776244
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-400\\n-400instr.pdf",
+        "bytes": 1044673
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "n-426",
+    "url": "https://www.uscis.gov/n-426",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-426\\n-426.pdf",
+        "bytes": 299995
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-426\\n-426instr.pdf",
+        "bytes": 217008
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-426\\m-599.pdf",
+        "bytes": 431816
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "n-470",
+    "url": "https://www.uscis.gov/n-470",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-470\\n-470.pdf",
+        "bytes": 465808
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-470\\n-470instr.pdf",
+        "bytes": 257698
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "n-565",
+    "url": "https://www.uscis.gov/n-565",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-565\\n-565.pdf",
+        "bytes": 435889
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-565\\n-565instr.pdf",
+        "bytes": 255180
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "n-600",
+    "url": "https://www.uscis.gov/n-600",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-600\\n-600.pdf",
+        "bytes": 731639
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-600\\n-600instr.pdf",
+        "bytes": 284319
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "n-600k",
+    "url": "https://www.uscis.gov/n-600k",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-600k\\n-600k.pdf",
+        "bytes": 552075
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-600k\\n-600kinstr.pdf",
+        "bytes": 369103
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "n-644",
+    "url": "https://www.uscis.gov/n-644",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-644\\n-644.pdf",
+        "bytes": 370350
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-644\\n-644instr.pdf",
+        "bytes": 258451
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "slug": "n-648",
+    "url": "https://www.uscis.gov/n-648",
+    "pdfs": [
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-648\\n-648.pdf",
+        "bytes": 364162
+      },
+      {
+        "file": "C:\\Users\\Raili\\AppData\\Local\\hermes\\hermes-agent\\uscis_forms\\n-648\\n-648instr.pdf",
+        "bytes": 297488
+      }
+    ],
+    "status": "ok"
+  }
+]

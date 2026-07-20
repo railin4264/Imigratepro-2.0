@@ -1,0 +1,101 @@
+FORMULARIOS USCIS DESCARGADOS (versiones vigentes)
+Fuente: https://www.uscis.gov/forms/all-forms
+Total: 97 formularios, 253 PDFs
+============================================================
+AR-11        -> ar-11.pdf
+EOIR-29      -> eoir-29.pdf
+G-1041       -> g-1041.pdf, g-1041instr.pdf
+G-1041A      -> g-1041a.pdf, g-1041ainstr.pdf
+G-1055       -> g-1055.pdf
+G-1145       -> g-1145.pdf
+G-1256       -> g-1256.pdf, g-1256instr.pdf
+G-1450       -> g-1450.pdf, g-1450instr.pdf
+G-1566       -> g-1566.pdf, g-1566instr.pdf
+G-1650       -> g-1650.pdf, g-1650instr.pdf
+G-1651       -> g-1651.pdf
+G-28         -> g-28.pdf, g-28instr.pdf
+G-28I        -> g-28i.pdf, g-28iinstr.pdf
+G-325A       -> g-325a.pdf, g-325ainstr.pdf
+G-325R       -> g-325r.pdf
+G-845        -> g-845.pdf, g-845instr.pdf
+G-884        -> g-884.pdf, g-884instr.pdf
+I-102        -> i-102.pdf, i-102instr.pdf
+I-129        -> i-129.pdf, i-129h2a.pdf, i-129h2ainstr.pdf, i-129instr.pdf, m-1087.pdf, m-1097.pdf, m-735.pdf, m-736.pdf, m-746.pdf
+I-129F       -> i-129f.pdf, i-129finstr.pdf
+I-129S       -> i-129s.pdf, i-129sinstr.pdf
+I-130        -> i-130.pdf, i-130a.pdf, i-130instr.pdf
+I-131        -> i-131.pdf, i-131instr.pdf
+I-131A       -> i-131a.pdf, i-131ainstr.pdf
+I-134        -> i-134.pdf, i-134instr.pdf
+I-140        -> i-140.pdf, i-140instr.pdf
+I-140G       -> I-140Ginstr.pdf, i-140g.pdf
+I-191        -> i-191.pdf, i-191instr.pdf
+I-192        -> i-192.pdf, i-192instr.pdf
+I-193        -> i-193.pdf
+I-212        -> i-212.pdf, i-212instr.pdf
+I-290B       -> i-290b.pdf, i-290binstr.pdf
+I-356        -> i-356.pdf, i-356instr.pdf
+I-360        -> i-360.pdf, i-360instr.pdf, m-737.pdf
+I-361        -> i-361.pdf, i-361instr.pdf
+I-363        -> i-363.pdf, i-363instr.pdf
+I-407        -> i-407.pdf, i407instr.pdf
+I-485        -> i-485.pdf, i-485instr.pdf
+I-508        -> i-508.pdf, i-508instr.pdf
+I-526        -> i-526.pdf, i-526instr.pdf
+I-526E       -> i-526e.pdf, i-526einstr.pdf
+I-539        -> i-539.pdf, i-539a.pdf, i-539instr.pdf
+I-566        -> i-566.pdf, i-566instr.pdf
+I-589        -> I-589%20Form%20with%20Watermark_AR.pdf, I-589%20Form%20with%20Watermark_CH.pdf, I-589%20Form%20with%20Watermark_DAR.pdf, I-589%20Form%20with%20Watermark_ES.pdf, I-589%20Form%20with%20Watermark_FR.pdf, I-589%20Form%20with%20Watermark_HC.pdf, I-589%20Form%20with%20Watermark_PSH.pdf, I-589%20Form%20with%20Watermark_PT.pdf, I-589%20Form%20with%20Watermark_RU.pdf, I-589%20Form%20with%20Watermark_SO.pdf, I-589%20Form%20with%20Watermark_TUR.pdf, I-589%20Form%20with%20Watermark_VI.pdf, I-589%20Instruction_AR.pdf, I-589%20Instructions_CH.pdf, I-589%20Instructions_DAR.pdf, I-589%20Instructions_ES.pdf, I-589%20Instructions_FR.pdf, I-589%20Instructions_HC.pdf, I-589%20Instructions_PSH.pdf, I-589%20Instructions_PT.pdf, I-589%20Instructions_RU.pdf, I-589%20Instructions_SO.pdf, I-589%20Instructions_TUR.pdf, I-589%20Instructions_VI.pdf, i-589.pdf, i-589instr.pdf
+I-600        -> i-600.pdf, i-600asup1.pdf, i-600asup2.pdf, i-600asup3.pdf, i-600instr.pdf
+I-600A       -> i-600a.pdf, i-600ainstr.pdf, i-600asup1.pdf, i-600asup2.pdf, i-600asup3.pdf
+I-601        -> i-601.pdf, i-601instr.pdf
+I-601A       -> i-601a.pdf, i-601achecklist_arab.pdf, i-601achecklist_english.pdf, i-601achecklist_kor.pdf, i-601achecklist_simchinese.pdf, i-601achecklist_spanish.pdf, i-601achecklist_viet.pdf, i-601ainstr.pdf
+I-602        -> i-602.pdf, i-602instr.pdf
+I-612        -> i-612.pdf, i-612instr.pdf
+I-687        -> i-687.pdf, i-687instr.pdf
+I-690        -> i-690.pdf, i-690instr.pdf, i-690sup1.pdf
+I-693        -> i-693.pdf, i-693instr.pdf
+I-694        -> i-694.pdf, i-694instr.pdf
+I-698        -> i-698.pdf, i-698instr.pdf
+I-730        -> i-590.pdf, i-730.pdf, i-730instr.pdf
+I-751        -> i-751.pdf, i-751instr.pdf
+I-765        -> i-765.pdf, i-765instr.pdf, i-765ws.pdf
+I-765V       -> i-765v.pdf, i-765vinstr.pdf
+I-800        -> i-800.pdf, i-800instr.pdf, i-800sup1.pdf
+I-800A       -> i-800a.pdf, i-800ainstr.pdf, i-800asup1.pdf, i-800asup2.pdf, i-800asup3.pdf
+I-817        -> i-817.pdf, i-817instr.pdf
+I-821        -> i-821.pdf, i-821instr.pdf
+I-821D       -> i-765.pdf, i-765instr.pdf, i-765ws.pdf, i-821d.pdf, i-821dinstr.pdf
+I-824        -> i-824.pdf, i-824instr.pdf
+I-829        -> i-829.pdf, i-829instr.pdf
+I-854        -> i-854a.pdf, i-854b.pdf, i-854instr.pdf
+I-864        -> i-864.pdf, i-864instr.pdf
+I-864A       -> I-864a.pdf, i-864ainstr.pdf
+I-865        -> i-865.pdf, i-865instr.pdf
+I-881        -> i-881.pdf, i-881instr.pdf
+I-9          -> i-9-spanish.pdf, i-9.pdf, i-9instr.pdf, i9-INS-Spanish.pdf
+I-90         -> i-90.pdf, i-90instr.pdf
+I-905        -> i-905.pdf, i-905instr.pdf
+I-907        -> i-907.pdf, i-907instr.pdf
+I-910        -> i-910.pdf, i-910instr.pdf
+I-912        -> i-912.pdf, i-912instr.pdf
+I-914        -> i-914.pdf, i-914instr.pdf, i-914supa.pdf, i-914supb.pdf, i-914supbinstr.pdf
+I-918        -> i-918.pdf, i-918instr.pdf, i-918supa.pdf, i-918supb.pdf, i-918supbinstr.pdf
+I-929        -> i-929.pdf, i-929instr.pdf
+I-941        -> i-941.pdf, i-941instr.pdf
+I-945        -> i-945.pdf, i-945instr.pdf
+I-956        -> i-956.pdf, i-956instr.pdf
+I-956F       -> i-956f.pdf, i-956finstr.pdf
+I-956G       -> i-956g.pdf, i-956ginstr.pdf
+I-956H       -> i-956h.pdf, i-956hinstr.pdf
+I-956K       -> i-956k.pdf, i-956kinstr.pdf
+N-300        -> n-300.pdf, n-300instr.pdf
+N-336        -> n-336.pdf, n-336instr.pdf
+N-400        -> n-400.pdf, n-400instr.pdf
+N-426        -> n-426.pdf, n-426instr.pdf, m-599.pdf
+N-470        -> n-470.pdf, n-470instr.pdf
+N-565        -> n-565.pdf, n-565instr.pdf
+N-600        -> n-600.pdf, n-600instr.pdf
+N-600K       -> n-600k.pdf, n-600kinstr.pdf
+N-644        -> n-644.pdf, n-644instr.pdf
+N-648        -> n-648.pdf, n-648instr.pdf
