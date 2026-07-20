@@ -5,6 +5,7 @@ from app.models.billing import Invoice, Payment
 from app.models.case import Case, CaseParticipant
 from app.models.client import Client
 from app.models.document import Document
+from app.models.e_signature import ESignature
 from app.models.form import FormTemplate, GeneratedForm
 from app.models.notification import Notification, NotificationSeen
 from app.models.rfe import RFE, RFEEvidenceItem
@@ -27,6 +28,7 @@ __all__ = [
     "Client",
     "DeniedToken",
     "Document",
+    "ESignature",
     "FormTemplate",
     "GeneratedForm",
     "Invoice",

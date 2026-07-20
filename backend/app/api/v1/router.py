@@ -10,6 +10,7 @@ from app.api.v1.endpoints import (
     clients,
     dashboard,
     documents,
+    e_signatures,
     forms,
     gap_analysis,
     notifications,
@@ -45,3 +46,4 @@ api_router.include_router(rfes.router, dependencies=[_protected])
 api_router.include_router(dashboard.router, dependencies=[_protected])
 api_router.include_router(gap_analysis.router, dependencies=[_protected])
 api_router.include_router(audit_log.router, dependencies=[_protected])
+api_router.include_router(e_signatures.router, dependencies=[_protected])
