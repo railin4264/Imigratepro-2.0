@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from app.api.deps import DbSession, RequireAdmin
+from app.api.deps import DbSession, RequireOwnerOrAdmin
 from app.models.audit_log import AuditLog
 from app.models.user import User
 from app.schemas.audit_log import AuditLogRead
@@ -11,7 +11,7 @@ router = APIRouter(prefix="/audit-log", tags=["audit-log"])
 @router.get("", response_model=list[AuditLogRead])
 def list_audit_log(
     db: DbSession,
-    _requester: RequireAdmin,
+    _requester: RequireOwnerOrAdmin,
     entity_type: str | None = None,
     skip: int = 0,
     limit: int = 100,

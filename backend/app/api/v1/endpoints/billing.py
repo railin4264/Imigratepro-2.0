@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 
 from fastapi import APIRouter, HTTPException
 
-from app.api.deps import DbSession, RequireAdminOrAttorney
+from app.api.deps import DbSession, RequireBilling
 from app.models.billing import Invoice, Payment
 from app.models.case import Case
 from app.models.notification import NotificationType
@@ -70,7 +70,7 @@ def list_case_invoices(case_id: uuid.UUID, db: DbSession, skip: int = 0, limit: 
 
 
 @router.post("/cases/{case_id}/invoices", response_model=InvoiceRead, status_code=201)
-def create_invoice(case_id: uuid.UUID, payload: InvoiceCreate, db: DbSession, requester: RequireAdminOrAttorney):
+def create_invoice(case_id: uuid.UUID, payload: InvoiceCreate, db: DbSession, requester: RequireBilling):
     case = db.get(Case, case_id)
     if not case:
         raise HTTPException(status_code=404, detail="Case not found")
@@ -100,7 +100,7 @@ def get_invoice(invoice_id: uuid.UUID, db: DbSession):
 
 
 @router.patch("/invoices/{invoice_id}", response_model=InvoiceRead)
-def update_invoice(invoice_id: uuid.UUID, payload: InvoiceUpdate, db: DbSession, requester: RequireAdminOrAttorney):
+def update_invoice(invoice_id: uuid.UUID, payload: InvoiceUpdate, db: DbSession, requester: RequireBilling):
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
@@ -117,7 +117,7 @@ def update_invoice(invoice_id: uuid.UUID, payload: InvoiceUpdate, db: DbSession,
 
 
 @router.delete("/invoices/{invoice_id}", status_code=204)
-def delete_invoice(invoice_id: uuid.UUID, db: DbSession, requester: RequireAdminOrAttorney):
+def delete_invoice(invoice_id: uuid.UUID, db: DbSession, requester: RequireBilling):
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
@@ -134,7 +134,7 @@ def delete_invoice(invoice_id: uuid.UUID, db: DbSession, requester: RequireAdmin
 
 
 @router.post("/invoices/{invoice_id}/payments", response_model=InvoiceDetail, status_code=201)
-def add_payment(invoice_id: uuid.UUID, payload: PaymentCreate, db: DbSession, requester: RequireAdminOrAttorney):
+def add_payment(invoice_id: uuid.UUID, payload: PaymentCreate, db: DbSession, requester: RequireBilling):
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
@@ -170,7 +170,7 @@ def add_payment(invoice_id: uuid.UUID, payload: PaymentCreate, db: DbSession, re
 
 @router.delete("/invoices/{invoice_id}/payments/{payment_id}", response_model=InvoiceDetail)
 def delete_payment(
-    invoice_id: uuid.UUID, payment_id: uuid.UUID, db: DbSession, requester: RequireAdminOrAttorney
+    invoice_id: uuid.UUID, payment_id: uuid.UUID, db: DbSession, requester: RequireBilling
 ):
     invoice = db.get(Invoice, invoice_id)
     if not invoice:

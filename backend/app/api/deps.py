@@ -76,6 +76,23 @@ def require_roles(*allowed: UserRole):
 
 RequireAdminOrAttorney = Annotated[User, Depends(require_roles(UserRole.ADMIN, UserRole.ATTORNEY))]
 
+# Owner is a superuser above admin (firm ownership, staff management, billing config).
+RequireOwnerOrAdmin = Annotated[User, Depends(require_roles(UserRole.OWNER, UserRole.ADMIN))]
+
+# Billing staff can move money (invoices/payments) alongside admin/attorney.
+RequireBilling = Annotated[User, Depends(require_roles(UserRole.OWNER, UserRole.ADMIN, UserRole.ATTORNEY, UserRole.BILLING))]
+
+# Intake/legal-assistant can create clients & cases but not delete or move money.
+RequireIntakeOrAbove = Annotated[
+    User,
+    Depends(
+        require_roles(
+            UserRole.OWNER, UserRole.ADMIN, UserRole.ATTORNEY,
+            UserRole.LEGAL_ASSISTANT, UserRole.INTAKE, UserRole.CONTRACT_ATTORNEY,
+        )
+    ),
+]
+
 # The audit log is a compliance record of what staff did -- reviewing it is
 # an admin-only function, narrower than the destructive/financial actions
 # above (which attorneys can also perform, and therefore should be able to

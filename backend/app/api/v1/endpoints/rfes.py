@@ -2,7 +2,7 @@ import uuid
 
 from fastapi import APIRouter, HTTPException
 
-from app.api.deps import DbSession, RequireAdminOrAttorney
+from app.api.deps import DbSession, RequireOwnerOrAdmin
 from app.models.case import Case, CaseStatus
 from app.models.notification import NotificationType
 from app.models.rfe import RFE, RFEEvidenceItem, RFEEvidenceStatus, RFEStatus
@@ -126,7 +126,7 @@ def update_rfe(rfe_id: uuid.UUID, payload: RFEUpdate, db: DbSession):
 
 
 @router.delete("/rfes/{rfe_id}", status_code=204)
-def delete_rfe(rfe_id: uuid.UUID, db: DbSession, requester: RequireAdminOrAttorney):
+def delete_rfe(rfe_id: uuid.UUID, db: DbSession, requester: RequireOwnerOrAdmin):
     rfe = db.get(RFE, rfe_id)
     if not rfe:
         raise HTTPException(status_code=404, detail="RFE not found")

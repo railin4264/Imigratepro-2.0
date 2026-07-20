@@ -2,7 +2,7 @@ import uuid
 
 from fastapi import APIRouter, HTTPException
 
-from app.api.deps import DbSession, RequireAdminOrAttorney
+from app.api.deps import DbSession, RequireOwnerOrAdmin
 from app.models.client import Client
 from app.schemas.client import ClientCreate, ClientRead, ClientUpdate
 from app.services.audit import log_action
@@ -45,7 +45,7 @@ def update_client(client_id: uuid.UUID, payload: ClientUpdate, db: DbSession):
 
 
 @router.delete("/{client_id}", status_code=204)
-def delete_client(client_id: uuid.UUID, db: DbSession, requester: RequireAdminOrAttorney):
+def delete_client(client_id: uuid.UUID, db: DbSession, requester: RequireOwnerOrAdmin):
     client = db.get(Client, client_id)
     if not client:
         raise HTTPException(status_code=404, detail="Client not found")

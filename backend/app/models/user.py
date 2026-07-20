@@ -9,9 +9,14 @@ from app.models.mixins import TimestampMixin, UUIDPrimaryKeyMixin
 
 
 class UserRole(str, enum.Enum):
+    OWNER = "owner"
     ADMIN = "admin"
     ATTORNEY = "attorney"
     PARALEGAL = "paralegal"
+    LEGAL_ASSISTANT = "legal_assistant"
+    INTAKE = "intake"
+    BILLING = "billing"
+    CONTRACT_ATTORNEY = "contract_attorney"
 
 
 class User(UUIDPrimaryKeyMixin, TimestampMixin, Base):
