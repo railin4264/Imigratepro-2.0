@@ -165,6 +165,68 @@ def test_autofilled_values_actually_land_in_the_downloaded_pdf(client, auth_head
         assert str(actual_value) == str(expected_value), f"{code}: field '{pdf_field}' expected {expected_value!r}, PDF has {actual_value!r}"
 
 
+@pytest.mark.parametrize("template", FORM_TEMPLATES, ids=[t["code"] for t in FORM_TEMPLATES])
+def test_ai_review_endpoint_works_for_every_form_in_the_catalog(monkeypatch, client, auth_headers, seeded_forms, client_trio, template):
+    """review_generated_form() is form-agnostic -- it builds `answers` from
+    template.field_schema labels and `reference` from build_case_context(),
+    both of which exist for every form already (that's the whole point of
+    the 99-form catalog expansion). This proves the endpoint actually works
+    uniformly rather than only having been exercised against the handful of
+    forms it was originally written against."""
+
+    from app.services import form_review_ai
+
+    code = template["code"]
+    generate = client.post(
+        f"/api/v1/cases/{client_trio['id']}/forms", json={"form_code": code}, headers=auth_headers
+    )
+    form_id = generate.json()["id"]
+
+    captured = {}
+
+    def _fake_review_form(form_code, form_name, case_number, reference, answers):
+        captured["form_code"] = form_code
+        captured["reference"] = reference
+        captured["answers"] = answers
+        return {
+            "overall_assessment": "One finding to double-check.",
+            "findings": [{"severity": "medium", "field_label": "General", "issue": "Test finding."}],
+        }
+
+    monkeypatch.setattr(form_review_ai, "is_configured", lambda: True)
+    monkeypatch.setattr(form_review_ai, "review_form", _fake_review_form)
+
+    res = client.post(f"/api/v1/forms/{form_id}/review", headers=auth_headers)
+    assert res.status_code == 200, res.text
+    body = res.json()
+
+    assert body["ai_review"]["overall_assessment"] == "One finding to double-check."
+    assert len(body["ai_review"]["findings"]) == 1
+    assert body["ai_reviewed_at"] is not None
+
+    assert captured["form_code"] == code
+    # Every populated role from client_trio (petitioner/beneficiary/sponsor) is
+    # passed through as reference data, regardless of which form this is.
+    assert set(captured["reference"]) >= {"petitioner", "beneficiary", "sponsor"}
+    # Answers are keyed by human-readable label, not raw PDF field name --
+    # e.g. never a raw AcroForm name like "form1[0].#subform[0].Pt1Line1a[0]".
+    for label in captured["answers"]:
+        assert not label.startswith("form1[0]")
+
+
+def test_ai_review_endpoint_returns_503_when_not_configured(client, auth_headers, seeded_forms, client_trio, monkeypatch):
+    from app.services import form_review_ai
+
+    generate = client.post(
+        f"/api/v1/cases/{client_trio['id']}/forms", json={"form_code": "I-130"}, headers=auth_headers
+    )
+    form_id = generate.json()["id"]
+
+    monkeypatch.setattr(form_review_ai, "is_configured", lambda: False)
+    res = client.post(f"/api/v1/forms/{form_id}/review", headers=auth_headers)
+    assert res.status_code == 503
+
+
 def test_deleting_a_case_with_everything_attached_does_not_500(client, auth_headers, seeded_forms, client_trio):
     """Regression test: Case's one-to-many relationships (participants,
     documents, generated_forms, appointments, invoices, checklist_items) had
