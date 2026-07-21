@@ -313,9 +313,14 @@ const dictionaries = {
     "enum.participantRole.derivative": "Derivado",
     "enum.participantRole.sponsor": "Patrocinador",
 
+    "enum.userRole.owner": "Propietario",
     "enum.userRole.admin": "Administrador",
     "enum.userRole.attorney": "Abogado",
     "enum.userRole.paralegal": "Paralegal",
+    "enum.userRole.legal_assistant": "Asistente legal",
+    "enum.userRole.intake": "Admisión",
+    "enum.userRole.billing": "Facturación",
+    "enum.userRole.contract_attorney": "Abogado por contrato",
 
     "enum.maritalStatus.single": "Soltero/a",
     "enum.maritalStatus.married": "Casado/a",
@@ -844,9 +849,14 @@ const dictionaries = {
     "enum.participantRole.derivative": "Derivative",
     "enum.participantRole.sponsor": "Sponsor",
 
+    "enum.userRole.owner": "Owner",
     "enum.userRole.admin": "Admin",
     "enum.userRole.attorney": "Attorney",
     "enum.userRole.paralegal": "Paralegal",
+    "enum.userRole.legal_assistant": "Legal Assistant",
+    "enum.userRole.intake": "Intake",
+    "enum.userRole.billing": "Billing",
+    "enum.userRole.contract_attorney": "Contract Attorney",
 
     "enum.maritalStatus.single": "Single",
     "enum.maritalStatus.married": "Married",

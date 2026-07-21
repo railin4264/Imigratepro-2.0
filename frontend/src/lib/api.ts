@@ -103,7 +103,16 @@ export type Case = {
   created_at: string;
 };
 
-export const USER_ROLES = ["admin", "attorney", "paralegal"] as const;
+export const USER_ROLES = [
+  "owner",
+  "admin",
+  "attorney",
+  "paralegal",
+  "legal_assistant",
+  "intake",
+  "billing",
+  "contract_attorney",
+] as const;
 
 export type User = {
   id: string;
