@@ -41,7 +41,6 @@ export default function ClientFormPage() {
   const [resumed, setResumed] = useState(false);
 
   const [submitted, setSubmitted] = useState(false);
-  const [validationError, setValidationError] = useState<string | null>(null);
   const [timeline, setTimeline] = useState<CaseTimelineData | null>(null);
   const [documents, setDocuments] = useState<UploadedDocument[]>([]);
   const [uploadRole, setUploadRole] = useState<string>(PARTICIPANT_ROLES[0]);
@@ -202,15 +201,16 @@ export default function ClientFormPage() {
   }
 
   async function handleFinalize() {
-    const unfilled = visibleFieldsAll.filter(
-      (f) => f.type !== "checkbox" && (formData[f.name] ?? "") === ""
-    );
-    if (unfilled.length > 0) {
-      setValidationError(t("client.required.error"));
-      window.scrollTo({ top: 0, behavior: "smooth" });
-      return;
-    }
-    setValidationError(null);
+    // Deliberately not gated on every visible field being filled: this
+    // app's field_schema has no real "required" flag (whether a USCIS field
+    // applies depends on the applicant's own situation), so a blanket
+    // "every field must be non-empty" check ends up requiring things like
+    // attorney-only fields (already silently stripped server-side) and
+    // "use this space for extra explanation if needed" continuation
+    // fields that almost never apply -- which made every multi-part form
+    // impossible to finish from the client's side. The attorney/paralegal
+    // reviews the filled form before it's ever filed, same as everywhere
+    // else in this app.
     const ok = await saveData();
     if (ok) setSubmitted(true);
   }
@@ -309,17 +309,15 @@ export default function ClientFormPage() {
                   value={formData[item.field.name] ?? ""}
                   label={displayLabel(stripPartPrefix(item.field.label))}
                   onChange={setFieldValue}
-                  required={item.field.type !== "checkbox"}
+                  // Not marked required -- see handleFinalize for why: this
+                  // app has no way to know which fields actually apply to a
+                  // given applicant, so a blanket asterisk here would be
+                  // misleading (e.g. attorney-only fields, or "use this
+                  // space if you need it" continuation fields).
                 />
               )
             )}
           </div>
-
-          {validationError && (
-            <p role="alert" className="mt-3 rounded-md bg-red-50 px-3 py-2 text-sm text-red-700 dark:bg-red-950 dark:text-red-300">
-              {validationError}
-            </p>
-          )}
 
           <div className="mt-5 flex items-center gap-3 border-t border-zinc-100 pt-4 dark:border-zinc-800">
             <button
