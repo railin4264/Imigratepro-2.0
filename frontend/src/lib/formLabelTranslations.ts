@@ -3130,6 +3130,754 @@ const PHRASES: Record<string, string> = {
   "Applicant's Other Information.": "Otra información del solicitante.",
   "prevent the applicant from demonstrating the following?  Select all that apply.":
     "¿impiden que el solicitante demuestre lo siguiente? Seleccione todas las que correspondan.",
+
+  // Batch added 2026-07-21 (part 5): segments appearing exactly 3 times
+  // each. Same skip rules as before, plus extra caution around anything
+  // that could be the tail half of a "U.S. <word>" or lowercase
+  // mid-sentence continuation (see the "U.S. splice" bug fixed earlier
+  // this batch) -- those are skipped even when the phrase itself would
+  // otherwise be clean.
+  "Enter Middle Name (if applicable)": "Ingrese el segundo nombre (si aplica)",
+  "Enter the zip code.": "Ingrese el código postal.",
+  "Check this box if the address is an apartment.": "Marque esta casilla si la dirección es un apartamento.",
+  "If you marked the apartment, suite or floor box, enter the number here.":
+    "Si marcó la casilla de apartamento, suite o piso, ingrese el número aquí.",
+  "Check this box if the address is a designated floor.": "Marque esta casilla si la dirección es un piso designado.",
+  "Check this box if the address is a suite.": "Marque esta casilla si la dirección es una suite.",
+  "No Entry, populated from Page 1, Part 1.": "Sin entrada, completado desde la Página 1, Parte 1.",
+  "List all other names immigrant has ever used, including aliases, maiden name, and nicknames.":
+    "Enumere todos los demás nombres que el inmigrante haya usado alguna vez, incluyendo alias, apellido de soltera y apodos.",
+  "Enter Date of Naturalization.": "Ingrese la fecha de naturalización.",
+  "Select 80 dollars (Copy Format - Hard Copy).": "Seleccione 80 dólares (formato de copia - impresa).",
+  "Enter Port of Entry.": "Ingrese el puerto de entrada.",
+  "Registry File (1929 to 1944).": "Expediente de registro (1929 a 1944).",
+  "No Entry, data populated from Page 1, Part 1.": "Sin entrada, datos completados desde la Página 1, Parte 1.",
+  "See below": "Vea a continuación",
+  "USCIS Officer's Signature.": "Firma del oficial de USCIS.",
+  "Enter USCIS Officer's Typed or Printed Name.": "Ingrese el nombre a máquina o en letra de molde del oficial de USCIS.",
+  "Certificate Type (select only one).": "Tipo de certificado (seleccione solo uno).",
+  "Row 1, First Spouse.": "Fila 1, primer cónyuge.",
+  "Row 2, Second Spouse.": "Fila 2, segundo cónyuge.",
+  "Requestor's Information.": "Información del solicitante.",
+  "Signature of Requestor.": "Firma del solicitante.",
+  "Select Petitioner.": "Seleccione Peticionario.",
+  "Enter Receipt Number, if any.": "Ingrese el número de recibo, si aplica.",
+  "Options Regarding Receipt of U S C I S Notices and Documents.": "Opciones sobre la recepción de avisos y documentos de USCIS.",
+  "If you want to have notices and/or secure identity documents sent to your attorney or accredited representative of record rather than to you, please select all applicable items below.":
+    "Si desea que los avisos y/o documentos de identidad seguros se envíen a su abogado o representante acreditado de registro en lugar de a usted, seleccione todos los elementos que correspondan a continuación.",
+  "You may change these elections through written notice to U S C I S.": "Puede cambiar estas elecciones mediante aviso escrito a USCIS.",
+  "Type or print your name at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.":
+    "Escriba a máquina o en letra de molde su nombre en la parte superior de cada hoja; indique el número de página, número de parte y número de artículo al que corresponde su respuesta; y firme y feche cada hoja.",
+  "Name of Attorney.": "Nombre del abogado.",
+  "Signature of Attorney.": "Firma del abogado.",
+  "Additional Information  If you need extra space to provide any additional information within this application, use the space below.":
+    "Información adicional: si necesita espacio adicional para proporcionar información adicional dentro de esta solicitud, use el espacio a continuación.",
+  "Select for Male.": "Seleccione para Masculino.",
+  "Select for Female.": "Seleccione para Femenino.",
+  "Enter Expiration Date of Authorized Stay Shown on Form I-94.": "Ingrese la fecha de vencimiento de la estadía autorizada indicada en el Formulario I-94.",
+  "Please select the filing type for the deferred action request.": "Seleccione el tipo de presentación para la solicitud de acción diferida.",
+  "Enter Requestor's Email Address (if any).": "Ingrese la dirección de correo electrónico del solicitante (si aplica).",
+  "Print the form and sign in ink.": "Imprima el formulario y firme con tinta.",
+  "Feet (select from the drop down menu).": "Pies (seleccione del menú desplegable).",
+  "Inches (select from the drop down menu).": "Pulgadas (seleccione del menú desplegable).",
+  "Applicant's Full Name as Shown on the Immigration Document.": "Nombre completo del solicitante tal como aparece en el documento migratorio.",
+  "Enter Social Security Number.": "Ingrese el número de Seguro Social.",
+  "Documents Attached (Select all that apply).": "Documentos adjuntos (seleccione todos los que correspondan).",
+  "Applicant's First Name.": "Primer nombre del solicitante.",
+  "Applicant's Last Name.": "Apellido del solicitante.",
+  "Case Verification Number.": "Número de verificación del caso.",
+  "Information About You (Person requesting the return of original documents).":
+    "Información sobre usted (persona que solicita la devolución de documentos originales).",
+  "Enter City/Town/Village of Birth.": "Ingrese la ciudad/pueblo/aldea de nacimiento.",
+  "Enter U S C I S Receipt Number.": "Ingrese el número de recibo de USCIS.",
+  "Subject's Full Name.": "Nombre completo del sujeto.",
+  "Enter Port-of-Entry.": "Ingrese el puerto de entrada.",
+  "Name on Certificate of Naturalization.": "Nombre en el Certificado de Naturalización.",
+  "Name on Certificate of Citizenship.": "Nombre en el Certificado de Ciudadanía.",
+  "Naturalization Court/USCIS Office and Location.": "Tribunal de naturalización/oficina de USCIS y ubicación.",
+  "The requestor informed me that he or she understands every instruction, question, and answer on the request, including the Requestor's Declaration and Certification, and has verified the accuracy of every answer.":
+    "El solicitante me informó que entiende cada instrucción, pregunta y respuesta de la solicitud, incluyendo la Declaración y Certificación del Solicitante, y ha verificado la exactitud de cada respuesta.",
+  "Requestor's Printed Full Name.": "Nombre completo del solicitante en letra de molde.",
+  "Enter Given Name or (First Name).": "Ingrese el primer nombre.",
+  "Printed Name of USCIS Official.": "Nombre en letra de molde del funcionario de USCIS.",
+  "Printed Name of Certifying Official.": "Nombre en letra de molde del funcionario certificador.",
+  "Date of Birth (m m/d d/y y y y).": "Fecha de nacimiento (mm/dd/aaaa).",
+  "Processing Information (continued).": "Información de procesamiento (continuación).",
+  "Date of Signature (m m/d d/y y y y).": "Fecha de la firma (mm/dd/aaaa).",
+  "Date of Signature (m m / d d / y y y y).": "Fecha de la firma (mm/dd/aaaa).",
+  "Legal Name of Individual Petitioner.": "Nombre legal del peticionario individual.",
+  "Enter Company or Organization Name.": "Ingrese el nombre de la empresa u organización.",
+  "Provide Name of Beneficiary.": "Proporcione el nombre del beneficiario.",
+  "Type of Office.": "Tipo de oficina.",
+  "Name 2.": "Nombre 2.",
+  "Name 3.": "Nombre 3.",
+  "Name 1.": "Nombre 1.",
+  "Customs and Border Protection (C B P) Web site at www.c b p/i94 instead of filing an application for a replacement/initial I-94.":
+    "sitio web de Aduanas y Protección Fronteriza (CBP) en www.cbp.gov/i94 en lugar de presentar una solicitud de I-94 de reemplazo/inicial.",
+  "I authorize the release of any information from my records, or from the petitioning organization's records that U S C I S needs to determine eligibility for the immigration benefit sought.":
+    "Autorizo la divulgación de cualquier información de mis registros, o de los registros de la organización peticionaria, que USCIS necesite para determinar la elegibilidad para el beneficio migratorio solicitado.",
+  "I also recognize that any supporting evidence submitted in support of this petition may be verified by U S C I S through any means determined appropriate by U S C I S, including but not limited to, on-site compliance reviews.":
+    "También reconozco que cualquier evidencia de apoyo presentada en respaldo de esta petición puede ser verificada por USCIS a través de cualquier medio que USCIS determine apropiado, incluyendo, entre otros, revisiones de cumplimiento en el sitio.",
+  "If filing this petition on behalf of an organization, I certify that I am authorized to do so by the organization.":
+    "Si presenta esta petición en nombre de una organización, certifico que estoy autorizado para hacerlo por la organización.",
+  "I certify, under penalty of perjury, that I have reviewed this petition and that all of the information contained in the petition, including all responses to specific questions, and in the supporting documents, is complete, true, and correct.":
+    "Certifico, bajo pena de perjurio, que he revisado esta petición y que toda la información contenida en la petición, incluyendo todas las respuestas a preguntas específicas, y en los documentos de apoyo, es completa, verdadera y correcta.",
+  "Name and Title of Authorized Signatory.": "Nombre y título del firmante autorizado.",
+  "Name of the Beneficiary.": "Nombre del beneficiario.",
+  "Enter Employer's Name.": "Ingrese el nombre del empleador.",
+  "Enter Number.": "Ingrese el número.",
+  "Complete If Filing for an E-1 Treaty Trader.": "Complete si presenta la solicitud para un comerciante de tratado E-1.",
+  "Enter Name of Petitioner.": "Ingrese el nombre del peticionario.",
+  "I certify, under penalty of perjury, that this petition and the evidence submitted with it is all true and correct to the best of my knowledge.":
+    "Certifico, bajo pena de perjurio, que esta petición y la evidencia presentada con ella son verdaderas y correctas según mi leal saber y entender.",
+  "Citizenship and Immigration Services (U S C I S) needs to determine eligibility for the benefit being sought.":
+    "Servicios de Ciudadanía e Inmigración (USCIS) necesita para determinar la elegibilidad para el beneficio solicitado.",
+  "I also recognize that supporting evidence submitted may be verified by U S C I S through any means determined appropriate by U S C I S, including but not limited to, on-site compliance reviews.":
+    "También reconozco que la evidencia de apoyo presentada puede ser verificada por USCIS a través de cualquier medio que USCIS determine apropiado, incluyendo, entre otros, revisiones de cumplimiento en el sitio.",
+  "I am filing this petition on behalf of an organization and I certify that I am authorized to do so by the organization.":
+    "Presento esta petición en nombre de una organización y certifico que estoy autorizado para hacerlo por la organización.",
+  "Department of Defense Projects Only.": "Únicamente proyectos del Departamento de Defensa.",
+  "I certify that the beneficiary will be working on a cooperative research and development project or a co-production project under a reciprocal government-to-government agreement administered by the U.":
+    "Certifico que el beneficiario trabajará en un proyecto cooperativo de investigación y desarrollo o un proyecto de coproducción bajo un acuerdo recíproco entre gobiernos administrado por el Departamento de Defensa de los EE. UU.",
+  "Temporary need is: (select only one box).": "La necesidad temporal es: (seleccione solo una casilla).",
+  "As an authorized official of the employer, I certify that the employer will be liable for the reasonable costs of return transportation of the alien abroad if the beneficiary is dismissed from employment by the employer before the end of the period of authorized stay.":
+    "Como funcionario autorizado del empleador, certifico que el empleador será responsable de los costos razonables del transporte de regreso del extranjero al extranjero si el empleador despide al beneficiario antes de que finalice el período de estadía autorizado.",
+  "Employer who is not the Petitioner.": "Empleador que no es el peticionario.",
+  "I certify that I have authorized the party filing this petition to act as my agent in this regard.":
+    "Certifico que he autorizado a la parte que presenta esta petición para que actúe como mi agente en este asunto.",
+  "I assume full responsibility for all representations made by this agent on my behalf and agree to the conditions of H-2 A/H-2 B eligibility.":
+    "Asumo total responsabilidad por todas las declaraciones hechas por este agente en mi nombre y acepto las condiciones de elegibilidad de H-2A/H-2B.",
+  "H-2A and H-2B.": "H-2A y H-2B.",
+  "Taxpayer Identification Numbers.": "Números de identificación del contribuyente.",
+  "Provide the following information, as applicable.": "Proporcione la siguiente información, según corresponda.",
+  "I certify, under penalty of perjury, that the contents of this attestation and the evidence submitted with it are true and correct.":
+    "Certifico, bajo pena de perjurio, que el contenido de esta declaración y la evidencia presentada con ella son verdaderos y correctos.",
+  "Employer or Organization's Contact Information.": "Información de contacto del empleador u organización.",
+  "Attesting Organization's Contact Information.": "Información de contacto de la organización que da fe.",
+  "Provide your physical addresses for the last five years, whether inside or outside the United States.":
+    "Proporcione sus direcciones físicas de los últimos cinco años, ya sea dentro o fuera de los Estados Unidos.",
+  "Enter Province or State of Birth.": "Ingrese la provincia o el estado de nacimiento.",
+  "Enter Date of Filing.": "Ingrese la fecha de presentación.",
+  "If you need to provide information for more than one beneficiary, use the space provided in Part 8.":
+    "Si necesita proporcionar información para más de un beneficiario, use el espacio provisto en la Parte 8.",
+  "Enter I - 94 Arrival-Departure Record Number.": "Ingrese el número de Registro de Entrada-Salida I-94.",
+  "Enter Petitioner's Email Address (if any).": "Ingrese la dirección de correo electrónico del peticionario (si aplica).",
+  "Enter Petitioner's Mobile Telephone Number (if any).": "Ingrese el número de teléfono celular del peticionario (si aplica).",
+  "Period of Stay One.": "Período de estadía Uno.",
+  "Provide the following information about the beneficiary.": "Proporcione la siguiente información sobre el beneficiario.",
+  "Period of Stay Two.": "Período de estadía Dos.",
+  "Wages and Hours of Proposed Employment.": "Salario y horas del empleo propuesto.",
+  "Provide the wages per year the beneficiary will receive and the number of hours the beneficiary will work per week for the proposed employment.":
+    "Proporcione el salario anual que recibirá el beneficiario y el número de horas que trabajará por semana en el empleo propuesto.",
+  "Also describe any other compensation the beneficiary will receive, including dollar value (if applicable).":
+    "Describa también cualquier otra compensación que recibirá el beneficiario, incluyendo el valor en dólares (si aplica).",
+  "Provide information for each qualifying foreign employer for whom the beneficiary worked during the required one continuous year out of three years.":
+    "Proporcione información sobre cada empleador extranjero calificado para quien trabajó el beneficiario durante el año continuo requerido dentro de un período de tres años.",
+  "Qualifying Foreign Position.": "Puesto calificado en el extranjero.",
+  "Indicate the type of qualifying position the beneficiary was employed in while working for the qualifying foreign employer.":
+    "Indique el tipo de puesto calificado que ocupaba el beneficiario mientras trabajaba para el empleador extranjero calificado.",
+  "Select Removal.": "Seleccione Deportación.",
+  "read to me every question and instruction on this petition and my answer to every question in a language in which I am fluent.":
+    "me leyó cada pregunta e instrucción de esta petición y mi respuesta a cada pregunta en un idioma que domino.",
+  "prepared this petition for me based only upon information I provided or authorized.":
+    "preparó esta petición para mí basándose únicamente en la información que proporcioné o autoricé.",
+  "Select I am an attorney or accredited representative and my representation of the petitioner in this case does not extend beyond the preparation of this petition.":
+    "Seleccione: Soy abogado o representante acreditado y mi representación del peticionario en este caso no se extiende más allá de la preparación de esta petición.",
+  "Provide your current address first.": "Proporcione primero su dirección actual.",
+  "Full Name of Parent 1.": "Nombre completo del Padre/Madre 1.",
+  "Full Name of Parent 2.": "Nombre completo del Padre/Madre 2.",
+  "Select this Box for Male.": "Seleccione esta casilla para Masculino.",
+  "Select this Box for Female.": "Seleccione esta casilla para Femenino.",
+  "Spouse Beneficiary's Contact Information.": "Información de contacto del cónyuge beneficiario.",
+  "Enter Interpreter's E-Mail Address (if any).": "Ingrese la dirección de correo electrónico del intérprete (si aplica).",
+  "Enter Preparer's E-Mail Address (if any).": "Ingrese la dirección de correo electrónico del preparador (si aplica).",
+  "A current or former service member.": "Un miembro del servicio actual o anterior.",
+  "Enter a U S C I S Online Account Number (if any).": "Ingrese un número de cuenta en línea de USCIS (si aplica).",
+  "Their other Names Used (if applicable).": "Otros nombres utilizados por ellos (si aplica).",
+  "Interpreter's Mobile Telephone Number (if any)": "Número de teléfono celular del intérprete (si aplica)",
+  "Interpreter's Email Address (if any)": "Dirección de correo electrónico del intérprete (si aplica)",
+  "I certify, under penalty of perjury, that I am fluent in English and (enter language) , and I have interpreted every question on the application and Instructions and interpreted the applicant's answers to the questions in that language, and the applicant informed me that they understood every instruction, question, and answer on the application.":
+    "Certifico, bajo pena de perjurio, que domino el inglés y (ingrese el idioma), y que he interpretado cada pregunta de la solicitud y las Instrucciones, así como las respuestas del solicitante a las preguntas en ese idioma, y el solicitante me informó que entendió cada instrucción, pregunta y respuesta de la solicitud.",
+  "Interpreter's Family Name (Last Name)": "Apellido del intérprete",
+  "Interpreter's Business or Organization Name (if any)": "Nombre de la empresa u organización del intérprete (si aplica)",
+  "Enter Interpreter's Daytime Phone Number.": "Ingrese el número de teléfono diurno del intérprete.",
+  "Current Legal Name (Do not provide a nickname).": "Nombre legal actual (no proporcione un apodo).",
+  "What is your current immigration status?  Provide documentation as provided in the instructions.":
+    "¿Cuál es su estatus migratorio actual? Proporcione la documentación según lo indicado en las instrucciones.",
+  "Intent to Provide Specific Contribution to the Beneficiary.": "Intención de proporcionar una contribución específica al beneficiario.",
+  "If you are filing this form on behalf of another individual who is the beneficiary, complete Item Numbers 18 - 19.":
+    "Si presenta este formulario en nombre de otra persona que es el beneficiario, complete los Números de Artículo 18-19.",
+  "If you are the beneficiary, proceed to Part 4.": "Si usted es el beneficiario, continúe a la Parte 4.",
+  "Contact Information of Individual Agreeing to Financially Support the Beneficiary.":
+    "Información de contacto de la persona que acepta brindar apoyo financiero al beneficiario.",
+  "Enter Interpreter's Mobile Telephone Number.": "Ingrese el número de teléfono celular del intérprete.",
+  "Social Security Number (S S N), if any.": "Número de Seguro Social (SSN), si aplica.",
+  "Click this button to open: https://tools.usps.com/go/ZipLookupAction_input.":
+    "Haga clic en este botón para abrir: https://tools.usps.com/go/ZipLookupAction_input.",
+  "This is the U S Postal Service ZIP Code Lookup site.": "Este es el sitio de búsqueda de códigos postales del Servicio Postal de EE. UU.",
+  "This petition is being filed (select only one box).": "Esta petición se presenta (seleccione solo una casilla).",
+  "If the person's native alphabet is other than Roman letters, type or print the person's foreign name and address in the native alphabet in Item Numbers 4.":
+    "Si el alfabeto nativo de la persona no es de letras romanas, escriba a máquina o en letra de molde el nombre y la dirección extranjera de la persona en su alfabeto nativo en los Números de Artículo 4.",
+  "Select this box if Form G - 28 or Form G - 2 81 is attached.": "Marque esta casilla si se adjunta el Formulario G-28 o el Formulario G-28I.",
+  "Individual Self-Petitioner.": "Autopeticionario individual.",
+  "Individual Self-Petitioner's Full Legal Name.": "Nombre legal completo del autopeticionario individual.",
+  "Social Security Number (S S N) (if any).": "Número de Seguro Social (SSN) (si aplica).",
+  "Enter Immigration Status on Form I - 94 (for example, class of admission, or paroled, if paroled).":
+    "Ingrese el estatus migratorio en el Formulario I-94 (por ejemplo, clase de admisión, o en libertad condicional, si aplica).",
+  "Enter Expiration Date of Authorized Stay Shown on Form I - 94.": "Ingrese la fecha de vencimiento de la estadía autorizada indicada en el Formulario I-94.",
+  "Select Income.": "Seleccione Ingreso.",
+  "Enter Account Owner(s) Name(s) and Nationality.": "Ingrese el/los nombre(s) y nacionalidad del/de los titular(es) de la cuenta.",
+  "Enter Name of Bank & Country.": "Ingrese el nombre del banco y el país.",
+  "Enter Date of Transfer in (mm/dd/yyyy).": "Ingrese la fecha de transferencia (mm/dd/aaaa).",
+  "Principal Beneficiary's Statement.": "Declaración del beneficiario principal.",
+  "has read to me every question and instruction on this petition and my answer to every question in a language in which I am fluent.":
+    "me ha leído cada pregunta e instrucción de esta petición y mi respuesta a cada pregunta en un idioma que domino.",
+  "Principal Beneficiary's Signature.": "Firma del beneficiario principal.",
+  "Date of Transfer.": "Fecha de transferencia.",
+  "Enter Date of Transfer.": "Ingrese la fecha de transferencia.",
+  "Statement of the Authorized Signatory.": "Declaración del firmante autorizado.",
+  "Enter Language in which you are fluent.": "Ingrese el idioma que domina.",
+  "Authorized Signatory's Full Legal Name.": "Nombre legal completo del firmante autorizado.",
+  "Select State from the list of States and Protectorates.": "Seleccione el estado de la lista de estados y protectorados.",
+  "Enter State / Province of Birth.": "Ingrese el estado/provincia de nacimiento.",
+  "Enter City of Departure.": "Ingrese la ciudad de salida.",
+  "Enter State of Departure.": "Ingrese el estado de salida.",
+  "Enter Date of Departure.": "Ingrese la fecha de salida.",
+  "Enter Means of Transportation for Departure.": "Ingrese el medio de transporte de la salida.",
+  "Enter City of Arrival.": "Ingrese la ciudad de llegada.",
+  "Enter State of Arrival.": "Ingrese el estado de llegada.",
+  "Enter Means of Transportation for Arrival.": "Ingrese el medio de transporte de la llegada.",
+  "Is this information approximate? Check this box for Yes.": "¿Esta información es aproximada? Marque esta casilla para Sí.",
+  "Is this information approximate? Check this box for No.": "¿Esta información es aproximada? Marque esta casilla para No.",
+  "Enter Court Case Number.": "Ingrese el número de caso judicial.",
+  "Enter Town or City of Court.": "Ingrese el pueblo o ciudad del tribunal.",
+  "Enter State of Court.": "Ingrese el estado del tribunal.",
+  "Enter Citation to Federal, State, or Local Law, as Stated in the Judgment of Conviction.":
+    "Ingrese la cita a la ley federal, estatal o local, según lo indicado en el fallo de condena.",
+  "NOTE:  If the conviction is related to more than one citation, provide each separate citation.":
+    "NOTA: Si la condena está relacionada con más de una cita, proporcione cada cita por separado.",
+  "Enter Sentence, Probation, or Other Punishment Imposed.": "Ingrese la sentencia, libertad condicional u otro castigo impuesto.",
+  "Enter Specific Offense as Stated in the Judgment of Conviction.": "Ingrese el delito específico según lo indicado en el fallo de condena.",
+  "NOTE:  If the conviction is related to more than one offense, provide the name of each specific offense.":
+    "NOTA: Si la condena está relacionada con más de un delito, proporcione el nombre de cada delito específico.",
+  "The information requested below relates to your criminal convictions for which you are seeking relief under former I N A section 2 12 (c).":
+    "La información solicitada a continuación se relaciona con sus condenas penales para las cuales busca alivio bajo la antigua sección 212(c) de la INA.",
+  "Enter Name of Court.": "Ingrese el nombre del tribunal.",
+  "Check this box for After Trial.": "Marque esta casilla para Después del juicio.",
+  "Check this box for Based on Guilty or No Contest Plea.": "Marque esta casilla para Basado en una declaración de culpabilidad o de no impugnación.",
+  "If you selected \"Based on Guilty or No Contest Plea,\" Enter the date the plea was entered.":
+    "Si seleccionó \"Basado en una declaración de culpabilidad o de no impugnación\", ingrese la fecha en que se presentó la declaración.",
+  "Enter Imprisonment Date Served From.": "Ingrese la fecha de inicio del encarcelamiento.",
+  "Enter Imprisonment Date Served To.": "Ingrese la fecha de fin del encarcelamiento.",
+  "Current Legal Name of Child 1.": "Nombre legal actual del Hijo/a 1.",
+  "Current Legal Name of Child 2.": "Nombre legal actual del Hijo/a 2.",
+  "Current Legal Name of Child 3.": "Nombre legal actual del Hijo/a 3.",
+  "Current Legal Name of Child 4.": "Nombre legal actual del Hijo/a 4.",
+  "Enter Parent's Sex.": "Ingrese el sexo del padre/madre.",
+  "Enter Applicant's Signature.": "Ingrese la firma del solicitante.",
+  "Enter Preparer's Email Address.": "Ingrese la dirección de correo electrónico del preparador.",
+  "Enter Preparer's Mobile Telephone Number.": "Ingrese el número de teléfono celular del preparador.",
+  "Enter Prior Spouse's Date of Birth.": "Ingrese la fecha de nacimiento del cónyuge anterior.",
+  "Place Where Marriage Legally Ended.": "Lugar donde terminó legalmente el matrimonio.",
+  "Provide the most recent employment first.": "Proporcione primero el empleo más reciente.",
+  "Enter Street Name and Number.": "Ingrese el nombre y número de la calle.",
+  "Applicant Contact Information.": "Información de contacto del solicitante.",
+  "START HERE - Type or print in black ink.": "COMIENCE AQUÍ - Escriba a máquina o en letra de molde con tinta negra.",
+  "Location Where You Reentered or Attempted to Reenter the United States.": "Lugar donde reingresó o intentó reingresar a los Estados Unidos.",
+  "Mother's Legal Name.": "Nombre legal de la madre.",
+  "Mother's Name at Birth (if different than above).": "Nombre de nacimiento de la madre (si es diferente al indicado anteriormente).",
+  "Father's Legal Name.": "Nombre legal del padre.",
+  "Father's Name at Birth (if different than above).": "Nombre de nacimiento del padre (si es diferente al indicado anteriormente).",
+  "What is your current marital status? Select Divorced.": "¿Cuál es su estado civil actual? Seleccione Divorciado(a).",
+  "What is your current marital status? Select Widowed.": "¿Cuál es su estado civil actual? Seleccione Viudo(a).",
+  "What is your current marital status? Select Marriage Annulled.": "¿Cuál es su estado civil actual? Seleccione Matrimonio anulado.",
+  "What is your current marital status? Select Married.": "¿Cuál es su estado civil actual? Seleccione Casado(a).",
+  "Prior Spouse's Legal Name (provide family name before marriage).": "Nombre legal del cónyuge anterior (proporcione el apellido antes del matrimonio).",
+  "Enter Date of Marriage to Prior Spouse.": "Ingrese la fecha del matrimonio con el cónyuge anterior.",
+  "I have attached a brief and / or additional evidence.": "He adjuntado un escrito y/o evidencia adicional.",
+  "Applicant's or Petitioner's Contact Information.": "Información de contacto del solicitante o peticionario.",
+  "To be Completed by the Obligor and Agent/Co-Obligor's Attorney or Accredited Representative (if any).":
+    "Debe completarlo el abogado o representante acreditado del obligado y agente/co-obligado (si aplica).",
+  "Information About Bond.": "Información sobre la fianza.",
+  "Alien's (or the Alien's Executor's) Contact Information.": "Información de contacto del extranjero (o de su albacea).",
+  "Mother's Full Name.": "Nombre completo de la madre.",
+  "Father's Full Name.": "Nombre completo del padre.",
+  "The beneficiary will be working (select one of the following).": "El beneficiario trabajará (seleccione una de las siguientes opciones).",
+  "Name Under Which the Certificate of Naturalization Was Issued.": "Nombre bajo el cual se emitió el Certificado de Naturalización.",
+  "Enter Zip Code": "Ingrese el código postal",
+  "This person is: Select Partially Dependent.": "Esta persona es: seleccione Parcialmente dependiente.",
+  "This person is: Select Wholly Dependent.": "Esta persona es: seleccione Totalmente dependiente.",
+  "Enter Preparer\"s Signature.": "Ingrese la firma del preparador.",
+  "Is the beneficiary in the legal custody of the sponsor? (Explain).": "¿El beneficiario está bajo la custodia legal del patrocinador? (Explique).",
+  "Select The interpreter named in Part 5.": "Seleccione: el intérprete mencionado en la Parte 5.",
+  "Select At my request, the preparer named in Part 6.": "Seleccione: a mi solicitud, el preparador mencionado en la Parte 6.",
+  "Enter Date Signed.": "Ingrese la fecha de la firma.",
+  "Consent of Parents Custodial Parent, or Legal Guardian to Submit Form I-4 07 for Incapacitated Adult or Minors 14 Years of Age and Younger (if applicable).":
+    "Consentimiento de los padres, padre/madre custodio, o tutor legal para presentar el Formulario I-407 para un adulto incapacitado o menores de 14 años o menos (si aplica).",
+  "Prepopulated from Part 1., Item Number 1.": "Prepoblado desde la Parte 1., Número de Artículo 1.",
+  "Alien Registration Number  (A Number).": "Número de registro de extranjero (número A).",
+  "Enter city or town.": "Ingrese la ciudad o el pueblo.",
+  "Enter 5-digit Zip Code": "Ingrese el código postal de 5 dígitos",
+  "Principal Applicant's Name.": "Nombre del solicitante principal.",
+  "Employment and Educational History.": "Historial de empleo y educativo.",
+  "Provide your current employment or school attended first.": "Proporcione primero su empleo actual o la escuela a la que asiste.",
+  "Include periods of self-employment, unemployment, or retirement.": "Incluya períodos de trabajo por cuenta propia, desempleo o jubilación.",
+  "For each period of unemployment or retirement, list source of financial support.":
+    "Para cada período de desempleo o jubilación, enumere la fuente de apoyo financiero.",
+  "If you have additional employment or educational history, use the space provided in Part 14.":
+    "Si tiene historial adicional de empleo o educativo, use el espacio provisto en la Parte 14.",
+  "Country.": "País.",
+  "Dates of Employment, Unemployment, Retirement, or School Attendance.": "Fechas de empleo, desempleo, jubilación o asistencia escolar.",
+  "Parent 1's Name at Birth (if different than above).": "Nombre de nacimiento del Padre/Madre 1 (si es diferente al indicado anteriormente).",
+  "Parent 2's Name at Birth (if different than above).": "Nombre de nacimiento del Padre/Madre 2 (si es diferente al indicado anteriormente).",
+  "Do you plan to practice polygamy in the United States? Select Yes.": "¿Planea practicar la poligamia en los Estados Unidos? Seleccione Sí.",
+  "Do you plan to practice polygamy in the United States? Select No.": "¿Planea practicar la poligamia en los Estados Unidos? Seleccione No.",
+  "Applicants Contact Information.": "Información de contacto del solicitante.",
+  "I certify, under penalty of perjury, that I prepared this application for the applicant at his or her request and with express consent and that all of the responses and information contained in and submitted with the application are complete, true, and correct and reflects only information provided by the applicant.":
+    "Certifico, bajo pena de perjurio, que preparé esta solicitud para el solicitante a su solicitud y con su consentimiento expreso, y que todas las respuestas e información contenidas y presentadas con la solicitud son completas, verdaderas y correctas, y reflejan únicamente la información proporcionada por el solicitante.",
+  "U S C I S Officer's Signature.": "Firma del oficial de USCIS.",
+  "Enter Second Number.": "Ingrese el segundo número.",
+  "Person Executing This Waiver Form's Contact Information.": "Información de contacto de la persona que otorga este formulario de exención.",
+  "Provide the last 20 years of your employment history.": "Proporcione los últimos 20 años de su historial de empleo.",
+  "Relation to You.": "Relación con usted.",
+  "Enter Date NCE Formed.": "Ingrese la fecha de formación de la NCE.",
+  "Type of N C E (Select only one).": "Tipo de NCE (seleccione solo uno).",
+  "Enter Name of Person.": "Ingrese el nombre de la persona.",
+  "Enter Percentage of Ownership.": "Ingrese el porcentaje de propiedad.",
+  "Enter Amount of capital invested": "Ingrese el monto de capital invertido",
+  "Enter Country of Current Residence.": "Ingrese el país de residencia actual.",
+  "Enter Date of Termination.": "Ingrese la fecha de terminación.",
+  "Indicate whether the offering and project in the Form I-9 56F associated with your petition is based on an investment in the following (select all that apply).":
+    "Indique si la oferta y el proyecto en el Formulario I-956F asociado con su petición se basa en una inversión en lo siguiente (seleccione todas las que correspondan).",
+  "Select all that apply.": "Seleccione todas las que correspondan.",
+  "If you answered \"Yes\" to Item Number 5., select all applicable boxes.": "Si respondió \"Sí\" al Número de Artículo 5., seleccione todas las casillas que correspondan.",
+  "Preparer’s Signature.": "Firma del preparador.",
+  "Check this box for: I am not an attorney or accredited representative but have prepared this application on behalf of the authorized individual of the regional center and with the authorized individual's consent.":
+    "Marque esta casilla para: No soy abogado ni representante acreditado, pero he preparado esta solicitud en nombre de la persona autorizada del centro regional y con su consentimiento.",
+  "Check this box for: My representation of the authorized individual in this case does not extend beyond the preparation of this application.":
+    "Marque esta casilla para: Mi representación de la persona autorizada en este caso no se extiende más allá de la preparación de esta solicitud.",
+  "Check this box for: My representation of the authorized individual in this case extends beyond the preparation of this application.":
+    "Marque esta casilla para: Mi representación de la persona autorizada en este caso se extiende más allá de la preparación de esta solicitud.",
+  "Current Nonimmigrant Status (for example, F-1 student, H-4 dependent, etc.).": "Estatus de no inmigrante actual (por ejemplo, estudiante F-1, dependiente H-4, etc.).",
+  "I am applying for, select only one box.": "Estoy solicitando, seleccione solo una casilla.",
+  "Current Passport Information.": "Información actual del pasaporte.",
+  "If your current passport information is different from the information you provided in Part 1., provide your current passport information.":
+    "Si la información actual de su pasaporte es diferente de la información que proporcionó en la Parte 1., proporcione la información actual de su pasaporte.",
+  "If your current passport information matches the information you provided in Part 1., proceed to Item Number 3.":
+    "Si la información actual de su pasaporte coincide con la información que proporcionó en la Parte 1., continúe al Número de Artículo 3.",
+  "Print form and enter an ink signature.": "Imprima el formulario e ingrese una firma con tinta.",
+  "Prepopulated from page 1.": "Prepoblado desde la página 1.",
+  "Specify Other.": "Especifique Otro.",
+  "I further certify that the Requestor's eligibility for employment authorization was verified under the provisions of a (select only one box).":
+    "Además, certifico que la elegibilidad del solicitante para la autorización de empleo fue verificada bajo las disposiciones de un (seleccione solo una casilla).",
+  "Certifying Official's Signature.": "Firma del funcionario certificador.",
+  "Enter 7-digit Telephone Number.": "Ingrese el número de teléfono de 7 dígitos.",
+  "List the date, place, and your status for each entry.": "Enumere la fecha, el lugar y su estatus para cada entrada.",
+  "(Attach additional sheets as needed).": "(Adjunte hojas adicionales según sea necesario).",
+  "Enter Place.": "Ingrese el lugar.",
+  "Enter Status.": "Ingrese el estatus.",
+  "Entry 3.": "Entrada 3.",
+  "If child is in the U.S., Is your child in Immigration Court proceedings? Select Yes.":
+    "Si el menor está en los EE. UU., ¿su hijo/a está en un procedimiento del Tribunal de Inmigración? Seleccione Sí.",
+  "If child is in the U.S., Is your child in Immigration Court proceedings? Select No.":
+    "Si el menor está en los EE. UU., ¿su hijo/a está en un procedimiento del Tribunal de Inmigración? Seleccione No.",
+  "(NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Name and Address of Employer.":
+    "(NOTA: Use el Formulario I-589, Suplemento B, u hojas de papel adicionales, si es necesario.) Ingrese el nombre y la dirección del empleador.",
+  "(NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Your Occupation.":
+    "(NOTA: Use el Formulario I-589, Suplemento B, u hojas de papel adicionales, si es necesario.) Ingrese su ocupación.",
+  "Write Your Name in Your Native Alphabet.": "Escriba su nombre en su alfabeto nativo.",
+  "NOTE: use this as a continuation page for any additional information requested.":
+    "NOTA: use esta como una página de continuación para cualquier información adicional solicitada.",
+  "Copy and complete as needed.": "Copie y complete según sea necesario.",
+  "This petition is for the first sibling.": "Esta petición es para el primer hermano/a.",
+  "This petition is for an additional sibling.": "Esta petición es para un hermano/a adicional.",
+  "This petition is for the first child.": "Esta petición es para el primer hijo/a.",
+  "This petition is for an additional child.": "Esta petición es para un hijo/a adicional.",
+  "Your Name On the Certificate of Naturalization.": "Su nombre en el Certificado de Naturalización.",
+  "Name of Your Current Spouse.": "Nombre de su cónyuge actual.",
+  "If you answered \"Yes,\" provide the following information for each completed domestic adoption of a child.":
+    "Si respondió \"Sí\", proporcione la siguiente información para cada adopción doméstica completada de un menor.",
+  "Have you ever previously completed an adoption, either in the United States or abroad, that was later dissolved?  An adoption is dissolved if your parental rights over the adopted child are terminated at any time after the adoption was finalized.":
+    "¿Ha completado alguna vez anteriormente una adopción, ya sea en los Estados Unidos o en el extranjero, que fue disuelta posteriormente? Una adopción se disuelve si sus derechos parentales sobre el menor adoptado se terminan en cualquier momento después de que se finalizó la adopción.",
+  "Do not include traffic violations, except for violations for driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant.)  Select No.":
+    "No incluya infracciones de tránsito, excepto infracciones por conducir u operar un vehículo mientras estaba intoxicado o afectado por o bajo la influencia del alcohol u otro intoxicante.) Seleccione No.",
+  "Do not include traffic violations, except for violations for driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant.)  Select Yes.":
+    "No incluya infracciones de tránsito, excepto infracciones por conducir u operar un vehículo mientras estaba intoxicado o afectado por o bajo la influencia del alcohol u otro intoxicante.) Seleccione Sí.",
+  "Received a suspended sentence, been placed on probation or parole, or been in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Select No.":
+    "¿Recibió una sentencia suspendida, fue puesto en libertad condicional o bajo palabra, o participó en un programa alternativo de sentencia o rehabilitación, como desvío, procesamiento diferido, adjudicación diferida o retenida, o eliminación de un cargo penal? Seleccione No.",
+  "Received a suspended sentence, been placed on probation or parole, or been in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Select Yes.":
+    "¿Recibió una sentencia suspendida, fue puesto en libertad condicional o bajo palabra, o participó en un programa alternativo de sentencia o rehabilitación, como desvío, procesamiento diferido, adjudicación diferida o retenida, o eliminación de un cargo penal? Seleccione Sí.",
+  "Been the subject of any investigation at any time, even if closed or unsubstantiated, by any child welfare agency, court, or other official authority in any state or foreign country concerning the abuse or neglect of any child? Select Yes.":
+    "¿Ha sido objeto de alguna investigación en algún momento, incluso si fue cerrada o no fundamentada, por alguna agencia de bienestar infantil, tribunal u otra autoridad oficial en algún estado o país extranjero relacionada con el abuso o negligencia de algún menor? Seleccione Sí.",
+  "Been the subject of any investigation at any time, even if closed or unsubstantiated, by any child welfare agency, court, or other official authority in any state or foreign country concerning the abuse or neglect of any child? Select No.":
+    "¿Ha sido objeto de alguna investigación en algún momento, incluso si fue cerrada o no fundamentada, por alguna agencia de bienestar infantil, tribunal u otra autoridad oficial en algún estado o país extranjero relacionada con el abuso o negligencia de algún menor? Seleccione No.",
+  "Name at Birth.": "Nombre de nacimiento.",
+  "Current Name.": "Nombre actual.",
+  "If the orphan has a sole or surviving parent, answer the following:  8.":
+    "Si el huérfano tiene un solo padre o madre, o un padre o madre sobreviviente, responda lo siguiente: 8.",
+  "If you answered \"No\" to either Item Number 9., Item Number 10., or Item Number 11.a., provide the following information:":
+    "Si respondió \"No\" al Número de Artículo 9., Número de Artículo 10., o Número de Artículo 11.a., proporcione la siguiente información:",
+  "Request for Exemption From Submitting Affidavit of Support Under Section 2 1 3 A of the I N A on behalf of Orphan Beneficiary.":
+    "Solicitud de exención de presentar la declaración jurada de patrocinio económico bajo la sección 213A de la INA en nombre del beneficiario huérfano.",
+  "If you answered \"Yes,\" select all applicable boxes below to indicate who has the disabilities and/or impairments.":
+    "Si respondió \"Sí\", seleccione todas las casillas que correspondan a continuación para indicar quién tiene las discapacidades y/o impedimentos.",
+  "The name of your spouse can not be typewritten into this space.": "El nombre de su cónyuge no puede escribirse a máquina en este espacio.",
+  "Preparer's Mobile Telephone Number, if any.": "Número de teléfono celular del preparador, si aplica.",
+  "Alien Registration Number (A Number), if any.": "Número de registro de extranjero (número A), si aplica.",
+  "Place to Which You or Your Spouse (if married) Are Traveling.": "Lugar al que usted o su cónyuge (si está casado) viajan.",
+  "If you need extra space to complete your statement, use the space provided in Part 10.":
+    "Si necesita espacio adicional para completar su declaración, use el espacio provisto en la Parte 10.",
+  "Enter Statement.": "Ingrese la declaración.",
+  "Statement From Applicant (Discretion), include a statement explaining why you believe your application should be approved as a matter of discretion, with the favorable factors outweighing the unfavorable factors in your case.":
+    "Declaración del solicitante (discreción): incluya una declaración explicando por qué cree que su solicitud debe aprobarse como una cuestión de discreción, con los factores favorables superando a los desfavorables en su caso.",
+  "Statement by Local (City or County) Health Department.": "Declaración del departamento de salud local (ciudad o condado).",
+  "Enter Physician's Family Name (Last Name).": "Ingrese el apellido del médico.",
+  "Enter Physician's Given Name (First Name).": "Ingrese el primer nombre del médico.",
+  "Endorsement of State Health Department Official.": "Aprobación del funcionario del departamento de salud estatal.",
+  "Enter Immigration Status (At the time of entry).": "Ingrese el estatus migratorio (al momento de la entrada).",
+  "Enter Place or Port-of-Entry (Actual or approximate city or town).": "Ingrese el lugar o puerto de entrada (ciudad o pueblo real o aproximado).",
+  "Served in any prison, jail, prison camp, detention facility, labor camp, or any other situation that involved detaining persons? Select Yes.":
+    "¿Sirvió en alguna prisión, cárcel, campo de prisioneros, centro de detención, campo de trabajo, o en cualquier otra situación que implicara la detención de personas? Seleccione Sí.",
+  "Served in any prison, jail, prison camp, detention facility, labor camp, or any other situation that involved detaining persons? Select No.":
+    "¿Sirvió en alguna prisión, cárcel, campo de prisioneros, centro de detención, campo de trabajo, o en cualquier otra situación que implicara la detención de personas? Seleccione No.",
+  "Have you EVER assisted or participated in selling or providing weapons to any person who to your knowledge used them against another person, or in transporting weapons to any person who to your knowledge used them against another person? Select No.":
+    "¿Ha ayudado o participado ALGUNA VEZ en la venta o suministro de armas a alguna persona que, según su conocimiento, las usó contra otra persona, o en el transporte de armas a alguna persona que, según su conocimiento, las usó contra otra persona? Seleccione No.",
+  "Have you EVER assisted or participated in selling or providing weapons to any person who to your knowledge used them against another person, or in transporting weapons to any person who to your knowledge used them against another person? Select Yes.":
+    "¿Ha ayudado o participado ALGUNA VEZ en la venta o suministro de armas a alguna persona que, según su conocimiento, las usó contra otra persona, o en el transporte de armas a alguna persona que, según su conocimiento, las usó contra otra persona? Seleccione Sí.",
+  "D V Program Selectee's Full Name (If you are a derivative and your parent or spouse is the D V Program Selectee).":
+    "Nombre completo del seleccionado del Programa DV (si usted es un derivado y su padre/madre o cónyuge es el seleccionado del Programa DV).",
+  "NOTE:  If you are an attorney or accredited representative, you may need to submit a completed Form G - 28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this application.":
+    "NOTA: Si es abogado o representante acreditado, es posible que deba presentar un Formulario G-28 completo, Aviso de Comparecencia como Abogado o Representante Acreditado, junto con esta solicitud.",
+  "Your full Legal Name.": "Su nombre legal completo.",
+  "Enter as 2 digits for the month, 2 digits for the day and 4 digits for the year.":
+    "Ingrese como 2 dígitos para el mes, 2 dígitos para el día y 4 dígitos para el año.",
+  "If you are married, select only one box.": "Si está casado, seleccione solo una casilla.",
+  "Name of the lawful permanent resident spouse or child.": "Nombre del cónyuge o hijo/a residente permanente legal.",
+  "Enter Work Telephone Number.": "Ingrese el número de teléfono del trabajo.",
+  "Manner of Entry.": "Forma de entrada.",
+  "Explain why were you arrested, cited, detained, or charged.": "Explique por qué fue arrestado, citado, detenido o acusado.",
+  "Enter Date arrested, cited, detained, or charged.": "Ingrese la fecha en que fue arrestado, citado, detenido o acusado.",
+  "Enter where you were arrested, cited, detained, or charged (City, State, Country).":
+    "Ingrese dónde fue arrestado, citado, detenido o acusado (ciudad, estado, país).",
+  "Enter outcome or disposition of the arrest, citation, detention, or charge.": "Ingrese el resultado o la disposición del arresto, citación, detención o acusación.",
+  "Check this box for 2 12 (a)(2)(H).": "Marque esta casilla para 212(a)(2)(H).",
+  "Interpreter's Contact Information, Certification, and Signature (continued).": "Información de contacto, certificación y firma del intérprete (continuación).",
+  "Is is pre-filled from the first page.": "Se completa automáticamente desde la primera página.",
+  "If the person who completed this application is associated with a business or organization, that person should complete the business or organization name and address information.":
+    "Si la persona que completó esta solicitud está asociada con una empresa u organización, esa persona debe completar la información del nombre y la dirección de la empresa u organización.",
+  "Dates of Follow-up Examinations, if required.": "Fechas de los exámenes de seguimiento, si se requieren.",
+  "Summary of Overall Findings.": "Resumen de los hallazgos generales.",
+  "Civil Surgeon's Signature.": "Firma del cirujano civil.",
+  "Enter X for a Positive Result Reported.": "Ingrese X para resultado positivo reportado.",
+  "Enter Date when Specimen was Obtained.": "Ingrese la fecha en que se obtuvo la muestra.",
+  "Sputum Smears Result Table.": "Tabla de resultados de frotis de esputo.",
+  "Enter Date when Smear Result was Reported.": "Ingrese la fecha en que se reportó el resultado del frotis.",
+  "Enter X for a Positive Result.": "Ingrese X para resultado positivo.",
+  "Enter  Date  when Specimen was Obtained.": "Ingrese la fecha en que se obtuvo la muestra.",
+  "Enter Date when Culture Result was Reported.": "Ingrese la fecha en que se reportó el resultado del cultivo.",
+  "Enter X for a Contaminated Result.": "Ingrese X para resultado contaminado.",
+  "M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines.":
+    "SPR (sarampión, paperas-rubéola) o si se administran vacunas monovalentes o de otra combinación.",
+  "Results.": "Resultados.",
+  "Middle Name if applicable.": "Segundo nombre, si aplica.",
+  "Appellant's Signature.": "Firma del apelante.",
+  "Appellant's Statement Regarding the Interpreter.": "Declaración del apelante sobre el intérprete.",
+  "Appellant's Contact Information.": "Información de contacto del apelante.",
+  "If your native alphabet does not use Roman letters, type or print your name in your native alphabet.":
+    "Si su alfabeto nativo no utiliza letras romanas, escriba a máquina o en letra de molde su nombre en su alfabeto nativo.",
+  "Select Single (Never Married).": "Seleccione Soltero(a) (nunca casado(a)).",
+  "Additional Information or attach a separate sheet of paper.": "Información adicional o adjunte una hoja de papel por separado.",
+  "9 Characters.": "9 caracteres.",
+  "Enter Full Name of Recipient (Family Name, Given Name, Middle Name).": "Ingrese el nombre completo del destinatario (apellido, primer nombre, segundo nombre).",
+  "Number of relatives for whom I am filing separate Form I-7 30s.": "Número de familiares para quienes presento Formularios I-730 por separado.",
+  "Social Security Number, if applicable.": "Número de Seguro Social, si aplica.",
+  "Information about About Your Current and Prior Marriages (if any).": "Información sobre sus matrimonios actuales y anteriores (si aplica).",
+  "If Previously Married, Name of Prior Spouse 2.": "Si estuvo casado anteriormente, nombre del cónyuge anterior 2.",
+  "Place Place you received your approval for Refugee Status while living abroad.":
+    "Lugar donde recibió su aprobación de estatus de refugiado mientras vivía en el extranjero.",
+  "Enter Country of Citizenship/Nationality.": "Ingrese el país de ciudadanía/nacionalidad.",
+  "Two-Year Filing Deadline.": "Plazo de presentación de dos años.",
+  "Provide information on the disabilities and / or impairments for each person.": "Proporcione información sobre las discapacidades y/o impedimentos de cada persona.",
+  "Spouse's or Individual's Contact Information.": "Información de contacto del cónyuge o de la persona.",
+  "Spouse's or Individual's Signature.": "Firma del cónyuge o de la persona.",
+  "Enter Form I - 94 Arrival-Departure Record Number, if any.": "Ingrese el número de Registro de Entrada-Salida I-94, si aplica.",
+  "Refer to the Who May File Form I - 7 65 section of the Form I - 7 65 Instructions to determine the appropriate eligibility category for this application.":
+    "Consulte la sección Quién Puede Presentar el Formulario I-765 de las Instrucciones del Formulario I-765 para determinar la categoría de elegibilidad correspondiente para esta solicitud.",
+  "Enter the appropriate letter and number for your eligibility category below (for example, (A.)(8), (c)(17)(i i i )).":
+    "Ingrese la letra y el número correspondientes para su categoría de elegibilidad a continuación (por ejemplo, (a)(8), (c)(17)(iii)).",
+  "Father's Name.": "Nombre del padre.",
+  "Mother's Name.": "Nombre de la madre.",
+  "The interpreter named in Part 7.": "El intérprete mencionado en la Parte 7.",
+  "Give the following information about the child's current name.": "Proporcione la siguiente información sobre el nombre actual del menor.",
+  "Give the following information about the child's name at the time of birth, if known.":
+    "Proporcione la siguiente información sobre el nombre del menor al momento de nacer, si se conoce.",
+  "If you answered Yes above, provide the following information.": "Si respondió Sí anteriormente, proporcione la siguiente información.",
+  "NOTE:  If you need more space to complete, use a separate sheet of paper.": "NOTA: Si necesita más espacio para completar, use una hoja de papel por separado.",
+  "How Marriage Ended: Check this box for Divorce.": "Cómo terminó el matrimonio: marque esta casilla para Divorcio.",
+  "If you and/or your spouse (if married) used a preparer to complete this application, provide the following information about the preparer.":
+    "Si usted y/o su cónyuge (si está casado) utilizaron un preparador para completar esta solicitud, proporcione la siguiente información sobre el preparador.",
+  "To be completed by an attorney or B I A  accredited representative, if any.": "Debe completarlo un abogado o representante acreditado por el BIA, si aplica.",
+  "Initial Application.": "Solicitud inicial.",
+  "Request for Extension.": "Solicitud de extensión.",
+  "I am requesting:  (Select only one box).": "Estoy solicitando: (seleccione solo una casilla).",
+  "If you selected \"Not living together,\" (select only one box).": "Si seleccionó \"No viven juntos\", (seleccione solo una casilla).",
+  "Provide the following information about the legalized alien through whom you are claiming your eligibility.":
+    "Proporcione la siguiente información sobre el extranjero legalizado a través de quien reclama su elegibilidad.",
+  "If you selected \"Not living together,\" (Select only one box).": "Si seleccionó \"No viven juntos\", (Seleccione solo una casilla).",
+  "Name Under Which You Applied.": "Nombre bajo el cual presentó la solicitud.",
+  "At the time of your last entry into the United States, you (Select only one box).":
+    "Al momento de su última entrada a los Estados Unidos, usted (seleccione solo una casilla).",
+  "If you answered \"Yes\" to Item Number 32., provide the following information.": "Si respondió \"Sí\" al Número de Artículo 32., proporcione la siguiente información.",
+  "Type of Proceedings (Select all boxes that apply).": "Tipo de procedimiento (seleccione todas las casillas que correspondan).",
+  "Dates for Your Proceedings.": "Fechas de su procedimiento.",
+  "NOTE:  If your proceedings are ongoing, leave the “To” date blank.": "NOTA: Si su procedimiento está en curso, deje en blanco la fecha \"hasta\".",
+  "If you have been in more than one type of proceedings, or in Federal Court, list dates for each time period.":
+    "Si ha estado en más de un tipo de procedimiento, o en un Tribunal Federal, enumere las fechas de cada período.",
+  "Select Present.": "Seleccione Actual.",
+  "Select I do not know the dates.": "Seleccione No sé las fechas.",
+  "Is your spouse's T P S still valid? (if known).": "¿El TPS de su cónyuge sigue vigente? (si se conoce).",
+  "Other Names Used, if applicable.": "Otros nombres utilizados, si aplica.",
+  "Enter the To Date as 2 digit month, 2 digit day and 4 digit year.": "Ingrese la fecha hasta como mes de 2 dígitos, día de 2 dígitos y año de 4 dígitos.",
+  "Departure Two.": "Salida Dos.",
+  "Departure One.": "Salida Uno.",
+  "Education Information.": "Información educativa.",
+  "Attorney or Accredited Representative U S C I S  Online Account Number (if any).": "Número de cuenta en línea de USCIS del abogado o representante acreditado (si aplica).",
+  "Enter Current Immigration Status (for example, conditional permanent resident, tourist / visitor, entered without inspection).":
+    "Ingrese el estatus migratorio actual (por ejemplo, residente permanente condicional, turista/visitante, entrada sin inspección).",
+  "Enter Name of the J C E.": "Ingrese el nombre de la JCE.",
+  "Information about indirect job creation outside of the N C E.": "Información sobre la creación indirecta de empleo fuera de la NCE.",
+  "Has the alien ever committed, ordered, incited, assisted, or otherwise participated in genocide; the use, conscription, or recruitment of a child soldier; Nazi persecution; or while outside of the United States, committed torture or extrajudicial killing? If “Yes,” explain below.":
+    "¿Ha cometido, ordenado, incitado, ayudado o participado de otra manera ALGUNA VEZ el extranjero en genocidio; el uso, reclutamiento o alistamiento de un niño soldado; persecución nazi; o mientras estaba fuera de los Estados Unidos, cometió tortura o ejecución extrajudicial? Si \"Sí\", explique a continuación.",
+  "Information About You (Sponsor)  1.": "Información sobre usted (patrocinador) 1.",
+  "Sponsor's Full Legal Name (Do not provide a nickname).": "Nombre legal completo del patrocinador (no proporcione un apodo).",
+  "Information About Principal Immigrant.": "Información sobre el inmigrante principal.",
+  "Principal Immigrant's Full Legal Name (Do not provide a nickname).": "Nombre legal completo del inmigrante principal (no proporcione un apodo).",
+  "Enter Alien Registration Number (A-Number, if any).": "Ingrese el número de registro de extranjero (número A, si aplica).",
+  "Select Retired.": "Seleccione Jubilado(a).",
+  "Your Assets (if applicable).": "Sus activos (si aplica).",
+  "Sponsor's Statement Regarding the Interpreter.": "Declaración del patrocinador sobre el intérprete.",
+  "My assets (complete only if necessary).": "Mis activos (complete solo si es necesario).",
+  "Your (the Household Member's) Contact Information.": "Su información de contacto (del miembro del hogar).",
+  "Your (the Household Member's) Signature.": "Su firma (del miembro del hogar).",
+  "Enter  your Middle Name.": "Ingrese su segundo nombre.",
+  "If you were admitted in a nonimmigration status, were you granted a change of status after you were admitted.":
+    "Si fue admitido bajo un estatus de no inmigrante, ¿se le otorgó un cambio de estatus después de ser admitido?",
+  "Spouse if applicable.": "Cónyuge, si aplica.",
+  "Current Spouse's Place of Marriage.": "Lugar del matrimonio del cónyuge actual.",
+  "Current Spouse's Employment.": "Empleo del cónyuge actual.",
+  "If your children are American citizens or lawful permanent residents, do your children speak, read, and write English.":
+    "Si sus hijos son ciudadanos estadounidenses o residentes permanentes legales, ¿sus hijos hablan, leen y escriben inglés?",
+  "If your children are American citizens or lawful permanent residents, do your children speak, read, and write the native language of the country you would be returned to if deported or removed.":
+    "Si sus hijos son ciudadanos estadounidenses o residentes permanentes legales, ¿sus hijos hablan, leen y escriben el idioma nativo del país al que sería devuelto si es deportado o expulsado?",
+  "Do you or any of your qualified family members suffer from or have previously suffered from any illness, health problem, or disability that requires or required medical attention.":
+    "¿Usted o alguno de sus familiares calificados padece o ha padecido anteriormente alguna enfermedad, problema de salud o discapacidad que requiera o haya requerido atención médica?",
+  "If you are deported or removed from the United States, would all qualified family members accompany you.":
+    "Si es deportado o expulsado de los Estados Unidos, ¿lo acompañarían todos sus familiares calificados?",
+  "Would you or your qualified family members experience any emotional or psychological impact if you were deported or removed from the United States.":
+    "¿Usted o sus familiares calificados experimentarían algún impacto emocional o psicológico si fuera deportado o expulsado de los Estados Unidos?",
+  "Would the current conditions in the country to which you would be deported or removed cause you or your qualified family members extreme hardship if you are deported or removed.":
+    "¿Las condiciones actuales en el país al que sería deportado o expulsado le causarían a usted o a sus familiares calificados dificultades extremas si es deportado o expulsado?",
+  "Do you currently have any other way, besides this application, for suspension of deportation or special rule cancellation of removal, to adjust status to that of lawful permanent resident in the United States.":
+    "¿Tiene actualmente alguna otra forma, además de esta solicitud, de suspensión de deportación o cancelación de expulsión bajo regla especial, para ajustar su estatus al de residente permanente legal en los Estados Unidos?",
+  "If you belong to any civic, political, religious, community, or social organization, association, foundation, club, or similar group or participate in volunteer activities, would separating from these community ties and activities affect you if you are deported or removed from the United States.":
+    "Si pertenece a alguna organización cívica, política, religiosa, comunitaria o social, asociación, fundación, club o grupo similar, o participa en actividades voluntarias, ¿le afectaría separarse de estos lazos y actividades comunitarias si es deportado o expulsado de los Estados Unidos?",
+  "Is there any other types of hardship that you or your family would face if you are deported or removed from the United States?  (Include any hardship to your children, spouse, parents who are not American citizens or lawful permanent residents, and to your brothers, sisters, grandparents, or other extended family members.":
+    "¿Existe algún otro tipo de dificultad que usted o su familia enfrentarían si es deportado o expulsado de los Estados Unidos? (Incluya cualquier dificultad para sus hijos, cónyuge, padres que no son ciudadanos estadounidenses o residentes permanentes legales, y para sus hermanos, hermanas, abuelos u otros familiares extendidos.",
+  "Would you be able to obtain employment in the country to which you would be deported or removed.":
+    "¿Podría obtener empleo en el país al que sería deportado o expulsado?",
+  "If you or a qualified family member are currently pursuing educational opportunities in the United States, would you or the qualified family member continue to pursue the educational opportunities if deported or removed from the United States.":
+    "Si usted o un familiar calificado está actualmente cursando oportunidades educativas en los Estados Unidos, ¿usted o el familiar calificado continuarían cursando las oportunidades educativas si es deportado o expulsado de los Estados Unidos?",
+  "Section 1., Employee Information and Attestation.": "Sección 1., información y declaración del empleado.",
+  "Enter the Document Title.": "Ingrese el título del documento.",
+  "List B.": "Lista B.",
+  "Supplement A, Preparer and / or Translator Certification for Section 1.": "Suplemento A, certificación del preparador y/o traductor para la Sección 1.",
+  "Preparer or Translator First Name (Given Name)": "Primer nombre del preparador o traductor",
+  "Date of Rehire, if applicable.": "Fecha de recontratación, si aplica.",
+  "Re verification and Rehire (formerly Section 3) Enter Today's date of Authorized Representative Signature as 2-digit Month, 2-digit Day, and 4-digit Year.":
+    "Reverificación y recontratación (anteriormente Sección 3): ingrese la fecha de hoy de la firma del representante autorizado como mes de 2 dígitos, día de 2 dígitos y año de 4 dígitos.",
+  "Reverification and Rehire.": "Reverificación y recontratación.",
+  "Enter Middle Initial.": "Ingrese la inicial del segundo nombre.",
+  "Enter the Document Number (if any).": "Ingrese el número del documento (si aplica).",
+  "Expiration Date (if any) (mm/dd/yyyy).": "Fecha de vencimiento (si aplica) (mm/dd/aaaa).",
+  "Enter name of Employer or Authorized Representative.": "Ingrese el nombre del empleador o representante autorizado.",
+  "Enter Additional Information (Initial and date each notation.)": "Ingrese información adicional (ponga sus iniciales y feche cada anotación.)",
+  "Provide your name exactly as it is printed on your current Permanent Resident Card.":
+    "Proporcione su nombre exactamente como aparece impreso en su Tarjeta de Residente Permanente actual.",
+  "Accommodations for Individuals with Disabilities and/or Impairments.": "Adaptaciones para personas con discapacidades y/o impedimentos.",
+  "(Read the information in the Form I-90 instructions before completing this part.) If you answered \"Yes,\" select any applicable boxes.":
+    "(Lea la información en las instrucciones del Formulario I-90 antes de completar esta parte.) Si respondió \"Sí\", seleccione las casillas que correspondan.",
+  "If Apartment, Suite or Floor, is Checked, Enter Apartment, Suite or Floor Number.":
+    "Si se marcó Apartamento, Suite o Piso, ingrese el número de apartamento, suite o piso.",
+  "Enter Date of Signature as 2 digit Month, 2 digit Day, and 4 digit Year.": "Ingrese la fecha de la firma como mes de 2 dígitos, día de 2 dígitos y año de 4 dígitos.",
+  "Petitioner or Applicant in the Relating Case.": "Peticionario o solicitante en el caso relacionado.",
+  "Beneficiary in the Related Case.": "Beneficiario en el caso relacionado.",
+  "Requestor's Statement Regarding the Interpreter.": "Declaración del solicitante sobre el intérprete.",
+  "Provide the following information about the preparer: Preparer's Contact Information.":
+    "Proporcione la siguiente información sobre el preparador: información de contacto del preparador.",
+  "Enter City or Town": "Ingrese la ciudad o el pueblo",
+  "If you answered \"Yes\" to Item Number 1., provide the following information.": "Si respondió \"Sí\" al Número de Artículo 1., proporcione la siguiente información.",
+  "Attach a copy of your medical degree and complete the chart below.": "Adjunte una copia de su título médico y complete la tabla a continuación.",
+  "Enter Name of School.": "Ingrese el nombre de la escuela.",
+  "Enter Dates of Attendance From.": "Ingrese la fecha de inicio de asistencia.",
+  "Enter Dates of Attendance To.": "Ingrese la fecha de fin de asistencia.",
+  "Enter Graduation Date.": "Ingrese la fecha de graduación.",
+  "Enter Medical Degree.": "Ingrese el título médico.",
+  "Enter Other Explanation.": "Ingrese otra explicación.",
+  "Enter Type of Asset.": "Ingrese el tipo de activo.",
+  "PART 1.": "PARTE 1.",
+  "Enter Middle Name, if any.": "Ingrese el segundo nombre, si aplica.",
+  "I have reported the trafficking crime of which I am claiming to be a victim.":
+    "He denunciado el delito de tráfico del cual afirmo ser víctima.",
+  "Answer the following questions about yourself.": "Responda las siguientes preguntas sobre usted.",
+  "Enter Date of Arrest, Citation, Detention, or Charge.": "Ingrese la fecha del arresto, citación, detención o acusación.",
+  "Hijacking or sabotage of any conveyance (including an aircraft, vessel, or vehicle)? Select Yes.":
+    "¿Secuestro o sabotaje de algún medio de transporte (incluyendo una aeronave, embarcación o vehículo)? Seleccione Sí.",
+  "Hijacking or sabotage of any conveyance (including an aircraft, vessel, or vehicle)? Select No.":
+    "¿Secuestro o sabotaje de algún medio de transporte (incluyendo una aeronave, embarcación o vehículo)? Seleccione No.",
+  "Assassination? Select Yes.": "¿Asesinato? Seleccione Sí.",
+  "Assassination? Select No.": "¿Asesinato? Seleccione No.",
+  "Provide the following information about your spouse and all of your children, if applicable.":
+    "Proporcione la siguiente información sobre su cónyuge y todos sus hijos, si aplica.",
+  "Third Entry.": "Tercera entrada.",
+  "Enter Status at the Time-of-Entry (for example, F-1 student, B-2 tourist, entered without inspection).":
+    "Ingrese el estatus al momento de la entrada (por ejemplo, estudiante F-1, turista B-2, entrada sin inspección).",
+  "Second Entry.": "Segunda entrada.",
+  "Type of Office (Select only one box).": "Tipo de oficina (seleccione solo una casilla).",
+  "First Entry.": "Primera entrada.",
+  "If you ever used other names, provide them below: Name 1.": "Si alguna vez usó otros nombres, proporciónelos a continuación: Nombre 1.",
+  "If you ever used other names, provide them below: Name 3.": "Si alguna vez usó otros nombres, proporciónelos a continuación: Nombre 3.",
+  "If you ever used other names, provide them below: Name 2.": "Si alguna vez usó otros nombres, proporciónelos a continuación: Nombre 2.",
+  "If alien relative ever used other names, provide them below: Name 1.": "Si el familiar extranjero alguna vez usó otros nombres, proporciónelos a continuación: Nombre 1.",
+  "If alien relative ever used other names, provide them below: Name 3.": "Si el familiar extranjero alguna vez usó otros nombres, proporciónelos a continuación: Nombre 3.",
+  "If alien relative ever used other names, provide them below: Name 2.": "Si el familiar extranjero alguna vez usó otros nombres, proporciónelos a continuación: Nombre 2.",
+  "Entrepreneur's Spouse's Information.": "Información del cónyuge del emprendedor.",
+  "Enter Trade Name \"D B A\" (Doing Business As).": "Ingrese el nombre comercial \"DBA\" (Doing Business As).",
+  "Applying for Re-Parole.": "Solicitando reingreso (re-parole).",
+  "If you need more space to complete this section, use the space provided in Part 10.":
+    "Si necesita más espacio para completar esta sección, use el espacio provisto en la Parte 10.",
+  "Name of Investor (if an individual).": "Nombre del inversionista (si es una persona).",
+  "Enter Types of Investment (for example, equity or convertible debt).": "Ingrese los tipos de inversión (por ejemplo, capital o deuda convertible).",
+  "Enter Aggregate Amount of Investment.": "Ingrese el monto agregado de la inversión.",
+  "Name of Investor (if an organization such as a Venture Capital Firm, Accelerator or Incubator).":
+    "Nombre del inversionista (si es una organización como una firma de capital de riesgo, aceleradora o incubadora).",
+  "Name of Obligor.": "Nombre del obligado.",
+  "Name of Agent/Co-Obligor (if any-Surety Bonds only).": "Nombre del agente/co-obligado (si aplica - solo fianzas de garantía).",
+  "General Terms and Conditions.": "Términos y condiciones generales.",
+  "Conditions of the Bond - The Alien Will Not Receive Public Benefits and Will Comply With Any Other Conditions Imposed.":
+    "Condiciones de la fianza: el extranjero no recibirá beneficios públicos y cumplirá con cualquier otra condición impuesta.",
+  "Public Charge Bond Guarantee Statement and Certification.": "Declaración y certificación de garantía de fianza de carga pública.",
+  "Legal Name of Regional Center Entity.": "Nombre legal de la entidad del centro regional.",
+  "Check this box for: Corporation.": "Marque esta casilla para: Corporación.",
+  "Check this box for: Partnership (including limited partnerships).": "Marque esta casilla para: Sociedad (incluyendo sociedades limitadas).",
+  "Check this box for: Limited Liability Company (L L C).": "Marque esta casilla para: Sociedad de responsabilidad limitada (LLC).",
+  "Check this box to indicate that the Physical and Mailing Addresses of the Regional Center are the same.":
+    "Marque esta casilla para indicar que la dirección física y postal del centro regional son la misma.",
+  "Geographic Area of the Regional Center.": "Área geográfica del centro regional.",
+  "Describe the geographic components that comprise the defined, contiguous, and limited geographic area of the regional center.":
+    "Describa los componentes geográficos que comprenden el área geográfica definida, contigua y limitada del centro regional.",
+  "Select the appropriate box to indicate whether you read this application yourself or whether you had an interpreter assist you.":
+    "Seleccione la casilla correspondiente para indicar si leyó esta solicitud usted mismo o si un intérprete lo ayudó.",
+  "If someone assisted you in completing the application, select the box indicating that you used a preparer.":
+    "Si alguien lo ayudó a completar la solicitud, seleccione la casilla que indica que usó un preparador.",
+  "Check this box for: I can read and understand English, and I have read and understand every question and instruction on this application and my answer to every question.":
+    "Marque esta casilla para: Puedo leer y entender inglés, y he leído y entendido cada pregunta e instrucción de esta solicitud y mi respuesta a cada pregunta.",
+  "Enter the Preparer Full Name.": "Ingrese el nombre completo del preparador.",
+  "Enter the Authorized Individual's Daytime Telephone Number.": "Ingrese el número de teléfono diurno de la persona autorizada.",
+  "Enter the Authorized Individual's Mobile Telephone Number (if any).": "Ingrese el número de teléfono celular de la persona autorizada (si aplica).",
+  "Enter the Authorized Individual's Email Address (if any).": "Ingrese la dirección de correo electrónico de la persona autorizada (si aplica).",
+  "You must sign and date the application.": "Debe firmar y fechar la solicitud.",
+  "NOTE TO ALL AUTHORIZED INDIVIDUALS:  If you do not completely fill out this application or fail to submit required documents listed in the Instructions, U S C I S may deny your application.":
+    "NOTA PARA TODAS LAS PERSONAS AUTORIZADAS: Si no completa totalmente esta solicitud o no presenta los documentos requeridos indicados en las Instrucciones, USCIS puede denegar su solicitud.",
+  "Enter the Date of the Authorized Individual's Signature.": "Ingrese la fecha de la firma de la persona autorizada.",
+  "Enter the Date of the Iterpreter's Signature.": "Ingrese la fecha de la firma del intérprete.",
+  "Type or print the regional center entity's name at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.":
+    "Escriba a máquina o en letra de molde el nombre de la entidad del centro regional en la parte superior de cada hoja; indique el número de página, número de parte y número de artículo al que corresponde su respuesta; y firme y feche cada hoja.",
+  "Name of the Regional Center Entity.": "Nombre de la entidad del centro regional.",
+  "Is the New Commercial Enterprise comprised of a holding company and its wholly owned subsidiaries.":
+    "¿La nueva empresa comercial está compuesta por una empresa matriz y sus subsidiarias de propiedad total?",
+  "If yes describe  the overall organization structure of the NCE and list each wholly owned subsidiary along with its date and jurisdiction of formation.":
+    "Si es así, describa la estructura organizativa general de la NCE y enumere cada subsidiaria de propiedad total junto con su fecha y jurisdicción de formación.",
+  "Information About the New Commercial Enterprise Physical and Mailing Address.": "Información sobre la dirección física y postal de la nueva empresa comercial.",
+  "Information About the N C E Physical and Mailing Address.": "Información sobre la dirección física y postal de la NCE.",
+  "Enter Date of Formation in mm/dd/yyyy format.": "Ingrese la fecha de formación en formato mm/dd/aaaa.",
+  "Enter Justification of Formation.": "Ingrese la justificación de la formación.",
+  "Form Type.": "Tipo de formulario.",
+  "Enter the Email Address (if any).": "Ingrese la dirección de correo electrónico (si aplica).",
+  "Enter the Certifier's Email Address (if any).": "Ingrese la dirección de correo electrónico del certificador (si aplica).",
+  "NCE Contact Information.": "Información de contacto de la NCE.",
+  "For Item Numbers 1 to 13, you should answer “Yes” to any question that applies, even if the records were sealed or otherwise cleared, or if anyone, including a judge, law enforcement officer, or attorney, told you that you no longer have a record.":
+    "Para los Números de Artículo 1 a 13, debe responder \"Sí\" a cualquier pregunta que corresponda, incluso si los registros fueron sellados o eliminados de otra manera, o si alguien, incluyendo un juez, oficial de la ley o abogado, le dijo que ya no tiene antecedentes.",
+  "Statement Regarding the Preparer.": "Declaración sobre el preparador.",
+  "Role in the E B - 5 Entity.": "Rol en la entidad EB-5.",
+  "NOTE:  Read the Penalties section of the Form N - 300 Instructions before completing this part.":
+    "NOTA: Lea la sección de Sanciones de las Instrucciones del Formulario N-300 antes de completar esta parte.",
+  "You must file Form N - 300 while in the United States.": "Debe presentar el Formulario N-300 mientras se encuentra en los Estados Unidos.",
+  "Information About You, the Naturalization Applicant.": "Información sobre usted, el solicitante de naturalización.",
+  "Check this box for a designated floor.": "Marque esta casilla para un piso designado.",
+  "Entry 1.": "Entrada 1.",
+  "Naturalization Applicant's Statement Regarding the Interpreter.": "Declaración del solicitante de naturalización sobre el intérprete.",
+  "Other Names You Have Used Since Birth (see the Instructions for this Item Number for more information about which names to include).":
+    "Otros nombres que ha usado desde su nacimiento (consulte las Instrucciones de este Número de Artículo para más información sobre qué nombres incluir).",
+  "Would you like to legally change your name? If you answered “Yes,” type or print the new name you would like to use.":
+    "¿Desea cambiar legalmente su nombre? Si respondió \"Sí\", escriba a máquina o en letra de molde el nuevo nombre que desea usar.",
+  "Enter Physical Addresses.": "Ingrese las direcciones físicas.",
+  "Page 5.": "Página 5.",
+  "Information About Your Children .": "Información sobre sus hijos.",
+  "Residence.": "Residencia.",
+  "Enter one of the following options: Resides with me, Does not reside with me, Unknown/Missing, or Deceased.":
+    "Ingrese una de las siguientes opciones: Reside conmigo, No reside conmigo, Desconocido/Desaparecido, o Fallecido.",
+  "Enter one of the following options: Biological son or daughter, Stepchild, Legally Adopted son or daughter.":
+    "Ingrese una de las siguientes opciones: Hijo/a biológico(a), Hijastro/a, Hijo/a legalmente adoptado(a).",
+  "Are you providing support for your son or daughter? Select Yes.": "¿Está proporcionando apoyo para su hijo/a? Seleccione Sí.",
+  "Are you providing support for your son or daughter? Select No.": "¿Está proporcionando apoyo para su hijo/a? Seleccione No.",
+  "Employer Name or School Name.": "Nombre del empleador o de la escuela.",
+  "Enter Employer's City(if outside the United States, indicate Province and Country).":
+    "Ingrese la ciudad del empleador (si está fuera de los Estados Unidos, indique la provincia y el país).",
+  "Enter Employer's Zip Code (if outside the United States, indicate Province and Country).":
+    "Ingrese el código postal del empleador (si está fuera de los Estados Unidos, indique la provincia y el país).",
+  "Trip One.": "Viaje Uno.",
+  "Trip Three.": "Viaje Tres.",
+  "Trip Five.": "Viaje Cinco.",
+  "Trip Six.": "Viaje Seis.",
+  "Trip Four.": "Viaje Cuatro.",
+  "Trip Two.": "Viaje Dos.",
+  "Additional Information About You (Person Applying for Naturalization).": "Información adicional sobre usted (persona que solicita la naturalización).",
+  "If the applicant is a minor child, the parent must sign the Son or Daughter’s Name in this space.":
+    "Si el solicitante es un menor de edad, el padre o la madre debe firmar el nombre del hijo/a en este espacio.",
+  "Your name exactly as it appears on your Permanent Resident Card.": "Su nombre exactamente como aparece en su Tarjeta de Residente Permanente.",
+  "NOTE: Read the Penalties section of the Form N - 4 70 Instructions before completing this part.":
+    "NOTA: Lea la sección de Sanciones de las Instrucciones del Formulario N-470 antes de completar esta parte.",
+  "Provide your full name exactly as it is printed on the certificate or declaration.":
+    "Proporcione su nombre completo exactamente como aparece impreso en el certificado o declaración.",
+  "My name changed through (select only one box).": "Mi nombre cambió a través de (seleccione solo una casilla).",
+  "My date of birth changed through (select all applicable boxes).": "Mi fecha de nacimiento cambió a través de (seleccione todas las casillas que correspondan).",
+  "U S C I S or Consular Official's Certification.": "Certificación del oficial de USCIS o consular.",
+  "Current Legal Name (do not provide a nickname).": "Nombre legal actual (no proporcione un apodo).",
+  "Your Name Exactly As It Appears on Your Permanent Resident Card (if different from above).":
+    "Su nombre exactamente como aparece en su Tarjeta de Residente Permanente (si es diferente al indicado anteriormente).",
+  "Provide all other names you have ever used, include nicknames, maiden name, and aliases.":
+    "Proporcione todos los demás nombres que haya usado alguna vez, incluya apodos, apellido de soltera y alias.",
+  "Entry one.": "Entrada uno.",
+  "Entry two.": "Entrada dos.",
+  "Place of Adoption.": "Lugar de la adopción.",
+  "Place of Re-Adoption.": "Lugar de la readopción.",
+  "Current Legal Name of Other Mother or Father.": "Nombre legal actual del otro padre o madre.",
+  "Current Legal Name of Legal Guardian.": "Nombre legal actual del tutor legal.",
+  "Applicant's, Parent's, or Legal Guardian's Statement Regarding the Interpreter.":
+    "Declaración del solicitante, padre/madre o tutor legal sobre el intérprete.",
+  "Person Filing this Application.": "Persona que presenta esta solicitud.",
+  "Child's Current Legal Name (do not provide a nickname).": "Nombre legal actual del hijo/a (no proporcione un apodo).",
+  "Provide all other names the child has ever used since birth, including aliases, name at birth, and nicknames.":
+    "Proporcione todos los demás nombres que el menor haya usado alguna vez desde su nacimiento, incluyendo alias, nombre de nacimiento y apodos.",
+  "Information About the Child's Adoption.": "Información sobre la adopción del menor.",
+  "Other Parent's Legal Name.": "Nombre legal del otro padre/madre.",
+  "Provide your daytime telephone number, mobile telephone number If any, and email address if any.":
+    "Proporcione su número de teléfono diurno, número de teléfono celular si aplica, y dirección de correo electrónico si aplica.",
+  "Your Relationship to Decedent at Time of His/Her Death (Check one.) Representative.":
+    "Su relación con el fallecido al momento de su muerte (marque uno). Representante.",
+  "Certificate of Applicant.": "Certificado del solicitante.",
+  "Applicant's Legal Name.": "Nombre legal del solicitante.",
+  "Certifying Medical Professional's Name.": "Nombre del profesional médico certificador.",
 };
 
 export function translateLabel(label: string): string {
