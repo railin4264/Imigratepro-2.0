@@ -19,6 +19,18 @@ const PHRASES: Record<string, string> = {
   "Part 7.": "Parte 7.",
   "Part 8.": "Parte 8.",
   "Part 9.": "Parte 9.",
+  "Part 10.": "Parte 10.",
+  "Part 11.": "Parte 11.",
+  "Part 12.": "Parte 12.",
+  "Part 13.": "Parte 13.",
+  "Part 14.": "Parte 14.",
+  "Part 15.": "Parte 15.",
+  "Part 16.": "Parte 16.",
+  "Part A.": "Parte A.",
+  "Part B.": "Parte B.",
+  "Part C.": "Parte C.",
+  "PART 5.": "PARTE 5.",
+  "Part.": "Parte.",
   "Information About You (Petitioner).": "Información sobre usted (peticionario).",
   "Information About You.": "Información sobre usted.",
   "Information About Beneficiary.": "Información sobre el beneficiario.",
@@ -506,12 +518,6 @@ const PHRASES: Record<string, string> = {
   "Section A.": "Sección A.",
   "Section B.": "Sección B.",
   "Section C.": "Sección C.",
-  "Part 10.": "Parte 10.",
-  "Part 11.": "Parte 11.",
-  "Part 12.": "Parte 12.",
-  "Part 13.": "Parte 13.",
-  "Part 14.": "Parte 14.",
-  "Part 15.": "Parte 15.",
   "PART 2.": "PARTE 2.",
   "PART 3.": "PARTE 3.",
   "PART 4.": "PARTE 4.",
@@ -693,6 +699,273 @@ const PHRASES: Record<string, string> = {
   "Provide information about yourself if you are the person requesting a fee waiver for a petition or application you are filing.": "Proporcione información sobre usted si es la persona que solicita una exención de tarifas para una petición o solicitud que está presentando.",
   "Select \"Yes\" or \"No,\" as appropriate, for each of the following questions.": "Seleccione \"Sí\" o \"No\", según corresponda, para cada una de las siguientes preguntas.",
   "Have you EVER been a member of, solicited money or members for, provided support for, attended military training (as defined in section 2339D(c)(1) of Title 18, United States Code) by or on behalf of, or been associated with any other group of two or more individuals, whether organized or not, which has been designated as, or has engaged in or has a subgroup which has been designated as, or has engaged in.": "¿Ha sido ALGUNA VEZ miembro de, solicitado dinero o miembros para, proporcionado apoyo a, asistido a entrenamiento militar (según se define en la sección 2339D(c)(1) del Título 18 del Código de los Estados Unidos) por o en nombre de, o ha estado asociado con algún otro grupo de dos o más personas, organizado o no, que haya sido designado o haya participado en, o tenga un subgrupo que haya sido designado o haya participado en?",
+
+  // Batch added 2026-07-21: highest-frequency segments still missing after
+  // the "cover all 97 forms" pass -- these are recurring section headers and
+  // boilerplate instructions that repeat across dozens of forms, so this
+  // covers a large share of occurrences even though it's a small number of
+  // new keys. Two variants of "if/If Other Than the ..." exist in the real
+  // PDFs (inconsistent capitalization in USCIS's own labels), so both are
+  // listed for several of these rather than assuming one is a typo.
+  "Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.":
+    "Información de contacto, declaración y firma de la persona que preparó esta solicitud, si no es el solicitante.",
+  "Contact Information, Declaration, and Signature of the Person Preparing This Application, if Other Than the Applicant.":
+    "Información de contacto, declaración y firma de la persona que preparó esta solicitud, si no es el solicitante.",
+  "Contact Information, Declaration, and Signature of the Person Preparing this Application, If Other Than the Applicant and Spouse.":
+    "Información de contacto, declaración y firma de la persona que preparó esta solicitud, si no es el solicitante ni el cónyuge.",
+  "Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Spouse Beneficiary.":
+    "Información de contacto, declaración y firma de la persona que preparó este formulario, si no es el cónyuge beneficiario.",
+  "Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant.":
+    "Información de contacto, declaración y firma de la persona que preparó este formulario, si no es el apelante.",
+  "Contact Information, Declaration, Certification, and Signature of the Person Preparing this Form, if Other Than the Person Associated with Regional Center Program or Authorized Individual.":
+    "Información de contacto, declaración, certificación y firma de la persona que preparó este formulario, si no es la persona asociada con el programa de centro regional o la persona autorizada.",
+  "Contact Information, Certification and Signature of the Person Preparing this Petition, if Other Than the Petitioner or Beneficiary.":
+    "Información de contacto, certificación y firma de la persona que preparó esta petición, si no es el peticionario o el beneficiario.",
+  "Contact Information, Statement, Certification, and Signature of the Person Preparing this Petition, If Other Than the Petitioner.":
+    "Información de contacto, declaración, certificación y firma de la persona que preparó esta petición, si no es el peticionario.",
+  "Contact Information, Statement, Certification, and Signature of the Person Preparing This Affidavit, If Other Than the Sponsor.":
+    "Información de contacto, declaración, certificación y firma de la persona que preparó esta declaración jurada, si no es el patrocinador.",
+  "Contact Information, Statement, Certification, and Signature of the Person Preparing this Notice, If Other Than the Sponsor.":
+    "Información de contacto, declaración, certificación y firma de la persona que preparó este aviso, si no es el patrocinador.",
+  "Civil Surgeon Worksheet.": "Hoja de trabajo del cirujano civil.",
+  "Communicable Disease of Public Health Significance.": "Enfermedad transmisible de importancia para la salud pública.",
+  "Provide the following information about your children.": "Proporcione la siguiente información sobre sus hijos.",
+  "Information About the Individual Agreeing to Financially Support the Beneficiary.":
+    "Información sobre la persona que acepta brindar apoyo financiero al beneficiario.",
+  "Public Charge.": "Carga pública.",
+  "To be completed by Law Enforcement Agencies (See instructions for specific information.).":
+    "Debe ser completado por agencias de la ley (consulte las instrucciones para obtener información específica).",
+  "Certifications.": "Certificaciones.",
+  "Attachment 1.": "Anexo 1.",
+  "Attachment-1.": "Anexo 1.",
+  "Office Name and Mailing Address.": "Nombre de la oficina y dirección postal.",
+  "Complete This Section If Filing For An Individual Petition.": "Complete esta sección si presenta una petición individual.",
+  "Information About Your Alien Relative.": "Información sobre su familiar extranjero.",
+  "Information About You (For Initial and Renewal Requests).": "Información sobre usted (para solicitudes iniciales y de renovación).",
+  "Information About You, the Petitioner.": "Información sobre usted, el peticionario.",
+  "Information About Your Presence In the United States.": "Información sobre su presencia en los Estados Unidos.",
+  "Information About Your Marital Status and Spouse.": "Información sobre su estado civil y cónyuge.",
+  "Other Names Used (if any).": "Otros nombres utilizados (si aplica).",
+  "Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in any of the following.":
+    "¿Ha ordenado, incitado, pedido, cometido, ayudado o participado de otra manera ALGUNA VEZ en algo de lo siguiente?",
+  "This field is pre-populated from Page 1.": "Este campo se completa automáticamente desde la Página 1.",
+  "Information About the Spouse and Children of the Person for Whom This Petition Is Being Filed.":
+    "Información sobre el cónyuge y los hijos de la persona para quien se presenta esta petición.",
+  "Applicant's Statement, Contact Information, Certification, and Signature.":
+    "Declaración, información de contacto, certificación y firma del solicitante.",
+  "Address.": "Dirección.",
+  "Information About You (Person applying for lawful permanent residence).":
+    "Información sobre usted (persona que solicita la residencia permanente legal).",
+  "Information About You (Requestor).": "Información sobre usted (solicitante).",
+  "Information About You (Spouse Beneficiary).": "Información sobre usted (cónyuge beneficiario).",
+  "Information About the Beneficiary (Convention adoptee).": "Información sobre el beneficiario (adoptado bajo el Convenio).",
+  "Obligor and Agent/Co-Obligor Information.": "Información del obligado y agente/co-obligado.",
+  "Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor).":
+    "Información del obligado y agente/co-obligado (debe completarla el obligado o agente/co-obligado).",
+  "Information About You (Person filing this petition as a victim).":
+    "Información sobre usted (persona que presenta esta petición como víctima).",
+  "Information About the Owners of the Start-Up.": "Información sobre los propietarios de la empresa emergente.",
+  "Financial Information.": "Información financiera.",
+  "Information About the Spouse and All Children of the Person for Whom You Are Filing.":
+    "Información sobre el cónyuge y todos los hijos de la persona para quien está presentando esta solicitud.",
+  "List all immediate relatives in the United States (parents, spouse, and children).":
+    "Enumere todos los familiares inmediatos en los Estados Unidos (padres, cónyuge e hijos).",
+  "Information About You (Petitioner) (continued).": "Información sobre usted (peticionario) (continuación).",
+  "Information About the Entrepreneur (Applicant).": "Información sobre el emprendedor (solicitante).",
+  "Required Certifications.": "Certificaciones requeridas.",
+  "Applicant's Contact Information, Certification, and Signature.": "Información de contacto, certificación y firma del solicitante.",
+  "Information About your Spouse and Children.": "Información sobre su cónyuge e hijos.",
+  "Your Prior Residences.": "Sus residencias anteriores.",
+  "Information about the Beneficiary.": "Información sobre el beneficiario.",
+  "Supplement.": "Suplemento.",
+  "Reason for Cancellation of the Bond.": "Motivo de la cancelación de la fianza.",
+  "Address and Contact Information.": "Dirección e información de contacto.",
+  "Written Record.": "Registro escrito.",
+  "Print and Sign completed form.": "Imprima y firme el formulario completado.",
+  "Information About Marital History.": "Información sobre el historial marital.",
+  "List All of Your Children, Regardless of Age or Marital Status.": "Enumere a todos sus hijos, sin importar la edad o el estado civil.",
+  "Complete Only If Filing for an Amerasian.": "Complete únicamente si presenta la solicitud como amerasiático.",
+  "RESIDENCES IN THE UNITED STATES.": "RESIDENCIAS EN LOS ESTADOS UNIDOS.",
+  "Dependents Information.": "Información de los dependientes.",
+  "The following persons are dependent upon me for support.": "Las siguientes personas dependen de mí para su manutención.",
+  "Means-Tested Benefits.": "Beneficios sujetos a prueba de recursos.",
+  "Means-Tested Benefit Recipients.": "Receptores de beneficios sujetos a prueba de recursos.",
+  "Registrant Information.": "Información del registrante.",
+  "Preparer's Certification and Signature.": "Certificación y firma del preparador.",
+  "Reasons for Inadmissibility.": "Motivos de inadmisibilidad.",
+  "Information About the Alien For Whom the Bond Is Furnished.": "Información sobre el extranjero para quien se otorga la fianza.",
+  "Additional Information and provide any evidence to support your answers.":
+    "Información adicional y proporcione cualquier evidencia que respalde sus respuestas.",
+  "Information From the Registered Agency.": "Información de la agencia registrada.",
+  "Application Type or Filing Category.": "Tipo de solicitud o categoría de presentación.",
+  "Information About Your Current Marriage.": "Información sobre su matrimonio actual.",
+  "Basic Information About the Proposed Employment and Employer.": "Información básica sobre el empleo propuesto y el empleador.",
+  "Employer Attestation.": "Declaración del empleador.",
+  "Information About Your Employment and Financial Status.": "Información sobre su empleo y situación financiera.",
+  "Employer.": "Empleador.",
+  "Information About the Person Filing This Waiver Form.": "Información sobre la persona que presenta este formulario de exención.",
+  "Your Contact Information.": "Su información de contacto.",
+  "Education History.": "Historial educativo.",
+  "Other Information About You.": "Otra información sobre usted.",
+  "Information About Sponsor.": "Información sobre el patrocinador.",
+  "Information About Your Children (if any).": "Información sobre sus hijos (si aplica).",
+  "Information About Subject of Record.": "Información sobre el sujeto del registro.",
+  "Information About Your Residence.": "Información sobre su residencia.",
+  "Information About the Child for whom this application is being filed.": "Información sobre el menor para quien se presenta esta solicitud.",
+  "Information About Your Parent 1.": "Información sobre su padre/madre 1.",
+  "Information About Your Parent 2.": "Información sobre su padre/madre 2.",
+  "Information About Your Criminal Convictions.": "Información sobre sus condenas penales.",
+  "AFFILIATIONS OR ASSOCIATIONS.": "AFILIACIONES O ASOCIACIONES.",
+  "List all affiliations or associations, clubs, organizations, churches, unions, businesses, etc.":
+    "Enumere todas las afiliaciones o asociaciones, clubes, organizaciones, iglesias, sindicatos, negocios, etc.",
+  "Information About Fees, Expenses and Other Compensation.": "Información sobre honorarios, gastos y otra compensación.",
+  "Information About Fees, Expenses, and Other Compensation.": "Información sobre honorarios, gastos y otra compensación.",
+  "Information About Your Former Spouses (if any).": "Información sobre sus excónyuges (si aplica).",
+  "Bona Fides of Person Involved with Regional Center Program.": "Buena fe de la persona involucrada con el programa de centro regional.",
+  "Bona Fides of Persons Involved With Regional Center Program.": "Buena fe de las personas involucradas con el programa de centro regional.",
+  "If you are currently married, provide the following information about your current spouse.":
+    "Si está casado actualmente, proporcione la siguiente información sobre su cónyuge actual.",
+  "Statement, Contact Information, Declaration, and Signature of the Authorized Individual.":
+    "Declaración, información de contacto y firma de la persona autorizada.",
+  "Entry Information.": "Información de entrada.",
+  "Beneficiary Information.": "Información del beneficiario.",
+  "Information About You (Person filing this petition).": "Información sobre usted (persona que presenta esta petición).",
+  "Applicant Information.": "Información del solicitante.",
+  "Citizenship and Immigration Services Use Only.": "Uso exclusivo de Servicios de Ciudadanía e Inmigración.",
+  "Other Information About Your Beneficiary.": "Otra información sobre su beneficiario.",
+  "For Department of State / Visa Use Only.": "Uso exclusivo del Departamento de Estado / Visa.",
+  "General Information About You (Person filing this application as a victim).":
+    "Información general sobre usted (persona que presenta esta solicitud como víctima).",
+  "Requestor's Mailing Address.": "Dirección postal del solicitante.",
+  "Answer the following questions.": "Responda las siguientes preguntas.",
+  "Information About You (the Applicant).": "Información sobre usted (el solicitante).",
+  "Information About You (The Applicant).": "Información sobre usted (el solicitante).",
+  "Your Mailing Address.": "Su dirección postal.",
+  "Duty of Disclosure.": "Deber de divulgación.",
+  "I am applying for a waiver of (select all applicable boxes).": "Estoy solicitando una exención de (seleccione todas las casillas que correspondan).",
+  "Your Spouse's Contact Information.": "Información de contacto de su cónyuge.",
+  "FOR OFFICIAL USE ONLY.": "PARA USO OFICIAL ÚNICAMENTE.",
+  "Office Contact Information.": "Información de contacto de la oficina.",
+  "Information About Family Members Requesting Parole or Re-Parole with Entrepreneur.":
+    "Información sobre familiares que solicitan permiso de entrada (parole) o reingreso junto con el emprendedor.",
+  "Contact Information.": "Información de contacto.",
+  "For Official Use Only.": "Para uso oficial únicamente.",
+  "Number.": "Número.",
+  "Current Information About You.": "Información actual sobre usted.",
+  "Complete the Following for Each Brother and Sister.": "Complete lo siguiente para cada hermano y hermana.",
+  "If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.":
+    "Si necesita más espacio del proporcionado, puede hacer copias de esta página para completarla y presentarla con esta solicitud, o adjuntar una hoja de papel por separado.",
+  "If you need extra space to provide any additional information within this request, use the space below.":
+    "Si necesita espacio adicional para proporcionar información adicional dentro de esta solicitud, use el espacio a continuación.",
+  "This field cannot be signed electronically.": "Este campo no se puede firmar electrónicamente.",
+  "Petitioner Information.": "Información del peticionario.",
+  "Numerical Limitation Information.": "Información sobre el límite numérico.",
+  "Attestation - Individual Self-Petitioner.": "Declaración - autopeticionario individual.",
+  "Information About Prior Marriages (if any).": "Información sobre matrimonios anteriores (si aplica).",
+  "Relationship to You.": "Relación con usted.",
+  "Clinical Office Locations.": "Ubicaciones de la oficina clínica.",
+  "Certifying Medical Professional Information.": "Información del profesional médico certificador.",
+  "If you need extra space to provide any additional information within this application, use the space below.":
+    "Si necesita espacio adicional para proporcionar información adicional dentro de esta solicitud, use el espacio a continuación.",
+  "If you need more space than what is provided, you may make copies of this page to complete and file with this request or attach a separate sheet of paper.":
+    "Si necesita más espacio del proporcionado, puede hacer copias de esta página para completarla y presentarla con esta solicitud, o adjuntar una hoja de papel por separado.",
+  "Information About the Juvenile.": "Información sobre el menor.",
+  "Civil Surgeon's Contact Information, Certification, and Signature.": "Información de contacto, certificación y firma del cirujano civil.",
+  "Sputum Smears and Cultures Results.": "Resultados de frotis y cultivos de esputo.",
+  "Regional Center Physical and Mailing Address.": "Dirección física y postal del centro regional.",
+  "Certifier's Contact Information.": "Información de contacto del certificador.",
+  "Certifier’s Contact Information.": "Información de contacto del certificador.",
+  "Requestor's Contact Information.": "Información de contacto del solicitante.",
+  "Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.":
+    "Número (si aplica) en la parte superior de cada hoja; indique el número de página, número de parte y número de artículo al que corresponde su respuesta; y firme y feche cada hoja.",
+  "Information About Foreign Employment.": "Información sobre empleo en el extranjero.",
+  "The name of the preparer can not be typewritten into this space.": "El nombre del preparador no puede escribirse a máquina en este espacio.",
+  "Information About the Petitioner.": "Información sobre el peticionario.",
+  "Information About your Parents.": "Información sobre sus padres.",
+  "Applicant's Certification and Signature.": "Certificación y firma del solicitante.",
+  "Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations).":
+    "Solicitantes con una condición de tuberculosis Clase A (según lo define la normativa de HHS).",
+  "List all your children under 18 years of age.": "Enumere todos sus hijos menores de 18 años.",
+  "Also include any child under 18 years of age residing in your household even if you are not the parent of such child.":
+    "Incluya también a cualquier menor de 18 años que resida en su hogar, aunque usted no sea el padre o madre de ese menor.",
+  "For the above named alien, I request waivers for any grounds of inadmissibility that may exist.":
+    "Para el extranjero mencionado anteriormente, solicito exenciones para cualquier motivo de inadmisibilidad que pueda existir.",
+  "Below is a non-exhaustive list for possible grounds of inadmissibility.":
+    "A continuación se presenta una lista no exhaustiva de posibles motivos de inadmisibilidad.",
+  "Supplement B,  Re verification and Rehire (formerly Section 3).": "Suplemento B, Reverificación y recontratación (anteriormente Sección 3).",
+  "Information About the Request.": "Información sobre la solicitud.",
+  "Information About Your Address.": "Información sobre su dirección.",
+  "Requestor's Declaration, Certification, Signature, and Affidavit of Identity.":
+    "Declaración, certificación, firma y declaración jurada de identidad del solicitante.",
+  "If you need extra space to provide any additional information within this application, use the space below or attach a separate sheet of paper.":
+    "Si necesita espacio adicional para proporcionar información adicional dentro de esta solicitud, use el espacio a continuación o adjunte una hoja de papel por separado.",
+  "If you need more space than what is provided, you may make copies of this page to complete and file with this application.":
+    "Si necesita más espacio del proporcionado, puede hacer copias de esta página para completarla y presentarla con esta solicitud.",
+  "If you need extra space to provide any additional information within this affidavit, use the space below.":
+    "Si necesita espacio adicional para proporcionar información adicional dentro de esta declaración jurada, use el espacio a continuación.",
+  "If you need more space than what is provided, you may make copies of this page to complete and file with this affidavit or attach a separate sheet of paper.":
+    "Si necesita más espacio del proporcionado, puede hacer copias de esta página para completarla y presentarla con esta declaración jurada, o adjuntar una hoja de papel por separado.",
+  "Provide the following information about your parents and siblings (brothers and sisters).":
+    "Proporcione la siguiente información sobre sus padres y hermanos.",
+  "Check the box if the person is deceased.": "Marque la casilla si la persona falleció.",
+  "Information About You (Applicant) 1.": "Información sobre usted (solicitante) 1.",
+  "If you are submitting separate applications for Family Unity benefits at this time for other relatives, provide the following information about those other relatives.":
+    "Si está presentando solicitudes por separado para beneficios de Unidad Familiar en este momento para otros familiares, proporcione la siguiente información sobre esos otros familiares.",
+  "Additional Information About the Regional Center and the New Commercial Enterprise (N C E).":
+    "Información adicional sobre el centro regional y la nueva empresa comercial (NCE).",
+  "Medical Licenses.": "Licencias médicas.",
+  "Professional Experience.": "Experiencia profesional.",
+  "Time Outside the United States (include trips to Canada, Mexico, and the Caribbean).":
+    "Tiempo fuera de los Estados Unidos (incluya viajes a Canadá, México y el Caribe).",
+  "Basic Information About the Proposed Employment.": "Información básica sobre el empleo propuesto.",
+  "Information About the Person or Organization Filing This Petition.": "Información sobre la persona u organización que presenta esta petición.",
+  "Sponsor's Statement, Contact Information, Certification, and Signature.":
+    "Declaración, información de contacto, certificación y firma del patrocinador.",
+  "If you are actively in the process of investing capital in the N C E, enter the amount and date you anticipate making the investment.":
+    "Si actualmente está en proceso de invertir capital en la NCE, ingrese el monto y la fecha en que anticipa realizar la inversión.",
+  "Syphilis.": "Sífilis.",
+  "If you need extra space to provide any additional information within this notice, use the space below.":
+    "Si necesita espacio adicional para proporcionar información adicional dentro de este aviso, use el espacio a continuación.",
+  "If you need more space than what is provided, you may make copies of this page to complete and file with this notice or attach a separate sheet of paper.":
+    "Si necesita más espacio del proporcionado, puede hacer copias de esta página para completarla y presentarla con este aviso, o adjuntar una hoja de papel por separado.",
+  "Include your name at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.":
+    "Incluya su nombre en la parte superior de cada hoja; indique el número de página, número de parte y número de artículo al que corresponde su respuesta; y firme y feche cada hoja.",
+  "If you need extra space, use the space provided in Part 9.": "Si necesita espacio adicional, use el espacio provisto en la Parte 9.",
+
+  // EOIR-29 field labels (short, form-specific, no recurring phrase elsewhere)
+  "Appeal from DHS Officer decision?": "¿Apelación de la decisión del oficial del DHS?",
+  "Name of Beneficiary": "Nombre del beneficiario",
+  "A Number of beneficiary": "Número A del beneficiario",
+  "Petition form number": "Número de formulario de la petición",
+  "Beneficiary Name": "Nombre del beneficiario",
+  "Carrier and Fine number": "Número de transportista y multa",
+  "Relevant information": "Información relevante",
+  "Title of DHS Officer": "Título del oficial del DHS",
+  "Office Where DHS Decision was Issued": "Oficina donde se emitió la decisión del DHS",
+  "Date of DHS Decision": "Fecha de la decisión del DHS",
+  "Reasons": "Motivos",
+  "A Number, if any": "Número A, si aplica",
+  "Enter No": "Ingrese No",
+  "Enter Yes": "Ingrese Sí",
+  "Date": "Fecha",
+  "Signature of Appellant/Petitioner (or Attorney or Representative": "Firma del apelante/peticionario (o abogado o representante",
+  "Print or Type Name": "Escriba a mano o a máquina el nombre",
+  "Address (Number, Street, City, State, Zip Code": "Dirección (número, calle, ciudad, estado, código postal",
+  "Street Number and Name": "Número y nombre de la calle",
+  "Apartment Number or Unit Number (if any)": "Número de apartamento o unidad (si aplica)",
+  "City": "Ciudad",
+  "State": "Estado",
+  "Zip Code": "Código postal",
+
+  // G-1145 (E-Notification) repeated instruction text
+  "Complete this form and clip it on top of the first page of your immigration form or forms.":
+    "Complete este formulario y sujételo encima de la primera página de su(s) formulario(s) de inmigración.",
+  "Enter Applicant or Petitioner Full Last Name.": "Ingrese el apellido completo del solicitante o peticionario.",
+  "Enter Applicant or Petitioner Full First Name.": "Ingrese el nombre completo del solicitante o peticionario.",
+  "Enter Applicant or Petitioner Full Middle Name.": "Ingrese el segundo nombre completo del solicitante o peticionario.",
+  "Enter E-mail Address.": "Ingrese la dirección de correo electrónico.",
+  "Enter Mobile Telephone Number without spaces, dashes, slashes or parenthesis; for example (011) 555-0101 enter as 0115550101.":
+    "Ingrese el número de teléfono móvil sin espacios, guiones, barras ni paréntesis; por ejemplo, (011) 555-0101 se ingresa como 0115550101.",
 };
 
 export function translateLabel(label: string): string {
