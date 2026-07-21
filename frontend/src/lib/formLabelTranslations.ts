@@ -635,7 +635,6 @@ const PHRASES: Record<string, string> = {
   "It is pre-filled from the first page.": "Se completa automáticamente desde la primera página.",
   "Information About You, the Conditional Resident.": "Información sobre usted, el residente condicional.",
   "Interpreter's Certification and Signature.": "Certificación y firma del intérprete.",
-  "Citizenship.": "Ciudadanía.",
   "For International Address.": "Para dirección internacional.",
   "B Classification Supplement to Form I-1 29.": "Suplemento de clasificación B al Formulario I-129.",
   "H Classification Supplement to Form I-1 29.": "Suplemento de clasificación H al Formulario I-129.",
@@ -1110,7 +1109,6 @@ const PHRASES: Record<string, string> = {
   "Address Abroad (if any).": "Dirección en el extranjero (si aplica).",
   "Information on payment already made.": "Información sobre pagos ya realizados.",
   "Information on anticipated future payments.": "Información sobre pagos futuros anticipados.",
-  "Citizen Parent.": "Padre/Madre ciudadano(a).",
   "Contact Information, Certification and Signature of the Person Interpreting this Petition, if Other Than the Petitioner or Beneficiary.":
     "Información de contacto, certificación y firma de la persona que interpretó esta petición, si no es el peticionario o el beneficiario.",
   "Safe Mailing Address.": "Dirección postal segura.",
@@ -1170,7 +1168,6 @@ const PHRASES: Record<string, string> = {
   "Information About Your Mother.": "Información sobre su madre.",
   "Information About Your Father.": "Información sobre su padre.",
   "Enter your weight in pounds.": "Ingrese su peso en libras.",
-  "Citizen.": "Ciudadano(a).",
   "Enter Preparer's Mobile Telephone Number (if any).": "Ingrese el número de teléfono celular del preparador (si aplica).",
   "Enter Passport Number.": "Ingrese el número de pasaporte.",
   "Enter Job Title.": "Ingrese el título del puesto.",
@@ -2516,7 +2513,6 @@ const PHRASES: Record<string, string> = {
   "Have you permanently departed the United States? If you answered “Yes,” please provide the following information (as applicable) in Items.":
     "¿Ha salido permanentemente de los Estados Unidos? Si respondió “Sí”, proporcione la siguiente información (según corresponda) en los artículos.",
   "Five Years after Becoming a Lawful Permanent Resident.": "Cinco años después de convertirse en residente permanente legal.",
-  "Consulate.": "Consulado.",
   "The father was in the military (indicate branch of service).": "El padre estuvo en las fuerzas armadas (indique la rama del servicio).",
   "A juvenile court has determined that reunification with one or both of my parents is not viable due to.":
     "Un tribunal de menores ha determinado que la reunificación con uno o ambos de mis padres no es viable debido a.",
@@ -2684,7 +2680,6 @@ const PHRASES: Record<string, string> = {
   "Registrant Employment or Association.": "Empleo o asociación del registrante.",
   "Statement by Promoter or Authorized Individual.": "Declaración del promotor o persona autorizada.",
   "Your 9 Digit A-Number pre-populated from page 1.": "Su número A de 9 dígitos, completado automáticamente desde la página 1.",
-  "Armed Forces.": "Fuerzas armadas.",
   "List every location where you have lived during the last 5 years.": "Enumere cada lugar donde ha vivido durante los últimos 5 años.",
   "List your current physical address in the first row.": "Enumere su dirección física actual en la primera fila.",
   "If you are currently married, including if you are legally separated, provide the following information about your current spouse.":
@@ -2981,7 +2976,6 @@ const PHRASES: Record<string, string> = {
     "Información adicional sobre el centro regional y la nueva empresa comercial (NCE).",
   "Type of Requests.": "Tipo de solicitudes.",
   "Enter Current Immigration Status.": "Ingrese el estatus migratorio actual.",
-  "Coast Guard.": "Guardia Costera.",
   "Enter Relationship to Principal Immigrant.": "Ingrese la relación con el inmigrante principal.",
   "Enter Current Income.": "Ingrese el ingreso actual.",
   "Enter Most Recent Total Income.": "Ingrese el ingreso total más reciente.",
@@ -3123,7 +3117,6 @@ const PHRASES: Record<string, string> = {
   "Type of Military Service.": "Tipo de servicio militar.",
   "Information About the Child for Whom This Application Is being filed.": "Información sobre el menor para quien se presenta esta solicitud.",
   "Citizen Biological or Adoptive Parent.": "Padre/madre ciudadano(a) biológico(a) o adoptivo(a).",
-  "Citizen Parent..": "Padre/madre ciudadano(a).",
   "Parent's Physical Address.": "Dirección física del padre/madre.",
   "Information About the Child's Admission into the United States and Current Immigration Status.":
     "Información sobre la admisión del menor a los Estados Unidos y su estatus migratorio actual.",
