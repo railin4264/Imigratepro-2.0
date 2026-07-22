@@ -1,7 +1,8 @@
 import enum
 import uuid
+from datetime import datetime
 
-from sqlalchemy import Enum, ForeignKey, String
+from sqlalchemy import DateTime, Enum, ForeignKey, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.core.database import Base
@@ -47,6 +48,17 @@ class Case(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     )
     notes: Mapped[str | None] = mapped_column(String(2000), nullable=True)
 
+    # Key immigration dates and USCIS receipt number at the case level.
+    priority_date: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True, index=True)
+    filed_date: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    decision_deadline: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    uscis_receipt_number: Mapped[str | None] = mapped_column(String(20), nullable=True, index=True)
+
+    # Self-referential parent/child for filing packages (e.g. I-130 + I-485 + I-765).
+    parent_case_id: Mapped[uuid.UUID | None] = mapped_column(
+        ForeignKey("cases.id"), nullable=True, index=True
+    )
+
     # Service package applied to this case (e.g. "Family Petition"), and which
     # of that service's workflow stages the case is currently in.
     service_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("services.id"), nullable=True, index=True)
@@ -77,6 +89,19 @@ class Case(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     service: Mapped["Service"] = relationship()
     workflow_stage: Mapped["WorkflowStage"] = relationship()
     assigned_attorney: Mapped["User | None"] = relationship()
+
+    # Package grouping: a case can belong to one parent and have many children.
+    parent_case: Mapped["Case | None"] = relationship(
+        "Case",
+        foreign_keys="[Case.parent_case_id]",
+        back_populates="child_cases",
+        remote_side="[Case.id]",
+    )
+    child_cases: Mapped[list["Case"]] = relationship(
+        "Case",
+        foreign_keys="[Case.parent_case_id]",
+        back_populates="parent_case",
+    )
 
 
 class CaseParticipant(UUIDPrimaryKeyMixin, Base):

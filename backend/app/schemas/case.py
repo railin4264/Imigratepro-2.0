@@ -12,6 +12,11 @@ class CaseBase(BaseModel):
     status: CaseStatus = CaseStatus.INTAKE
     assigned_attorney_id: uuid.UUID | None = None
     notes: str | None = None
+    priority_date: datetime | None = None
+    filed_date: datetime | None = None
+    decision_deadline: datetime | None = None
+    uscis_receipt_number: str | None = None
+    parent_case_id: uuid.UUID | None = None
 
 
 class CaseCreate(CaseBase):
@@ -23,6 +28,11 @@ class CaseUpdate(BaseModel):
     status: CaseStatus | None = None
     assigned_attorney_id: uuid.UUID | None = None
     notes: str | None = None
+    priority_date: datetime | None = None
+    filed_date: datetime | None = None
+    decision_deadline: datetime | None = None
+    uscis_receipt_number: str | None = None
+    parent_case_id: uuid.UUID | None = None
 
 
 class CaseRead(CaseBase):

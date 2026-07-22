@@ -101,6 +101,11 @@ export type Case = {
   status: (typeof CASE_STATUSES)[number];
   assigned_attorney_id: string | null;
   created_at: string;
+  priority_date: string | null;
+  filed_date: string | null;
+  decision_deadline: string | null;
+  uscis_receipt_number: string | null;
+  parent_case_id: string | null;
 };
 
 export const USER_ROLES = [
