@@ -551,6 +551,9 @@ const dictionaries = {
 
     "lang.label": "Idioma",
 
+    "theme.toggleDark": "Cambiar a modo oscuro",
+    "theme.toggleLight": "Cambiar a modo claro",
+
     "clientLogin.title": "Portal del cliente",
     "clientLogin.subtitle": "Ingresa tus credenciales para ver tus casos",
     "clientLogin.email": "Correo electrónico",
@@ -1141,6 +1144,9 @@ const dictionaries = {
     "team.savePassword": "Save",
 
     "lang.label": "Language",
+
+    "theme.toggleDark": "Switch to dark mode",
+    "theme.toggleLight": "Switch to light mode",
 
     "clientLogin.title": "Client portal",
     "clientLogin.subtitle": "Sign in to see your cases",

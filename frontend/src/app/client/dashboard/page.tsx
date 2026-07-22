@@ -7,6 +7,7 @@ import { useTranslation } from "@/lib/i18n";
 import { useClientAuth } from "@/lib/clientAuth";
 import { getMyCases, type ClientCaseSummary } from "@/lib/api";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 
@@ -44,7 +45,10 @@ export default function ClientDashboardPage() {
 
   return (
     <div className="min-h-screen bg-zinc-50 px-4 py-8 dark:bg-black">
-      <LanguageSwitcher />
+      <div className="fixed right-4 top-4 z-50 flex items-center gap-2">
+        <ThemeToggle />
+        <LanguageSwitcher fixed={false} />
+      </div>
       <div className="mx-auto max-w-3xl">
         <div className="mb-6 flex items-center justify-between">
           <div>
