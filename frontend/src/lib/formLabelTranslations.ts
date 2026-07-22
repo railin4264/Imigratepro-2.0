@@ -6096,6 +6096,77 @@ const PHRASES: Record<string, string> = {
   "Part 6., Interpreter's Mailing Address.": "Parte 6., Dirección postal del intérprete.",
   "Part 7., Preparer's Mailing Address.": "Parte 7., Dirección postal del preparador.",
   "Information About Your Eligibility.": "Información sobre su elegibilidad.",
+
+  // Batch added 2026-07-21 (part 10): continuing the frequency-sorted
+  // missing-segment list. Same skip rules as part 9.
+  "Contact Information, Declaration, and Signature of the Person Preparing this Petition, If Other Than the Petitioner.":
+    "Información de contacto, declaración y firma de la persona que preparó esta petición, si es diferente del peticionario.",
+  "Law Enforcement Agency (L E A.) Certification.": "Certificación de la Agencia de Cumplimiento de la Ley (LEA).",
+  "Enter Given Name (First Name)": "Ingrese el primer nombre (nombre de pila)",
+  "Enter Family Name (Last Name.)": "Ingrese el apellido (apellido).",
+  "Enter In Care of Name (if any).": "Ingrese el nombre \"a cargo de\" (si aplica).",
+  "(Type or print Self if you are filing for yourself as the beneficiary or Beneficiary if someone is agreeing to support you in Part 3.)":
+    "(Escriba a máquina o en letra de molde \"Self\" [Yo mismo] si presenta la solicitud para usted mismo como el beneficiario, o \"Beneficiary\" [Beneficiario] si alguien está de acuerdo en apoyarlo en la Parte 3.)",
+  "(First, Middle, Last) (do not include any individuals named in Part 3.).": "(Primer nombre, segundo nombre, apellido) (no incluya a ninguna persona mencionada en la Parte 3.).",
+  "Path of funds, Row 2.": "Origen de los fondos, fila 2.",
+  "Path of funds, Row 1.": "Origen de los fondos, fila 1.",
+  "Path of funds, Row 3.": "Origen de los fondos, fila 3.",
+  "Must be 12 digits; no dashes.": "Debe tener 12 dígitos; sin guiones.",
+  "Row 2": "Fila 2",
+  "Part 3., Requests for Employment Authorization.": "Parte 3., Solicitudes de autorización de empleo.",
+  "(NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter City/Town.":
+    "(NOTA: Use el Formulario I-589 Suplemento B, u hojas de papel adicionales, si es necesario.) Ingrese la ciudad/pueblo.",
+  "(NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Department, Province or State.":
+    "(NOTA: Use el Formulario I-589 Suplemento B, u hojas de papel adicionales, si es necesario.) Ingrese el departamento, provincia o estado.",
+  "(NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Country.":
+    "(NOTA: Use el Formulario I-589 Suplemento B, u hojas de papel adicionales, si es necesario.) Ingrese el país.",
+  "If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name?  Your Name On the Certificate of Citizenship.":
+    "Si obtuvo su ciudadanía a través de sus padres, ¿ha obtenido un Certificado de Ciudadanía a su propio nombre? Su nombre en el Certificado de Ciudadanía.",
+  "If you obtained your citizenship through naturalization, provide the following information about your Certificate of Naturalization.":
+    "Si obtuvo su ciudadanía a través de la naturalización, proporcione la siguiente información sobre su Certificado de Naturalización.",
+  "Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application.":
+    "¿Ha presentado alguna vez el Formulario I-600, I-600A (Solicitud de Procesamiento Anticipado de una Petición de Huérfano), I-800A (Solicitud de Determinación de Idoneidad para Adoptar un Menor de un País del Convenio), I-800 (Petición para Clasificar a un Adoptado del Convenio como Familiar Inmediato), o I-130 (Petición para Familiar Extranjero), para un hijo adoptivo? Si respondió \"Sí\", proporcione la siguiente información para CADA petición y/o solicitud.",
+  "If you answered \"Yes,\" provide the following information for EACH petition and/or application:  Result.":
+    "Si respondió \"Sí\", proporcione la siguiente información para CADA petición y/o solicitud: Resultado.",
+  "My total income (adjusted gross income on I R S Form 10 40 E Z) as reported on my Federal income tax returns for the most recent three years was.":
+    "Mi ingreso total (ingreso bruto ajustado según el Formulario 1040EZ del IRS) según se reportó en mis declaraciones de impuestos federales de los tres años más recientes fue.",
+  "Self including assets jointy owned with spouse or others.": "Yo mismo, incluyendo activos poseídos conjuntamente con el cónyuge u otras personas.",
+  "(Do not include retirement accounts.) Assets.": "(No incluya cuentas de jubilación.) Activos.",
+  "I certify, under penalty of perjury, that, to the best of my knowledge, after a due diligence investigation, that the regional center entity is in compliance with and has policies and procedures, including those related to internal and external due diligence, reasonably designed to confirm that all parties associated with the regional center are and will remain in compliance with the securities laws of the United States and any State in which the regional center entity conducts the offer, purchase, or sale of securities, in which the issuer of securities is located, or in which the regional center entity, or anyone associated with the regional center entity provided investment advice.":
+    "Certifico, bajo pena de perjurio, que, a mi mejor saber y entender, después de una investigación de debida diligencia, la entidad del centro regional cumple con y tiene políticas y procedimientos, incluidos los relacionados con la debida diligencia interna y externa, razonablemente diseñados para confirmar que todas las partes asociadas con el centro regional cumplen y seguirán cumpliendo con las leyes de valores de los Estados Unidos y de cualquier Estado en el que la entidad del centro regional realice la oferta, compra o venta de valores, en el que se encuentre el emisor de los valores, o en el que la entidad del centro regional, o cualquier persona asociada con ella, haya brindado asesoría de inversión.",
+  "Row 8.": "Fila 8.",
+  "Part 1., If a business or organization is filing this appeal or motion, skip to Item Number 3.":
+    "Parte 1., Si una empresa u organización presenta esta apelación o moción, vaya al Número de Artículo 3.",
+  "Row 3": "Fila 3",
+  "Row 4": "Fila 4",
+  "Row 1": "Fila 1",
+  "Part 9., For Change / Adjustment of Status only.": "Parte 9., Solo para cambio / ajuste de estatus.",
+  "If child is in the U.S., Enter I-94 Number, if any.": "Si el menor está en los EE. UU., ingrese el número de I-94, si aplica.",
+  "If child is in the U.S., Enter Status when Last Admitted (Visa type, if any).":
+    "Si el menor está en los EE. UU., ingrese el estatus cuando fue admitido por última vez (tipo de visa, si aplica).",
+  "Attorney State Bar Number (if applicable)": "Número de colegiación del abogado (si aplica)",
+  "Part 9., Interpreter's Contact Information.": "Parte 9., Información de contacto del intérprete.",
+  "Part 10., Preparer's Contact Information.": "Parte 10., Información de contacto del preparador.",
+  "Part 10., Preparer's Statement.": "Parte 10., Declaración del preparador.",
+  "Date information is needed.": "Fecha en que se necesita la información.",
+  "Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.).":
+    "El solicitante fue admitido con permiso de entrada a los Estados Unidos bajo la sección 212 de la Ley de Inmigración y Nacionalidad (INA).",
+  "Check this box for Other.": "Marque esta casilla para Otro.",
+  "Select the application type below.": "Seleccione el tipo de solicitud a continuación.",
+  "Row 9.": "Fila 9.",
+  "The applicant informed me that he or she understands every instruction, question, and answer on the application, including the Applicant's Declaration and Certification, and has verified the accuracy of every answer.":
+    "El solicitante me informó que entiende cada instrucción, pregunta y respuesta de la solicitud, incluyendo la Declaración y Certificación del Solicitante, y ha verificado la exactitud de cada respuesta.",
+  "Part 7., No Entry.": "Parte 7., Sin entrada.",
+  "(See the Form I - 4 85 Instructions for more information, including any Additional Instructions that relate to the immigrant category you select.).":
+    "(Consulte las Instrucciones del Formulario I-485 para obtener más información, incluyendo cualquier Instrucción Adicional relacionada con la categoría de inmigrante que seleccione.).",
+  "Part 8., Certifying Official's Information.": "Parte 8., Información del funcionario certificador.",
+  "The terms are defined at 42 C F R 34.2(h) and (i).": "Los términos se definen en 42 C.F.R. 34.2(h) y (i).",
+  "\"Drug abuse or drug addiction\" is \"current substance use disorder mild, moderate or severe” but only with respect to substances listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act.":
+    "\"Abuso de drogas o adicción a las drogas\" es \"trastorno actual por uso de sustancias, leve, moderado o grave\", pero únicamente con respecto a las sustancias enumeradas en la Lista I, II, III, IV o V de la sección 202 de la Ley de Sustancias Controladas.",
+  "I, the parent / grandparent / legal guardian, do swear or affirm, under penalty of perjury under the laws of the United States, that I know and understand the contents of this application signed by me, and the attached supplementary pages number (enter number) to (enter number) inclusive, that the same are true and correct to the best of my knowledge, and that corrections number (enter number) to (enter number) were made by me or at my request.":
+    "Yo, el padre/madre, abuelo(a) o tutor legal, juro o afirmo, bajo pena de perjurio bajo las leyes de los Estados Unidos, que conozco y entiendo el contenido de esta solicitud firmada por mí, y las páginas suplementarias adjuntas número (ingrese el número) a (ingrese el número) inclusive, que las mismas son verdaderas y correctas a mi mejor saber y entender, y que las correcciones número (ingrese el número) a (ingrese el número) fueron hechas por mí o a mi solicitud.",
+  "Enter Date of Birth as as 2-digit Month, 2-digit Day and 4-digit Year.":
+    "Ingrese la fecha de nacimiento como mes de 2 dígitos, día de 2 dígitos y año de 4 dígitos.",
 };
 
 export function translateLabel(label: string): string {
