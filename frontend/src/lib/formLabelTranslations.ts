@@ -6230,6 +6230,62 @@ const PHRASES: Record<string, string> = {
   "Part 8., For Change/Adjustment of Status.": "Parte 8., Para cambio/ajuste de estatus.",
   "Part 8., Additional Information About Agreement or Arrangement.": "Parte 8., Información adicional sobre el acuerdo o arreglo.",
   "Part 2., Information About Prior Filings or Adoptions.": "Parte 2., Información sobre presentaciones o adopciones anteriores.",
+
+  // Batch added 2026-07-21 (part 12): continuing the frequency-sorted
+  // missing-segment list. Same skip rules as parts 9-11.
+  "Part 5., Naturalization Applicant's Contact Information.": "Parte 5., Información de contacto del solicitante de naturalización.",
+  "Part 6., Interpreter's Contact Information.": "Parte 6., Información de contacto del intérprete.",
+  "Part 7., Preparer's Contact Information.": "Parte 7., Información de contacto del preparador.",
+  "Part 8., Applicant's, Parent's or Legal Guardian's Contact Information.": "Parte 8., Información de contacto del solicitante, padre/madre o tutor legal.",
+  "Part 11., No Entry.": "Parte 11., Sin entrada.",
+  "Interpreter's Name.": "Nombre del intérprete.",
+  "This information may assist out search for relevant records.": "Esta información puede ayudar en nuestra búsqueda de registros relevantes.",
+  "Is a self-addressed, prepaid return envelope submitted with your Form G-1566?  NOTE: U S C I S will send certificates to an international address only if a prepaid envelope with sufficient postage for international shipping is submitted with Form G-1566.":
+    "¿Se presentó un sobre de devolución con franqueo prepagado y dirigido a usted mismo junto con su Formulario G-1566? NOTA: USCIS enviará los certificados a una dirección internacional únicamente si se presenta con el Formulario G-1566 un sobre prepagado con franqueo suficiente para envío internacional.",
+  "Yes": "Sí",
+  "No": "No",
+  "See Trade Agreement Supplement to Form I-1 29 for T N and H-1 B 1.": "Consulte el Suplemento de Acuerdo Comercial del Formulario I-129 para TN y H-1B1.",
+  "It is not required for any other classifications.": "No se requiere para ninguna otra clasificación.",
+  "If applicable, provide the name of your accredited organization recognized by the Board of Immigration Appeals (B I A).":
+    "Si corresponde, proporcione el nombre de su organización acreditada reconocida por la Junta de Apelaciones de Inmigración (BIA).",
+  "Name of the beneficiary or if this petition includes multiple beneficiaries, the total number of beneficiaries.":
+    "Nombre del beneficiario o, si esta petición incluye múltiples beneficiarios, el número total de beneficiarios.",
+  "Statement for H-1 B Specialty Occupations and H-1 B 1 Chile and Singapore.": "Declaración para ocupaciones especializadas H-1B y H-1B1 Chile y Singapur.",
+  "I further understand that I cannot charge the beneficiary the American Competitiveness and Workforce Improvement Act (A C W I A) fee, and that any other required reimbursement will be considered an offset against wages and benefits paid relative to the labor condition application (L C A).":
+    "Además entiendo que no puedo cobrarle al beneficiario la tarifa de la Ley de Mejora de la Competitividad Estadounidense y la Fuerza Laboral (ACWIA), y que cualquier otro reembolso requerido será considerado una compensación contra los salarios y beneficios pagados en relación con la solicitud de condición laboral (LCA).",
+  "The petitioner agrees to notify DHS beginning on a date and in a manner specified in a notice published in the Federal Register within 2 workdays if: an H-2A/H-2B worker does not report for work within 5 workdays after the employment start date stated on the petition or, applicable to H-2A petitioners only, within 5 workdays of the start date established by the petitioner, whichever is later; the agricultural labor or services for which H-2A/H-2B workers were hired is completed more than 30 days early; or the H-2A/H-2B worker does not report for work for a period of 5 consecutive workdays without the consent of the employer or is terminated prior to the completion of agricultural labor or services for which he or she was hired.":
+    "El peticionario acepta notificar al DHS, comenzando en una fecha y de una manera especificada en un aviso publicado en el Registro Federal, dentro de los 2 días hábiles si: un trabajador H-2A/H-2B no se presenta a trabajar dentro de los 5 días hábiles posteriores a la fecha de inicio de empleo indicada en la petición o, aplicable únicamente a peticionarios H-2A, dentro de los 5 días hábiles de la fecha de inicio establecida por el peticionario, lo que ocurra más tarde; la labor o los servicios agrícolas para los cuales se contrató a los trabajadores H-2A/H-2B se completan con más de 30 días de anticipación; o el trabajador H-2A/H-2B no se presenta a trabajar por un período de 5 días hábiles consecutivos sin el consentimiento del empleador, o es despedido antes de completar la labor o los servicios agrícolas para los cuales fue contratado.",
+  "Does the training involve productive employment incidental to the training? If yes, explain the amount of compensation employment versus the classroom in Part 9.":
+    "¿La capacitación involucra empleo productivo incidental a la capacitación? Si es así, explique la proporción de empleo remunerado en comparación con el aula en la Parte 9.",
+  "Name of the Beneficiary or if this petition includes multiple beneficiaries, the total number of beneficiaries included.":
+    "Nombre del beneficiario o, si esta petición incluye múltiples beneficiarios, el número total de beneficiarios incluidos.",
+  "The petitioner is a bona fide non-profit religious organization or a bona fide organization that is affiliated with the religious denomination and is tax-exempt as described in section 5 01(C)(3) of the Internal Revenue Code of 1986, subsequent amendment, or equivalent sections of prior enactments of the Internal Revenue Code.":
+    "El peticionario es una organización religiosa sin fines de lucro de buena fe, o una organización de buena fe afiliada a la denominación religiosa y exenta de impuestos según lo descrito en la sección 501(c)(3) del Código de Impuestos Internos de 1986, sus enmiendas posteriores, o secciones equivalentes de promulgaciones anteriores del Código de Impuestos Internos.",
+  "If the beneficiary worked in the United States in an R-1 status during the 2 years immediately before the petition was filed, the beneficiary received verifiable salaried or non-salaried compensation, or provided uncompensated self-support.":
+    "Si el beneficiario trabajó en los Estados Unidos en estatus R-1 durante los 2 años inmediatamente anteriores a la presentación de la petición, el beneficiario recibió compensación salarial o no salarial verificable, o se sostuvo a sí mismo sin compensación.",
+  "If the offered position at the petitioning organization requires fewer than 20 hours per week, the compensated service for another religious organization and the compensated service at the petitioning organization will total 20 hours per week.":
+    "Si el puesto ofrecido en la organización peticionaria requiere menos de 20 horas por semana, el servicio remunerado para otra organización religiosa y el servicio remunerado en la organización peticionaria sumarán un total de 20 horas por semana.",
+  "The beneficiary has been a member of the petitioner's denomination for at least 2 years immediately before Form I-1 29 was filed and is otherwise qualified to perform the duties of the offered position.":
+    "El beneficiario ha sido miembro de la denominación del peticionario durante al menos 2 años inmediatamente antes de la presentación del Formulario I-129 y, por lo demás, está calificado para desempeñar las funciones del puesto ofrecido.",
+  "If you answered \"Yes\" to Item Number 3., provide the dates of the beneficiary's prior periods of stay for the last seven years in a work-authorized capacity and indicate the beneficiary's immigration status and visa category (for example, H - 1 B, O - 1) during the period of stay.":
+    "Si respondió \"Sí\" al Número de Artículo 3., proporcione las fechas de los períodos de estadía previos del beneficiario durante los últimos siete años en una capacidad autorizada para trabajar, e indique el estatus migratorio y la categoría de visa del beneficiario (por ejemplo, H-1B, O-1) durante ese período de estadía.",
+  "Select I am an attorney or accredited representative and my representation of the petitioner in this case extends / does not extend beyond the preparation of this petition.":
+    "Seleccione: soy abogado o representante acreditado y mi representación del peticionario en este caso se extiende / no se extiende más allá de la preparación de esta petición.",
+  "I am a TPS beneficiary in the United States, and I am applying for a TPS Travel Authorization Document under the Immigration and Nationality Act (INA) section 244(f)(3) to allow me to seek admission under TPS upon my return from abroad.":
+    "Soy beneficiario de TPS en los Estados Unidos, y solicito un Documento de Autorización de Viaje TPS bajo la sección 244(f)(3) de la Ley de Inmigración y Nacionalidad (INA) para poder solicitar admisión bajo TPS al regresar del extranjero.",
+  "An approved Form I-918, Petition for U Nonimmigrant Status, or Form I-918, Supplement A, Petition for Qualifying Family Member of U-1 Recipient.":
+    "Un Formulario I-918 aprobado, Petición para Estatus de No Inmigrante U, o Formulario I-918, Suplemento A, Petición para Familiar Calificado de un Beneficiario U-1.",
+  "An approved V Nonimmigrant Status.": "Un estatus de no inmigrante V aprobado.",
+  "An approved Form I-914, Application for T Nonimmigrant Status, or Form I-914, Supplement A, Application for Family Member of T-1 Recipient.":
+    "Un Formulario I-914 aprobado, Solicitud de Estatus de No Inmigrante T, o Formulario I-914, Suplemento A, Solicitud para Familiar de un Beneficiario T-1.",
+  "I was initially paroled into the United States or granted parole in place under INA section 212(d)(5)(A) under one of the following programs or processes and I am requesting a new period of parole, or I am applying for a new period of parole on behalf of someone else who was initially paroled into the United States under one of the following programs or processes: Select Other Program or Process.":
+    "Fui inicialmente admitido con permiso de entrada a los Estados Unidos, u obtuve permiso de entrada en el lugar, bajo la sección 212(d)(5)(A) de la INA bajo uno de los siguientes programas o procesos, y solicito un nuevo período de permiso de entrada, o solicito un nuevo período de permiso de entrada en nombre de otra persona que fue inicialmente admitida con permiso de entrada a los Estados Unidos bajo uno de los siguientes programas o procesos: Seleccione Otro programa o proceso.",
+  "Yes, is Checked, Enter Disposition (attached, lost, stolen, damage/ destroyed, still in my possession, etcetera).":
+    "Si se marcó Sí, ingrese la disposición (adjunto, perdido, robado, dañado/destruido, todavía en mi posesión, etcétera).",
+  "Yes, is Checked, Enter Date Issued as 2-digit Month, 2-digit Day, and 4-digit Year.":
+    "Si se marcó Sí, ingrese la fecha de emisión como mes de 2 dígitos, día de 2 dígitos y año de 4 dígitos.",
+  "Applied for and/or received any benefit from the country named in Item Number 1.": "Solicitó y/o recibió algún beneficio del país mencionado en el Número de Artículo 1.",
+  "Check this box for Other": "Marque esta casilla para Otro",
 };
 
 export function translateLabel(label: string): string {
