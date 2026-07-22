@@ -29,9 +29,19 @@ def list_cases(db: DbSession, skip: int = 0, limit: int = 100):
 
 
 @router.post("", response_model=CaseRead, status_code=201)
-def create_case(payload: CaseCreate, db: DbSession):
+def create_case(payload: CaseCreate, db: DbSession, requester: CurrentUser):
     case = Case(**payload.model_dump())
     db.add(case)
+    db.flush()
+    log_action(db, requester, "case.created", "case", case.id,
+               {"case_number": case.case_number, "case_type": case.case_type})
+    if case.assigned_attorney_id:
+        notify(
+            db, NotificationType.CASE_ASSIGNED,
+            f"New case {case.case_number} assigned to you",
+            case_id=case.id,
+            recipient_user_id=case.assigned_attorney_id,
+        )
     db.commit()
     db.refresh(case)
     return case
