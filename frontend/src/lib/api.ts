@@ -295,7 +295,19 @@ export type DocumentDetail = UploadedDocument & {
   extracted_data: DocumentExtractedData | null;
 };
 
-const _AUTH_EXEMPT_PREFIXES = ["/public/", "/auth/login", "/auth/refresh", "/auth/forgot-password", "/auth/reset-password"];
+const _AUTH_EXEMPT_PREFIXES = [
+  "/public/",
+  "/auth/login",
+  "/auth/refresh",
+  "/auth/forgot-password",
+  "/auth/reset-password",
+  // Client-portal sessions use their own token type and their own refresh
+  // endpoint (/client-auth/refresh), not the staff one -- exempting the
+  // whole prefix keeps a client's expired-session 401 from triggering the
+  // staff authFetch's retry-via-/auth/refresh path, which would never work
+  // for a client token and would misfire the staff "unauthorized" event.
+  "/client-auth/",
+];
 
 // Shared by fetchJson and downloadFile: sends the session cookie, retries
 // once on 401 after a token refresh, and normalizes auth failure handling.
@@ -1178,4 +1190,92 @@ export function getCaseTimeline(caseId: string): Promise<CaseTimeline> {
 
 export function getPublicCaseTimeline(token: string): Promise<CaseTimeline> {
   return fetchJson(`/public/forms/${token}/timeline`);
+}
+
+// --- Client portal (a client logging in to see their own cases/forms) ---
+// Uses the same cookie names as the staff session but a distinct token
+// "type" the backend checks (see get_current_client) -- exempted from the
+// staff refresh/401-event logic above via _AUTH_EXEMPT_PREFIXES.
+
+export type AuthenticatedClient = {
+  id: string;
+  first_name: string;
+  last_name: string;
+  email: string | null;
+};
+
+export type ClientCaseFormSummary = {
+  id: string;
+  form_code: string;
+  form_name: string;
+  access_token: string;
+  status: string;
+};
+
+export type ClientCaseSummary = {
+  id: string;
+  case_number: string;
+  case_type: string;
+  status: string;
+  my_role: string;
+  forms: ClientCaseFormSummary[];
+};
+
+export async function clientLogin(email: string, password: string): Promise<AuthenticatedClient> {
+  const result = await fetchJson<{ access_token: string; refresh_token: string; client: AuthenticatedClient }>(
+    "/client-auth/login",
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, password }),
+    },
+  );
+  return result.client;
+}
+
+export async function clientLogout(): Promise<void> {
+  try {
+    await fetchJson("/client-auth/logout", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({}),
+    });
+  } catch {
+    // best-effort, same reasoning as the staff logout() above
+  }
+}
+
+export function getClientMe(): Promise<AuthenticatedClient> {
+  return fetchJson("/client-auth/me");
+}
+
+export function getMyCases(): Promise<ClientCaseSummary[]> {
+  return fetchJson("/client-auth/me/cases");
+}
+
+// Staff-only: sets (or resets) a client's portal password. Requires a valid
+// staff session (regular fetchJson/authFetch path, not the client-exempt
+// one above) -- see POST /client-auth/register's CurrentUser dependency.
+export function activateClientPortal(email: string, password: string): Promise<AuthenticatedClient> {
+  return fetchJson("/client-auth/register", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email, password }),
+  });
+}
+
+export function clientForgotPassword(email: string): Promise<void> {
+  return fetchJson("/client-auth/forgot-password", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email }),
+  });
+}
+
+export function clientResetPassword(token: string, password: string): Promise<void> {
+  return fetchJson("/client-auth/reset-password", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ token, password }),
+  });
 }

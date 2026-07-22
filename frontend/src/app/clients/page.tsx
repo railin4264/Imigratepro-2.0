@@ -6,6 +6,7 @@ import {
   SEX_OPTIONS,
   type Client,
   type NewClient,
+  activateClientPortal,
   createClient,
   deleteClient,
   getClients,
@@ -215,6 +216,12 @@ export default function ClientsPage() {
   const [editSaving, setEditSaving] = useState(false);
   const [deletingId, setDeletingId] = useState<string | null>(null);
 
+  const [portalClientId, setPortalClientId] = useState<string | null>(null);
+  const [portalPassword, setPortalPassword] = useState("");
+  const [portalSaving, setPortalSaving] = useState(false);
+  const [portalError, setPortalError] = useState<string | null>(null);
+  const [portalActivatedFor, setPortalActivatedFor] = useState<string | null>(null);
+
   function load() {
     getClients()
       .then(setClients)
@@ -280,6 +287,36 @@ export default function ClientsPage() {
     }
   }
 
+  function generatePassword(): string {
+    // Not for cryptographic use elsewhere -- just a readable one-time
+    // credential to hand the client, who resets it via "forgot password"
+    // the first time they actually want to use the portal themselves.
+    const bytes = new Uint8Array(9);
+    window.crypto.getRandomValues(bytes);
+    return btoa(String.fromCharCode(...bytes)).replace(/[+/=]/g, "").slice(0, 12);
+  }
+
+  function handleStartPortal(client: Client) {
+    setPortalClientId(client.id);
+    setPortalPassword(generatePassword());
+    setPortalError(null);
+    setPortalActivatedFor(null);
+  }
+
+  async function handleActivatePortal(client: Client) {
+    if (!client.email) return;
+    setPortalSaving(true);
+    setPortalError(null);
+    try {
+      await activateClientPortal(client.email, portalPassword);
+      setPortalActivatedFor(client.id);
+    } catch {
+      setPortalError(t("clients.portal.error"));
+    } finally {
+      setPortalSaving(false);
+    }
+  }
+
   return (
     <AppShell>
       <div className="mx-auto max-w-4xl">
@@ -332,6 +369,65 @@ export default function ClientsPage() {
           </Card>
         )}
 
+        {portalClientId &&
+          (() => {
+            const portalClient = clients.find((c) => c.id === portalClientId);
+            if (!portalClient) return null;
+            const activated = portalActivatedFor === portalClient.id;
+            return (
+              <Card className="mb-6 p-5">
+                <h2 className="mb-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
+                  {t("clients.portal.title")}
+                </h2>
+                <p className="mb-3 text-xs text-zinc-500 dark:text-zinc-400">
+                  {portalClient.first_name} {portalClient.last_name} — {portalClient.email}
+                </p>
+
+                {activated ? (
+                  <div className="space-y-3">
+                    <p className="text-sm text-emerald-700 dark:text-emerald-400">{t("clients.portal.success")}</p>
+                    <p className="rounded-lg bg-zinc-100 p-3 font-mono text-sm dark:bg-zinc-800">{portalPassword}</p>
+                    <p className="text-xs text-zinc-500 dark:text-zinc-400">{t("clients.portal.shareNote")}</p>
+                    <Button type="button" variant="secondary" onClick={() => setPortalClientId(null)}>
+                      {t("clients.cancel")}
+                    </Button>
+                  </div>
+                ) : (
+                  <div className="space-y-3">
+                    {portalError && (
+                      <p className="rounded-lg bg-red-50 p-3 text-sm text-red-700 dark:bg-red-950 dark:text-red-300">
+                        {portalError}
+                      </p>
+                    )}
+                    <label className={labelClass}>
+                      {t("clients.portal.password")}
+                      <input
+                        type="text"
+                        value={portalPassword}
+                        onChange={(e) => setPortalPassword(e.target.value)}
+                        className={`${inputClass} font-mono`}
+                        minLength={8}
+                        required
+                      />
+                    </label>
+                    <div className="flex gap-2">
+                      <Button
+                        type="button"
+                        disabled={portalSaving || portalPassword.length < 8}
+                        onClick={() => handleActivatePortal(portalClient)}
+                      >
+                        {portalSaving ? t("clients.portal.saving") : t("clients.portal.activate")}
+                      </Button>
+                      <Button type="button" variant="secondary" onClick={() => setPortalClientId(null)}>
+                        {t("clients.cancel")}
+                      </Button>
+                    </div>
+                  </div>
+                )}
+              </Card>
+            );
+          })()}
+
         {clients.length === 0 && !error && (
           <p className="text-zinc-500 dark:text-zinc-400">{t("clients.empty")}</p>
         )}
@@ -369,6 +465,15 @@ export default function ClientsPage() {
                           >
                             {t("clients.edit")}
                           </button>
+                          {client.email && (
+                            <button
+                              type="button"
+                              onClick={() => handleStartPortal(client)}
+                              className="font-medium text-indigo-600 hover:underline dark:text-indigo-400"
+                            >
+                              {t("clients.portal")}
+                            </button>
+                          )}
                           {canDelete && (
                             <button
                               type="button"

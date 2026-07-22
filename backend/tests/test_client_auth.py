@@ -2,6 +2,12 @@ import uuid
 import pytest
 from app.models.client import Client
 from app.models.auth_token import RefreshToken
+from app.seed_forms import seed as seed_forms
+
+
+@pytest.fixture
+def seeded_forms():
+    seed_forms()
 
 @pytest.fixture
 def test_client_model(db_session):
@@ -220,3 +226,69 @@ def test_client_forgot_and_reset_flow(client, test_client_model, auth_headers, m
         json={"email": test_client_model.email, "password": "newpassword123"},
     )
     assert login_res.status_code == 200
+
+
+def _login_client(client, auth_headers, client_model, password="clientpassword123"):
+    client.post(
+        "/api/v1/client-auth/register",
+        json={"email": client_model.email, "password": password},
+        headers=auth_headers,
+    )
+    res = client.post("/api/v1/client-auth/login", json={"email": client_model.email, "password": password})
+    return res.json()["access_token"]
+
+
+def test_my_cases_returns_only_cases_the_client_participates_in(
+    client, auth_headers, test_client_model, make_case, seeded_forms
+):
+    my_case = make_case()
+    other_case = make_case()
+
+    client.post(
+        f"/api/v1/cases/{my_case['id']}/participants",
+        json={"client_id": str(test_client_model.id), "role": "petitioner"},
+        headers=auth_headers,
+    )
+
+    access_token = _login_client(client, auth_headers, test_client_model)
+    res = client.get("/api/v1/client-auth/me/cases", headers={"Authorization": f"Bearer {access_token}"})
+    assert res.status_code == 200
+    body = res.json()
+
+    case_ids = {c["id"] for c in body}
+    assert my_case["id"] in case_ids
+    assert other_case["id"] not in case_ids
+
+    mine = next(c for c in body if c["id"] == my_case["id"])
+    assert mine["my_role"] == "petitioner"
+    assert mine["case_number"] == my_case["case_number"]
+
+
+def test_my_cases_includes_generated_forms_with_client_link_enabled(
+    client, auth_headers, test_client_model, make_case, seeded_forms
+):
+    case = make_case()
+    client.post(
+        f"/api/v1/cases/{case['id']}/participants",
+        json={"client_id": str(test_client_model.id), "role": "petitioner"},
+        headers=auth_headers,
+    )
+    generate = client.post(
+        f"/api/v1/cases/{case['id']}/forms", json={"form_code": "G-28"}, headers=auth_headers
+    )
+    assert generate.status_code == 201, generate.text
+    form_id = generate.json()["id"]
+
+    access_token = _login_client(client, auth_headers, test_client_model)
+    res = client.get("/api/v1/client-auth/me/cases", headers={"Authorization": f"Bearer {access_token}"})
+    body = res.json()
+    mine = next(c for c in body if c["id"] == case["id"])
+    assert len(mine["forms"]) == 1
+    assert mine["forms"][0]["id"] == form_id
+    assert mine["forms"][0]["form_code"] == "G-28"
+    assert mine["forms"][0]["access_token"]
+
+
+def test_my_cases_requires_authentication(client):
+    res = client.get("/api/v1/client-auth/me/cases")
+    assert res.status_code == 401

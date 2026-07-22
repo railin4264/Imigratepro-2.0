@@ -30,7 +30,9 @@ from app.core.security import (
     _b64url_encode,
 )
 from app.models.auth_token import PasswordResetToken, RefreshToken, DeniedToken
+from app.models.case import CaseParticipant
 from app.models.client import Client
+from app.models.form import FormTemplate, GeneratedForm
 from app.schemas.client import ClientRead
 from app.services import email
 
@@ -70,6 +72,21 @@ class ClientForgotPasswordRequest(BaseModel):
 class ClientResetPasswordRequest(BaseModel):
     token: str
     password: str
+
+class ClientCaseFormSummary(BaseModel):
+    id: uuid.UUID
+    form_code: str
+    form_name: str
+    access_token: str
+    status: str
+
+class ClientCaseSummary(BaseModel):
+    id: uuid.UUID
+    case_number: str
+    case_type: str
+    status: str
+    my_role: str
+    forms: list[ClientCaseFormSummary]
 
 
 def _cookie_kwargs(max_age_seconds: int) -> dict:
@@ -345,3 +362,46 @@ def reset_password(payload: ClientResetPasswordRequest, db: DbSession, request: 
 @router.get("/me", response_model=ClientRead)
 def me(current_client: CurrentClient):
     return current_client
+
+
+@router.get("/me/cases", response_model=list[ClientCaseSummary])
+def get_my_cases(current_client: CurrentClient, db: DbSession):
+    """The client-portal dashboard: every case this client participates in
+    (scoped strictly by CaseParticipant.client_id, never by anything
+    guessable), with the generated forms available to them on each one."""
+
+    participants = db.query(CaseParticipant).filter(CaseParticipant.client_id == current_client.id).all()
+
+    summaries = []
+    for participant in participants:
+        case = participant.case
+        forms = (
+            db.query(GeneratedForm)
+            .filter(GeneratedForm.case_id == case.id, GeneratedForm.client_link_enabled.is_(True))
+            .all()
+        )
+        form_summaries = []
+        for generated in forms:
+            template = db.get(FormTemplate, generated.form_template_id)
+            if not template:
+                continue
+            form_summaries.append(
+                ClientCaseFormSummary(
+                    id=generated.id,
+                    form_code=template.code,
+                    form_name=template.name,
+                    access_token=generated.access_token,
+                    status=generated.status.value,
+                )
+            )
+        summaries.append(
+            ClientCaseSummary(
+                id=case.id,
+                case_number=case.case_number,
+                case_type=case.case_type.value,
+                status=case.status.value,
+                my_role=participant.role.value,
+                forms=form_summaries,
+            )
+        )
+    return summaries
