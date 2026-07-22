@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useTranslation } from "@/lib/i18n";
 import { useClientAuth } from "@/lib/clientAuth";
@@ -30,6 +31,14 @@ export default function ClientDashboardPage() {
       .then(setCases)
       .catch(() => setLoadError(true));
   }, [status]);
+
+  if (status === "loading") {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
+        <p className="text-sm text-zinc-500 dark:text-zinc-400">{t("clientDashboard.loading")}</p>
+      </div>
+    );
+  }
 
   if (status !== "authenticated") return null;
 
@@ -102,9 +111,9 @@ export default function ClientDashboardPage() {
                           {t(`clientDashboard.status.${f.status}` as never)}
                         </span>
                       </div>
-                      <a href={`/client/forms/${f.access_token}`}>
+                      <Link href={`/client/forms/${f.access_token}`}>
                         <Button variant="secondary">{t("clientDashboard.openForm")}</Button>
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
