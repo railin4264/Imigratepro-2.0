@@ -1,5 +1,5 @@
-"""Upsert the built-in FormTemplate rows (I-130, I-765, G-28), loading each
-form's full field inventory from app/seed_data/field_inventories/*.json
+"""Upsert the built-in FormTemplate rows (all 99 digitalized USCIS forms), loading
+each form's full field inventory from app/seed_data/field_inventories/*.json
 (produced by scripts/extract_form_fields.py).
 
 Run with: ./.venv/Scripts/python.exe -m app.seed_forms
@@ -14,6 +14,16 @@ from app.seed_data.conditional_rules import CONDITIONS_BY_FORM_CODE
 from app.seed_data.form_field_maps import FORM_TEMPLATES
 
 INVENTORY_DIR = Path(__file__).resolve().parent / "seed_data" / "field_inventories"
+
+# Codes that map to a non-default category; everything else stays 'general'.
+_CODE_CATEGORY = {
+    "I-130": "family", "I-485": "family", "I-864": "family", "I-134": "family",
+    "I-131": "family", "I-693": "family", "I-751": "family",
+    "I-140": "employment", "I-129": "employment", "I-129F": "employment",
+    "I-589": "asylum",
+    "N-400": "naturalization", "N-600": "naturalization", "N-426": "naturalization",
+    "I-765": "adjustment", "I-539": "adjustment", "I-90": "adjustment",
+}
 
 
 def seed() -> None:
@@ -36,6 +46,7 @@ def seed() -> None:
             template.pdf_template_path = entry["pdf_template_path"]
             template.field_schema = inventory
             template.autofill_map = entry["autofill_map"]
+            template.category = _CODE_CATEGORY.get(entry["code"], "general")
         db.commit()
         print(f"Seeded {len(FORM_TEMPLATES)} form templates.")
     finally:
