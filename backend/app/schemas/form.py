@@ -3,7 +3,7 @@ from datetime import datetime
 
 from pydantic import BaseModel, ConfigDict, field_validator
 
-from app.models.form import GeneratedFormStatus
+from app.models.form import FormCategory, GeneratedFormStatus
 
 # The largest real form in the catalog (I-485) has 736 fields (see README);
 # 2000 gives headroom for future forms without leaving the field effectively
@@ -22,6 +22,12 @@ class FormTemplateRead(BaseModel):
     code: str
     name: str
     edition_date: str | None = None
+    category: FormCategory = FormCategory.GENERAL
+
+
+class FormTemplateCategoryGroup(BaseModel):
+    category: FormCategory
+    forms: list[FormTemplateRead]
 
 
 class ShowIfCondition(BaseModel):

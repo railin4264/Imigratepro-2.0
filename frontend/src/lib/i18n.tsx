@@ -177,6 +177,14 @@ const dictionaries = {
     "forms.error.connect": "No se pudo conectar con la API. ¿Está corriendo el backend en http://localhost:8000?",
     "forms.error.generate": "No se pudo generar el formulario. Verifica que el caso tenga los participantes necesarios.",
 
+    "forms.category.family": "Familiares",
+    "forms.category.employment": "Empleo",
+    "forms.category.asylum": "Asilo",
+    "forms.category.naturalization": "Naturalización",
+    "forms.category.adjustment": "Ajuste de estatus",
+    "forms.category.general": "General",
+    "forms.category.other": "Otros",
+
     "editor.title": "Formulario electrónico",
     "editor.loading": "Cargando formulario...",
     "editor.error.load": "No se pudo cargar el formulario. ¿Está corriendo el backend?",
@@ -770,6 +778,14 @@ const dictionaries = {
     "forms.error.download": "Couldn't download the PDF. Try again.",
     "forms.error.connect": "Could not connect to the API. Is the backend running at http://localhost:8000?",
     "forms.error.generate": "Could not generate the form. Check that the case has the required participants.",
+
+    "forms.category.family": "Family",
+    "forms.category.employment": "Employment",
+    "forms.category.asylum": "Asylum",
+    "forms.category.naturalization": "Naturalization",
+    "forms.category.adjustment": "Adjustment of Status",
+    "forms.category.general": "General",
+    "forms.category.other": "Other",
 
     "editor.title": "Electronic form",
     "editor.loading": "Loading form...",
