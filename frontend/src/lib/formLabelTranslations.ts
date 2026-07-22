@@ -2506,7 +2506,7 @@ const PHRASES: Record<string, string> = {
   "Number (if any).": "Número (si aplica).",
   "Enter Name of Employer or Company.": "Ingrese el nombre del empleador o empresa.",
   "Applicant's or Petitioner's Contact Information, Certification, and Signature.": "Información de contacto, certificación y firma del solicitante o peticionario.",
-  "Have you permanently departed the United States? If you answered “Yes,” please provide the following information (as applicable) in Items.":
+  "Have you permanently departed the United States? If you answered \u201cYes,\u201d please provide the following information (as applicable) in Items.":
     "¿Ha salido permanentemente de los Estados Unidos? Si respondió “Sí”, proporcione la siguiente información (según corresponda) en los artículos.",
   "Five Years after Becoming a Lawful Permanent Resident.": "Cinco años después de convertirse en residente permanente legal.",
   "The father was in the military (indicate branch of service).": "El padre estuvo en las fuerzas armadas (indique la rama del servicio).",
@@ -2554,11 +2554,11 @@ const PHRASES: Record<string, string> = {
   "If you need extra space to complete this table, use the space provided in Part 12.":
     "Si necesita espacio adicional para completar esta tabla, use el espacio provisto en la Parte 12.",
   "Enter Date of Birth (m m / d d / y y y y).": "Ingrese la fecha de nacimiento (mm/dd/aaaa).",
-  "If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name? If you answered “Yes,” provide the following information about your Certificate of Citizenship, Provide your Name On the Certificate of Citizenship.":
+  "If you obtained your citizenship through your parents, have you obtained a Certificate of Citizenship in your own name? If you answered \u201cYes,\u201d provide the following information about your Certificate of Citizenship, Provide your Name On the Certificate of Citizenship.":
     "Si obtuvo su ciudadanía a través de sus padres, ¿ha obtenido un Certificado de Ciudadanía a su propio nombre? Si respondió “Sí”, proporcione la siguiente información sobre su Certificado de Ciudadanía, indique su nombre en el Certificado de Ciudadanía.",
   "If you answered \"Yes,\" provide the following information for EACH petition and/or application: Type of Petition / Application Filed.":
     "Si respondió \"Sí\", proporcione la siguiente información para CADA petición y/o solicitud: tipo de petición/solicitud presentada.",
-  "If you answered “Yes” to Item Number 2., provide the following information (if available).":
+  "If you answered \u201cYes\u201d to Item Number 2., provide the following information (if available).":
     "Si respondió “Sí” al Número de Artículo 2., proporcione la siguiente información (si está disponible).",
   "Select all of the following grounds that you believe, according to the best of your knowledge, or that you were told, apply to you.":
     "Seleccione todos los siguientes motivos que usted cree, según su mejor entender, o que le dijeron que le corresponden.",
@@ -2671,7 +2671,7 @@ const PHRASES: Record<string, string> = {
   "Enter the Account Number for the account.": "Ingrese el número de cuenta.",
   "has read to me every question and instruction on this form and my answer to every question in a language in which I am fluent, and I understood everything.":
     "me ha leído cada pregunta e instrucción de este formulario y mi respuesta a cada pregunta en un idioma que domino, y entendí todo.",
-  "If the organizational structure is different from the examples listed below, select “Other” and describe the nature of the organizational structure in Part 9.":
+  "If the organizational structure is different from the examples listed below, select \u201cOther\u201d and describe the nature of the organizational structure in Part 9.":
     "Si la estructura organizativa es diferente de los ejemplos enumerados a continuación, seleccione “Otro” y describa la naturaleza de la estructura organizativa en la Parte 9.",
   "Registrant Employment or Association.": "Empleo o asociación del registrante.",
   "Statement by Promoter or Authorized Individual.": "Declaración del promotor o persona autorizada.",
@@ -2837,7 +2837,7 @@ const PHRASES: Record<string, string> = {
     "Proporcione la siguiente información sobre dónde ha trabajado a tiempo completo o parcial durante los últimos siete años.",
   "List your most recent employer first and then list every other employer where you worked at any time during the last seven years.":
     "Enumere primero su empleador más reciente y luego enumere cada otro empleador donde trabajó en algún momento durante los últimos siete años.",
-  "If you were unemployed, type or print “Unemployed” in the “Name of Employer” field and provide applicable information.":
+  "If you were unemployed, type or print \u201cUnemployed\u201d in the \u201cName of Employer\u201d field and provide applicable information.":
     "Si estuvo desempleado, escriba a máquina o en letra de molde “Desempleado” en el campo “Nombre del Empleador” y proporcione la información correspondiente.",
   "Enter the Name of Employer.": "Ingrese el nombre del empleador.",
   "Enter Date Employed To.": "Ingrese la fecha de fin de empleo.",
@@ -3642,7 +3642,7 @@ const PHRASES: Record<string, string> = {
     "Ingrese el estatus migratorio actual (por ejemplo, residente permanente condicional, turista/visitante, entrada sin inspección).",
   "Enter Name of the J C E.": "Ingrese el nombre de la JCE.",
   "Information about indirect job creation outside of the N C E.": "Información sobre la creación indirecta de empleo fuera de la NCE.",
-  "Has the alien ever committed, ordered, incited, assisted, or otherwise participated in genocide; the use, conscription, or recruitment of a child soldier; Nazi persecution; or while outside of the United States, committed torture or extrajudicial killing? If “Yes,” explain below.":
+  "Has the alien ever committed, ordered, incited, assisted, or otherwise participated in genocide; the use, conscription, or recruitment of a child soldier; Nazi persecution; or while outside of the United States, committed torture or extrajudicial killing? If \u201cYes,\u201d explain below.":
     "¿Ha cometido, ordenado, incitado, ayudado o participado de otra manera ALGUNA VEZ el extranjero en genocidio; el uso, reclutamiento o alistamiento de un niño soldado; persecución nazi; o mientras estaba fuera de los Estados Unidos, cometió tortura o ejecución extrajudicial? Si \"Sí\", explique a continuación.",
   "Information About You (Sponsor)  1.": "Información sobre usted (patrocinador) 1.",
   "Sponsor's Full Legal Name (Do not provide a nickname).": "Nombre legal completo del patrocinador (no proporcione un apodo).",
@@ -3801,7 +3801,7 @@ const PHRASES: Record<string, string> = {
   "Enter the Email Address (if any).": "Ingrese la dirección de correo electrónico (si aplica).",
   "Enter the Certifier's Email Address (if any).": "Ingrese la dirección de correo electrónico del certificador (si aplica).",
   "NCE Contact Information.": "Información de contacto de la NCE.",
-  "For Item Numbers 1 to 13, you should answer “Yes” to any question that applies, even if the records were sealed or otherwise cleared, or if anyone, including a judge, law enforcement officer, or attorney, told you that you no longer have a record.":
+  "For Item Numbers 1 to 13, you should answer \u201cYes\u201d to any question that applies, even if the records were sealed or otherwise cleared, or if anyone, including a judge, law enforcement officer, or attorney, told you that you no longer have a record.":
     "Para los Números de Artículo 1 a 13, debe responder \"Sí\" a cualquier pregunta que corresponda, incluso si los registros fueron sellados o eliminados de otra manera, o si alguien, incluyendo un juez, oficial de la ley o abogado, le dijo que ya no tiene antecedentes.",
   "Statement Regarding the Preparer.": "Declaración sobre el preparador.",
   "Role in the E B - 5 Entity.": "Rol en la entidad EB-5.",
@@ -3814,7 +3814,7 @@ const PHRASES: Record<string, string> = {
   "Naturalization Applicant's Statement Regarding the Interpreter.": "Declaración del solicitante de naturalización sobre el intérprete.",
   "Other Names You Have Used Since Birth (see the Instructions for this Item Number for more information about which names to include).":
     "Otros nombres que ha usado desde su nacimiento (consulte las Instrucciones de este Número de Artículo para más información sobre qué nombres incluir).",
-  "Would you like to legally change your name? If you answered “Yes,” type or print the new name you would like to use.":
+  "Would you like to legally change your name? If you answered \u201cYes,\u201d type or print the new name you would like to use.":
     "¿Desea cambiar legalmente su nombre? Si respondió \"Sí\", escriba a máquina o en letra de molde el nuevo nombre que desea usar.",
   "Enter Physical Addresses.": "Ingrese las direcciones físicas.",
   "Page 5.": "Página 5.",
@@ -4413,7 +4413,7 @@ const PHRASES: Record<string, string> = {
   "Enter Country That Issued Your Passport or Travel Document.": "Ingrese el país que emitió su pasaporte o documento de viaje.",
   "Part 2., Principal Alien's Full Legal Name.": "Parte 2, nombre legal completo del extranjero principal.",
   "Information About You (continued).": "Información sobre usted (continuación).",
-  "If you selected “Son or Daughter,” indicate your status if you are 21 years of age or older.":
+  "If you selected \u201cSon or Daughter,\u201d indicate your status if you are 21 years of age or older.":
     "Si seleccionó \"Hijo o hija\", indique su estatus si tiene 21 años de edad o más.",
   "Decision for Employment Authorization Request.": "Decisión sobre la solicitud de autorización de empleo.",
   "Date of Decision.": "Fecha de la decisión.",
@@ -4487,7 +4487,7 @@ const PHRASES: Record<string, string> = {
   "Preparer's Date of Signature (month/day/year), enter the date as 2 digit month, 2 digit day and 4 digit year.":
     "Fecha de la firma del preparador (mes/día/año), ingrese la fecha como mes de 2 dígitos, día de 2 dígitos y año de 4 dígitos.",
   "If you need extra space to complete Item Numbers 30.": "Si necesita espacio adicional para completar los Números de Artículo 30.",
-  "If you answered “Yes,” provide the following information for each completed domestic adoption of a child.":
+  "If you answered \u201cYes,\u201d provide the following information for each completed domestic adoption of a child.":
     "Si respondió \"Sí\", proporcione la siguiente información para cada adopción doméstica completada de un menor.",
   "Received a suspended sentence, been placed on probation or parole, or been in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check No.":
     "¿Recibió una sentencia suspendida, fue puesto en libertad condicional o bajo palabra, o participó en un programa alternativo de sentencia o rehabilitación, como desvío, procesamiento diferido, adjudicación diferida o retenida, o eliminación de un cargo penal? Marque No.",
@@ -5269,7 +5269,7 @@ const PHRASES: Record<string, string> = {
     "Estoy solicitando un Documento de Autorización de Empleo (EAD) al recibir la acción diferida: seleccione No.",
   "I am  requesting an Employment Authorization Document (EAD) upon being granted deferred action: Select Yes.":
     "Estoy solicitando un Documento de Autorización de Empleo (EAD) al recibir la acción diferida: seleccione Sí.",
-  "If “Yes,” please provide the following information information regarding your economic necessity for employment (this information is not required if you are requesting the SIJ DA filing type):":
+  "If \u201cYes,\u201d please provide the following information information regarding your economic necessity for employment (this information is not required if you are requesting the SIJ DA filing type):":
     "Si es \"Sí\", proporcione la siguiente información sobre su necesidad económica de empleo (esta información no es necesaria si solicita el tipo de presentación SIJ DA):",
   "Enter My current annual income is: Enter numbers only.": "Ingrese: mi ingreso anual actual es: ingrese solo números.",
   "Enter My current annual expenses are:  Enter numbers only.": "Ingrese: mis gastos anuales actuales son: ingrese solo números.",
@@ -5282,7 +5282,7 @@ const PHRASES: Record<string, string> = {
     "Autorización de empleo, Número de Artículo 1., complete las siguientes preguntas para recibir una tarjeta de Seguro Social a través de este proceso.",
   "Do you want the Social Security Administration (SSA) to issue you an original or replacement Social Security card?  Select Yes, Complete Item Numbers 2.":
     "¿Desea que la Administración del Seguro Social (SSA) le emita una tarjeta de Seguro Social original o de reemplazo? Seleccione Sí, complete los Números de Artículo 2.",
-  "NOTE: If you answered “Yes” to Item Number 1., you must also answer “Yes” to Item Number 3., Consent for Disclosure, to receive a card.":
+  "NOTE: If you answered \u201cYes\u201d to Item Number 1., you must also answer \u201cYes\u201d to Item Number 3., Consent for Disclosure, to receive a card.":
     "NOTA: Si respondió \"Sí\" al Número de Artículo 1., también debe responder \"Sí\" al Número de Artículo 3., Consentimiento para la Divulgación, para recibir una tarjeta.",
   "I certify, under penalty of perjury, that I am fluent in English and I have interpreted every question on the request and Instructions and interpreted the requestor's answers to the questions in their language, and the requestor informed me that he or she understood every instruction, question, and answer on the request.":
     "Certifico, bajo pena de perjurio, que domino el inglés y que he interpretado cada pregunta de la solicitud y las Instrucciones, así como las respuestas del solicitante a las preguntas en su idioma, y el solicitante me informó que entendió cada instrucción, pregunta y respuesta de la solicitud.",
@@ -6161,7 +6161,7 @@ const PHRASES: Record<string, string> = {
     "(Consulte las Instrucciones del Formulario I-485 para obtener más información, incluyendo cualquier Instrucción Adicional relacionada con la categoría de inmigrante que seleccione.).",
   "Part 8., Certifying Official's Information.": "Parte 8., Información del funcionario certificador.",
   "The terms are defined at 42 C F R 34.2(h) and (i).": "Los términos se definen en 42 C.F.R. 34.2(h) y (i).",
-  "\"Drug abuse or drug addiction\" is \"current substance use disorder mild, moderate or severe” but only with respect to substances listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act.":
+  "\"Drug abuse or drug addiction\" is \"current substance use disorder mild, moderate or severe\u201d but only with respect to substances listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act.":
     "\"Abuso de drogas o adicción a las drogas\" es \"trastorno actual por uso de sustancias, leve, moderado o grave\", pero únicamente con respecto a las sustancias enumeradas en la Lista I, II, III, IV o V de la sección 202 de la Ley de Sustancias Controladas.",
   "I, the parent / grandparent / legal guardian, do swear or affirm, under penalty of perjury under the laws of the United States, that I know and understand the contents of this application signed by me, and the attached supplementary pages number (enter number) to (enter number) inclusive, that the same are true and correct to the best of my knowledge, and that corrections number (enter number) to (enter number) were made by me or at my request.":
     "Yo, el padre/madre, abuelo(a) o tutor legal, juro o afirmo, bajo pena de perjurio bajo las leyes de los Estados Unidos, que conozco y entiendo el contenido de esta solicitud firmada por mí, y las páginas suplementarias adjuntas número (ingrese el número) a (ingrese el número) inclusive, que las mismas son verdaderas y correctas a mi mejor saber y entender, y que las correcciones número (ingrese el número) a (ingrese el número) fueron hechas por mí o a mi solicitud.",
@@ -6286,6 +6286,245 @@ const PHRASES: Record<string, string> = {
     "Si se marcó Sí, ingrese la fecha de emisión como mes de 2 dígitos, día de 2 dígitos y año de 4 dígitos.",
   "Applied for and/or received any benefit from the country named in Item Number 1.": "Solicitó y/o recibió algún beneficio del país mencionado en el Número de Artículo 1.",
   "Check this box for Other": "Marque esta casilla para Otro",
+
+  // Batch added 2026-07-21 (part 6):
+  // I-130 beneficiary address and child relationship labels
+  "If you are a lawful permanent resident, complete Item Numbers 40.":
+    "Si usted es un residente permanente legal, complete los Números de Artículo 40.",
+  "If the beneficiary is currently in the United States, complete Items Numbers 46.":
+    "Si el beneficiario se encuentra actualmente en los Estados Unidos, complete los Números de Artículo 46.",
+  "Select Child was born to parents who were married to each other at the time of the child's birth.":
+    "Seleccione El hijo/a nació de padres que estaban casados entre sí al momento del nacimiento del hijo/a.",
+  "Select Child was adopted (not an Orphan or Hague Convention adoptee).":
+    "Seleccione El hijo/a fue adoptado (no es huérfano ni adoptado bajo el Convenio de La Haya).",
+  "If you answered \"No\" to Item Number 11., provide information on your physical address in Item Numbers 12.":
+    "Si respondió \"No\" al Número de Artículo 11., proporcione información sobre su dirección física en los Números de Artículo 12.",
+  "Provide the address in the United States where the beneficiary intends to live, if different from Item Numbers 11.":
+    "Proporcione la dirección en los Estados Unidos donde el beneficiario tiene la intención de vivir, si es diferente de los Números de Artículo 11.",
+  "Provide the beneficiary's address outside the United States, if different from Item Numbers 11.":
+    "Proporcione la dirección del beneficiario fuera de los Estados Unidos, si es diferente de los Números de Artículo 11.",
+  "If the beneficiary lives outside the United States in a home without a street number or name, leave Item Numbers 11.":
+    "Si el beneficiario vive fuera de los Estados Unidos en una casa sin número o nombre de calle, deje en blanco los Números de Artículo 11.",
+  "Select The interpreter named in Part 7.":
+    "Seleccione El intérprete nombrado en la Parte 7.",
+  "Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner Preparer's Signature.":
+    "Información de Contacto, Declaración y Firma de la Persona que Prepara esta Petición, si no es el Peticionario Firma del Preparador.",
+
+  // I-765 eligibility category and employer verification labels
+  "Enter Your Current Immigration Status or Category (for example, B - 2 visitor, F - 1 student, parolee, deferred action, or no status or category).":
+    "Ingrese su Estatus o Categoría de Inmigración Actual (por ejemplo, visitante B-2, estudiante F-1, admitido en libertad condicional, acción diferida, o sin estatus o categoría).",
+  "Enter Student and Exchange Visitor Information System (SEVIS) number (if any).":
+    "Ingrese el número del Sistema de Información de Estudiantes e Intercambistas (SEVIS) (si aplica).",
+  "Enter your Employer's Name as Listed in E Verify.":
+    "Ingrese el Nombre de su Empleador según consta en E-Verify.",
+  "Enter your Employer's E Verify Company Identification Number or a valid E Verify Client Company Identification Number.":
+    "Ingrese el Número de Identificación de Empresa en E-Verify de su Empleador o un Número de Identificación de Empresa Cliente de E-Verify válido.",
+  "If you entered the eligibility category (c)(8) in Item Number 27., have you EVER been arrested for and/or convicted of any crime? Select Yes.":
+    "Si ingresó la categoría de elegibilidad (c)(8) en el Número de Artículo 27., ¿Ha sido ALGUNA VEZ arrestado y/o condenado por algún delito? Seleccione Sí.",
+  "NOTE:  If you answered \u201cYes\u201d to Item Number 30., refer to Special Filing Instructions for Those With Pending Asylum Applications (c)(8) in the Required Documentation section of the Form I - 7 65 Instructions for information about providing court dispositions.":
+    "NOTA:  Si respondió “Sí” al Número de Artículo 30., consulte las Instrucciones Especiales de Presentación para Quienes Tienen Solicitudes de Asilo Pendientes (c)(8) en la sección de Documentación Requerida de las Instrucciones del Formulario I-765 para información sobre disposiciones judiciales.",
+  "If you entered the eligibility category (c)(8) in Item Number 27., have you EVER been arrested for and/or convicted of any crime? Select No.":
+    "Si ingresó la categoría de elegibilidad (c)(8) en el Número de Artículo 27., ¿Ha sido ALGUNA VEZ arrestado y/o condenado por algún delito? Seleccione No.",
+  "(c)(35) and (c)(36) Eligibility Category.":
+    "Categoría de Elegibilidad (c)(35) y (c)(36).",
+  "If you entered the eligibility category (c)(35) in Item Number 27., please provide the receipt number of your Form I - 7 97 Notice for Form I - 1 40, Immigrant Petition for Alien Worker.":
+    "Si ingresó la categoría de elegibilidad (c)(35) en el Número de Artículo 27., proporcione el número de recibo de su Aviso del Formulario I-797 para el Formulario I-140, Petición de Inmigrante para Trabajador Extranjero.",
+  "If you entered the eligibility category (c)(36) in Item Number 27., please provide the receipt number of your spouse's or parent's Form I - 7 97 Notice for Form I - 1 40.":
+    "Si ingresó la categoría de elegibilidad (c)(36) en el Número de Artículo 27., proporcione el número de recibo del Aviso del Formulario I-797 para el Formulario I-140 de su cónyuge o padre/madre.",
+  "(c)(26) Eligibility Category.":
+    "Categoría de Elegibilidad (c)(26).",
+  "If you entered the eligibility category (c)(26) in Item Number 27., provide the receipt number of your H - 1 B spouse's most recent Form I - 7 97 Notice for Form I - 1 29, Petition for a Nonimmigrant Worker.":
+    "Si ingresó la categoría de elegibilidad (c)(26) en el Número de Artículo 27., proporcione el número de recibo del Aviso del Formulario I-797 más reciente para el Formulario I-129, Petición para un Trabajador No Inmigrante, de su cónyuge con visa H-1B.",
+  "(c)(3)(C) STEM OPT Eligibility Category.":
+    "Categoría de Elegibilidad (c)(3)(C) STEM OPT.",
+  "If you entered the eligibility category (c)(3)(C) in Item Number 27., provide the information requested in Item Numbers 28.":
+    "Si ingresó la categoría de elegibilidad (c)(3)(C) en el Número de Artículo 27., proporcione la información solicitada en los Números de Artículo 28.",
+  "Enter 11 digit number.": "Ingrese número de 11 dígitos.",
+  "Date of Birth .": "Fecha de Nacimiento.",
+  "Place of Birth .": "Lugar de Nacimiento.",
+  "Enter Country of your Birth.": "Ingrese el País de su Nacimiento.",
+  "Enter first four characters.": "Ingrese los primeros cuatro caracteres.",
+  "Enter middle three characters.": "Ingrese los tres caracteres del medio.",
+  "Enter Last three characters.": "Ingrese los últimos tres caracteres.",
+  "If you entered the eligibility category (c)(35) or (c)(36) in Item Number 27., have you EVER been arrested for and/or convicted of any crime? Select Yes.":
+    "Si ingresó la categoría de elegibilidad (c)(35) o (c)(36) en el Número de Artículo 27., ¿Ha sido ALGUNA VEZ arrestado y/o condenado por algún delito? Seleccione Sí.",
+  "If you entered the eligibility category (c)(35) or (c)(36) in Item Number 27., have you EVER been arrested for and/or convicted of any crime? Select No.":
+    "Si ingresó la categoría de elegibilidad (c)(35) o (c)(36) en el Número de Artículo 27., ¿Ha sido ALGUNA VEZ arrestado y/o condenado por algún delito? Seleccione No.",
+  "Enter Place of Last Arrival into the United States.":
+    "Ingrese el Lugar de Última Llegada a los Estados Unidos.",
+  "NOTE:  Read the Penalties section of the Form I - 7 65 Instructions before completing this section.":
+    "NOTA:  Lea la sección de Penalidades de las Instrucciones del Formulario I-765 antes de completar esta sección.",
+  "You must file Form I - 7 65 while in the United States.":
+    "Debe presentar el Formulario I-765 mientras se encuentre en los Estados Unidos.",
+  "Select At my request, the preparer named in Part 5., prepared this application for me based only upon information I provided or authorized.":
+    "Seleccione A mi solicitud, el preparador nombrado en la Parte 5., preparó esta solicitud para mí basándose únicamente en la información que yo proporcioné o autoricé.",
+  "Enter name of Preparer from Part 5.": "Ingrese el nombre del Preparador de la Parte 5.",
+  "Enter Applicant's Mobile Telephone Number, (if any).":
+    "Ingrese el Número de Teléfono Móvil del Solicitante, (si aplica).",
+  "Enter Applicant's Email Address, (if any).":
+    "Ingrese la Dirección de Correo Electrónico del Solicitante, (si aplica).",
+  "Enter Interpreter's Mobile Telephone Number, (if any).":
+    "Ingrese el Número de Teléfono Móvil del Intérprete, (si aplica).",
+  "I certify, under penalty of perjury, that  I am fluent in English and (enter language) which is the same language specified in Part 3., Item Number 1.b., and I have read to this applicant in the identified language every question and instruction on this application and his or her answer to every question.":
+    "Certifico, bajo pena de perjurio, que domino el inglés y (ingrese idioma), que es el mismo idioma especificado en la Parte 3., Número de Artículo 1.b., y he leído a este solicitante en el idioma identificado cada pregunta e instrucción de esta solicitud y su respuesta a cada pregunta.",
+  "Provide the following information about the preparer:  Preparer's Full Name.":
+    "Proporcione la siguiente información sobre el preparador:  Nombre Completo del Preparador.",
+  "Enter Preparer's  Business or Organization Name, if any.":
+    "Ingrese el Nombre de la Empresa u Organización del Preparador, si aplica.",
+  "Provide the following information concerning the preparer:  Preparer's Full Name.":
+    "Proporcione la siguiente información relativa al preparador:  Nombre Completo del Preparador.",
+  "Enter Preparer's Mobile Telephone  Number (if any).":
+    "Ingrese el Número de Teléfono Móvil del Preparador (si aplica).",
+  "Enter Preparer's Email Address, (if any).":
+    "Ingrese la Dirección de Correo Electrónico del Preparador, (si aplica).",
+  "Enter the Apartment, Suite or Floor number.":
+    "Ingrese el número de Apartamento, Suite o Piso.",
+  "NOTE:  If you are an attorney or accredited you may need to submit a completed Form G - 28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this application.":
+    "NOTA:  Si usted es un abogado o representante acreditado, es posible que deba presentar un Formulario G-28 completado, Aviso de Comparecencia como Abogado o Representante Acreditado, con esta solicitud.",
+  "Enter the  2-digit Month, 2-digit Day and 4-digit Year.":
+    "Ingrese el Mes de 2 dígitos, Día de 2 dígitos y Año de 4 dígitos.",
+  "Select Initial Permission to accept employment.":
+    "Seleccione Permiso Inicial para aceptar empleo.",
+
+  // G-28 agency option and section header labels
+  "Immigration and Customs Enforcement (ICE).":
+    "Servicio de Control de Inmigración y Aduanas (ICE).",
+  "Customs and Border Protection (C B P).":
+    "Oficina de Aduanas y Protección Fronteriza (CBP).",
+  "Information About Client (Applicant, Petitioner, Requestor, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity.) 7.":
+    "Información Sobre el Cliente (Solicitante, Peticionario, Solicitante, Beneficiario o Derivado, Demandado o Signatario Autorizado de una Entidad.) 7.",
+  // Batch added 2026-07-21 (part 7):
+  // I-765 replacement/correction and card-error instructions
+  "NOTE:  Replacement (correction) of an employment authorization document due to USCIS error does not require a new Form I-765 and filing fee.":
+    "NOTA:  El reemplazo (corrección) de un documento de autorización de empleo debido a un error de USCIS no requiere un nuevo Formulario I-765 ni arancel.",
+  "Refer to  Replacement for Card Error in the What is the Filing Fee section of the Form I-765 Instructions for further details.":
+    "Consulte  Reemplazo por Error en la Tarjeta en la sección ¿Cuál es el Arancel de Presentación? de las Instrucciones del Formulario I-765 para más detalles.",
+  "(Attach a copy of your previous employment authorization document.)":
+    "(Adjunte una copia de su documento de autorización de empleo anterior.)",
+  // I-765 attorney online number and address
+  "Enter Attorney or Accredited Representative U S C I S Online Number (if any).":
+    "Ingrese el Número en Línea de USCIS del Abogado o Representante Acreditado (si aplica).",
+  "Enter 12 characters.": "Ingrese 12 caracteres.",
+  "NOTE:  If you answered \u201cNo\u201d to Item Number 6., provide your physical address below.":
+    "NOTA:  Si respondió \u201cNo\u201d al Número de Artículo 6., proporcione su dirección física a continuación.",
+  "Provide your Social Security Number (S S N) (if known).":
+    "Proporcione su Número de Seguro Social (SSN) (si lo conoce).",
+  "U SC I S Online Account Number, if any.": "Número de Cuenta en Línea de USCIS, si aplica.",
+  // I-765 prior filing and travel document fields
+  "Have you previously filed Form I - 7 65? Select No.":
+    "¿Ha presentado previamente el Formulario I-765? Seleccione No.",
+  "Have you previously filed Form I - 7 65? Select Yes.":
+    "¿Ha presentado previamente el Formulario I-765? Seleccione Sí.",
+  "Enter your Travel Document Number (if any).":
+    "Ingrese su Número de Documento de Viaje (si aplica).",
+  "Enter the Date of your Last Entry into the U.S.":
+    "Ingrese la Fecha de su Última Entrada a los EE. UU.",
+  "Enter the Expiration Date for your Passport or Travel Document.":
+    "Ingrese la Fecha de Vencimiento de su Pasaporte o Documento de Viaje.",
+  "Enter the 2-digit month, 2 digit-Day and 4-digit Year.":
+    "Ingrese el mes de 2 dígitos, Día de 2 dígitos y Año de 4 dígitos.",
+  "Enter Passport Number of Your Most Recently Issued Passport.":
+    "Ingrese el Número de Pasaporte de su Pasaporte Emitido más Recientemente.",
+  "Enter Immigration Status at Your Last Arrival (B - 2 visitor, F - 1 student or no status).":
+    "Ingrese el Estatus Migratorio en su Última Llegada (visitante B-2, estudiante F-1 o sin estatus).",
+
+  // Batch added 2026-07-21 (part 8):
+  // Fragment continuations and short phrases that remain meaningful in isolation
+  "mailing address.": "dirección postal.",
+  "or 1.": "o 1.",
+  "and 11.": "y 11.",
+  "blank.": "en blanco.",
+  "Citizen.": "Ciudadano/a.",
+  "U S C I S will send all secure identity documents and Travel Documents to the client's U.S.":
+    "USCIS enviará todos los documentos de identidad seguros y Documentos de Viaje a la dirección de EE. UU. del cliente.",
+  "Consulate outside the country of the beneficiary's last residence does not guarantee that it will accept the beneficiary's case for processing.":
+    "El Consulado fuera del país de la última residencia del beneficiario no garantiza que acepte el caso del beneficiario para su tramitación.",
+  "Consulate has discretion over whether or not to accept the beneficiary's case.":
+    "El Consulado tiene discrección sobre si acepta o no el caso del beneficiario.",
+  "Citizenship and Immigration Services (USCIS) error.":
+    "error del Servicio de Ciudadanía e Inmigración de EE. UU. (USCIS).",
+  "business address of my attorney or accredited representative as listed in this form.":
+    "dirección comercial de mi abogado o representante acreditado según se indica en este formulario.",
+  "business address of my attorney or accredited representative (or to a designated military or diplomatic address in a foreign country (if permitted)).":
+    "dirección comercial de mi abogado o representante acreditado (o a una dirección militar o diplomática designada en un país extranjero (si está permitido)).",
+  "business address of your attorney or accredited representative.":
+    "dirección comercial de su abogado o representante acreditado.",
+  "read to me every question and instruction on this application and my answer to every question in a language in which I am fluent, and I understood everything.":
+    "me leyó cada pregunta e instrucción de esta solicitud y mi respuesta a cada pregunta en un idioma en el que soy fluido, y entendí todo.",
+  "B C settlement agreement.": "acuerdo de conciliación ABC.",
+
+  // Batch added 2026-07-21 (part 9):
+  // I-130 US-citizen and consulate fragment continuations
+  "citizen, complete Item Number 37.": "ciudadano/a, complete el Número de Artículo 37.",
+  "citizen or lawful permanent resident? Select No.":
+    "ciudadano/a o residente permanente legal? Seleccione No.",
+  "citizen or lawful permanent resident? Select Yes.":
+    "ciudadano/a o residente permanente legal? Seleccione Sí.",
+  "Consulate in:  62.": "Consulado en:  62.",
+  "Consulate in: 62.": "Consulado en: 62.",
+  "Consulate in.": "Consulado en.",
+  "NOTE:  Choosing a U.S.": "NOTA:  Elegir un Consulado de EE. UU.",
+  "In these situations, the designated U.S.":
+    "En estas situaciones, el Consulado de EE. UU. designado",
+  "Type or print your name and A.": "Escriba o imprima su nombre y A.",
+  // I-765 fragment continuations
+  "NOTE:  If you answered \u201cYes\u201d to Item Number 31.":
+    "NOTA:  Si respondió \u201cSí\u201d al Número de Artículo 31.",
+  "B., refer to Employment-Based Nonimmigrant Categories, Items 8.":
+    "B., consulte las Categorías de No Inmigrantes Basadas en el Empleo, Artículos 8.",
+  "- 9., in the Who May File Form I - 7 65 section  of the Form I - 7 65 Instructions for information about providing court dispositions.":
+    "- 9., en la sección Quién Puede Presentar el Formulario I-765 de las Instrucciones del Formulario I-765 para información sobre disposiciones judiciales.",
+  "NOTE:  Select the box for either Item Number 1.":
+    "NOTA:  Seleccione la casilla del Número de Artículo 1.",
+  "Select this box if you are a Salvadoran or Guatemalan national eligible for benefits under the.":
+    "Seleccione esta casilla si es un nacional salvadoreño o guatemalteco elegible para beneficios en virtud del",
+  "Number, (if any).": "Número, (si aplica).",
+  "(If you need extra space to complete this section, use the space provided in Part 6.":
+    "(Si necesita espacio adicional para completar esta sección, use el espacio proporcionado en la Parte 6.",
+  "Select 3.": "Seleccione 3.",
+  "Enter Degree,": "Ingrese Título,",
+  "Enter Client's Alien Registration Number (A.":
+    "Ingrese el Número de Registro de Extranjero del Cliente (A.",
+  "Select Replacement of lost, stolen, or damaged employment authorization document, or correction of my employment authorization document NOT DUE to U.S.":
+    "Seleccione Reemplazo de documento de autorización de empleo perdido, robado o dañado, o corrección de mi documento de autorización de empleo NO DEBIDA a EE. UU.",
+  // G-28 US-address instruction fragments
+  "Select I request that U S C I S send original notices on an application or petition to the U.S.":
+    "Seleccione Solicito que USCIS envíe los avisos originales de una solicitud o petición a la dirección de EE. UU.",
+  "Select I request that U S C I S send any secure identity document (Permanent Resident Card, Employment Authorization Document, or Travel Document) that I receive to the U.S.":
+    "Seleccione Solicito que USCIS envíe cualquier documento de identidad seguro (Tarjeta de Residente Permanente, Documento de Autorización de Empleo o Documento de Viaje) que reciba a la dirección de EE. UU.",
+  "NOTE:  If your notice contains Form I-94, Arrival-Departure Record, U S C I S will send the notice to the U.S.":
+    "NOTA:  Si su aviso contiene el Formulario I-94, Registro de Llegada-Salida, USCIS enviará el aviso a la dirección de EE. UU.",
+  "If you would rather have your Form I-94 sent directly to you, select Item Number 1.":
+    "Si prefiere recibir su Formulario I-94 directamente, seleccione el Número de Artículo 1.",
+  "Select I request that U S C I S send my notice containing Form I-94 to me at my U.S.":
+    "Seleccione Solicito que USCIS me envíe mi aviso que contiene el Formulario I-94 a mi dirección de EE. UU.",
+
+  // Batch added 2026-07-21 (part 10):
+  // Sub-item letters - pass-through (stay in English per USCIS form convention)
+  "1.B.": "1.B.",
+  "1.C.": "1.C.",
+  "2.B.": "2.B.",
+  "2.C.": "2.C.",
+  "3.B.": "3.B.",
+  "3.C.": "3.C.",
+  "4.B.": "4.B.",
+  "4.C.": "4.C.",
+  "7.B.": "7.B.",
+  "28.C.": "28.C.",
+  // BIA abbreviation split by period-segmenter
+  "To be completed by an attorney or Board of Immigration Appeals (B I.":
+    "Para ser completado por un abogado o representante acreditado por la Junta de Apelaciones de Inmigración (B I.",
+  "A.)-accredited representative (if any).":
+    "A.)-representante acreditado (si aplica).",
+  // I-130 U.S.-citizen fragment and range notation
+  "If you are a U.S.": "Si usted es de EE. UU.",
+  "- 28.": "- 28.",
+
+  // Batch added 2026-07-21 (part 11):
+  // OCR extraction artifacts - translated to nearest semantic equivalent
+  "E Select state from list of states.": "Seleccione el estado de la lista de estados.",
+  "number(, if any.": "número (, si aplica).",
+
 };
 
 export function translateLabel(label: string): string {
