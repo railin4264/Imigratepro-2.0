@@ -6167,6 +6167,69 @@ const PHRASES: Record<string, string> = {
     "Yo, el padre/madre, abuelo(a) o tutor legal, juro o afirmo, bajo pena de perjurio bajo las leyes de los Estados Unidos, que conozco y entiendo el contenido de esta solicitud firmada por mí, y las páginas suplementarias adjuntas número (ingrese el número) a (ingrese el número) inclusive, que las mismas son verdaderas y correctas a mi mejor saber y entender, y que las correcciones número (ingrese el número) a (ingrese el número) fueron hechas por mí o a mi solicitud.",
   "Enter Date of Birth as as 2-digit Month, 2-digit Day and 4-digit Year.":
     "Ingrese la fecha de nacimiento como mes de 2 dígitos, día de 2 dígitos y año de 4 dígitos.",
+
+  // Batch added 2026-07-21 (part 11): continuing the frequency-sorted
+  // missing-segment list. Same skip rules as parts 9-10.
+  "Select this box for:  Denied.": "Marque esta casilla para: Denegado.",
+  "If child is in the U.S., What is your child's current status?  Enter Current Status.":
+    "Si el menor está en los EE. UU., ¿cuál es el estatus actual de su hijo? Ingrese el estatus actual.",
+  "If child is in the U.S., What is the expiration date of his/her authorized stay, if any.":
+    "Si el menor está en los EE. UU., ¿cuál es la fecha de vencimiento de su estadía autorizada, si aplica?",
+  "(NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Number and Street.":
+    "(NOTA: Use el Formulario I-589 Suplemento B, u hojas de papel adicionales, si es necesario.) Ingrese el número y la calle.",
+  "(NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Name of School.":
+    "(NOTA: Use el Formulario I-589 Suplemento B, u hojas de papel adicionales, si es necesario.) Ingrese el nombre de la escuela.",
+  "(NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Type of School.":
+    "(NOTA: Use el Formulario I-589 Suplemento B, u hojas de papel adicionales, si es necesario.) Ingrese el tipo de escuela.",
+  "(NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Location (Address).":
+    "(NOTA: Use el Formulario I-589 Suplemento B, u hojas de papel adicionales, si es necesario.) Ingrese la ubicación (dirección).",
+  "Have you ever previously filed Form I-600, Form I-600 A, Application for Advance Processing of an Orphan Petition, Form I-800 A, Application for Determination of Suitability to Adopt a Child From a Convention Country, Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, or Form I-1 30, Petition for Alien Relative, for an adopted child?   If you answered \"Yes,\"  provide the following information for EACH petition and/or application:  Type of Petition or Application Filed.":
+    "¿Ha presentado alguna vez el Formulario I-600, I-600A (Solicitud de Procesamiento Anticipado de una Petición de Huérfano), I-800A (Solicitud de Determinación de Idoneidad para Adoptar un Menor de un País del Convenio), I-800 (Petición para Clasificar a un Adoptado del Convenio como Familiar Inmediato), o I-130 (Petición para Familiar Extranjero), para un hijo adoptivo? Si respondió \"Sí\", proporcione la siguiente información para CADA petición y/o solicitud: Tipo de petición o solicitud presentada.",
+  "Enter Remarks: (Include stage of syphilis diagnosed [primary, secondary, early latent, late latent or latent of unknown duration, tertiary, neurosyphilis, congential] and any therapy given with doses and dates of administration).":
+    "Ingrese observaciones: (incluya la etapa de sífilis diagnosticada [primaria, secundaria, latente temprana, latente tardía o latente de duración desconocida, terciaria, neurosífilis, congénita] y cualquier tratamiento administrado con dosis y fechas de administración).",
+  "Provide the following information about yourself: Enter Other Name Used (including maiden name if appropriate).":
+    "Proporcione la siguiente información sobre usted mismo: ingrese otro nombre usado (incluyendo el apellido de soltera si corresponde).",
+  "The Article 16 report or child's background information includes evidence/verification of one of the following as it relates to the child you intend to adopt and the child's legal custodian:  (You must select one box unless one or both of the report(s) are not yet available and you responded \"Yes\" to both Item 10 and Item 11.).":
+    "El informe del Artículo 16 o la información de antecedentes del menor incluye evidencia/verificación de uno de los siguientes en relación con el menor que tiene la intención de adoptar y el tutor legal del menor: (debe marcar una casilla, a menos que uno o ambos informes no estén disponibles todavía y haya respondido \"Sí\" tanto al Artículo 10 como al Artículo 11.).",
+  "Information on payments already made:  As of the date of the signing of Form I-800, I (or, for a married petitioner, we) have made the following payments, including in-kind contributions, in relation to the adoption of the child identified in Form I-800.":
+    "Información sobre pagos ya realizados: a la fecha de la firma del Formulario I-800, yo (o, en el caso de un peticionario casado, nosotros) hemos realizado los siguientes pagos, incluyendo contribuciones en especie, en relación con la adopción del menor identificado en el Formulario I-800.",
+  "The following table includes all fees, expenses, in-kind contributions, and other compensation that I (we) have made, either directly or indirectly, to any individual, agency, entity, governmental authority, or other payee or recipient.":
+    "La siguiente tabla incluye todos los honorarios, gastos, contribuciones en especie y otra compensación que yo (nosotros) he(mos) realizado, ya sea directa o indirectamente, a cualquier persona, agencia, entidad, autoridad gubernamental u otro beneficiario o destinatario.",
+  "Information on anticipated future payments:  The following table includes all fees, expenses, in kind contributions, and other compensation as of the date of the signing of Form I-800, that I (we) reasonably expect to make, either directly or indirectly, to any individual, agency, entity, governmental authority, or other payee or recipient.":
+    "Información sobre pagos futuros anticipados: la siguiente tabla incluye todos los honorarios, gastos, contribuciones en especie y otra compensación, a la fecha de la firma del Formulario I-800, que yo (nosotros) razonablemente espero(amos) realizar, ya sea directa o indirectamente, a cualquier persona, agencia, entidad, autoridad gubernamental u otro beneficiario o destinatario.",
+  "Part 7., Petitioner's Statement.": "Parte 7., Declaración del peticionario.",
+  "Part 8., Your Spouse's Statement.": "Parte 8., Declaración de su cónyuge.",
+  "Mailing  Address.": "Dirección postal.",
+  "Enter Country or Countries of Citizenship or Nationality (if any) (List all countries that apply.)":
+    "Ingrese el país o países de ciudadanía o nacionalidad (si aplica) (enumere todos los países que correspondan.)",
+  "If you have ever engaged in, ordered, incited, assisted, or otherwise participated in any human rights violations, you must provide information about the events, including the place and date, and a description of the event regardless of the country where the events occurred.":
+    "Si alguna vez ha participado, ordenado, incitado, ayudado o de alguna otra forma tomado parte en violaciones de derechos humanos, debe proporcionar información sobre los eventos, incluyendo el lugar y la fecha, y una descripción del evento, sin importar el país donde ocurrieron los hechos.",
+  "(Attach legal basis for request.).": "(Adjunte la base legal de la solicitud.).",
+  "Income you are using from any other person who was counted in your household size, including, in certain conditions, the intending immigrant.":
+    "Ingreso que está utilizando de cualquier otra persona que se contó en el tamaño de su hogar, incluyendo, en ciertas condiciones, al inmigrante que pretende beneficiarse.",
+  "(See Form I - 8 64 Instructions.) Please indicate name, relationship, and income.":
+    "(Consulte las Instrucciones del Formulario I-864.) Indique el nombre, la relación y el ingreso.",
+  "Assets of the Principal sponsored immigrant.": "Activos del inmigrante principal patrocinado.",
+  "The principal sponsored immigrant is the person listed in Part 3., Item Number 1.": "El inmigrante principal patrocinado es la persona mencionada en la Parte 3., Número de Artículo 1.",
+  "Only include the assets if the principal immigrant is being sponsored by this affidavit of support.":
+    "Incluya los activos únicamente si el inmigrante principal está siendo patrocinado por esta declaración jurada de sostenimiento económico.",
+  "Signature Date mm/dd/yyyy": "Firma Fecha mm/dd/aaaa",
+  "Signature of Preparer or Translator: This field cannot be signed electronically.": "Firma del preparador o traductor: Este campo no se puede firmar electrónicamente.",
+  "Part 8., Applicant's, Parent's, or Legal Guardian's Statement.": "Parte 8., Declaración del solicitante, padre/madre o tutor legal.",
+  "Citizen Parent..": "Padre o madre ciudadano(a) estadounidense.",
+  "If neither of these scenarios apply, skip to Part 8.": "Si ninguno de estos escenarios aplica, vaya a la Parte 8.",
+  "Do not complete Part 15., as it is for USCIS use only.": "No complete la Parte 15., ya que es de uso exclusivo de USCIS.",
+  "If none applies, do not complete this Form because the applicant is not eligible for this exception.":
+    "Si ninguno aplica, no complete este formulario porque el solicitante no es elegible para esta excepción.",
+  "Department of Defense (D O D) Projects.": "Proyectos del Departamento de Defensa (DOD).",
+  "Row A.": "Fila A.",
+  "Row B.": "Fila B.",
+  "Part 2., I am filing a motion.": "Parte 2., Estoy presentando una moción.",
+  "Part 4., Requestor's Contact Information.": "Parte 4., Información de contacto del solicitante.",
+  "Part 5., Interpreter's Contact Information.": "Parte 5., Información de contacto del intérprete.",
+  "Part 8., For Change/Adjustment of Status.": "Parte 8., Para cambio/ajuste de estatus.",
+  "Part 8., Additional Information About Agreement or Arrangement.": "Parte 8., Información adicional sobre el acuerdo o arreglo.",
+  "Part 2., Information About Prior Filings or Adoptions.": "Parte 2., Información sobre presentaciones o adopciones anteriores.",
 };
 
 export function translateLabel(label: string): string {
