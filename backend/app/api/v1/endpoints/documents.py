@@ -103,6 +103,7 @@ async def upload_case_document(
         NotificationType.DOCUMENT_UPLOADED,
         f"New document uploaded for {case.case_number}: {document.original_filename}",
         case_id=case.id,
+        recipient_user_id=case.assigned_attorney_id,
     )
     db.commit()
     db.refresh(document)

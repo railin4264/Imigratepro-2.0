@@ -75,6 +75,7 @@ def create_appointment(case_id: uuid.UUID, payload: AppointmentCreate, db: DbSes
         NotificationType.APPOINTMENT_SCHEDULED,
         f"{appointment.appointment_type.value.replace('_', ' ').title()} scheduled for {case.case_number}",
         case_id=case.id,
+        recipient_user_id=case.assigned_attorney_id,
     )
     db.commit()
     db.refresh(appointment)

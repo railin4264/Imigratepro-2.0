@@ -64,6 +64,7 @@ def update_case(
                 NotificationType.CASE_ASSIGNED,
                 f"{case.case_number} assigned to {attorney.full_name}",
                 case_id=case.id,
+                recipient_user_id=new_attorney_id,
             )
 
     log_action(db, current_user, "case.updated", "case", case.id, payload.model_dump(exclude_unset=True, mode="json"))

@@ -1,11 +1,12 @@
 import enum
 import uuid
 
-from sqlalchemy import Enum, ForeignKey, String, UniqueConstraint
+from sqlalchemy import Boolean, Enum, ForeignKey, String, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.core.database import Base
 from app.models.mixins import TimestampMixin, UUIDPrimaryKeyMixin
+from app.models.user import UserRole
 
 
 class NotificationType(str, enum.Enum):
@@ -21,16 +22,29 @@ class NotificationType(str, enum.Enum):
 
 
 class Notification(UUIDPrimaryKeyMixin, TimestampMixin, Base):
-    """An event worth surfacing in the in-app notification center. Intentionally
-    still a shared, global feed rather than scoped to a specific user or
-    role -- everyone at a small firm generally wants to see the same case
-    events. What *is* per-user is the read state (see NotificationSeen)."""
+    """An event worth surfacing in the in-app notification center.
+
+    Supports three targeting modes (mutually exclusive, checked in order):
+      - recipient_user_id: 1-to-1 targeted notification for a specific user.
+      - recipient_role: broadcast to all users with a given role.
+      - is_global: firm-wide announcement visible to everyone.
+
+    Rows with all three fields at their defaults (NULL/False) behave like the
+    old global feed and are visible to everyone, preserving backward compat."""
 
     __tablename__ = "notifications"
 
     type: Mapped[NotificationType] = mapped_column(Enum(NotificationType))
     message: Mapped[str] = mapped_column(String(500))
     case_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("cases.id"), nullable=True, index=True)
+
+    recipient_user_id: Mapped[uuid.UUID | None] = mapped_column(
+        ForeignKey("users.id"), nullable=True, index=True
+    )
+    recipient_role: Mapped[UserRole | None] = mapped_column(
+        Enum(UserRole), nullable=True, index=True
+    )
+    is_global: Mapped[bool] = mapped_column(Boolean, default=False)
 
     case: Mapped["Case"] = relationship()
 

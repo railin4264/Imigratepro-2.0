@@ -228,6 +228,7 @@ def review_generated_form(generated_form_id: uuid.UUID, db: DbSession, current_u
             NotificationType.AI_REVIEW_FLAGGED,
             f"AI review of {template.code} found {len(findings)} issue(s) to check ({generated.case.case_number})",
             case_id=generated.case_id,
+            recipient_user_id=generated.case.assigned_attorney_id,
         )
 
     db.commit()
