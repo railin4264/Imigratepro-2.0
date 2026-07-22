@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useTranslation } from "@/lib/i18n";
 import { clientForgotPassword } from "@/lib/api";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 
@@ -35,7 +36,10 @@ export default function ClientForgotPasswordPage() {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 px-4 dark:bg-black">
-      <LanguageSwitcher />
+      <div className="fixed right-4 top-4 z-50 flex items-center gap-2">
+        <ThemeToggle />
+        <LanguageSwitcher fixed={false} />
+      </div>
       <Card className="w-full max-w-sm p-6">
         <div className="mb-6 flex items-center gap-2">
           <span className="flex h-8 w-8 items-center justify-center rounded-md bg-indigo-600 text-sm font-bold text-white">

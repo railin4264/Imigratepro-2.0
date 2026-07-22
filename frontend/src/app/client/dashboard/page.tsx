@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useTranslation } from "@/lib/i18n";
 import { useClientAuth } from "@/lib/clientAuth";
 import { getMyCases, type ClientCaseSummary } from "@/lib/api";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 
@@ -31,11 +33,22 @@ export default function ClientDashboardPage() {
       .catch(() => setLoadError(true));
   }, [status]);
 
+  if (status === "loading") {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
+        <p className="text-sm text-zinc-500 dark:text-zinc-400">{t("clientDashboard.loading")}</p>
+      </div>
+    );
+  }
+
   if (status !== "authenticated") return null;
 
   return (
     <div className="min-h-screen bg-zinc-50 px-4 py-8 dark:bg-black">
-      <LanguageSwitcher />
+      <div className="fixed right-4 top-4 z-50 flex items-center gap-2">
+        <ThemeToggle />
+        <LanguageSwitcher fixed={false} />
+      </div>
       <div className="mx-auto max-w-3xl">
         <div className="mb-6 flex items-center justify-between">
           <div>
@@ -102,9 +115,9 @@ export default function ClientDashboardPage() {
                           {t(`clientDashboard.status.${f.status}` as never)}
                         </span>
                       </div>
-                      <a href={`/client/forms/${f.access_token}`}>
+                      <Link href={`/client/forms/${f.access_token}`}>
                         <Button variant="secondary">{t("clientDashboard.openForm")}</Button>
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>

@@ -8,6 +8,7 @@ import { useTranslation } from "@/lib/i18n";
 import { useAuth } from "@/lib/auth";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { NotificationBell } from "@/components/NotificationBell";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 function DashboardIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -253,6 +254,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           <span className="text-sm font-semibold text-zinc-900 dark:text-zinc-50 md:hidden">MigratePro</span>
           <div className="ml-auto flex items-center gap-1">
             <NotificationBell />
+            <ThemeToggle />
             <LanguageSwitcher fixed={false} />
             <span className="ml-1 hidden text-sm text-zinc-500 dark:text-zinc-400 sm:inline">
               {user?.full_name}

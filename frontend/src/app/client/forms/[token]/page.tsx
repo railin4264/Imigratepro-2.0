@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useParams } from "next/navigation";
 import {
   PARTICIPANT_ROLES,
@@ -27,6 +27,7 @@ import {
 import { FieldRow } from "@/components/FieldRow";
 import { CheckboxGroupField } from "@/components/CheckboxGroupField";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { CaseTimeline } from "@/components/CaseTimeline";
 
 export default function ClientFormPage() {
@@ -46,6 +47,8 @@ export default function ClientFormPage() {
   const [uploadRole, setUploadRole] = useState<string>(PARTICIPANT_ROLES[0]);
   const [uploading, setUploading] = useState(false);
   const [uploadError, setUploadError] = useState<string | null>(null);
+
+  const partHeadingRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
     getPublicForm(params.token)
@@ -122,6 +125,14 @@ export default function ClientFormPage() {
     window.addEventListener("beforeunload", handler);
     return () => window.removeEventListener("beforeunload", handler);
   }, [isDirty]);
+
+  // Focus the part heading when the step changes so keyboard/screen-reader
+  // users land at the right place immediately.
+  useEffect(() => {
+    if (status !== "loading") {
+      partHeadingRef.current?.focus();
+    }
+  }, [currentStepIndex, status]);
 
   // Shared by the manual Guardar button and the auto-save that fires when
   // moving between parts -- returns whether it succeeded so callers can
@@ -229,7 +240,10 @@ export default function ClientFormPage() {
   if (submitted) {
     return (
       <div className="min-h-screen bg-zinc-50 p-6 dark:bg-black">
-        <LanguageSwitcher />
+        <div className="fixed right-4 top-4 z-50 flex items-center gap-2">
+          <ThemeToggle />
+          <LanguageSwitcher fixed={false} />
+        </div>
         <div className="mx-auto flex max-w-md flex-col items-center gap-4 pt-24 text-center">
           <div className="flex h-16 w-16 items-center justify-center rounded-full bg-green-100 dark:bg-green-950">
             <svg className="h-8 w-8 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
@@ -247,10 +261,32 @@ export default function ClientFormPage() {
   const isFirstStep = currentStepIndex === 0;
   const isLastStep = currentStepIndex === parts.length - 1;
 
+  // Accessible live status message (screen readers announce without visual change)
+  const liveMessage =
+    status === "saving"
+      ? t("client.saving")
+      : status === "saved" && !isDirty
+        ? t("client.saved")
+        : isDirty
+          ? t("editor.unsaved")
+          : status === "error"
+            ? t("client.error.save")
+            : "";
+
   return (
-    <div className="min-h-screen bg-zinc-50 p-6 dark:bg-black">
-      <LanguageSwitcher />
-      <div className="mx-auto max-w-2xl">
+    <div className="min-h-screen bg-zinc-50 p-4 sm:p-6 dark:bg-black">
+      {/* Fixed top-right controls */}
+      <div className="fixed right-4 top-4 z-50 flex items-center gap-2">
+        <ThemeToggle />
+        <LanguageSwitcher fixed={false} />
+      </div>
+
+      {/* Accessible live region for save status */}
+      <div aria-live="polite" aria-atomic="true" className="sr-only">
+        {liveMessage}
+      </div>
+
+      <div className="mx-auto max-w-2xl pt-14 sm:pt-2">
         <h1 className="text-xl font-semibold text-black dark:text-zinc-50">
           {view.form_code} — {view.form_name}
         </h1>
@@ -264,8 +300,9 @@ export default function ClientFormPage() {
           </div>
         )}
 
-        <div className="mb-6 rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
-          <div className="mb-3 flex items-center justify-between gap-2">
+        <div className="mb-2 rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
+          {/* Header row: part counter + progress count */}
+          <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
             <span className="text-xs font-medium uppercase tracking-wide text-zinc-500">
               {t("client.step.part")} {currentStepIndex + 1} {t("editor.of")} {parts.length}
             </span>
@@ -273,9 +310,18 @@ export default function ClientFormPage() {
               {progress.filled} / {progress.total} {t("editor.progress")}
             </span>
           </div>
-          <div className="mb-4 h-1.5 w-full overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-800">
+
+          {/* Progress bar */}
+          <div
+            className="mb-4 h-2 w-full overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-800"
+            role="progressbar"
+            aria-valuemin={0}
+            aria-valuemax={progress.total}
+            aria-valuenow={progress.filled}
+            aria-label={`${progress.filled} / ${progress.total} ${t("editor.progress")}`}
+          >
             <div
-              className="h-full rounded-full bg-black transition-all dark:bg-zinc-50"
+              className="h-full rounded-full bg-indigo-600 transition-all"
               style={{ width: `${progress.total > 0 ? (progress.filled / progress.total) * 100 : 0}%` }}
             />
           </div>
@@ -286,7 +332,12 @@ export default function ClientFormPage() {
             </p>
           )}
 
-          <h3 className="mb-3 text-base font-semibold text-zinc-900 dark:text-zinc-50">
+          {/* Part heading — receives focus on step change for keyboard/SR users */}
+          <h3
+            ref={partHeadingRef}
+            tabIndex={-1}
+            className="mb-3 text-base font-semibold text-zinc-900 outline-none dark:text-zinc-50"
+          >
             {displayLabel(currentPartLabel)}
           </h3>
           <div className="space-y-3">
@@ -319,6 +370,7 @@ export default function ClientFormPage() {
             )}
           </div>
 
+          {/* Navigation buttons */}
           <div className="mt-5 flex items-center gap-3 border-t border-zinc-100 pt-4 dark:border-zinc-800">
             <button
               type="button"
@@ -333,7 +385,7 @@ export default function ClientFormPage() {
                 type="button"
                 onClick={handleFinalize}
                 disabled={status === "saving"}
-                className="ml-auto min-h-11 rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:bg-zinc-800 disabled:opacity-50 dark:bg-zinc-50 dark:text-black dark:hover:bg-zinc-200"
+                className="ml-auto min-h-11 rounded-md bg-indigo-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-indigo-700 disabled:opacity-50"
               >
                 {status === "saving" ? t("client.saving") : t("client.step.finish")}
               </button>
@@ -342,7 +394,7 @@ export default function ClientFormPage() {
                 type="button"
                 onClick={handleNext}
                 disabled={status === "saving"}
-                className="ml-auto min-h-11 rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:bg-zinc-800 disabled:opacity-50 dark:bg-zinc-50 dark:text-black dark:hover:bg-zinc-200"
+                className="ml-auto min-h-11 rounded-md bg-indigo-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-indigo-700 disabled:opacity-50"
               >
                 {status === "saving" ? t("client.saving") : t("client.step.next")}
               </button>
@@ -350,24 +402,27 @@ export default function ClientFormPage() {
           </div>
         </div>
 
-        {status === "saved" && !isDirty && (
-          <p className="mb-6 -mt-4 text-center text-sm text-green-700 dark:text-green-400">{t("client.saved")}</p>
-        )}
-        {isDirty && status !== "saving" && (
-          <p className="mb-6 -mt-4 flex items-center justify-center gap-1.5 text-center text-sm text-amber-700 dark:text-amber-400">
-            <span className="h-1.5 w-1.5 rounded-full bg-amber-500" aria-hidden="true" />
-            {t("editor.unsaved")}
-          </p>
-        )}
-        {status === "error" && (
-          <p className="mb-6 -mt-4 text-center text-sm text-red-700 dark:text-red-300">{t("client.error.save")}</p>
-        )}
+        {/* Visual save status (below the card) */}
+        <div className="mb-4 min-h-[1.5rem] text-center">
+          {status === "saved" && !isDirty && (
+            <p className="text-sm text-green-700 dark:text-green-400">{t("client.saved")}</p>
+          )}
+          {isDirty && status !== "saving" && (
+            <p className="flex items-center justify-center gap-1.5 text-sm text-amber-700 dark:text-amber-400">
+              <span className="h-1.5 w-1.5 rounded-full bg-amber-500" aria-hidden="true" />
+              {t("editor.unsaved")}
+            </p>
+          )}
+          {status === "error" && (
+            <p className="text-sm text-red-700 dark:text-red-300">{t("client.error.save")}</p>
+          )}
+        </div>
 
         {/* Step dots -- jumping directly to an already-visited part is handy
             for double-checking an earlier answer without paging back one at
             a time. Only past/current steps are clickable; future ones are
             reached by actually going through Next so nothing gets skipped. */}
-        <div className="mb-6 flex flex-wrap justify-center gap-1.5" role="tablist" aria-label={t("client.step.part")}>
+        <div className="mb-6 flex flex-wrap justify-center gap-1" role="tablist" aria-label={t("client.step.part")}>
           {parts.map(([partLabel], idx) => (
             <button
               key={partLabel}
@@ -384,13 +439,14 @@ export default function ClientFormPage() {
               className="flex min-h-11 min-w-11 items-center justify-center rounded-full transition disabled:cursor-not-allowed"
             >
               <span
-                className={`block h-2.5 w-2.5 rounded-full ${
+                className={`block rounded-full transition-all ${
                   idx === currentStepIndex
-                    ? "bg-black dark:bg-zinc-50"
+                    ? "h-3 w-3 bg-indigo-600 ring-2 ring-indigo-200 dark:ring-indigo-900"
                     : idx < currentStepIndex
-                      ? "bg-zinc-400 hover:bg-zinc-500 dark:bg-zinc-600"
-                      : "bg-zinc-200 dark:bg-zinc-800"
+                      ? "h-2.5 w-2.5 bg-indigo-300 hover:bg-indigo-400 dark:bg-indigo-700 dark:hover:bg-indigo-600"
+                      : "h-2 w-2 bg-zinc-200 dark:bg-zinc-800"
                 }`}
+                aria-hidden="true"
               />
             </button>
           ))}
