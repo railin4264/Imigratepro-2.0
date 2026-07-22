@@ -206,6 +206,7 @@ def advance_stage(case_id: uuid.UUID, db: DbSession):
             NotificationType.STAGE_ADVANCED,
             f'{case.case_number} moved to "{next_stage.name}"',
             case_id=case.id,
+            recipient_user_id=case.assigned_attorney_id,
         )
     db.commit()
     db.refresh(case)

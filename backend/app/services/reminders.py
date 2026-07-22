@@ -11,6 +11,7 @@ from app.core.config import settings
 from app.models.appointment import Appointment
 from app.models.billing import Invoice, InvoiceStatus
 from app.models.notification import NotificationType
+from app.models.user import UserRole
 from app.services import email
 from app.services.notifications import notify
 
@@ -49,6 +50,7 @@ def send_appointment_reminders(db: Session, hours_ahead: int | None = None) -> d
             NotificationType.APPOINTMENT_REMINDER,
             f"Reminder sent for {case.case_number}: {appointment.appointment_type.value.replace('_', ' ')}",
             case_id=case.id,
+            recipient_user_id=case.assigned_attorney_id,
         )
         sent += 1
 
@@ -72,6 +74,7 @@ def mark_overdue_invoices(db: Session) -> dict:
             NotificationType.INVOICE_OVERDUE,
             f"{invoice.invoice_number} ({invoice.case.case_number}) is overdue",
             case_id=invoice.case_id,
+            recipient_role=UserRole.BILLING,
         )
         email.send(
             to=email.case_recipient_emails(invoice.case),

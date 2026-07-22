@@ -10,7 +10,21 @@ router = APIRouter(tags=["notifications"])
 @router.get("/notifications", response_model=list[NotificationRead])
 def list_notifications(db: DbSession, current_user: CurrentUser, skip: int = 0, limit: int = 50):
     notifications = (
-        db.query(Notification).order_by(Notification.created_at.desc()).offset(skip).limit(limit).all()
+        db.query(Notification)
+        .filter(
+            (Notification.recipient_user_id == current_user.id)
+            | (Notification.recipient_role == current_user.role)
+            | (Notification.is_global == True)  # noqa: E712
+            | (
+                (Notification.recipient_user_id == None)  # noqa: E711
+                & (Notification.recipient_role == None)  # noqa: E711
+                & (Notification.is_global == False)  # noqa: E712
+            )
+        )
+        .order_by(Notification.created_at.desc())
+        .offset(skip)
+        .limit(limit)
+        .all()
     )
     seen_ids = {
         row.notification_id

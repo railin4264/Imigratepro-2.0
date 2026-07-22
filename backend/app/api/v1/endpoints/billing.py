@@ -7,6 +7,7 @@ from app.api.deps import DbSession, RequireBilling
 from app.models.billing import Invoice, Payment
 from app.models.case import Case
 from app.models.notification import NotificationType
+from app.models.user import UserRole
 from app.schemas.billing import (
     InvoiceCreate,
     InvoiceDetail,
@@ -154,6 +155,7 @@ def add_payment(invoice_id: uuid.UUID, payload: PaymentCreate, db: DbSession, re
         NotificationType.PAYMENT_RECEIVED,
         f"Payment of {payload.amount:.2f} received for {invoice.invoice_number} ({invoice.case.case_number})",
         case_id=invoice.case_id,
+        recipient_role=UserRole.BILLING,
     )
     log_action(
         db,

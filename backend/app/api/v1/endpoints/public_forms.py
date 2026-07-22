@@ -213,6 +213,7 @@ async def upload_public_document(
         NotificationType.DOCUMENT_UPLOADED,
         f"New document uploaded for {generated.case.case_number}: {document.original_filename}",
         case_id=generated.case_id,
+        recipient_user_id=generated.case.assigned_attorney_id,
     )
     db.commit()
     db.refresh(document)

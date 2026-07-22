@@ -76,7 +76,7 @@ def create_rfe(case_id: uuid.UUID, payload: RFECreate, db: DbSession):
     # override a status the preparer may have already moved past (e.g. denied).
     if case.status in (CaseStatus.INTAKE, CaseStatus.PREPARING, CaseStatus.FILED):
         case.status = CaseStatus.RFE
-    notify(db, NotificationType.RFE_RECEIVED, f"RFE recorded for {case.case_number}", case_id=case.id)
+    notify(db, NotificationType.RFE_RECEIVED, f"RFE recorded for {case.case_number}", case_id=case.id, recipient_user_id=case.assigned_attorney_id)
     db.commit()
     db.refresh(rfe)
     return _to_read(rfe)

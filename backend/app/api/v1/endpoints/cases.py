@@ -59,6 +59,7 @@ def update_case(case_id: uuid.UUID, payload: CaseUpdate, db: DbSession):
                 NotificationType.CASE_ASSIGNED,
                 f"{case.case_number} assigned to {attorney.full_name}",
                 case_id=case.id,
+                recipient_user_id=new_attorney_id,
             )
 
     db.commit()
