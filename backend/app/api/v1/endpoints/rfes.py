@@ -2,7 +2,7 @@ import uuid
 
 from fastapi import APIRouter, HTTPException
 
-from app.api.deps import DbSession, RequireOwnerOrAdmin
+from app.api.deps import CurrentUser, DbSession, RequireOwnerOrAdmin, require_case_access, require_case_access_read
 from app.models.case import Case, CaseStatus
 from app.models.notification import NotificationType
 from app.models.rfe import RFE, RFEEvidenceItem, RFEEvidenceStatus, RFEStatus
@@ -88,18 +88,20 @@ def ai_status():
 
 
 @router.get("/rfes/{rfe_id}", response_model=RFEDetail)
-def get_rfe(rfe_id: uuid.UUID, db: DbSession):
+def get_rfe(rfe_id: uuid.UUID, db: DbSession, current_user: CurrentUser):
     rfe = db.get(RFE, rfe_id)
     if not rfe:
         raise HTTPException(status_code=404, detail="RFE not found")
+    require_case_access_read(case_id=rfe.case_id, current_user=current_user, db=db)
     return _to_detail(rfe)
 
 
 @router.patch("/rfes/{rfe_id}", response_model=RFEDetail)
-def update_rfe(rfe_id: uuid.UUID, payload: RFEUpdate, db: DbSession):
+def update_rfe(rfe_id: uuid.UUID, payload: RFEUpdate, db: DbSession, current_user: CurrentUser):
     rfe = db.get(RFE, rfe_id)
     if not rfe:
         raise HTTPException(status_code=404, detail="RFE not found")
+    require_case_access(case_id=rfe.case_id, current_user=current_user, db=db)
 
     fields = payload.model_dump(exclude_unset=True)
     was_open = rfe.status == RFEStatus.OPEN
@@ -120,6 +122,7 @@ def update_rfe(rfe_id: uuid.UUID, payload: RFEUpdate, db: DbSession):
         if not other_open:
             rfe.case.status = CaseStatus.FILED
 
+    log_action(db, current_user, "rfe.updated", "rfe", rfe.id, payload.model_dump(exclude_unset=True, mode="json"))
     db.commit()
     db.refresh(rfe)
     return _to_detail(rfe)
@@ -130,16 +133,18 @@ def delete_rfe(rfe_id: uuid.UUID, db: DbSession, requester: RequireOwnerOrAdmin)
     rfe = db.get(RFE, rfe_id)
     if not rfe:
         raise HTTPException(status_code=404, detail="RFE not found")
+    require_case_access(case_id=rfe.case_id, current_user=requester, db=db)
     log_action(db, requester, "rfe.deleted", "rfe", rfe.id, {"case_number": rfe.case.case_number})
     db.delete(rfe)
     db.commit()
 
 
 @router.post("/rfes/{rfe_id}/evidence", response_model=EvidenceItemRead, status_code=201)
-def add_evidence_item(rfe_id: uuid.UUID, payload: EvidenceItemCreate, db: DbSession):
+def add_evidence_item(rfe_id: uuid.UUID, payload: EvidenceItemCreate, db: DbSession, current_user: CurrentUser):
     rfe = db.get(RFE, rfe_id)
     if not rfe:
         raise HTTPException(status_code=404, detail="RFE not found")
+    require_case_access(case_id=rfe.case_id, current_user=current_user, db=db)
 
     order = len(rfe.evidence_items)
     item = RFEEvidenceItem(rfe_id=rfe_id, description=payload.description, order=order)
@@ -150,10 +155,13 @@ def add_evidence_item(rfe_id: uuid.UUID, payload: EvidenceItemCreate, db: DbSess
 
 
 @router.patch("/rfes/{rfe_id}/evidence/{item_id}", response_model=EvidenceItemRead)
-def update_evidence_item(rfe_id: uuid.UUID, item_id: uuid.UUID, payload: EvidenceItemUpdate, db: DbSession):
+def update_evidence_item(rfe_id: uuid.UUID, item_id: uuid.UUID, payload: EvidenceItemUpdate, db: DbSession, current_user: CurrentUser):
     item = db.get(RFEEvidenceItem, item_id)
     if not item or item.rfe_id != rfe_id:
         raise HTTPException(status_code=404, detail="Evidence item not found")
+    rfe = db.get(RFE, rfe_id)
+    if rfe:
+        require_case_access(case_id=rfe.case_id, current_user=current_user, db=db)
     for field, value in payload.model_dump(exclude_unset=True).items():
         setattr(item, field, value)
     db.commit()
@@ -162,19 +170,23 @@ def update_evidence_item(rfe_id: uuid.UUID, item_id: uuid.UUID, payload: Evidenc
 
 
 @router.delete("/rfes/{rfe_id}/evidence/{item_id}", status_code=204)
-def delete_evidence_item(rfe_id: uuid.UUID, item_id: uuid.UUID, db: DbSession):
+def delete_evidence_item(rfe_id: uuid.UUID, item_id: uuid.UUID, db: DbSession, current_user: CurrentUser):
     item = db.get(RFEEvidenceItem, item_id)
     if not item or item.rfe_id != rfe_id:
         raise HTTPException(status_code=404, detail="Evidence item not found")
+    rfe = db.get(RFE, rfe_id)
+    if rfe:
+        require_case_access(case_id=rfe.case_id, current_user=current_user, db=db)
     db.delete(item)
     db.commit()
 
 
 @router.post("/rfes/{rfe_id}/suggest", response_model=RFESuggestResponse)
-def suggest_evidence(rfe_id: uuid.UUID, payload: RFESuggestRequest, db: DbSession):
+def suggest_evidence(rfe_id: uuid.UUID, payload: RFESuggestRequest, db: DbSession, current_user: CurrentUser):
     rfe = db.get(RFE, rfe_id)
     if not rfe:
         raise HTTPException(status_code=404, detail="RFE not found")
+    require_case_access_read(case_id=rfe.case_id, current_user=current_user, db=db)
     if not rfe_ai.is_configured():
         raise HTTPException(
             status_code=503,

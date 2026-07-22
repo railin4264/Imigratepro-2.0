@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 
 from fastapi import APIRouter, HTTPException
 
-from app.api.deps import DbSession, RequireBilling
+from app.api.deps import CurrentUser, DbSession, RequireBilling, require_case_access, require_case_access_read
 from app.models.billing import Invoice, Payment
 from app.models.case import Case
 from app.models.notification import NotificationType
@@ -92,10 +92,11 @@ def create_invoice(case_id: uuid.UUID, payload: InvoiceCreate, db: DbSession, re
 
 
 @router.get("/invoices/{invoice_id}", response_model=InvoiceDetail)
-def get_invoice(invoice_id: uuid.UUID, db: DbSession):
+def get_invoice(invoice_id: uuid.UUID, db: DbSession, current_user: CurrentUser):
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
+    require_case_access_read(case_id=invoice.case_id, current_user=current_user, db=db)
     return InvoiceDetail(**_to_read(invoice).model_dump(), payments=invoice.payments)
 
 
@@ -104,6 +105,7 @@ def update_invoice(invoice_id: uuid.UUID, payload: InvoiceUpdate, db: DbSession,
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
+    require_case_access(case_id=invoice.case_id, current_user=requester, db=db)
     changes = payload.model_dump(exclude_unset=True)
     for field, value in changes.items():
         setattr(invoice, field, value)
@@ -121,6 +123,7 @@ def delete_invoice(invoice_id: uuid.UUID, db: DbSession, requester: RequireBilli
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
+    require_case_access(case_id=invoice.case_id, current_user=requester, db=db)
     log_action(
         db,
         requester,
@@ -138,6 +141,7 @@ def add_payment(invoice_id: uuid.UUID, payload: PaymentCreate, db: DbSession, re
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
+    require_case_access(case_id=invoice.case_id, current_user=requester, db=db)
 
     payment = Payment(
         invoice_id=invoice_id,
@@ -175,6 +179,7 @@ def delete_payment(
     invoice = db.get(Invoice, invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
+    require_case_access(case_id=invoice.case_id, current_user=requester, db=db)
     payment = db.get(Payment, payment_id)
     if not payment or payment.invoice_id != invoice_id:
         raise HTTPException(status_code=404, detail="Payment not found")

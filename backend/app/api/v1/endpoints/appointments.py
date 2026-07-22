@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 
 from fastapi import APIRouter, HTTPException
 
-from app.api.deps import DbSession, RequireAdminOrAttorney
+from app.api.deps import CurrentUser, DbSession, RequireAdminOrAttorney, require_case_access
 from app.models.appointment import Appointment
 from app.models.case import Case
 from app.models.notification import NotificationType
@@ -82,10 +82,11 @@ def create_appointment(case_id: uuid.UUID, payload: AppointmentCreate, db: DbSes
 
 
 @router.patch("/appointments/{appointment_id}", response_model=AppointmentRead)
-def update_appointment(appointment_id: uuid.UUID, payload: AppointmentUpdate, db: DbSession):
+def update_appointment(appointment_id: uuid.UUID, payload: AppointmentUpdate, db: DbSession, current_user: CurrentUser):
     appointment = db.get(Appointment, appointment_id)
     if not appointment:
         raise HTTPException(status_code=404, detail="Appointment not found")
+    require_case_access(case_id=appointment.case_id, current_user=current_user, db=db)
 
     fields = payload.model_dump(exclude_unset=True)
     if "scheduled_at" in fields:
@@ -94,6 +95,7 @@ def update_appointment(appointment_id: uuid.UUID, payload: AppointmentUpdate, db
     for field, value in fields.items():
         setattr(appointment, field, value)
 
+    log_action(db, current_user, "appointment.updated", "appointment", appointment.id, payload.model_dump(exclude_unset=True, mode="json"))
     db.commit()
     db.refresh(appointment)
     return _to_read(appointment)
@@ -104,6 +106,7 @@ def delete_appointment(appointment_id: uuid.UUID, db: DbSession, requester: Requ
     appointment = db.get(Appointment, appointment_id)
     if not appointment:
         raise HTTPException(status_code=404, detail="Appointment not found")
+    require_case_access(case_id=appointment.case_id, current_user=requester, db=db)
     log_action(
         db,
         requester,

@@ -1,8 +1,15 @@
 import uuid
+from typing import Annotated
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 
-from app.api.deps import DbSession, RequireOwnerOrAdmin
+from app.api.deps import (
+    CurrentUser,
+    DbSession,
+    RequireOwnerOrAdmin,
+    require_case_access,
+    require_case_access_read,
+)
 from app.models.case import Case, CaseParticipant
 from app.models.client import Client
 from app.models.notification import NotificationType
@@ -31,19 +38,17 @@ def create_case(payload: CaseCreate, db: DbSession):
 
 
 @router.get("/{case_id}", response_model=CaseRead)
-def get_case(case_id: uuid.UUID, db: DbSession):
-    case = db.get(Case, case_id)
-    if not case:
-        raise HTTPException(status_code=404, detail="Case not found")
+def get_case(case: Annotated[Case, Depends(require_case_access_read)]):
     return case
 
 
 @router.patch("/{case_id}", response_model=CaseRead)
-def update_case(case_id: uuid.UUID, payload: CaseUpdate, db: DbSession):
-    case = db.get(Case, case_id)
-    if not case:
-        raise HTTPException(status_code=404, detail="Case not found")
-
+def update_case(
+    case: Annotated[Case, Depends(require_case_access)],
+    payload: CaseUpdate,
+    db: DbSession,
+    current_user: CurrentUser,
+):
     fields = payload.model_dump(exclude_unset=True)
     new_attorney_id = fields.get("assigned_attorney_id")
     attorney_changed = "assigned_attorney_id" in fields and new_attorney_id != case.assigned_attorney_id
@@ -61,26 +66,25 @@ def update_case(case_id: uuid.UUID, payload: CaseUpdate, db: DbSession):
                 case_id=case.id,
             )
 
+    log_action(db, current_user, "case.updated", "case", case.id, payload.model_dump(exclude_unset=True, mode="json"))
     db.commit()
     db.refresh(case)
     return case
 
 
 @router.delete("/{case_id}", status_code=204)
-def delete_case(case_id: uuid.UUID, db: DbSession, requester: RequireOwnerOrAdmin):
-    case = db.get(Case, case_id)
-    if not case:
-        raise HTTPException(status_code=404, detail="Case not found")
+def delete_case(
+    case: Annotated[Case, Depends(require_case_access)],
+    db: DbSession,
+    requester: RequireOwnerOrAdmin,
+):
     log_action(db, requester, "case.deleted", "case", case.id, {"case_number": case.case_number})
     db.delete(case)
     db.commit()
 
 
 @router.get("/{case_id}/timeline", response_model=CaseTimelineResponse)
-def get_case_timeline(case_id: uuid.UUID, db: DbSession):
-    case = db.get(Case, case_id)
-    if not case:
-        raise HTTPException(status_code=404, detail="Case not found")
+def get_case_timeline(case: Annotated[Case, Depends(require_case_access_read)]):
     steps = build_case_timeline(case)
     return CaseTimelineResponse(
         case_number=case.case_number,

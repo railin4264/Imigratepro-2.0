@@ -7,8 +7,9 @@ from sqlalchemy.orm import Session
 
 from app.core.database import get_db
 from app.core.security import decode_access_token
-from app.models.user import User, UserRole
+from app.models.case import Case
 from app.models.client import Client
+from app.models.user import User, UserRole
 
 DbSession = Annotated[Session, Depends(get_db)]
 
@@ -102,6 +103,29 @@ RequireIntakeOrAbove = Annotated[
 # above (which attorneys can also perform, and therefore should be able to
 # see logged).
 RequireAdmin = Annotated[User, Depends(require_roles(UserRole.ADMIN))]
+
+
+# Read/write split:
+#   require_case_access_read — any authenticated staff member (shared firm-wide visibility, existing design).
+#   require_case_access      — OWNER/ADMIN/assigned-ATTORNEY only; used on mutating routes (IDOR C1 fix).
+def require_case_access(case_id: uuid.UUID, current_user: CurrentUser, db: DbSession) -> Case:
+    case = db.get(Case, case_id)
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found")
+    if current_user.role in (UserRole.OWNER, UserRole.ADMIN):
+        return case
+    if current_user.role in (UserRole.ATTORNEY, UserRole.CONTRACT_ATTORNEY):
+        if case.assigned_attorney_id == current_user.id:
+            return case
+        raise HTTPException(status_code=403, detail="Not authorized for this case")
+    raise HTTPException(status_code=403, detail="Not authorized for this case")
+
+
+def require_case_access_read(case_id: uuid.UUID, current_user: CurrentUser, db: DbSession) -> Case:
+    case = db.get(Case, case_id)
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found")
+    return case  # shared read visibility is intentional per existing design
 
 
 def get_current_client(

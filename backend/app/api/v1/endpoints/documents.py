@@ -3,7 +3,7 @@ from datetime import date
 
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
-from app.api.deps import DbSession, RequireOwnerOrAdmin
+from app.api.deps import CurrentUser, DbSession, RequireOwnerOrAdmin, require_case_access, require_case_access_read
 from app.core.config import settings
 from app.models.case import Case
 from app.models.client import Client
@@ -110,20 +110,25 @@ async def upload_case_document(
 
 
 @router.get("/documents/{document_id}", response_model=DocumentDetail)
-def get_document(document_id: uuid.UUID, db: DbSession):
+def get_document(document_id: uuid.UUID, db: DbSession, current_user: CurrentUser):
     document = db.get(Document, document_id)
     if not document:
         raise HTTPException(status_code=404, detail="Document not found")
+    if document.case_id:
+        require_case_access_read(case_id=document.case_id, current_user=current_user, db=db)
     return document
 
 
 @router.patch("/documents/{document_id}", response_model=DocumentDetail)
-def update_document(document_id: uuid.UUID, payload: DocumentUpdate, db: DbSession):
+def update_document(document_id: uuid.UUID, payload: DocumentUpdate, db: DbSession, current_user: CurrentUser):
     document = db.get(Document, document_id)
     if not document:
         raise HTTPException(status_code=404, detail="Document not found")
+    if document.case_id:
+        require_case_access(case_id=document.case_id, current_user=current_user, db=db)
     for field, value in payload.model_dump(exclude_unset=True).items():
         setattr(document, field, value)
+    log_action(db, current_user, "document.updated", "document", document.id, {"filename": document.original_filename})
     db.commit()
     db.refresh(document)
     return document
@@ -134,6 +139,8 @@ def delete_document(document_id: uuid.UUID, db: DbSession, requester: RequireOwn
     document = db.get(Document, document_id)
     if not document:
         raise HTTPException(status_code=404, detail="Document not found")
+    if document.case_id:
+        require_case_access(case_id=document.case_id, current_user=requester, db=db)
     log_action(
         db, requester, "document.deleted", "document", document.id, {"filename": document.original_filename}
     )
@@ -142,10 +149,12 @@ def delete_document(document_id: uuid.UUID, db: DbSession, requester: RequireOwn
 
 
 @router.post("/documents/{document_id}/extract", response_model=DocumentDetail)
-def extract_document(document_id: uuid.UUID, db: DbSession):
+def extract_document(document_id: uuid.UUID, db: DbSession, current_user: CurrentUser):
     document = db.get(Document, document_id)
     if not document:
         raise HTTPException(status_code=404, detail="Document not found")
+    if document.case_id:
+        require_case_access(case_id=document.case_id, current_user=current_user, db=db)
     if not document_ai.is_configured():
         raise HTTPException(
             status_code=503,
@@ -176,10 +185,12 @@ def extract_document(document_id: uuid.UUID, db: DbSession):
 
 
 @router.post("/documents/{document_id}/apply-to-client", response_model=DocumentDetail)
-def apply_to_client(document_id: uuid.UUID, payload: ApplyToClientRequest, db: DbSession):
+def apply_to_client(document_id: uuid.UUID, payload: ApplyToClientRequest, db: DbSession, current_user: CurrentUser):
     document = db.get(Document, document_id)
     if not document:
         raise HTTPException(status_code=404, detail="Document not found")
+    if document.case_id:
+        require_case_access(case_id=document.case_id, current_user=current_user, db=db)
     if not document.client_id:
         raise HTTPException(status_code=400, detail="This document isn't linked to a client")
     if not document.extracted_data:

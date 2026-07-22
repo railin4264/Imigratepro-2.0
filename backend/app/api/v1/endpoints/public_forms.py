@@ -81,12 +81,16 @@ def update_public_form(token: str, payload: GeneratedFormUpdate, db: DbSession, 
     if unknown:
         raise HTTPException(status_code=422, detail=f"Unknown field(s) for this form: {sorted(unknown)}")
 
-    # The client wizard's autosave always echoes the ENTIRE form back,
-    # including attorney-owned fields it never showed the client -- so
-    # silently stripping those (rather than rejecting the request) is what
-    # keeps a normal autosave from breaking.
+    # C2/H4 — client_editable_fields: all template fields minus attorney-autofilled ones.
+    # FormTemplate.field_schema has no explicit client_editable flag; the allowed set is
+    # derived from autofill_map entries whose source starts with "attorney.*".
+    # Assumption: every field_schema name is client-editable except attorney-sourced ones.
+    # Attorney-owned keys are STRIPPED (not rejected) because autosave always echoes the
+    # entire form back including fields the client never sees; rejecting them would break
+    # every autosave. Unknown keys (not in field_schema at all) are rejected above.
     locked_field_names = _attorney_only_field_names(template)
-    editable_data = {k: v for k, v in payload.data.items() if k not in locked_field_names}
+    client_editable_fields = real_field_names - locked_field_names
+    editable_data = {k: v for k, v in payload.data.items() if k in client_editable_fields}
 
     generated.data = {**(generated.data or {}), **editable_data}
     if payload.client_wizard_step is not None:

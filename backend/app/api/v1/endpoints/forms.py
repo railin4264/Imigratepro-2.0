@@ -4,7 +4,8 @@ from datetime import datetime, timezone
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import FileResponse
 
-from app.api.deps import DbSession
+from app.api.deps import CurrentUser, DbSession, require_case_access, require_case_access_read
+from app.services.audit import log_action
 from app.core.config import settings
 from app.models.case import Case
 from app.models.form import FormTemplate, GeneratedForm, GeneratedFormStatus
@@ -143,10 +144,11 @@ def generate_form(case_id: uuid.UUID, payload: GeneratedFormCreate, db: DbSessio
 
 
 @router.get("/forms/{generated_form_id}", response_model=GeneratedFormDetail)
-def get_generated_form(generated_form_id: uuid.UUID, db: DbSession):
+def get_generated_form(generated_form_id: uuid.UUID, db: DbSession, current_user: CurrentUser):
     generated = db.get(GeneratedForm, generated_form_id)
     if not generated:
         raise HTTPException(status_code=404, detail="Generated form not found")
+    require_case_access_read(case_id=generated.case_id, current_user=current_user, db=db)
     template = db.get(FormTemplate, generated.form_template_id)
     if not template:
         raise HTTPException(status_code=404, detail="Form template not found")
@@ -154,12 +156,13 @@ def get_generated_form(generated_form_id: uuid.UUID, db: DbSession):
 
 
 @router.patch("/forms/{generated_form_id}", response_model=GeneratedFormRead)
-def update_generated_form(generated_form_id: uuid.UUID, payload: GeneratedFormUpdate, db: DbSession):
+def update_generated_form(generated_form_id: uuid.UUID, payload: GeneratedFormUpdate, db: DbSession, current_user: CurrentUser):
     """Save edits to the electronic form and re-render the PDF from the updated data."""
 
     generated = db.get(GeneratedForm, generated_form_id)
     if not generated:
         raise HTTPException(status_code=404, detail="Generated form not found")
+    require_case_access(case_id=generated.case_id, current_user=current_user, db=db)
     template = db.get(FormTemplate, generated.form_template_id)
     if not template:
         raise HTTPException(status_code=404, detail="Form template not found")
@@ -171,6 +174,7 @@ def update_generated_form(generated_form_id: uuid.UUID, payload: GeneratedFormUp
 
     generated.data = {**(generated.data or {}), **payload.data}
     _render_pdf(template, generated)
+    log_action(db, current_user, "form.updated", "generated_form", generated.id, {"form_code": template.code})
     db.commit()
     db.refresh(generated)
 
@@ -178,7 +182,7 @@ def update_generated_form(generated_form_id: uuid.UUID, payload: GeneratedFormUp
 
 
 @router.post("/forms/{generated_form_id}/review", response_model=GeneratedFormDetail)
-def review_generated_form(generated_form_id: uuid.UUID, db: DbSession):
+def review_generated_form(generated_form_id: uuid.UUID, db: DbSession, current_user: CurrentUser):
     """Ask Claude to cross-check this form's answers against the case's client
     records and flag inconsistencies for a human to double-check -- a review
     aid, not a legal determination."""
@@ -186,6 +190,7 @@ def review_generated_form(generated_form_id: uuid.UUID, db: DbSession):
     generated = db.get(GeneratedForm, generated_form_id)
     if not generated:
         raise HTTPException(status_code=404, detail="Generated form not found")
+    require_case_access(case_id=generated.case_id, current_user=current_user, db=db)
     template = db.get(FormTemplate, generated.form_template_id)
     if not template:
         raise HTTPException(status_code=404, detail="Form template not found")
@@ -232,10 +237,11 @@ def review_generated_form(generated_form_id: uuid.UUID, db: DbSession):
 
 
 @router.get("/forms/{generated_form_id}/download")
-def download_generated_form(generated_form_id: uuid.UUID, db: DbSession):
+def download_generated_form(generated_form_id: uuid.UUID, db: DbSession, current_user: CurrentUser):
     generated = db.get(GeneratedForm, generated_form_id)
     if not generated or not generated.output_pdf_path:
         raise HTTPException(status_code=404, detail="Generated form not found")
+    require_case_access_read(case_id=generated.case_id, current_user=current_user, db=db)
 
     template = db.get(FormTemplate, generated.form_template_id)
     filename = f"{template.code}_{generated.case_id}.pdf" if template else f"{generated.id}.pdf"
@@ -248,10 +254,11 @@ def uscis_api_status():
 
 
 @router.patch("/forms/{generated_form_id}/receipt-number", response_model=GeneratedFormRead)
-def set_receipt_number(generated_form_id: uuid.UUID, payload: ReceiptNumberUpdate, db: DbSession):
+def set_receipt_number(generated_form_id: uuid.UUID, payload: ReceiptNumberUpdate, db: DbSession, current_user: CurrentUser):
     generated = db.get(GeneratedForm, generated_form_id)
     if not generated:
         raise HTTPException(status_code=404, detail="Generated form not found")
+    require_case_access(case_id=generated.case_id, current_user=current_user, db=db)
 
     generated.uscis_receipt_number = payload.uscis_receipt_number
     # Clear any status tied to the old (or now-absent) receipt number rather
@@ -264,10 +271,11 @@ def set_receipt_number(generated_form_id: uuid.UUID, payload: ReceiptNumberUpdat
 
 
 @router.post("/forms/{generated_form_id}/check-status", response_model=GeneratedFormDetail)
-def check_uscis_status(generated_form_id: uuid.UUID, db: DbSession):
+def check_uscis_status(generated_form_id: uuid.UUID, db: DbSession, current_user: CurrentUser):
     generated = db.get(GeneratedForm, generated_form_id)
     if not generated:
         raise HTTPException(status_code=404, detail="Generated form not found")
+    require_case_access_read(case_id=generated.case_id, current_user=current_user, db=db)
     if not generated.uscis_receipt_number:
         raise HTTPException(status_code=400, detail="Set a USCIS receipt number first")
     if not uscis_case_status.is_configured():
