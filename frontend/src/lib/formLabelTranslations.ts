@@ -6041,6 +6041,61 @@ const PHRASES: Record<string, string> = {
   "Enter Status on Form I-94 (for example, class of admission, or paroled, if paroled).": "Ingrese el estatus en el Formulario I-94 (por ejemplo, clase de admisión, o en libertad condicional, si aplica).",
   "Check this box for Alien is in the United States and will apply for adjustment of status to that of lawful permanent resident.":
     "Marque esta casilla para: el extranjero está en los Estados Unidos y solicitará el ajuste de estatus al de residente permanente legal.",
+
+  // Batch added 2026-07-21 (part 9): switched strategy from the exhausted
+  // single-occurrence tail to the full missing-segment list sorted by
+  // frequency (highest-impact first). Same skip rules apply, plus: skip any
+  // segment ending in a bare item/part/letter reference ("6.", "1.a.",
+  // "Item A."), any "either Item Number X. or Y." fragment, any range
+  // fragment ("17.a." / "- 19., ..."), any lowercase-start continuation, and
+  // anything cut mid-abbreviation ("U.", "U.S.", "I N.", "L E.", "D T.").
+  "Part 9., Interpreter's Mailing Address.": "Parte 9., Dirección postal del intérprete.",
+  "Part 10., Preparer's Mailing Address.": "Parte 10., Dirección postal del preparador.",
+  "Citizen Parent.": "Padre o madre ciudadano(a) estadounidense.",
+  "Provide the following information about your children listed in Item Number 1.": "Proporcione la siguiente información sobre sus hijos mencionados en el Número de Artículo 1.",
+  "Part 1., Other Information.": "Parte 1., Otra información.",
+  "Part 10., Information About U S C I S Action Taken on This Request.": "Parte 10., Información sobre la acción tomada por USCIS en esta solicitud.",
+  "Attach a separate sheet or sheets of paper if additional space is needed.": "Adjunte una hoja o varias hojas de papel por separado si necesita espacio adicional.",
+  "Complete Address.": "Dirección completa.",
+  "Enter Attorney or Accredited Representative U S C I S Online Account Number (if any).":
+    "Ingrese el número de cuenta en línea de USCIS del abogado o representante acreditado (si aplica).",
+  "Contact Information, Certification, and Signature of the Person Preparing this Application, if Other Than the Applicant.":
+    "Información de contacto, certificación y firma de la persona que preparó esta solicitud, si es diferente del solicitante.",
+  "Employer 1 (current or most recent).": "Empleador 1 (actual o más reciente).",
+  "Employment Information.": "Información de empleo.",
+  "Prior Address.": "Dirección anterior.",
+  "Zip Code.": "Código postal.",
+  "Administrative Costs and Fees.": "Costos administrativos y honorarios.",
+  "Information About Your Intended Adoption(s).": "Información sobre su adopción o adopciones previstas.",
+  "Arrangement for Medical Care by the Applicant or His or Her Sponsor.": "Arreglo para atención médica por parte del solicitante o su patrocinador.",
+  "Address where you (the sponsor) or the applicant plan to reside in the United States.":
+    "Dirección donde usted (el patrocinador) o el solicitante planea residir en los Estados Unidos.",
+  "Information About Your Qualifying Relative.": "Información sobre su familiar calificado.",
+  "Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation).":
+    "Evaluación de referencia (debe completarla el departamento de salud u otro médico que realice la evaluación de referencia).",
+  "Name and Address of Adoption Service Provider.": "Nombre y dirección del proveedor de servicios de adopción.",
+  "Information About Your Spouse or Parent.": "Información sobre su cónyuge o padre/madre.",
+  "Other Information About Your Current Spouse.": "Otra información sobre su cónyuge actual.",
+  "Additional Information (For Initial and Renewal Requests).": "Información adicional (para solicitudes iniciales y de renovación).",
+  "Information About the SponsoredImmigrants.": "Información sobre los inmigrantes patrocinados.",
+  "Provide the requested information on the persons you are sponsoring.": "Proporcione la información solicitada sobre las personas que está patrocinando.",
+  "Employer 1 current or most recent.": "Empleador 1 actual o más reciente.",
+  "Contact Information, Certification, and Signature of the Interpreter.": "Información de contacto, certificación y firma del intérprete.",
+  "PART 6.": "PARTE 6.",
+  "Entreprenuer's Dependent Children.": "Hijos dependientes del empresario.",
+  "Provide the following information about each child.": "Proporcione la siguiente información sobre cada hijo.",
+  "Alternative Criteria.": "Criterios alternativos.",
+  "Physical Presence in the United States.": "Presencia física en los Estados Unidos.",
+  "Citizen Grandparent.": "Abuelo(a) ciudadano(a) estadounidense.",
+  "Part 2., Principal Alien's Other Information.": "Parte 2., Otra información del extranjero principal.",
+  "Spouse's or Individual Listed in Part 4.'s Statement, Contact Information, Acknowledgement of Appointment U S C I S Application Support Center, Certification, and Signature (if applicable).":
+    "Declaración, información de contacto, acuse de recibo de la cita en el Centro de Apoyo para Solicitudes de USCIS, certificación y firma del cónyuge o de la persona mencionada en la Parte 4. (si aplica).",
+  "Part 8., Address of Diplomatic Mission, International Organization, NATO / Headquarters Supreme Allied Commander Transformation (S A C T), or NATO Member State.":
+    "Parte 8., dirección de la misión diplomática, organización internacional, OTAN / Cuartel General del Mando Supremo Aliado de Transformación (SACT), o estado miembro de la OTAN.",
+  "Enter the date as 2 digit month, 2 digit day and 4 digit year.": "Ingrese la fecha como mes de 2 dígitos, día de 2 dígitos y año de 4 dígitos.",
+  "Part 6., Interpreter's Mailing Address.": "Parte 6., Dirección postal del intérprete.",
+  "Part 7., Preparer's Mailing Address.": "Parte 7., Dirección postal del preparador.",
+  "Information About Your Eligibility.": "Información sobre su elegibilidad.",
 };
 
 export function translateLabel(label: string): string {
