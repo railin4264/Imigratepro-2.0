@@ -79,6 +79,7 @@ class ClientCaseFormSummary(BaseModel):
     form_name: str
     access_token: str
     status: str
+    category: str
 
 class ClientCaseSummary(BaseModel):
     id: uuid.UUID
@@ -392,6 +393,7 @@ def get_my_cases(current_client: CurrentClient, db: DbSession):
                     form_name=template.name,
                     access_token=generated.access_token,
                     status=generated.status.value,
+                    category=template.category.value,
                 )
             )
         summaries.append(

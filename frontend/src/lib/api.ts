@@ -168,6 +168,12 @@ export type FormTemplate = {
   code: string;
   name: string;
   edition_date: string | null;
+  category: string;
+};
+
+export type FormTemplateCategoryGroup = {
+  category: string;
+  forms: FormTemplate[];
 };
 
 export type GeneratedForm = {
@@ -505,6 +511,10 @@ export function addParticipant(caseId: string, clientId: string, role: string): 
 
 export function getFormTemplates(): Promise<FormTemplate[]> {
   return fetchJson("/form-templates");
+}
+
+export function getFormTemplatesGrouped(): Promise<FormTemplateCategoryGroup[]> {
+  return fetchJson("/form-templates/grouped");
 }
 
 export function getGeneratedForms(caseId: string): Promise<GeneratedForm[]> {
@@ -1210,6 +1220,7 @@ export type ClientCaseFormSummary = {
   form_name: string;
   access_token: string;
   status: string;
+  category: string;
 };
 
 export type ClientCaseSummary = {

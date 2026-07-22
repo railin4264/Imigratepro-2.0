@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useTranslation } from "@/lib/i18n";
 import { useClientAuth } from "@/lib/clientAuth";
-import { getMyCases, type ClientCaseSummary } from "@/lib/api";
+import { getMyCases, type ClientCaseFormSummary, type ClientCaseSummary } from "@/lib/api";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { Card } from "@/components/ui/Card";
@@ -13,6 +13,22 @@ import { Button } from "@/components/ui/Button";
 
 const statusBadgeClass =
   "inline-flex items-center rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300";
+
+const CATEGORY_ORDER = [
+  "family", "employment", "asylum", "naturalization", "adjustment", "general", "other",
+] as const;
+
+function groupFormsByCategory(forms: ClientCaseFormSummary[]): [string, ClientCaseFormSummary[]][] {
+  const groups = new Map<string, ClientCaseFormSummary[]>();
+  for (const f of forms) {
+    const cat = f.category ?? "general";
+    if (!groups.has(cat)) groups.set(cat, []);
+    groups.get(cat)!.push(f);
+  }
+  return CATEGORY_ORDER
+    .filter((cat) => groups.has(cat))
+    .map((cat) => [cat, groups.get(cat)!] as [string, ClientCaseFormSummary[]]);
+}
 
 export default function ClientDashboardPage() {
   const { t } = useTranslation();
@@ -101,26 +117,35 @@ export default function ClientDashboardPage() {
               {c.forms.length === 0 ? (
                 <p className="text-sm text-zinc-500 dark:text-zinc-400">{t("clientDashboard.noForms")}</p>
               ) : (
-                <ul className="space-y-2">
-                  {c.forms.map((f) => (
-                    <li
-                      key={f.id}
-                      className="flex items-center justify-between rounded-lg border border-zinc-200 p-3 dark:border-zinc-800"
-                    >
-                      <div>
-                        <p className="text-sm font-medium text-zinc-900 dark:text-zinc-50">
-                          {f.form_code} — {f.form_name}
-                        </p>
-                        <span className={statusBadgeClass}>
-                          {t(`clientDashboard.status.${f.status}` as never)}
-                        </span>
-                      </div>
-                      <Link href={`/client/forms/${f.access_token}`}>
-                        <Button variant="secondary">{t("clientDashboard.openForm")}</Button>
-                      </Link>
-                    </li>
+                <div className="space-y-3">
+                  {groupFormsByCategory(c.forms).map(([category, forms]) => (
+                    <div key={category}>
+                      <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-zinc-400 dark:text-zinc-500">
+                        {t(`forms.category.${category}` as never)}
+                      </p>
+                      <ul className="space-y-2">
+                        {forms.map((f) => (
+                          <li
+                            key={f.id}
+                            className="flex items-center justify-between rounded-lg border border-zinc-200 p-3 dark:border-zinc-800"
+                          >
+                            <div>
+                              <p className="text-sm font-medium text-zinc-900 dark:text-zinc-50">
+                                {f.form_code} — {f.form_name}
+                              </p>
+                              <span className={statusBadgeClass}>
+                                {t(`clientDashboard.status.${f.status}` as never)}
+                              </span>
+                            </div>
+                            <Link href={`/client/forms/${f.access_token}`}>
+                              <Button variant="secondary">{t("clientDashboard.openForm")}</Button>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   ))}
-                </ul>
+                </div>
               )}
             </Card>
           ))}

@@ -16,6 +16,16 @@ class GeneratedFormStatus(str, enum.Enum):
     FILED = "filed"
 
 
+class FormCategory(str, enum.Enum):
+    FAMILY = "family"
+    EMPLOYMENT = "employment"
+    ASYLUM = "asylum"
+    NATURALIZATION = "naturalization"
+    ADJUSTMENT = "adjustment"
+    GENERAL = "general"
+    OTHER = "other"
+
+
 class FormTemplate(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     """Registry entry for an official USCIS form (e.g. I-130, I-485, I-765)."""
 
@@ -33,6 +43,10 @@ class FormTemplate(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     # Curated subset that can be pre-filled automatically from Client/Case data:
     # [{pdf_field, source}, ...], resolved by app.services.form_data.resolve_source.
     autofill_map: Mapped[list | None] = mapped_column(JSON, nullable=True)
+
+    category: Mapped[FormCategory] = mapped_column(
+        Enum(FormCategory), default=FormCategory.GENERAL, index=True
+    )
 
     generated_forms: Mapped[list["GeneratedForm"]] = relationship(back_populates="template")
 

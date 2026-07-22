@@ -7,9 +7,10 @@ from fastapi.responses import FileResponse
 from app.api.deps import DbSession
 from app.core.config import settings
 from app.models.case import Case
-from app.models.form import FormTemplate, GeneratedForm, GeneratedFormStatus
+from app.models.form import FormCategory, FormTemplate, GeneratedForm, GeneratedFormStatus
 from app.models.notification import NotificationType
 from app.schemas.form import (
+    FormTemplateCategoryGroup,
     FormTemplateRead,
     FormTemplateSchema,
     GeneratedFormCreate,
@@ -71,6 +72,20 @@ def _render_pdf(template: FormTemplate, generated: GeneratedForm) -> None:
 @router.get("/form-templates", response_model=list[FormTemplateRead])
 def list_form_templates(db: DbSession):
     return db.query(FormTemplate).order_by(FormTemplate.code).all()
+
+
+@router.get("/form-templates/grouped", response_model=list[FormTemplateCategoryGroup])
+def list_form_templates_grouped(db: DbSession):
+    """Returns FormTemplates grouped by category, preserving enum declaration order."""
+    templates = db.query(FormTemplate).order_by(FormTemplate.code).all()
+    groups: dict[FormCategory, list[FormTemplate]] = {cat: [] for cat in FormCategory}
+    for tmpl in templates:
+        groups[tmpl.category].append(tmpl)
+    return [
+        FormTemplateCategoryGroup(category=cat, forms=forms)
+        for cat, forms in groups.items()
+        if forms
+    ]
 
 
 @router.get("/form-templates/{code}/schema", response_model=FormTemplateSchema)
