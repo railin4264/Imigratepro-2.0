@@ -311,6 +311,46 @@ export default function CaseDetailPage() {
           </div>
         </Card>
 
+        {(caseData.priority_date || caseData.filed_date || caseData.decision_deadline || caseData.uscis_receipt_number) && (
+          <Card className="mb-4 p-4">
+            <h3 className="mb-3 text-xs font-medium uppercase tracking-wide text-zinc-500">
+              {t("case.receiptNumber")}
+            </h3>
+            <dl className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm sm:grid-cols-4">
+              {caseData.uscis_receipt_number && (
+                <>
+                  <dt className="font-medium text-zinc-500 dark:text-zinc-400">{t("case.receiptNumber")}</dt>
+                  <dd className="font-mono text-zinc-900 dark:text-zinc-50">{caseData.uscis_receipt_number}</dd>
+                </>
+              )}
+              {caseData.priority_date && (
+                <>
+                  <dt className="font-medium text-zinc-500 dark:text-zinc-400">{t("case.priorityDate")}</dt>
+                  <dd className="text-zinc-900 dark:text-zinc-50">
+                    {new Date(caseData.priority_date).toLocaleDateString()}
+                  </dd>
+                </>
+              )}
+              {caseData.filed_date && (
+                <>
+                  <dt className="font-medium text-zinc-500 dark:text-zinc-400">{t("case.filedDate")}</dt>
+                  <dd className="text-zinc-900 dark:text-zinc-50">
+                    {new Date(caseData.filed_date).toLocaleDateString()}
+                  </dd>
+                </>
+              )}
+              {caseData.decision_deadline && (
+                <>
+                  <dt className="font-medium text-zinc-500 dark:text-zinc-400">{t("case.decisionDeadline")}</dt>
+                  <dd className="text-zinc-900 dark:text-zinc-50">
+                    {new Date(caseData.decision_deadline).toLocaleDateString()}
+                  </dd>
+                </>
+              )}
+            </dl>
+          </Card>
+        )}
+
         {caseTimeline && (
           <Card className="mb-4 overflow-x-auto p-3">
             <h3 className="mb-3 text-xs font-medium uppercase tracking-wide text-zinc-500">
