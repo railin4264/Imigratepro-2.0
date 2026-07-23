@@ -114,15 +114,13 @@ def test_paralegal_cannot_delete_appointment(client, auth_headers, paralegal_hea
 
 def test_paralegal_can_still_do_routine_casework(client, auth_headers, paralegal_headers, make_case, seeded_forms):
     # The point of this RBAC pass isn't to lock paralegals out of day-to-day
-    # work -- only destructive/financial actions. Case creation, checklist,
-    # RFE creation, appointment creation, and form generation all stay open.
-    res = client.post(
-        "/api/v1/cases",
-        json={"case_number": "PARALEGAL-TEST-1", "case_type": "family_based", "status": "intake"},
-        headers=paralegal_headers,
-    )
-    assert res.status_code == 201
-    case = res.json()
+    # work -- only destructive/financial actions AND case/client creation
+    # (CLAUDE.md H1: "paralegal must NOT create cases/invoices/delete
+    # everything", reaffirmed by the 2026-07-22 security review). Checklist,
+    # RFE creation, appointment creation, and form generation on an existing
+    # case all stay open -- only the initial case record itself now requires
+    # intake/legal_assistant/attorney/admin/owner.
+    case = make_case()
 
     res = client.post(
         f"/api/v1/cases/{case['id']}/rfes", json={"received_date": "2026-01-01"}, headers=paralegal_headers
@@ -138,3 +136,12 @@ def test_paralegal_can_still_do_routine_casework(client, auth_headers, paralegal
 
     res = client.post(f"/api/v1/cases/{case['id']}/forms", json={"form_code": "G-28"}, headers=paralegal_headers)
     assert res.status_code == 201
+
+
+def test_paralegal_cannot_create_a_case(client, paralegal_headers):
+    res = client.post(
+        "/api/v1/cases",
+        json={"case_number": "PARALEGAL-TEST-2", "case_type": "family_based", "status": "intake"},
+        headers=paralegal_headers,
+    )
+    assert res.status_code == 403

@@ -6,6 +6,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from app.api.deps import (
     CurrentUser,
     DbSession,
+    RequireIntakeOrAbove,
     RequireOwnerOrAdmin,
     require_case_access,
     require_case_access_read,
@@ -18,6 +19,7 @@ from app.schemas.case import CaseCreate, CaseRead, CaseUpdate, ParticipantCreate
 from app.schemas.timeline import CaseTimelineResponse, TimelineStepRead
 from app.services.audit import log_action
 from app.services.notifications import notify
+from app.services.reminders import send_case_deadline_reminders
 from app.services.timeline import build_case_timeline
 
 router = APIRouter(prefix="/cases", tags=["cases"])
@@ -29,7 +31,7 @@ def list_cases(db: DbSession, skip: int = 0, limit: int = 100):
 
 
 @router.post("", response_model=CaseRead, status_code=201)
-def create_case(payload: CaseCreate, db: DbSession, requester: CurrentUser):
+def create_case(payload: CaseCreate, db: DbSession, requester: RequireIntakeOrAbove):
     case = Case(**payload.model_dump())
     db.add(case)
     db.flush()
@@ -125,3 +127,13 @@ def add_participant(case_id: uuid.UUID, payload: ParticipantCreate, db: DbSessio
     db.commit()
     db.refresh(participant)
     return participant
+
+
+@router.post("/send-deadline-reminders")
+def send_deadline_reminders(db: DbSession, days_ahead: int = 14):
+    """Send (or log) reminder emails for cases whose decision_deadline falls
+    within the given window and haven't been reminded about yet. Also runs
+    on its own every SCHEDULER_INTERVAL_MINUTES (see
+    app/services/scheduler.py) -- this endpoint is for triggering it on
+    demand rather than the only way it runs."""
+    return send_case_deadline_reminders(db, days_ahead)

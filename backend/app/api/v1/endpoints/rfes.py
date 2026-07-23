@@ -20,6 +20,7 @@ from app.schemas.rfe import (
 from app.services import rfe_ai
 from app.services.audit import log_action
 from app.services.notifications import notify
+from app.services.reminders import send_rfe_deadline_reminders
 
 router = APIRouter(tags=["rfes"])
 
@@ -203,3 +204,13 @@ def suggest_evidence(rfe_id: uuid.UUID, payload: RFESuggestRequest, db: DbSessio
         raise HTTPException(status_code=502, detail=f"Suggestion generation failed: {exc}") from exc
 
     return RFESuggestResponse(**result)
+
+
+@router.post("/rfes/send-deadline-reminders")
+def send_deadline_reminders(db: DbSession, days_ahead: int = 7):
+    """Send (or log) reminder emails for open RFEs whose response_due_date
+    falls within the given window and haven't been reminded about yet. Also
+    runs on its own every SCHEDULER_INTERVAL_MINUTES (see
+    app/services/scheduler.py) -- this endpoint is for triggering it on
+    demand rather than the only way it runs."""
+    return send_rfe_deadline_reminders(db, days_ahead)

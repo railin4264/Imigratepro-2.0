@@ -19,6 +19,8 @@ class NotificationType(str, enum.Enum):
     INVOICE_OVERDUE = "invoice_overdue"
     PAYMENT_RECEIVED = "payment_received"
     RFE_RECEIVED = "rfe_received"
+    CASE_DEADLINE_REMINDER = "case_deadline_reminder"
+    RFE_DEADLINE_REMINDER = "rfe_deadline_reminder"
 
 
 class Notification(UUIDPrimaryKeyMixin, TimestampMixin, Base):

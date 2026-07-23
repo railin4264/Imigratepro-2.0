@@ -34,6 +34,23 @@ async def lifespan(app: FastAPI):
             "SECURITY WARNING: SECRET_KEY is still the default value. "
             "Set a unique SECRET_KEY in backend/.env before exposing this server to real traffic."
         )
+
+    # Same fail-loud/warn-loud split as SECRET_KEY above: the shipped default
+    # is localhost-only, so leaving it in production either breaks the real
+    # frontend origin or (if someone "fixes" that by adding a wildcard)
+    # silently opens CORS to any origin. Every other environment just warns
+    # so local dev/CI keeps working unconfigured.
+    if settings.CORS_ORIGINS == ["http://localhost:3000"]:
+        if settings.ENVIRONMENT == "production":
+            raise RuntimeError(
+                "Refusing to start: CORS_ORIGINS is still the localhost default with ENVIRONMENT=production. "
+                "Set CORS_ORIGINS in backend/.env to the real frontend origin(s) before exposing this server to real traffic."
+            )
+        logger.warning(
+            "SECURITY WARNING: CORS_ORIGINS is still the localhost default. "
+            "Set CORS_ORIGINS in backend/.env to the real frontend origin(s) before exposing this server to real traffic."
+        )
+
     scheduler.start()
     yield
     scheduler.stop()

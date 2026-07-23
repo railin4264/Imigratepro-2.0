@@ -24,7 +24,7 @@ export function CaseTimeline({ timeline }: { timeline: CaseTimelineData }) {
             <span
               className={`max-w-[5.5rem] text-[11px] leading-tight ${
                 step.status === "pending"
-                  ? "text-zinc-400 dark:text-zinc-600"
+                  ? "text-zinc-600 dark:text-zinc-400"
                   : "font-medium text-zinc-700 dark:text-zinc-300"
               }`}
             >

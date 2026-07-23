@@ -13,7 +13,12 @@ import logging
 
 from app.core.config import settings
 from app.core.database import SessionLocal
-from app.services.reminders import mark_overdue_invoices, send_appointment_reminders
+from app.services.reminders import (
+    mark_overdue_invoices,
+    send_appointment_reminders,
+    send_case_deadline_reminders,
+    send_rfe_deadline_reminders,
+)
 from app.services.token_cleanup import cleanup_expired_tokens
 
 logger = logging.getLogger("migratepro.scheduler")
@@ -26,9 +31,13 @@ def _run_sweeps_once() -> None:
     try:
         reminders = send_appointment_reminders(db)
         overdue = mark_overdue_invoices(db)
+        case_deadlines = send_case_deadline_reminders(db)
+        rfe_deadlines = send_rfe_deadline_reminders(db)
         cleanup = cleanup_expired_tokens(db)
         if reminders["reminders_sent"] or overdue["marked_overdue"]:
             logger.info("scheduler sweep: %s, %s", reminders, overdue)
+        if case_deadlines["reminders_sent"] or rfe_deadlines["reminders_sent"]:
+            logger.info("scheduler deadline sweep: %s, %s", case_deadlines, rfe_deadlines)
         if cleanup["refresh_tokens_deleted"] or cleanup["reset_tokens_deleted"]:
             logger.info("scheduler token cleanup: %s", cleanup)
     except Exception:

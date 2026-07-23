@@ -100,6 +100,48 @@ def test_intake_cannot_delete_client(client, auth_headers, seeded_roles):
     assert r.status_code == 403
 
 
+# --- Create client: intake/legal-assistant/attorney/admin/owner, not paralegal/billing ---
+@pytest.mark.parametrize("role,expected", [
+    (UserRole.OWNER, 201),
+    (UserRole.ADMIN, 201),
+    (UserRole.ATTORNEY, 201),
+    (UserRole.LEGAL_ASSISTANT, 201),
+    (UserRole.INTAKE, 201),
+    (UserRole.CONTRACT_ATTORNEY, 201),
+    (UserRole.PARALEGAL, 403),
+    (UserRole.BILLING, 403),
+])
+def test_create_client_gating(client, auth_headers, seeded_roles, role, expected):
+    h = _headers_for(client, f"{role.value}@example.com")
+    r = client.post(
+        "/api/v1/clients",
+        json={"first_name": "A", "last_name": "B", "email": f"{role.value}-new@example.com"},
+        headers=h,
+    )
+    assert r.status_code == expected
+
+
+# --- Create case: same tier as create client ---
+@pytest.mark.parametrize("role,expected", [
+    (UserRole.OWNER, 201),
+    (UserRole.ADMIN, 201),
+    (UserRole.ATTORNEY, 201),
+    (UserRole.LEGAL_ASSISTANT, 201),
+    (UserRole.INTAKE, 201),
+    (UserRole.CONTRACT_ATTORNEY, 201),
+    (UserRole.PARALEGAL, 403),
+    (UserRole.BILLING, 403),
+])
+def test_create_case_gating(client, auth_headers, seeded_roles, role, expected):
+    h = _headers_for(client, f"{role.value}@example.com")
+    r = client.post(
+        "/api/v1/cases",
+        json={"case_number": f"T-{role.value}", "case_type": "family_based", "title": "t", "client_ids": []},
+        headers=h,
+    )
+    assert r.status_code == expected
+
+
 # --- Audit log readable by owner/admin, not attorney ---
 @pytest.mark.parametrize("role,expected", [
     (UserRole.OWNER, 200),

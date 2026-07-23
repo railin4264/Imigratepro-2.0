@@ -37,6 +37,10 @@ class RFE(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     response_due_date: Mapped[date | None] = mapped_column(Date, nullable=True)
     raw_text: Mapped[str | None] = mapped_column(Text, nullable=True)
     notes: Mapped[str | None] = mapped_column(String(2000), nullable=True)
+    # Mirrors Appointment.reminder_sent -- set once send_rfe_deadline_reminders
+    # emails about this RFE's response_due_date so the sweep doesn't re-notify
+    # every run while the deadline stays inside the reminder window.
+    deadline_reminder_sent: Mapped[bool] = mapped_column(default=False, server_default="0")
 
     case: Mapped["Case"] = relationship(back_populates="rfes")
     evidence_items: Mapped[list["RFEEvidenceItem"]] = relationship(

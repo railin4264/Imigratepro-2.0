@@ -53,6 +53,10 @@ class Case(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     filed_date: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
     decision_deadline: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
     uscis_receipt_number: Mapped[str | None] = mapped_column(String(20), nullable=True, index=True)
+    # Mirrors Appointment.reminder_sent -- set once send_case_deadline_reminders
+    # emails about this case's decision_deadline so the sweep doesn't re-notify
+    # every run while the deadline stays inside the reminder window.
+    deadline_reminder_sent: Mapped[bool] = mapped_column(default=False, server_default="0")
 
     # Self-referential parent/child for filing packages (e.g. I-130 + I-485 + I-765).
     parent_case_id: Mapped[uuid.UUID | None] = mapped_column(

@@ -77,6 +77,8 @@ class Settings(BaseSettings):
     SCHEDULER_ENABLED: bool = True
     SCHEDULER_INTERVAL_MINUTES: int = 60
     APPOINTMENT_REMINDER_HOURS_AHEAD: int = 48
+    CASE_DEADLINE_REMINDER_DAYS_AHEAD: int = 14
+    RFE_DEADLINE_REMINDER_DAYS_AHEAD: int = 7
 
     # Brute-force protection. Per-account lockout stops credential stuffing
     # against one email even from many IPs; the IP-based limits below stop a

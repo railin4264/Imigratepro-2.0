@@ -13,15 +13,18 @@ from tests.conftest import _make_user, _login
 # --------------------------------------------------------------------------- #
 # A. RBAC: routine casework stays open (repo design), destructive is locked    #
 # --------------------------------------------------------------------------- #
-def test_paralegal_can_create_case(client, paralegal_headers):
-    # Repo design (test_rbac.py): paralegals do day-to-day casework; only
-    # destructive/financial actions are locked. Case creation stays open.
+def test_paralegal_cannot_create_case(client, paralegal_headers):
+    # CLAUDE.md H1: "paralegal must NOT create cases/invoices/delete
+    # everything", reaffirmed by the 2026-07-22 security review (see
+    # test_rbac.py::test_paralegal_cannot_create_a_case for the matching
+    # assertion and test_paralegal_can_still_do_routine_casework for what
+    # paralegals can still do on a case someone else created).
     res = client.post(
         "/api/v1/cases",
         json={"case_number": f"P-{uuid.uuid4().hex[:8]}", "case_type": "family_based", "status": "intake"},
         headers=paralegal_headers,
     )
-    assert res.status_code == 201, res.text
+    assert res.status_code == 403, res.text
 
 
 def test_paralegal_cannot_delete_case(client, paralegal_headers, make_case):
